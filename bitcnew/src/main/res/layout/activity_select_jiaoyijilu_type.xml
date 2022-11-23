@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".module.home.SelectJiaoyijiluTypeActivity">
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/txt_type1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/gendanjiaoyijilu"
+        android:textColor="@color/c1d3155"
+        android:textSize="@dimen/font_size_16"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cd8d7dc" />
+
+    <TextView
+        android:id="@+id/txt_type2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/quanqiuzhishujiaoyijilu"
+        android:textColor="@color/c1d3155"
+        android:textSize="@dimen/font_size_16" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cd8d7dc" />
+
+    <TextView
+        android:id="@+id/txt_type3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/heyuejiaoyijilu"
+        android:textColor="@color/c1d3155"
+        android:textSize="@dimen/font_size_16"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cd8d7dc" />
+    <TextView
+        android:id="@+id/txt_type4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/bibijiaoyijilu"
+        android:textColor="@color/c1d3155"
+        android:textSize="@dimen/font_size_16"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cd8d7dc" />
+
+</LinearLayout>

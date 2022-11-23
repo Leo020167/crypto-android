@@ -1,0 +1,2615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FireUp</string>
+    <string name="xuanzezhanghu">选择账户</string>
+    <string name="queding">确定</string>
+    <string name="ninmuqiandeyouxiangshi">您目前的邮箱是%s，想要把它更新为？</string>
+    <string name="qingshuruyouxiang">请输入邮箱</string>
+    <string name="fasongyanzhengma">发送验证码</string>
+    <string name="qingshuruxinyouxiang">请输入新邮箱</string>
+    <string name="yanzhengmayifasongzhi">验证码已发送至，</string>
+    <string name="qingshuruyouxiangyanzhengma">请输入邮箱验证码</string>
+    <string name="xiayibu">下一步</string>
+    <string name="quanziid">(圈子ID:%s)</string>
+    <string name="jianjie">简介:</string>
+    <string name="wenzhang">文章</string>
+    <string name="gongpian">共%s篇</string>
+    <string name="jiemu">节目</string>
+    <string name="gongge">共%s个</string>
+    <string name="gongmingchengyuan">共%s名成员</string>
+    <string name="yaoqing">邀请</string>
+    <string name="xinshenqingjiaru">新申请加入</string>
+    <string name="shezhiqunjiarufangshi">设置群加入方式</string>
+    <string name="kaitongvip">开通VIP</string>
+    <string name="xiaoximiandarao">消息免打扰</string>
+    <string name="jinzhichengyuanfayan">禁止成员发言</string>
+    <string name="guanliheimingdan">管理黑名单</string>
+    <string name="qingkongliaotianneirong">清空聊天内容</string>
+    <string name="tuichuquanzi">退出圈子</string>
+    <string name="shenqingjiaru">申请加入</string>
+    <string name="fengmianbeijing">封面背景</string>
+    <string name="shangchuanquanzitouxiang">上传圈子头像</string>
+    <string name="quanzimingzi">圈子名字</string>
+    <string name="shuruquanzimingzi">输入圈子名字</string>
+    <string name="quanzijianjie">圈子简介</string>
+    <string name="shuruquanzijianjie">输入圈子简介</string>
+    <string name="quedingchuangjian">确定创建</string>
+    <string name="daili">代理</string>
+    <string name="chengweidaili">成为代理</string>
+    <string name="shenhezhong">审核中</string>
+    <string name="quanbuyongjinusdt">全部佣金（USDT）</string>
+    <string name="xinzengkehushuren">新增客户数（人）</string>
+    <string name="zuorixinzeng">昨日新增</string>
+    <string name="jinrixinzeng">今日新增</string>
+    <string name="fanyongjineusdt">返佣金额（USDT）</string>
+    <string name="kehujiaoyieusdt">客户交易额（USDT）</string>
+    <string name="weilebaozhengnidezhanghaoanquanqingyanzhengshenfen">为了保证你的账号安全，请验证身份</string>
+    <string name="xiaoyingyong">小应用</string>
+    <string name="gonggao">公告</string>
+    <string name="gengduo">更多</string>
+    <string name="davpaihangbang">大V排行榜</string>
+    <string name="qishilijianggongshiwomenjinghouweininjiamian">真实力将公示，我们静候为您加冕</string>
+    <string name="btc">BTC/USDT <font fgcolor="#BC0016">-0.23%</font></string>
+    <string name="greyvalue">= $ 274050.62</string>
+    <string name="redvalue">43500.09</string>
+    <string name="dav">大V</string>
+    <string name="otc">OTC</string>
+    <string name="shurushenfenzhengxinxi">输入身份证信息</string>
+    <string name="qingshurushenfenzhengxingming">请输入身份证姓名</string>
+    <string name="qingshurushenfenzhenghao">请输入身份证号</string>
+    <string name="shangchuanshenfenzhengzhaopian">上传身份证照片</string>
+    <string name="paisherenxiangye">拍摄人像页</string>
+    <string name="chakanshili">查看示例</string>
+    <string name="paisheguohuiye">拍摄国徽页</string>
+    <string name="paisheshouchishenfenzheng">拍摄手持身份证</string>
+    <string name="zhucizhengjingongtokapingtairenzhengshiyong">*注：此证仅供TOKA平台认证使用，xxxx年xx月xx日</string>
+    <string name="shangchuandezhengjianzhaojiangjinxingfangdaoshuiyinchuli">• 上传的证件照将进行防盗水印处理，我们严格遵照法律法规，保护您的个人私隐。</string>
+    <string name="wancheng">完成</string>
+    <string name="denglu">登录</string>
+    <string name="huanyinglaitfg">欢迎来到BITC交易平台</string>
+    <string name="qingshurumima">请输入密码</string>
+    <string name="qingshuruyanzhengma">请输入验证码</string>
+    <string name="huoquyanzhengma">获取验证码</string>
+    <string name="wangjilezhaohuimima">忘记了？找回密码</string>
+    <string name="chongzhimima">重置密码</string>
+    <string name="zhongguo">中国</string>
+    <string name="qingshurushoujihaoma">请输入手机号码</string>
+    <string name="mimabixushibashiliushuzi">密码必须是8–16位数字、字母组合</string>
+    <string name="qingzaicishurumima">请再次输入密码</string>
+    <string name="zhuce">注册</string>
+    <string name="qingshuruyaoqingmabitian">请输入邀请码(必填)</string>
+    <string name="register_email">邮箱注册</string>
+    <string name="shuruyanzhengma">输入验证码</string>
+    <string name="qinghuoquduanxinyanzhengma">请获取短信验证码</string>
+    <string name="wanchengyanzheng">完成验证</string>
+    <string name="kuohaoid">(ID:%s)</string>
+    <string name="tayucedapanpaiming">TA预测大盘排名</string>
+    <string name="chuchumaolu">初出茅庐</string>
+    <string name="shenglv">胜率</string>
+    <string name="yucezhanji">预测战绩</string>
+    <string name="tajiarudequanzi">TA加入的圈子</string>
+    <string name="gongxichenggongfaxingtoka">恭喜%s成功发行TOKA</string>
+    <string name="faxingliang">发行量:</string>
+    <string name="tokayongtu">TOKA用途:</string>
+    <string name="fenxiangwodetoka">分享我的TOKA</string>
+    <string name="create_toka_warning">以上条款已存证区块链上，公开透明。如有纠纷，TOKA持有人可将以区块链技术进行存证的内容数据提交至各地方互联网法院与仲裁委员会。</string>
+    <string name="create_toka_warning2">附：\n2018年9月7日，中国最高人民法院公布并实施《最高人民法院关于互联网审理案件若干问题的规定》。《规定》对互联网法院审理案件采取在线方式、受理案件范围、互联网诉讼平台建设、在线处理起诉材料、在线证据交换、诉讼和证据材料电子化等方面进行了相关规定。其中，第十一条规定指出：“当事人提交的电子数据，通过电子签名、可信时间戳、哈希值校验、区块链等证据收集、固定和防篡改的技术手段或者通过电子取证存证平台认证，能够证明其真实性的，互联网法院应当确认。”</string>
+    <string name="register_phone">手机注册></string>
+    <string name="xuefenxfmingxi">学分(XF)明细</string>
+    <string name="kuaijiegoumai">快捷购买</string>
+    <string name="tixian">提现</string>
+    <string name="lishi">历史</string>
+    <string name="woxiang">我想</string>
+    <string name="goumai">购买</string>
+    <string name="chushou">出售</string>
+    <string name="jiage">价格</string>
+    <string name="shurujiage">输入价格</string>
+    <string name="dangqiangoumaizuigaojia">当前购买最高价</string>
+    <string name="tianru">填入</string>
+    <string name="shuliang">数量</string>
+    <string name="shurushuliang">输入数量</string>
+    <string name="chushouusdtshixitongjianghuicongyuezhanghuzhongdongjiegaibufenzijin">出售USDT时系统将会从余额账户中冻结该部分资金</string>
+    <string name="xiane">限额</string>
+    <string name="zuixiao">最小</string>
+    <string name="zuida">最大</string>
+    <string name="fangshikeduoxuan">方式（可多选）</string>
+    <string name="liuyanneirong">留言内容</string>
+    <string name="qingxiexianinxiangduimaijiashuodehua">请写下您想对卖家/买家说的话！（限140字）</string>
+    <string name="querenfabu">确认发布</string>
+    <string name="shoujianrenxingmingzuishaoliangwei">收件人姓名(最少2位)</string>
+    <string name="shoujianrendianhuazuishaoshiyiwei">收件人电话(最少11位)</string>
+    <string name="xuanzeshengfenchengshi">选择省份、城市</string>
+    <string name="xiangxidizhiwuliushiwei">详细地址(5–60位)</string>
+    <string name="shezhichengmorenshouhuodizhi">  设置成默认收货地址</string>
+    <string name="shanchu">删除</string>
+    <string name="save">保存</string>
+    <string name="save_delivery_address">保存收货信息</string>
+    <string name="xingming">姓名</string>
+    <string name="qingshuruxingming">请输入姓名</string>
+    <string name="zhanghao">账号</string>
+    <string name="qingshuruzhanghao">请输入账号</string>
+    <string name="shoukuanma">收款码</string>
+    <string name="qingwubishiyongyuninzhuceshouhaomayizhideshimingzhanghao">请务必使用与您注册手机号码一致的实名账号</string>
+    <string name="kaihuxingming">开户姓名</string>
+    <string name="kaihuyinhang">开户银行</string>
+    <string name="qingshurukaihuyinhang">请输入开户银行</string>
+    <string name="yinhangkahao">银行卡号</string>
+    <string name="qingshuruyinhangkahao">请输入银行卡号</string>
+    <string name="tuijian">推荐</string>
+    <string name="shensuliyou">申诉理由</string>
+    <string name="shensujietukexuan">申诉截图(可选)</string>
+    <string name="shensuliuyankexuan">申诉留言(可选)</string>
+    <string name="ninkeyixiexianinshensudexiangxiqingkuang">您可以写下您申诉的详细情况～～（限300字）</string>
+    <string name="appealMessage">提起申诉后资产将会冻结，申诉专员将介入本次交易，直至申诉结束。恶意申诉属于扰乱平台正常运营秩序的行为，情节严重将冻结账户。</string>
+    <string name="tijiaoshensu">提交申诉</string>
+    <string name="dianjichakanquanbupinglun">点击查看全部评论</string>
+    <string name="yixianshiquanbuneirong">已显示全部内容</string>
+    <string name="xufei">续费</string>
+    <string name="qingshuru">请输入</string>
+    <string name="zhanghuyuekeyongusdt">账户余额可用:%s USDT</string>
+    <string name="zhudingyuehuoxufeihoushoudaogaiyonghudejiaoyicelue">注：订阅或续费后收到该用户的交易策略</string>
+    <string name="hejiusdt">合计：%s USDT</string>
+    <string name="shimingxinxi">实名信息</string>
+    <string name="zhengjianhaoma">证件号码</string>
+    <string name="baozhengjin">保证金</string>
+    <string name="baozhengjinyonyufabuchushouhuogoumai">保证金用于发布出售或购买USDT广告，提交认证信息即时从资产余额中进行冻结。</string>
+    <string name="shenqingshangjiarenzheng">申请商家认证</string>
+    <string name="qingshuruyonghumingyiliugezi">请输入用户名（1–6）个字</string>
+    <string name="quxiao">取消</string>
+    <string name="ruguoninyixiangduifangfukuangqingqianwanbuyaoquxiaodingdan">如果您已向对方付款，请千万不要取消订单</string>
+    <string name="maijiadangrileijisanbiquxiao">买家当日累计3笔取消，超出会影响当日买入功能。</string>
+    <string name="woquerenmeiyoufukuangeiduifang">   我确认没有付款给对方</string>
+    <string name="qugoumai">去购买</string>
+    <string name="quhuazhuan">去划转</string>
+    <string name="tongyi">同  意</string>
+    <string name="jujue">拒  绝</string>
+    <string name="yitongyi">已同意</string>
+    <string name="yichuheimingdan">移除黑名单</string>
+    <string name="zanbuzhichichakangaixiaoxiqingshengjidaozuixinban">暂不支持查看该消息,请升级到最新版</string>
+    <string name="zaishangpinzhongmailezhang">在商品中买了涨</string>
+    <string name="genjin">跟进</string>
+    <string name="jiancangjia">建仓价:</string>
+    <string name="circle_unread_message_tip">以下是您未读的内容</string>
+    <string name="circle_new_message">%1$s条新消息</string>
+    <string name="circle_unread_message">%1$s未读消息</string>
+    <string name="zhibozhong">直播中</string>
+    <string name="fasong">发送</string>
+    <string name="haishengxiamiao">还剩下%s秒</string>
+    <string name="dianjiluyin">点击录音</string>
+    <string name="chonglu">重录</string>
+    <string name="circleApplyJoinReasonHint">请输入加入圈子理由</string>
+    <string name="circleApplyJoin">申请加入</string>
+    <string name="wuxushenqingjiaruquanzi">无需申请加入圈子</string>
+    <string name="xuyaoshenfenyanzhengjiaruquanzi">需要身份验证加入圈子</string>
+    <string name="picture">图片</string>
+    <string name="shuruquanhaosousuo">输入圈号搜索</string>
+    <string name="sousuo">搜 索</string>
+    <string name="meiyousousuojieguo">没有搜索结果</string>
+    <string name="pingcangyingkui">平仓盈亏</string>
+    <string name="pingcangjia">平仓价</string>
+    <string name="pingcangshoushu">平仓手数</string>
+    <string name="pingcangshouxufei">平仓手续费</string>
+    <string name="pingcangshijian">平仓时间</string>
+    <string name="yinglifencheng">盈利分成</string>
+    <string name="putongpingcang">普通平仓</string>
+    <string name="yidangqianshijiachengjiao">(以当前市价成交)</string>
+    <string name="qingshurupingcangshoushu">请输入平仓手数</string>
+    <string name="shou">手</string>
+    <string name="shaixuan">筛选</string>
+    <string name="weituojilu">委托记录</string>
+    <string name="lishijilu">历史记录</string>
+    <string name="qingshurubizhong">请输入币种</string>
+    <string name="dingdanzhuangtai">订单状态</string>
+    <string name="yichengjiao">已成交</string>
+    <string name="yichexiao">已撤销</string>
+    <string name="dingdanleixing">订单类型</string>
+    <string name="chongzhi">重置</string>
+    <string name="yingliqingkuang">盈利情况</string>
+    <string name="jiaoyicishu">交易次数</string>
+    <string name="weituojiageusdt">委托价格(USDT)</string>
+    <string name="weituoshuliang">委托数量(%s)</string>
+    <string name="weituoshijian">委托时间</string>
+    <string name="chengjiaojunjiausdt">成交均价(USDT)</string>
+    <string name="chengjiaoshuliang">成交数量(%s)</string>
+    <string name="chengjiaoeusdt">成交额(USDT)</string>
+    <string name="shouxufeiusdt">手续费(USDT)</string>
+    <string name="wodeyingliusdt">我的盈利(USDT)</string>
+    <string name="wodechengjiao">我的成交</string>
+    <string name="gendanchengjiao">跟单成交</string>
+    <string name="gendanfenchengusdt">跟单分成(USDT)</string>
+    <string name="jishufuwufeiusdt">技术服务费(USDT)</string>
+    <string name="chengjiaomingxi">成交明细</string>
+    <string name="chexiao">撤销</string>
+    <string name="quanbuweituo">全部委托</string>
+    <string name="bizhong">币种</string>
+    <string name="quanbuchengjiao">全部成交</string>
+    <string name="bufenchengjiao">部分成交</string>
+    <string name="zhuanchuzhanghaoxuanze">转出账户选择</string>
+    <string name="zhuanruzhuanghuxuanze">转入账户选择</string>
+    <string name="yicunbtczongliang">已存BTC总量</string>
+    <string name="yihuousdtshouyi">已获USDT收益</string>
+    <string name="zhuanru">转入</string>
+    <string name="zhuanchu">转出</string>
+    <string name="pinglun">评论</string>
+    <string name="xiepinglun">写评论</string>
+    <string name="shoucang">收藏</string>
+    <string name="dianzan">点赞</string>
+    <string name="fabiao">发表</string>
+    <string name="zanwushuju">暂无数据</string>
+    <string name="querenchushou">确认出售</string>
+    <string name="danjia">单价</string>
+    <string name="gendantouru">跟单投入</string>
+    <string name="keyongusdt">可用USDT：</string>
+    <string name="shuruusdtshuliang">输入USDT数量</string>
+    <string name="gendanshezhi">跟单设置</string>
+    <string name="meicigendanshangxian">每次跟单上限</string>
+    <string name="qingshuruzuidausdt">请输入最大USDT</string>
+    <string name="zhiyingwushezhi">止盈: 无设置</string>
+    <string name="zhisunwushezhi">止损: 无设置</string>
+    <string name="mairu">买入</string>
+    <string name="maichu">卖出</string>
+    <string name="qingshurugendanjine">请输入跟单金额</string>
+    <string name="quanbu">全部</string>
+    <string name="lijigendan">立即跟单</string>
+    <string name="shijian">时间</string>
+    <string name="yingliusdt">盈利(USDT)</string>
+    <string name="jieshushijian">结束时间</string>
+    <string name="gendanyingkuiusdt">跟单盈亏(USDT)</string>
+    <string name="zhengzaiweituo">正在委托</string>
+    <string name="chiyoushuliang">持有数量</string>
+    <string name="chengbenjunjia">成本均价</string>
+    <string name="leijiyingkui">累计盈亏</string>
+    <string name="gendanzichanfenbu">跟单资产分布</string>
+    <string name="jiaoyimingxi">交易明细</string>
+    <string name="gendanzongtouru">跟单总投入</string>
+    <string name="yue">余额</string>
+    <string name="gendanmeibishangxian">跟单每笔上限：</string>
+    <string name="gendanzhiying">跟单止盈：</string>
+    <string name="zanwushezhi">暂无设置</string>
+    <string name="gendanzhisun">跟单止损：</string>
+    <string name="gendanchicang">跟单持仓</string>
+    <string name="yincangxiaoebizhong">   隐藏小额币种</string>
+    <string name="zanwuchicang">暂无持仓</string>
+    <string name="yitingzhigendan">已停止跟单</string>
+    <string name="tingzhigendan">停止跟单</string>
+    <string name="zhuijiatouru">追加投入</string>
+    <string name="yingkui">盈亏</string>
+    <string name="zhuijiachicangjine">追加持仓金额</string>
+    <string name="gendanxiangqing">跟单详情</string>
+    <string name="zonghepingfen">综合评分</string>
+    <string name="bencigendanchicangbeidong">本次跟单持仓(被动)</string>
+    <string name="shizhi">市值</string>
+    <string name="meibigendanshangxian">每笔跟单金额上限：</string>
+    <string name="zhiying">止盈：</string>
+    <string name="zhisun">止损：</string>
+    <string name="xiugai">修改</string>
+    <string name="dingyueshu">订阅数</string>
+    <string name="gendanzongeusdt">跟单总额(USDT)</string>
+    <string name="leijigendanjingfencheng">累计跟单净分成</string>
+    <string name="yugugendanfencheng">预估跟单分成</string>
+    <string name="chibichengben">持币成本</string>
+    <string name="gendanzijin">跟单资金</string>
+    <string name="chibishizhi">持币市值</string>
+    <string name="woshitanchudedialog">我是弹出的Dialog</string>
+    <string name="woshidibu">我是底部</string>
+    <string name="zengjiakaicangbaozhengjinusdt">增加开仓保证金(USDT)</string>
+    <string name="zhuijiajine">追加金额</string>
+    <string name="qingshuruzhuijiajine">请输入追加金额</string>
+    <string name="shuzihuobigendanzhanghu">数字货币跟单账户</string>
+    <string name="guojiqihuogendanzhanghu">国际期货跟单账户</string>
+    <string name="waihuigendanzhanghu">外汇跟单账户</string>
+    <string name="meicigendanjine">每次跟单金额</string>
+    <string name="qingshurumeicigendanjine">请输入每次跟单金额</string>
+    <string name="zhifudailifei">支付代理费</string>
+    <string name="dailifeiwei">代理费用为%sUSDT，确认支付吗？</string>
+    <string name="jianban">简版</string>
+    <string name="dangqianjia">当前价:HK$</string>
+    <string name="gendanzhegensuiyujimairushuliang">跟单者跟随预计买入—数量：</string>
+    <string name="gendanzhegensuimairuzongjine">跟单者跟随买入总金额：HK$</string>
+    <string name="mairujine">买入金额(HK$)</string>
+    <string name="shurumairujine">输入买入金额</string>
+    <string name="mairudanjia">买入单价(HK$)</string>
+    <string name="shurumairudanjia">输入买入单价</string>
+    <string name="yujishuliang">预计数量：</string>
+    <string name="yujijine">预计金额：</string>
+    <string name="tijiaodingdan">提交订单</string>
+    <string name="zhuanyeban">专业版</string>
+    <string name="dangqianzuiyoujia">当前最优价(HK$)</string>
+    <string name="querenlikaizhifu">确认离开支付</string>
+    <string name="runinyifukuanqingwubidianji">如您已付款，请务必先点击“我已经付款成功”</string>
+    <string name="dingdanjiangzaihouchaoshiquxiao">订单将在%s后超时取消</string>
+    <string name="woquerenhaimeiyoufukuangeiduifang">   我确认还没有付款给对方</string>
+    <string name="guanzhu">关注</string>
+    <string name="yonghuming">用户名</string>
+    <string name="zongtouru">总投入</string>
+    <string name="keyong">可用</string>
+    <string name="xiabikeyong">下笔可用</string>
+    <string name="yingli">盈利</string>
+    <string name="tuodongtupianwanchengyanzheng">拖动图片完成验证</string>
+    <string name="zongshuliangbtc">总数量：%s BTC</string>
+    <string name="pingjunchengbenjia">平均成本价：</string>
+    <string name="yinglibili">盈利比例：</string>
+    <string name="chengbenqujian">成本区间</string>
+    <string name="bili">比例</string>
+    <string name="zongshizhiusdt">总市值：%s USDT</string>
+    <string name="shizhiusdt">市值(USDT)</string>
+    <string name="zhanghuzongzichanusdt">账户总资产(USDT)</string>
+    <string name="chongbi">充币</string>
+    <string name="tibi">提币</string>
+    <string name="huazhuan">划转</string>
+    <string name="fabigoumai">法币购买</string>
+    <string name="shuzihuobi">数字货币</string>
+    <string name="guojiqihuo">国际期货</string>
+    <string name="gendan">跟单</string>
+    <string name="shuzihuobigendan">数字货币跟单</string>
+    <string name="guojiqihuogendan">国际期货跟单</string>
+    <string name="waihuigendan">外汇跟单</string>
+    <string name="zanwugendan">暂无跟单</string>
+    <string name="shuruidsousuo">输入ID搜索</string>
+    <string name="yonghumingcheng">用户名称</string>
+    <string name="dingyuezhuangtai">订阅状态</string>
+    <string name="zanwuguanzhu">暂无关注～</string>
+    <string name="yueusdt">余额(USDT)</string>
+    <string name="dangqianzongyingkuiusdt">当前总盈亏(USDT)</string>
+    <string name="chicang">持仓</string>
+    <string name="yuezhanghuzongzichanusdt">余额账户总资产(USDT)</string>
+    <string name="dongjieusdt">冻结(USDT)</string>
+    <string name="zanwujilu">暂无记录</string>
+    <string name="shouye">首页</string>
+    <string name="nihaimeijiarurenhequanzi">你还没加入任何圈子</string>
+    <string name="quchuangjian">去创建</string>
+    <string name="gaoshoupaihangbang">高手排行榜</string>
+    <string name="shuzihuobizongzichanusdt">数字货币总资产(USDT)</string>
+    <string name="fengxianlv">风险率</string>
+    <string name="keyongbaozhengjinusdt">可用保证金(USDT)</string>
+    <string name="weishixianyingkuiusdt">未实现盈亏(USDT)</string>
+    <string name="chicangbaozhengjinusdt">持仓保证金(USDT)</string>
+    <string name="dongjiebaozhengjin">冻结保证金</string>
+    <string name="daidandaoshi">带单导师:</string>
+    <string name="jiebang">解绑</string>
+    <string name="qubangding">去绑定</string>
+    <string name="kaiqigendan">开启跟单:</string>
+    <string name="yikaiqi">已开启</string>
+    <string name="gendanbeishu">跟单倍数:</string>
+    <string name="bei">倍</string>
+    <string name="zidingyi">自定义</string>
+    <string name="guzhiqihuo">股指期货</string>
+    <string name="mingchengdaima">名称代码</string>
+    <string name="zuixinjia">最新价</string>
+    <string name="zhangdiefu">涨跌幅</string>
+    <string name="hangqing">行情</string>
+    <string name="zixuan">自选</string>
+    <string name="hushen">沪深</string>
+    <string name="ganggu">港股</string>
+    <string name="waihui">外汇</string>
+    <string name="faxian">发现</string>
+    <string name="zanwuzixuan">暂无自选～</string>
+    <string name="woyaomai">我要买</string>
+    <string name="woyaomai2">我要卖</string>
+    <string name="goumaishuliang">购买数量</string>
+    <string name="jiageyue">价格约</string>
+    <string name="xiane12usdt">限额 %1$s USDT-%2$s USDT</string>
+    <string name="lingshouxufeigoumai">0手续费购买</string>
+    <string name="haiweibianjiziliao">还未编辑资料…</string>
+    <string name="fabimaimai">法币买卖</string>
+    <string name="shuzihuobijiaoyijilu">数字货币交易记录</string>
+    <string name="qihuojiaoyijilu">期货交易记录</string>
+    <string name="gendanjiaoyijilu">跟单交易记录</string>
+    <string name="xitongtongzhi">系统通知</string>
+    <string name="bangzhuzhongxin">帮助中心</string>
+    <string name="fenxiangyingyong">分享应用</string>
+    <string name="kefu">客服</string>
+    <string name="shezhi">设置</string>
+    <string name="xuanzebizhong">选择币种</string>
+    <string name="guanliyuan">管理员</string>
+    <string name="guanfang">官方</string>
+    <string name="zhanghu">账户</string>
+    <string name="dingyue">订阅</string>
+    <string name="wode">我的</string>
+    <string name="gendanzongyingkui">跟单总盈亏</string>
+    <string name="huobi">火币</string>
+    <string name="shurujiumima">输入旧密码</string>
+    <string name="shezhixinmimabashiliuweishuzi">设置新密码(8–16位数字、字母组合)</string>
+    <string name="querenxinmima">确认新密码</string>
+    <string name="chicangyingkui">持仓盈亏</string>
+    <string name="dongjie">冻结</string>
+    <string name="hangqingshuxinpinlvshezhi">行情刷新频率设置</string>
+    <string name="yicunzongliang">已存%s总量</string>
+    <string name="yihuousdtshouyinianhua">已获USDT收益(年化%s%)</string>
+    <string name="fenxiang">分享</string>
+    <string name="weixin">微信</string>
+    <string name="dangqianmeiyouneirong">当前没有内容</string>
+    <string name="dianji">点击</string>
+    <string name="tianjiaguanzhuqitarendedongtai">添加关注其他人的动态</string>
+    <string name="huozheziji">或者自己</string>
+    <string name="tianjiadongtai">添加动态</string>
+    <string name="fenxiangxinxianshi">分享新鲜事</string>
+    <string name="dangqianmeiyouwangluo">当前没有网络</string>
+    <string name="fukuanqueren">付款确认</string>
+    <string name="qingquerenninyixiangmaijiafukuan">请确认您已向卖家付款</string>
+    <string name="eyidianjijiangzhijiedongjiezhanghu">恶意点击将直接冻结账户</string>
+    <string name="zhuanrushuliangdaocunbibao">转入数量到存币宝</string>
+    <string name="qingzuidizhuanruyibai">请最低转入100</string>
+    <string name="keyongshuliang">可用数量：</string>
+    <string name="querenzhuanru">确认转入</string>
+    <string name="gendanleixing">跟单类型</string>
+    <string name="kuisunbutie">亏损补贴</string>
+    <string name="jine">金额</string>
+    <string name="daoqiri">到期时间</string>
+    <string name="rengoushuzihuobi">认购数字货币</string>
+    <string name="jurengoujieshuhaisheng">距认购结束还剩：</string>
+    <string name="tianshifen">%1$s 天 %2$s 时 %3$s 分</string>
+    <string name="dangqianrengoujiausdt">当前认购价(USDT)</string>
+    <string name="benlunrengouzongshuliang">本轮认购总数量</string>
+    <string name="benlunrengoujindu">本轮认购进度：</string>
+    <string name="rengouzoushitu">认购走势图</string>
+    <string name="huigoujilu">回购记录</string>
+    <string name="rengou">认购</string>
+    <string name="jiaoyi">交易</string>
+    <string name="xuanzerengoushuliang">选择认购数量</string>
+    <string name="suocangquanyishuoming">锁仓权益说明?</string>
+    <string name="rengoujine">认购金额: </string>
+    <string name="nimuqiansuocangquanyidengji">你目前锁仓权益等级</string>
+    <string name="chiyouusdtshuliang">持有USDT数量：</string>
+    <string name="rengousuocang">认购锁仓</string>
+    <string name="zongshuliang">总数量</string>
+    <string name="suocang">锁仓</string>
+    <string name="zhongyao">重要</string>
+    <string name="gensuixitong">跟随系统</string>
+    <string name="jiantizhongwen">简体中文</string>
+    <string name="English">English</string>
+    <string name="zhifufangshi">支付方式</string>
+    <string name="jiaoyijine">交易金额</string>
+    <string name="kuaijiequ">快捷区</string>
+    <string name="zixuanqu">自选区</string>
+    <string name="zongjia">总价</string>
+    <string name="dingdanhao">订单号</string>
+    <string name="dingdanshijian">订单时间</string>
+    <string name="maijianicheng">买家昵称</string>
+    <string name="maijiaxingming">买家姓名</string>
+    <string name="maijianicheng2">卖家昵称</string>
+    <string name="maijiaxingming2">卖家姓名</string>
+    <string name="shoukuanfangshi">收款方式</string>
+    <string name="qufukuan">去付款</string>
+    <string name="shensu">申诉</string>
+    <string name="woquerenshoudaofukuan">我确认收到付款</string>
+    <string name="xiangmaijiafukuan">向卖家付款</string>
+    <string name="fukuanshijianshengyu">付款时间剩余</string>
+    <string name="ninzhengzaixiang">您正在向WWCT认证卖家购买%s USDT</string>
+    <string name="weixinzhanghao">微信账号</string>
+    <string name="qingwubishiyongbenrendezhifufangshixiangyixiayinhangkazixingzhuanzhang">请务必使用本人（%s）的支付方式向以下银行卡自行转账</string>
+    <string name="woyifukuanchenggong">我已付款成功</string>
+    <string name="querengoumai">确认购买</string>
+    <string name="shuliangusdt">数量  %s USDT</string>
+    <string name="kanzhangzuoduogaiyao">看涨(做多)概要</string>
+    <string name="kaicangjia">开仓价</string>
+    <string name="kaicangfangxiang">开仓方向</string>
+    <string name="chicangbaozhengjin">持仓保证金</string>
+    <string name="chicangshoushu">持仓手数</string>
+    <string name="kaicangshouxufei">开仓手续费</string>
+    <string name="kaicangshijian">开仓时间</string>
+    <string name="zhiyingjiage">止盈价格</string>
+    <string name="zhisunjiage">止损价格</string>
+    <string name="kaicangzhuangtai">开仓状态</string>
+    <string name="xianjia">现价</string>
+    <string name="pingcangmingxi">平仓明细</string>
+    <string name="kuaijiepingcang">快捷平仓</string>
+    <string name="jiaoyiguizeshuoming">交易规则说明</string>
+    <string name="ruhejiaoyi">如何交易</string>
+    <string name="shijiaweituo">市价委托</string>
+    <string name="xianjiaweituo">限价委托</string>
+    <string name="zhengzaijiazaigengduo">正在加载更多…</string>
+    <string name="benqileiji">本期累计</string>
+    <string name="chaoguo">超过</string>
+    <string name="buchaoguo">不超过</string>
+    <string name="zoushi">走势>></string>
+    <string name="wangqijilu">往期记录</string>
+    <string name="shuoliangju">说两句</string>
+    <string name="ruchangdaojishi">入场倒计时：</string>
+    <string name="ninbenchangyuce">您本场预测：</string>
+    <string name="qingdengdaijieguogongbu">请等待结果公布</string>
+    <string name="huodongguize">活动规则</string>
+    <string name="yucejilu">预测记录</string>
+    <string name="fadanmu">发弹幕</string>
+    <string name="qingshuruninxiangshuode">请输入您想说的</string>
+    <string name="tianjiashouhuodizhi">添加收货地址</string>
+    <string name="fenshi">分时</string>
+    <string name="wuri">5日</string>
+    <string name="yifenzhong">1分钟</string>
+    <string name="shiwufenzhong">15分钟</string>
+    <string name="yixiaoshi">1小时</string>
+    <string name="rixian">日线</string>
+    <string name="zhouxian">周线</string>
+    <string name="yuexian">月线</string>
+    <string name="gao">高</string>
+    <string name="di">低</string>
+    <string name="ersih">24H</string>
+    <string name="ma5">MA5:</string>
+    <string name="ma10">MA10:</string>
+    <string name="ma30">MA30:</string>
+    <string name="riqi">日期</string>
+    <string name="kai">开</string>
+    <string name="zhangdiee">涨跌额</string>
+    <string name="yishoupan">已收盘</string>
+    <string name="liang">量</string>
+    <string name="rik">日K</string>
+    <string name="zhouk">周K</string>
+    <string name="yuek">月K</string>
+    <string name="shendu">深度</string>
+    <string name="fangxiang">方向</string>
+    <string name="mingcheng">名称</string>
+    <string name="faxingshijian">发行时间</string>
+    <string name="faxingzongliang">发行总量</string>
+    <string name="liutongzongliang">流通总量</string>
+    <string name="zhongchoujiage">众筹价格</string>
+    <string name="baipishu">白皮书</string>
+    <string name="guanwang">官网</string>
+    <string name="qukuailianchaxun">区块链查询</string>
+    <string name="jimai5">寄卖⑤</string>
+    <string name="jimai4">寄卖④</string>
+    <string name="jimai3">寄卖③</string>
+    <string name="jimai2">寄卖②</string>
+    <string name="jimai1">寄卖①</string>
+    <string name="qiugou1">求购①</string>
+    <string name="qiugou2">求购②</string>
+    <string name="qiugou3">求购③</string>
+    <string name="qiugou4">求购④</string>
+    <string name="qiugou5">求购⑤</string>
+    <string name="shuliangshou">数量(手)</string>
+    <string name="mairujia">买入价</string>
+    <string name="maichujia">卖出价</string>
+    <string name="yiyanzhengshenfen">1.验证身份</string>
+    <string name="ergenggaishoujihao">2.更改手机号</string>
+    <string name="sanwancheng">3.完成</string>
+    <string name="yibangdingshoujihao">已绑定手机号:</string>
+    <string name="qingshuruxinshoujihaoma">请输入新手机号码</string>
+    <string name="ershezhimima">2.设置密码</string>
+    <string name="sanquerenmima">3.确认密码</string>
+    <string name="qingshuruliuweizhifumima">请输入6位支付密码</string>
+    <string name="qingzaicishuruliuweizhifumima">请再次输入6位支付密码</string>
+    <string name="xiaoshudianhouliangweiweishu">小数点后2位尾数,每次现金支付时随机生成，目的是为收款者确认现金支付者的身份，所以请准确支付完整金额，否则导致订单失效。</string>
+    <string name="ninzanweifabuguanggao">您暂未发布广告～</string>
+    <string name="tianjiaguanggao">添加广告</string>
+    <string name="zanwujianjie">暂无简介</string>
+    <string name="wodechicang">我的持仓</string>
+    <string name="chiyou">持有</string>
+    <string name="shizhichengbenjia">市值/成本价</string>
+    <string name="yejizoushi">业绩走势</string>
+    <string name="gendanrenqi">跟单人气</string>
+    <string name="bizhongjiaoyicishuhuizong">币种交易次数汇总</string>
+    <string name="moren">默认</string>
+    <string name="bianji">编辑</string>
+    <string name="dangqianbanben">当前版本</string>
+    <string name="guanyuwomen">关于我们</string>
+    <string name="lianxiwomen">联系我们</string>
+    <string name="fuwutiaokuan">服务条款</string>
+    <string name="jianjitupian">剪辑图片</string>
+    <string name="xiexieshenmeba140zi">写些什么吧…(140个字以内)</string>
+    <string name="zuijinxiangce">最近相册</string>
+    <string name="yulan">预览</string>
+    <string name="zuijinshipin">最近视频</string>
+    <string name="shimingrenzheng">实名认证</string>
+    <string name="bangdingyouxiang">绑定邮箱</string>
+    <string name="xiugaimima">修改密码</string>
+    <string name="bangdingshouji">绑定手机</string>
+    <string name="shezhijiaoyimima">设置交易密码</string>
+    <string name="shuaxinpinlvshezhi">刷新频率设置</string>
+    <string name="xiaoxituisong">消息推送</string>
+    <string name="qingchuhuancun">清除缓存</string>
+    <string name="touxiang">头像</string>
+    <string name="nicheng">昵称</string>
+    <string name="xingbie">性别</string>
+    <string name="nan">男</string>
+    <string name="nv">女</string>
+    <string name="erweima">二维码</string>
+    <string name="shengri">生日</string>
+    <string name="weishezhi">未设置</string>
+    <string name="gerenjianjie">个人简介</string>
+    <string name="qingbianjigerenjianjie">请编辑个人简介</string>
+    <string name="kaitongxuzhi">开通须知</string>
+    <string name="daidangongneng">带单功能</string>
+    <string name="kaitongtiaojianzongzichanbudiyuusdt">开通条件：总资产不低于%sUSDT</string>
+    <string name="lijikaitong">立即开通</string>
+    <string name="chushouusdt">出售USDT</string>
+    <string name="qingshuruchushoushuliang">请输入出售数量</string>
+    <string name="quanbuchushou">全部出售</string>
+    <string name="shishoukuan">实收款</string>
+    <string name="sanshimiaohouzidongquxiao">s后自动取消</string>
+    <string name="xiadan">下单</string>
+    <string name="goumaizhong">购买中</string>
+    <string name="shuliangusdtdaousdt">数量  %1$s USDT-%2$s USDT</string>
+    <string name="xianeyuandaoyuan">限额  HK$%1$s-HK$%2$s</string>
+    <string name="fangshi">方式</string>
+    <string name="leixinggoumai">类型  购买</string>
+    <string name="xiajia">下架</string>
+    <string name="tuodong">拖动</string>
+    <string name="quanxuan">　全选</string>
+    <string name="querenquxiaodingdan">确认取消订单</string>
+    <string name="runinyijingxiangmaijiafukuanqingbuyaoquxiaodingdan">如您已经向卖家付款，请不要取消订单</string>
+    <string name="quxiaoguizemaijiadangrileijisibiquxiao">取消规则：买家当日累计4笔取消，\n会限制当日买入功能。</string>
+    <string name="wozaixiangxiang">我在想想</string>
+    <string name="tijiaochenggong">提交成功</string>
+    <string name="jiaoyibizhong">交易币种</string>
+    <string name="gendanjine">跟单金额</string>
+    <string name="wodejine">我的金额</string>
+    <string name="weituomairuzongjine">委托买入总金额</string>
+    <string name="gendanshuliang">跟单数量</string>
+    <string name="wodeshuliang">我的数量</string>
+    <string name="weituomaichuzongshuliang">委托卖出总数量</string>
+    <string name="shengchengshijian">生成时间</string>
+    <string name="guanbi">关闭</string>
+    <string name="zongzichan">总资产</string>
+    <string name="gendanzongjine">跟单总金额</string>
+    <string name="zhuijia">追加</string>
+    <string name="gaoshou">高手</string>
+    <string name="yuezonge">余额/总额</string>
+    <string name="shezhiguanli">设置管理</string>
+    <string name="meicimairudegendanzuidajine">每次买入的跟单最大金额：</string>
+    <string name="querenshoukuanbingfangxing">确认收款并放行</string>
+    <string name="qingwubidengluwangshangyinhang">请务必登录网上银行或第三方支付账号确认收到该笔款项</string>
+    <string name="woquerenyidenglushoukuanzhanghu">   我确定已登录收款账户，并核对收款无误</string>
+    <string name="leixingxuanze">类型选择</string>
+    <string name="zhuangtaixuanze">状态选择</string>
+    <string name="yiwancheng">已完成</string>
+    <string name="daifukuan">待付款</string>
+    <string name="yiquxiao">已取消</string>
+    <string name="jiaoyijinecny">交易金额(HKD)</string>
+    <string name="qingshurujiaoyimima">请输入交易密码</string>
+    <string name="wangjijiaoyimima">忘记交易密码?</string>
+    <string name="zhifujine">支付金额</string>
+    <string name="qingzhunquezhifuyishangjine">请准确支付以上金额，否则导致订单失败</string>
+    <string name="fuzhijine">复制金额</string>
+    <string name="zhidaole">知道了</string>
+    <string name="xiugaizhifumima">修改支付密码</string>
+    <string name="wangjizhifumima">忘记支付密码</string>
+    <string name="weitianjiazhanghu">未添加账户</string>
+    <string name="tianjia">添加</string>
+    <string name="xitonghuiweininshaixuanbaohanmubiaojinedeshangpin">系统会为您筛选包含目标金额的商品</string>
+    <string name="shangjiarenzheng">商家认证</string>
+    <string name="shoukuanguanli">收款管理</string>
+    <string name="xuanzeruchangquan">选择入场券</string>
+    <string name="wodeyyb">我的YYB：</string>
+    <string name="buchao">不超</string>
+    <string name="yujikedekedou">猜对预计可得%s刻豆，结果以竞猜结束时为准，仅供参考。</string>
+    <string name="yucebuchao">预测不超</string>
+    <string name="gendanjingfencheng">跟单净分成=跟单分成-技术服务费</string>
+    <string name="miandaraoshiduan">免打扰时段</string>
+    <string name="shengyin">声音</string>
+    <string name="zhendong">振动</string>
+    <string name="xuanzeshijianduan">选择时间段</string>
+    <string name="gendanyinglie">跟单盈利额</string>
+    <string name="shiyigensuigaohoudeyonghu">释义：跟随高手的用户最近30天盈亏总金额。</string>
+    <string name="yinglinengli">盈利能力</string>
+    <string name="shiyigaoshouzuijinsanshitian">释义：高手最近30天平均每笔交易的收益率。数值越大，代表个人盈利能力越强。</string>
+    <string name="gendanshouyilv">跟单收益率</string>
+    <string name="shiyigensuigaoshoudeyonghuzuijin">释义：跟随高手的用户最近30天平均每笔交易的收益率。数值越大，代表跟随高手的用户收益越好。</string>
+    <string name="gendanshenglv">跟单胜率</string>
+    <string name="shiyigensuigaoshouyinglidejilv">释义：跟随高手盈利的几率。数值越大，代表跟单获利的可能性就越高。</string>
+    <string name="renqizhishu">人气指数</string>
+    <string name="shiyigaoshouzuijinrenqi">释义：高手最近30天跟单人数，数值越大，代表跟随者越多，人气越高。</string>
+    <string name="jianleixing">键类型</string>
+    <string name="baocunerweima">保存二维码</string>
+    <string name="chongbidizhi">充币地址</string>
+    <string name="fuzhi">复制</string>
+    <string name="chongzhijine">充值金额</string>
+    <string name="qingshuruchongzhijine">请输入充值金额</string>
+    <string name="xuanzezhifufangshi">选择支付方式</string>
+    <string name="goumaiusdt">购买USDT</string>
+    <string name="goumaidanjia">购买单价: $</string>
+    <string name="qingshurugoumaijine">请输入购买金额</string>
+    <string name="goumaishuliangusdt">购买数量：%sUSDT</string>
+    <string name="btcshuliang">BTC数量</string>
+    <string name="usdtshouyi">USDT收益</string>
+    <string name="zhuanchubtcdaochicang">转出BTC到持仓</string>
+    <string name="qingshuruzhuanchushuliang">请输入转出数量</string>
+    <string name="kezhuanchushuliang">可转出数量：</string>
+    <string name="dongjieshuliang">冻结数量：</string>
+    <string name="querenzhuanchu">确认转出</string>
+    <string name="shuruyonghuid">输入用户ID</string>
+    <string name="qingkonglishi">清空历史</string>
+    <string name="sousuodaima">搜索代码</string>
+    <string name="jiazaishibaidianjichongxinshuaxin">加载失败，点击重新刷新</string>
+    <string name="yinhangka">银行卡</string>
+    <string name="jiagezuiyou">价格最优</string>
+    <string name="xuanze">  选择</string>
+    <string name="xinzengshoukuanfangshi">新增收款方式</string>
+    <string name="gendanbeishushezhi">跟单倍数设置</string>
+    <string name="beishu">倍数</string>
+    <string name="qingshuruzhengzhengshu">请输入正整数</string>
+    <string name="zhisunshezhi">止损设置</string>
+    <string name="qingshuruzhisunjiage">请输入止损价格</string>
+    <string name="zhiyingshezhi">止盈设置</string>
+    <string name="zhiyingjia">止盈价</string>
+    <string name="qingshuruzhiyingjiage">请输入止盈价格</string>
+    <string name="zhiyingzhisunshezhi">止盈止损设置</string>
+    <string name="wushezhi">无设置</string>
+    <string name="qingshuruzhiyingbili">请输入止盈比例</string>
+    <string name="zhisunjia">止损价</string>
+    <string name="qingshuruzhisunbili">请输入止损比例</string>
+    <string name="woshi">我是</string>
+    <string name="yiruzhuprocoin">已入驻BITC 一键跟上我的实盘交易</string>
+    <string name="wozhuanduoshaonijiuzhuanduoshao">我赚多少 你就赚多少</string>
+    <string name="wwct">FireUp</string>
+    <string name="huanqiushuzizichanjiaoyipingtai">环球数字资产交易平台</string>
+    <string name="weixinhaoyou">微信好友</string>
+    <string name="pengyouquan">朋友圈</string>
+    <string name="QQhaouyou">QQ好友</string>
+    <string name="QQkongjian">QQ空间</string>
+    <string name="weibo">微博</string>
+    <string name="xiangyouhuadonghuakuaitianchongpintu">向右滑动滑块填充拼图</string>
+    <string name="huanyizhang">换一张</string>
+    <string name="shuruhuochanganzhantiedizhi">输入或长按粘贴地址</string>
+    <string name="shurutibishuliang">输入提币数量</string>
+    <string name="ketibishuliang">可提币数量：</string>
+    <string name="shouxufei">手续费</string>
+    <string name="fanweidaobtc">范围 %1$s-%2$s BTC</string>
+    <string name="zuixiaotibishuliangwei">最小提币数量为：</string>
+    <string name="daozhangshuliang">到账数量：</string>
+    <string name="tibishuliang">提币数量</string>
+    <string name="tibidizhi">提币地址</string>
+    <string name="zhuangtai">状态</string>
+    <string name="dangqianweituo">当前委托</string>
+    <string name="dangqianchicang">当前持仓</string>
+    <string name="zanwuweituo">暂无委托</string>
+    <string name="jiaoyie">交易额</string>
+    <string name="shichangweituo">市场委托</string>
+    <string name="yidangqianzuiyoujiagejiaoyi">以当前最优价格交易</string>
+    <string name="qingshurushoushu">请输入手数</string>
+    <string name="kekaishou">可开%s手</string>
+    <string name="kaicangbaozhengjinusdt">开仓保证金 %s USDT</string>
+    <string name="kanzhangzuoduo">看涨(做多)</string>
+    <string name="kandiezuokong">看跌(做空)</string>
+    <string name="chengjiaoshijian">成交时间</string>
+    <string name="chengjiaojia">成交价</string>
+    <string name="chengjiaoliang">成交量</string>
+    <string name="weituoshuliangbtc">委托数量(BTC)</string>
+    <string name="chengjiaoshuliangbtc">成交数量(BTC)</string>
+    <string name="wodechengjiaobtc">我的成交(BTC)</string>
+    <string name="gendanchengjiaobtc">跟单成交(BTC)</string>
+    <string name="kanzhang">看涨</string>
+    <string name="kandie">看跌</string>
+    <string name="dangqiankaicang">当前开仓</string>
+    <string name="shoushu">手数</string>
+    <string name="weituojia">委托价</string>
+    <string name="kaicangbaozhengjin">开仓保证金</string>
+    <string name="shouyilv">收益率</string>
+    <string name="yingkuiusdt">盈亏(USDT)</string>
+    <string name="wodeweituobtc">我的委托(BTC)</string>
+    <string name="gendanweituobtc">跟单委托(BTC)</string>
+    <string name="jilu">记录</string>
+    <string name="cong">从</string>
+    <string name="dao">到</string>
+    <string name="yuezhanghu">余额账户</string>
+    <string name="guzhiqihuozhanghu">股指期货账户</string>
+    <string name="huazhuanshuliang">划转数量</string>
+    <string name="shuruhuazhuanshuliang">输入划转数量</string>
+    <string name="zhiyoujiangzichanhuazhuandaoxiangduiyingde">只有将资产划转到相对应的账户才可以进行交易。账户间的划转不收取手续费</string>
+    <string name="leixing">类型</string>
+    <string name="qingzai">请在  </string>
+    <string name="neifukuangeiduifang">  内付款给对方</string>
+    <string name="dingdanyiquxiao">订单已取消</string>
+    <string name="lianxiduifang">联系对方</string>
+    <string name="goumaijine">购买金额</string>
+    <string name="shoukuanerweima">收款二维码</string>
+    <string name="zhifubaozhanghao">支付宝账号</string>
+    <string name="xiadanshijian">下单时间</string>
+    <string name="qingshiyongbenrenzhifubaoxiangyishangzhuanzhang">请使用本人支付宝向以上转账，转账时请勿添加任何备注。\n在规定时间内完成支付，支付完成后点击【标记为已支付】</string>
+    <string name="quxiaodingdan">取消订单</string>
+    <string name="quzhifu">去支付</string>
+    <string name="biaojiweiyizhifu">标记为已支付</string>
+    <string name="yinhangzhanghao">银行账号</string>
+    <string name="yinhangkaxinxi">银行卡信息</string>
+    <string name="shoukuanren">收款人</string>
+    <string name="qingzhunquezhifuyixiajine">请准确支付以下金额，否则会导致订单失败</string>
+    <string name="zhifubaomingcheng">支付宝名称</string>
+    <string name="weixinmingcheng">微信名称</string>
+    <string name="shengyushijian">剩余时间</string>
+    <string name="zhuanzhangshiqingwutianjiarenhebeizhu">转账时请勿添加任何备注</string>
+    <string name="qingzaiguidingshijianneiwanchengzhifu">请在规定时间内完成支付，支付完成后点击【标记为已支付】</string>
+    <string name="banbengengxin">版本更新</string>
+    <string name="faxianxinbanben">发现新版本，升级后体验更顺畅</string>
+    <string name="shaohouzaishuo">稍后再说</string>
+    <string name="lijishengji">立即升级</string>
+    <string name="usdtshuoming">USDT说明</string>
+    <string name="zhanghuyueusdt">账户余额(USDT)</string>
+    <string name="weiwancheng">未完成</string>
+    <string name="chongzhizongeyuan">充值总额(元)</string>
+    <string name="gendanrenshu">跟单人数</string>
+    <string name="jiaoyishouyi">交易收益</string>
+    <string name="zhunquelv">准确率</string>
+    <string name="shangyueshouyiusdt">上月收益(USDT)</string>
+    <string name="zhegerenhenlan">这个人很懒，未留下任何东西…</string>
+    <string name="xiangqing">详情 ></string>
+    <string name="agaoshoushouyilv">A.高手收益率</string>
+    <string name="byonghugendanshouyilv">B.用户跟单收益率</string>
+    <string name="cyinglizhanbi">C.盈利占比</string>
+    <string name="drenqi">D.人气</string>
+    <string name="egendanyingkuileijijine">E.跟单盈亏累计金额</string>
+    <string name="chicangbaifenhao">持仓 %s%</string>
+    <string name="yuebaofenhao">余额 %s%</string>
+    <string name="weikaitongdaidangongneng">未开通带单功能,操作数据暂不公开</string>
+    <string name="wen">问</string>
+    <string name="qingshuruxieshenme">请输入些什么</string>
+    <string name="zongshouyiusdt">总收益(USDT)</string>
+    <string name="zhengzaijiazaizhong">正在加载中…</string>
+    <string name="zhuanchubtc">转出BTC</string>
+    <string name="lijitiyan">立即体验</string>
+    <string name="zhengzaijiazaizhongqingshaodeng">正在加载中，请稍等…</string>
+    <string name="tiaoguo">跳过</string>
+    <string name="xuanzeriqi">选择日期</string>
+    <string name="tixianshuliang">提现数量</string>
+    <string name="shijia">市价</string>
+    <string name="tijiaoshijian">提交时间</string>
+    <string name="zhanghuming">账户名</string>
+    <string name="tianjiashoukuanfangshi">＋ 添加收款方式</string>
+    <string name="muqianchiyouusdt">目前持有USDT:</string>
+    <string name="qingshurutixianshuliang">请输入提现数量</string>
+    <string name="tixianxuefenxf">提现学分(XF)</string>
+    <string name="shengyuxuefenxf">剩余学分(XF):</string>
+    <string name="quanbutixian">全部提现</string>
+    <string name="yigeyuenei">一个月内</string>
+    <string name="sangeyuenei">三个月内</string>
+    <string name="liugeyuenei">六个月内</string>
+    <string name="yiniannei">一年内</string>
+    <string name="dangqianhuigoujiausdt">当前回购价(USDT)</string>
+    <string name="yybshuoming">YYB说明</string>
+    <string name="yichanchuyybzongliang">已产出YYB总量</string>
+    <string name="yixiaohuiyybzongliang">已销毁YYB总量</string>
+    <string name="huigoujiazoushitu">回购价走势图</string>
+    <string name="huigou">回购</string>
+    <string name="shengyukehuigouyybshuliang">剩余可回购YYB数量</string>
+    <string name="qingshuruhuigouyybshuliang">请输入回购YYB数量</string>
+    <string name="chiyouyybshuliang">持有YYB数量：</string>
+    <string name="chakantadehaoyou">查看他的好友</string>
+    <string name="sousuochengyuan">搜索成员</string>
+    <string name="duihuan">兑换</string>
+    <string name="tihuo">提货"</string>
+    <string name="fenhongjilu">分红记录</string>
+    <string name="tihuoxingquan">提货行权</string>
+    <string name="fabu">发布</string>
+    <string name="wodedingdan">我的订单</string>
+    <string name="bangzhu">帮助</string>
+    <string name="tuichucicibianji">退出此次编辑?</string>
+    <string name="canshucuowu">参数错误</string>
+    <string name="meiyouhuoqudaotupian">没有获取到图片</string>
+    <string name="baocuntupianchucuo">保存图片出错</string>
+    <string name="baocuntupiandao">保存图片到</string>
+    <string name="paizhao">拍照</string>
+    <string name="congxiangcehuoqu">从相册中选取</string>
+    <string name="tupianxuanze">图片选择</string>
+    <string name="baocuntupian">保存图片</string>
+    <string name="caozuo">操作</string>
+    <string name="laiyuanwwctjiaoyipingtaigendanwangyefenxiang">来源：BITC交易平台跟单网页分享</string>
+    <string name="meiyouhuoqudaowangyedizhi">没有获取到网页地址，请重新进入页面</string>
+    <string name="tupianbaocunshibai">图片保存失败</string>
+    <string name="shanchuhoujiangqingkong">删除后,将清空该聊天的消息记录</string>
+    <string name="bunenggengzijiliaotian">不能跟自己聊天</string>
+    <string name="meiyougengduolishijilule">没有更多历史记录了</string>
+    <string name="shenqingliyou">申请理由: </string>
+    <string name="chuliren">处理人</string>
+    <string name="yitongguo">已通过</string>
+    <string name="yijujue">已拒绝</string>
+    <string name="tishi">提示</string>
+    <string name="quedingchongfugaixiaoxi">确定重发该消息</string>
+    <string name="bule">不了</string>
+    <string name="chongfa">重发</string>
+    <string name="quanzhu">圈主</string>
+    <string name="zhucezhong">[注册中…]</string>
+    <string name="yuyinxiazaishibai">语音下载失败</string>
+    <string name="meiyousdka">没有sd卡</string>
+    <string name="chongluhuishanchugangcaideluyin">重录会删除刚才的录音</string>
+    <string name="dianjitaipinfanle">点击太频繁了</string>
+    <string name="anxialuyin">按下录音</string>
+    <string name="zhengzailuyin">正在录音</string>
+    <string name="dianjibofang">点击播放</string>
+    <string name="dianjitingzhi">点击停止</string>
+    <string name="qingquedingyoucharusdka">请确定有插入sd卡</string>
+    <string name="luyinshijiantaiduan">录音时间太短</string>
+    <string name="bofangyichang">播放异常</string>
+    <string name="qingshuruneirong">请输入内容</string>
+    <string name="suoyouchengyuan">所有成员</string>
+    <string name="chengyuanshenqing">成员申请</string>
+    <string name="tupian">图片</string>
+    <string name="gong">共</string>
+    <string name="mingchengyuan">名成员</string>
+    <string name="pian">篇</string>
+    <string name="ge">个</string>
+    <string name="qingchuchenggong">清除成功</string>
+    <string name="shifoutuichuquanzi">是否退出圈子?</string>
+    <string name="tuichu">保存图片</string>
+    <string name="yituichu">已退出</string>
+    <string name="nihaibushiquanzichengyuanwufachakan">你还不是圈子成员,无法查看</string>
+    <string name="chuangjianquanzi">创建圈子</string>
+    <string name="bianjiquanzi">编辑圈子</string>
+    <string name="chuangjian">创建</string>
+    <string name="qingshuruquanzimingzi">请输入圈子名字</string>
+    <string name="quanzimingzitaichangle">圈子名字太长了</string>
+    <string name="qingshuruquanzijianjie">请输入圈子简介</string>
+    <string name="qingshangchuanquanzitouxiang">请上传圈子头像</string>
+    <string name="xuanzehuifuderen">选择回复的人</string>
+    <string name="sousuoquanzi">搜索圈子</string>
+    <string name="shezhijiarufangshi">设置加入方式</string>
+    <string name="quedingchexiaodingdan">确定撤销订单</string>
+    <string name="gendanjidaibiaonitongyibingjieshou">跟单即代表你同意并接受</string>
+    <string name="fengxiantishi">《风险提示》</string>
+    <string name="he">和</string>
+    <string name="gendanguize">《跟单规则》</string>
+    <string name="zuixiaogendanjine">最小跟单金额</string>
+    <string name="zuixiaozhuijiajine">最小追加金额</string>
+    <string name="yiyong">已用</string>
+    <string name="zongshizhi">总市值</string>
+    <string name="qingshurugendanzongjine">请输入跟单总金额</string>
+    <string name="zuidajinebunengdayugendanzongjine">最大金额不能大于跟单总金额</string>
+    <string name="qingshuruzuidajine">请输入最大金额</string>
+    <string name="gendanjilu">跟单记录</string>
+    <string name="yikouchugendanfenchengbufen">已扣除跟单分成部分</string>
+    <string name="shizhixiaoyu">市值小于</string>
+    <string name="usdtdebizhong">USDT的币种</string>
+    <string name="wenxintishi">温馨提示</string>
+    <string name="zhengzaitingzhigendan">正在停止跟单</string>
+    <string name="mibigendanjineshangxian">每笔跟单金额上限</string>
+    <string name="tingzhigendanjiangyishijiamaichuninsuoyoudegendanchicang">停止跟单将以市价卖出您所有的跟单持仓</string>
+    <string name="gendanyonghushuju">跟单用户数据</string>
+    <string name="chakanziliao">查看资料</string>
+    <string name="siliao">私聊</string>
+    <string name="quxiaoguanliyuan">取消管理员</string>
+    <string name="sheweiguanliyuan">设为管理员</string>
+    <string name="yichuchuquanzi">移除出圈子</string>
+    <string name="yichuchuquanzibinglahei">移除出圈子并拉黑</string>
+    <string name="tian">天</string>
+    <string name="yijingruzhu">已经入驻</string>
+    <string name="daoqi">到期</string>
+    <string name="geguanzhu">个关注</string>
+    <string name="chongzhijineyuan">充值金额(元)</string>
+    <string name="mairujineyuan">买入总额(元)</string>
+    <string name="tixianjineyuan">提现金额(元)</string>
+    <string name="maichujineyuan">卖出金额(元)</string>
+    <string name="yiruzhu">已入驻</string>
+    <string name="zanwu">暂无</string>
+    <string name="benlunrengou">本轮认购</string>
+    <string name="shi">时</string>
+    <string name="fen">分</string>
+    <string name="miao">秒</string>
+    <string name="zanweikaifang">暂未开放</string>
+    <string name="dangqianzanwurengou">当前暂无认购</string>
+    <string name="guzhiqihuozongzichanusdt">股指期货总资产(USDT)</string>
+    <string name="waihuizongzichanusdt">外汇总资产(USDT)</string>
+    <string name="shuzihuobigendanzongzichanusdt">数字货币跟单总资产(USDT)</string>
+    <string name="guojiqihuogendanzongzichanusdt">国际期货跟单总资产(USDT)</string>
+    <string name="waihuigendanzongzichanusdt">外汇跟单总资产(USDT)</string>
+    <string name="weibangding">未绑定</string>
+    <string name="weikaiqi">未开启</string>
+    <string name="gendanshuzihuobizongzichanusdt">跟单-数字货币总资产(USDT)</string>
+    <string name="gendanguzhiqihuozongzichanusdt">跟单-股指期货总资产(USDT)</string>
+    <string name="shifoubaquanbukedouduihuanchengkbt">是否把全部刻豆兑换成KBT？</string>
+    <string name="muqianzanwukedou">目前暂无刻豆，请往小应用闪电预测获取</string>
+    <string name="weihuoqudaokefuxinxi">未获取到客服信息</string>
+    <string name="yaoqinghaoyoukaiqihuanqiu">邀请好友，开启环球数字资产交易</string>
+    <string name="tashi">TA是</string>
+    <string name="woyizaiwwctyijiangenshangletadeshipanjiaoyi">我已在BITC一键跟上了TA的实盘交易</string>
+    <string name="tazhuanleduoshaowojiuzhuanduoshao">TA赚了多少 我就赚多少</string>
+    <string name="yaoqinghaoyou">邀请好友</string>
+    <string name="fenxiangshibai">分享失败</string>
+    <string name="huigoushuliangbunengdayu">回购数量不能大于剩余可回购YYB数量</string>
+    <string name="qingquerenmeiyoufukuangeiduifang">请确认没有付款给对方</string>
+    <string name="qingshurubeishu">请输入倍数</string>
+    <string name="beishubunengweiling">倍数不能为0</string>
+    <string name="qingtianjiashoukuanfangshi">请添加收款方式</string>
+    <string name="usdtyuebuzu">USDT余额不足</string>
+    <string name="qingshurumairujiage">请输入买入价格</string>
+    <string name="qingshurumairushuliang">请输入买入数量</string>
+    <string name="shifouquedingxiadan">是否确定下单？</string>
+    <string name="mairugaiyao">买入概要</string>
+    <string name="kekai">可开</string>
+    <string name="qingshurujiage">请输入价格</string>
+    <string name="qingshurumaichujiage">请输入卖出价格</string>
+    <string name="qingshurumaichushuliang">请输入卖出数量</string>
+    <string name="maichugaiyao">卖出概要</string>
+    <string name="xianjinmairu">现金买入</string>
+    <string name="bibijilu">币币记录</string>
+    <string name="shuzihuobijilu">数字货币记录</string>
+    <string name="guzhiqihuojilu">股指期货记录</string>
+    <string name="caiwujilu">财务记录</string>
+    <string name="huazhuanjilu">划转记录</string>
+    <string name="jishufuwufei">技术服务费</string>
+    <string name="weituomairu">委托买入</string>
+    <string name="gendanzhegensuiyujimairu">跟单者跟随预计买入</string>
+    <string name="woyujimairushuliang">我预计买入数量</string>
+    <string name="weituomaichu">委托卖出</string>
+    <string name="maichushuliang">卖出数量</string>
+    <string name="gendanzhegensuimaichu">跟单者跟随卖出</string>
+    <string name="gendanzhegensuiyujizongjine">跟单者跟随预计总金额</string>
+    <string name="woyujijine">我预计金额</string>
+    <string name="qingshurumairudanjia">请输入买入单价</string>
+    <string name="chibishuliangbuzu">持币数量不足</string>
+    <string name="quedingmaichu">确定卖出？</string>
+    <string name="dingdangaiyao">订单概要</string>
+    <string name="fabigoumaiusdt">法币购买USDT</string>
+    <string name="qingnaixindenghouduifangfangbi">请耐心等候对方放币</string>
+    <string name="daifangxing">待放行</string>
+    <string name="dingdanyiwancheng">订单已完成</string>
+    <string name="dingdanyiguoqi">订单已过期</string>
+    <string name="dingdanyicheixao">订单已撤销</string>
+    <string name="dingdanyibeixitongchexiao">订单已被系统撤销</string>
+    <string name="dingdanyijingchaoshi">订单已经超时</string>
+    <string name="qingquerenyifukuanfouzedingdanjiangzai">请确认已付款，否则订单将在30分钟后自动取消。每日3次自动取消将影响信用，恶意行为将被冻结现金支付功能24小时</string>
+    <string name="yibiaojifukuan">已标记付款</string>
+    <string name="shengyu">剩余</string>
+    <string name="shengyulingling">"剩余00分00秒"</string>
+    <string name="qingxuanzezhifufangshi">请选择支付方式</string>
+    <string name="qingxuanzetixianbizhong">请选择提现币种</string>
+    <string name="huoquxinxishibai">获取信息失败</string>
+    <string name="qingxuazejianleixing">请选择键类型</string>
+    <string name="qingtianxietibidizhi">请填写提币地址</string>
+    <string name="qingshurutibishuliang">请输入提币数量</string>
+    <string name="tibishuliangbuzu">提币数量不足</string>
+    <string name="tibibizhong">提币币种</string>
+    <string name="querenqianqingzixiheduitibidizhixinxi">确认前请仔细核对提币地址信息，以避免造成不必要的财产损失。</string>
+    <string name="qingshuruhuazhuanshuliang">请输入划转数量</string>
+    <string name="xiangtongzhanghuzhijianbunenghuazhuan">相同账户之间不能划转</string>
+    <string name="usdtzichan">USDT资产</string>
+    <string name="ninhaiweitianjiashoukuanfangshi">您还未添加收款方式</string>
+    <string name="tixianshenqingyitijiao">提现申请已提交，等待平台放款</string>
+    <string name="tixianyiwancheng">提现已完成</string>
+    <string name="usdttixian">USDT提现</string>
+    <string name="tixiandingdanxiangqing">提现订单详情</string>
+    <string name="qingxianxuanzegendanleixing">请先选择跟单类型</string>
+    <string name="youxiangyanzhengma">邮箱验证码</string>
+    <string name="bangdingchenggong">绑定成功</string>
+    <string name="jiaruwomen">加入我们</string>
+    <string name="wodeyongjin">我的佣金</string>
+    <string name="wodeyaoqingma">我的邀请码：</string>
+    <string name="anquanyanzheng">安全验证</string>
+    <string name="yanzhengchenggong">验证成功</string>
+    <string name="lianjieshibai">连接失败</string>
+    <string name="kaiqitongzhituisong">开启通知推送</string>
+    <string name="kaiqitongzhituisongjiangyouzhuyu">开启通知推送将有助于您获得最新消息!\n强烈建议开启</string>
+    <string name="xiacizaishuo">下次再说</string>
+    <string name="qukaiqi">去开启</string>
+    <string name="zaianyicituichu">再按一次退出</string>
+    <string name="lingtianlingshi">0 天 0 时 00 分 00 秒</string>
+    <string name="shifouquedingkaitongdaidangongneng">是否确定开通带单功能？</string>
+    <string name="kaitongjidaibianniyiyuedu">开通即代表你已阅读</string>
+    <string name="wwctdaidangongnengfuwuxieyi">《BITC带单功能服务协议》</string>
+    <string name="bianjizixuan">编辑自选</string>
+    <string name="quedingshanchuzixuan">确定删除自选</string>
+    <string name="weituodingdanxiangqing">委托订单详情</string>
+    <string name="duanxinyanzhengma">短信验证码</string>
+    <string name="yanzhengma">验证码</string>
+    <string name="qingshuruduanxinyanzhengma">请输入短信验证码</string>
+    <string name="huoquchenggong">获取成功</string>
+    <string name="leidatushuoming">雷达图说明</string>
+    <string name="yybyuce">YYB预测</string>
+    <string name="yucechaoguo">预测超过</string>
+    <string name="caiduiyujikede">猜对预计可得</string>
+    <string name="yybjieguoyijingcaijieshushiweizhun">YYB，结果以竞猜结束时为准，仅供参考。</string>
+    <string name="qingshurupinglun">请输入评论</string>
+    <string name="wenzitaichang">文字太长</string>
+    <string name="benchangyucejieshu">本场预测结束,请等待下一场</string>
+    <string name="zanweiyuce">暂未预测</string>
+    <string name="pinglungchenggong">评论成功</string>
+    <string name="yuce">预测</string>
+    <string name="zai">在</string>
+    <string name="xuanzerengou">选择认购</string>
+    <string name="zichan">资产</string>
+    <string name="shangjia">上架</string>
+    <string name="yixiajia">已下架</string>
+    <string name="chushouzhong">出售中</string>
+    <string name="quedingshanchu">确定删除</string>
+    <string name="shifouquedingshangjia">是否确定上架?</string>
+    <string name="shifouquedingxiajia">是否确定下架?</string>
+    <string name="qingxuanzeshangjiashoukuanfangshi">请选择商家收款方式</string>
+    <string name="quanbumairu">全部买入</string>
+    <string name="shifukuan">实付款</string>
+    <string name="caozuochaoshi">操作超时</string>
+    <string name="qingquedingyidenglushoukuanzhanghu">请确定已登录收款账户，并核对收款无误</string>
+    <string name="qingquerenhaimeiyoufukuangeiduifang">请确认还没有付款给对方</string>
+    <string name="dingdanjiangzai">订单将在</string>
+    <string name="houchaoshiquxiao">后超时取消</string>
+    <string name="zhifubao">支付宝</string>
+    <string name="qingshurugoumaishuliang">请输入购买数量</string>
+    <string name="chushoushuliang">出售数量</string>
+    <string name="bianjiguanggao">编辑广告</string>
+    <string name="liuyanchangdubunengdayu">留言长度不能大于140个字符</string>
+    <string name="qingxuanzeshoufukuanfangshi">请选择收付款方式</string>
+    <string name="qingshuruzuidaxiane">请输入最大限额</string>
+    <string name="qingshuruzuixiaoxiane">请输入最小限额</string>
+    <string name="qingshurushuliang">请输入数量</string>
+    <string name="dangqianchushouzuidijia">当前出售最低价</string>
+    <string name="quedingshenqingquxiaoshangjiarenzheng">确定申请取消商家认证？</string>
+    <string name="zhengzaishenqingquxiaoshangjiarenzheng">正在申请取消商家认证</string>
+    <string name="shenqingquxiaoshangjiarenzheng">申请取消商家认证</string>
+    <string name="renzhengzhong">认证中</string>
+    <string name="yishiming">已实名</string>
+    <string name="weishiming">未实名</string>
+    <string name="shanjiafuwuxieyi">《商家服务协议》</string>
+    <string name="zuoweiguanggaobaozhengzichanqietongyi">作为广告方保证资产，且同意</string>
+    <string name="tongyidongjie">同意冻结</string>
+    <string name="qianwangshiming">前往实名</string>
+    <string name="weishimingbunengshenqingshangjiarenzheng">未实名不能申请商家认证，请实名认证后，在提交商家认证申请。</string>
+    <string name="weishimingbunengshenqingshangjia">未实名不能申请商家认证</string>
+    <string name="dingdanyichaoshi">订单已经超时</string>
+    <string name="hao">号</string>
+    <string name="wodeguanggao">我的广告</string>
+    <string name="shensutixing">申诉提醒</string>
+    <string name="qingxuanzeshensuliyou">请选择申诉理由</string>
+    <string name="liuyanbunengchaoguosanbaigezifu">留言不能超过300个字符</string>
+    <string name="dingdanjilu">订单记录</string>
+    <string name="xuanzeguojiahuodiqu">请选择国家或地区</string>
+    <string name="sousuoguojiahuodiqu">搜索国家或地区</string>
+    <string name="zhucezhanghu">注册账户</string>
+    <string name="chongxinhuoqu">重新获取</string>
+    <string name="wwctyinsitiaokuan">《FireUp 隐私条款》</string>
+    <string name="wwctyonghuxieyi">《BITC用户协议》</string>
+    <string name="zhucejidaibiaoniyitongyibingjieshou">注册即代表你已同意并接受</string>
+    <string name="duanxinyanzhengmayijingfasongzhi">短信验证码已经发送至</string>
+    <string name="qingchongxinhuoquyanzhengma">请重新获取验证码</string>
+    <string name="cuowutishi">错误提示</string>
+    <string name="nindehuihuayijingguoqi">您的会话已经过期,请重新登录</string>
+    <string name="weizhileixing">未知类型</string>
+    <string name="quanbutupian">全部图片</string>
+    <string name="zhang">张</string>
+    <string name="huiyuan">会员</string>
+    <string name="wei">位</string>
+    <string name="heji">合计</string>
+    <string name="yuezhanghukeyong">余额账户可用</string>
+    <string name="shezhiwuxiao">设置无效</string>
+    <string name="nian">年</string>
+    <string name="ri">日</string>
+    <string name="riqibunengchaoguojintian">日期不能超过今天</string>
+    <string name="tianjiazhifubao">添加支付宝</string>
+    <string name="tianjiaweixin">添加微信</string>
+    <string name="qingtianjiashoukuanerweima">请添加收款二维码</string>
+    <string name="tianjiayinhangka">添加银行卡</string>
+    <string name="qingshurukaihuyinhangmingcheng">请输入开户银行名称</string>
+    <string name="tianjiazhanghuleixing">添加账户类型</string>
+    <string name="shanchushibai">删除失败</string>
+    <string name="shanchuchenggong">删除成功</string>
+    <string name="wodesixin">我的私信</string>
+    <string name="qingshangchuanguohuizhao">请上传国徽照</string>
+    <string name="qingshangchuanrenxiangzhao">请上传人像照</string>
+    <string name="qingshurushenfenzhenghaoma">请输入身份证号码</string>
+    <string name="gerenshezhi">个人设置</string>
+    <string name="nindeziliaoyijingxiugaishifoubaocun">您的资料已经修改,是否保存!</string>
+    <string name="gengxinxinxichenggong">更新信息成功</string>
+    <string name="weixiugai">未修改</string>
+    <string name="qingshurumingzi">请输入名字</string>
+    <string name="qingshuruyidaoliugezhongming">请输入1–6个中文名或者1–12个英文名</string>
+    <string name="yonghumingguoduan">用户名过短</string>
+    <string name="yonghumingguochang">用户名过长</string>
+    <string name="wenzitaichangyisiling">文字太长了,不能超过140个字符</string>
+    <string name="qingxuanzetupian">请选择图片</string>
+    <string name="chucuole">出错了</string>
+    <string name="dangqianzuiduotianjia">当前最多添加</string>
+    <string name="zhangtupian">张图片</string>
+    <string name="quanbushipin">全部视频</string>
+    <string name="shipinbucunzai">视频不存在</string>
+    <string name="shipindaxiaobunengchaoguo">视频大小不能超过</string>
+    <string name="qingshuruyuanmima">请输入原密码</string>
+    <string name="xuanzeshoukuanfangshi">选择收款方式</string>
+    <string name="wanshang">晚上</string>
+    <string name="xiawu">下午</string>
+    <string name="shangwu">上午</string>
+    <string name="lingchen">凌晨</string>
+    <string name="zhongwu">中午</string>
+    <string name="qingchongxindenglu">请重新登录</string>
+    <string name="genghuanshoujihaoma">更换手机号码</string>
+    <string name="zhuxiao">注销</string>
+    <string name="niquedingyaozhuxiaoma">你确定要注销吗?</string>
+    <string name="huoquhuancundaxiaocuowu">获取缓存大小错误</string>
+    <string name="zhengzaiqingli">正在清理…</string>
+    <string name="huancunyiqingli">缓存已清理</string>
+    <string name="quedingyaoqingchuhuancun">确定要清除缓存？</string>
+    <string name="zanbuqingli">暂不清理</string>
+    <string name="qingli">清理</string>
+    <string name="yibangding">已绑定</string>
+    <string name="shenqingbangding">申请绑定</string>
+    <string name="mianfeidingyue">免费订阅</string>
+    <string name="yidingyue">已订阅</string>
+    <string name="dingyueyiguoqi">订阅已过期</string>
+    <string name="shifoudingyuegaiyonghu">是否订阅该用户?</string>
+    <string name="shenqingbangdingxuzhi">申请绑定须知</string>
+    <string name="yichuzhezhangzhaopianma">移除这张照片吗?</string>
+    <string name="changanshexiang">长按摄像</string>
+    <string name="quedingjidaibiaoniyitongyibingjieshou">确定即代表你已同意并接受</string>
+    <string name="shuzizichanjiedaifuwuhetong">《数字资产借贷服务合同》</string>
+    <string name="gangganjiaoyixieyi">《杠杆交易协议》</string>
+    <string name="jiaoyifuwuxieyi">《交易服务协议》</string>
+    <string name="zhisunbunengdayu">止损不能大于</string>
+    <string name="cunbibao">存币宝</string>
+    <string name="keyongshuliangbuzu">可用数量不足</string>
+    <string name="qingshuruzhuanrushuliang">请输入转入数量</string>
+    <string name="qingzuidizhuanru">请最低转入</string>
+    <string name="shuliangdaocunbibao">数量到存币宝</string>
+    <string name="shifouyidangqianshijiapingcang">是否以当前市价平仓</string>
+    <string name="kehzuanchushuliangbuzu">可转出数量不足</string>
+    <string name="qingshuruzhuanchu">请输入转出</string>
+    <string name="shuliangdaochicang">数量到持仓</string>
+    <string name="shouyi">收益</string>
+    <string name="yunxulaizicilaiyuandeyingyonghou">允许来自此来源的应用后才能更新</string>
+    <string name="wanchengyanzhenghoudenglu">完成验证后登录</string>
+    <string name="wanchengyanzhenghouhuoquyanzhengma">完成验证后获取验证码</string>
+    <string name="yifuzhidaoniantieban">已复制到粘贴板</string>
+    <string name="shoujihaomabunengweikong">手机号码不能为空</string>
+    <string name="laingcishurudemimabuxiangtong">两次输入的密码不相同</string>
+    <string name="fangwencunchukongjian">访问存储空间</string>
+
+
+    <string name="finish">完成</string>
+    <string name="download">下载中</string>
+    <string name="jump">跳过</string>
+    <string name="next">下一步</string>
+    <string name="input">输入</string>
+    <string name="download_finish">打开</string>
+    <string name="request_failed">请求失败,请重新请求!</string>
+    <!--<string user_name="hello_world"  >Hello world!</string>-->
+    <string name="novalue">---</string>
+    <string name="weipanSubcribeTips">* 投资需谨慎，高手操作仅供参考和学习交流之用，不构成任何投资建议，用户据此操作，风险自担。</string>
+    <string name="weekBoard">周排行</string>
+    <string name="novalueTime">--:--:--</string>
+    <string name="rewardCode">奖励码</string>
+    <string name="rewardRecord">奖励记录</string>
+    <string name="inputRewardCode">输入奖励码</string>
+    <string name="luckyboxBest">手气最佳</string>
+    <string name="luckyMessage">恭喜发财，大吉大利！</string>
+    <string name="reportTips">选择投诉理由</string>
+    <string name="accountWarning">该账号被多名用户投诉，交流时请保护好自己的隐私安全</string>
+    <!--<string user_name="action_settings"  >Settings</string>-->
+    <string name="refresh">刷新</string>
+    <string name="scan_qrcode">扫一扫</string>
+    <string name="load_desc_loading">加载中&#8230;</string>
+    <string name="load_desc_sending">发送中&#8230;</string>
+    <string name="load_desc_getcode">正在获取验证码,请稍等&#8230;</string>
+    <!-- 下拉刷新最后刷新时间 -->
+    <string name="tip_home_new_desc"> 有新消息提示，拉下刷新</string>
+    <!-- 行情 -->
+    <string name="add_my_stock">添加自选</string>
+    <string name="add_mystock">添加自选股</string>
+    <string name="del_mystock">删除自选股</string>
+    <string name="home_main_head_more">更\n多\n自\n选</string>
+    <string name="stock_my_stock">我的自选股</string>
+    <string name="stock_add_my_stock">添加自选股</string>
+    <string name="stock_setup_my_stock">自选股管理</string>
+    <string name="stock_search">搜索</string>
+    <string name="stock_more">更多</string>
+    <string name="stock_name_fdm">名称代码</string>
+    <string name="stock_action_zjcj">最新价</string>
+    <string name="stock_action_rate">涨跌幅</string>
+    <string name="stock_action_add">添加</string>
+    <string name="stock_action_setting">管理</string>
+    <string name="stock_action_mintime">分时</string>
+    <string name="stock_action_kline">K线</string>
+    <string name="stock_action_f10">资料</string>
+    <string name="stock_action_theme">股吧</string>
+    <string name="stock_action_hot">热点</string>
+    <string name="stock_action_broadcast">直播</string>
+    <string name="stock_broadcast_aticle">直播文章</string>
+    <string name="stock_shijian">时间</string>
+    <string name="stock_xianshou">现手</string>
+    <string name="stock_sell_1">卖①</string>
+    <string name="stock_sell_2">卖②</string>
+    <string name="stock_sell_3">卖③</string>
+    <string name="stock_sell_4">卖④</string>
+    <string name="stock_sell_5">卖⑤</string>
+    <string name="stock_buy_1">买①</string>
+    <string name="stock_buy_2">买②</string>
+    <string name="stock_buy_3">买③</string>
+    <string name="stock_buy_4">买④</string>
+    <string name="stock_buy_5">买⑤</string>
+    <string name="stock_zgcj">最高</string>
+    <string name="stock_zdcj">最低</string>
+    <string name="stock_jrkp">开盘</string>
+    <string name="stock_rate">涨幅</string>
+    <string name="stock_amt">涨跌</string>
+    <string name="stock_fuquan">已复权</string>
+    <string name="stock_rixian">日线</string>
+    <string name="stock_m5">MA5:</string>
+    <string name="stock_m10">MA10:</string>
+    <string name="stock_m30">MA30:</string>
+    <string name="stock_rate_rank">涨幅榜</string>
+    <string name="stock_5rate_rank">5分钟涨幅榜</string>
+    <string name="stock_lingzhang_bk">领涨板块</string>
+    <string name="stock_lingzhang_gu">领涨股</string>
+
+    <string-array name="stock_list_menu">
+        <item>我的自选股</item>
+        <item>好友自选股</item>
+    </string-array>
+
+    <string name="myStockList">我的自选股</string>
+    <string name="myFrdsStockList">好友自选股</string>
+    <string name="stock_A_hot">A股热点</string>
+    <string name="stock_dapanzhibo">大盘直播</string>
+    <string name="rate">涨幅%</string>
+    <string name="price">最新价</string>
+    <string name="name">名  称</string>
+
+    <string-array name="stock_hot_list_menu">
+        <item>沪深A股排名</item>
+        <item>沪A排名</item>
+        <item>深A排名</item>
+        <item>中小板排名</item>
+        <item>创业板排名</item>
+        <item>板块排名</item>
+        <item>沪深A股5分钟涨速排名</item>
+        <item>沪A 5分钟涨速排名</item>
+        <item>深A 5分钟涨速排名</item>
+        <item>沪B排名</item>
+        <item>深B排名</item>
+        <item>沪深基金排名</item>
+    </string-array>
+
+    <string name="index_0">沪深A股排名</string>
+    <string name="index_1">沪A排名</string>
+    <string name="index_2">深A排名</string>
+    <string name="index_3">中小板排名</string>
+    <string name="index_4">创业板排名</string>
+    <string name="index_5">板块排名</string>
+    <string name="index_6">沪深A股5分钟涨速排名</string>
+    <string name="index_7">沪A 5分钟涨速排名</string>
+    <string name="index_8">深A 5分钟涨速排名</string>
+    <string name="index_9">沪B排名</string>
+    <string name="index_10">深B排名</string>
+    <string name="index_11" translatable="false">沪深基金排名</string>
+
+    <string-array name="stock_f10">
+        <item>新闻</item>
+        <item>公告</item>
+        <item>研报</item>
+        <item>概况</item>
+        <item>财务</item>
+        <item>分红</item>
+        <item>股东</item>
+        <item>高管</item>
+    </string-array>
+
+    <string name="homepagefrnewggdtop" translatable="false">%1$s 查看了%2$s的%3$s</string>
+
+    <!-- 我的消息 -->
+    <string name="my_msg" translatable="false">消息</string>
+    <string name="business" translatable="false">交易</string>
+    <string name="jf" translatable="false">积分</string>
+    <!-- 股友吧 -->
+    <string name="square" translatable="false">股友吧</string>
+    <string name="square_newest" translatable="false">最新</string>
+    <string name="square_stock" translatable="false">自选股</string>
+    <string name="square_stock2" translatable="false">自选</string>
+    <string name="square_mine" translatable="false">我的</string>
+    <string name="square_topic" translatable="false">搜索话题</string>
+    <string name="square_edit_topic" translatable="false">发贴</string>
+    <string name="square_info_title" translatable="false">主题贴</string>
+    <!-- <string user_name="square_store"  >收藏</string> -->
+    <string name="square_unstore" translatable="false">取消收藏</string>
+    <string name="square_order_desc" translatable="false">倒序查看</string>
+    <string name="square_order_asc" translatable="false">正序查看</string>
+    <string name="square_frds_of_good" translatable="false">赞过的人</string>
+    <string name="allSquare" translatable="false">%1$s的贴子</string>
+    <string name="followNum" translatable="false">%1$s楼</string>
+    <string name="goSquare" translatable="false">去%1$s看看</string>
+    <string name="shareToFriendCircleFromSystem" translatable="false">分享到淘金路好友圈</string>
+    <string name="shareToSquareFromSystem" translatable="false">分享到淘金路股友吧</string>
+    <string name="shareToCircleFromSystem" translatable="false">分享到淘金路圈子</string>
+    <string name="send" translatable="false">发送</string>
+    <string name="squareSendTitle" translatable="false">发贴</string>
+    <string name="friend_circle" translatable="false">好友动态</string>
+    <string name="goFriend_circle" translatable="false">去%1$s看看</string>
+    <string name="friend_circle_send_title" translatable="false">发表观点</string>
+    <string name="friend_circle_frds_title" translatable="false">好友观点</string>
+    <string name="success" translatable="false">%1$s成功</string>
+    <string name="unsuccess" translatable="false">%1$s失败</string>
+    <string name="unStore" translatable="false">已取消收藏</string>
+    <string name="storeSuccess" translatable="false">收藏成功</string>
+
+    <!-- 股市日程表 -->
+    <string name="stockschedule" translatable="false">股市日程表</string>
+    <string name="stockschedule_pullLable" translatable="false">查找更早的日程</string>
+    <string name="stockschedule_refreshingLabel" translatable="false">正在加载...</string>
+    <string name="stockschedule_releaseLabel" translatable="false">松手加载更早的日程</string>
+    <string name="stockschedule_refreshSuccessLabel" translatable="false">加载成功</string>
+    <string name="comment" translatable="false">评论</string>
+    <string name="share" translatable="false">分享</string>
+    <string name="report" translatable="false">投诉</string>
+
+    <!-- 分享的文字 -->
+    <string name="shareToFriends" translatable="false">分享给好友</string>
+    <string name="shareToWeibo" translatable="false">分享到新浪微博</string>
+    <string name="shareToTalkie" translatable="false">分享到股友吧</string>
+    <string name="shareToFrTalkie" translatable="false">分享到好友圈</string>
+    <string name="shareToChat">分享到私聊</string>
+    <string name="shareToCircle">分享到圈子</string>
+    <string name="shareToWeChat">转发给微信好友</string>
+    <string name="shareToWeChatQuan">转发到微信朋友圈</string>
+    <string name="shareImageToFriends">分享给淘金路好友</string>
+    <string name="shareImageToWeibo">转发到新浪微博</string>
+    <string name="shareImageWeChat">转发给微信好友</string>
+    <string name="shareImageWeChatQuan">转发到微信朋友圈</string>
+    <string name="shareImagePaper">转发到报纸</string>
+    <string name="doddletext">双击修改文字</string>
+    <string name="weichatFriends">微信好友</string>
+    <string name="weichatCircle">微信朋友圈</string>
+    <!-- 报纸 -->
+    <string name="more">更多</string>
+    <string name="newsstander">报摊</string>
+    <string name="myCreatePaper">我创建的报纸</string>
+    <string name="mySubscriberPaper">我订阅的报纸</string>
+    <string name="createPaper">创建报纸</string>
+    <string name="delPaper">删除报纸</string>
+    <string name="planeActivityTitle">媒体专栏</string>
+    <string name="pp_createArticle">你目前还没有创建任何文章,赶紧去创建吧 !</string>
+    <string name="introduction">简介</string>
+    <string name="menu">操作</string>
+    <string name="publishArticle">发表文章</string>
+    <string name="editPaper">编辑报纸</string>
+    <string name="paperIntroduction">报纸简介</string>
+    <string name="pp_newsurl">点击到外部连接，阅读全文</string>
+    <string name="pp_sending">正在发表文章…</string>
+    <string name="pp_remainNum">剩余字数:140/140</string>
+    <string name="publish">发表</string>
+    <string name="sure">确定</string>
+    <string name="paperInfo">报纸简介</string>
+    <string name="modify">修改</string>
+    <string name="modifyName">修改名称</string>
+    <string name="modifyInfo">修改简介</string>
+    <string name="submit">提交</string>
+    <string name="complete">完成</string>
+    <string name="allSubscriberPeople">所有订阅者</string>
+    <string name="allListenerPeople">所有收听者</string>
+    <string name="articleInfo">文章详细</string>
+    <string name="changeToMyPaper">转到我的报纸</string>
+    <string name="newspaper">报</string>
+    <string name="pp_publishPaper">正在创建报纸…</string>
+    <string name="addCustomCategory">正在添加自定义分类…</string>
+    <string name="create">创建</string>
+    <string name="issue">发表</string>
+    <string name="customCategory">加自定义分类</string>
+    <string name="otherCategory">其他分类</string>
+    <string name="hisOtherPapers">TA的其他报纸</string>
+    <string name="close">关闭</string>
+    <string name="paperdelete">删除报纸</string>
+    <string name="isNewsGoodOrBad">你觉得该新闻是</string>
+
+    <!-- 今日头条 -->
+    <string name="todayHotnews">今日头条</string>
+    <string name="tjrHotnews">淘金路头条</string>
+    <string name="newsInfo">详细</string>
+    <string name="topLine">头条</string>
+
+    <string-array name="hotnewsShare">
+        <item>圈子</item>
+        <item>私聊</item>
+        <item>股友吧</item>
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>新浪微博</item>
+    </string-array>
+
+
+    <string-array name="stockIndexDel">
+        <item>删除自选股</item>
+        <item>圈子</item>
+        <item>私聊</item>
+        <item>股友吧</item>
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>新浪微博</item>
+    </string-array>
+
+    <string-array name="stockIndexAdd">
+        <item>添加自选股</item>
+        <item>圈子</item>
+        <item>私聊</item>
+        <item>股友吧</item>
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>新浪微博</item>
+    </string-array>
+
+    <string-array name="newspaperShare">
+        <item>圈子</item>
+        <item>私聊</item>
+        <item>股友吧</item>
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>新浪微博</item>
+        <item>转发到报纸</item>
+    </string-array>
+
+    <string-array name="microShare">
+        <item>圈子</item>
+        <item>股友吧</item>
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>新浪微博</item>
+    </string-array>
+
+    <string-array name="stockDel">
+        <item>删除自选股</item>
+        <item>圈子</item>
+        <item>私聊</item>
+        <item>股友吧</item>
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>新浪微博</item>
+    </string-array>
+
+    <string-array name="stockAdd">
+        <item>添加自选股</item>
+        <item>圈子</item>
+        <item>私聊</item>
+        <item>股友吧</item>
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>新浪微博</item>
+    </string-array>
+
+
+    <string-array name="stockSchedule">
+        <item>评论</item>
+        <item>圈子</item>
+        <item>股友吧</item>
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>新浪微博</item>
+    </string-array>
+
+
+    <string-array name="circleInvite">
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>淘金路好友</item>
+    </string-array>
+    <string-array name="appInvite">
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+        <item>新浪微博</item>
+    </string-array>
+
+    <string-array name="appwebshare">
+        <item>微信好友</item>
+        <item>微信朋友圈</item>
+    </string-array>
+
+    <!-- 我的主页开始 -->
+    <string-array name="myhomepageMyinfoPermissionsaction">
+        <item>仅自己可见</item>
+        <item>仅好友可见</item>
+        <item>任何人可见</item>
+    </string-array>
+    <!-- 默认不显示值，所以填入一个空值 -->
+    <string-array name="myhomepageMyinfostyleaction">
+        <item>短线激进型</item>
+        <item>中线波段型</item>
+        <item>长线稳健型</item>
+    </string-array>
+    <!-- 默认不显示值，所以填入一个空值 -->
+    <string-array name="myhomepageMyinfostockage">
+        <item>小学生(半年以内)</item>
+        <item>中学生(半年-2年)</item>
+        <item>大学生(2–10年)</item>
+        <item>老股灰(10年以上)</item>
+    </string-array>
+    <string-array name="squareConcerStockage">
+        <item />
+        <item>小学生</item>
+        <item>中学生</item>
+        <item>大学生</item>
+        <item>老股灰</item>
+    </string-array>
+
+
+    <string-array name="circleWeipanSetting">
+        <item>关闭</item>
+        <item>只允许圈主/管理员</item>
+        <item>允许所有人</item>
+    </string-array>
+
+
+    <!-- 组件市场 -->
+    <string name="app_yixue">绑定益学堂</string>
+    <string name="app_advert">活动区</string>
+    <string name="app_martket">组件市场</string>
+    <string name="finalictmartket">理财超市</string>
+    <string name="app_edit">组件管理</string>
+    <string name="app_more">更多组件</string>
+    <string name="app_detail">组件详细</string>
+    <!-- 好友列表 邀请好友 -->
+    <string name="friend_talking">与TA私聊</string>
+    <string name="friend_add">加为好友</string>
+    <string name="friend_list">好友列表</string>
+    <string name="invite_friend">邀请好友</string>
+    <string name="find_know_friend">可能感兴趣的好友</string>
+    <string name="send_sms">发送短信</string>
+    <!-- 私聊 -->
+    <string name="chat_home">私聊</string>
+    <string name="chat_jion">房间</string>
+
+    <!-- 为访谈开始 -->
+    <string name="send_img_file_not_exist">文件不存在</string>
+    <string name="back">返 回</string>
+    <string name="MySubscription">我订阅的</string>
+    <string name="MyCreate">我创建的</string>
+    <string name="IamGuest">我是嘉宾</string>
+    <string name="guest">嘉宾</string>
+    <string name="guest2">嘉宾:</string>
+    <string name="invite">邀 请</string>
+    <string name="participant">参与者:</string>
+    <string name="acceptInvite">马上开始</string>
+    <string name="columnNameHit">输入栏目名称…</string>
+    <string name="tvEditHit">(请输入1–10位的中文或者英文)</string>
+    <string name="tvColumnInfoHit">栏目介绍:</string>
+    <string name="tvNum">剩余字数：0/140</string>
+    <string name="tvOtherSubscriptioner">点击查看订阅粉丝 >></string>
+    <string name="subscription">订 阅</string>
+    <string name="edit">编 辑</string>
+    <string name="editNoSpace">编辑</string>
+    <string name="findOtherSubscriptioner">订阅粉丝</string>
+    <string name="createNewProgram">创建新节目</string>
+    <string name="emcee">主持人</string>
+    <string name="maxGuest">嘉宾(可以邀请最多三位嘉宾)：</string>
+    <string name="subscriptionNews">订阅新栏目</string>
+    <string name="subscriptionNewColumn">订阅新栏目</string>
+    <string name="search">搜 索</string>
+    <string name="host">热 门</string>
+    <string name="recommend">推荐</string>
+    <string name="friend">好友</string>
+    <string name="searchColumn">查找栏目</string>
+    <string name="subscriptionNum">订阅粉丝数共%1$s人:</string>
+    <string name="textwaring">剩余字数：&lt;font color="Red"  >%1$s&lt;/font>/%2$s</string>
+    <string name="subscriptionOk">订阅成功</string>
+    <string name="unSubscriptionOk">取消订阅成功</string>
+    <string name="unSubscription">退订</string>
+    <string name="addProgram">创建一期新的节目</string>
+    <string name="etProgramName">输入本期话题(1–20个字符)</string>
+    <string name="cancle">取 消</string>
+    <string name="tryListening">试听看看</string>
+    <string name="pressedRecord">按住录音</string>
+    <string name="time">%1$s\&apos;\&apos;</string>
+    <string name="say">我来说说</string>
+    <string name="inputHint">输入栏目名称</string>
+    <string name="columnHead">栏目头像</string>
+    <string name="myIssue">我创建的栏目</string>
+    <string name="recordAgain">重新录音</string>
+    <string name="currBg_huanle">背景音乐：欢乐</string>
+    <string name="currBg_jiezou">背景音乐：节奏</string>
+    <string name="currBg_jidong">背景音乐：激动</string>
+    <string name="currBg_shuqing">背景音乐：抒情</string>
+    <string name="currBg_wu">背景音乐：无</string>
+    <string name="huanle">欢乐</string>
+    <string name="jiezou">节奏</string>
+    <string name="jidong">激动</string>
+    <string name="shuqing">抒情</string>
+    <string name="wu">无</string>
+    <string name="attachMap">附 图</string>
+    <string name="speak">录音</string>
+    <string name="friend_new">新的朋友</string>
+    <string name="kline_cycle_minute_time">分钟线</string>
+    <string name="kline_cycle_date_time">日线</string>
+    <string name="kline_cycle_week_time">周线</string>
+    <string name="kline_cycle_month_time">月线</string>
+    <string name="kline_cycle_minute_5_time">5分钟</string>
+    <string name="kline_cycle_minute_10_time">10分钟</string>
+    <string name="kline_cycle_minute_15_time">15分钟</string>
+    <string name="kline_cycle_minute_30_time">30分钟</string>
+    <string name="kline_cycle_minute_60_time">60分钟</string>
+    <string name="payment_term">收款方式</string>
+    <string name="fix_passwd">修改密码</string>
+    <string name="addfriend">Hi,我是%1$s，快加我为好友一起交流股票吧！</string>
+    <string name="noNamefriend">快加我为好友一起交流股票吧！</string>
+    <string name="friend_home">个人主页</string>
+    <string name="invite_contact">选择邀请人</string>
+    <string name="phone_register">手机注册</string>
+    <string name="register">注册</string>
+    <string name="favorite_main">收藏夹</string>
+    <string name="login_password">忘记密码</string>
+    <string name="friendStock">%1$s的自选</string>
+    <string name="hasAdd">已添加</string>
+    <string name="frdsOfLookThisArticle">看过该文章的好友：</string>
+    <string name="noFrdsOfLookThisArticle">还没有好友看过该文章</string>
+    <string name="intelligentVoice">淘金表哥</string>
+    <string name="settings">设置</string>
+    <string name="modifyUserInfo">修改个人信息</string>
+    <string name="accountManage">账号管理</string>
+    <string name="aboutTaojinlu">关于币吧</string>
+    <string name="myMsg">我的消息</string>
+    <string name="feedback">意见反馈</string>
+    <string name="feedback2">意见反馈 >></string>
+    <string name="feedbackSend">填写意见</string>
+    <string name="selfDescription">自我描述</string>
+    <string name="dateOfBirth">出生日期</string>
+    <string name="city">所在地</string>
+    <string name="occupation">职业</string>
+    <string name="marketRate">给币吧评分</string>
+    <string name="advertAndCooperate">广告与商务合作</string>
+    <string name="welcomepage">欢迎页</string>
+    <string name="noSubscription">该电台暂时没有订阅者</string>
+    <string name="noListener">该电台暂时没有收听者</string>
+    <string name="noIamGuest">您还没有嘉宾节目</string>
+    <string name="issueNoReward">改节目暂未收到打赏</string>
+
+    <!-- 申请认证 -->
+    <string name="applyAddV">申请认证</string>
+    <string name="applyAddVTips">个人认证是对淘金路用户真实身份的确认\n所有认证都是免费的</string>
+    <string name="applyAddVConditionTitle">满足下列基本条件即可申请</string>
+    <string name="applyAddVPrivilegeTitle">认证后你将获得以下特权</string>
+    <string name="applyAddVEnterpriseNeed">企业认证需:</string>
+    <string name="applyAddVPersonalNeed">个人认证需:</string>
+    <string name="applyAddVEnterpriseNeedMaterial">企业认证相关材料</string>
+    <string name="applyAddVPersonalNeedMaterial">个人认证相关材料</string>
+    <string name="applyAddVMark">蓝V认证标志</string>
+    <string name="applyAddVFrdsUnlimited">好友数量无限制</string>
+    <string name="square_publish_tips_toast">请不要频繁发贴,让服务器休息会.</string>
+    <string name="square_publish_tips">%1$s秒后可发表</string>
+    <string name="about_taojinroad">淘金路为您提供一个与熟人股友一起玩股票的私人空间加为好友之后，就能一起玩各种有趣的股票功能和游戏提升水平。\n\n还能每天随时看到朋友在关注什么股票和重要信息。\n\n更重要的是淘金路上所有的功能都是免费的哦！</string>
+    <string name="findResult">查找结果</string>
+    <string name="findFrds">找朋友</string>
+    <string name="saveToSd">保存到手机</string>
+    <string name="editPic">编辑图片</string>
+    <string name="delPic">删除图片</string>
+    <string name="toggle_on">开</string>
+    <string name="toggle_off">关</string>
+    <string name="pushTextFormat">%1$s:00</string>
+    <string name="pushSettings">消息推送设置</string>
+    <string name="brotherSettings">摇一摇设置</string>
+    <string name="stockSettings">刷新频率设置</string>
+    <string name="pushSettingsVoice">声音</string>
+    <string name="pushSettingsVibrate">振动</string>
+    <string name="registFankui">注册不了？给我们反馈>></string>
+    <string name="action_app_market">组件市场</string>
+    <string name="userOfMyConcern">我关注的人</string>
+    <string name="userOfConcernMe">关注我的人</string>
+    <string name="concernMe">关注了我</string>
+    <string name="mySquare">我的贴子</string>
+    <string name="myComment">我的评论</string>
+    <string name="mySquareStore">股友吧收藏夹</string>
+    <string name="concern">关注</string>
+    <string name="userOfUserConcern">TA关注的人</string>
+    <string name="userOfConcernUser">关注TA的人</string>
+    <string name="concernUser">关注了TA</string>
+    <string name="userSquare">TA的贴子</string>
+    <string name="userStore">TA的收藏夹</string>
+    <string name="userInfo">个人资料</string>
+    <string name="taConcernNum">%1$s关注的人：%2$s</string>
+    <string name="ConcernTaNum">关注%1$s的人：%2$s</string>
+    <string name="delConcern">取消关注</string>
+    <string name="concernSuccess">关注成功</string>
+    <string name="concernSuccessRecount">当前还剩下 %1$s 个关注名额</string>
+    <string name="concernCount"> %1$s 人</string>
+    <string name="concernUserByUser"> 关注了%1$s </string>
+    <string name="userconcernBuUser"> %1$s关注的人 </string>
+    <string name="userSquareByUser"> %1$s的贴子 </string>
+    <string name="userStoreByUser"> %1$s的收藏夹 </string>
+    <string name="funs">粉丝</string>
+    <string name="funsNum">%1$s人</string>
+    <string name="reloadText">点击屏幕重新加载</string>
+    <string name="noConcern">您还没关注任何人哦，去广场看看吧\n点击头像可以添加关注</string>
+    <string name="publicSquare">广场</string>
+    <string name="userTag">个人标签</string>
+    <string name="likePeple">感兴趣的人</string>
+    <string name="userNoHeadToast">该用户没有头像</string>
+    <string name="homeMsgHotNewsCount">其他 %1$s 条</string>
+    <string name="homeMsgNP">更多新闻</string>
+    <string name="homeMsgNPR1">更多TA的新闻</string>
+    <string name="homeMsgNPR2">更多TA的公告</string>
+    <string name="homeMsgNPR3">更多TA的研报</string>
+    <string name="homeMsgTalk">更多TA的访谈栏目</string>
+    <string name="homeMsgTl">更多日程</string>
+    <string name="friends">好友</string>
+    <string name="mine">我的</string>
+    <string name="paper_source">转发自 &lt;%1$s&gt;</string>
+    <string name="roadSigns">路牌</string>
+    <string name="interaction">娱乐城</string>
+    <string name="account">账号</string>
+    <string name="roadSignsWithSpace">路 牌</string>
+    <string name="interactionWithSpace">发 现</string>
+    <string name="accountWithSpace">账 号</string>
+    <string name="friendWithSpace">好 友</string>
+    <string name="subcribeRoadSigns">订阅路牌</string>
+    <string name="homeRoadSignsNewCount">%1$s条新</string>
+    <string name="recommendedRoadSigns">推荐路牌</string>
+    <string name="recommendedsubscription">推荐订阅</string>
+    <string name="not">否</string>
+    <string name="yes">是</string>
+    <string name="unSubscribeRoadSignsHint">取消订阅这个路牌?</string>
+    <string name="unSubscribeStockRoadSignsHint">不再关注%1$s?</string>
+    <string name="myStockVertical">更多自选</string>
+    <string name="subscribe">订阅</string>
+    <string name="unSubscribe">取消订阅</string>
+    <string name="myElsePaper">我的其他报纸</string>
+    <string name="addStockAndGetServiceHint">将会得到的服务</string>
+    <string name="deleteStockAndGetServiceHint">您将失去以下服务\n*个股新闻提醒\n*个股公告提醒\n*个股研报提醒\n*个股异动提醒\n*个股金叉死叉提醒\n*个股小道消息提醒</string>
+    <string name="addStockAndGetService">您将得到以下服务\n*个股新闻提醒\n*个股公告提醒\n*个股研报提醒\n*个股异动提醒\n*个股金叉死叉提醒\n*个股小道消息提醒</string>
+    <string name="addStockHint">订阅自选股【%1$s】</string>
+    <string name="deleteStockHint">删除自选股【%1$s】</string>
+    <string name="cancleNoSpace">取消</string>
+    <string name="microinterviews">微电台</string>
+    <string name="newsstandHot">热门</string>
+    <string name="newsstandRecommend">推荐</string>
+    <string name="newsstandMyFriendsPaper">好友</string>
+    <string name="newsstandOrderByTime">最新</string>
+    <string name="newsstandMenu">分类</string>
+    <string name="newsstandSearchPaperHint">搜索报纸</string>
+    <string name="searchBear">搜索结果</string>
+    <string name="investment_0">短线激进型</string>
+    <string name="investment_1">中线波段型</string>
+    <string name="investment_2">长线稳健型</string>
+    <string name="stockage_0">小学生(半年以内)</string>
+    <string name="stockage_1">中学生(半年-2年)</string>
+    <string name="stockage_2">大学生(2–10年)</string>
+    <string name="stockage_3">老股灰(10年以上)</string>
+    <string name="theRequired">(必选)</string>
+    <string name="theRequiredToast">请订阅必选路牌</string>
+    <string name="chat_add">添加成员</string>
+    <string name="budget_detail">收支明细</string>
+    <string name="me">我</string>
+    <string name="myCompents">我的组件</string>
+    <string name="settingCompents">管理组件</string>
+    <string name="addCompents">添加组件</string>
+    <string name="squareComment">看看大家在讨论什么~</string>
+    <string name="wallet">钱包</string>
+    <string name="clause">免责声明</string>
+    <string name="walletHint">\"帮助我的人，我要谢谢你\"\n-钱包功能，敬请期待-</string>
+    <string name="homeNewsNum">(%1$s新)</string>
+    <string name="userSelfdescribtionHint">这个家伙很懒,什么也木有留下!</string>
+    <string name="basicInformation">基本资料</string>
+    <string name="hisFriendscircle">%1$s的动态</string>
+    <string name="hisStock">%1$s的自选股</string>
+    <string name="hisFriend">%1$s的好友</string>
+    <string name="personalitySignature">个性签名</string>
+    <string name="actionSearchUser">搜索用户</string>
+    <string name="searching">搜索中…</string>
+    <string name="searchNoResult">无匹配结果</string>
+    <string name="findSomeoneWhoMightKnow">查找可能感兴趣的人</string>
+    <string name="findUserHint">请输入您的真实手机号码，为您找到可能认识的好友。我们保证，您的手机号码仅作为我们此次功能使用，不涉及其他用途。非常感谢您对淘金路的支持！</string>
+    <string name="post"> 贴子 </string>
+    <string name="addGood">点赞</string>
+    <string name="addStore">收藏</string>
+    <string name="addConcern">关注</string>
+    <string name="mvTabRedString">串红</string>
+    <string name="mvTabHot">热门</string>
+    <string name="mvTabNewest">最新</string>
+    <string name="mvTabMine">我的</string>
+    <string name="mvSearchColumn">搜索电台</string>
+    <string name="redStringIssue">串红节目</string>
+    <string name="redStringColumn">串红电台</string>
+    <string name="hotIssue">热门节目</string>
+    <string name="hotColumn">热门电台</string>
+    <string name="myColumn">我的电台</string>
+    <string name="mySubscribeColumn">我订阅的电台</string>
+    <string name="createOneColumn">创建一个电台</string>
+    <string name="friendColumn">好友的电台</string>
+    <string name="createColumn">创建电台</string>
+    <string name="friendHasNoColumn">你的好友没有创建电台</string>
+    <string name="talkTjrBean">收到的淘金豆：%1$s</string>
+    <string name="editMyTalk">编辑我的电台</string>
+    <string name="editMyTalkName">修改电台名称</string>
+    <string name="editMyTalkInfo">修改电台简介</string>
+    <string name="issueName">本期节目名称</string>
+    <string name="invateGuest">邀请嘉宾</string>
+    <string name="publishIssue">确认发布</string>
+    <string name="rewardSubTitle">向主持人提问,主持人回复此评论后自动打赏</string>
+    <string name="addReward">邀请楼主回复</string>
+    <string name="delTalk">删除电台</string>
+    <string name="delTalkdialogMsg">确定删除电台？</string>
+    <string name="hint">提示</string>
+    <string name="rewardRank">打赏排行</string>
+    <string name="listenNum">收听总数</string>
+    <string name="onlyLookReward">只看悬赏</string>
+    <string name="searchinputHin">请输入你要搜索的电台</string>
+    <string name="issueList">节目列表</string>
+    <string name="noAttachedMap">该节目还没有附图</string>
+    <string name="MyPayDou">我的淘金豆</string>
+    <string name="MyPayIcon">我的路币</string>
+    <string name="MyPayDetail">支付订单</string>
+    <string name="MyPaySetting">钱包设置</string>
+    <string name="PaySetPassword">设置钱包密码</string>
+    <string name="payCashHis">奖金</string>
+    <string name="phone">电话号码</string>
+    <string name="signCardHolder">持卡人</string>
+    <string name="signCardNumber">银行卡号</string>
+    <string name="issueListener">节目收听总数</string>
+    <string name="issueRewardRank">节目打赏排行</string>
+    <string name="addAttach">添加附图</string>
+    <string name="rewardHint">功能尚未开放,敬请期待!</string>
+    <string name="isSubcribeTalk">是否订阅该电台\"%1$s\"?</string>
+    <string name="mvAttach">附图</string>
+    <string name="continueRecord">继续发言</string>
+    <string name="reward">打赏</string>
+    <string name="bill">账单</string>
+    <string name="billhis">账单记录</string>
+    <string name="income_record">收支记录</string>
+    <string name="bonus_record">奖金记录</string>
+    <string name="bonus_recipe">奖金领取</string>
+    <string name="bonus_extract">奖金提取</string>
+    <!--<string user_name="extract_success"  >提取成功</string>
+        <string user_name="extract_fail"  >提取失败</string>-->
+    <string name="withcashHis">提现历史</string>
+    <string name="withcash">提现</string>
+    <string name="hotNewsActivity">活动</string>
+    <string name="relay">转发</string>
+    <string name="startTalk">创建微电台节目</string>
+    <string name="selectedTalk">选择微电台</string>
+    <string name="selectTalkToCreateIssue">选择发起节目的微电台</string>
+    <string name="IssuewithArticle">相关微电台节目</string>
+    <string name="addAccount">添加账户</string>
+    <string name="manageAccount">管理账户</string>
+    <string name="securitiesAccount">证券开户</string>
+    <string name="accountAssistant">开户助手</string>
+    <string name="tuiguang">推广</string>
+    <string name="OpenTuiguang">点击跳转打开</string>
+    <string name="circleMore">更多</string>
+    <string name="party">聚会</string>
+    <string name="Information">资讯</string>
+    <string name="chat">聊天</string>
+    <string name="chatInfo">聊天信息</string>
+    <string name="circle">圈子</string>
+    <!-- 圈子 -->
+    <string name="processing">进行中</string>
+    <string name="ended">已结束</string>
+    <string name="changeImage">更换图片</string>
+    <string name="partyTitle">聚会标题</string>
+    <string name="pleaseInputPartyTitle">请输入聚会主题</string>
+    <string name="paartyDate">聚会日期</string>
+    <string name="paartyTime">聚会时间</string>
+    <string name="pleaseSelectPartyDate">请选择聚会日期</string>
+    <string name="pleaseSelectPartyTime">请选择聚会时间</string>
+    <string name="partyVoucher">餐费券</string>
+    <string name="pleaseSelectVoucher">未选择</string>
+    <string name="comtactMam">联系人</string>
+    <string name="pleaseInputComtactMam">请输入联系人</string>
+    <string name="comtactMethod">联系方式</string>
+    <string name="pleaseInputComtactMethod">请输入联系方式</string>
+    <string name="partyDesc">聚会描述</string>
+    <string name="pleaseInputPartyDesc">请输入聚会描述</string>
+    <string name="failureToGetBGImage">获取背景图片失败</string>
+    <string name="notNullForPartyTitle">聚会标题不能为空</string>
+    <string name="notNullForPartyTime">聚会时间不能为空</string>
+    <string name="partyTitleNotLess4">聚会标题不能少于4个字</string>
+    <string name="partyTitleNotGreater10">聚会标题不能多于10个字</string>
+    <string name="partyTimeMustBigTwo">聚会时间必须大于1天</string>
+    <string name="partyTimeMustBigOld">新的聚会时间必须大于原来的聚会时间</string>
+    <string name="partyTimeMustSmallThirty">聚会时间必须小于30天</string>
+    <string name="notNullForpartyComtactMan">聚会联系人不能为空</string>
+    <string name="notNullForpartyComtactMethod">聚会联系方式能为空</string>
+    <string name="pleaseInputPhoneNum">请输入正确的手机号码!</string>
+    <string name="notNullForpartyDesc">聚会简介不能为空</string>
+    <string name="partyDescNotLess20">聚会简介不能少于20个字</string>
+    <string name="partyDescNotGreater140">聚会简介不能多于140个字</string>
+    <string name="infoflowDetail">资讯详情</string>
+    <string name="infoflow">资讯</string>
+    <string name="publicInfoflow">发表资讯</string>
+    <string name="createParty">创建聚会</string>
+    <string name="createPartySelectLocation">选择地点</string>
+    <string name="editParty">编辑聚会</string>
+    <string name="partyDetail">聚会详情</string>
+    <string name="selectPartyBackground">请选择聚会背景图片</string>
+    <string name="selectVoucher">请选择卡券</string>
+    <string name="noPublicInfoFlow">该圈子还没有发表资讯</string>
+    <string name="infoflowTitleNoNull">资讯标题不能为空</string>
+    <string name="infoflowTitleSoLong">标题字数不能超过25个字</string>
+    <string name="infoflowContentNoNull">资讯内容不能为空</string>
+    <string name="infoflowContentSoLong">资讯内容字数不能超过5000字！</string>
+
+    <string name="uploadImage">上传图片</string>
+    <string name="uploadSuccess">上传成功</string>
+
+    <string name="createCircle">创建圈子</string>
+    <string name="introduceCircleHint">向别人介绍下你的圈子吧，不要谦虚哦</string>
+    <string name="circleNameHint">圈子名称唯一且不可修改，请认真填写</string>
+    <string name="membersApply">成员申请</string>
+    <string name="circleSysNews">系统消息</string>
+    <string name="circleNumber">圈号</string>
+    <string name="circleName">圈名称</string>
+    <string name="circleIntroduction">圈介绍</string>
+    <string name="adress">地点</string>
+    <string name="distance">距离</string>
+    <string name="qrcode">二维码</string>
+    <string name="circleCreateTime">创建日期</string>
+    <string name="circleCreator">圈主</string>
+    <string name="circleManager">管理员</string>
+    <string name="circleMembers">圈成员</string>
+    <string name="InvitecircleMembers">邀请新成员</string>
+    <string name="editCircle">编辑圈简介</string>
+    <string name="managerMembers">管理圈成员</string>
+    <string name="circleTop">置顶</string>
+    <string name="unselectedCircleTop">未选择置顶</string>
+    <string name="circleNewsSetting">圈消息推送提醒设置</string>
+    <string name="circleRecommendRemind">推荐提醒</string>
+    <string name="circlePartyRemind">聚会提醒</string>
+    <string name="circleChatRemind">聊天提醒</string>
+    <string name="circleTradeRemind">交易服务提醒</string>
+    <string name="circleInformationRemind">资讯提醒</string>
+    <string name="circleMatchRemind">比赛提醒</string>
+    <string name="circleSettings">圈设置</string>
+    <string name="exitCircle">退出圈子</string>
+    <string name="circleSetTop">设置置顶</string>
+
+    <string name="group">组合</string>
+    <string name="stock">自选股</string>
+    <string name="photo">照片</string>
+    <string name="takePicture">拍照</string>
+
+    <string name="delete">取消聚会</string>
+    <string name="sureCancel">确定取消</string>
+    <string name="moreAction">. . .</string>
+    <string name="joinPartyMenber">参加聚会的成员</string>
+    <string name="retryAgain">请稍后重试</string>
+    <string name="parameterError">参数错误</string>
+
+
+    <string name="editCircleRoomName">圈聊名称</string>
+    <string name="circleMembersDynamicAnalysis">成员动态分析</string>
+    <string name="startParty">发起聚会</string>
+    <string name="startGame">发起比赛</string>
+
+
+    <string name="circleComputerServerManager">电脑后端管理</string>
+    <string name="circleWorkSpace">工作区</string>
+    <string name="editCircleTopic">编辑圈聊名称</string>
+    <string name="editCircleName">更改圈名称</string>
+
+    <string name="allowApply">同  意</string>
+    <string name="refuseApply">拒  绝</string>
+    <string name="circleCreater">圈主</string>
+    <string name="circleAdmin">管理员</string>
+
+    <string name="circleNoPartyHintIfIsAdmin">圈子还没有聚会,点击创建</string>
+    <string name="circleNoPartyHint">圈子还没有聚会</string>
+    <string name="circleNoFlowHintIfIsAdmin">圈子还没有资讯,点击创建</string>
+    <string name="circleNoFlowHint">圈子还没有资讯</string>
+
+    <string name="searchHint">输入圈号搜索</string>
+    <string name="nearby">附近</string>
+    <string name="noCircle">您还没有创建/加入圈子</string>
+    <string name="searchCircleHint">输入圈号搜索</string>
+    <string name="searchFriendHint">好友搜索</string>
+    <string name="nearbyCircle">附近圈子</string>
+
+    <string name="circleSearchNoResult">没有搜索结果</string>
+    <string name="circleNearbyNone">附近暂时没有圈子</string>
+    <string name="circleRecommendNone1">暂无推荐圈子</string>
+    <string name="weipanNoSubcribe1">您还没有订阅</string>
+    <string name="weipanNoSubcribe2">点击右上方按钮添加订阅吧</string>
+    <string name="circleRecommendNone2">添加/修改个人标签为您推荐</string>
+    <string name="editTags">前往添加/修改 >> </string>
+
+
+    <string name="circleApplyJoinTitle">申请加入圈子</string>
+    <string name="sendTo">发送到</string>
+
+    <string name="circleAlreadyApply">已申请,等待管理员通过</string>
+
+    <string name="circleAge">圈年龄</string>
+    <string name="circleredit">信用</string>
+
+    <string name="circleFavorableComment">好评</string>
+    <string name="circleBadReview">差评</string>
+    <string name="circleAverage">中评</string>
+
+    <string name="circleSeeAllComments">查看所有评论</string>
+    <string name="circleComments">评价</string>
+
+    <string name="circleAnonymous">匿名</string>
+
+    <string name="circleMsg">圈消息</string>
+    <string name="circleFoodList">餐费券</string>
+    <string name="circleCardList">卡券</string>
+    <string name="circleGameList">游戏券</string>
+    <string name="circleExpFoodList">过期券</string>
+
+    <string name="circleSysMsg">圈系统消息</string>
+    <string name="circlePartyMsg">聚会消息</string>
+
+
+    <string name="circlePublishCommentHint">写点评价吧(写够15字，股票天天涨)</string>
+
+    <string name="circleReplyComment">回复评价</string>
+
+    <string name="circleReplyCommentHint">回复评价(不能超过140个字符)</string>
+
+
+    <string name="searchCircleByNo">输入圈号搜索</string>
+    <string name="searchCircleBy2Code">扫二维码加入圈子</string>
+    <string name="searchCircle">搜索圈子</string>
+
+    <string name="searchStock">搜索股票</string>
+
+    <string name="synRadioToCircle">同步到圈子</string>
+    <string name="receiveImageFailure">获取图片失败</string>
+    <string name="pleaseSelectImage">请选择图片后上传!</string>
+    <string name="upload">上传</string>
+    <string name="circleNoParty">该圈子还没有创建聚会</string>
+    <string name="sureCancelParty">确定取消聚会？</string>
+    <string name="sureDeletePartyImage">确定删除聚会图片？</string>
+    <string name="sureDeleteInfoflow">确定删除资讯？</string>
+    <string name="sureDelete">确定删除</string>
+    <string name="deleteSuccess">删除成功</string>
+    <string name="signSuccess">恭喜您，报名成功！</string>
+    <string name="signFailure">报名失败，请重试！</string>
+
+    <string name="alreadyInCircle">你已经在该圈子</string>
+
+    <string name="selectCircle">选择圈子</string>
+
+    <string name="circleSearchMember">搜索成员</string>
+
+    <string name="friendDynamic">好友动态</string>
+    <string name="directMessage">私聊</string>
+    <string name="circleLuckly">积分奖励</string>
+    <string name="circleGiftHis">领取记录</string>
+
+    <string name="circleGame">比赛</string>
+
+    <string name="circle_game_fdm_count">本次比赛必须%1$s只股票出战</string>
+
+    <string name="aboutCircle">关于圈子</string>
+    <string name="bindBankCard">绑定银行卡</string>
+    <string name="bindName">实名认证</string>
+    <string name="resetBankCard">修改银行卡</string>
+    <string name="resetPhone">修改手机号</string>
+    <string name="balance">余额</string>
+    <string name="resetSecurtyPassword">找回钱包密码</string>
+
+
+    <string name="newtimesecurities">新时代证券</string>
+    <string name="newtimesecurities_en">New Times Securities</string>
+
+    <string name="accountType">账户类型</string>
+    <string name="selectAccountType">选择账户类型</string>
+    <string name="newtimesAccount">账&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;号</string>
+    <string name="newtimesTradePassword">交易密码</string>
+
+    <string name="newtimesAccountHint">请输入账号</string>
+    <string name="newtimesTradePasswordHint">请输入交易密码</string>
+
+    <string name="newtimesTradePasswordForget">忘记交易密码 ></string>
+    <string name="newtimesRegister">没有账户,我要开户 ></string>
+
+
+    <string name="tradeFiveSpeed">五档</string>
+    <string name="tradeThereSpeed">比价助手</string>
+    <string name="tradeInfo">明细</string>
+    <string name="bindNewTimes">新时代证券</string>
+
+
+    <string name="tradeBuy">买入</string>
+    <string name="tradeSell">卖出</string>
+    <string name="tradeKillAnOrder">撤单</string>
+
+    <string name="tradeStockAssets">新时代证券</string>
+
+    <string name="tradeQueryCommission">订单查询</string>
+
+    <string name="tradeQueryTodayCommission">今日订单</string>
+
+    <string name="tradeQueryHistoryCommission">历史订单</string>
+
+    <string name="tradeQueryTransaction">成交查询</string>
+
+    <string name="tradeQuerycapital">资金查询</string>
+    <string name="tradeQueryTransferOfBankCard">银证转账</string>
+    <string name="tradeStartTime">起始日期</string>
+    <string name="tradeNotice">起始日起7天</string>
+    <string name="tradeEndTime">截止日期</string>
+
+    <string name="tradeQueryTodayTransaction">今日成交</string>
+    <string name="tradeQueryHistoryTransaction">历史成交</string>
+
+    <string name="tradeBankCard2Transfer">转入到证券</string>
+    <string name="tradeTransfer2BankCard">转入到银行</string>
+
+    <string name="tradeIn">充值</string>
+    <string name="tradeOut">提现</string>
+
+    <string name="tradeTransferRecord">转账记录</string>
+
+    <string name="beansMall">金豆商城</string>
+
+    <string name="circle_kline_pk">k线单挑</string>
+    <string name="circle_kline_box">k线宝箱</string>
+    <string name="circleChatDefault">暂不支持查看该类型,请升级到最新版本</string>
+
+    <string name="circleDefaultAdress">这个圈子来自火星</string>
+
+    <string name="tjrAdvertCooperateTip">如有商务合作意向,请发邮件至</string>
+    <string name="tjrEmail">hz@redflea.com</string>
+
+
+    <string name="article">文章</string>
+    <string name="circleOnlineCount">在线:%1$s</string>
+    <string name="lottery">抽奖</string>
+
+    <string name="lotteryByTjrDou">淘金豆抽奖</string>
+    <string name="mall">道具</string>
+
+    <string name="lotteryHistory">记录</string>
+    <string name="giftInfo">奖品详情</string>
+
+    <string name="receiptAddressRegister">收货信息登记</string>
+
+    <string name="modifyAddressRegister">修改收货信息</string>
+
+    <string name="paySetting">钱包设置</string>
+
+    <string name="luckyTip">淘金豆商城</string>
+
+    <string name="myHoldStock">我的持仓股</string>
+    <string name="tradeCheck">输入密码</string>
+    <string name="circleHostTag">圈主标签：</string>
+
+    <string name="microDisk">商品</string>
+
+    <string name="microDiskTitle">银镍</string>
+    <string name="microDiskTitle2">银镍:</string>
+
+    <string name="microDiskSubTitle">广东省贵金属交易中心提供</string>
+    <string name="prodLogin">商品登录</string>
+    <string name="weipanHold">我的资产</string>
+
+
+    <string name="tradeLogout">退出登录</string>
+
+    <string name="tradeHoldInfo">持仓详情</string>
+
+    <string name="weipanOrderInfo">订单详情</string>
+    <string name="weipanFollowRecord">参考记录</string>
+    <string name="weipanCoupon">体验券</string>
+    <string name="weipanUserAccount">个人账户</string>
+
+    <string name="weipanTractionInfo">盈亏记录</string>
+    <string name="weipanCapitalFlow">收支明细</string>
+
+    <string name="weipanAccountBalance">账户余额</string>
+    <string name="weipanRegist">商品注册</string>
+
+    <string name="weipanRecharge">充值</string>
+
+    <string name="weipanWithdraw">提现</string>
+    <string name="weipanNewsList">商品资讯</string>
+    <string name="weipanSubscribe">我的订阅</string>
+    <string name="weipanInviteReward">邀请奖励</string>
+    <string name="weipanInviteNoRewardCode">暂无奖励码</string>
+    <string name="weipanRank">高手排行</string>
+    <string name="weipanProfit">准确率</string>
+    <string name="weipanProfitValue">盈利金额</string>
+    <string name="circleJoin">加入的圈子</string>
+    <string name="radioOrder">订阅的微电台</string>
+    <string name="paperOrder">订阅的报纸</string>
+    <string name="sendLuckyBox">发淘金豆宝箱</string>
+    <string name="LuckyBox">淘金豆宝箱</string>
+
+    <string name="weipanCouponRule">1、体验券必须在有效时间内使用；\n2、体验券只能在建仓交易时使用；\n3、使用体验券建单时，无需支付手续费；\n4、使用体验券建单时，订单手数必须和体验券的数量一致；\n5、已使用体验券的订单平仓时，盈利，则盈利部分归用户，亏损，则用户无任何损失</string>
+    <string name="weipanOrderCreateSuccessTip">建仓价:%1$s\n订单编号: %2$s\n时间: %3$s\n\n请设置止盈价或者止损价，以控制您的风险.</string>
+
+    <string name="weipanAutoCloseTip">* 如果订单在结算时间(凌晨04:00)前还未平仓,将会被强行平仓</string>
+
+    <string name="weipanUserOrderHistory">操作记录</string>
+    <string name="reportAcc">投诉用户</string>
+    <string name="inputBoxNum">输入宝箱数量</string>
+    <string name="inputBeanNum">输入金豆金额</string>
+    <string name="bean">淘金豆</string>
+
+    <string name="clearCircleChat">清除聊天记录</string>
+    <string name="sendRewardCode">发送您的奖励码</string>
+
+    <string name="residualMallGoods">还剩下 &lt;font color=%1$s>%2$s&lt;/font> 个%3$s</string>
+    <string name="what_kind_of_goods">用户可以通过夺宝获得什么？></string>
+
+    <string name="involvedNum">已参与人数</string>
+    <string name="remaindNum">剩余人数</string>
+    <string name="changeIndexChart">更改指数图</string>
+    <string name="manageStock">自选股管理</string>
+    <string name="ignoreMsg">忽略这条消息</string>
+    <string name="msg2Top">置顶这条消息</string>
+    <string name="cancelMsg2Top">取消置顶</string>
+    <string name="commonCompentsSetting">常用组件管理</string>
+    <string name="suspension">停牌</string>
+    <string name="bullish">看涨</string>
+    <string name="bearish">看跌</string>
+
+    <!-- 优品黄金 -->
+    <string name="upgoldtitle">黄金</string>
+    <string name="hisOrder">历史订单</string>
+    <string name="totalAssets">总资产</string>
+    <string name="yuan">元</string>
+    <string name="availableCash">可买现金</string>
+    <string name="positionMargin">持仓保证金</string>
+    <string name="freezeFunds">冻结资金</string>
+    <string name="totalEarning">当日盈亏</string>
+    <string name="myPosition">我的持仓</string>
+    <string name="myAssets">我的资产</string>
+    <string name="currentExchange">今日成交</string>
+    <string name="historyExchange">历史成交</string>
+    <string name="matchAmt">成交量</string>
+    <string name="matchPrice">成交价</string>
+    <string name="buyRise">买涨</string>
+    <string name="sellFall">买跌</string>
+    <string name="closeWarehouse">平仓</string>
+    <string name="upgold_price">价格(元)</string>
+    <string name="upgold_profit_loss">预计盈亏:</string>
+    <string name="upgold_total">总  额</string>
+    <string name="upgold_formula">(价格*手)</string>
+    <string name="upgold_cov">手续费:</string>
+    <string name="upgold_cov_1">手续费</string>
+    <string name="upgold_margin">保证金</string>
+    <string name="upgold_sure">确认平仓</string>
+    <string name="spotTrading">现货交易</string>
+    <string name="goldTrading">黄金交易</string>
+    <string name="currTransfer">今日转账</string>
+    <string name="hisTransfer">历史转账</string>
+    <string name="personalAccount">个人账户</string>
+    <string name="bankTransfer">银行转账</string>
+    <string name="transfer">转账</string>
+    <string name="daySettlement">每日结算</string>
+    <string name="UPGoldNews">黄金资讯</string>
+    <string name="numAndAlpha">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="UPGoldReference">黄金内参</string>
+    <string name="UPGoldRecommend">黄金投顾</string>
+    <string name="UPGoldVIP">淘金VIP</string>
+    <string name="event">大事件</string>
+
+
+    <!--黄金体验盘-->
+    <string name="gold_exp_title">黄金体验盘</string>
+    <string name="gold_exp_income_record">体验券盈亏记录</string>
+    <string name="gold_exp_my_tickets">我的体验券</string>
+    <string name="gold_exp_withdraw">领取奖金</string>
+    <string name="money_lowercase">奖金(元)</string>
+    <string name="money_uppercase">奖金大写(元)</string>
+    <!--<string user_name="all_turn_out"  >全部领取</string>-->
+    <string name="withdraw_record">领取记录</string>
+    <string name="withdraw_2_wallet">领取奖金到钱包</string>
+    <!--<string user_name="input_amount"  >输入领取金额</string>-->
+    <!--<string user_name="can_withdraw"  >可领取:</string>-->
+    <!--<string user_name="withdraw_amount"  >领取金额</string>-->
+    <string name="withdraw_success">领取成功</string>
+    <string name="withdraw_fail">领取失败</string>
+
+
+    <!--下面是新加的-->
+    <string name="home_tab_mycard">关注</string>
+    <string name="home_tab_news">资讯</string>
+    <string name="home_tab_activity_money">活动金</string>
+    <string name="home_tab_market">跳蚤市场</string>
+    <string name="home_tab_account">账户</string>
+    <string name="contract">合约</string>
+    <string name="home_tab_circle">圈子</string>
+    <string name="myscard_name_fdm">艺人/代码</string>
+    <string name="myscard_zjcj">现价(元/张)</string>
+    <string name="follow_add">添加红人卡</string>
+    <string name="follow_add_ps">收藏时下最流行的红人卡,分享\n红人经济!</string>
+    <string name="follow_add_description">在“红跳蚤”，红人卡可购买、转让，除了获得红人卡销售的到期分红包之外，还能兑换挚爱红人对你祝福、为你定制才艺表演,甚至出席你公司商业演出！</string>
+
+    <!--价格(有效价格 <font color="#ff4f12"  >%1$s</font> - <font color="#ff4f12"  >%2$s</font>)-->
+    <!--<string user_name="effective_price_domain"  >价格(有效价格 &lt;font color="#ff4f12"  >%1$s&lt;/font> - &lt;font color="#ff4f12"  >%2$s&lt;/font>)</string>-->
+    <string name="effective_price_domain_orange">价格(有效价格 &lt;font color="#fe3f26"  >%1$1.2f - %2$1.2f&lt;/font>)</string>
+    <string name="effective_price_domain_green">价格(有效价格 &lt;font color="#1ec590"  >%1$1.2f - %2$1.2f&lt;/font>)</string>
+
+    <string name="bestBuy1price">价格(最优价为买①价)</string>
+    <string name="bestSell1price">价格(最优价为卖①价)</string>
+
+
+    <!--<string user_name="effective_price_domain_green"  >价格(有效价格 &lt;font color="#1ec590"  >%1$1.2f&lt;/font> - &lt;font color="#1ec590"  >%2$1.2f&lt;/font>)</string>-->
+
+
+    <string name="buy_max_amount">最大可买入 &lt;font color="#fe3f26"  > %1$s &lt;/font> 张</string>
+
+    <string name="sell_max_amount">最大可卖出 &lt;font color="#1ec590"  > %1$s &lt;/font> 张</string>
+
+    <string name="borrow_max_amount">最大可借卡 &lt;font color="#1ec590"  > %1$s &lt;/font> 张</string>
+
+    <string name="back_max_amount">最大可还卡 &lt;font color="#fe3f26"  > %1$s &lt;/font> 张</string>
+
+
+    <string name="home_tab_hot">热门</string>
+    <string name="home_tab_face">颜值</string>
+    <string name="home_tab_game">电竞</string>
+    <string name="home_tab_show">才艺</string>
+    <string name="entrustToday">未完成订单</string>
+    <string name="orderQuery">订单查询</string>
+    <string name="entrustHistory">历史订单</string>
+    <string name="orderHistory">历史订单</string>
+    <string name="orderToday">今日订单</string>
+    <string name="rateRanking">人气榜</string>
+    <string name="worthRanking">市值榜</string>
+    <string name="home_market_more">更多</string>
+    <string name="trading">有订单处理中>></string>
+    <string name="olstar_name_code">红人名称/代码</string>
+    <string name="buy_amount">买入量</string>
+    <string name="pay_2_buy_up">支付 — 元买涨</string>
+    <string name="pay_2_buy_down">支付 — 元买跌</string>
+    <string name="pay_2_buy">支付 — 元购买</string>
+
+    <string name="sell">转让</string>
+    <string name="can_use_cash">可买现金:—元</string>
+    <string name="home_olstar_trade_buy_sell_fare">手续费:%1$s元(参考)</string>
+    <string name="home_olstar_trade_sell_rent">借卡租金:%1$s元(参考)</string>
+    <string name="buy">购买</string>
+    <string name="confirm_sell">确认转让</string>
+    <string name="confirm_buy">确认购买</string>
+    <string name="pay_amount">支付金额</string>
+    <string name="final_pay_amount">实付金额:</string>
+    <string name="newcardPanicBuying">新卡抢购</string>
+    <string name="businessToday">今日成交</string>
+    <string name="businessHistory">历史成交</string>
+    <string name="announce">公告</string>
+    <string name="holdDetails">持卡明细</string>
+
+    <string name="bingBankCard">绑定银行卡</string>
+
+
+    <string name="home_orderQuery">订单查询</string>
+    <string name="home_businessHistroy">成交查询</string>
+    <string name="home_newcardPrivilege">新卡特权</string>
+    <string name="home_bankcardInOut">充值退款</string>
+
+    <string name="secKill">秒杀红人卡</string>
+    <string name="product_second_kill">商品秒杀</string>
+
+    <string name="home_exchange">兑换提货</string>
+    <string name="login">登录</string>
+
+
+    <string name="manage_delivery_address">管理收货地址</string>
+
+    <string name="add_delivery_address">添加收货地址</string>
+
+
+    <string name="publish_redolstarcard">申请发行红人卡</string>
+    <string name="redCardARScanning">红人卡AR扫描</string>
+    <string name="edit_address">编辑地址</string>
+
+    <string name="confirm_pick_up">确认提货</string>
+
+
+    <string name="pick_up">提货</string>
+    <string name="exchange">兑换</string>
+
+
+    <string name="submit_information">提交信息</string>
+
+    <string name="i_will_publish_card">我要发红人卡</string>
+
+    <string name="pick_up_count">提货数量(可提货 &lt;font color="#fe3f26"  >%1$s&lt;/font>张)</string>
+    <string name="confirm_exchange">确认兑换</string>
+
+    <string name="publish_dyn">发表动态</string>
+
+
+    <string name="record">历史记录</string>
+    <string name="mytickets">我的本金券</string>
+
+    <string name="used">已失效</string>
+
+    <string name="takeRecord">领取记录</string>
+
+
+    <string name="qustionAnswer">问答</string>
+    <string name="da_v_qustionAnswer">大V问答</string>
+
+    <string name="mogul">大佬说</string>
+
+    <string name="bi_real_text">฿</string>
+
+    <string name="hotQuestion">热门问题</string>
+    <string name="hotAnswer">高分回答</string>
+
+
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_up_refresh_refreshing_label">上拉加载更多…</string>
+    <string name="pull_to_up_refresh_release_label">放开加载更多…</string>
+    <string name="pull_to_up_refresh_success_label">刷新成功</string>
+
+    <string name="auto_load_more_initialise_label">松手加载</string>
+    <string name="auto_load_more_loading_label">正在加载更多…</string>
+    <string name="auto_load_more_fail_label">加载失败,点击重新加载</string>
+    <string name="auto_load_more_complete_label">已加载全部</string>
+    <string name="auto_load_more_nodata_label">暂无数据</string>
+    <string name="auto_load_more_full">点击查看全部评论</string>
+
+    <!-- 下拉刷新最后刷新时间 -->
+    <string name="last_updateTime">最后更新: %1$s</string>
+
+    <string name="project_order_manager">项目订单管理</string>
+
+    <string name="transaction_query">REDZ⇋TOKA兑换查询</string>
+    <string name="my_entrust">待处理委托</string>
+    <string name="my_history_entrust">历史委托</string>
+    <string name="my_business_list">完成明细</string>
+
+    <string name="payPassword">支付密码</string>
+
+    <string name="modifyPayPassword">修改交易密码</string>
+
+    <string name="setPayPassword">设置交易密码</string>
+
+    <string name="identityAuthen">实名认证</string>
+
+    <string name="bindEmail">绑定邮箱</string>
+
+    <string name="addTips">请确认您所填写的项目信息，一旦上架，该项目的编辑功能将受限(标题，价格，份数等，订阅类型除外)，以及该项目将无法删除及下架，是否继续？</string>
+
+    <string name="projectBusinessHistory">最新交易记录</string>
+
+    <string name="app_zhcn_name">环球数字资产交易平台</string>
+    <string name="app_full_name">Worldwide Coin Trade（环球数字资产交易平台）</string>
+    <string name="label_receive_activity">提交</string>
+    <string name="hint_password_number">请输入至少6位密码</string>
+    <string name="userBriefHint">这个人很懒，未留下任何东西…</string>
+    <string name="digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+    <string name="digits2">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="home_title">LOGO</string>
+    <string name="bigv">大V</string>
+    <string name="email_phone">Email or Phone</string>
+    <string name="email">Email</string>
+
+
+    <string name="test">多语言测试</string>
+    <string name="languageset">多语言设置</string>
+    <string name="followSystem">跟随系统</string>
+
+    <string name="userProtocol">《用户服务协议》</string>
+    <!--<string name="privacyProtocol"  >《刻币跟单软件隐私政策》</string>-->
+    <string name="circleRule">《BITC软件圈主规则》</string>
+    <string name="label_login_activity">登录</string>
+    <string name="label_signup_activity">注册</string>
+    <string name="label_phone_number">手机号码</string>
+    <string name="hint_phone_number">请输入电话号码</string>
+    <string name="label_verify_code">短信验证码</string>
+    <string name="hint_verify_code">输入验证码</string>
+    <string name="btn_verify_code">获取验证码</string>
+    <string name="label_password_number">密码</string>
+    <string name="label_password_confirm">确认密码</string>
+    <string name="hint_paassword_confirm">请重新输入密码</string>
+    <string name="label_forget_password">忘记密码</string>
+    <string name="qushezhi">去设置</string>
+    <string name="qushimingrenzheng">去实名认证</string>
+    <string name="chaoguozuidabeishu">超过最大倍数:</string>
+    <string name="qutianjiashoukuanfangshi">去添加收款方式</string>
+    <string name="jiaoyijilu">交易记录</string>
+    <string name="guojiqihuojiaoyijilu">国际期货交易记录</string>
+    <string name="waihuijiaoyijilu">外汇交易记录</string>
+    <string name="shuzihuobigendanjiaoyijilu">数字货币跟单交易记录</string>
+    <string name="guojiqihuogendanjiaoyijilu">国际期货跟单交易记录</string>
+    <string name="waihuigendanjiaoyijilu">外汇跟单交易记录</string>
+    <string name="xuanzejiaoyileixing">选择交易类型</string>
+    <string name="gendandaoshi">跟单导师:</string>
+    <string name="chakandaoshi">查看导师</string>
+
+    <string name="xinbishengou" translatable="false">新币申购</string>
+    <string name="shuruzhengjianxinxi" translatable="false">输入证件信息</string>
+    <string name="qingshuruzhengjianhaoma" translatable="false">请输入证件号码</string>
+    <string name="huzhao" translatable="false">护照</string>
+    <string name="shenfenzheng" translatable="false">身份证</string>
+    <string name="shangchuanzhengjianzhaopian" translatable="false">上传证件照片</string>
+    <string name="shangchuanzhengjianzhengmian" translatable="false">上传证件正面</string>
+    <string name="shangchuanzhengjianfanmian" translatable="false">上传证件反面</string>
+    <string name="zijinzhanghu" translatable="false">资金账户</string>
+    <string name="jiaoyizhanghu" translatable="false">交易账户</string>
+    <string name="qiehuanyuyan" translatable="false">切换语言</string>
+    <string name="tuichudenglu" translatable="false">退出登录</string>
+
+    <string name="zhangfubang">涨幅榜</string>
+    <string name="diefubang">跌幅榜</string>
+    <string name="yijiangendanwuxudingpan">一键跟单，无需盯盘</string>
+    <string name="jinruotcshichang">进入OTC市场</string>
+    <string name="waihuizhanghu">外汇账户</string>
+    <string name="youxianghuoshoujihao">邮箱或手机</string>
+    <string name="youxiang">邮箱</string>
+    <string name="shangchuanchongzhijietu">点击此处\n上传充值截图</string>
+    <string name="chongzhi2">充值</string>
+    <string name="tijiao">提交</string>
+    <string name="chongzhiwangluo">充值网络</string>
+    <string name="tibierweima">提币二维码</string>
+    <string name="shangchuantibierweima">点击此处上传\n提币二维码</string>
+    <string name="gendandongjiezichan">跟单冻结资产</string>
+    <string name="zhangdieyanse">涨跌颜色</string>
+    <string name="lvzhanghongdie">绿涨红跌</string>
+    <string name="hongzhanglvdie">红涨绿跌</string>
+    <string name="shezhichenggong">设定成功</string>
+
+
+
+
+</resources>

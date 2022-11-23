@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llItem0"
+    android:layout_width="match_parent"
+    android:layout_height="70dip"
+    android:background="@drawable/xml_compents_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip">
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="0dip"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_vertical">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvSymbol"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="@dimen/font_size_18"-->
+    <!--android:textColor="@color/c3d3a50"-->
+    <!--android:textStyle="bold"-->
+    <!--android:text="&#45;&#45;"/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/tvName"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="@dimen/font_size_14"-->
+    <!--android:textColor="@color/cbebebe"-->
+    <!--android:layout_marginTop="3dip"-->
+    <!--android:text="&#45;&#45;"/>-->
+    <!--</LinearLayout>-->
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:minWidth="100dip"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tvXuhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginEnd="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/c1d3155"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp" />
+        <LinearLayout
+            android:id="@+id/llSymbol"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tvXuhao"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/tvXuhao">
+
+            <com.bitcnew.widgets.CircleImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/ic_account_chat"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/tvSymbol"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:text="BTC"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_16"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvSubSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/llSymbol"
+            android:layout_alignBottom="@+id/llSymbol"
+            android:layout_toEndOf="@+id/llSymbol"
+            android:layout_toRightOf="@+id/llSymbol"
+            android:layout_marginLeft="3dip"
+            android:text=""
+            android:textColor="@color/c666175ae"
+            android:textSize="@dimen/font_size_10" />
+
+        <TextView
+            android:id="@+id/tvTips"
+            android:layout_width="32dip"
+            android:layout_height="15dip"
+            android:layout_alignBottom="@+id/tvSubSymbol"
+            android:layout_toEndOf="@+id/tvSubSymbol"
+            android:layout_toRightOf="@+id/tvSubSymbol"
+            android:background="@drawable/shape_mark_tips_bg"
+            android:gravity="center"
+            android:layout_marginLeft="5dip"
+            android:text="@string/huobi"
+            android:textColor="@color/c666175ae"
+            android:textSize="@dimen/font_size_9"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tvSymbolName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llSymbol"
+            android:layout_toEndOf="@+id/tvXuhao"
+            android:layout_marginTop="5dip"
+            android:text="--"
+            android:textColor="@color/c666175ae"
+            android:textSize="@dimen/font_size_11"
+            android:layout_toRightOf="@+id/tvXuhao" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="20dp"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/c1d3155"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv24H"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/c666175ae"
+            android:textSize="@dimen/font_size_12" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tvRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="80dip"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_14"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

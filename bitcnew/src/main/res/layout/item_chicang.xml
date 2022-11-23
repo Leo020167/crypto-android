@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/xml_compents_bg"
+    android:orientation="vertical"
+    android:padding="15dip">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/bizhong"
+            android:textColor="@color/c999999"
+            android:textSize="@dimen/font_size_14"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/shuliangjiakeyong"
+            android:gravity="center"
+            android:textColor="@color/c999999"
+            android:textSize="@dimen/font_size_14"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/chengben"
+            android:gravity="center"
+            android:textColor="@color/c999999"
+            android:textSize="@dimen/font_size_14"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="@string/yingkui"
+            android:textColor="@color/c999999"
+            android:textSize="@dimen/font_size_14"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/tvSymbol"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="----"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvHand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:gravity="center"
+                android:textColor="@color/c3d3a50"
+                android:textSize="@dimen/font_size_16"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvHand2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:gravity="center"
+                android:textColor="@color/c3d3a50"
+                android:textSize="@dimen/font_size_16"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_chengben"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="--"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_yingkui"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="----"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

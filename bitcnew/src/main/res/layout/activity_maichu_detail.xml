@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".module.home.MaichuDetailActivity">
+
+    <include layout="@layout/toolbar" />
+
+
+    <TextView
+        android:id="@+id/txt_Symbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text=""
+        android:textColor="@color/c3d3a50"
+        android:textSize="@dimen/font_size_30"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yingkui"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+
+        <TextView
+            android:id="@+id/txt_Yingkui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="----"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chengben"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+
+        <TextView
+            android:id="@+id/txt_Chengben"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="----"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maichujiage"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+
+        <TextView
+            android:id="@+id/txt_Maichujiage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="----"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maichushuliang"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+
+        <TextView
+            android:id="@+id/txt_Maichushuliang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="----"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shouxufei"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+
+        <TextView
+            android:id="@+id/txt_Shouxufei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="----"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shijian"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+
+        <TextView
+            android:id="@+id/txt_Shijian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="----"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_14" />
+    </LinearLayout>
+
+</LinearLayout>

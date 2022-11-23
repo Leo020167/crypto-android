@@ -1,0 +1,2611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FireUp</string>
+    <string name="xuanzezhanghu">アカウントを選択</string>
+    <string name="queding">確認</string>
+    <string name="ninmuqiandeyouxiangshi">現在のメールボックスは%s，それを更新したいですか?</string>
+    <string name="qingshuruyouxiang">メールボックスを入力してください</string>
+    <string name="fasongyanzhengma">認証コードを送信</string>
+    <string name="qingshuruxinyouxiang">新しいメールボックスを入力してください</string>
+    <string name="yanzhengmayifasongzhi">認証コードは、までに送信されました</string>
+    <string name="qingshuruyouxiangyanzhengma">メールボックスの認証コードを入力してください</string>
+    <string name="xiayibu">次へ</string>
+    <string name="quanziid">(サイクルID:%s)</string>
+    <string name="jianjie">入門:</string>
+    <string name="wenzhang">記事</string>
+    <string name="gongpian">共%s編</string>
+    <string name="jiemu">プログラム</string>
+    <string name="gongge">総%s個</string>
+    <string name="gongmingchengyuan">総%sメンバー</string>
+    <string name="yaoqing">招待</string>
+    <string name="xinshenqingjiaru">新規登録</string>
+    <string name="shezhiqunjiarufangshi">グループ参加の設定</string>
+    <string name="kaitongvip">VIPを開始</string>
+    <string name="xiaoximiandarao">メッセージを無視</string>
+    <string name="jinzhichengyuanfayan">メンバの発言を禁止</string>
+    <string name="guanliheimingdan">ブラックリストの管理</string>
+    <string name="qingkongliaotianneirong">チャットの内容を空にする</string>
+    <string name="tuichuquanzi">圏外</string>
+    <string name="shenqingjiaru">参加を申し込む</string>
+    <string name="fengmianbeijing">カバー背景</string>
+    <string name="shangchuanquanzitouxiang">サークルアバターをアップロード</string>
+    <string name="quanzimingzi">サークル名</string>
+    <string name="shuruquanzimingzi">サークル名を入力</string>
+    <string name="quanzijianjie">サークル概要</string>
+    <string name="shuruquanzijianjie">入力サークルの概要</string>
+    <string name="quedingchuangjian">作成します</string>
+    <string name="daili">エージェント</string>
+    <string name="chengweidaili">プロキシになる</string>
+    <string name="shenhezhong">監査中</string>
+    <string name="quanbuyongjinusdt">すべてのコミッション(USDT)</string>
+    <string name="xinzengkehushuren">新規顧客数（人）</string>
+    <string name="zuorixinzeng">昨日追加</string>
+    <string name="jinrixinzeng">本日追加</string>
+    <string name="fanyongjineusdt">リベート金額(USDT)</string>
+    <string name="kehujiaoyieusdt">顧客取引(USDT)</string>
+    <string name="weilebaozhengnidezhanghaoanquanqingyanzhengshenfen">アカウントのセキュリティを確保するには、IDを確認してください</string>
+    <string name="xiaoyingyong">アプレット</string>
+    <string name="gonggao">公告</string>
+    <string name="gengduo">その他</string>
+    <string name="davpaihangbang">Vランキング</string>
+    <string name="qishilijianggongshiwomenjinghouweininjiamian">真の実力が発表されます。私たちはあなたの戴冠をお待ちしております。</string>
+    <string name="btc">BTC/USDT <font fgcolor="#BC0016">-0.23%</font></string>
+    <string name="greyvalue">= $ 274050.62</string>
+    <string name="redvalue">43500.09</string>
+    <string name="dav">V</string>
+    <string name="otc">OTC</string>
+    <string name="shurushenfenzhengxinxi">ID情報を入力</string>
+    <string name="qingshurushenfenzhengxingming">ID名を入力してください</string>
+    <string name="qingshurushenfenzhenghao">ID番号を入力してください</string>
+    <string name="shangchuanshenfenzhengzhaopian">ID写真のアップロード</string>
+    <string name="paisherenxiangye">写真ページ</string>
+    <string name="chakanshili">サンプルを表示</string>
+    <string name="paisheguohuiye">国章ページを撮影</string>
+    <string name="paisheshouchishenfenzheng">ハンドヘルドIDを撮影</string>
+    <string name="zhucizhengjingongtokapingtairenzhengshiyong">*注:この証明書はTOKAプラットフォーム認定のみを目的としています。xxxx年xx月xx日</string>
+    <string name="shangchuandezhengjianzhaojiangjinxingfangdaoshuiyinchuli">•アップロードされた証明写真には、盗難防止用のウォーターマークが適用されます。デルは、お客様の個人のプライバシーを保護するために、法令に従います。</string>
+    <string name="wancheng">完了</string>
+    <string name="denglu">ログイン</string>
+    <string name="huanyinglaitfg">BITC取引プラットフォームへようこそ</string>
+    <string name="qingshurumima">パスワードを入力してください</string>
+    <string name="qingshuruyanzhengma">認証コードを入力してください</string>
+    <string name="huoquyanzhengma">認証コードの取得</string>
+    <string name="wangjilezhaohuimima">忘れた？パスワードの復元</string>
+    <string name="chongzhimima">パスワードをリセット</string>
+    <string name="zhongguo">中国</string>
+    <string name="qingshurushoujihaoma">携帯電話番号を入力してください</string>
+    <string name="mimabixushibashiliushuzi">パスワードは、8~16桁の数字と文字の組み合わせである必要があります</string>
+    <string name="qingzaicishurumima">パスワードをもう一度入力してください</string>
+    <string name="zhuce">登録</string>
+    <string name="qingshuruyaoqingmabitian">招待コードを入力してください（必須）</string>
+    <string name="register_email">メールアドレス登録</string>
+    <string name="shuruyanzhengma">認証コードを入力</string>
+    <string name="qinghuoquduanxinyanzhengma">SMS認証コードを取得してください</string>
+    <string name="wanchengyanzheng">検証の完了</string>
+    <string name="kuohaoid">(ID:%s)</string>
+    <string name="tayucedapanpaiming">TA予測大盤振る舞いランキング</string>
+    <string name="chuchumaolu">駆け出し</string>
+    <string name="shenglv">勝率</string>
+    <string name="yucezhanji">予想戦績</string>
+    <string name="tajiarudequanzi">TAが参加したサークル</string>
+    <string name="gongxichenggongfaxingtoka">おめでとう%sTOKAの発行に成功</string>
+    <string name="faxingliang">発行部数:</string>
+    <string name="tokayongtu">TOKA目的:</string>
+    <string name="fenxiangwodetoka">TOKAを共有</string>
+    <string name="create_toka_warning">上記の条項はブロックチェーン上に存在しており、オープンかつ透明である。紛争が発生した場合、TOKA所有者はブロックチェーン技術で証拠を保存したコンテンツデータを各地方のインターネット裁判所と仲裁委員会に提出することができます。</string>
+    <string name="create_toka_warning2">附属：\n2018年9月7日、中国最高人民法院は"インターネットによる事件審理の若干の問題に関する最高人民法院の規定"を公布し、かつ、実施した。『規定』は、インターネット法院による事件審理のオンライン方式の採用、事件受理範囲、インターネット訴訟プラットフォームの構築、オンラインでの起訴資料の処理、オンラインでの証拠交換、訴訟及び証拠資料の電子化等について関連規定を行っている。その中で、第11条の規定は、"当事者が提出した電子データが、電子署名、信頼できるタイムスタンプ、ハッシュ値チェック、ブロックチェーン等の証拠収集、固定及び改ざん防止の技術手段により、又は電子証拠収集・証拠保存プラットフォームにより認証され、その真実性を証明できる場合、インターネット法院は確認しなければならない"と指摘している。</string>
+    <string name="register_phone">携帯電話の登録></string>
+    <string name="xuefenxfmingxi">単位(XF)詳細</string>
+    <string name="kuaijiegoumai">クイック購入</string>
+    <string name="tixian">キャッシュアウト</string>
+    <string name="lishi">ヒストリ</string>
+    <string name="woxiang">と思う</string>
+    <string name="goumai">購入</string>
+    <string name="chushou">売却</string>
+    <string name="jiage">価格</string>
+    <string name="shurujiage">価格を入力</string>
+    <string name="dangqiangoumaizuigaojia">現在の最大購入価格</string>
+    <string name="tianru">入力</string>
+    <string name="shuliang">数量</string>
+    <string name="shurushuliang">数量を入力</string>
+    <string name="chushouusdtshixitongjianghuicongyuezhanghuzhongdongjiegaibufenzijin">USDTを売却すると、残高勘定から資金の一部が凍結されます。</string>
+    <string name="xiane">クォータ</string>
+    <string name="zuixiao">最小</string>
+    <string name="zuida">最大</string>
+    <string name="fangshikeduoxuan">メソッド（複数選択可）</string>
+    <string name="liuyanneirong">メッセージの内容</string>
+    <string name="qingxiexianinxiangduimaijiashuodehua">売り手/買い手に言いたいことを書いてください！（140文字まで）</string>
+    <string name="querenfabu">パブリケーションの確認</string>
+    <string name="shoujianrenxingmingzuishaoliangwei">受信者名（最低2桁）</string>
+    <string name="shoujianrendianhuazuishaoshiyiwei">受信者電話番号（最低11桁）</string>
+    <string name="xuanzeshengfenchengshi">都道府県、市区町村の選択</string>
+    <string name="xiangxidizhiwuliushiwei">詳細アドレス（5~60ビット）</string>
+    <string name="shezhichengmorenshouhuodizhi">デフォルトの出荷先所在地に設定</string>
+    <string name="shanchu">削除</string>
+    <string name="save">保存</string>
+    <string name="save_delivery_address">出荷先情報の保存</string>
+    <string name="xingming">名前</string>
+    <string name="qingshuruxingming">名前を入力してください</string>
+    <string name="zhanghao">アカウント</string>
+    <string name="qingshuruzhanghao">アカウントを入力してください</string>
+    <string name="shoukuanma">入金コード</string>
+    <string name="qingwubishiyongyuninzhuceshouhaomayizhideshimingzhanghao">登録した携帯電話番号と一致する実名のアカウントを必ず使用してください</string>
+    <string name="kaihuxingming">口座開設名</string>
+    <string name="kaihuyinhang">口座開設銀行</string>
+    <string name="qingshurukaihuyinhang">口座開設銀行を入力してください</string>
+    <string name="yinhangkahao">銀行カード番号</string>
+    <string name="qingshuruyinhangkahao">銀行カード番号を入力してください</string>
+    <string name="tuijian">推奨</string>
+    <string name="shensuliyou">申し立ての理由</string>
+    <string name="shensujietukexuan">申し立てのスクリーンショット（オプション）</string>
+    <string name="shensuliuyankexuan">苦情メッセージ（オプション）</string>
+    <string name="ninkeyixiexianinshensudexiangxiqingkuang">あなたの申し立ての詳細をお書きください~~（300語まで）</string>
+    <string name="appealMessage">申し立てが行われると資産は凍結され、申し立てが終了するまで、申し立て担当者がこの取引に介入します。悪質な申し立てはプラットフォームの正常な運営秩序を乱す行為であり、情状が深刻な場合はアカウントを凍結する。</string>
+    <string name="tijiaoshensu">申し立て</string>
+    <string name="dianjichakanquanbupinglun">すべてのコメントを表示するにはクリック</string>
+    <string name="yixianshiquanbuneirong">すべてが表示されました</string>
+    <string name="xufei">更新料金</string>
+    <string name="qingshuru">入力してください。</string>
+    <string name="zhanghuyuekeyongusdt">利用可能な口座残高:%s USDT</string>
+    <string name="zhudingyuehuoxufeihoushoudaogaiyonghudejiaoyicelue">注意:サブスクリプションまたは更新料金の後に、このユーザーのトレーディングポリシーを受信します</string>
+    <string name="hejiusdt">合計：%s USDT</string>
+    <string name="shimingxinxi">実名情報</string>
+    <string name="zhengjianhaoma">証明書番号</string>
+    <string name="baozhengjin">マージン</string>
+    <string name="baozhengjinyonyufabuchushouhuogoumai">保証金は、USDTの売却または購入に関する広告を発行するために使用され、認証情報の提出は資産残高から即時に凍結されます。</string>
+    <string name="shenqingshangjiarenzheng">マーチャント認定の申請</string>
+    <string name="qingshuruyonghumingyiliugezi">ユーザー名を1~6文字入力してください</string>
+    <string name="quxiao">キャンセル</string>
+    <string name="ruguoninyixiangduifangfukuangqingqianwanbuyaoquxiaodingdan">すでに支払いを行っている場合は、注文をキャンセルしないでください。</string>
+    <string name="maijiadangrileijisanbiquxiao">購入者は、当日に3回キャンセルしました。超過すると、当日の購入機能に影響します。</string>
+    <string name="woquerenmeiyoufukuangeiduifang">相手方への支払いがないことを確認します</string>
+    <string name="qugoumai">購入する</string>
+    <string name="quhuazhuan">スウィープ</string>
+    <string name="tongyi">同意</string>
+    <string name="jujue">拒否</string>
+    <string name="yitongyi">同意</string>
+    <string name="yichuheimingdan">ブラックリストを削除</string>
+    <string name="zanbuzhichichakangaixiaoxiqingshengjidaozuixinban">このメッセージの表示は現在サポートされていません。最新バージョンにアップグレードしてください</string>
+    <string name="zaishangpinzhongmailezhang">商品で買い上がり</string>
+    <string name="genjin">フォローアップ</string>
+    <string name="jiancangjia">建玉価格:</string>
+    <string name="circle_unread_message_tip">以下は未読です</string>
+    <string name="circle_new_message">%1$sの新しいメッセージ</string>
+    <string name="circle_unread_message">%1$s未読メッセージ</string>
+    <string name="zhibozhong">生放送中</string>
+    <string name="fasong">送信</string>
+    <string name="haishengxiamiao">まだ残っている%s秒</string>
+    <string name="dianjiluyin">録音をクリック</string>
+    <string name="chonglu">再記録</string>
+    <string name="circleApplyJoinReasonHint">サークルに参加する理由を入力してください</string>
+    <string name="circleApplyJoin">への参加を申し込む</string>
+    <string name="wuxushenqingjiaruquanzi">グループへの参加申請は不要</string>
+    <string name="xuyaoshenfenyanzhengjiaruquanzi">グループへの認証が必要</string>
+    <string name="picture">画像</string>
+    <string name="shuruquanhaosousuo">検索に丸印を入力</string>
+    <string name="sousuo">検索</string>
+    <string name="meiyousousuojieguo">検索結果がありません</string>
+    <string name="pingcangyingkui">平価損益</string>
+    <string name="pingcangjia">平価</string>
+    <string name="pingcangshoushu">平倉手数</string>
+    <string name="pingcangshouxufei">平積み手数料</string>
+    <string name="pingcangshijian">フラットタイム</string>
+    <string name="yinglifencheng">利益分配</string>
+    <string name="putongpingcang">通常の平らな倉</string>
+    <string name="yidangqianshijiachengjiao">（現在の市場価格で落札）</string>
+    <string name="qingshurupingcangshoushu">平手の数を入力してください</string>
+    <string name="shou">ハンド</string>
+    <string name="shaixuan">フィルタ</string>
+    <string name="weituojilu">委任レコード</string>
+    <string name="lishijilu">履歴</string>
+    <string name="qingshurubizhong">通貨を入力してください</string>
+    <string name="dingdanzhuangtai">注文状況</string>
+    <string name="yichengjiao">成立しました</string>
+    <string name="yichexiao">取り消し済み</string>
+    <string name="dingdanleixing">注文タイプ</string>
+    <string name="chongzhi">リセット</string>
+    <string name="yingliqingkuang">利益率</string>
+    <string name="jiaoyicishu">トランザクション回数</string>
+    <string name="weituojiageusdt">委託価格(USDT)</string>
+    <string name="weituoshuliang">依頼の数(%s)</string>
+    <string name="weituoshijian">デリゲート時間</string>
+    <string name="chengjiaojunjiausdt">約定平均価格(USDT)</string>
+    <string name="chengjiaoshuliang">出来高(%s)</string>
+    <string name="chengjiaoeusdt">取引金額(USDT)</string>
+    <string name="shouxufeiusdt">手数料(USDT)</string>
+    <string name="wodeyingliusdt">マイ・ゲイン(USDT)</string>
+    <string name="wodechengjiao">私の成約</string>
+    <string name="gendanchengjiao">フォールディングクローズ</string>
+    <string name="gendanfenchengusdt">フォールディング分割(USDT)</string>
+    <string name="jishufuwufeiusdt">テクニカルサービス料金(USDT)</string>
+    <string name="chengjiaomingxi">クローズ詳細</string>
+    <string name="chexiao">元に戻す</string>
+    <string name="quanbuweituo">すべて委任</string>
+    <string name="bizhong">通貨</string>
+    <string name="quanbuchengjiao">すべて成約</string>
+    <string name="bufenchengjiao">部分クローズ</string>
+    <string name="zhuanchuzhanghaoxuanze">転送先アカウントの選択</string>
+    <string name="zhuanruzhuanghuxuanze">口座振替の選択</string>
+    <string name="yicunbtczongliang">保存されているBTCの合計</string>
+    <string name="yihuousdtshouyi">USDTのメリットがありました</string>
+    <string name="zhuanru">転入</string>
+    <string name="zhuanchu">転出</string>
+    <string name="pinglun">コメント</string>
+    <string name="xiepinglun">コメントを書く</string>
+    <string name="shoucang">コレクション</string>
+    <string name="dianzan">"いいね"</string>
+    <string name="fabiao">発表</string>
+    <string name="zanwushuju">データが一時的にありません</string>
+    <string name="querenchushou">売却の認識</string>
+    <string name="danjia">単価</string>
+    <string name="gendantouru">フォールディング</string>
+    <string name="keyongusdt">使用可能なUSDT:</string>
+    <string name="shuruusdtshuliang">USDT数量を入力</string>
+    <string name="gendanshezhi">フォール設定</string>
+    <string name="meicigendanshangxian">フォールバック上限</string>
+    <string name="qingshuruzuidausdt">最大USDTを入力してください</string>
+    <string name="zhiyingwushezhi">締まり:設定なし</string>
+    <string name="zhisunwushezhi">ストップロス:設定なし</string>
+    <string name="mairu">買い</string>
+    <string name="maichu">売却</string>
+    <string name="qingshurugendanjine">受注金額を入力してください</string>
+    <string name="quanbu">すべて</string>
+    <string name="lijigendan">すぐに実行</string>
+    <string name="shijian">時間</string>
+    <string name="yingliusdt">利益(USDT)</string>
+    <string name="jieshushijian">終了時間</string>
+    <string name="gendanyingkuiusdt">受注損益(USDT)</string>
+    <string name="zhengzaiweituo">委任しています</string>
+    <string name="chiyoushuliang">保有数量</string>
+    <string name="chengbenjunjia">コスト平均</string>
+    <string name="leijiyingkui">累積損益</string>
+    <string name="gendanzichanfenbu">対単一資産分布</string>
+    <string name="jiaoyimingxi">トランザクションの詳細</string>
+    <string name="gendanzongtouru">総投入量</string>
+    <string name="yue">残高</string>
+    <string name="gendanmeibishangxian">それぞれの上限をフォローする:</string>
+    <string name="gendanzhiying">ヒールフロー:</string>
+    <string name="zanwushezhi">設定なし</string>
+    <string name="gendanzhisun">ヒールストップ:</string>
+    <string name="gendanchicang">荷為替持ち高</string>
+    <string name="yincangxiaoebizhong">少額通貨の非表示</string>
+    <string name="zanwuchicang">保留なし</string>
+    <string name="yitingzhigendan">フォールバックが停止しました</string>
+    <string name="tingzhigendan">フォールバックを停止</string>
+    <string name="zhuijiatouru">追加投入</string>
+    <string name="yingkui">損益</string>
+    <string name="zhuijiachicangjine">持ち高を追加</string>
+    <string name="gendanxiangqing">フォールディングの詳細</string>
+    <string name="zonghepingfen">総合スコア</string>
+    <string name="bencigendanchicangbeidong">今回の受注（パッシブ）</string>
+    <string name="shizhi">市場価格</string>
+    <string name="meibigendanshangxian">1件あたりの最大キャッシュ金額:</string>
+    <string name="zhiying">締まり:</string>
+    <string name="zhisun">ストップロス:</string>
+    <string name="xiugai">変更</string>
+    <string name="dingyueshu">サブスクリプション</string>
+    <string name="gendanzongeusdt">ヒール合計(USDT)</string>
+    <string name="leijigendanjingfencheng">累積受注正味区分</string>
+    <string name="yugugendanfencheng">予測フロー分割</string>
+    <string name="chibichengben">通貨保有コスト</string>
+    <string name="gendanzijin">荷為替資金</string>
+    <string name="chibishizhi">為替相場</string>
+    <string name="woshitanchudedialog">ポップアップDialog</string>
+    <string name="woshidibu">私が一番下</string>
+    <string name="zengjiakaicangbaozhengjinusdt">追加在庫引当金(USDT)</string>
+    <string name="zhuijiajine">追加金額</string>
+    <string name="qingshuruzhuijiajine">追加金額を入力してください</string>
+    <string name="shuzihuobigendanzhanghu">デジタル通貨および勘定科目</string>
+    <string name="guojiqihuogendanzhanghu">国際先物取引勘定</string>
+    <string name="waihuigendanzhanghu">為替手形勘定</string>
+    <string name="meicigendanjine">1回あたりの受注金額</string>
+    <string name="qingshurumeicigendanjine">1回あたりの受注金額を入力してください</string>
+    <string name="zhifudailifei">代理店を支払う</string>
+    <string name="dailifeiwei">代理料は%sUSDT、支払い確認しますか？</string>
+    <string name="jianban">略版</string>
+    <string name="dangqianjia">現在の価格:HK$</string>
+    <string name="gendanzhegensuiyujimairushuliang">フォローアップ予想買い—数量:</string>
+    <string name="gendanzhegensuimairuzongjine">フォローアップ購入総額：HK$</string>
+    <string name="mairujine">買入金額（HK$）</string>
+    <string name="shurumairujine">購入金額の入力</string>
+    <string name="mairudanjia">購入単価（HK$）</string>
+    <string name="shurumairudanjia">購入単価の入力</string>
+    <string name="yujishuliang">推定数量:</string>
+    <string name="yujijine">推定金額:</string>
+    <string name="tijiaodingdan">注文を送信</string>
+    <string name="zhuanyeban">Professional</string>
+    <string name="dangqianzuiyoujia">現在の最優良価格（HK$）</string>
+    <string name="querenlikaizhifu">支払いの終了を確認</string>
+    <string name="runinyifukuanqingwubidianji">支払い済みの場合は、まず"支払いに成功しました"をクリックしてください。</string>
+    <string name="dingdanjiangzaihouchaoshiquxiao">注文は%s後にキャンセルする</string>
+    <string name="woquerenhaimeiyoufukuangeiduifang">先方への支払いがまだ行われていないことを確認します</string>
+    <string name="guanzhu">注目</string>
+    <string name="yonghuming">ユーザー名</string>
+    <string name="zongtouru">総投入</string>
+    <string name="keyong">使用可能</string>
+    <string name="xiabikeyong">下筆可能</string>
+    <string name="yingli">利益</string>
+    <string name="tuodongtupianwanchengyanzheng">画像をドラッグして検証を完了</string>
+    <string name="zongshuliangbtc">合計数: %s BTC</string>
+    <string name="pingjunchengbenjia">平均原価：</string>
+    <string name="yinglibili">利益率:</string>
+    <string name="chengbenqujian">コスト間隔</string>
+    <string name="bili">スケール</string>
+    <string name="zongshizhiusdt">時価総額：%s USDT</string>
+    <string name="shizhiusdt">時価総額(USDT)</string>
+    <string name="zhanghuzongzichanusdt">アカウントの総資産(USDT)</string>
+    <string name="chongbi">チャージ</string>
+    <string name="tibi">トークン</string>
+    <string name="huazhuan">スウィープ</string>
+    <string name="fabigoumai">法貨購入</string>
+    <string name="shuzihuobi">デジタル通貨</string>
+    <string name="guojiqihuo">国際先物</string>
+    <string name="gendan">および</string>
+    <string name="shuzihuobigendan">デジタル通貨および</string>
+    <string name="guojiqihuogendan">国際先物取引</string>
+    <string name="waihuigendan">為替手形</string>
+    <string name="zanwugendan">保留中のフォロワー</string>
+    <string name="shuruidsousuo">IDを入力して検索</string>
+    <string name="yonghumingcheng">ユーザー名</string>
+    <string name="dingyuezhuangtai">サブスクリプションステータス</string>
+    <string name="zanwuguanzhu">関心なし~</string>
+    <string name="yueusdt">残高(USDT)</string>
+    <string name="dangqianzongyingkuiusdt">現在の合計損益(USDT)</string>
+    <string name="chicang">持ち高</string>
+    <string name="yuezhanghuzongzichanusdt">残高勘定総資産(USDT)</string>
+    <string name="dongjieusdt">フリーズ(USDT)</string>
+    <string name="zanwujilu">ログなし</string>
+    <string name="shouye">トップページ</string>
+    <string name="nihaimeijiarurenhequanzi">あなたはまだサークルに入っていません</string>
+    <string name="quchuangjian">作成する</string>
+    <string name="gaoshoupaihangbang">上級者ランキング</string>
+    <string name="shuzihuobizongzichanusdt">デジタル通貨の総資産(USDT)</string>
+    <string name="fengxianlv">リスク・レート</string>
+    <string name="keyongbaozhengjinusdt">使用可能マージン(USDT)</string>
+    <string name="weishixianyingkuiusdt">未実現損益(USDT)</string>
+    <string name="chicangbaozhengjinusdt">持高保証金(USDT)</string>
+    <string name="dongjiebaozhengjin">凍結保証金</string>
+    <string name="daidandaoshi">リボンメンター:</string>
+    <string name="jiebang">バインド解除</string>
+    <string name="qubangding">バインド解除</string>
+    <string name="kaiqigendan">オープンヒール:</string>
+    <string name="yikaiqi">オン</string>
+    <string name="gendanbeishu">フィールド乗数:</string>
+    <string name="bei">倍</string>
+    <string name="zidingyi">カスタム</string>
+    <string name="guzhiqihuo">株価指数先物</string>
+    <string name="mingchengdaima">名前コード</string>
+    <string name="zuixinjia">最新価格</string>
+    <string name="zhangdiefu">騰落率</string>
+    <string name="hangqing">相場</string>
+    <string name="zixuan">自選</string>
+    <string name="hushen">上海と深セン</string>
+    <string name="ganggu">香港株</string>
+    <string name="waihui">為替</string>
+    <string name="faxian">検出</string>
+    <string name="zanwuzixuan">自己選択なし~</string>
+    <string name="woyaomai">私はを買います。</string>
+    <string name="woyaomai2">を売る</string>
+    <string name="goumaishuliang">購入数量</string>
+    <string name="jiageyue">価格約</string>
+    <string name="xiane12usdt">定金額 %1$s USDT-%2$s USDT</string>
+    <string name="lingshouxufeigoumai">0手数料購入</string>
+    <string name="haiweibianjiziliao">まだ編集されていない…</string>
+    <string name="fabimaimai">法貨売買</string>
+    <string name="shuzihuobijiaoyijilu">デジタル通貨取引記録</string>
+    <string name="qihuojiaoyijilu">先物取引レコード</string>
+    <string name="gendanjiaoyijilu">荷為替取引レコード</string>
+    <string name="xitongtongzhi">システム通知</string>
+    <string name="bangzhuzhongxin">ヘルプセンター</string>
+    <string name="fenxiangyingyong">共有アプリケーション</string>
+    <string name="kefu">カスタマーサービス</string>
+    <string name="shezhi">設定</string>
+    <string name="xuanzebizhong">通貨の選択</string>
+    <string name="guanliyuan">管理者</string>
+    <string name="guanfang">公式</string>
+    <string name="zhanghu">アカウント</string>
+    <string name="dingyue">サブスクライブ</string>
+    <string name="wode">マイ</string>
+    <string name="gendanzongyingkui">総損益</string>
+    <string name="huobi">火の貨幣</string>
+    <string name="shurujiumima">古いパスワードを入力</string>
+    <string name="shezhixinmimabashiliuweishuzi">新しいパスワード（8~16桁の数字、アルファベットの組み合わせ）を設定</string>
+    <string name="querenxinmima">新しいパスワードの確認</string>
+    <string name="chicangyingkui">持ち高損益</string>
+    <string name="dongjie">フリーズ</string>
+    <string name="hangqingshuxinpinlvshezhi">相場更新頻度設定</string>
+    <string name="yicunzongliang">すでに贮金%s総量</string>
+    <string name="yihuousdtshouyinianhua">USDT収益を得ている(年化%s%)</string>
+    <string name="fenxiang">共有</string>
+    <string name="weixin">WeChat</string>
+    <string name="dangqianmeiyouneirong">現在コンテンツがありません</string>
+    <string name="dianji">クリックします</string>
+    <string name="tianjiaguanzhuqitarendedongtai">他の人に関心を持つダイナミックを追加</string>
+    <string name="huozheziji">または自分自身</string>
+    <string name="tianjiadongtai">ダイナミック</string>の追加
+    <string name="fenxiangxinxianshi">新しいことを共有する</string>
+    <string name="dangqianmeiyouwangluo">現在ネットワークがありません</string>
+    <string name="fukuanqueren">支払確認</string>
+    <string name="qingquerenninyixiangmaijiafukuan">販売者に支払い済みであることを確認してください</string>
+    <string name="eyidianjijiangzhijiedongjiezhanghu">悪質なクリックはアカウントを凍結する</string>
+    <string name="zhuanrushuliangdaocunbibao">コインチェックへの繰り入れ数</string>
+    <string name="qingzuidizhuanruyibai">最低100に変更してください</string>
+    <string name="keyongshuliang">有効数量:</string>
+    <string name="querenzhuanru">受信確認</string>
+    <string name="gendanleixing">フォールディング型</string>
+    <string name="kuisunbutie">損失手当</string>
+    <string name="jine">金額</string>
+    <string name="daoqiri">有効期限</string>
+    <string name="rengoushuzihuobi">デジタル通貨への加入</string>
+    <string name="jurengoujieshuhaisheng">申し込み終了まで残り：</string>
+    <string name="tianshifen">%1$s 日 %2$s 時 %3$s 分</string>
+    <string name="dangqianrengoujiausdt">現在の購入価格(USDT)</string>
+    <string name="benlunrengouzongshuliang">今回の応募合計</string>
+    <string name="benlunrengoujindu">今回の申し込みの進捗状況:</string>
+    <string name="rengouzoushitu">応募の推移</string>
+    <string name="huigoujilu">レポレコード</string>
+    <string name="rengou">サブスクリプション</string>
+    <string name="jiaoyi">トランザクション</string>
+    <string name="xuanzerengoushuliang">応募件数の選択</string>
+    <string name="suocangquanyishuoming">ロック資本の説明。</string>
+    <string name="rengoujine">引受金額:</string>
+    <string name="nimuqiansuocangquanyidengji">現在の所有権のロック・レート</string>
+    <string name="chiyouusdtshuliang">保有USDT数:</string>
+    <string name="rengousuocang">予約ロック</string>
+    <string name="zongshuliang">合計数量</string>
+    <string name="suocang">ロック</string>
+    <string name="zhongyao">重要</string>
+    <string name="gensuixitong">システムに従う</string>
+    <string name="jiantizhongwen">簡体字中国語</string>
+    <string name="English">English</string>
+    <string name="zhifufangshi">支払い方法</string>
+    <string name="jiaoyijine">取引金額</string>
+    <string name="kuaijiequ">ショートカット</string>
+    <string name="zixuanqu">選択範囲から</string>
+    <string name="zongjia">合計金額</string>
+    <string name="dingdanhao">注文番号</string>
+    <string name="dingdanshijian">オーダー時間</string>
+    <string name="maijianicheng">バイヤーのニックネーム</string>
+    <string name="maijiaxingming">購入者名</string>
+    <string name="maijianicheng2">売り手のニックネーム</string>
+    <string name="maijiaxingming2">売り手名</string>
+    <string name="shoukuanfangshi">入金方法</string>
+    <string name="qufukuan">支払いに行く</string>
+    <string name="shensu">苦情</string>
+    <string name="woquerenshoudaofukuan">支払いの受領を確認します</string>
+    <string name="xiangmaijiafukuan">売り手への支払い</string>
+    <string name="fukuanshijianshengyu">支払時間残</string>
+    <string name="ninzhengzaixiang">WWCT認証販売者から%s USDT購入中です</string>
+    <string name="weixinzhanghao">WeChatアカウント</string>
+    <string name="qingwubishiyongbenrendezhifufangshixiangyixiayinhangkazixingzhuanzhang">以下のカードに必ず本人(% s)のお支払いで振込ください</string>
+    <string name="woyifukuanchenggong">支払いに成功しました</string>
+    <string name="querengoumai">購入の確認</string>
+    <string name="shuliangusdt">数量  %s USDT</string>
+    <string name="kanzhangzuoduogaiyao">コール・オーバー・サマリー</string>
+    <string name="kaicangjia">オープン価格</string>
+    <string name="kaicangfangxiang">開倉方向</string>
+    <string name="chicangbaozhengjin">持ち高マージン</string>
+    <string name="chicangshoushu">持ち手</string>
+    <string name="kaicangshouxufei">オープン手数料</string>
+    <string name="kaicangshijian">オープン時間</string>
+    <string name="zhiyingjiage">締まり価格</string>
+    <string name="zhisunjiage">ストップ価格</string>
+    <string name="kaicangzhuangtai">オープン状態</string>
+    <string name="xianjia">時価</string>
+    <string name="pingcangmingxi">平積み詳細</string>
+    <string name="kuaijiepingcang">クイックフラット</string>
+    <string name="jiaoyiguizeshuoming">取引ルールの説明</string>
+    <string name="ruhejiaoyi">取引方法</string>
+    <string name="shijiaweituo">時価委託</string>
+    <string name="xianjiaweituo">指値依頼</string>
+    <string name="zhengzaijiazaigengduo">さらにロード中…</string>
+    <string name="benqileiji">当期間累計</string>
+    <string name="chaoguo">超える</string>
+    <string name="buchaoguo">超えない</string>
+    <string name="zoushi">動向>></string>
+    <string name="wangqijilu">経過レコード</string>
+    <string name="shuoliangju">一言</string>
+    <string name="ruchangdaojishi">入場カウントダウン:</string>
+    <string name="ninbenchangyuce">この予測:</string>
+    <string name="qingdengdaijieguogongbu">結果の発表をお待ちください</string>
+    <string name="huodongguize">アクティビティルール</string>
+    <string name="yucejilu">予測レコード</string>
+    <string name="fadanmu">発弾幕</string>
+    <string name="qingshuruninxiangshuode">言いたいことを入力してください</string>
+    <string name="tianjiashouhuodizhi">出荷先住所の追加</string>
+    <string name="fenshi">時分割</string>
+    <string name="wuri">5日</string>
+    <string name="yifenzhong">1分</string>
+    <string name="shiwufenzhong">15分</string>
+    <string name="yixiaoshi">1時間</string>
+    <string name="rixian">日線</string>
+    <string name="zhouxian">週次</string>
+    <string name="yuexian">月線</string>
+    <string name="gao">high</string>
+    <string name="di">低</string>
+    <string name="ersih">24H</string>
+    <string name="ma5">MA5:</string>
+    <string name="ma10">MA10:</string>
+    <string name="ma30">MA30:</string>
+    <string name="riqi">日付</string>
+    <string name="kai">オン</string>
+    <string name="zhangdiee">騰落</string>
+    <string name="yishoupan">終了</string>
+    <string name="liang">量</string>
+    <string name="rik">日K</string>
+    <string name="zhouk">週K</string>
+    <string name="yuek">月K</string>
+    <string name="shendu">深さ</string>
+    <string name="fangxiang">方向</string>
+    <string name="mingcheng">名前</string>
+    <string name="faxingshijian">リリース時刻</string>
+    <string name="faxingzongliang">発行総数</string>
+    <string name="liutongzongliang">流通総量</string>
+    <string name="zhongchoujiage">クラウドファンディング価格</string>
+    <string name="baipishu">ホワイトペーパー</string>
+    <string name="guanwang">公式サイト</string>
+    <string name="qukuailianchaxun">ブロックチェーンクエリー</string>
+    <string name="jimai5">仕送り⑤</string>
+    <string name="jimai4">仕送り④</string>
+    <string name="jimai3">仕送り③</string>
+    <string name="jimai2">仕送りする②</string>
+    <string name="jimai1">仕送り販売①</string>
+    <string name="qiugou1">お買い求め①</string>
+    <string name="qiugou2">お買い求め②</string>
+    <string name="qiugou3">お買い求め③</string>
+    <string name="qiugou4">お買い求め④</string>
+    <string name="qiugou5">お買い求め⑤</string>
+    <string name="shuliangshou">数量（手）</string>
+    <string name="mairujia">購入価格</string>
+    <string name="maichujia">売値</string>
+    <string name="yiyanzhengshenfen">1.認証</string>
+    <string name="ergenggaishoujihao">2.携帯電話番号の変更</string>
+    <string name="sanwancheng">3.完了</string>
+    <string name="yibangdingshoujihao">バインドされた携帯電話番号:</string>
+    <string name="qingshuruxinshoujihaoma">新しい携帯電話番号を入力してください</string>
+    <string name="ershezhimima">2.パスワードを設定</string>
+    <string name="sanquerenmima">3.パスワードの確認</string>
+    <string name="qingshuruliuweizhifumima">6桁の支払いパスワードを入力してください</string>
+    <string name="qingzaicishuruliuweizhifumima">6桁の支払いパスワードをもう一度入力してください</string>
+    <string name="xiaoshudianhouliangweiweishu">小数点以下2桁の端数。入金者が現金の支払者であることを確認するために、現金を支払うたびにランダムに生成されます。したがって、完全な金額を正確に支払ってください。そうしないと、注文が無効になります。</string>
+    <string name="ninzanweifabuguanggao">広告は保留中です~</string>
+    <string name="tianjiaguanggao">広告を追加</string>
+    <string name="zanwujianjie">紹介なし</string>
+    <string name="wodechicang">マイポジション</string>
+    <string name="chiyou">所有</string>
+    <string name="shizhichengbenjia">市場価格/原価</string>
+    <string name="yejizoushi">業績動向</string>
+    <string name="gendanrenqi">対単人気</string>
+    <string name="bizhongjiaoyicishuhuizong">通貨取引数要約</string>
+    <string name="moren">デフォルト</string>
+    <string name="bianji">編集</string>
+    <string name="dangqianbanben">現在のバージョン</string>
+    <string name="guanyuwomen">私たちについて</string>
+    <string name="lianxiwomen">お問い合わせ</string>
+    <string name="fuwutiaokuan">サービス条件</string>
+    <string name="jianjitupian">クリップ画像</string>
+    <string name="xiexieshenmeba140zi">何か書こう…（140字以内）</string>
+    <string name="zuijinxiangce">最近のアルバム</string>
+    <string name="yulan">プレビュー</string>
+    <string name="zuijinshipin">最近のビデオ</string>
+    <string name="shimingrenzheng">実名認証</string>
+    <string name="bangdingyouxiang">メールボックスのバインド</string>
+    <string name="xiugaimima">パスワードの変更</string>
+    <string name="bangdingshouji">携帯電話のバインド</string>
+    <string name="shezhijiaoyimima">トランザクションパスワードの設定</string>
+    <string name="shuaxinpinlvshezhi">リフレッシュ頻度の設定</string>
+    <string name="xiaoxituisong">メッセージのプッシュ</string>
+    <string name="qingchuhuancun">キャッシュをクリア</string>
+    <string name="touxiang">アバター</string>
+    <string name="nicheng">ニックネーム</string>
+    <string name="xingbie">性別</string>
+    <string name="nan">男性</string>
+    <string name="nv">女性</string>
+    <string name="erweima">QRコード</string>
+    <string name="shengri">誕生日</string>
+    <string name="weishezhi">が設定されていません</string>
+    <string name="gerenjianjie">個人プロファイル</string>
+    <string name="qingbianjigerenjianjie">プロファイルを編集してください</string>
+    <string name="kaitongxuzhi">開通の心得</string>
+    <string name="daidangongneng">単一機能</string>
+    <string name="kaitongtiaojianzongzichanbudiyuusdt">開通条件：総資産は以下を下回らない%sUSDT</string>
+    <string name="lijikaitong">今すぐ開始</string>
+    <string name="chushouusdt">USDTを売却</string>
+    <string name="qingshuruchushoushuliang">売却数量を入力してください</string>
+    <string name="quanbuchushou">すべて売却</string>
+    <string name="shishoukuan">払込</string>
+    <string name="sanshimiaohouzidongquxiao">sの後に自動的にキャンセル</string>
+    <string name="xiadan">注文</string>
+    <string name="goumaizhong">購入中</string>
+    <string name="shuliangusdtdaousdt">数量  %1$s USDT-%2$s USDT</string>
+    <string name="xianeyuandaoyuan">定金額  HK$%1$s-HK$%2$s</string>
+    <string name="fangshi">メソッド</string>
+    <string name="leixinggoumai">タイプ購入</string>
+    <string name="xiajia">アンマウント</string>
+    <string name="tuodong">ドラッグ</string>
+    <string name="quanxuan">すべて選択</string>
+    <string name="querenquxiaodingdan">注文のキャンセルの確認</string>
+    <string name="runinyijingxiangmaijiafukuanqingbuyaoquxiaodingdan">販売者に支払い済みの場合は、注文をキャンセルしないでください。</string>
+    <string name="quxiaoguizemaijiadangrileijisibiquxiao">キャンセルルール:バイヤーは当日の合計4件のキャンセルを行います。\n当日の購入を制限します。</string>
+    <string name="wozaixiangxiang">考えています</string>
+    <string name="tijiaochenggong">コミット成功</string>
+    <string name="jiaoyibizhong">取引通貨</string>
+    <string name="gendanjine">荷受金額</string>
+    <string name="wodejine">自分の金額</string>
+    <string name="weituomairuzongjine">委託買入合計</string>
+    <string name="gendanshuliang">受注数量</string>
+    <string name="wodeshuliang">マイ数量</string>
+    <string name="weituomaichuzongshuliang">委託販売合計</string>
+    <string name="shengchengshijian">生成時間</string>
+    <string name="guanbi">閉じる</string>
+    <string name="zongzichan">総資産</string>
+    <string name="gendanzongjine">合計受注金額</string>
+    <string name="zhuijia">追加</string>
+    <string name="gaoshou">上級者</string>
+    <string name="yuezonge">残高/合計</string>
+    <string name="shezhiguanli">設定管理</string>
+    <string name="meicimairudegendanzuidajine">1回の購入の最大受注額:</string>
+    <string name="querenshoukuanbingfangxing">入金の確認と保留</string>
+    <string name="qingwubidengluwangshangyinhang">必ずオンラインバンキングまたは第三者支払アカウントにログインして、入金を確認してください。</string>
+    <string name="woquerenyidenglushoukuanzhanghu">入金口座にログインしていることを確認し、入金に間違いがないことを確認します</string>
+    <string name="leixingxuanze">タイプ選択</string>
+    <string name="zhuangtaixuanze">ステータス選択</string>
+    <string name="yiwancheng">完了</string>
+    <string name="daifukuan">支払待ち</string>
+    <string name="yiquxiao">キャンセル</string>
+    <string name="jiaoyijinecny">取引金額(HKD)</string>
+    <string name="qingshurujiaoyimima">取引コードを入力してください</string>
+    <string name="wangjijiaoyimima">取引パスワードを忘れた場合。</string>
+    <string name="zhifujine">支払金額</string>
+    <string name="qingzhunquezhifuyishangjine">上記の金額を正確にお支払いください。そうしないと、注文に失敗します。</string>
+    <string name="fuzhijine">コピー金額</string>
+    <string name="zhidaole">了解</string>
+    <string name="xiugaizhifumima">支払いパスワードの変更</string>
+    <string name="wangjizhifumima">パスワードの支払いを忘れました</string>
+    <string name="weitianjiazhanghu">アカウントが追加されていません</string>
+    <string name="tianjia">追加</string>
+    <string name="xitonghuiweininshaixuanbaohanmubiaojinedeshangpin">ターゲット金額を含む商品がフィルタされます</string>
+    <string name="shangjiarenzheng">マーチャント認証</string>
+    <string name="shoukuanguanli">入金管理</string>
+    <string name="xuanzeruchangquan">入場券を選択</string>
+    <string name="wodeyyb">YYB:</string>
+    <string name="buchao">超えない</string>
+    <string name="yujikedekedou">当たると%s刻豆がもらえる予定ですが、結果はクイズ終了時のものとなります。参考までに。</string>
+    <string name="yucebuchao">予測が超過しない</string>
+    <string name="gendanjingfencheng">現金正味分配=現金分配-技術サービス料</string>
+    <string name="miandaraoshiduan">迷惑なし期間</string>
+    <string name="shengyin">サウンド</string>
+    <string name="zhendong">振動</string>
+    <string name="xuanzeshijianduan">期間の選択</string>
+    <string name="gendanyinglie">受注収益</string>
+    <string name="shiyigensuigaohoudeyonghu">近義：上級者に続いたユーザーの直近30日間の損益合計。</string>
+    <string name="yinglinengli">収益性</string>
+    <string name="shiyigaoshouzuijinsanshitian">近義：上位者の直近30日間の1取引当たりの平均収益率。数値が大きいほど、個人の収益性が高いことを表しています。</string>
+    <string name="gendanshouyilv">対単利回り</string>
+    <string name="shiyigensuigaoshoudeyonghuzuijin">近義：上級者をフォローしたユーザーの直近30日間の取引あたりの平均収益率。数値が大きいほど、上級者についているユーザーの収益が良いことを表しています。</string>
+    <string name="gendanshenglv">単一勝率</string>
+    <string name="shiyigensuigaoshouyinglidejilv">近義：上級者に続いて利益を上げる確率。数値が大きいほど、単独で利益を得る可能性が高いことを表しています。</string>
+    <string name="renqizhishu">人気指数</string>
+    <string name="shiyigaoshouzuijinrenqi">近30日間のフォロワー数。数値が大きいほど、フォロワーが多く、人気が高いことを表す。</string>
+    <string name="jianleixing">キータイプ</string>
+    <string name="baocunerweima">QRコードを保存</string>
+    <string name="chongbidizhi">チャージアドレス</string>
+    <string name="fuzhi">コピー</string>
+    <string name="chongzhijine">チャージ金額</string>
+    <string name="qingshuruchongzhijine">チャージ金額を入力してください</string>
+    <string name="xuanzezhifufangshi">支払い方法を選択</string>
+    <string name="goumaiusdt">USDTの購入</string>
+    <string name="goumaidanjia">購入単価:$</string>
+    <string name="qingshurugoumaijine">購入金額を入力してください</string>
+    <string name="goumaishuliangusdt">購入数量：%sUSDT</string>
+    <string name="btcshuliang">BTC数量</string>
+    <string name="usdtshouyi">USDTメリット</string>
+    <string name="zhuanchubtcdaochicang">BTCを持ち高に転送</string>
+    <string name="qingshuruzhuanchushuliang">転出数量を入力してください</string>
+    <string name="kezhuanchushuliang">転出可能数量:</string>
+    <string name="dongjieshuliang">凍結数量:</string>
+    <string name="querenzhuanchu">転送の確認</string>
+    <string name="shuruyonghuid">ユーザーIDを入力</string>
+    <string name="qingkonglishi">ヒストリを空にする</string>
+    <string name="sousuodaima">検索コード</string>
+    <string name="jiazaishibaidianjichongxinshuaxin">ロードに失敗したら、「再更新」をクリック</string>
+    <string name="yinhangka">銀行カード</string>
+    <string name="jiagezuiyou">最適価格</string>
+    <string name="xuanze">選択</string>
+    <string name="xinzengshoukuanfangshi">新規入金方法</string>
+    <string name="gendanbeishushezhi">フィールド乗数の設定</string>
+    <string name="beishu">倍数</string>
+    <string name="qingshuruzhengzhengshu">正の整数を入力してください</string>
+    <string name="zhisunshezhi">ストップロス設定</string>
+    <string name="qingshuruzhisunjiage">ストップ価格を入力してください</string>
+    <string name="zhiyingshezhi">締まり設定</string>
+    <string name="zhiyingjia">締まり価</string>
+    <string name="qingshuruzhiyingjiage">締切価格を入力してください</string>
+    <string name="zhiyingzhisunshezhi">締まりストップロス設定</string>
+    <string name="wushezhi">設定なし</string>
+    <string name="qingshuruzhiyingbili">締まりの比率を入力してください</string>
+    <string name="zhisunjia">ストップ値</string>
+    <string name="qingshuruzhisunbili">ストップロスの比率を入力してください</string>
+    <string name="woshi">私は</string>
+    <string name="yiruzhuprocoin">BITCが1つのボタンで実際の取引に対応しました</string>
+    <string name="wozhuanduoshaonijiuzhuanduoshao">私が稼いだ分だけ、あなたが稼いだ分だけ。</string>
+    <string name="wwct">FireUp</string>
+    <string name="huanqiushuzizichanjiaoyipingtai">ユニバーサルデジタル資産取引プラットフォーム</string>
+    <string name="weixinhaoyou">WeChatフレンド</string>
+    <string name="pengyouquan">モーメンツ</string>
+    <string name="QQhaouyou">QQフレンド</string>
+    <string name="QQkongjian">QQ空間</string>
+    <string name="weibo">つぶやき</string>
+    <string name="xiangyouhuadonghuakuaitianchongpintu">スライダを右にスライドさせてパズルを塗りつぶす</string>
+    <string name="huanyizhang">交換</string>
+    <string name="shuruhuochanganzhantiedizhi">貼り付けアドレスを入力または長押し</string>
+    <string name="shurutibishuliang">トークン数を入力</string>
+    <string name="ketibishuliang">抽出可能通貨数:</string>
+    <string name="shouxufei">手数料</string>
+    <string name="fanweidaobtc">範囲 %1$s-%2$s BTC</string>
+    <string name="zuixiaotibishuliangwei">コインの最小引出し数:</string>
+    <string name="daozhangshuliang">入金数量:</string>
+    <string name="tibishuliang">トークン数</string>
+    <string name="tibidizhi">コインアドレス</string>
+    <string name="zhuangtai">ステータス</string>
+    <string name="dangqianweituo">現在の委任</string>
+    <string name="dangqianchicang">現在の持ち高</string>
+    <string name="zanwuweituo">委任なし</string>
+    <string name="jiaoyie">取引金額</string>
+    <string name="shichangweituo">市場委託</string>
+    <string name="yidangqianzuiyoujiagejiaoyi">現在の最適価格で取引</string>
+    <string name="qingshurushoushu">手数を入力してください</string>
+    <string name="kekaishou">可開%s手</string>
+    <string name="kaicangbaozhengjinusdt">開倉保証金 %s USDT</string>
+    <string name="kanzhangzuoduo">強気になる（多くする）</string>
+    <string name="kandiezuokong">弱気（空売り）</string>
+    <string name="chengjiaoshijian">クローズ時間</string>
+    <string name="chengjiaojia">落札価格</string>
+    <string name="chengjiaoliang">出来高</string>
+    <string name="weituoshuliangbtc">委託数量(BTC)</string>
+    <string name="chengjiaoshuliangbtc">クローズ数量(BTC)</string>
+    <string name="wodechengjiaobtc">マイ・クローズ(BTC)</string>
+    <string name="gendanchengjiaobtc">荷為替取引(BTC)</string>
+    <string name="kanzhang">コール</string>
+    <string name="kandie">弱気</string>
+    <string name="dangqiankaicang">現在の倉庫</string>
+    <string name="shoushu">手数</string>
+    <string name="weituojia">委託価格</string>
+    <string name="kaicangbaozhengjin">オープンマージン</string>
+    <string name="shouyilv">収益率</string>
+    <string name="yingkuiusdt">損益(USDT)</string>
+    <string name="wodeweituobtc">私の委任(BTC)</string>
+    <string name="gendanweituobtc">荷為替委託(BTC)</string>
+    <string name="jilu">レコード</string>
+    <string name="cong">から</string>
+    <string name="dao">まで</string>
+    <string name="yuezhanghu">残高勘定</string>
+    <string name="guzhiqihuozhanghu">株価指数先物勘定</string>
+    <string name="huazhuanshuliang">スウィープ数</string>
+    <string name="shuruhuazhuanshuliang">スイープ数を入力</string>
+    <string name="zhiyoujiangzichanhuazhuandaoxiangduiyingde">取引は、資産が対応する口座に振替された場合にのみ可能である。口座間の振り替えには手数料はかかりません</string>
+    <string name="leixing">タイプ</string>
+    <string name="qingzai">入力してください。</string>
+    <string name="neifukuangeiduifang">内で相手に支払う</string>
+    <string name="dingdanyiquxiao">注文がキャンセルされました</string>
+    <string name="lianxiduifang">連絡先</string>
+    <string name="goumaijine">購入金額</string>
+    <string name="shoukuanerweima">入金QRコード</string>
+    <string name="zhifubaozhanghao">アリペイのアカウント</string>
+    <string name="xiadanshijian">注文時間</string>
+    <string name="qingshiyongbenrenzhifubaoxiangyishangzhuanzhang">上記へのお振込は、本人の支付宝を使用してください。コメントは添付しないでください。\n定められた時間内に支払いを完了し、支払いが完了したら【支払い済みとマーク】をクリックしてください</string>
+    <string name="quxiaodingdan">注文をキャンセル</string>
+    <string name="quzhifu">支払う</string>
+    <string name="biaojiweiyizhifu">支払い済みとしてマーク</string>
+    <string name="yinhangzhanghao">銀行口座</string>
+    <string name="yinhangkaxinxi">銀行カード情報</string>
+    <string name="shoukuanren">受取人</string>
+    <string name="qingzhunquezhifuyixiajine">次の金額を正確にお支払いください。そうしないと、注文に失敗します。</string>
+    <string name="zhifubaomingcheng">アリペイ名</string>
+    <string name="weixinmingcheng">ウィーチャット名</string>
+    <string name="shengyushijian">タイム・バランス</string>
+    <string name="zhuanzhangshiqingwutianjiarenhebeizhu">振込の際にコメントを追加しないでください</string>
+    <string name="qingzaiguidingshijianneiwanchengzhifu">所定の時間内に支払いを完了し、支払いが完了したら【支払い済みとマークする】をクリックしてください。</string>
+    <string name="banbengengxin">バージョンアップ</string>
+    <string name="faxianxinbanben">新しいバージョンを発見し、アップグレードしたときの操作性を向上</string>
+    <string name="shaohouzaishuo">あとで</string>
+    <string name="lijishengji">今すぐアップグレード</string>
+    <string name="usdtshuoming">USDT説明</string>
+    <string name="zhanghuyueusdt">アカウント残高(USDT)</string>
+    <string name="weiwancheng">未完了</string>
+    <string name="chongzhizongeyuan">チャージ総額（元）</string>
+    <string name="gendanrenshu">フォロワー数</string>
+    <string name="jiaoyishouyi">取引収益</string>
+    <string name="zhunquelv">正解率</string>
+    <string name="shangyueshouyiusdt">先月の収益(USDT)</string>
+    <string name="zhegerenhenlan">この人は怠け者で、何も残していない…</string>
+    <string name="xiangqing">詳細></string>
+    <string name="agaoshoushouyilv">A.高手収益率</string>
+    <string name="byonghugendanshouyilv">B.ユーザーと単一収益率</string>
+    <string name="cyinglizhanbi">C.利益率</string>
+    <string name="drenqi">D.人気</string>
+    <string name="egendanyingkuileijijine">E.受注損益累計</string>
+    <string name="chicangbaifenhao">ポジション %s%</string>
+    <string name="yuebaofenhao">残高 %s%</string>
+    <string name="weikaitongdaidangongneng">バンドリスト機能は利用できません。操作データは公開しません</string>
+    <string name="wen">問</string>
+    <string name="qingshuruxieshenme">何か入力してください</string>
+    <string name="zongshouyiusdt">合計収益(USDT)</string>
+    <string name="zhengzaijiazaizhong">ロード中…</string>
+    <string name="zhuanchubtc">転出BTC</string>
+    <string name="lijitiyan">今すぐ体験</string>
+    <string name="zhengzaijiazaizhongqingshaodeng">ロード中です。しばらくお待ちください…</string>
+    <string name="tiaoguo">スキップ</string>
+    <string name="xuanzeriqi">日付を選択</string>
+    <string name="tixianshuliang">キャッシュアウト数</string>
+    <string name="shijia">時価</string>
+    <string name="tijiaoshijian">コミット時刻</string>
+    <string name="zhanghuming">アカウント名</string>
+    <string name="tianjiashoukuanfangshi">+入金方法の追加</string>
+    <string name="muqianchiyouusdt">現在USDTを所有しています:</string>
+    <string name="qingshurutixianshuliang">キャッシュアウト数を入力してください</string>
+    <string name="tixianxuefenxf">キャッシュ・クレジット(XF)</string>
+    <string name="shengyuxuefenxf">残りの単位数(XF):</string>
+    <string name="quanbutixian">すべてキャッシュ</string>
+    <string name="yigeyuenei">1か月以内</string>
+    <string name="sangeyuenei">3ヶ月以内</string>
+    <string name="liugeyuenei">6ヶ月以内</string>
+    <string name="yiniannei">1年以内</string>
+    <string name="dangqianhuigoujiausdt">現在の買戻し価格(USDT)</string>
+    <string name="yybshuoming">YYB説明</string>
+    <string name="yichanchuyybzongliang">合計YYBが産出されました</string>
+    <string name="yixiaohuiyybzongliang">破棄されたYYBの合計</string>
+    <string name="huigoujiazoushitu">買戻し価格の推移のグラフ</string>
+    <string name="huigou">買い戻し</string>
+    <string name="shengyukehuigouyybshuliang">残存買戻し可能YYB数量</string>
+    <string name="qingshuruhuigouyybshuliang">買戻しYYB数量を入力してください</string>
+    <string name="chiyouyybshuliang">保有YYB数量:</string>
+    <string name="chakantadehaoyou">友達の表示</string>
+    <string name="sousuochengyuan">メンバーの検索</string>
+    <string name="duihuan">変換</string>
+    <string name="tihuo">ステージング"</string>
+    <string name="fenhongjilu">配当記録</string>
+    <string name="tihuoxingquan">ステージング行使</string>
+    <string name="fabu">リリース</string>
+    <string name="wodedingdan">注文書</string>
+    <string name="bangzhu">ヘルプ</string>
+    <string name="tuichucicibianji">この編集を終了しますか。</string>
+    <string name="canshucuowu">パラメータエラー</string>
+    <string name="meiyouhuoqudaotupian">画像が取得されませんでした</string>
+    <string name="baocuntupianchucuo">画像の保存エラー</string>
+    <string name="baocuntupiandao">画像を</string>に保存する
+    <string name="paizhao">写真を撮る</string>
+    <string name="congxiangcehuoqu">アルバムから</string>を選択
+    <string name="tupianxuanze">画像の選択</string>
+    <string name="baocuntupian">画像を保存</string>
+    <string name="caozuo">アクション</string>
+    <string name="laiyuanwwctjiaoyipingtaigendanwangyefenxiang">出典:BITCトレーディングプラットフォームとフォームページの共有</string>
+    <string name="meiyouhuoqudaowangyedizhi">Webページのアドレスを取得できませんでした。ページに戻ります</string>
+    <string name="tupianbaocunshibai">画像の保存に失敗しました</string>
+    <string name="shanchuhoujiangqingkong">削除後、このチャットのメッセージレコードは空になります</string>
+    <string name="bunenggengzijiliaotian">自分とチャットできない</string>
+    <string name="meiyougengduolishijilule">これ以上の履歴はありません</string>
+    <string name="shenqingliyou">申請理由:</string>
+    <string name="chuliren">ハンドラー</string>
+    <string name="yitongguo">通過しました</string>
+    <string name="yijujue">拒否</string>
+    <string name="tishi">ヒント</string>
+    <string name="quedingchongfugaixiaoxi">メッセージの再送を決定</string>
+    <string name="bule">が存在しない</string>
+    <string name="chongfa">再送</string>
+    <string name="quanzhu">サークル主</string>
+    <string name="zhucezhong">[登録中…]</string>
+    <string name="yuyinxiazaishibai">音声ダウンロードに失敗しました</string>
+    <string name="meiyousdka">sdカードがありません</string>
+    <string name="chongluhuishanchugangcaideluyin">再録音すると、直前の録音が削除されます</string>
+    <string name="dianjitaipinfanle">クリックが多すぎる</string>
+    <string name="anxialuyin">録音を押す</string>
+    <string name="zhengzailuyin">録音中</string>
+    <string name="dianjibofang">クリックして再生</string>
+    <string name="dianjitingzhi">クリックして停止</string>
+    <string name="qingquedingyoucharusdka">sdカードが挿入されていることを確認してください</string>
+    <string name="luyinshijiantaiduan">録音時間が短すぎます</string>
+    <string name="bofangyichang">例外を再生</string>
+    <string name="qingshuruneirong">入力してください</string>
+    <string name="suoyouchengyuan">すべてのメンバ</string>
+    <string name="chengyuanshenqing">メンバー要求</string>
+    <string name="tupian">画像</string>
+    <string name="gong">合計</string>
+    <string name="mingchengyuan">名前メンバ</string>
+    <string name="pian">編</string>
+    <string name="ge">個の</string>
+    <string name="qingchuchenggong">クリーンアップに成功しました</string>
+    <string name="shifoutuichuquanzi">サークルを終了しますか。</string>
+    <string name="tuichu">画像を保存</string>
+    <string name="yituichu">終了</string>
+    <string name="nihaibushiquanzichengyuanwufachakan">あなたはまだサークルのメンバーではないので、チェックできません</string>
+    <string name="chuangjianquanzi">サークルの作成</string>
+    <string name="bianjiquanzi">グループを編集</string>
+    <string name="chuangjian">作成</string>
+    <string name="qingshuruquanzimingzi">サークル名を入力してください</string>
+    <string name="quanzimingzitaichangle">サークル名が長すぎます</string>
+    <string name="qingshuruquanzijianjie">サークルの概要を入力してください</string>
+    <string name="qingshangchuanquanzitouxiang">サークルアバターをアップロードしてください</string>
+    <string name="xuanzehuifuderen">返信を選択したユーザ</string>
+    <string name="sousuoquanzi">検索範囲</string>
+    <string name="shezhijiarufangshi">結合方法を設定</string>
+    <string name="quedingchexiaodingdan">注文の取り消しを決定</string>
+    <string name="gendanjidaibiaonitongyibingjieshou">注文とはあなたが同意し受け入れることを意味します</string>
+    <string name="fengxiantishi">リスクのヒント</string>
+    <string name="he">および</string>
+    <string name="gendanguize">フォロールール</string>
+    <string name="zuixiaogendanjine">最小ヒール金額</string>
+    <string name="zuixiaozhuijiajine">最小追加金額</string>
+    <string name="yiyong">使用済み</string>
+    <string name="zongshizhi">時価総額</string>
+    <string name="qingshurugendanzongjine">合計受注金額を入力してください</string>
+    <string name="zuidajinebunengdayugendanzongjine">最大金額は、受注合計金額より大きくすることはできません</string>
+    <string name="qingshuruzuidajine">最大値を入力してください</string>
+    <string name="gendanjilu">ヒールレコード</string>
+    <string name="yikouchugendanfenchengbufen">フォールトセグメンテーションが差し引かれました</string>
+    <string name="shizhixiaoyu">時価総額が小さい</string>
+    <string name="usdtdebizhong">USDTの通貨</string>
+    <string name="wenxintishi">暖かいヒント</string>
+    <string name="zhengzaitingzhigendan">フォールバックを停止しています</string>
+    <string name="mibigendanjineshangxian">1件あたりの上限金額</string>
+    <string name="tingzhigendanjiangyishijiamaichuninsuoyoudegendanchicang">荷為替を停止すると、すべての荷為替持ち高が市場価格で売却されます。</string>
+    <string name="gendanyonghushuju">シングルユーザーデータ</string>
+    <string name="chakanziliao">情報を表示</string>
+    <string name="siliao">プライベートチャット</string>
+    <string name="quxiaoguanliyuan">管理者のキャンセル</string>
+    <string name="sheweiguanliyuan">管理者として設定</string>
+    <string name="yichuchuquanzi">圏外の削除</string>
+    <string name="yichuchuquanzibinglahei">サークルを削除して黒にする</string>
+    <string name="tian">日</string>
+    <string name="yijingruzhu">すでに入居している</string>
+    <string name="daoqi">期限切れ</string>
+    <string name="geguanzhu">個のウォッチ</string>
+    <string name="chongzhijineyuan">チャージ金額（元）</string>
+    <string name="mairujineyuan">購入総額（元）</string>
+    <string name="tixianjineyuan">キャッシュアウト金額（元）</string>
+    <string name="maichujineyuan">売却額（元）</string>
+    <string name="yiruzhu">常駐</string>
+    <string name="zanwu">今すぐなし</string>
+    <string name="benlunrengou">今回の予約</string>
+    <string name="shi">の場合</string>
+    <string name="fen">サブ</string>
+    <string name="miao">秒</string>
+    <string name="zanweikaifang">オープンされていません</string>
+    <string name="dangqianzanwurengou">現在申し込みはありません</string>
+    <string name="guzhiqihuozongzichanusdt">株価指数先物総資産(USDT)</string>
+    <string name="waihuizongzichanusdt">外国為替総資産(USDT)</string>
+    <string name="shuzihuobigendanzongzichanusdt">デジタル通貨および合計資産(USDT)</string>
+    <string name="guojiqihuogendanzongzichanusdt">国際先物取引総資産(USDT)</string>
+    <string name="waihuigendanzongzichanusdt">外国為替手形総資産(USDT)</string>
+    <string name="weibangding">バインド解除</string>
+    <string name="weikaiqi">がオンになっていません</string>
+    <string name="gendanshuzihuobizongzichanusdt">ヒール-デジタル通貨総資産(USDT)</string>
+    <string name="gendanguzhiqihuozongzichanusdt">株価指数先物総資産(USDT)</string>
+    <string name="shifoubaquanbukedouduihuanchengkbt">すべての豆をKBTに交換しますか？</string>
+    <string name="muqianzanwukedou">今は豆がありません。小応用電撃予測にアクセスしてください</string>
+    <string name="weihuoqudaokefuxinxi">カスタマーサービス情報を取得できませんでした</string>
+    <string name="yaoqinghaoyoukaiqihuanqiu">グローバルデジタル資産取引を開始するために友人を招待</string>
+    <string name="tashi">TAは</string>
+    <string name="woyizaiwwctyijiangenshangletadeshipanjiaoyi">BITCのワンクリックでTAの取引を実行しました</string>
+    <string name="tazhuanleduoshaowojiuzhuanduoshao">TAが稼いだ分だけ私が稼ぐ</string>
+    <string name="yaoqinghaoyou">友達を招待</string>
+    <string name="fenxiangshibai">共有失敗</string>
+    <string name="huigoushuliangbunengdayu">買戻し数量は、残存買戻し可能YYB数量より大きくすることはできません</string>
+    <string name="qingquerenmeiyoufukuangeiduifang">先方への支払いがないことを確認してください</string>
+    <string name="qingshurubeishu">倍数を入力してください</string>
+    <string name="beishubunengweiling">倍数を0にすることはできません</string>
+    <string name="qingtianjiashoukuanfangshi">入金方法を追加してください</string>
+    <string name="usdtyuebuzu">USDT残高不足</string>
+    <string name="qingshurumairujiage">購入価格を入力してください</string>
+    <string name="qingshurumairushuliang">購入数量を入力してください</string>
+    <string name="shifouquedingxiadan">注文してもよろしいですか。</string>
+    <string name="mairugaiyao">買いの概要</string>
+    <string name="kekai">オープン</string>
+    <string name="qingshurujiage">価格を入力してください</string>
+    <string name="qingshurumaichujiage">売却価格を入力してください</string>
+    <string name="qingshurumaichushuliang">販売数量を入力してください</string>
+    <string name="maichugaiyao">売却サマリー</string>
+    <string name="xianjinmairu">現金買い</string>
+    <string name="bibijilu">コインレコード</string>
+    <string name="shuzihuobijilu">デジタル通貨レコード</string>
+    <string name="guzhiqihuojilu">株価指数先物レコード</string>
+    <string name="caiwujilu">財務記録</string>
+    <string name="huazhuanjilu">tracks</string>
+    <string name="jishufuwufei">テクニカルサービス</string>
+    <string name="weituomairu">委託買い</string>
+    <string name="gendanzhegensuiyujimairu">フォローアップ買い予想</string>
+    <string name="woyujimairushuliang">購入予定数</string>
+    <string name="weituomaichu">委託販売</string>
+    <string name="maichushuliang">売り数量</string>
+    <string name="gendanzhegensuimaichu">フォローアップ売り</string>
+    <string name="gendanzhegensuiyujizongjine">フォローアップ予想合計</string>
+    <string name="woyujijine">予想金額</string>
+    <string name="qingshurumairudanjia">購入単価を入力してください</string>
+    <string name="chibishuliangbuzu">通貨不足</string>
+    <string name="quedingmaichu">売り確定。</string>
+    <string name="dingdangaiyao">注文概要</string>
+    <string name="fabigoumaiusdt">法貨購入USDT</string>
+    <string name="qingnaixindenghouduifangfangbi">相手がコインを入れるまでお待ちください</string>
+    <string name="daifangxing">保留中</string>
+    <string name="dingdanyiwancheng">オーダー完了</string>
+    <string name="dingdanyiguoqi">オーダーの有効期限が切れています</string>
+    <string name="dingdanyicheixao">注文がキャンセルされました</string>
+    <string name="dingdanyibeixitongchexiao">注文はシステムによって取り消されました</string>
+    <string name="dingdanyijingchaoshi">注文がタイムアウトしました</string>
+    <string name="qingquerenyifukuanfouzedingdanjiangzai">支払い済みであることを確認してください。そうしないと、注文は30分後に自動的にキャンセルされます。1日3回の自動キャンセルはクレジットに影響、悪質な行為は現金支払い機能を24時間凍結</string>
+    <string name="yibiaojifukuan">タグ付き支払</string>
+    <string name="shengyu">残り</string>
+    <string name="shengyulingling">"残り00分00秒"</string>
+    <string name="qingxuanzezhifufangshi">支払い方法を選択してください</string>
+    <string name="qingxuanzetixianbizhong">抽出通貨を選択してください</string>
+    <string name="huoquxinxishibai">情報の取得に失敗しました</string>
+    <string name="qingxuazejianleixing">キータイプを選択してください</string>
+    <string name="qingtianxietibidizhi">コインアドレスを入力してください</string>
+    <string name="qingshurutibishuliang">切り上げ枚数を入力してください</string>
+    <string name="tibishuliangbuzu">不足しているトークン</string>
+    <string name="tibibizhong">抽出通貨</string>
+    <string name="querenqianqingzixiheduitibidizhixinxi">不必要な損害が発生しないように、確認前にコインのアドレス情報を注意深く確認してください。</string>
+    <string name="qingshuruhuazhuanshuliang">スイープ数を入力してください</string>
+    <string name="xiangtongzhanghuzhijianbunenghuazhuan">同じアカウント間での振り替えはできません</string>
+    <string name="usdtzichan">USDTアセット</string>
+    <string name="ninhaiweitianjiashoukuanfangshi">入金方法が追加されていません</string>
+    <string name="tixianshenqingyitijiao">キャッシュアウト申請が送信されました。プラットフォームからの貸し出しを待機しています</string>
+    <string name="tixianyiwancheng">キャッシュアウトが完了しました</string>
+    <string name="usdttixian">USDTキャッシュアウト</string>
+    <string name="tixiandingdanxiangqing">キャッシュアウト注文の詳細</string>
+    <string name="qingxianxuanzegendanleixing">最初にフォールディングタイプを選択してください</string>
+    <string name="youxiangyanzhengma">メールボックス認証コード</string>
+    <string name="bangdingchenggong">正常にバインド</string>
+    <string name="jiaruwomen">参加</string>
+    <string name="wodeyongjin">マイ・コミッション</string>
+    <string name="wodeyaoqingma">招待コード:</string>
+    <string name="anquanyanzheng">セキュリティ認証</string>
+    <string name="yanzhengchenggong">ベリファイ成功</string>
+    <string name="lianjieshibai">接続に失敗しました</string>
+    <string name="kaiqitongzhituisong">通知のプッシュを有効にする</string>
+    <string name="kaiqitongzhituisongjiangyouzhuyu">通知のプッシュを有効にすると、最新の情報を入手する際に役立ちます！\n</string>
+    をオンにすることを強く推奨します。
+    <string name="xiacizaishuo">次回</string>
+    <string name="qukaiqi">をオンにする</string>
+    <string name="zaianyicituichu">をもう一度押して終了</string>
+    <string name="lingtianlingshi">0日0時00分00秒</string>
+    <string name="shifouquedingkaitongdaidangongneng">リボン機能を有効にしますか。</string>
+    <string name="kaitongjidaibianniyiyuedu">開通したことは、すでにお読みになっていることを意味します</string>
+    <string name="wwctdaidangongnengfuwuxieyi">BITCの単一機能サービス契約</string>
+    <string name="bianjizixuan">自動編集</string>
+    <string name="quedingshanchuzixuan">オートコレクトの削除を決定</string>
+    <string name="weituodingdanxiangqing">委託注文の詳細</string>
+    <string name="duanxinyanzhengma">SMS認証コード</string>
+    <string name="yanzhengma">バリデータ</string>
+    <string name="qingshuruduanxinyanzhengma">SMS認証コードを入力してください</string>
+    <string name="huoquchenggong">成功の取得</string>
+    <string name="leidatushuoming">レーダーチャートの説明</string>
+    <string name="yybyuce">YYB予測</string>
+    <string name="yucechaoguo">予測超過</string>
+    <string name="caiduiyujikede">予想される可能性を推測</string>
+    <string name="yybjieguoyijingcaijieshushiweizhun">YYB、結果はクイズが終了した時点で表示されます。</string>
+    <string name="qingshurupinglun">コメントを入力してください</string>
+    <string name="wenzitaichang">テキストが長すぎます</string>
+    <string name="benchangyucejieshu">このフィールドの予測は終了しました。次のフィールドをお待ちください。</string>
+    <string name="zanweiyuce">予測なし</string>
+    <string name="pinglungchenggong">コメント成功</string>
+    <string name="yuce">予測</string>
+    <string name="zai">にある</string>
+    <string name="xuanzerengou">選択サブスクリプション</string>
+    <string name="zichan">アセット</string>
+    <string name="shangjia">棚に上げる</string>
+    <string name="yixiajia">ダウン</string>
+    <string name="chushouzhong">売却中</string>
+    <string name="quedingshanchu">削除確定</string>
+    <string name="shifouquedingshangjia">店頭にお届けしますか。</string>
+    <string name="shifouquedingxiajia">切断してもよろしいですか。</string>
+    <string name="qingxuanzeshangjiashoukuanfangshi">業者の入金方法を選択してください</string>
+    <string name="quanbumairu">すべて買います</string>
+    <string name="shifukuan">実払</string>
+    <string name="caozuochaoshi">オペレーションのタイムアウト</string>
+    <string name="qingquedingyidenglushoukuanzhanghu">入金アカウントにログインしていることを確認し、入金に誤りがないことを確認してください</string>
+    <string name="qingquerenhaimeiyoufukuangeiduifang">先方への支払いがまだ行われていないことを確認してください</string>
+    <string name="dingdanjiangzai">注文は</string>
+    <string name="houchaoshiquxiao">タイムアウト後にキャンセル</string>
+    <string name="zhifubao">アリペイ</string>
+    <string name="qingshurugoumaishuliang">購入数量を入力してください</string>
+    <string name="chushoushuliang">売却数量</string>
+    <string name="bianjiguanggao">広告の編集</string>
+    <string name="liuyanchangdubunengdayu">メッセージの長さは140文字以内</string>
+    <string name="qingxuanzeshoufukuanfangshi">支払方法を選択してください</string>
+    <string name="qingshuruzuidaxiane">最大クォータを入力してください</string>
+    <string name="qingshuruzuixiaoxiane">最小クォータを入力してください</string>
+    <string name="qingshurushuliang">数量を入力してください</string>
+    <string name="dangqianchushouzuidijia">現在の販売価格</string>
+    <string name="quedingshenqingquxiaoshangjiarenzheng">マーチャント認定の取り消しを申請しますか。</string>
+    <string name="zhengzaishenqingquxiaoshangjiarenzheng">マーチャント認定の取り消しを申請しています</string>
+    <string name="shenqingquxiaoshangjiarenzheng">マーチャント認定の取り消し申請</string>
+    <string name="renzhengzhong">認証の</string>
+    <string name="yishiming">実名</string>
+    <string name="weishiming">実名ではありません</string>
+    <string name="shanjiafuwuxieyi">マーチャントサービス契約</string>
+    <string name="zuoweiguanggaobaozhengzichanqietongyi">広告主として資産を保証し、同意する</string>
+    <string name="tongyidongjie">フリーズに同意</string>
+    <string name="qianwangshiming">実名へ</string>
+    <string name="weishimingbunengshenqingshangjiarenzheng">実名がなければ業者認証を申請することはできません。実名認証の後、業者認証を申請してください。</string>
+    <string name="weishimingbunengshenqingshangjia">実名なしではマーチャント認定を申請できません</string>
+    <string name="dingdanyichaoshi">注文がタイムアウトしました</string>
+    <string name="hao">番号</string>
+    <string name="wodeguanggao">マイ広告</string>
+    <string name="shensutixing">苦情通知</string>
+    <string name="qingxuanzeshensuliyou">訴えの理由を選択してください</string>
+    <string name="liuyanbunengchaoguosanbaigezifu">メッセージは300文字以内</string>
+    <string name="dingdanjilu">注文レコード</string>
+    <string name="xuanzeguojiahuodiqu">国または地域を選択してください</string>
+    <string name="sousuoguojiahuodiqu">国または地域の検索</string>
+    <string name="zhucezhanghu">アカウントの登録</string>
+    <string name="chongxinhuoqu">再取得</string>
+    <string name="wwctyinsitiaokuan">BITCプライバシー規約</string>
+    <string name="wwctyonghuxieyi">BITCユーザープロトコル</string>
+    <string name="zhucejidaibiaoniyitongyibingjieshou">登録するということは同意し受け入れたということです</string>
+    <string name="duanxinyanzhengmayijingfasongzhi">SMS認証コードが</string>に送信されました。
+    <string name="qingchongxinhuoquyanzhengma">もう一度認証コードを取得してください</string>
+    <string name="cuowutishi">エラー・ヒント</string>
+    <string name="nindehuihuayijingguoqi">セッションの有効期限が切れました。ログインし直してください</string>
+    <string name="weizhileixing">不明な型</string>
+    <string name="quanbutupian">すべての画像</string>
+    <string name="zhang">チャン</string>
+    <string name="huiyuan">メンバーシップ</string>
+    <string name="wei">ビット</string>
+    <string name="heji">合計</string>
+    <string name="yuezhanghukeyong">残高勘定は使用可能</string>
+    <string name="shezhiwuxiao">無効な設定</string>
+    <string name="nian">年</string>
+    <string name="ri">日</string>
+    <string name="riqibunengchaoguojintian">日付は今日を超えることはできません</string>
+    <string name="tianjiazhifubao">Alipayを追加</string>
+    <string name="tianjiaweixin">WeChatを追加</string>
+    <string name="qingtianjiashoukuanerweima">入金QRコードを追加してください</string>
+    <string name="tianjiayinhangka">銀行カードの追加</string>
+    <string name="qingshurukaihuyinhangmingcheng">口座開設銀行名を入力してください</string>
+    <string name="tianjiazhanghuleixing">アカウントタイプの追加</string>
+    <string name="shanchushibai">削除に失敗しました</string>
+    <string name="shanchuchenggong">削除に成功しました</string>
+    <string name="wodesixin">私の私信</string>
+    <string name="qingshangchuanguohuizhao">国章写真をアップロードしてください</string>
+    <string name="qingshangchuanrenxiangzhao">アップロードしてください</string>
+    <string name="qingshurushenfenzhenghaoma">ID番号を入力してください</string>
+    <string name="gerenshezhi">個人設定</string>
+    <string name="nindeziliaoyijingxiugaishifoubaocun">データが変更されました。保存しますか！</string>
+    <string name="gengxinxinxichenggong">情報の更新に成功しました</string>
+    <string name="weixiugai">変更されていません</string>
+    <string name="qingshurumingzi">名前を入力してください</string>
+    <string name="qingshuruyidaoliugezhongming">中国名を1~6文字、または英語名を1~12文字入力してください</string>
+    <string name="yonghumingguoduan">ユーザー名が短すぎます</string>
+    <string name="yonghumingguochang">ユーザー名が長すぎます</string>
+    <string name="wenzitaichangyisiling">リテラルが長すぎます。140文字を超えてはいけません</string>
+    <string name="qingxuanzetupian">画像を選択してください</string>
+    <string name="chucuole">エラーが発生しました</string>
+    <string name="dangqianzuiduotianjia">現時点で追加できるのは最大</string>
+    <string name="zhangtupian">イメージ</string>
+    <string name="quanbushipin">すべてのビデオ</string>
+    <string name="shipinbucunzai">ビデオが存在しない</string>
+    <string name="shipindaxiaobunengchaoguo">ビデオのサイズは超えることができません</string>
+    <string name="qingshuruyuanmima">元のパスワードを入力してください</string>
+    <string name="xuanzeshoukuanfangshi">入金方法の選択</string>
+    <string name="wanshang">夜</string>
+    <string name="xiawu">午後</string>
+    <string name="shangwu">午前</string>
+    <string name="lingchen">早朝</string>
+    <string name="zhongwu">正午</string>
+    <string name="qingchongxindenglu">ログインし直してください</string>
+    <string name="genghuanshoujihaoma">携帯電話番号の変更</string>
+    <string name="zhuxiao">ログアウト</string>
+    <string name="niquedingyaozhuxiaoma">ログアウトしてもよろしいですか。</string>
+    <string name="huoquhuancundaxiaocuowu">キャッシュサイズの取得エラー</string>
+    <string name="zhengzaiqingli">クリーンアップしています…</string>
+    <string name="huancunyiqingli">キャッシュがクリーンアップされました</string>
+    <string name="quedingyaoqingchuhuancun">キャッシュをクリアしてもよろしいですか。</string>
+    <string name="zanbuqingli">クリーンアップを保留</string>
+    <string name="qingli">クリーンアップ</string>
+    <string name="yibangding">バインド</string>
+    <string name="shenqingbangding">購買依頼バインディング</string>
+    <string name="mianfeidingyue">無料購読</string>
+    <string name="yidingyue">購読済み</string>
+    <string name="dingyueyiguoqi">サブスクリプションが期限切れになりました</string>
+    <string name="shifoudingyuegaiyonghu">ユーザーをサブスクライブしますか。</string>
+    <string name="shenqingbangdingxuzhi">アプリケーション・バインディングの注意事項</string>
+    <string name="yichuzhezhangzhaopianma">この写真を削除しますか。</string>
+    <string name="changanshexiang">長押しカメラ</string>
+    <string name="quedingjidaibiaoniyitongyibingjieshou">確定しているということは同意し受け入れたということです</string>
+    <string name="shuzizichanjiedaifuwuhetong">デジタル資産貸借サービス契約</string>
+    <string name="gangganjiaoyixieyi">レバレッジ契約</string>
+    <string name="jiaoyifuwuxieyi">トランザクションサービス契約</string>
+    <string name="zhisunbunengdayu">損切りは大きくできない</string>
+    <string name="cunbibao">デポジット</string>
+    <string name="keyongshuliangbuzu">有効数量が不足しています</string>
+    <string name="qingshuruzhuanrushuliang">転入数量を入力してください</string>
+    <string name="qingzuidizhuanru">まで入力してください。</string>
+    <string name="shuliangdaocunbibao">コインチェックへの数量</string>
+    <string name="shifouyidangqianshijiapingcang">現在の市場価格で平準化するかどうか</string>
+    <string name="kehzuanchushuliangbuzu">転出可能数が不足しています</string>
+    <string name="qingshuruzhuanchu">転出を入力してください</string>
+    <string name="shuliangdaochicang">持ち高への数量</string>
+    <string name="shouyi">メリット</string>
+    <string name="yunxulaizicilaiyuandeyingyonghou">更新前にこのソースからのアプリケーションを許可</string>
+    <string name="wanchengyanzhenghoudenglu">認証の完了後にログイン</string>
+    <string name="wanchengyanzhenghouhuoquyanzhengma">認証の完了後に認証コードを取得</string>
+    <string name="yifuzhidaoniantieban">ペーストボードにコピーされました</string>
+    <string name="shoujihaomabunengweikong">携帯電話番号は空にできません</string>
+    <string name="laingcishurudemimabuxiangtong">2回入力したパスワードが同じではありません</string>
+    <string name="fangwencunchukongjian">ストレージスペースへのアクセス</string>
+
+
+    <string name="finish">完了</string>
+    <string name="download">ダウンロード中</string>
+    <string name="jump">スキップ</string>
+    <string name="next">次へ</string>
+    <string name="input">入力</string>
+    <string name="download_finish">開く</string>
+    <string name="request_failed">要求に失敗しました。再要求してください！</string>
+    <!--<string user_name="hello_world">Hello world!</string>-->
+    <string name="novalue">---</string>
+    <string name="weipanSubcribeTips">*投資は慎重に行う必要があります。上級者の操作は参考と学習のためのものであり、投資のアドバイスにはなりません。</string>
+    <string name="weekBoard">週間ランキング</string>
+    <string name="novalueTime">--:--:--</string>
+    <string name="rewardCode">ボーナスコード</string>
+    <string name="rewardRecord">ボーナスレコード</string>
+    <string name="inputRewardCode">ボーナスコードを入力</string>
+    <string name="luckyboxBest">最高の手応え</string>
+    <string name="luckyMessage">おめでとうございます！</string>
+    <string name="reportTips">苦情の理由を選択</string>
+    <string name="accountWarning">このアカウントは複数のユーザーから苦情を受けています。コミュニケーションの際はプライバシーを保護してください。</string>
+    <!--<string user_name="action_settings">Settings</string>-->
+    <string name="refresh">更新</string>
+    <string name="scan_qrcode">スキャン</string>
+    <string name="load_desc_loading">ロード中</string>
+    <string name="load_desc_sending">送信中</string>
+    <string name="load_desc_getcode">認証コードを取得しています。お待ちください</string>
+    <!-- 下拉刷新最后刷新时间 -->
+    <string name="tip_home_new_desc">新しいメッセージ・プロンプトが表示され、プルダウン・フラッシュ</string>
+    <!-- 行情 -->
+    <string name="add_my_stock">自動選択を追加</string>
+    <string name="add_mystock">自己選択株式の追加</string>
+    <string name="del_mystock">選択した株式を削除</string>
+    <string name="home_main_head_more">より\n\nより\n選択</string>
+    <string name="stock_my_stock">自己株式</string>
+    <string name="stock_add_my_stock">選択した株式を追加</string>
+    <string name="stock_setup_my_stock">自己株式管理</string>
+    <string name="stock_search">検索</string>
+    <string name="stock_more">その他</string>
+    <string name="stock_name_fdm">名前コード</string>
+    <string name="stock_action_zjcj">最新価格</string>
+    <string name="stock_action_rate">騰落率</string>
+    <string name="stock_action_add">を追加</string>
+    <string name="stock_action_setting">管理</string>
+    <string name="stock_action_mintime">時分割</string>
+    <string name="stock_action_kline">K行</string>
+    <string name="stock_action_f10">資料</string>
+    <string name="stock_action_theme">ストリング</string>
+    <string name="stock_action_hot">ホットスポット</string>
+    <string name="stock_action_broadcast">ライブ</string>
+    <string name="stock_broadcast_aticle">ライブ記事</string>
+    <string name="stock_shijian">時間</string>
+    <string name="stock_xianshou">現手</string>
+    <string name="stock_sell_1">売①</string>
+    <string name="stock_sell_2">売る②</string>
+    <string name="stock_sell_3">売③</string>
+    <string name="stock_sell_4">売り④</string>
+    <string name="stock_sell_5">売⑤</string>
+    <string name="stock_buy_1">買う①</string>
+    <string name="stock_buy_2">買う②</string>
+    <string name="stock_buy_3">買う③</string>
+    <string name="stock_buy_4">買う④</string>
+    <string name="stock_buy_5">バイ⑤</string>
+    <string name="stock_zgcj">最高</string>
+    <string name="stock_zdcj">最小</string>
+    <string name="stock_jrkp">寄り付き</string>
+    <string name="stock_rate">上げ幅</string>
+    <string name="stock_amt">騰落</string>
+    <string name="stock_fuquan">復権</string>
+    <string name="stock_rixian">日線</string>
+    <string name="stock_m5">MA5:</string>
+    <string name="stock_m10">MA10:</string>
+    <string name="stock_m30">MA30:</string>
+    <string name="stock_rate_rank">上昇率</string>
+    <string name="stock_5rate_rank">5分の上昇率</string>
+    <string name="stock_lingzhang_bk">上昇地合い</string>
+    <string name="stock_lingzhang_gu">上昇株</string>
+
+    <string-array name="stock_list_menu">
+        <item>自己株式</item>
+        <item>友達選択株</item>
+    </string-array>
+
+    <string name="myStockList">自己株式</string>
+    <string name="myFrdsStockList">フレンド選択株</string>
+    <string name="stock_A_hot">Aストランドホットスポット</string>
+    <string name="stock_dapanzhibo">大盤振る舞い</string>
+    <string name="rate">上げ幅%</string>
+    <string name="price">最新価格</string>
+    <string name="name">名前</string>
+
+    <string-array name="stock_hot_list_menu">
+        <item>上海・深センA株ランキング</item>
+        <item>上海Aランキング</item>
+        <item>ディープAランキング</item>
+        <item>中小ボードランキング</item>
+        <item>創業板ランキング</item>
+        <item>部門ランキング</item>
+        <item>上海・深センA株の5分間の上昇スピードランキング</item>
+        <item>上海Aの5分の上昇率ランキング</item>
+        <item>深いAの5分間のスピードアップランキング</item>
+        <item>上海Bランキング</item>
+        <item>深いBランク</item>
+        <item>上海と深センのファンドランキング</item>
+    </string-array>
+
+    <string name="index_0">上海と深センのA株ランキング</string>
+    <string name="index_1">上海Aランク</string>
+    <string name="index_2">深いAランク</string>
+    <string name="index_3">ボードランク</string>
+    <string name="index_4">創業板ランキング</string>
+    <string name="index_5">プレートランク</string>
+    <string name="index_6">上海と深センのA株の5分の上昇率ランキング</string>
+    <string name="index_7">上海Aの5分上昇率ランキング</string>
+    <string name="index_8">深A 5分アップ・ランク</string>
+    <string name="index_9">上海Bランキング</string>
+    <string name="index_10">深いBランク</string>
+    <string name="index_11">上海と深センのファンドランキング</string>
+
+    <string-array name="stock_f10">
+        <item>ニュース</item>
+        <item>お知らせ</item>
+        <item>研究報告</item>
+        <item>の概要</item>
+        <item>財務</item>
+        <item>配当</item>
+        <item>株主</item>
+        <item>エグゼクティブ</item>
+    </string-array>
+
+    <string name="homepagefrnewggdtop">%1$sは%2$sの%3$sを見た</string>
+
+    <!-- 我的消息 -->
+    <string name="my_msg">メッセージ</string>
+    <string name="business">トランザクション</string>
+    <string name="jf">積分</string>
+    <!-- 股友吧 -->
+    <string name="square">株友だろう</string>
+    <string name="square_newest">最新</string>
+    <string name="square_stock">自己選択株式</string>
+    <string name="square_stock2">自己選択</string>
+    <string name="square_mine">マイ</string>
+    <string name="square_topic">検索トピック</string>
+    <string name="square_edit_topic">投稿</string>
+    <string name="square_info_title">トピック</string>
+    <!-- <string user_name="square_store">コレクション</string> -->
+    <string name="square_unstore">コレクションの解除</string>
+    <string name="square_order_desc">逆表示</string>
+    <string name="square_order_asc">正の順序で表示</string>
+    <string name="square_frds_of_good">"いいねた人"</string>
+    <string name="allSquare">%1$sのポスト</string>
+    <string name="followNum">%1$s階</string>
+    <string name="goSquare">%1$sに行ってみる</string>
+    <string name="shareToFriendCircleFromSystem">ゴールドロードの友達へ共有</string>
+    <string name="shareToSquareFromSystem">共有到ゴールドロード株友吧</string>
+    <string name="shareToCircleFromSystem">ゴールドロードサークルへの共有</string>
+    <string name="send">送信</string>
+    <string name="squareSendTitle">投稿</string>
+    <string name="friend_circle">フレンド動的</string>
+    <string name="goFriend_circle">%1$sに行ってみる</string>
+    <string name="friend_circle_send_title">コメント</string>
+    <string name="friend_circle_frds_title">友達の視点</string>
+    <string name="success">%1$s成功</string>
+    <string name="unsuccess">%1$s失敗</string>
+    <string name="unStore">コレクション解除</string>
+    <string name="storeSuccess">コレクション成功</string>
+
+    <!-- 股市日程表 -->
+    <string name="stockschedule">株式市場スケジュール</string>
+    <string name="stockschedule_pullLable">以前のスケジュールを検索</string>
+    <string name="stockschedule_refreshingLabel">ロード中…</string>
+    <string name="stockschedule_releaseLabel">前のスケジュールのロードを解除</string>
+    <string name="stockschedule_refreshSuccessLabel">正常にロード</string>
+    <string name="comment">コメント</string>
+    <string name="share">共有</string>
+    <string name="report">苦情</string>
+
+    <!-- 分享的文字 -->
+    <string name="shareToFriends">友達に共有</string>
+    <string name="shareToWeibo">共有到新浪微博</string>
+    <string name="shareToTalkie">仲間と共有</string>
+    <string name="shareToFrTalkie">友達への共有</string>
+    <string name="shareToChat">プライベートチャットで共有</string>
+    <string name="shareToCircle">サークルに共有</string>
+    <string name="shareToWeChat">WeChatの友達に転送</string>
+    <string name="shareToWeChatQuan">WeChatのモーメンツに転送</string>
+    <string name="shareImageToFriends">ゴールドロードの友達に共有</string>
+    <string name="shareImageToWeibo">新浪微博へ転送</string>
+    <string name="shareImageWeChat">WeChatの友達に転送</string>
+    <string name="shareImageWeChatQuan">WeChatのモーメンツに転送</string>
+    <string name="shareImagePaper">新聞に転送</string>
+    <string name="doddletext">ダブルクリックしてテキストを変更</string>
+    <string name="weichatFriends">WeChatフレンド</string>
+    <string name="weichatCircle">微信モーメンツ</string>
+    <!-- 报纸 -->
+    <string name="more">その他</string>
+    <string name="newsstander">新聞販売店</string>
+    <string name="myCreatePaper">自分が作成した新聞</string>
+    <string name="mySubscriberPaper">購読している新聞</string>
+    <string name="createPaper">新聞の作成</string>
+    <string name="delPaper">新聞の削除</string>
+    <string name="planeActivityTitle">メディアコラム</string>
+    <string name="pp_createArticle">まだ作成していない記事を作成してください！</string>
+    <string name="introduction">入門</string>
+    <string name="menu">アクション</string>
+    <string name="publishArticle">投稿</string>
+    <string name="editPaper">新聞の編集</string>
+    <string name="paperIntroduction">新聞概要</string>
+    <string name="pp_newsurl">外部接続をクリックして全文を読む</string>
+    <string name="pp_sending">投稿中…</string>
+    <string name="pp_remainNum">残りの文字数:140/140</string>
+    <string name="publish">パブリッシング</string>
+    <string name="sure">確認</string>
+    <string name="paperInfo">新聞概要</string>
+    <string name="modify">変更</string>
+    <string name="modifyName">名前の変更</string>
+    <string name="modifyInfo">変更の概要</string>
+    <string name="submit">コミット</string>
+    <string name="complete">完了</string>
+    <string name="allSubscriberPeople">すべてのサブスクライバ</string>
+    <string name="allListenerPeople">すべてのリスナー</string>
+    <string name="articleInfo">記事の詳細</string>
+    <string name="changeToMyPaper">マイペーパーに移動</string>
+    <string name="newspaper">レポート</string>
+    <string name="pp_publishPaper">新聞を作成しています…</string>
+    <string name="addCustomCategory">カスタム分類を追加しています…</string>
+    <string name="create">作成</string>
+    <string name="issue">発表</string>
+    <string name="customCategory">カスタム分類</string>
+    <string name="otherCategory">その他のタクソノミ</string>
+    <string name="hisOtherPapers">TAの他紙</string>
+    <string name="close">閉じる</string>
+    <string name="paperdelete">新聞の削除</string>
+    <string name="isNewsGoodOrBad">このニュースは</string>
+
+    <!-- 今日头条 -->
+    <string name="todayHotnews">今日の見出し</string>
+    <string name="tjrHotnews">ゴールドロードヘッド</string>
+    <string name="newsInfo">詳細</string>
+    <string name="topLine">ヘッドライン</string>
+
+    <string-array name="hotnewsShare">
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>株友吧</item>
+        <item>"WeChatフレンド"</item>
+        <item>WeChatのモーメンツ</item>
+        <item>新浪微博</item>
+    </string-array>
+
+
+    <string-array name="stockIndexDel">
+        <item>自己株式の削除</item>
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>株友吧</item>
+        <item>"WeChatフレンド"</item>
+        <item>WeChatのモーメンツ</item>
+        <item>新浪微博</item>
+    </string-array>
+
+    <string-array name="stockIndexAdd">
+        <item>自己株式の追加</item>
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>株友吧</item>
+        <item>"WeChatフレンド"</item>
+        <item>WeChatのモーメンツ</item>
+        <item>新浪微博</item>
+    </string-array>
+
+    <string-array name="newspaperShare">
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>株友吧</item>
+        <item>"WeChatフレンド"</item>
+        <item>WeChatのモーメンツ</item>
+        <item>新浪微博</item>
+        <item>新聞に転送</item>
+    </string-array>
+
+    <string-array name="microShare">
+        <item>サークル</item>
+        <item>株友吧</item>
+        <item>"WeChatフレンド"</item>
+        <item>WeChatのモーメンツ</item>
+        <item>新浪微博</item>
+    </string-array>
+
+    <string-array name="stockDel">
+        <item>自己株式の削除</item>
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>株友吧</item>
+        <item>"WeChatフレンド"</item>
+        <item>WeChatのモーメンツ</item>
+        <item>新浪微博</item>
+    </string-array>
+
+    <string-array name="stockAdd">
+        <item>自己株式の追加</item>
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>株友吧</item>
+        <item>"WeChatフレンド"</item>
+        <item>WeChatのモーメンツ</item>
+        <item>新浪微博</item>
+    </string-array>
+
+
+    <string-array name="stockSchedule">
+        <item>コメント</item>
+        <item>サークル</item>
+        <item>株友吧</item>
+        <item>"WeChatフレンド"</item>
+        <item>WeChatのモーメンツ</item>
+        <item>新浪微博</item>
+    </string-array>
+
+
+    <string-array name="circleInvite">
+        <item>"WeChatフレンド"</item>
+        <item>WeChatのモーメンツ</item>
+        <item>ゴールドロードフレンド</item>
+    </string-array>
+    <string-array name="appInvite">
+        <item>"WeChatフレンド"</item>
+        <item>WeChatのモーメンツ</item>
+        <item>新浪微博</item>
+    </string-array>
+
+    <string-array name="appwebshare">
+        <item>"WeChatフレンド"</item>
+        <item>WeChatのモーメンツ</item>
+    </string-array>
+
+    <!-- 我的主页开始 -->
+    <string-array name="myhomepageMyinfoPermissionsaction">
+        <item>自分自身のみ表示</item>
+        <item>友達のみ表示</item>
+        <item>誰でも表示</item>
+    </string-array>
+    <!-- 默认不显示值，所以填入一个空值 -->
+    <string-array name="myhomepageMyinfostyleaction">
+        <item>ショート・ラディカル</item>
+        <item>セントラルバンド型</item>
+        <item>ロング・ロバスト</item>
+    </string-array><!-- 默认不显示值，所以填入一个空值 -->
+    <string-array name="myhomepageMyinfostockage">
+        <item>小学生（半年以内）</item>
+        <item>中学生（半年~2年）</item>
+        <item>大学生（2~10年）</item>
+        <item>古株グレー（10年以上）</item>
+    </string-array>
+    <string-array name="squareConcerStockage">
+        <item />
+        <item>小学生</item>
+        <item>中学生</item>
+        <item>大学生</item>
+        <item>古い株の灰</item>
+    </string-array>
+
+
+    <string-array name="circleWeipanSetting">
+        <item>閉める</item>
+        <item>サークルマスター/管理者のみ許可</item>
+        <item>すべてのユーザーを許可</item>
+    </string-array>
+
+
+    <!-- 组件市场 -->
+    <string name="app_yixue">益学堂のバインド</string>
+    <string name="app_advert">アクティブ・ゾーン</string>
+    <string name="app_martket">コンポーネント市場</string>
+    <string name="finalictmartket">財テクスーパー</string>
+    <string name="app_edit">コンポーネント管理</string>
+    <string name="app_more">その他のコンポーネント</string>
+    <string name="app_detail">コンポーネントの詳細</string><!-- 好友列表 邀请好友 -->
+    <string name="friend_talking">TAとプライベートチャット</string>
+    <string name="friend_add">友達として追加</string>
+    <string name="friend_list">友達リスト</string>
+    <string name="invite_friend">友達を招待</string>
+    <string name="find_know_friend">関心のある友人</string>
+    <string name="send_sms">メッセージを送信</string><!-- 私聊 -->
+    <string name="chat_home">プライベートチャット</string>
+    <string name="chat_jion">ルーム</string>
+
+    <!-- 为访谈开始 -->
+    <string name="send_img_file_not_exist">ファイルが存在しません</string>
+    <string name="back">は</string>を返します。
+    <string name="MySubscription">サブスクライブ済み</string>
+    <string name="MyCreate">作成した</string>
+    <string name="IamGuest">ゲストです</string>
+    <string name="guest">ゲスト</string>
+    <string name="guest2">ゲスト:</string>
+    <string name="invite">招待</string>
+    <string name="participant">参加者:</string>
+    <string name="acceptInvite">今すぐ開始</string>
+    <string name="columnNameHit">コラム名を入力…</string>
+    <string name="tvEditHit">（1~10桁の中国語または英語を入力してください）</string>
+    <string name="tvColumnInfoHit">セクションの紹介:</string>
+    <string name="tvNum">残りの文字数:0/140</string>
+    <string name="tvOtherSubscriptioner">購読ファンを表示するにはクリックしてください>></string>
+    <string name="subscription">購読</string>
+    <string name="edit">編集</string>
+    <string name="editNoSpace">編集</string>
+    <string name="findOtherSubscriptioner">ファンを購読</string>
+    <string name="createNewProgram">新しいプログラムを作成</string>
+    <string name="emcee">ファシリテータ</string>
+    <string name="maxGuest">ゲスト（最大3名まで招待可能）:</string>
+    <string name="subscriptionNews">新しいコラムを購読</string>
+    <string name="subscriptionNewColumn">新しいコラムを購読</string>
+    <string name="search">検索</string>
+    <string name="host">人気</string>
+    <string name="recommend">推奨</string>
+    <string name="friend">フレンド</string>
+    <string name="searchColumn">検索欄</string>
+    <string name="subscriptionNum">定期購読フォロワー数共%1$s人:</string>
+    <string name="textwaring">残りの字数：&lt;font color="Red">%1$s&lt;/font>/%2$s</string>
+    <string name="subscriptionOk">サブスクリプション成功</string>
+    <string name="unSubscriptionOk">サブスクリプション解除に成功しました</string>
+    <string name="unSubscription">キャンセル</string>
+    <string name="addProgram">新しいプログラムを作成</string>
+    <string name="etProgramName">このトピックを1~20文字で入力</string>
+    <string name="cancle">キャンセル</string>
+    <string name="tryListening">試聴</string>
+    <string name="pressedRecord">録音を保持</string>
+    <string name="time">%1$s\&apos;\&apos;</string>
+    <string name="say">私が言うには</string>
+    <string name="inputHint">コラム名を入力</string>
+    <string name="columnHead">コラムのアイコン</string>
+    <string name="myIssue">作成したコラム</string>
+    <string name="recordAgain">再録音</string>
+    <string name="currBg_huanle">BGM:楽しい</string>
+    <string name="currBg_jiezou">BGM:テンポ</string>
+    <string name="currBg_jidong">BGM:感動</string>
+    <string name="currBg_shuqing">BGM：リリック</string>
+    <string name="currBg_wu">BGM:なし</string>
+    <string name="huanle">喜び</string>
+    <string name="jiezou">リズム</string>
+    <string name="jidong">アグレッシブ</string>
+    <string name="shuqing">リリック</string>
+    <string name="wu">なし</string>
+    <string name="attachMap">図</string>
+    <string name="speak">録音</string>
+    <string name="friend_new">新しい友人</string>
+    <string name="kline_cycle_minute_time">分線</string>
+    <string name="kline_cycle_date_time">日線</string>
+    <string name="kline_cycle_week_time">週次行</string>
+    <string name="kline_cycle_month_time">月線</string>
+    <string name="kline_cycle_minute_5_time">5分</string>
+    <string name="kline_cycle_minute_10_time">10分</string>
+    <string name="kline_cycle_minute_15_time">15分</string>
+    <string name="kline_cycle_minute_30_time">30分</string>
+    <string name="kline_cycle_minute_60_time">60分</string>
+    <string name="payment_term">入金方法</string>
+    <string name="fix_passwd">パスワードの変更</string>
+    <string name="addfriend">Hi,私は%1$s、早く私をプラスして友達と一緒に株式を交流しましょう！</string>
+    <string name="noNamefriend">早く私を加えて友達に株を交流しましょう！</string>
+    <string name="friend_home">個人用ページ</string>
+    <string name="invite_contact">招待者を選択</string>
+    <string name="phone_register">携帯電話の登録</string>
+    <string name="register">登録</string>
+    <string name="favorite_main">お気に入り</string>
+    <string name="login_password">パスワードを忘れました</string>
+    <string name="friendStock">%1$sの自選</string>
+    <string name="hasAdd">追加</string>
+    <string name="frdsOfLookThisArticle">この記事を読んだ知人:</string>
+    <string name="noFrdsOfLookThisArticle">この記事を読んだ友達はまだいません</string>
+    <string name="intelligentVoice">ゴールドいとこ</string>
+    <string name="settings">設定</string>
+    <string name="modifyUserInfo">個人情報の変更</string>
+    <string name="accountManage">アカウント管理</string>
+    <string name="aboutTaojinlu">コインバーについて</string>
+    <string name="myMsg">メッセージ</string>
+    <string name="feedback">フィードバック</string>
+    <string name="feedback2">フィードバック>></string>
+    <string name="feedbackSend">コメントを入力</string>
+    <string name="selfDescription">自己記述</string>
+    <string name="dateOfBirth">生年月日</string>
+    <string name="city">所在地</string>
+    <string name="occupation">キャリア</string>
+    <string name="marketRate">コインバーを評価</string>
+    <string name="advertAndCooperate">広告およびビジネス提携</string>
+    <string name="welcomepage">ようこそページ</string>
+    <string name="noSubscription">このラジオ局には一時的にサブスクライバがありません</string>
+    <string name="noListener">このラジオ局には現在受信者がいません</string>
+    <string name="noIamGuest">ゲスト番組はまだありません</string>
+    <string name="issueNoReward">改編番組はしばらくご褒美をいただきませんでした</string>
+
+    <!-- 申请认证 -->
+    <string name="applyAddV">認定申請</string>
+    <string name="applyAddVTips">個人認証はゴールドロードユーザーの正体を確認するものです\nすべての認証は無料です</string>
+    <string name="applyAddVConditionTitle">以下の基本条件を満たすことにより、</string>を申請することができます。
+    <string name="applyAddVPrivilegeTitle">認定を受けると、次の特権が与えられます。</string>
+    <string name="applyAddVEnterpriseNeed">エンタープライズ認定要件:</string>
+    <string name="applyAddVPersonalNeed">個人認証の必要条件:</string>
+    <string name="applyAddVEnterpriseNeedMaterial">エンタープライズ認定関連資料</string>
+    <string name="applyAddVPersonalNeedMaterial">個人認証関連資料</string>
+    <string name="applyAddVMark">青V認定フラグ</string>
+    <string name="applyAddVFrdsUnlimited">友達の数が無制限</string>
+    <string name="square_publish_tips_toast">頻繁に投稿しないでください。サーバを停止してください。</string>
+    <string name="square_publish_tips">%1$s秒後に発表できます</string>
+    <string name="about_taojinroad">ゴールドロードはあなたに1つの知人の株友達と一緒に株を游ぶプライベートな空間を提供して友達に追加した後、一緒にさまざまな面白い株の機能とゲームを游ぶことができてレベルを高めます。\n\n友達がどんな株を見ているか、重要な情報を毎日いつでも見ることができます。\n\nさらに重要なのは、ゴールドロードのすべての機能は無料ですよ！</string>
+    <string name="findResult">検索結果</string>
+    <string name="findFrds">友人を探す</string>
+    <string name="saveToSd">携帯電話に保存</string>
+    <string name="editPic">ピクチャの編集</string>
+    <string name="delPic">ピクチャの削除</string>
+    <string name="toggle_on">オン</string>
+    <string name="toggle_off">オフ</string>
+    <string name="pushTextFormat">%1$s:00</string>
+    <string name="pushSettings">メッセージのプッシュ設定</string>
+    <string name="brotherSettings">スイング設定</string>
+    <string name="stockSettings">リフレッシュ頻度の設定</string>
+    <string name="pushSettingsVoice">サウンド</string>
+    <string name="pushSettingsVibrate">振動</string>
+    <string name="registFankui">登録できませんか。ご意見をお寄せください>></string>
+    <string name="action_app_market">コンポーネント市場</string>
+    <string name="userOfMyConcern">対象となる人物</string>
+    <string name="userOfConcernMe">私をフォローしてくれる人</string>
+    <string name="concernMe">が私に注目している</string>
+    <string name="mySquare">マイ投稿</string>
+    <string name="myComment">コメント</string>
+    <string name="mySquareStore">"お気に入り"</string>
+    <string name="concern">フォロー</string>
+    <string name="userOfUserConcern">TA writer</string>
+    <string name="userOfConcernUser">TAに関心を持つ人</string>
+    <string name="concernUser">TAをフォローした</string>
+    <string name="userSquare">TAの投稿</string>
+    <string name="userStore">TAのお気に入り</string>
+    <string name="userInfo">プロファイル</string>
+    <string name="taConcernNum">%1$sのフォロー：%2$s</string>
+    <string name="ConcernTaNum">%1$sにフォローしている人：%2$s</string>
+    <string name="delConcern">ウォッチを解除</string>
+    <string name="concernSuccess">成功にフォーカス</string>
+    <string name="concernSuccessRecount">現時点ではまだ%1$sのフォローが残っている</string>
+    <string name="concernCount"> %1$s 人</string>
+    <string name="concernUserByUser"> %1$sをフォローした </string>
+    <string name="userconcernBuUser"> %1$sのフォロー </string>
+    <string name="userSquareByUser"> %1$sのポスト </string>
+    <string name="userStoreByUser"> %1$sのお気に入り </string>
+    <string name="funs">ファン</string>
+    <string name="funsNum">%1$s人</string>
+    <string name="reloadText">画面をクリックして再読み込み</string>
+    <string name="noConcern">あなたはまだ誰にも関心を持っていませんよ、広場に行ってみてください。\nアバターをクリックして関心を追加することができます</string>
+    <string name="publicSquare">スクエア</string>
+    <string name="userTag">個人タグ</string>
+    <string name="likePeple">関心のある人</string>
+    <string name="userNoHeadToast">このユーザーにはアバターがありません</string>
+    <string name="homeMsgHotNewsCount">その他%1$sバー</string>
+    <string name="homeMsgNP">その他のニュース</string>
+    <string name="homeMsgNPR1">その他のTAに関するニュース</string>
+    <string name="homeMsgNPR2">その他のTAに関するアナウンス</string>
+    <string name="homeMsgNPR3">TAの詳細情報</string>
+    <string name="homeMsgTalk">その他のTAインタビューコーナー</string>
+    <string name="homeMsgTl">その他のスケジュール</string>
+    <string name="friends">フレンド</string>
+    <string name="mine">マイ</string>
+    <string name="paper_source">から転送 &lt;%1$s&gt;</string>
+    <string name="roadSigns">道路標識</string>
+    <string name="interaction">エンターテイメントタウン</string>
+    <string name="account">アカウント</string>
+    <string name="roadSignsWithSpace">道路標識</string>
+    <string name="interactionWithSpace">検出</string>
+    <string name="accountWithSpace">アカウント</string>
+    <string name="friendWithSpace">フレンド</string>
+    <string name="subcribeRoadSigns">道路標識を登録</string>
+    <string name="homeRoadSignsNewCount">%1$s件新し</string>
+    <string name="recommendedRoadSigns">推奨道路標識</string>
+    <string name="recommendedsubscription">推奨サブスクリプション</string>
+    <string name="not">いいえ</string>
+    <string name="yes">はい</string>
+    <string name="unSubscribeRoadSignsHint">この道路標識の購読を解除しますか。</string>
+    <string name="unSubscribeStockRoadSignsHint">%1$sにフォローしない?</string>
+    <string name="myStockVertical">その他の選択</string>
+    <string name="subscribe">サブスクライブ</string>
+    <string name="unSubscribe">サブスクライブ解除</string>
+    <string name="myElsePaper">他紙</string>
+    <string name="addStockAndGetServiceHint">提供されるサービス</string>
+    <string name="deleteStockAndGetServiceHint">次のサービスを失うことになります。\n*個別銘柄ニュースのリマインダ\n*個別銘柄ニュースのリマインダ\n*個別銘柄異動のリマインダ\n*個別銘柄デッドフォークのリマインダ\n*個別銘柄ニュースのリマインダ</string>
+    <string name="addStockAndGetService">次のサービスが提供されます。\n*個別銘柄ニュースのリマインダ\n*個別銘柄ニュースのリマインダ\n*個別銘柄異動のリマインダ\n*個別銘柄デッドロックのリマインダ\n*個別銘柄ニュースのリマインダ</string>
+    <string name="addStockHint">オプション株を購読する【%1$s】</string>
+    <string name="deleteStockHint">オプション株を削除する【%1$s】</string>
+    <string name="cancleNoSpace">キャンセル</string>
+    <string name="microinterviews">マイクロラジオ</string>
+    <string name="newsstandHot">人気</string>
+    <string name="newsstandRecommend">推奨</string>
+    <string name="newsstandMyFriendsPaper">フレンド</string>
+    <string name="newsstandOrderByTime">最新</string>
+    <string name="newsstandMenu">タクソノミ</string>
+    <string name="newsstandSearchPaperHint">新聞の検索</string>
+    <string name="searchBear">検索結果</string>
+    <string name="investment_0">ショート・ラディカル</string>
+    <string name="investment_1">ミッドバンドタイプ</string>
+    <string name="investment_2">ロングロバスト</string>
+    <string name="stockage_0">小学生（半年以内）</string>
+    <string name="stockage_1">中学生（半年~2年）</string>
+    <string name="stockage_2">大学生（2~10年）</string>
+    <string name="stockage_3">10年以上前の灰</string>
+    <string name="theRequired">（必須）</string>
+    <string name="theRequiredToast">必須道路標識を登録してください</string>
+    <string name="chat_add">メンバーの追加</string>
+    <string name="budget_detail">収支明細</string>
+    <string name="me">私</string>
+    <string name="myCompents">マイコンポーネント</string>
+    <string name="settingCompents">コンポーネントの管理</string>
+    <string name="addCompents">コンポーネントの追加</string>
+    <string name="squareComment">何を議論しているか見てみましょう~</string>
+    <string name="wallet">ウォレット</string>
+    <string name="clause">免責事項</string>
+    <string name="walletHint">\"助けてくれた方、ありがとうございます\"\n-ウォレット機能、期待してください-</string>
+    <string name="homeNewsNum">(%1$s新規)</string>
+    <string name="userSelfdescribtionHint">こいつは怠け者で、何も残っていない！</string>
+    <string name="basicInformation">基本資料</string>
+    <string name="hisFriendscircle">%1$sの動き</string>
+    <string name="hisStock">%1$sのオプション株</string>
+    <string name="hisFriend">%1$sのおともだち</string>
+    <string name="personalitySignature">パーソナリティ署名</string>
+    <string name="actionSearchUser">ユーザーの検索</string>
+    <string name="searching">検索中…</string>
+    <string name="searchNoResult">一致する結果はありません</string>
+    <string name="findSomeoneWhoMightKnow">関心のある人物を検索</string>
+    <string name="findUserHint">実際の携帯電話番号を入力して、知り合いの可能性のある友達を見つけてください。お客様の携帯電話番号は、今回の機能としてのみ使用され、その他の用途には使用されないことを保証いたします。ゴールドロードを応援していただき、ありがとうございました！</string>
+    <string name="post">投稿</string>
+    <string name="addGood">"いいね"</string>
+    <string name="addStore">コレクション</string>
+    <string name="addConcern">にフォーカス</string>
+    <string name="mvTabRedString">ストリング</string>
+    <string name="mvTabHot">人気</string>
+    <string name="mvTabNewest">最新</string>
+    <string name="mvTabMine">マイ</string>
+    <string name="mvSearchColumn">検索ステーション</string>
+    <string name="redStringIssue">レッドキャスト</string>
+    <string name="redStringColumn">Serial Radio</string>
+    <string name="hotIssue">人気番組</string>
+    <string name="hotColumn">人気ラジオ局</string>
+    <string name="myColumn">マイラジオ</string>
+    <string name="mySubscribeColumn">購読しているラジオ</string>
+    <string name="createOneColumn">ラジオ局を作成</string>
+    <string name="friendColumn">フレンドラジオ</string>
+    <string name="createColumn">ラジオ局の作成</string>
+    <string name="friendHasNoColumn">友達がラジオ局を作成していません</string>
+    <string name="talkTjrBean">いただいたゴールド豆：%1$s</string>
+    <string name="editMyTalk">マイラジオの編集</string>
+    <string name="editMyTalkName">ラジオ局名の変更</string>
+    <string name="editMyTalkInfo">ラジオプロファイルの変更</string>
+    <string name="issueName">この番組名</string>
+    <string name="invateGuest">ゲストを招待</string>
+    <string name="publishIssue">パブリケーションの確認</string>
+    <string name="rewardSubTitle">司会者に質問し、司会者がこのコメントに返信した後に自動的に賞を与える</string>
+    <string name="addReward">ビルオーナーに返信を要請</string>
+    <string name="delTalk">ラジオ局の削除</string>
+    <string name="delTalkdialogMsg">ラジオ局を削除してもよろしいですか。</string>
+    <string name="hint">プロンプト</string>
+    <string name="rewardRank">賞金ランキング</string>
+    <string name="listenNum">リッスン総数</string>
+    <string name="onlyLookReward">懸賞金のみを見る</string>
+    <string name="searchinputHin">検索するラジオ局を入力してください</string>
+    <string name="issueList">プログラムリスト</string>
+    <string name="noAttachedMap">この番組は添付されていません</string>
+    <string name="MyPayDou">マイゴールド豆</string>
+    <string name="MyPayIcon">マイ・ロード・コイン</string>
+    <string name="MyPayDetail">注文の支払い</string>
+    <string name="MyPaySetting">ウォレット設定</string>
+    <string name="PaySetPassword">ウォレットパスワードを設定</string>
+    <string name="payCashHis">ボーナス</string>
+    <string name="phone">電話番号</string>
+    <string name="signCardHolder">カード所有者</string>
+    <string name="signCardNumber">銀行カード番号</string>
+    <string name="issueListener">視聴総数</string>
+    <string name="issueRewardRank">番組賞ランキング</string>
+    <string name="addAttach">添付図面を追加</string>
+    <string name="rewardHint">機能はまだオープンしていません。ご期待ください！</string>
+    <string name="isSubcribeTalk">ラジオを購読するかどうか\"%1$s\"?</string>
+    <string name="mvAttach">図</string>
+    <string name="continueRecord">発言を続ける</string>
+    <string name="reward">懸賞</string>
+    <string name="bill">請求書</string>
+    <string name="billhis">請求書レコード</string>
+    <string name="income_record">収支記録</string>
+    <string name="bonus_record">ボーナスレコード</string>
+    <string name="bonus_recipe">ボーナス受け取り</string>
+    <string name="bonus_extract">ボーナス抽出</string>
+<!--    <string user_name="extract_success">フェッチ成功</string>-->
+<!--    <string user_name="extract_fail">フェッチに失敗しました</string>->-->
+    <string name="withcashHis">キャッシュ履歴</string>
+    <string name="withcash">キャッシュ</string>
+    <string name="hotNewsActivity">アクティビティ</string>
+    <string name="relay">転送</string>
+    <string name="startTalk">マイクロラジオ番組の作成</string>
+    <string name="selectedTalk">マイクロラジオを選択</string>
+    <string name="selectTalkToCreateIssue">番組を開始するマイクロラジオ局を選択</string>
+    <string name="IssuewithArticle">関連するマイクロラジオ番組</string>
+    <string name="addAccount">アカウントの追加</string>
+    <string name="manageAccount">アカウントの管理</string>
+    <string name="securitiesAccount">証券口座開設</string>
+    <string name="accountAssistant">口座開設アシスタント</string>
+    <string name="tuiguang">拡張</string>
+    <string name="OpenTuiguang">ジャンプをクリックして開く</string>
+    <string name="circleMore">その他</string>
+    <string name="party">パーティー</string>
+    <string name="Information">情報</string>
+    <string name="chat">チャット</string>
+    <string name="chatInfo">チャットメッセージ</string>
+    <string name="circle">サークル</string><!-- 圈子 -->
+    <string name="processing">進行中</string>
+    <string name="ended">終了</string>
+    <string name="changeImage">画像を置換</string>
+    <string name="partyTitle">パーティータイトル</string>
+    <string name="pleaseInputPartyTitle">パーティーのテーマを入力してください</string>
+    <string name="paartyDate">パーティーの日付</string>
+    <string name="paartyTime">パーティーの時間</string>
+    <string name="pleaseSelectPartyDate">パーティーの日付を選択してください</string>
+    <string name="pleaseSelectPartyTime">パーティーの時間を選択してください</string>
+    <string name="partyVoucher">食事券</string>
+    <string name="pleaseSelectVoucher">選択されていません</string>
+    <string name="comtactMam">連絡先</string>
+    <string name="pleaseInputComtactMam">連絡先を入力してください</string>
+    <string name="comtactMethod">連絡先</string>
+    <string name="pleaseInputComtactMethod">連絡先を入力してください</string>
+    <string name="partyDesc">パーティーの説明</string>
+    <string name="pleaseInputPartyDesc">パーティーの説明を入力してください</string>
+    <string name="failureToGetBGImage">背景画像の取得に失敗しました</string>
+    <string name="notNullForPartyTitle">パーティータイトルは空にできません</string>
+    <string name="notNullForPartyTime">パーティー時間は空にできません</string>
+    <string name="partyTitleNotLess4">パーティータイトルは4文字未満にする必要があります</string>
+    <string name="partyTitleNotGreater10">パーティーのタイトルは10文字以内</string>
+    <string name="partyTimeMustBigTwo">パーティーには1日以上の時間が必要です</string>
+    <string name="partyTimeMustBigOld">新しいパーティーの時間は、元のパーティーの時間より長くする必要があります</string>
+    <string name="partyTimeMustSmallThirty">パーティー時間は30日未満である必要があります</string>
+    <string name="notNullForpartyComtactMan">パーティーの連絡先を空にすることはできません</string>
+    <string name="notNullForpartyComtactMethod">パーティーの連絡先は空にできます</string>
+    <string name="pleaseInputPhoneNum">正しい携帯電話番号を入力してください！</string>
+    <string name="notNullForpartyDesc">パーティープロフィールは空にできません</string>
+    <string name="partyDescNotLess20">パーティープロフィールは20語未満にする必要があります</string>
+    <string name="partyDescNotGreater140">パーティープロフィールは140語以内</string>
+    <string name="infoflowDetail">情報の詳細</string>
+    <string name="infoflow">情報</string>
+    <string name="publicInfoflow">発表情報</string>
+    <string name="createParty">パーティーを作成</string>
+    <string name="createPartySelectLocation">サイトの選択</string>
+    <string name="editParty">パーティーを編集</string>
+    <string name="partyDetail">パーティーの詳細</string>
+    <string name="selectPartyBackground">パーティーの背景画像を選択してください</string>
+    <string name="selectVoucher">カードを選択してください</string>
+    <string name="noPublicInfoFlow">サークルはまだ情報を発表していません</string>
+    <string name="infoflowTitleNoNull">インフォメーションヘッダーを空にすることはできません</string>
+    <string name="infoflowTitleSoLong">タイトルの文字数は25文字以内</string>
+    <string name="infoflowContentNoNull">情報の内容は空にできません</string>
+    <string name="infoflowContentSoLong">メッセージコンテンツの文字数は5000文字を超えてはいけません！</string>
+
+    <string name="uploadImage">画像のアップロード</string>
+    <string name="uploadSuccess">正常にアップロード</string>
+
+    <string name="createCircle">サークルの作成</string>
+    <string name="introduceCircleHint">他人にあなたのサークルを紹介しましょう。謙虚にならないでください。</string>
+    <string name="circleNameHint">サークル名は一意で修正不可、丁寧に記入してください。</string>
+    <string name="membersApply">メンバー要求</string>
+    <string name="circleSysNews">システムメッセージ</string>
+    <string name="circleNumber">丸</string>
+    <string name="circleName">サークル名</string>
+    <string name="circleIntroduction">サークルの紹介</string>
+    <string name="adress">サイト</string>
+    <string name="distance">距離</string>
+    <string name="qrcode">QRコード</string>
+    <string name="circleCreateTime">作成日</string>
+    <string name="circleCreator">サークル主</string>
+    <string name="circleManager">管理者</string>
+    <string name="circleMembers">サークルメンバ</string>
+    <string name="InvitecircleMembers">新しいメンバを招待</string>
+    <string name="editCircle">編集サークルの概要</string>
+    <string name="managerMembers">マネージメントサークルメンバー</string>
+    <string name="circleTop">トップに配置</string>
+    <string name="unselectedCircleTop">トップセットが選択されていません</string>
+    <string name="circleNewsSetting">ラップメッセージプッシュ通知の設定</string>
+    <string name="circleRecommendRemind">推奨アラート</string>
+    <string name="circlePartyRemind">パーティションリマインダ</string>
+    <string name="circleChatRemind">チャットアラーム</string>
+    <string name="circleTradeRemind">トランザクションサービスのリマインダ</string>
+    <string name="circleInformationRemind">インフォメーションリマインダ</string>
+    <string name="circleMatchRemind">ゲームのリマインダ</string>
+    <string name="circleSettings">サークル設定</string>
+    <string name="exitCircle">圏外</string>
+    <string name="circleSetTop">セットトップ</string>
+
+    <string name="group">結合</string>
+    <string name="stock">自己株式</string>
+    <string name="photo">写真</string>
+    <string name="takePicture">写真を撮る</string>
+
+    <string name="delete">パーティーをキャンセル</string>
+    <string name="sureCancel">をキャンセルします。</string>
+    <string name="moreAction">. . .</string>
+    <string name="joinPartyMenber">パーティーに参加するメンバ</string>
+    <string name="retryAgain">後で再試行してください</string>
+    <string name="parameterError">パラメータエラー</string>
+
+
+    <string name="editCircleRoomName">サークル名</string>
+    <string name="circleMembersDynamicAnalysis">メンバー動解析</string>
+    <string name="startParty">パーティーを開始</string>
+    <string name="startGame">開始</string>
+
+
+    <string name="circleComputerServerManager">コンピュータバックエンド管理</string>
+    <string name="circleWorkSpace">ワークスペース</string>
+    <string name="editCircleTopic">サークル名を編集</string>
+    <string name="editCircleName">サークル名の変更</string>
+
+    <string name="allowApply">同意</string>
+    <string name="refuseApply">拒否</string>
+    <string name="circleCreater">サークル主</string>
+    <string name="circleAdmin">管理者</string>
+
+    <string name="circleNoPartyHintIfIsAdmin">サークルはまだ集まりません。</string>
+    <string name="circleNoPartyHint">サークルはまだパーティーを持っていません</string>
+    <string name="circleNoFlowHintIfIsAdmin">サークルはまだ情報がありません,クリックして作成します</string>
+    <string name="circleNoFlowHint">サークルはまだ情報を持っていません</string>
+
+    <string name="searchHint">丸印を入れて検索する</string>
+    <string name="nearby">近傍</string>
+    <string name="noCircle">サークルを作成/参加していません</string>
+    <string name="searchCircleHint">検索</string>に丸印を入力します。
+    <string name="searchFriendHint">友達検索</string>
+    <string name="nearbyCircle">近傍サークル</string>
+
+    <string name="circleSearchNoResult">検索結果がありません</string>
+    <string name="circleNearbyNone">現在のところサークルはありません</string>
+    <string name="circleRecommendNone1">推奨サークルはありません</string>
+    <string name="weipanNoSubcribe1">を購読していません。</string>
+    <string name="weipanNoSubcribe2">右上のボタンをクリックして購読を追加してください</string>
+    <string name="circleRecommendNone2">推奨する個人タグの追加/変更</string>
+    <string name="editTags">追加/修正へ>></string>
+
+
+    <string name="circleApplyJoinTitle">サークルへの参加を申し込む</string>
+    <string name="sendTo">送信</string>
+
+    <string name="circleAlreadyApply">管理者の承認待ちのリクエストがありました</string>
+
+    <string name="circleAge">円の年齢</string>
+    <string name="circleredit">クレジット</string>
+
+    <string name="circleFavorableComment">好評</string>
+    <string name="circleBadReview">不評</string>
+    <string name="circleAverage">中評価</string>
+
+    <string name="circleSeeAllComments">すべてのコメントを表示</string>
+    <string name="circleComments">評価</string>
+
+    <string name="circleAnonymous">匿名</string>
+
+    <string name="circleMsg">メッセージを囲む</string>
+    <string name="circleFoodList">食事券</string>
+    <string name="circleCardList">カード</string>
+    <string name="circleGameList">ゲームチケット</string>
+    <string name="circleExpFoodList">有効期限チケット</string>
+
+    <string name="circleSysMsg">システム・メッセージ</string>
+    <string name="circlePartyMsg">パーティーメッセージ</string>
+
+
+    <string name="circlePublishCommentHint">少し評価してみよう（15字書き足せば株は上がる）</string>
+
+    <string name="circleReplyComment">コメントの返信</string>
+
+    <string name="circleReplyCommentHint">リプライ評価（140文字以内）</string>
+
+
+    <string name="searchCircleByNo">検索に丸印を入力</string>
+    <string name="searchCircleBy2Code">QRコードをスキャンしてサークルに入れる</string>
+    <string name="searchCircle">検索サークル</string>
+
+    <string name="searchStock">株式の検索</string>
+
+    <string name="synRadioToCircle">サークルに同期</string>
+    <string name="receiveImageFailure">画像の取得に失敗しました</string>
+    <string name="pleaseSelectImage">画像を選択してアップロードしてください！</string>
+    <string name="upload">アップロード</string>
+    <string name="circleNoParty">サークルはパーティーを作成していません</string>
+    <string name="sureCancelParty">パーティーをキャンセルしてもよろしいですか。</string>
+    <string name="sureDeletePartyImage">パーティー画像を削除してもよろしいですか。</string>
+    <string name="sureDeleteInfoflow">メッセージを削除してもよろしいですか。</string>
+    <string name="sureDelete">削除確定</string>
+    <string name="deleteSuccess">正常に削除</string>
+    <string name="signSuccess">ご応募おめでとうございます！</string>
+    <string name="signFailure">エントリーに失敗しました。再試行してください！</string>
+
+    <string name="alreadyInCircle">あなたはすでにそのサークルにいます</string>
+
+    <string name="selectCircle">選択範囲</string>
+
+    <string name="circleSearchMember">メンバーの検索</string>
+
+    <string name="friendDynamic">フレンド動的</string>
+    <string name="directMessage">プライベートチャット</string>
+    <string name="circleLuckly">ボーナスポイント</string>
+    <string name="circleGiftHis">レコードの取得</string>
+
+    <string name="circleGame">ゲーム</string>
+    <string name="circle_game_fdm_count">今度の試合は必ず%1$s株だけで戦う</string>
+
+    <string name="aboutCircle">サークルについて</string>
+    <string name="bindBankCard">銀行カードのバインド</string>
+    <string name="bindName">実名認証</string>
+    <string name="resetBankCard">銀行カードの変更</string>
+    <string name="resetPhone">携帯電話番号の変更</string>
+    <string name="balance">残高</string>
+    <string name="resetSecurtyPassword">ウォレットパスワードの取得</string>
+
+
+    <string name="newtimesecurities">新時代証券</string>
+    <string name="newtimesecurities_en">New Times Securities</string>
+
+    <string name="accountType">アカウントタイプ</string>
+    <string name="selectAccountType">アカウントタイプを選択</string>
+    <string name="newtimesAccount">勘定&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;号</string>
+    <string name="newtimesTradePassword">トランザクションパスワード</string>
+
+    <string name="newtimesAccountHint">アカウントを入力してください</string>
+    <string name="newtimesTradePasswordHint">取引パスワードを入力してください</string>
+
+    <string name="newtimesTradePasswordForget">トランザクションパスワードを忘れました></string>
+    <string name="newtimesRegister">アカウントがありません。アカウントを開設します></string>
+
+
+    <string name="tradeFiveSpeed">5段階</string>
+    <string name="tradeThereSpeed">価格比較アシスタント</string>
+    <string name="tradeInfo">詳細</string>
+    <string name="bindNewTimes">新時代証券</string>
+
+
+    <string name="tradeBuy">買い</string>
+    <string name="tradeSell">売却</string>
+    <string name="tradeKillAnOrder">アンロード</string>
+
+    <string name="tradeStockAssets">新時代証券</string>
+
+    <string name="tradeQueryCommission">注文照会</string>
+
+    <string name="tradeQueryTodayCommission">本日の注文</string>
+
+    <string name="tradeQueryHistoryCommission">履歴オーダー</string>
+
+    <string name="tradeQueryTransaction">クエリをクローズ</string>
+
+    <string name="tradeQuerycapital">資金照会</string>
+    <string name="tradeQueryTransferOfBankCard">銀証振替</string>
+    <string name="tradeStartTime">開始日</string>
+    <string name="tradeNotice">開始日から7日間</string>
+    <string name="tradeEndTime">締め切り</string>
+
+    <string name="tradeQueryTodayTransaction">本日成約</string>
+    <string name="tradeQueryHistoryTransaction">履歴クローズ</string>
+
+    <string name="tradeBankCard2Transfer">証券への振替</string>
+    <string name="tradeTransfer2BankCard">銀行への振込</string>
+
+    <string name="tradeIn">チャージ</string>
+    <string name="tradeOut">キャッシュアウト</string>
+
+    <string name="tradeTransferRecord">振込レコード</string>
+
+    <string name="beansMall">金豆モール</string>
+
+    <string name="circle_kline_pk">kライン一騎打ち</string>
+    <string name="circle_kline_box">k線宝箱</string>
+    <string name="circleChatDefault">このタイプの表示は現在サポートされていません。最新バージョンにアップグレードしてください。</string>
+
+    <string name="circleDefaultAdress">この輪は火星から来ています</string>
+
+    <string name="tjrAdvertCooperateTip">商談のご意向があれば、メールを送ってください</string>
+    <string name="tjrEmail">hz@redflea.com</string>
+
+
+    <string name="article">記事</string>
+    <string name="circleOnlineCount">オンライン:%1$s</string>
+    <string name="lottery">抽選</string>
+
+    <string name="lotteryByTjrDou">おとぎ豆抽選</string>
+    <string name="mall">プロップ</string>
+
+    <string name="lotteryHistory">レコード</string>
+    <string name="giftInfo">賞品の詳細</string>
+
+    <string name="receiptAddressRegister">出荷先情報記帳</string>
+
+    <string name="modifyAddressRegister">出荷先情報の変更</string>
+
+    <string name="paySetting">ウォレット設定</string>
+
+    <string name="luckyTip">ゴールドマンモール</string>
+
+    <string name="myHoldStock">所有株式</string>
+    <string name="tradeCheck">パスワードを入力</string>
+    <string name="circleHostTag">ループメインタグ:</string>
+
+    <string name="microDisk">商品</string>
+
+    <string name="microDiskTitle">銀ニッケル</string>
+    <string name="microDiskTitle2">銀ニッケル:</string>
+
+    <string name="microDiskSubTitle">広東省貴金属取引センター提供</string>
+    <string name="prodLogin">商品ログイン</string>
+    <string name="weipanHold">マイアセット</string>
+
+
+    <string name="tradeLogout">ログアウト</string>
+
+    <string name="tradeHoldInfo">持ち高の詳細</string>
+
+    <string name="weipanOrderInfo">注文の詳細</string>
+    <string name="weipanFollowRecord">参照レコード</string>
+    <string name="weipanCoupon">体験チケット</string>
+    <string name="weipanUserAccount">個人アカウント</string>
+
+    <string name="weipanTractionInfo">損益レコード</string>
+    <string name="weipanCapitalFlow">収支明細</string>
+
+    <string name="weipanAccountBalance">勘定残高</string>
+    <string name="weipanRegist">商品登録</string>
+
+    <string name="weipanRecharge">チャージ</string>
+
+    <string name="weipanWithdraw">キャッシュアウト</string>
+    <string name="weipanNewsList">商品情報</string>
+    <string name="weipanSubscribe">マイサブスクリプション</string>
+    <string name="weipanInviteReward">招待報酬</string>
+    <string name="weipanInviteNoRewardCode">ボーナスコードはありません</string>
+    <string name="weipanRank">上級者ランキング</string>
+    <string name="weipanProfit">正解率</string>
+    <string name="weipanProfitValue">収益金額</string>
+    <string name="circleJoin">参加したサークル</string>
+    <string name="radioOrder">サブスクライブされたマイクロラジオ</string>
+    <string name="paperOrder">購読済み新聞</string>
+    <string name="sendLuckyBox">発ゴールド豆宝箱</string>
+    <string name="LuckyBox">おとぎ豆の宝箱</string>
+
+    <string name="weipanCouponRule">1.体験券は有効な期間使用する必要があります、\n2、体験券は倉庫取引時にのみ使用することができます、\n3、体験券を使用して注文する場合、手数料を支払う必要はありません、\n4、体験券を使用して注文する場合、注文者数は体験券の数と一致しなければならない、\n5、体験券を利用した注文が平準化された場合、利益が出た分はユーザーに、損失が出た場合はユーザーに何の損失もありません</string>
+    <string name="weipanOrderCreateSuccessTip">建倉価格:%1$s\n注文番号: %2$s\n時間: %3$s\n\nリスクを抑えるために、ストップ値または損切り値を設定してください。</string>
+
+    <string name="weipanAutoCloseTip">*注文が決済時刻（午前4:00）より前に決済されていない場合は、強制的に決済されます</string>
+
+    <string name="weipanUserOrderHistory">アクションレコード</string>
+    <string name="reportAcc">苦情ユーザー</string>
+    <string name="inputBoxNum">宝箱の数を入力</string>
+    <string name="inputBeanNum">金豆の金額を入力</string>
+    <string name="bean">ゴールドマメ</string>
+
+    <string name="clearCircleChat">チャットレコードをクリア</string>
+    <string name="sendRewardCode">ボーナスコードを送信</string>
+
+    <string name="residualMallGoods">まだ残っている &lt;font color=%1$s>%2$s&lt;/font> 个%3$s</string>
+    <string name="what_kind_of_goods">ユーザーは、奪宝によって何を得ることができますか。></string>
+
+    <string name="involvedNum">参加者数</string>
+    <string name="remaindNum">残りの人数</string>
+    <string name="changeIndexChart">指数チャートの変更</string>
+    <string name="manageStock">自己株式管理</string>
+    <string name="ignoreMsg">このメッセージを無視</string>
+    <string name="msg2Top">このメッセージをトップにする</string>
+    <string name="cancelMsg2Top">トップのアンマウント</string>
+    <string name="commonCompentsSetting">共通コンポーネント管理</string>
+    <string name="suspension">停止</string>
+    <string name="bullish">コール</string>
+    <string name="bearish">弱気</string>
+
+    <!-- 优品黄金 -->
+    <string name="upgoldtitle">黄金</string>
+    <string name="hisOrder">履歴オーダー</string>
+    <string name="totalAssets">総資産</string>
+    <string name="yuan">メタ</string>
+    <string name="availableCash">買える現金</string>
+    <string name="positionMargin">持ち高マージン</string>
+    <string name="freezeFunds">資金の凍結</string>
+    <string name="totalEarning">当日の損益</string>
+    <string name="myPosition">マイポジション</string>
+    <string name="myAssets">マイアセット</string>
+    <string name="currentExchange">本日成約</string>
+    <string name="historyExchange">履歴クローズ</string>
+    <string name="matchAmt">出来高</string>
+    <string name="matchPrice">落札価格</string>
+    <string name="buyRise">買い上がる</string>
+    <string name="sellFall">買う</string>
+    <string name="closeWarehouse">平倉</string>
+    <string name="upgold_price">価格（メタ）</string>
+    <string name="upgold_profit_loss">予想損益:</string>
+    <string name="upgold_total">合計</string>
+    <string name="upgold_formula">（価格*手）</string>
+    <string name="upgold_cov">手数料:</string>
+    <string name="upgold_cov_1">手数料</string>
+    <string name="upgold_margin">マージン</string>
+    <string name="upgold_sure">チェック・イン</string>
+    <string name="spotTrading">スポット取引</string>
+    <string name="goldTrading">金取引</string>
+    <string name="currTransfer">今日の振替</string>
+    <string name="hisTransfer">過去の振替</string>
+    <string name="personalAccount">個人アカウント</string>
+    <string name="bankTransfer">銀行振込</string>
+    <string name="transfer">振替</string>
+    <string name="daySettlement">日次決済</string>
+    <string name="UPGoldNews">ゴールド情報</string>
+    <string name="numAndAlpha">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="UPGoldReference">金内参</string>
+    <string name="UPGoldRecommend">ゴールド投資</string>
+    <string name="UPGoldVIP">ゴールドVIP</string>
+    <string name="event">ビッグイベント</string>
+
+
+    <!--黄金体验盘-->
+    <string name="gold_exp_title">ゴールド体験ディスク</string>
+    <string name="gold_exp_income_record">体験券損益レコード</string>
+    <string name="gold_exp_my_tickets">マイ体験チケット</string>
+    <string name="gold_exp_withdraw">ボーナスを受け取る</string>
+    <string name="money_lowercase">ボーナス（メタ）</string>
+    <string name="money_uppercase">ボーナス大文字（メタ）</string>
+<!--    <string user_name="all_turn_out">すべて受け取り</string>-->
+    <string name="withdraw_record">レコードの取得</string>
+    <string name="withdraw_2_wallet">ボーナスをウォレットに受け取る</string>
+<!--    <string user_name="input_amount">受取金額を入力</string>-->
+<!-- <string user_name="can_withdraw">受信可能:</string> -->
+<!--    <string user_name="withdraw_amount">受取金額</string>-->
+    <string name="withdraw_success">成功を受け取りました</string>
+    <string name="withdraw_fail">失敗の受け取り</string>
+
+
+    <!--下面是新加的-->
+    <string name="home_tab_mycard">注目</string>
+    <string name="home_tab_news">情報</string>
+    <string name="home_tab_activity_money">アクティビティ</string>
+    <string name="home_tab_market">フリーマーケット</string>
+    <string name="home_tab_account">アカウント</string>
+    <string name="contract">コントラクト</string>
+    <string name="home_tab_circle">サークル</string>
+    <string name="myscard_name_fdm">アーティスト/コード</string>
+    <string name="myscard_zjcj">現在価格（元/枚）</string>
+    <string name="follow_add">赤いカードを追加</string>
+    <string name="follow_add_ps">お気に入りの人気者カード、分享\n人気者経済！</string>
+    <string name="follow_add_description">"紅蚤"では、紅人カードを購入、譲渡することができます。また、紅人カード販売の期限付きお年玉をもらうほか、最愛の紅人と交換してあなたを祝福したり、あなたのためにカスタマイズされた才能の演技をしたり、甚だしきに至ってはあなたの会社の商業公演に出席することができます！</string>
+
+    <!--价格(有效价格 <font color="#ff4f12">%1$s</font> - <font color="#ff4f12">%2$s</font>)-->
+    <!--<string user_name="effective_price_domain">価格(有効価格 &lt;font color="#ff4f12">%1$s&lt;/font> - &lt;font color="#ff4f12">%2$s&lt;/font>)</string>-->
+    <string name="effective_price_domain_orange">価格(有効価格 &lt;font color="#fe3f26">%1$1.2f - %2$1.2f&lt;/font>)</string>
+    <string name="effective_price_domain_green">価格(有効価格 &lt;font color="#1ec590">%1$1.2f - %2$1.2f&lt;/font>)</string>
+
+    <string name="bestBuy1price">価格（最良価格は買値）</string>
+    <string name="bestSell1price">価格（最良価格は売価格）</string>
+
+
+    <!--<string user_name="effective_price_domain_green">価格(有効価格 &lt;font color="#1ec590">%1$1.2f&lt;/font> - &lt;font color="#1ec590">%2$1.2f&lt;/font>)</string>-->
+
+
+    <string name="buy_max_amount">最大購入可能 &lt;font color="#fe3f26"> %1$s &lt;/font> 枚</string>
+
+    <string name="sell_max_amount">最大販売可能 &lt;font color="#1ec590"> %1$s &lt;/font> 枚</string>
+
+    <string name="borrow_max_amount">最大借りられるカード &lt;font color="#1ec590"> %1$s &lt;/font> 枚</string>
+
+    <string name="back_max_amount">最大返却可能カード &lt;font color="#fe3f26"> %1$s &lt;/font> 枚</string>
+
+
+    <string name="home_tab_hot">人気</string>
+    <string name="home_tab_face">ルックス</string>
+    <string name="home_tab_game">eスポーツ</string>
+    <string name="home_tab_show">タレント</string>
+    <string name="entrustToday">未完了注文</string>
+    <string name="orderQuery">注文照会</string>
+    <string name="entrustHistory">履歴オーダー</string>
+    <string name="orderHistory">履歴オーダー</string>
+    <string name="orderToday">本日の注文</string>
+    <string name="rateRanking">人気ランキング</string>
+    <string name="worthRanking">市場価格ランキング</string>
+    <string name="home_market_more">その他</string>
+    <string name="trading">有注文処理中>></string>
+    <string name="olstar_name_code">人気者名/コード</string>
+    <string name="buy_amount">買い</string>
+    <string name="pay_2_buy_up">支払い—ドル・バイ・アップ</string>
+    <string name="pay_2_buy_down">支払い—ドル買いの下落</string>
+    <string name="pay_2_buy">支払い—メタ購入</string>
+
+    <string name="sell">譲渡</string>
+    <string name="can_use_cash">買える現金:—メタ</string>
+    <string name="home_olstar_trade_buy_sell_fare">手数料:%1$s元(参考)</string>
+    <string name="home_olstar_trade_sell_rent">カードレンタル:%1$s元(参考)</string>
+
+    <string name="buy">購入</string>
+    <string name="confirm_sell">譲渡の確認</string>
+    <string name="confirm_buy">購入の確認</string>
+    <string name="pay_amount">支払金額</string>
+    <string name="final_pay_amount">払込金額:</string>
+    <string name="newcardPanicBuying">新しいカードの買い占め</string>
+    <string name="businessToday">本日成立</string>
+    <string name="businessHistory">履歴クローズ</string>
+    <string name="announce">アナウンス</string>
+    <string name="holdDetails">カードの詳細</string>
+
+    <string name="bingBankCard">銀行カードのバインド</string>
+
+
+    <string name="home_orderQuery">注文照会</string>
+    <string name="home_businessHistroy">クエリのクローズ</string>
+    <string name="home_newcardPrivilege">新しいカード権限</string>
+    <string name="home_bankcardInOut">払い戻しのチャージ</string>
+
+    <string name="secKill">秒殺レッドカード</string>
+    <string name="product_second_kill">商品秒殺</string>
+
+    <string name="home_exchange">為替ステージング</string>
+    <string name="login">ログイン</string>
+
+
+    <string name="manage_delivery_address">出荷先所在地の管理</string>
+
+    <string name="add_delivery_address">出荷先所在地の追加</string>
+
+
+    <string name="publish_redolstarcard">レッドカードの発行を申請</string>
+    <string name="redCardARScanning">レッドカードARスキャン</string>
+    <string name="edit_address">アドレスの編集</string>
+
+    <string name="confirm_pick_up">ステージングの確認</string>
+
+
+    <string name="pick_up">ステージング</string>
+    <string name="exchange">変換</string>
+
+
+    <string name="submit_information">コミット情報</string>
+
+    <string name="i_will_publish_card">発赤者カードが必要です</string>
+
+    <string name="pick_up_count">出荷数量（出荷可能） &lt;font color="#fe3f26"  >%1$s&lt;/font>張)</string>
+    <string name="confirm_exchange">変換の確認</string>
+
+    <string name="publish_dyn">パブリッシング動的</string>
+
+
+    <string name="record">履歴</string>
+    <string name="mytickets">元本券</string>
+
+    <string name="used">期限切れ</string>
+
+    <string name="takeRecord">レコードの取得</string>
+
+
+    <string name="qustionAnswer">Q&amp;A</string>
+    <string name="da_v_qustionAnswer">大VQ&amp;A</string>
+
+    <string name="mogul">大物が言う</string>
+
+    <string name="bi_real_text">฿</string>
+
+    <string name="hotQuestion">よくある質問</string>
+    <string name="hotAnswer">ハイスコア</string>
+
+
+    <string name="pull_to_refresh_pull_label">ドロップダウン更新…</string>
+    <string name="pull_to_refresh_release_label">フラッシュするために放し…</string>
+    <string name="pull_to_refresh_refreshing_label">ロード中…</string>
+    <string name="pull_to_up_refresh_refreshing_label">プルアップにより詳細をロード…</string>
+    <string name="pull_to_up_refresh_release_label">ロードをさらに解除…</string>
+    <string name="pull_to_up_refresh_success_label">正常に更新</string>
+
+    <string name="auto_load_more_initialise_label">ハンドオフロード</string>
+    <string name="auto_load_more_loading_label">さらにロード中…</string>
+    <string name="auto_load_more_fail_label">ロードに失敗しました。再ロードをクリック</string>
+    <string name="auto_load_more_complete_label">すべてロード</string>
+    <string name="auto_load_more_nodata_label">データが一時的にありません</string>
+    <string name="auto_load_more_full">すべてのコメントを表示するにはクリック</string>
+
+    <!-- 下拉刷新最后刷新时间 -->
+    <string name="last_updateTime">最終更新: %1$s</string>
+
+    <string name="project_order_manager">プロジェクト受注管理</string>
+
+    <string name="transaction_query">REDZ TOKA変換クエリー</string>
+    <string name="my_entrust">保留中の委任</string>
+    <string name="my_history_entrust">履歴委任</string>
+    <string name="my_business_list">詳細の完了</string>
+
+    <string name="payPassword">Pay Password</string>
+
+    <string name="modifyPayPassword">トランザクションパスワードの変更</string>
+
+    <string name="setPayPassword">トランザクションパスワードの設定</string>
+
+    <string name="identityAuthen">実名認証</string>
+
+    <string name="bindEmail">メールボックスのバインド</string>
+
+    <string name="addTips">入力されたアイテムの情報を確認してください。いったん掲載されると、そのアイテムの編集機能が制限されます（タイトル、価格、部数など、サブスクリプションの種類を除きます）。また、削除や削除ができなくなります。続行しますか？</string>
+
+    <string name="projectBusinessHistory">最新の取引記録</string>
+
+    <string name="app_zhcn_name">ユニバーサルデジタル資産取引プラットフォーム</string>
+    <string name="app_full_name">Worldwide Coin Trade</string>
+    <string name="label_receive_activity">コミット</string>
+    <string name="hint_password_number">少なくとも6桁のパスワードを入力してください</string>
+    <string name="userBriefHint">この人は怠け者で、何も残していない…</string>
+    <string name="digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+    <string name="digits2">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="home_title">LOGO</string>
+    <string name="bigv">大V</string>
+    <string name="email_phone">Email or Phone</string>
+    <string name="email">Email</string>
+
+
+    <string name="test">多言語テスト</string>
+    <string name="languageset">多言語設定</string>
+    <string name="followSystem">システムに従う</string>
+
+    <string name="userProtocol">ユーザーサービス契約</string>
+<!--  <string name="privacyProtocol">コインチェックソフトウェアのプライバシーポリシー</string>-->
+    <string name="circleRule">『procoinソフトウェアサークル主規則』</string>
+    <string name="label_login_activity">ログイン</string>
+    <string name="label_signup_activity">登録</string>
+    <string name="label_phone_number">携帯電話番号</string>
+    <string name="hint_phone_number">電話番号を入力してください</string>
+    <string name="label_verify_code">SMS認証コード</string>
+    <string name="hint_verify_code">認証コードを入力</string>
+    <string name="btn_verify_code">認証コードの取得</string>
+    <string name="label_password_number">パスワード</string>
+    <string name="label_password_confirm">パスワードの確認</string>
+    <string name="hint_paassword_confirm">パスワードを再入力してください</string>
+    <string name="label_forget_password">パスワードを忘れました</string>
+
+
+    <string name="qushezhi">設定する</string>
+    <string name="qushimingrenzheng">実名認証を解除</string>
+    <string name="chaoguozuidabeishu">最大倍数を超えました:</string>
+    <string name="qutianjiashoukuanfangshi">入金方法を追加する</string>
+    <string name="jiaoyijilu">取引レコード</string>
+    <string name="guojiqihuojiaoyijilu">国際先物取引記録</string>
+    <string name="waihuijiaoyijilu">外国為替取引記録</string>
+    <string name="shuzihuobigendanjiaoyijilu">デジタル通貨の取引履歴</string>
+    <string name="guojiqihuogendanjiaoyijilu">国際先物取引記録</string>
+    <string name="waihuigendanjiaoyijilu">外国為替手形取引記録</string>
+    <string name="xuanzejiaoyileixing">トランザクションタイプの選択</string>
+    <string name="gendandaoshi">ヒールマン:</string>
+    <string name="chakandaoshi">メンターの表示</string>
+
+    <string name="xinbishengou" translatable="false">新貨の購入申請</string>
+    <string name="shuruzhengjianxinxi" translatable="false">証明書情報の入力</string>
+    <string name="qingshuruzhengjianhaoma" translatable="false">証明書番号を入力してください</string>
+    <string name="huzhao" translatable="false">パスポート</string>
+    <string name="shenfenzheng" translatable="false">身分証明書</string>
+    <string name="shangchuanzhengjianzhaopian" translatable="false">証明書の写真をアップロードする</string>
+    <string name="shangchuanzhengjianzhengmian" translatable="false">証明書をアップロードする正面</string>
+    <string name="shangchuanzhengjianfanmian" translatable="false">証明書の裏面をアップロードする</string>
+    <string name="zijinzhanghu" translatable="false">資金口座</string>
+    <string name="jiaoyizhanghu" translatable="false">取引口座</string>
+    <string name="qiehuanyuyan" translatable="false">言語の切り替え</string>
+    <string name="tuichudenglu" translatable="false">ログインを終了</string>
+
+    <string name="zhangfubang">上昇率ランキング</string>
+    <string name="diefubang">下げ幅ランキング</string>
+    <string name="yijiangendanwuxudingpan">ワンクリックでチェックする必要はありません</string>
+    <string name="jinruotcshichang">OTC市場に参入</string>
+    <string name="waihuizhanghu">外国為替口座</string>
+    <string name="youxianghuoshoujihao">メールボックスまたは携帯電話</string>
+    <string name="youxiang">メールボックス</string>
+    <string name="shangchuanchongzhijietu">ここをクリック\nチャージショットをアップロード</string>
+    <string name="chongzhi2">チャージ</string>
+    <string name="tijiao">送信</string>
+    <string name="chongzhiwangluo">チャージネットワーク</string>
+    <string name="tibierweima">通貨QRコード</string>
+    <string name="shangchuantibierweima">ここをクリックしてnコインQRコードをアップロード</string>
+    <string name="gendandongjiezichan">請求書による資産の凍結</string>
+    <string name="zhangdieyanse">増減色</string>
+    <string name="lvzhanghongdie">緑が赤くなって落ちる</string>
+    <string name="hongzhanglvdie">赤が上がり緑が落ちる</string>
+    <string name="shezhichenggong">設定成功</string>
+
+</resources>

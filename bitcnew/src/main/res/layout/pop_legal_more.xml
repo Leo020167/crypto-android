@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_legal_menu_bg"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/llPublish"
+        android:layout_width="wrap_content"
+        android:layout_height="60dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="20dip">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/tvTolCost"
+            android:scaleType="center"
+            app:srcCompat="@drawable/ic_svg_my_publish" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wodeguanggao"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_16"
+            android:layout_marginLeft="10dip"/>
+
+    </LinearLayout>
+
+    <View style="@style/dividerLine_horizontal"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+       />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dip"
+        android:id="@+id/llAuthen"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="20dip">
+
+        <android.support.v7.widget.AppCompatImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/tvTolCost"
+            android:scaleType="center"
+            app:srcCompat="@drawable/ic_svg_authentication" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shangjiarenzheng"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_16"
+            android:layout_marginLeft="10dip"/>
+
+    </LinearLayout>
+
+    <View style="@style/dividerLine_horizontal"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dip"
+        android:id="@+id/llReceiptManager"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="20dip">
+
+        <android.support.v7.widget.AppCompatImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/tvTolCost"
+            android:scaleType="center"
+            app:srcCompat="@drawable/ic_svg_receipt_manager" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shoukuanguanli"
+            android:textColor="@color/c3d3a50"
+            android:textSize="@dimen/font_size_16"
+            android:layout_marginLeft="10dip"/>
+
+    </LinearLayout>
+
+</LinearLayout>

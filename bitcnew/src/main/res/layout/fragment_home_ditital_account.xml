@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_gendandaoshi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginHorizontal="15dp"
+            android:padding="15dp"
+            android:background="@drawable/border_gray2_5dp"
+            android:visibility="gone"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gendandaoshi"
+                android:textColor="@color/c1d3155"
+                android:layout_marginRight="5dp"
+                android:textSize="@dimen/font_size_14" />
+
+            <com.bitcnew.widgets.CircleImageView
+                android:id="@+id/ivhead"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:src="@drawable/ic_default_head"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/txt_daoshi_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:text="@string/weibangding"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_14" />
+            <TextView
+                android:id="@+id/txt_qubangding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/qubangding"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_14"
+                android:padding="3dp"
+                android:background="@drawable/border_white_10dp"/>
+            <TextView
+                android:id="@+id/txt_chakandaoshi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chakandaoshi"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_14"
+                android:padding="3dp"
+                android:background="@drawable/border_white_10dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="20dip">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTolAssetsText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shuzihuobizongzichanusdt"
+                        android:textColor="@color/c661d3155"
+                        android:textSize="@dimen/font_size_14" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dip"
+                        android:gravity="bottom">
+
+                        <TextView
+                            android:id="@+id/tvTolAssets"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@color/c1d3155"
+                            android:textSize="@dimen/font_size_16" />
+
+                        <TextView
+                            android:id="@+id/tvTolAssetsCny"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:text="≈HK$0.00"
+                            android:textColor="@color/c661d3155"
+                            android:textSize="@dimen/font_size_12" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llRiskRateDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvRiskRateMark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="5dip"
+                        android:drawableRight="@drawable/ic_question_mark"
+                        android:text="@string/fengxianlv"
+                        android:textColor="@color/c661d3155"
+                        android:textSize="@dimen/font_size_14" />
+
+                    <TextView
+                        android:id="@+id/tvRiskRate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dip"
+                        android:text="0%"
+                        android:textColor="@color/c1d3155"
+                        android:textSize="@dimen/font_size_14" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_wakuangshouyi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:visibility="gone">
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zuorishouyiusdt"
+                        android:textColor="@color/c661d3155"
+                        android:textSize="@dimen/font_size_12" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dip"
+                        android:gravity="bottom">
+
+                        <TextView
+                            android:id="@+id/tvZuorishouyi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dip"
+                            android:text="0"
+                            android:textColor="@color/c1d3155"
+                            android:textSize="@dimen/font_size_12" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:text="≈HK$0.00"
+                            android:textColor="@color/c661d3155"
+                            android:textSize="@dimen/font_size_12" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lishizongshouyisudt"
+                        android:textColor="@color/c661d3155"
+                        android:textSize="@dimen/font_size_12" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dip"
+                        android:gravity="bottom">
+
+                        <TextView
+                            android:id="@+id/tvLishizongshouyi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dip"
+                            android:text="0"
+                            android:textColor="@color/c1d3155"
+                            android:textSize="@dimen/font_size_12" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:text="≈HK$0.00"
+                            android:textColor="@color/c661d3155"
+                            android:textSize="@dimen/font_size_12" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_keyongbaozhengjin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/keyongbaozhengjinusdt"
+                        android:textColor="@color/c661d3155"
+                        android:textSize="@dimen/font_size_12" />
+
+                    <TextView
+                        android:id="@+id/tvEableBail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dip"
+                        android:text="0"
+                        android:textColor="@color/c1d3155"
+                        android:textSize="@dimen/font_size_12" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/weishixianyingkuiusdt"
+                        android:textColor="@color/c661d3155"
+                        android:textSize="@dimen/font_size_12" />
+
+                    <TextView
+                        android:id="@+id/tvProfit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dip"
+                        android:text="0"
+                        android:textColor="@color/c1d3155"
+                        android:textSize="@dimen/font_size_12" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_chicangbaozhengjin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dip"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chicangbaozhengjinusdt"
+                        android:textColor="@color/c661d3155"
+                        android:textSize="@dimen/font_size_12" />
+
+                    <TextView
+                        android:id="@+id/tvOpenBail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dip"
+                        android:text="0"
+                        android:textColor="@color/c1d3155"
+                        android:textSize="@dimen/font_size_12" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_dongjie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dongjiebaozhengjin"
+                        android:textColor="@color/c661d3155"
+                        android:textSize="@dimen/font_size_12" />
+
+                    <TextView
+                        android:id="@+id/tvFrozenBail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dip"
+                        android:text="0"
+                        android:textColor="@color/c1d3155"
+                        android:textSize="@dimen/font_size_12" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dip"/>
+    </LinearLayout>
+    <!--android:nestedScrollingEnabled="false"-->
+
+
+</android.support.v4.widget.NestedScrollView>

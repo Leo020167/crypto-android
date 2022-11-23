@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--android:background="@drawable/xml_actionbar_bg_bottom_line"-->
+    <View
+        android:id="@+id/view_top"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:background="@color/white"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:id="@+id/ll_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ivOptionalSort"
+                android:layout_width="60dip"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_home_optional_edit" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:text="@string/hangqing"
+                android:textColor="@color/actionbar_light_title_color"
+                android:textSize="@dimen/actionBarTitleSize" />
+
+            <LinearLayout
+                android:id="@+id/ivSearch"
+                android:layout_width="60dip"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_home_search" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dip"
+        android:gravity="center_horizontal"
+        android:minHeight="35dip">
+
+
+        <TextView
+            android:id="@+id/tvQQZS"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="18dp"
+            android:gravity="center"
+            android:text="@string/quanqiuzhishu"
+            android:textColor="@color/xml_mark_kbt_tab_text_color"
+            android:textSize="@dimen/font_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="18dp"
+            android:gravity="center"
+            android:text="@string/heyue"
+            android:textColor="@color/xml_mark_kbt_tab_text_color"
+            android:textSize="@dimen/font_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvBB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="18dp"
+            android:gravity="center"
+            android:text="@string/bibi"
+            android:textColor="@color/xml_mark_kbt_tab_text_color"
+            android:textSize="@dimen/font_size_14"
+            android:textStyle="bold" />
+
+
+
+
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

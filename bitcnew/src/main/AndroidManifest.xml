@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:uses-libraryandroid="http://schemas.android.com/apk/res-auto"
+    package="com.bitcnew"
+    android:versionCode="30"
+    android:versionName="1.1.30">
+
+    <uses-sdk
+        android:targetSdkVersion="28"
+        tools:overrideLibrary="cn.jzvd" />
+
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 横竖屏切换权限 -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" /> <!-- 屏幕保护 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 微博登录需要增加的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" /> <!-- 下面是危险权限需要动态申请 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 录音权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 获取实际识别码 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> &lt;!&ndash; 安装apk &ndash;&gt; -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 特殊权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeToolBar.Translucent"
+        tools:overrideLibrary="cn.jzvd"
+        tools:replace="android:theme"
+        tools:targetApi="n">
+        <activity android:name=".module.home.MaichuDetailActivity"></activity>
+        <activity android:name=".module.home.XinbishengouDetailActivity" />
+        <activity android:name=".module.home.XinbishengouActivity" />
+        <activity android:name=".module.home.ChicangDetailActivity" />
+        <activity android:name=".module.home.ShequActivity" />
+        <activity android:name=".module.home.trade.TradeLeverActivity2" />
+        <activity android:name=".module.home.MarketActivity2" />
+        <activity
+            android:name=".module.WebActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".module.home.WebActivity"
+            android:exported="false" />
+        <activity
+            android:name=".module.home.TakePhotoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.ShimingrenzhengtongguoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.SwichColorActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.RechargeCoinActivity2"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.SwitchLanguageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.BindPhoneActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.SelectJiaoyijiluTypeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.JiaoyijiluActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.SelectAccountActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.PhoneAuthCodeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.HomeCropyMeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.ApplyBindAccountActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.EmailAuthCodeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.EmailAuthActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.BindEmailCodeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.BindEmailActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.DailiActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".module.login.SignUpEmailActivity"
+            android:configChanges="locale|layoutDirection" /> <!-- android:theme="@style/Theme.Taojinroad.ActionBar.Light" -->
+        <!-- android:theme="@style/AppThemeToolBar.Translucent" -->
+        <meta-data
+            android:name="TA_APPKEY"
+            android:value="AA3VL25NP6KM" />
+        <meta-data
+            android:name="InstallChannel"
+            android:value="${UMENG_CHANNEL_VALUE}" /> <!-- mid-sdk-3.5以上版本增加 < -->
+        <provider
+            android:name="com.tencent.mid.api.MidProvider"
+            android:authorities="com.bitcnew.TENCENT.MID.V3"
+            android:exported="true" /> <!-- 经常有时候按了home键之后再点击app，然后发现app重启了，设置这个属性可以解决这个问题，但是不能有android:launchMode="singleTask"和“singleInstance” -->
+        <activity
+            android:name=".module.welcome.WelcomeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppWelcome.style">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- MTA可视化启动连接接口 -->
+            <intent-filter>
+                <data android:scheme="mtaautotrack.eba8e4d7fcff323e2f74ab752c4cbedc" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".module.welcome.GuideActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.welcome.LoadResActivity"
+            android:alwaysRetainTaskState="false"
+            android:configChanges="locale|layoutDirection"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:process=":miniimredz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.HomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection|locale"
+            android:label=""
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyArticlePageIndicator_home">
+
+            <!--  -->
+
+        </activity> <!-- android:launchMode="singleTask" -->
+        <activity
+            android:name=".module.publish.RecordVideo2Activity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.SettingAccountActivity"
+            android:configChanges="locale|layoutDirection" />
+        <activity
+            android:name=".module.myhome.MyhomeSelectVideoActivity"
+            android:configChanges="locale|layoutDirection" />
+        <activity
+            android:name=".module.myhome.MyHomeInfoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/modifyUserInfo"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.MyPasswordActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/fix_passwd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.MyhomeInfoTextActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/selfDescription"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.MyHomeCropActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/modifyUserInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.SettingActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.StockSettingActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.AboutActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/aboutTaojinlu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.MyMessageActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/myMsg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:configChanges="locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1107229202" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".common.photo.ViewPagerPhotoViewActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" /> <!-- android:theme="@style/Theme.Taojinroad.ActionBar.Overlay" -->
+        <activity
+            android:name=".common.web.CommonWebViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:label="@string/novalue"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="CommonWebViewActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".module.circle.CircleChatViewPagerPhotoViewActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" /> <!-- android:theme="@style/Theme.Taojinroad.ActionBar.Overlay" -->
+        <activity
+            android:name=".module.chat.ChatRoomActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask" /> <!--  -->
+        <activity
+            android:name=".module.chat.ChatTestActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".module.myhome.PushSettingsActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/pushSettings"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".subpush.notify.OnBootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".subpush.notify.OnAlarmReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+                <action android:name="com.bitcnew.subpush.action.SUBPUSH_RESTART" />
+            </intent-filter>
+        </receiver> <!--  -->
+        <service
+            android:name=".subpush.SubPushService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="SubPushService"
+            android:process=":subimtokapush" />
+
+        <receiver
+            android:name=".module.logout.OnLogoutReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.imredz.intent.action.LOGGED_OUT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".module.logout.ReLoginRemindActivity"
+            android:configChanges="locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Taojinroad.ActionBar.logout" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".module.myhome.MyPayPasswordActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.SettingPayPasswordActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" /> <!-- android:launchMode="singleTask" -->
+        <activity
+            android:name=".module.myhome.IdentityAuthenActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.MyhomeMultiSelectImageActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.SelectPicPreviewActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.chat.ChatHomeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.circle.CircleChatRoomActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".module.circle.CircleInfoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.circle.SearchCircleActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.circle.ApplyJoinCircleActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.circle.CircleAllMembersActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.circle.CircleApplyListActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.circle.SetJoinCircleWayActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.circle.CircleBlackListActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.circle.CreateOrEidtCircleActivity"
+            android:configChanges="locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.circle.MentionMemberActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.PersonalHomepageActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.LanguageTestActivity"
+            android:configChanges="locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.LanguageSettingActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.MarketActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity android:name=".module.login.SignUpActivity" />
+        <activity
+            android:name=".module.login.VerifyActivity"
+            android:configChanges="locale|layoutDirection"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".module.login.ReceiveActivity"
+            android:configChanges="locale|layoutDirection" />
+        <activity
+            android:name=".module.login.LoginActivity"
+            android:configChanges="locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.RechargeUsdtActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.WithdrawUsdtActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.SelectPayWayActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.PaymentTermActivity"
+            android:configChanges="locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.AddReceiptTermActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.AddAliPayAndWechatPayActivity"
+            android:configChanges="locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.AddBankPayActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.OrderCashInfoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.WithDrawInfoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" /> <!-- <activity -->
+        <!-- android:name="com.bitcnew.module.home.MyCropymeActivity" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <activity
+            android:name=".module.home.ApplyCropymeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.EntrusTransactiontActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.EntrusTransactiontSimpleActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.OrderEntrustnfoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.USDTTradeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.TradeLeverActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.history.CoinTradeEntrustActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.history.CoinTradeEntrustLeverActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.history.CoinFollowHistoryActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.history.CashTradeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.CoinTradeDetailsActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.SearchActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.SearchCoinActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.WithDrawUsdtSuccessActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.myhome.UserHomeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.copy.CropyOrderActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.copy.CropyOrderInfoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.TradeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.TakeCoinActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.history.TakeCoinHistoryDetailsActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.TransferCoinActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.TransferSelectAccountActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.history.TransferCoinHistoryActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.RechargeCoinActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.LegalTenderBuyCoinActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.history.TakeCoinHistoryActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.OpenCropymeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.RadarDetailsActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.copy.CropyOrderHistoryActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.MarkLandActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".module.copy.CropyOrderDetailListActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.copy.CropyUserDataActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.kbt.KBTHomeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" /> <!-- <activity -->
+        <!-- android:name="com.bitcnew.module.kbt.KbtBuyBackActivity" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <activity
+            android:name=".module.kbt.app.lightningprediction.LPHomeActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.kbt.app.lightningprediction.LpHistoryActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.login.AllCountryCodeListActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.HomeCoinSubBuyActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.OptionalDragSortActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.wallet.CoinWalletActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.wallet.IntoWalletActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.wallet.RollOutWalletActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.wallet.LeverInfoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.NoticeListActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/myMsg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.legal.LegalMoneyActivity"
+            android:configChanges="locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.legal.AuthenticationActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.legal.MyAdListActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.legal.AddAdActivity"
+            android:configChanges="locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.legal.LegalOrderInfoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.legal.LegalPayActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.legal.OtcOrderHistoryActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.legal.OtcAppealActivity"
+            android:configChanges="locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" /> <!-- 为调用相机拍照设置内容提供者 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.bitcnew.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

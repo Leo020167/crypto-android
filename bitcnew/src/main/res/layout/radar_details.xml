@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dip">
+
+            <com.bitcnew.widgets.RadarView
+                android:id="@+id/rdv"
+                android:layout_width="match_parent"
+                android:layout_height="230dip"
+                android:background="#FFF5F5F5" />
+
+            <View
+                style="@style/dividerLine_horizontal"
+                android:layout_marginTop="20dip" />
+
+            <TextView
+                android:id="@+id/tvCopyBalanceScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/gendanyinglie"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:lineSpacingExtra="@dimen/text_linespacingextra"
+                android:text="@string/shiyigensuigaohoudeyonghu"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_14" />
+
+            <TextView
+                android:id="@+id/tvTolIncomeScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/yinglinengli"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:lineSpacingExtra="@dimen/text_linespacingextra"
+                android:text="@string/shiyigaoshouzuijinsanshitian"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_14" />
+
+            <TextView
+                android:id="@+id/tvCopyRateScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/gendanshouyilv"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:lineSpacingExtra="@dimen/text_linespacingextra"
+                android:text="@string/shiyigensuigaoshoudeyonghuzuijin"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_14" />
+
+            <TextView
+                android:id="@+id/tvProfitShareScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/gendanshenglv"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:lineSpacingExtra="@dimen/text_linespacingextra"
+                android:text="@string/shiyigensuigaoshouyinglidejilv"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_14" />
+
+            <TextView
+                android:id="@+id/tvCopyNumScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/renqizhishu"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:lineSpacingExtra="@dimen/text_linespacingextra"
+                android:text="@string/shiyigaoshouzuijinrenqi"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_14" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

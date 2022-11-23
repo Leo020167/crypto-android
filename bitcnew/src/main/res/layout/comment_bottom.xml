@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/tvSendComment"
+            android:layout_width="0dip"
+            android:layout_height="35dip"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:background="@color/cf2f2f2"
+            android:gravity="center_vertical"
+            android:hint="@string/xiepinglun"
+            android:paddingLeft="15dip" />
+
+
+        <TextView
+            android:id="@+id/tvCommentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:text="@string/pinglun"
+            android:layout_marginRight="15dip"
+            android:textColor="@color/c444444"
+            android:textSize="@dimen/font_size_14" />
+
+        <LinearLayout
+            android:id="@+id/llFavor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginRight="15dip">
+
+            <ImageView
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:src="@drawable/xml_favor" />
+
+            <TextView
+                android:id="@+id/tvAddStore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="3dip"
+                android:text="@string/shoucang"
+                android:textColor="@color/c808080"
+                android:textSize="@dimen/font_size_11" />
+        </LinearLayout>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvFavorite"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="25dip"-->
+            <!--android:drawableTop="@drawable/ic_favorite_border_black_24dp"-->
+            <!--android:text="收藏"-->
+            <!--android:textColor="@color/c444444"-->
+            <!--android:textSize="@dimen/font_size_14" />-->
+
+
+        <LinearLayout
+            android:layout_marginRight="15dip"
+            android:id="@+id/llLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:src="@drawable/xml_like" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dip"
+                android:gravity="center"
+                android:text="@string/dianzan"
+                android:textColor="@color/c808080"
+                android:textSize="@dimen/font_size_11" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+

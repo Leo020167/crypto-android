@@ -1,0 +1,2637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FireUp</string>
+    <string name="xuanzezhanghu">Choose an account</string>
+    <string name="queding">Confirm</string>
+    <string name="ninmuqiandeyouxiangshi">Your current email is %s and would you like to update it to ?</string>
+    <string name="qingshuruyouxiang">Please insert your email</string>
+    <string name="fasongyanzhengma">Send verification code</string>
+    <string name="qingshuruxinyouxiang">Please insert a new email</string>
+    <string name="yanzhengmayifasongzhi">The verification code has been sent to %@</string>
+    <string name="qingshuruyouxiangyanzhengma">Please enter your email verification code</string>
+    <string name="xiayibu">Next Step</string>
+    <string name="quanziid">(Circle ID:%s)</string>
+    <string name="jianjie">Introduction:</string>
+    <string name="wenzhang">Introsuction</string>
+    <string name="gongpian">In total%s articles</string>
+    <string name="jiemu">Program</string>
+    <string name="gongge">In total %s pieces</string>
+    <string name="gongmingchengyuan">In total %s members</string>
+    <string name="yaoqing">Invite</string>
+    <string name="xinshenqingjiaru">New application to join</string>
+    <string name="shezhiqunjiarufangshi">Set the way to join the group</string>
+    <string name="kaitongvip">Activate VIP</string>
+    <string name="xiaoximiandarao">Messaging without interruption</string>
+    <string name="jinzhichengyuanfayan">Prohibit members from speaking</string>
+    <string name="guanliheimingdan">Manage Blacklist</string>
+    <string name="qingkongliaotianneirong">Clear the Content of the Chat</string>
+    <string name="tuichuquanzi">Exit the Circle</string>
+    <string name="shenqingjiaru">Apply for membership</string>
+    <string name="fengmianbeijing">Background of Cover</string>
+    <string name="shangchuanquanzitouxiang">Upload Headshot to the Circle</string>
+    <string name="quanzimingzi">Name of the Circle</string>
+    <string name="shuruquanzimingzi">Enter the name of the Circle</string>
+    <string name="quanzijianjie">Introduction of the Circle</string>
+    <string name="shuruquanzijianjie">Insert the Introduction of the Circle</string>
+    <string name="quedingchuangjian">Determine to Set Up</string>
+    <string name="daili">Agent</string>
+    <string name="chengweidaili">Become an Agent</string>
+    <string name="shenhezhong">Reviewing</string>
+    <string name="quanbuyongjinusdt">All Commissions（USDT）</string>
+    <string name="xinzengkehushuren">Number of New Clients(People)</string>
+    <string name="zuorixinzeng">Yesterday\'s Additions</string>
+    <string name="jinrixinzeng">Today\'s Additions</string>
+    <string name="fanyongjineusdt">Amount of Commission Rebate（USDT）</string>
+    <string name="kehujiaoyieusdt">Amount of Customer Transactions（USDT）</string>
+    <string name="weilebaozhengnidezhanghaoanquanqingyanzhengshenfen">To guarantee the security of your account, please verify your identity.</string>
+    <string name="xiaoyingyong">Small Applications</string>
+    <string name="gonggao">Announcement</string>
+    <string name="gengduo">More</string>
+    <string name="davpaihangbang">Leaderboard of Internet Celebrity</string>
+    <string name="qishilijianggongshiwomenjinghouweininjiamian">True strength will be publicized, and we are waiting for you to be crowned.</string>
+    <string name="btc">BTC/USDT <font fgcolor="#BC0016">-0.23%</font></string>
+    <string name="greyvalue">= $ 274050.62</string>
+    <string name="redvalue">43500.09</string>
+    <string name="dav">Internet Celebrity</string>
+    <string name="otc">OTC</string>
+    <string name="shurushenfenzhengxinxi">Insert ID Details</string>
+    <string name="qingshurushenfenzhengxingming">Please insert your name in the ID card</string>
+    <string name="qingshurushenfenzhenghao">Please insert your ID number</string>
+    <string name="shangchuanshenfenzhengzhaopian">Please upload your ID photo</string>
+    <string name="paisherenxiangye">Shooting for portrait page</string>
+    <string name="chakanshili">View Example</string>
+    <string name="paisheguohuiye">Shooting for the national emblem page</string>
+    <string name="paisheshouchishenfenzheng">Take a picture of yourself holding an ID card</string>
+    <string name="zhucizhengjingongtokapingtairenzhengshiyong">*Note: This card is for the certified use of the TOKA platform only, xxxx on xx</string>
+    <string name="shangchuandezhengjianzhaojiangjinxingfangdaoshuiyinchuli">• The uploaded ID photos will be watermarked to preserve your privacy in severe compliance with laws and regulations.</string>
+    <string name="wancheng">Complete</string>
+    <string name="denglu">Log in</string>
+    <string name="huanyinglaitfg">Welcome to the FireUp trading platform</string>
+    <string name="qingshurumima">Please enter your password</string>
+    <string name="qingshuruyanzhengma">Please enter the verification code</string>
+    <string name="huoquyanzhengma">Obtain the verification code</string>
+    <string name="wangjilezhaohuimima">Forgotten? Retrieve password</string>
+    <string name="chongzhimima">Reset Password</string>
+    <string name="zhongguo">China</string>
+    <string name="qingshurushoujihaoma">Please enter your cell phone number</string>
+    <string name="mimabixushibashiliushuzi">Password must be a combination of 8–16 digits and letters</string>
+    <string name="qingzaicishurumima">Please enter the password again</string>
+    <string name="zhuce">Register</string>
+    <string name="qingshuruyaoqingmabitian">Please fill in the invitation code (required)</string>
+    <string name="register_email">Register with Email</string>
+    <string name="shuruyanzhengma">Fill in the verification code</string>
+    <string name="qinghuoquduanxinyanzhengma">Fill in the SMS verification code</string>
+    <string name="wanchengyanzheng">Complete verification</string>
+    <string name="kuohaoid">(ID:%s)</string>
+    <string name="tayucedapanpaiming">TAHis/her prediction of the general market ranking</string>
+    <string name="chuchumaolu">At the beginning of one\'s casees</string>
+    <string name="shenglv">Winning percentage</string>
+    <string name="yucezhanji">Predicted performance</string>
+    <string name="tajiarudequanzi">The circles he/she has joined</string>
+    <string name="gongxichenggongfaxingtoka">Congratulations to %s on the successful release of TOKA</string>
+    <string name="faxingliang">Circulation volume:</string>
+    <string name="tokayongtu">Use of TOKA:</string>
+    <string name="fenxiangwodetoka">Share my TOKA</string>
+    <string name="create_toka_warning">The above terms have been deposited on the blockchain, which is open and transparent. TOKA holders can submit the content data deposited with blockchain technology to various local Internet courts and arbitration committees in case of disputes.</string>
+    <string name="create_toka_warning2">Attachment:\nSeptember 7, 2018, the Supreme People\'s Court of China announced and implemented the Provisions of the Supreme People\'s Court on Several Issues Concerning the Hearing of Cases on the Internet. The Provisions provide the adoption of an online approach to hearing cases in the Internet courts, the scope of cases to be accepted, the construction of Internet litigation platforms, the online processing of prosecution materials, the online exchange of evidence, and the electronicization of litigation and evidence materials. Among them, Article 11 states that "the parties submit electronic data, through electronic signatures, trusted timestamps, hash value verification, blockchain, and other evidence collection, fixed and tamper-proof technical means, or electronic forensic deposition platform authentication, can prove its authenticity, and the Internet Court shall confirm."</string>
+    <string name="register_phone">Register with Phone</string>
+    <string name="xuefenxfmingxi">Details of credits (XF)</string>
+    <string name="kuaijiegoumai">Quick Purchase</string>
+    <string name="tixian">Withdrawal</string>
+    <string name="lishi">Hostory</string>
+    <string name="woxiang">I think</string>
+    <string name="goumai">Purchase</string>
+    <string name="chushou">Sell</string>
+    <string name="jiage">Price</string>
+    <string name="shurujiage">Insert Price</string>
+    <string name="dangqiangoumaizuigaojia">Highest price of current purchase</string>
+    <string name="tianru">Fill in</string>
+    <string name="shuliang">Quantity</string>
+    <string name="shurushuliang">Insert Quantity</string>
+    <string name="chushouusdtshixitongjianghuicongyuezhanghuzhongdongjiegaibufenzijin">when selling USDT the system will freeze that part of the funds from the balance accoun</string>
+    <string name="xiane">Quota</string>
+    <string name="zuixiao">Minimum</string>
+    <string name="zuida">Maximum</string>
+    <string name="fangshikeduoxuan">Method (multiple options available)</string>
+    <string name="liuyanneirong">Content of the message</string>
+    <string name="qingxiexianinxiangduimaijiashuodehua">Please write down what you want to tell the seller/buyer!( Maximum 140 characters )</string>
+    <string name="querenfabu">Confirm the Release</string>
+    <string name="shoujianrenxingmingzuishaoliangwei">Recipient\'s Name (minimum 2 digits)</string>
+    <string name="shoujianrendianhuazuishaoshiyiwei">Recipient\'s Phone Number (minimum 11 digits)</string>
+    <string name="xuanzeshengfenchengshi">Choose province, city</string>
+    <string name="xiangxidizhiwuliushiwei">Address details (5–60 digits)</string>
+    <string name="shezhichengmorenshouhuodizhi">  Set as standard shipping address</string>
+    <string name="shanchu">Delete</string>
+    <string name="save">Save</string>
+    <string name="save_delivery_address">Save receipt information</string>
+    <string name="xingming">Name</string>
+    <string name="qingshuruxingming">Please enter your name</string>
+    <string name="zhanghao">Account</string>
+    <string name="qingshuruzhanghao">Please enter your account</string>
+    <string name="shoukuanma">Receipt Code</string>
+    <string name="qingwubishiyongyuninzhuceshouhaomayizhideshimingzhanghao">Please make sure to use the same name account as your registered cell phone number</string>
+    <string name="kaihuxingming">Account Name</string>
+    <string name="kaihuyinhang">Bank Account Number</string>
+    <string name="qingshurukaihuyinhang">Please enter your bank account number</string>
+    <string name="yinhangkahao">Bank Account Number</string>
+    <string name="qingshuruyinhangkahao">Please enter your bank account number</string>
+    <string name="tuijian">Recommend</string>
+    <string name="shensuliyou">Reason for complaint</string>
+    <string name="shensujietukexuan">Screenshot of the complaint (optional)</string>
+    <string name="shensuliuyankexuan">Message of complaint (optional)</string>
+    <string name="ninkeyixiexianinshensudexiangxiqingkuang">You can write down the details of your complaint ~~ ( maximum 300 words )</string>
+    <string name="appealMessage">Assets will be frozen after filing a complaint, and the ombudsman will intervene in this transaction until the end of the complaint. Malicious complaints are acts that disrupt the normal operation of the platform, and if the circumstances are serious, the account will be frozen.</string>
+    <string name="tijiaoshensu">Submit a Complaint</string>
+    <string name="dianjichakanquanbupinglun">Click to see all comments</string>
+    <string name="yixianshiquanbuneirong">All content has been indicated</string>
+    <string name="xufei">Renewal</string>
+    <string name="qingshuru">Please Insert</string>
+    <string name="zhanghuyuekeyongusdt">The available balance of the account is:%s USDT</string>
+    <string name="zhudingyuehuoxufeihoushoudaogaiyonghudejiaoyicelue">Note: Receive the trading strategy for this user after subscription or renewal</string>
+    <string name="hejiusdt">Total：%s USDT</string>
+    <string name="shimingxinxi">Real-name Information</string>
+    <string name="zhengjianhaoma">ID Number</string>
+    <string name="baozhengjin">Margin</string>
+    <string name="baozhengjinyonyufabuchushouhuogoumai">Margin is used to post, sell, or buy USDT ads and is instantly frozen from the asset balance upon submission of authentication information.</string>
+    <string name="shenqingshangjiarenzheng">Apply for Merchant Certification</string>
+    <string name="qingshuruyonghumingyiliugezi">Please enter your username (1–6 characters)</string>
+    <string name="quxiao">Cancel</string>
+    <string name="ruguoninyixiangduifangfukuangqingqianwanbuyaoquxiaodingdan">Please do not cancel your order if you have already paid to the other party</string>
+    <string name="maijiadangrileijisanbiquxiao">If the buyer accumulates 3 cancellations on the same day, it will affect the function of buying on the same day.</string>
+    <string name="woquerenmeiyoufukuangeiduifang">   I confirmed that no payment was made to the other party</string>
+    <string name="qugoumai">Go to Purchase</string>
+    <string name="quhuazhuan">Go to Transfer</string>
+    <string name="tongyi">Agree</string>
+    <string name="jujue">Reject</string>
+    <string name="yitongyi">Agreed</string>
+    <string name="yichuheimingdan">Remove Blacklist</string>
+    <string name="zanbuzhichichakangaixiaoxiqingshengjidaozuixinban">Your system does not support you to view this message, so please upgrade to the latest version.</string>
+    <string name="zaishangpinzhongmailezhang">The price of the product has increased since I bought it.</string>
+    <string name="genjin">Follow up</string>
+    <string name="jiancangjia">Price of opening a position:</string>
+    <string name="circle_unread_message_tip">Here is what you have not read</string>
+    <string name="circle_new_message">%1$s piece of new message</string>
+    <string name="circle_unread_message">%1$s pieces of unread messages</string>
+    <string name="zhibozhong">Live Streaming</string>
+    <string name="fasong">Send</string>
+    <string name="haishengxiamiao">%s seconds left</string>
+    <string name="dianjiluyin">Click to Record</string>
+    <string name="chonglu">Re-recording</string>
+    <string name="circleApplyJoinReasonHint">Please enter the reason for joining the Circle</string>
+    <string name="circleApplyJoin">Apply for membership</string>
+    <string name="wuxushenqingjiaruquanzi">No need to apply to join the Circle</string>
+    <string name="xuyaoshenfenyanzhengjiaruquanzi">Authentication is required to join the Circle</string>
+    <string name="picture">Image</string>
+    <string name="shuruquanhaosousuo">Enter the Circle number to search</string>
+    <string name="sousuo">Search</string>
+    <string name="meiyousousuojieguo">No Search Results</string>
+    <string name="pingcangyingkui">Profit and loss on closed positions</string>
+    <string name="pingcangjia">Closed Price</string>
+    <string name="pingcangshoushu">Lots for closing a position</string>
+    <string name="pingcangshouxufei">Commission for closing a position</string>
+    <string name="pingcangshijian">Time for closing a position</string>
+    <string name="yinglifencheng">Share of Profits</string>
+    <string name="putongpingcang">General Closed Position</string>
+    <string name="yidangqianshijiachengjiao">(To trade at the current market price)</string>
+    <string name="qingshurupingcangshoushu">Please enter the number of lots to close the position</string>
+    <string name="shou">Lot</string>
+    <string name="shaixuan">Filter</string>
+    <string name="weituojilu">Consignment History</string>
+    <string name="lishijilu">Historical Records</string>
+    <string name="qingshurubizhong">Please enter the currency</string>
+    <string name="dingdanzhuangtai">Order Status</string>
+    <string name="yichengjiao">Dealt with</string>
+    <string name="yichexiao">Revoked</string>
+    <string name="dingdanleixing">Type of Orders</string>
+    <string name="chongzhi">Reset</string>
+    <string name="yingliqingkuang">Profitability</string>
+    <string name="jiaoyicishu">Number of Transactions</string>
+    <string name="weituojiageusdt">Commission Price(USDT)</string>
+    <string name="weituoshuliang">Number of Commissions(%s)</string>
+    <string name="weituoshijian">Time of Commissions</string>
+    <string name="chengjiaojunjiausdt">Average Price of Turnover(USDT)</string>
+    <string name="chengjiaoshuliang">Turnover Volume(%s)</string>
+    <string name="chengjiaoeusdt">Turnover Amount(USDT)</string>
+    <string name="shouxufeiusdt">Commission Fee(USDT)</string>
+    <string name="wodeyingliusdt">My Profit(USDT)</string>
+    <string name="wodechengjiao">My Turnover</string>
+    <string name="gendanchengjiao">Follow-Up Turnover</string>
+    <string name="gendanfenchengusdt">Share of Follow-Up Orders(USDT)</string>
+    <string name="jishufuwufeiusdt">Technical Service Fee(USDT)</string>
+    <string name="chengjiaomingxi">Turnover Details</string>
+    <string name="chexiao">Revoke</string>
+    <string name="quanbuweituo">All Consignments</string>
+    <string name="bizhong">Currency</string>
+    <string name="quanbuchengjiao">All Turnover</string>
+    <string name="bufenchengjiao">Partial Turnover</string>
+    <string name="zhuanchuzhanghaoxuanze">Selection of transfer out account</string>
+    <string name="zhuanruzhuanghuxuanze">Selection of transfer in account</string>
+    <string name="yicunbtczongliang">Total amount of deposited BTC</string>
+    <string name="yihuousdtshouyi">Total amount of earned BTC</string>
+    <string name="zhuanru">Transfer to</string>
+    <string name="zhuanchu">Transfer out</string>
+    <string name="pinglun">Comment</string>
+    <string name="xiepinglun">Write Comments</string>
+    <string name="shoucang">Collect</string>
+    <string name="dianzan">Likes</string>
+    <string name="fabiao">Publish</string>
+    <string name="zanwushuju">No data available at the moment.</string>
+    <string name="querenchushou">Confirmation of Sale</string>
+    <string name="danjia">Unit Price</string>
+    <string name="gendantouru">Order Inputs</string>
+    <string name="keyongusdt">Avaible USDT：</string>
+    <string name="shuruusdtshuliang">Enter the amount of USDT</string>
+    <string name="gendanshezhi">Follow-up Order Setting</string>
+    <string name="meicigendanshangxian">Maximum number of orders per follow-up</string>
+    <string name="qingshuruzuidausdt">Please enter the maximum USDT</string>
+    <string name="zhiyingwushezhi">Take profit is not set</string>
+    <string name="zhisunwushezhi">Stop loss is not set.</string>
+    <string name="mairu">Purchase</string>
+    <string name="maichu">Sell</string>
+    <string name="qingshurugendanjine">Please enter the amount of the follow-up order</string>
+    <string name="quanbu">All</string>
+    <string name="lijigendan">Follow-up Immediately</string>
+    <string name="shijian">Time</string>
+    <string name="yingliusdt">Profits(USDT)</string>
+    <string name="jieshushijian">Ending Time</string>
+    <string name="gendanyingkuiusdt">Profit and loss of follow up orders(USDT)</string>
+    <string name="zhengzaiweituo">Commissioning</string>
+    <string name="chiyoushuliang">Number of Holdings</string>
+    <string name="chengbenjunjia">Average Price of Cost</string>
+    <string name="leijiyingkui">Accumulated Profit and Loss</string>
+    <string name="gendanzichanfenbu">Distribution of the assets of the follow-up order</string>
+    <string name="jiaoyimingxi">Transaction Details</string>
+    <string name="gendanzongtouru">Total input of the follow-up order</string>
+    <string name="yue">Balance</string>
+    <string name="gendanmeibishangxian">Maximum amount per follow-up order.：</string>
+    <string name="gendanzhiying">Stop profit for follow orders：</string>
+    <string name="zanwushezhi">No setting at the moment</string>
+    <string name="gendanzhisun">Stop loss for follow orders：</string>
+    <string name="gendanchicang">Follow-up Order Position</string>
+    <string name="yincangxiaoebizhong">   Hide small amount of currency</string>
+    <string name="zanwuchicang">No Position</string>
+    <string name="yitingzhigendan">Stop follow-up order in progress</string>
+    <string name="tingzhigendan">Stopped follow-up order</string>
+    <string name="zhuijiatouru">Additional Inputs</string>
+    <string name="yingkui">Profit and Loss</string>
+    <string name="zhuijiachicangjine">Amount of Additional Position</string>
+    <string name="gendanxiangqing">Follow-up Details</string>
+    <string name="zonghepingfen">Overall Rating</string>
+    <string name="bencigendanchicangbeidong">Position of this follow-on order (passive)</string>
+    <string name="shizhi">Market Value</string>
+    <string name="meibigendanshangxian">Maximum amount per follow-up order：</string>
+    <string name="zhiying">Take Profit：</string>
+    <string name="zhisun">Stop Loss：</string>
+    <string name="xiugai">Modify</string>
+    <string name="dingyueshu">Number of Subscriber</string>
+    <string name="gendanzongeusdt">Total amount of follow-up orders(USDT)</string>
+    <string name="leijigendanjingfencheng">Net share of accumulated follow-on orders</string>
+    <string name="yugugendanfencheng">Estimated share of follow-up orders</string>
+    <string name="chibichengben">Cost of holding coins</string>
+    <string name="gendanzijin">Follow-up funds</string>
+    <string name="chibishizhi">Market value of coins held</string>
+    <string name="woshitanchudedialog">I was popped out of the Dialog</string>
+    <string name="woshidibu">I am the bottom</string>
+    <string name="zengjiakaicangbaozhengjinusdt">Increase the margin for opening a position(USDT)</string>
+    <string name="zhuijiajine">Added Amount</string>
+    "<string name="qingshuruzhuijiajine">Please insert added amount
+</string>"
+    <string name="shuzihuobigendanzhanghu">Digital currency follow-up account</string>
+    <string name="guojiqihuogendanzhanghu">International futures follow-up account</string>
+    <string name="waihuigendanzhanghu">Forex follow-up account</string>
+    <string name="meicigendanjine">Amount per follow-up order</string>
+    <string name="qingshurumeicigendanjine">Please insert the amount per follow-up order</string>
+    <string name="zhifudailifei">Payment of Agency Fee</string>
+    <string name="dailifeiwei">The agency fee is %sUSDT. Are you sure you want to pay it?</string>
+    <string name="jianban">Simplified Version</string>
+    <string name="dangqianjia">The current price:HK$</string>
+    <string name="gendanzhegensuiyujimairushuliang">Followers obey the expected buy - quantity：</string>
+    <string name="gendanzhegensuimairuzongjine">Total amount of followers following the buy-in：HK$</string>
+    <string name="mairujine">Amount of buy-in(HK$)</string>
+    "<string name="shurumairujine">Please insert the amount of buy-in
+</string>"
+    <string name="mairudanjia">Unit price of buy-in(HK$)</string>
+    <string name="shurumairudanjia">Please insert the unit price of buy-in</string>
+    <string name="yujishuliang">Estimated Quantity：</string>
+    <string name="yujijine">Estimated Quantity：</string>
+    <string name="tijiaodingdan">Submit Orders</string>
+    <string name="zhuanyeban">Professional Version</string>
+    <string name="dangqianzuiyoujia">The current best price(HK$)</string>
+    <string name="querenlikaizhifu">Confirmation of leaving the payment page</string>
+    <string name="runinyifukuanqingwubidianji">If you have already paid, please make sure to click "I have paid successfully" first</string>
+    <string name="dingdanjiangzaihouchaoshiquxiao">Orders will be cancelled after %s timeout</string>
+    <string name="woquerenhaimeiyoufukuangeiduifang">   I confirm that the payment has not been made to the other party.</string>
+    <string name="guanzhu">Follow</string>
+    <string name="yonghuming">User Name</string>
+    <string name="zongtouru">Total Inputs</string>
+    <string name="keyong">Available</string>
+    <string name="xiabikeyong">Available when writing</string>
+    <string name="yingli">Profit</string>
+    <string name="tuodongtupianwanchengyanzheng">Drag the image to complete the verification</string>
+    <string name="zongshuliangbtc">Total Quantity：%s BTC</string>
+    <string name="pingjunchengbenjia">Average Cost Price：</string>
+    <string name="yinglibili">Profit Ratio：</string>
+    <string name="chengbenqujian">Cost Range</string>
+    <string name="bili">Ratio</string>
+    <string name="zongshizhiusdt">Total Market Value：%s USDT</string>
+    <string name="shizhiusdt">Market Value(USDT)</string>
+    <string name="zhanghuzongzichanusdt">Total Account Assets(USDT)</string>
+    <string name="chongbi">Top-up</string>
+    <string name="tibi">Withdrawal</string>
+    <string name="huazhuan">Transfer</string>
+    <string name="fabigoumai">Purchase Fiat Money</string>
+    <string name="shuzihuobi">Digital Currency</string>
+    <string name="guojiqihuo">International Futures</string>
+    <string name="gendan">Follow-up orders</string>
+    <string name="shuzihuobigendan">Follow-Up Orders for Digital Currencies</string>
+    <string name="guojiqihuogendan">Trading History of Follow-up Orders for International Futures</string>
+    <string name="waihuigendan">Follow-up Orders for Forex</string>
+    <string name="zanwugendan">No follow-up order</string>
+    <string name="shuruidsousuo">Enter ID to Search</string>
+    <string name="yonghumingcheng">Name of the User</string>
+    <string name="dingyuezhuangtai">Subscription Status</string>
+    <string name="zanwuguanzhu">No Follow～</string>
+    <string name="yueusdt">Balance(USDT)</string>
+    <string name="dangqianzongyingkuiusdt">Total profit and loss at present(USDT)</string>
+    <string name="chicang">Position</string>
+    <string name="yuezhanghuzongzichanusdt">Total assets of the balance account(USDT)</string>
+    <string name="dongjieusdt">Frozen(USDT)</string>
+    <string name="zanwujilu">No record at the moment</string>
+    <string name="shouye">Home</string>
+    <string name="nihaimeijiarurenhequanzi">You haven\'t joined any circles yet</string>
+    <string name="quchuangjian">Go Settings</string>
+    <string name="gaoshoupaihangbang">Ranking of Top Players</string>
+    <string name="shuzihuobizongzichanusdt">Total Assets of Digital Currency(USDT)</string>
+    <string name="fengxianlv">Risk Ratio</string>
+    <string name="keyongbaozhengjinusdt">Available Margin(USDT)</string>
+    "<string name="weishixianyingkuiusdt">Unrealized Profit and Loss
+(USDT)</string>"
+    <string name="chicangbaozhengjinusdt">Position Margin(USDT)</string>
+    <string name="dongjiebaozhengjin">Freeze Deposit</string>
+    <string name="daidandaoshi">Instructors who lead orders:</string>
+    <string name="jiebang">Unbinding</string>
+    <string name="qubangding">Go Binding</string>
+    <string name="kaiqigendan">Open Follow-Up:</string>
+    <string name="yikaiqi">Opened</string>
+    <string name="gendanbeishu">Multiplier of the follow-up order:</string>
+    <string name="bei">Multiple</string>
+    <string name="zidingyi">Customization</string>
+    <string name="guzhiqihuo">Stock Index Futures</string>
+    <string name="mingchengdaima">Name Code</string>
+    <string name="zuixinjia">Latest Price</string>
+    <string name="zhangdiefu">Ups and downs</string>
+    <string name="hangqing">Market Conditions</string>
+    <string name="zixuan">Optional</string>
+    <string name="hushen">CSI 300 Index</string>
+    <string name="ganggu">Hang Seng Index</string>
+    <string name="waihui">Forex</string>
+    <string name="faxian">Discover</string>
+    <string name="zanwuzixuan">No optional～</string>
+    <string name="woyaomai">I want to buy</string>
+    <string name="woyaomai2">I want to sell</string>
+    <string name="goumaishuliang">Purchase Quantity</string>
+    <string name="jiageyue">The price is around</string>
+    <string name="xiane12usdt"> Quota%1$s USDT-%2$s USDT</string>
+    <string name="lingshouxufeigoumai">No commission required for purchase</string>
+    <string name="haiweibianjiziliao">No information has been edited…</string>
+    <string name="fabimaimai">Trading in Fiat Money</string>
+    <string name="shuzihuobijiaoyijilu">Trading Records of Digital Currencies</string>
+    <string name="qihuojiaoyijilu">Trading Record of Futures</string>
+    <string name="gendanjiaoyijilu">Follow-Up Transaction Records</string>
+    <string name="xitongtongzhi">System Notification</string>
+    <string name="bangzhuzhongxin">Help Center</string>
+    <string name="fenxiangyingyong">Share Application</string>
+    <string name="kefu">Customer Service</string>
+    <string name="shezhi">Settings</string>
+    <string name="xuanzebizhong">Select Currency</string>
+    <string name="guanliyuan">Administrator</string>
+    <string name="guanfang">Official</string>
+    <string name="zhanghu">Account</string>
+    <string name="dingyue">Subscribe</string>
+    <string name="wode">My</string>
+    <string name="gendanzongyingkui">Total profit and loss of the order</string>
+    <string name="huobi">Firecoin</string>
+    <string name="shurujiumima">Please Insert Old Password</string>
+    <string name="shezhixinmimabashiliuweishuzi">Password must be a combination of 8–16 digits and letters</string>
+    <string name="querenxinmima">Confirm Password</string>
+    <string name="chicangyingkui">Profit and loss of positions</string>
+    <string name="dongjie">Frozen</string>
+    <string name="hangqingshuxinpinlvshezhi">Setting of the refresh frequency of the market</string>
+    <string name="yicunzongliang">Total %s stored</string>
+    <string name="yihuousdtshouyinianhua">Earned USDT Returns (Annualized %s%)</string>
+    <string name="fenxiang">Share</string>
+    <string name="weixin">WeChat</string>
+    <string name="dangqianmeiyouneirong">No content at present</string>
+    <string name="dianji">Click</string>
+    <string name="tianjiaguanzhuqitarendedongtai">Add to follow other people\'s updates</string>
+    <string name="huozheziji">Or myself</string>
+    <string name="tianjiadongtai">Increase Updats</string>
+    <string name="fenxiangxinxianshi">Share What\'s New</string>
+    <string name="dangqianmeiyouwangluo">No network at present</string>
+    <string name="fukuanqueren">Confirm Purchase</string>
+    <string name="qingquerenninyixiangmaijiafukuan">Please make sure you have paid the seller</string>
+    <string name="eyidianjijiangzhijiedongjiezhanghu">Malicious click will be directly frozen account</string>
+    <string name="zhuanrushuliangdaocunbibao">Transfer quantity to CredEarn</string>
+    <string name="qingzuidizhuanruyibai">Please transfer a minimum of 100</string>
+    <string name="keyongshuliang">Available Quantity：</string>
+    <string name="querenzhuanru">Confirm Transfer In</string>
+    <string name="gendanleixing">Order Types</string>
+    <string name="kuisunbutie">Loss Allowance</string>
+    <string name="jine">Amount</string>
+    <string name="daoqiri">Expiration time</string>
+    <string name="rengoushuzihuobi">Subscribe to digital currency</string>
+    <string name="jurengoujieshuhaisheng">Left before the end of the subscription:：</string>
+    <string name="tianshifen">%1$s Day %2$s Hour %3$s Minute</string>
+    <string name="dangqianrengoujiausdt">Current Subscription Price(USDT)</string>
+    <string name="benlunrengouzongshuliang">Number of subscriptions in this round</string>
+    <string name="benlunrengoujindu">Progress of subscriptions in this round：</string>
+    <string name="rengouzoushitu">Trend chart of subscriptions</string>
+    <string name="huigoujilu">Repurchase Record</string>
+    <string name="rengou">Subscribe</string>
+    <string name="jiaoyi">Transaction</string>
+    <string name="xuanzerengoushuliang">Select the subscription amount</string>
+    <string name="suocangquanyishuoming">Description of the Locked Interest</string>
+    <string name="rengoujine">Subscription Amount: </string>
+    <string name="nimuqiansuocangquanyidengji">Your current locked position equity level</string>
+    <string name="chiyouusdtshuliang">The amount of USDT held：</string>
+    <string name="rengousuocang">Subscribe the locked position</string>
+    <string name="zongshuliang">Total Quantity</string>
+    <string name="suocang">Locked positions</string>
+    <string name="zhongyao">Importance</string>
+    <string name="gensuixitong">Follow the system</string>
+    <string name="jiantizhongwen">Simplified Chinese</string>
+    <string name="English">English</string>
+    <string name="zhifufangshi">Payment Method</string>
+    <string name="jiaoyijine">Transaction Amount</string>
+    <string name="kuaijiequ">Quick Zone</string>
+    <string name="zixuanqu">Optional Area</string>
+    <string name="zongjia">Total Amount</string>
+    <string name="dingdanhao">Order Number</string>
+    <string name="dingdanshijian">Time of the order</string>
+    <string name="maijianicheng">Buyer\'s nickname</string>
+    <string name="maijiaxingming">Buyer\'s name</string>
+    <string name="maijianicheng2">Seller\'s nickname</string>
+    <string name="maijiaxingming2">Seller\'s name</string>
+    <string name="shoukuanfangshi">Payment Method</string>
+    <string name="qufukuan">Go to Pay</string>
+    <string name="shensu">Complaint</string>
+    <string name="woquerenshoudaofukuan">I confirm that payment has been received</string>
+    <string name="xiangmaijiafukuan">Payment to the seller</string>
+    <string name="fukuanshijianshengyu">Payment time remaining</string>
+    <string name="ninzhengzaixiang">You are purchasing %@ USDT from a WWCT certified seller</string>
+    <string name="weixinzhanghao">WeChat Account</string>
+    <string name="qingwubishiyongbenrendezhifufangshixiangyixiayinhangkazixingzhuanzhang">Please be sure to make your transfer to the following bank card using your (%s) payment method.</string>
+    <string name="woyifukuanchenggong">I have paid successfully</string>
+    <string name="querengoumai">Confirm Purchase</string>
+    <string name="shuliangusdt">Quantity  %s USDT</string>
+    <string name="kanzhangzuoduogaiyao">Outline of Bullish (long)</string>
+    <string name="kaicangjia">Opening Price</string>
+    <string name="kaicangfangxiang">Opening Direction</string>
+    <string name="chicangbaozhengjin">Position Balance</string>
+    <string name="chicangshoushu">Position Lot</string>
+    <string name="kaicangshouxufei">Opening Fee,</string>
+    <string name="kaicangshijian">Opening Time</string>
+    <string name="zhiyingjiage">Take Profit Price</string>
+    <string name="zhisunjiage">Stop Loss Price</string>
+    <string name="kaicangzhuangtai">Opening Status</string>
+    <string name="xianjia">Current Price</string>
+    <string name="pingcangmingxi">Details of Closed Positions</string>
+    <string name="kuaijiepingcang">Quick Close</string>
+    <string name="jiaoyiguizeshuoming">Description of trading rules</string>
+    <string name="ruhejiaoyi">How to deal</string>
+    <string name="shijiaweituo">Market Price Commission</string>
+    <string name="xianjiaweituo">Limit Commissioning</string>
+    <string name="zhengzaijiazaigengduo">Loading more…</string>
+    <string name="benqileiji">Accumulated for the period</string>
+    <string name="chaoguo">More than</string>
+    <string name="buchaoguo">No more than</string>
+    <string name="zoushi">Trend>></string>
+    <string name="wangqijilu">Previous Records</string>
+    <string name="shuoliangju">Say something </string>
+    <string name="ruchangdaojishi">Countdown to entry：</string>
+    <string name="ninbenchangyuce">Your prediction for this game：</string>
+    <string name="qingdengdaijieguogongbu">Please wait for the outcome to be published.</string>
+    <string name="huodongguize">Activity Rules</string>
+    <string name="yucejilu">Prediction Record</string>
+    <string name="fadanmu">Send pop-ups</string>
+    <string name="qingshuruninxiangshuode">Please enter what you want to say</string>
+    <string name="tianjiashouhuodizhi">Adding a shipping address</string>
+    <string name="fenshi">Minute</string>
+    <string name="wuri">5 days</string>
+    <string name="yifenzhong">1 MInute</string>
+    <string name="shiwufenzhong">15 minutes</string>
+    <string name="yixiaoshi">1 hour</string>
+    <string name="rixian">Daily Line</string>
+    <string name="zhouxian">Weekly Line</string>
+    <string name="yuexian">Monthly Line</string>
+    <string name="gao">High</string>
+    <string name="di">Low</string>
+    <string name="ersih">24H</string>
+    <string name="ma5">MA5:</string>
+    <string name="ma10">MA10:</string>
+    <string name="ma30">MA30:</string>
+    <string name="riqi">Date</string>
+    <string name="kai">Open</string>
+    <string name="zhangdiee">Ups and Downs</string>
+    <string name="yishoupan">Closed</string>
+    <string name="liang">Volume</string>
+    <string name="rik">Daily Candlestick Charts</string>
+    <string name="zhouk">Weekly Candlestick Charts</string>
+    <string name="yuek">Monthly Candlestick Charts</string>
+    <string name="shendu">Depth</string>
+    <string name="fangxiang">Direction</string>
+    <string name="mingcheng">Name</string>
+    <string name="faxingshijian">Issue Time</string>
+    <string name="faxingzongliang">Total Amount Issued</string>
+    <string name="liutongzongliang">Total Circulation</string>
+    <string name="zhongchoujiage">Crowdfunding Price</string>
+    <string name="baipishu">White Paper</string>
+    <string name="guanwang">Official Website</string>
+    <string name="qukuailianchaxun">Blockchain Inquiry</string>
+    <string name="jimai5">Consignment⑤</string>
+    <string name="jimai4">Consignment④</string>
+    <string name="jimai3">Consignment③</string>
+    <string name="jimai2">Consignment②</string>
+    <string name="jimai1">Consignment①</string>
+    <string name="qiugou1">Request for Purchase①</string>
+    <string name="qiugou2">Request for Purchase②</string>
+    <string name="qiugou3">Request for Purchase③</string>
+    <string name="qiugou4">Request for Purchase④</string>
+    <string name="qiugou5">Request for Purchase⑤</string>
+    <string name="shuliangshou">Quantity (lots)</string>
+    <string name="mairujia">Purchasing Price</string>
+    <string name="maichujia">Selling Price</string>
+    <string name="yiyanzhengshenfen">1.Verify identity</string>
+    <string name="ergenggaishoujihao">2.Change cell phone number</string>
+    <string name="sanwancheng">3.Complete</string>
+    <string name="yibangdingshoujihao">Bound cell phone number:</string>
+    "<string name="qingshuruxinshoujihaoma">Please enter your new cell phone number
+</string>"
+    <string name="ershezhimima">2.Set Up Password</string>
+    <string name="sanquerenmima">3.Confirm Password</string>
+    <string name="qingshuruliuweizhifumima">Please insert 6-digit payment password</string>
+    <string name="qingzaicishuruliuweizhifumima">Please insert 6-digit payment password again</string>
+    <string name="xiaoshudianhouliangweiweishu">Two decimal places after the decimal point, each time the cash payment is randomly generated, the purpose is for the recipient to verify the identity of the cash payer, so please pay the total amount accurately. Otherwise, the order will be invalid.</string>
+    <string name="ninzanweifabuguanggao">You have not posted an ad yet～</string>
+    <string name="tianjiaguanggao">Add Ads</string>
+    <string name="zanwujianjie">No introduction at the moment</string>
+    <string name="wodechicang">My Position</string>
+    <string name="chiyou">Possess</string>
+    <string name="shizhichengbenjia">Market value/cost price</string>
+    <string name="yejizoushi">Performance Trend</string>
+    <string name="gendanrenqi">The Popularity of Follow-up Orders</string>
+    <string name="bizhongjiaoyicishuhuizong">Summary of the number of currency transactions</string>
+    <string name="moren">Default</string>
+    <string name="bianji">Edit</string>
+    <string name="dangqianbanben">Current Version</string>
+    <string name="guanyuwomen">About Us</string>
+    <string name="lianxiwomen">Contact Us</string>
+    <string name="fuwutiaokuan">Terms of Service</string>
+    <string name="jianjitupian">Editing images</string>
+    <string name="xiexieshenmeba140zi">Write something… (Up to 140 characters)</string>
+    <string name="zuijinxiangce">Recent Albums</string>
+    <string name="yulan">Preview</string>
+    <string name="zuijinshipin">Recent Video</string>
+    <string name="shimingrenzheng">Real-name Verification</string>
+    <string name="bangdingyouxiang">Binding E-mail</string>
+    <string name="xiugaimima">Modify Password</string>
+    <string name="bangdingshouji">Binding Mobile Number</string>
+    <string name="shezhijiaoyimima">Set up a trading password</string>
+    <string name="shuaxinpinlvshezhi">Setting of Refresh Frequency</string>
+    <string name="xiaoxituisong">Message Pushing</string>
+    <string name="qingchuhuancun">Clear Cache</string>
+    <string name="touxiang">Headshot</string>
+    <string name="nicheng">Nickname</string>
+    <string name="xingbie">Gender</string>
+    <string name="nan">Male</string>
+    <string name="nv">Female</string>
+    <string name="erweima">QR Code</string>
+    <string name="shengri">Birthday</string>
+    <string name="weishezhi">Not Set Up</string>
+    <string name="gerenjianjie">Personal Introduction</string>
+    <string name="qingbianjigerenjianjie">Please edit personal introduction</string>
+    <string name="kaitongxuzhi">Opening Instructions</string>
+    <string name="daidangongneng">Lead order function</string>
+    <string name="kaitongtiaojianzongzichanbudiyuusdt">Opening conditions: Total assets not less than %sUSDT</string>
+    <string name="lijikaitong">Open Now</string>
+    <string name="chushouusdt">Sell USDT</string>
+    <string name="qingshuruchushoushuliang">Please insert the quantity to be sold</string>
+    <string name="quanbuchushou">All sold</string>
+    <string name="shishoukuan">Actual Payment</string>
+    <string name="sanshimiaohouzidongquxiao">Auto-cancel after s</string>
+    <string name="xiadan">Place an order</string>
+    <string name="goumaizhong">Buying</string>
+    <string name="shuliangusdtdaousdt">Quantity  %1$s USDT-%2$s USDT</string>
+    <string name="xianeyuandaoyuan">Quota  HK$%1$s-HK$%2$s</string>
+    <string name="fangshi">Method</string>
+    <string name="leixinggoumai">Type  Purchase</string>
+    <string name="xiajia">Take down</string>
+    <string name="tuodong">Drag</string>
+    <string name="quanxuan">　Select All</string>
+    <string name="querenquxiaodingdan">Confirm cancellation of orders</string>
+    <string name="runinyijingxiangmaijiafukuanqingbuyaoquxiaodingdan">If you have already paid the seller, please do not cancel the order.</string>
+    <string name="quxiaoguizemaijiadangrileijisibiquxiao">Cancellation rules: When buyers accumulate 4 cancellations on the same day, \n will restrict the buying function on the same day.</string>
+    <string name="wozaixiangxiang">I\'m thinking about it.</string>
+    <string name="tijiaochenggong">Submitted successfully</string>
+    <string name="jiaoyibizhong">Trading Currency</string>
+    <string name="gendanjine">Amount of follow-up orders</string>
+    <string name="wodejine">My Amount</string>
+    <string name="weituomairuzongjine">Total amount of entrusted buy-in</string>
+    <string name="gendanshuliang">Number of follow-up orders</string>
+    <string name="wodeshuliang">My Number</string>
+    <string name="weituomaichuzongshuliang">Total number of consignments sold</string>
+    <string name="shengchengshijian">Generating Time</string>
+    <string name="guanbi">Close</string>
+    <string name="zongzichan">Total Assets</string>
+    <string name="gendanzongjine">Total amount of follow-up orders</string>
+    <string name="zhuijia">Additional</string>
+    <string name="gaoshou">Master</string>
+    <string name="yuezonge">Balance/Total Amount</string>
+    <string name="shezhiguanli">Settings Management</string>
+    <string name="meicimairudegendanzuidajine">Maximum follow-up amount for each purchase：</string>
+    <string name="querenshoukuanbingfangxing">Confirm payment and release</string>
+    <string name="qingwubidengluwangshangyinhang">Please be sure to log in to your online banking or third-party payment account to confirm the payment receipt.</string>
+    <string name="woquerenyidenglushoukuanzhanghu">   I confirm that I have logged in to my payment account and verified that the payment is correct.</string>
+    <string name="leixingxuanze">Type selection</string>
+    <string name="zhuangtaixuanze">Status selection</string>
+    <string name="yiwancheng">Completed</string>
+    <string name="daifukuan">To be paid</string>
+    <string name="yiquxiao">Canceled</string>
+    <string name="jiaoyijinecny">Transaction Amount(HKD)</string>
+    <string name="qingshurujiaoyimima">Please Insert Password</string>
+    <string name="wangjijiaoyimima">Forgot Password?</string>
+    <string name="zhifujine">Payment Amount</string>
+    <string name="qingzhunquezhifuyishangjine">Please pay the above amount accurately. Otherwise, the order will fail.</string>
+    <string name="fuzhijine">Copy Amount</string>
+    <string name="zhidaole">I understood</string>
+    <string name="xiugaizhifumima">Modify Password</string>
+    <string name="wangjizhifumima">Forgot Password</string>
+    <string name="weitianjiazhanghu">No account has been added</string>
+    <string name="tianjia">Add</string>
+    <string name="xitonghuiweininshaixuanbaohanmubiaojinedeshangpin">The system will filter for you the items that contain the target amount.</string>
+    <string name="shangjiarenzheng">Merchant Certification</string>
+    <string name="shoukuanguanli">Payment Management</string>
+    <string name="xuanzeruchangquan">Select Admission Ticket</string>
+    <string name="wodeyyb">My YYB：</string>
+    <string name="buchao">Not to exceed</string>
+    <string name="yujikedekedou">Guess right is expected to take %s beans. The result is subject to the end of the competition, for reference only.</string>
+    <string name="yucebuchao">Forecast not to exceed</string>
+    <string name="gendanjingfencheng">Net share of follow-up orders = share of follow-up orders - technical service fees</string>
+    <string name="miandaraoshiduan">No-disturb hours</string>
+    <string name="shengyin">Sound</string>
+    <string name="zhendong">Vibration</string>
+    <string name="xuanzeshijianduan">Select a time period</string>
+    <string name="gendanyinglie">Profitability of Follow-Up Orders</string>
+    <string name="shiyigensuigaohoudeyonghu">Definition: the total amount of profit and loss of users who followed the master in the past 30 days.</string>
+    <string name="yinglinengli">Profitability</string>
+    <string name="shiyigaoshouzuijinsanshitian">Definition: the average rate of return per trade of the master in the past 30 days. The larger the value, the stronger the profitability of the individual.</string>
+    <string name="gendanshouyilv">Profitability of Follow-Up Orders</string>
+    <string name="shiyigensuigaoshoudeyonghuzuijin">Definition: the average profitability of each trade in the last 30 days for users who follow the master. The larger the value, the better the return for the user following the master</string>
+    <string name="gendanshenglv">Winning Rate of Follow-up Orders</string>
+    <string name="shiyigensuigaoshouyinglidejilv">Definition: the chance of following the master\'s profit. The larger the value, the higher the possibility of profitability.</string>
+    <string name="renqizhishu">Popularity Index</string>
+    <string name="shiyigaoshouzuijinrenqi">Definition: the number of followers of the master in the past 30 days. The larger the number, the more followers and the higher the popularity.</string>
+    "<string name="jianleixing">Key Type
+</string>"
+    <string name="baocunerweima">Save QR Code</string>
+    <string name="chongbidizhi">The address of coins to be top-up</string>
+    <string name="fuzhi">Copy</string>
+    <string name="chongzhijine">Top-up Amount</string>
+    <string name="qingshuruchongzhijine">Please Insert Top-up Amount</string>
+    <string name="xuanzezhifufangshi">Please select payment method</string>
+    <string name="goumaiusdt">Buy USDT</string>
+    <string name="goumaidanjia">Unit Price of Purchase: $</string>
+    <string name="qingshurugoumaijine">Please insert the purchase amount</string>
+    <string name="goumaishuliangusdt">Number of Purchases：%sUSDT</string>
+    <string name="btcshuliang">BTC Amount</string>
+    <string name="usdtshouyi">USDT Revenue</string>
+    <string name="zhuanchubtcdaochicang">Transferring BTC to a position</string>
+    <string name="qingshuruzhuanchushuliang">Please enter the number of transfers out</string>
+    <string name="kezhuanchushuliang">Number of transferable：</string>
+    <string name="dongjieshuliang">Frozen Amount</string>
+    <string name="querenzhuanchu">Confirmation of transfer out</string>
+    <string name="shuruyonghuid">Please enter the user ID</string>
+    <string name="qingkonglishi">Clearing up history</string>
+    <string name="sousuodaima">Search Code</string>
+    <string name="jiazaishibaidianjichongxinshuaxin">Loading failed; please click to refresh.</string>
+    <string name="yinhangka">Bank Card</string>
+    <string name="jiagezuiyou">Best Price</string>
+    <string name="xuanze">  Choose</string>
+    <string name="xinzengshoukuanfangshi">New Payment Method</string>
+    <string name="gendanbeishushezhi">Settings of Follow-up Multiplier</string>
+    <string name="beishu">Multiplier</string>
+    <string name="qingshuruzhengzhengshu">Please enter a positive integer</string>
+    <string name="zhisunshezhi">Stop Loss Settings</string>
+    <string name="qingshuruzhisunjiage">Please Stop Loss Price</string>
+    <string name="zhiyingshezhi">Take Profit Settings</string>
+    <string name="zhiyingjia">Take Profit Price</string>
+    <string name="qingshuruzhiyingjiage">Please Insert Take Profit Price</string>
+    "<string name="zhiyingzhisunshezhi">Setting of Take Profit and Stop Loss
+</string>"
+    <string name="wushezhi">No Settings</string>
+    <string name="qingshuruzhiyingbili">Please Insert Take Profit Ratio</string>
+    <string name="zhisunjia">Stop Loss Price</string>
+    <string name="qingshuruzhisunbili">Please Insert Stop Loss Ratio</string>
+    <string name="woshi">I am</string>
+    <string name="yiruzhuprocoin">Already in FireUp, so please follow my live trading with one click.</string>
+    <string name="wozhuanduoshaonijiuzhuanduoshao">How much I earn, then how much you make.</string>
+    <string name="wwct">FireUp</string>
+    <string name="huanqiushuzizichanjiaoyipingtai">Global Digital Currency Platform</string>
+    <string name="weixinhaoyou">WeChat Friends</string>
+    <string name="pengyouquan">Discover</string>
+    <string name="QQhaouyou">QQ Friends</string>
+    <string name="QQkongjian">QQ Space</string>
+    <string name="weibo">Weibo</string>
+    <string name="xiangyouhuadonghuakuaitianchongpintu">Slide the slider to the right to fill the puzzle</string>
+    <string name="huanyizhang">Change one</string>
+    <string name="shuruhuochanganzhantiedizhi">Enter or long press to paste the address </string>
+    <string name="shurutibishuliang">Enter the number of coins to be withdrawn</string>
+    <string name="ketibishuliang">Withdrawable Coin Quantity：</string>
+    <string name="shouxufei">Commission Fee</string>
+    <string name="fanweidaobtc">Range %1$s-%2$s BTC</string>
+    <string name="zuixiaotibishuliangwei">The minimum number of coins to be withdrawn is：</string>
+    <string name="daozhangshuliang">Number of arrivals：</string>
+    <string name="tibishuliang">Number of coin withdrawals</string>
+    <string name="tibidizhi">Withdrawal address</string>
+    <string name="zhuangtai">Condition</string>
+    <string name="dangqianweituo">Current Commissioning</string>
+    <string name="dangqianchicang">Current Position</string>
+    <string name="zanwuweituo">No commission at present</string>
+    <string name="jiaoyie">Amount of Transactions</string>
+    <string name="shichangweituo">Market Commissioning</string>
+    <string name="yidangqianzuiyoujiagejiaoyi">Trade at the current best price</string>
+    <string name="qingshurushoushu">Please insert lots.</string>
+    <string name="kekaishou">It can be opened %s lots</string>
+    <string name="kaicangbaozhengjinusdt">Opening Margin %s USDT</string>
+    <string name="kanzhangzuoduo">Bullish (long)</string>
+    "<string name="kandiezuokong">Bearish (short)
+</string>"
+    <string name="chengjiaoshijian">Turnover Time</string>
+    <string name="chengjiaojia">Turnover Price</string>
+    <string name="chengjiaoliang">Turnover Volume</string>
+    <string name="weituoshuliangbtc">Number of Commissions(BTC)</string>
+    <string name="chengjiaoshuliangbtc">Number of Turnovers(BTC)</string>
+    "<string name="wodechengjiaobtc">My Turnover
+(BTC)</string>"
+    <string name="gendanchengjiaobtc">Turnover of follow-up orders(BTC)</string>
+    <string name="kanzhang">Bullish</string>
+    <string name="kandie">Bearish</string>
+    <string name="dangqiankaicang">Current Open Position</string>
+    <string name="shoushu">Lot</string>
+    <string name="weituojia">Commission Price</string>
+    <string name="kaicangbaozhengjin">Margin for opening a position</string>
+    <string name="shouyilv">Profitability</string>
+    <string name="yingkuiusdt">Profit and Loss(USDT)</string>
+    <string name="wodeweituobtc">My Commissions(BTC)</string>
+    <string name="gendanweituobtc">Follow-up Commissions(BTC)</string>
+    <string name="jilu">Record</string>
+    <string name="cong">From</string>
+    <string name="dao">To</string>
+    <string name="yuezhanghu">Account Balance</string>
+    <string name="guzhiqihuozhanghu">Accounts for stock index futures</string>
+    <string name="huazhuanshuliang">Transfer Amount</string>
+    <string name="shuruhuazhuanshuliang">Please enter the amount to be transferred.</string>
+    <string name="zhiyoujiangzichanhuazhuandaoxiangduiyingde">Transactions can only be performed if the assets are transferred to the corresponding account. No fees are charged for transfers between accounts.</string>
+    <string name="leixing">Type</string>
+    <string name="qingzai">Please  </string>
+    <string name="neifukuangeiduifang">  Pay the other party within</string>
+    <string name="dingdanyiquxiao">Order canceled</string>
+    <string name="lianxiduifang">Contact the Other Party</string>
+    <string name="goumaijine">Purchase amount</string>
+    <string name="shoukuanerweima">QR code for receiving payment</string>
+    <string name="zhifubaozhanghao">Alipay Account</string>
+    <string name="xiadanshijian">Time of placing an order</string>
+    <string name="qingshiyongbenrenzhifubaoxiangyishangzhuanzhang">Please use my PayPal to transfer money to the above; please do not add notes when transferring money. \n Complete the payment within the specified time, click [Mark as paid] after the payment is completed</string>
+    <string name="quxiaodingdan">Order Cancellation</string>
+    <string name="quzhifu">Go to pay</string>
+    <string name="biaojiweiyizhifu">Mark as Paid</string>
+    <string name="yinhangzhanghao">Bank Account Number</string>
+    <string name="yinhangkaxinxi">Bank Card Details</string>
+    <string name="shoukuanren">Receiver</string>
+    <string name="qingzhunquezhifuyixiajine">Please pay the exact amount below; otherwise, the order will fail.</string>
+    <string name="zhifubaomingcheng">Name of Alipay Account</string>
+    <string name="weixinmingcheng">Name of WeChat Account</string>
+    <string name="shengyushijian">Remaining time</string>
+    <string name="zhuanzhangshiqingwutianjiarenhebeizhu">Please do not add any notes when transferring funds</string>
+    <string name="qingzaiguidingshijianneiwanchengzhifu">Please complete the payment within the specified time, click [Mark as paid] after the payment is achieved.</string>
+    <string name="banbengengxin">Version Updates</string>
+    <string name="faxianxinbanben">Discover the new version, upgrade for a smoother experience</string>
+    <string name="shaohouzaishuo">Talk later</string>
+    <string name="lijishengji">Upgrade Now</string>
+    <string name="usdtshuoming">USDT Description</string>
+    <string name="zhanghuyueusdt">Account Balance(USDT)</string>
+    <string name="weiwancheng">Unfinished</string>
+    <string name="chongzhizongeyuan">Total top-up(yuan)</string>
+    <string name="gendanrenshu">Number of followers</string>
+    <string name="jiaoyishouyi">Trading Revenue</string>
+    <string name="zhunquelv">Accuracy</string>
+    <string name="shangyueshouyiusdt">Last month\'s earnings(USDT)</string>
+    <string name="zhegerenhenlan">This person is lazy and has not left anything…</string>
+    <string name="xiangqing">Details ></string>
+    <string name="agaoshoushouyilv">A.Yield of the master</string>
+    <string name="byonghugendanshouyilv">B.User\'s follow-up yield</string>
+    <string name="cyinglizhanbi">C.Profit share</string>
+    <string name="drenqi">D.Popularity</string>
+    <string name="egendanyingkuileijijine">E.Accumulated amount of profit and loss of follow-up orders</string>
+    <string name="chicangbaifenhao">Position %s%</string>
+    <string name="yuebaofenhao">Balance %s%</string>
+    <string name="weikaitongdaidangongneng">Not open with a single function, operation data is not public</string>
+    <string name="wen">Ask</string>
+    <string name="qingshuruxieshenme">Please insert something</string>
+    <string name="zongshouyiusdt">Total earnings(USDT)</string>
+    <string name="zhengzaijiazaizhong">Loading…</string>
+    <string name="zhuanchubtc">Transfer out BTC</string>
+    <string name="lijitiyan">Experience Now</string>
+    <string name="zhengzaijiazaizhongqingshaodeng">Loading, please wait…</string>
+    <string name="tiaoguo">Pass</string>
+    <string name="xuanzeriqi">Select the date</string>
+    <string name="tixianshuliang">Withdrawal Amount</string>
+    <string name="shijia">Market Price</string>
+    <string name="tijiaoshijian">Submit Time</string>
+    <string name="zhanghuming">Account name</string>
+    <string name="tianjiashoukuanfangshi">＋ Add payment method</string>
+    <string name="muqianchiyouusdt">Currently holds USDT:</string>
+    <string name="qingshurutixianshuliang">Please insert withdrawal amount amounts</string>
+    <string name="tixianxuefenxf">Withdrawal Credits(XF)</string>
+    <string name="shengyuxuefenxf">Remaining credits(XF):</string>
+    <string name="quanbutixian">All Withdrawal</string>
+    <string name="yigeyuenei">In one month</string>
+    <string name="sangeyuenei">In three months</string>
+    <string name="liugeyuenei">In six months</string>
+    <string name="yiniannei">In a year</string>
+    <string name="dangqianhuigoujiausdt">Current repurchase price(USDT)</string>
+    <string name="yybshuoming">YYB Description</string>
+    <string name="yichanchuyybzongliang">Total YYB output</string>
+    <string name="yixiaohuiyybzongliang">Total YYB has been destroyed</string>
+    <string name="huigoujiazoushitu">Chart of repurchase price</string>
+    <string name="huigou">Repurchase</string>
+    <string name="shengyukehuigouyybshuliang">Number of remaining repurchasable YYB</string>
+    <string name="qingshuruhuigouyybshuliang">Please enter the number of repurchased YYB</string>
+    <string name="chiyouyybshuliang">Number of YYB Holdings：</string>
+    <string name="chakantadehaoyou">Check out his friends</string>
+    <string name="sousuochengyuan">Search Members</string>
+    <string name="duihuan">Exchange</string>
+    <string name="tihuo">Withdraw"</string>
+    <string name="fenhongjilu">Dividend Record</string>
+    <string name="tihuoxingquan">Right of withdrawal</string>
+    <string name="fabu">Post</string>
+    <string name="wodedingdan">My orders</string>
+    <string name="bangzhu">Help</string>
+    <string name="tuichucicibianji">Exit this edit?</string>
+    <string name="canshucuowu">Parameter error</string>
+    <string name="meiyouhuoqudaotupian">No picture obtained</string>
+    <string name="baocuntupianchucuo">Error of saving picture</string>
+    <string name="baocuntupiandao">Save image to</string>
+    <string name="paizhao">Taking photos to</string>
+    <string name="congxiangcehuoqu">Select from the album</string>
+    <string name="tupianxuanze">Photo selection</string>
+    <string name="baocuntupian">Save image</string>
+    <string name="caozuo">Operation</string>
+    <string name="laiyuanwwctjiaoyipingtaigendanwangyefenxiang">Source: FireUp trading platform\'s followers page share</string>
+    <string name="meiyouhuoqudaowangyedizhi">Did not get the web address, please re-enter the page</string>
+    <string name="tupianbaocunshibai">Failure of image saving</string>
+    <string name="shanchuhoujiangqingkong">After deleting, the chat will be cleared of all messages.</string>
+    <string name="bunenggengzijiliaotian">Can\'t talk to yourself</string>
+    <string name="meiyougengduolishijilule">No more history records</string>
+    <string name="shenqingliyou">Reason for application: </string>
+    <string name="chuliren">Processors</string>
+    <string name="yitongguo">Passed</string>
+    <string name="yijujue">Rejected</string>
+    <string name="tishi">Reminder</string>
+    <string name="quedingchongfugaixiaoxi">Make sure to resend the message</string>
+    <string name="bule">No need</string>
+    <string name="chongfa">repost</string>
+    <string name="quanzhu">Circle master</string>
+    <string name="zhucezhong">[Registering…]</string>
+    <string name="yuyinxiazaishibai">Failure of voice download</string>
+    <string name="meiyousdka">No sd card</string>
+    <string name="chongluhuishanchugangcaideluyin">When re-recording, the previous recording will be deleted first</string>
+    <string name="dianjitaipinfanle">Click too often</string>
+    <string name="anxialuyin">Press to record</string>
+    <string name="zhengzailuyin">Recording</string>
+    <string name="dianjibofang">Click to play</string>
+    <string name="dianjitingzhi">Click to stop</string>
+    <string name="qingquedingyoucharusdka">Please make sure there is an sd card inserted</string>
+    <string name="luyinshijiantaiduan">The recording time is too short</string>
+    <string name="bofangyichang">Playback occurred abnormally</string>
+    <string name="qingshuruneirong">Please insert content</string>
+    <string name="suoyouchengyuan">All members</string>
+    <string name="chengyuanshenqing">Membership application</string>
+    <string name="tupian">Image</string>
+    <string name="gong">Total</string>
+    <string name="mingchengyuan">memberships</string>
+    <string name="pian">articles</string>
+    <string name="ge">pieces</string>
+    <string name="qingchuchenggong">Clear successfully</string>
+    <string name="shifoutuichuquanzi">Do you quit the circle?</string>
+    <string name="tuichu">Save images</string>
+    <string name="yituichu">Withdrawn</string>
+    <string name="nihaibushiquanzichengyuanwufachakan">You are not yet a member of the circle, so you can not view</string>
+    <string name="chuangjianquanzi">Create the Circle</string>
+    <string name="bianjiquanzi">Edit the Circle</string>
+    <string name="chuangjian">Create</string>
+    <string name="qingshuruquanzimingzi">Please insert the name of the circle</string>
+    <string name="quanzimingzitaichangle">The name of the circle is too long</string>
+    <string name="qingshuruquanzijianjie">Please insert the introduction of the circle</string>
+    <string name="qingshangchuanquanzitouxiang">Please upload the headshot of the circle</string>
+    <string name="xuanzehuifuderen">Select the person to reply to</string>
+    <string name="sousuoquanzi">Search the circle</string>
+    <string name="shezhijiarufangshi">Set the join method</string>
+    <string name="quedingchexiaodingdan">Confirm cancellation of order</string>
+    <string name="gendanjidaibiaonitongyibingjieshou">Follow-up order means you agree and accept it.</string>
+    <string name="fengxiantishi">《风险提示》</string>
+    <string name="he">And</string>
+    <string name="gendanguize">The Rules of Follow-up</string>
+    <string name="zuixiaogendanjine">Minimum Follow-Up Order Amount</string>
+    <string name="zuixiaozhuijiajine">Minimum Add-on Amount</string>
+    <string name="yiyong">Used</string>
+    <string name="zongshizhi">Total Market Value</string>
+    <string name="qingshurugendanzongjine">Please enter the total amount of follow-up orders</string>
+    <string name="zuidajinebunengdayugendanzongjine">The maximum amount cannot be greater than the total amount of follow-up orders</string>
+    <string name="qingshuruzuidajine">Please enter the maximum amount</string>
+    <string name="gendanjilu">Follow-up Order Records</string>
+    <string name="yikouchugendanfenchengbufen">After deducting the share of the follow-up orders</string>
+    <string name="shizhixiaoyu">Market value is less than</string>
+    <string name="usdtdebizhong">Currency of USDT</string>
+    <string name="wenxintishi">Warm Reminder</string>
+    "<string name="zhengzaitingzhigendan">Stop Order in progress
+</string>"
+    <string name="mibigendanjineshangxian">Maximum amount per follow-up order</string>
+    <string name="tingzhigendanjiangyishijiamaichuninsuoyoudegendanchicang">Stopping the order will sell all your follow-on positions at market price</string>
+    <string name="gendanyonghushuju">Data for follow-up users</string>
+    <string name="chakanziliao">Check Information</string>
+    <string name="siliao">Private Chat</string>
+    <string name="quxiaoguanliyuan">Cancel Administrator</string>
+    <string name="sheweiguanliyuan">Set as Administrator</string>
+    <string name="yichuchuquanzi">Remove from the circle</string>
+    <string name="yichuchuquanzibinglahei">Remove from circle and block</string>
+    <string name="tian">Day</string>
+    <string name="yijingruzhu">Settled</string>
+    <string name="daoqi">Expired</string>
+    <string name="geguanzhu">Follow</string>
+    <string name="chongzhijineyuan">Top-up amount (yuan)</string>
+    <string name="mairujineyuan">Total buy-in (yuan)</string>
+    <string name="tixianjineyuan">Withdrawal Amount(yuan)</string>
+    <string name="maichujineyuan">Amount sold (yuan)</string>
+    <string name="yiruzhu">Settled</string>
+    <string name="zanwu">Not available at the moment</string>
+    <string name="benlunrengou">Subscriptions in this round</string>
+    <string name="shi">Hour</string>
+    <string name="fen">Minute</string>
+    <string name="miao">Second</string>
+    <string name="zanweikaifang">Not open yet</string>
+    <string name="dangqianzanwurengou">No subscriptions at the moment</string>
+    <string name="guzhiqihuozongzichanusdt">Total Assets of Stock Index Futures(USDT)</string>
+    <string name="waihuizongzichanusdt">Total Assets of Forex(USDT)</string>
+    <string name="shuzihuobigendanzongzichanusdt">Total assets for followers of digital currencies(USDT)</string>
+    <string name="guojiqihuogendanzongzichanusdt">Total assets for followers of international futures(USDT)</string>
+    <string name="waihuigendanzongzichanusdt">Total assets for forex followers(USDT)</string>
+    <string name="weibangding">Not Bound</string>
+    <string name="weikaiqi">Not Opened</string>
+    "<string name="gendanshuzihuobizongzichanusdt">
+Follow-Up - Total Assets of Digital Currency(USDT)</string>"
+    <string name="gendanguzhiqihuozongzichanusdt">Follow-up-Total Assets of Stock Index Futures(USDT)</string>
+    <string name="shifoubaquanbukedouduihuanchengkbt">Do you redeem all beans for KBT?</string>
+    <string name="muqianzanwukedou">There is no beans at the moment, please go to the small application lightning forecast to get.</string>
+    <string name="weihuoqudaokefuxinxi">No customer service information was acquired.</string>
+    <string name="yaoqinghaoyoukaiqihuanqiu">Invite friends to start Global Digital Currency Platform</string>
+    <string name="tashi">He/she is</string>
+    <string name="woyizaiwwctyijiangenshangletadeshipanjiaoyi">I have followed his/her live trading in FireUp with one click</string>
+    <string name="tazhuanleduoshaowojiuzhuanduoshao">How much he/she earns, how much I earn</string>
+    <string name="yaoqinghaoyou">Invite friends</string>
+    <string name="fenxiangshibai">Share Failed</string>
+    <string name="huigoushuliangbunengdayu">The number of repurchases cannot be greater than the number of remaining repurchasable YYBs</string>
+    <string name="qingquerenmeiyoufukuangeiduifang">Please confirm that no payment has been made to the other party</string>
+    <string name="qingshurubeishu">Please Insert Multiplier</string>
+    <string name="beishubunengweiling">Multiplier cannot more than 0</string>
+    <string name="qingtianjiashoukuanfangshi">Please add the payment method</string>
+    <string name="usdtyuebuzu">USDT\'s balance is low</string>
+    <string name="qingshurumairujiage">Please enter the bought price</string>
+    <string name="qingshurumairushuliang">Please enter the number of buying quantity</string>
+    <string name="shifouquedingxiadan">Are you sure to place an order?</string>
+    <string name="mairugaiyao">Summary of Buyable</string>
+    <string name="kekai">Openable</string>
+    <string name="qingshurujiage">Please enter the price</string>
+    <string name="qingshurumaichujiage">Please enter the sell price</string>
+    <string name="qingshurumaichushuliang">Please enter the quantity to be sold</string>
+    <string name="maichugaiyao">Summary of Selling</string>
+    <string name="xianjinmairu">Buy in cash</string>
+    <string name="bibijilu">Coin Record</string>
+    <string name="shuzihuobijilu">Digital Currency Records</string>
+    <string name="guzhiqihuojilu">Record of stock index futures</string>
+    <string name="caiwujilu">Financial Records</string>
+    <string name="huazhuanjilu">Transfer records</string>
+    <string name="jishufuwufei">Technical Service Fee</string>
+    <string name="weituomairu">Buy on commission</string>
+    <string name="gendanzhegensuiyujimairu">Followers obey the expected purchase</string>
+    <string name="woyujimairushuliang">I expect to buy the number of</string>
+    <string name="weituomaichu">Consignment sold</string>
+    <string name="maichushuliang">Quantity sold</string>
+    <string name="gendanzhegensuimaichu">Followers obey to sell</string>
+    <string name="gendanzhegensuiyujizongjine">Followers obey the expected total amount</string>
+    <string name="woyujijine">I expect the amount</string>
+    <string name="qingshurumairudanjia">Please enter the buy order price</string>
+    <string name="chibishuliangbuzu">Insufficient number of coins held</string>
+    <string name="quedingmaichu">Are you sure you want to sell?</string>
+    <string name="dingdangaiyao">Order Summary</string>
+    <string name="fabigoumaiusdt">Buy USDT in fiat money</string>
+    <string name="qingnaixindenghouduifangfangbi">Please wait patiently for the other party to release the coins</string>
+    <string name="daifangxing">To be released</string>
+    <string name="dingdanyiwancheng">Orders has completed</string>
+    <string name="dingdanyiguoqi">Order has expired</string>
+    <string name="dingdanyicheixao">Orders have been cancelled</string>
+    <string name="dingdanyibeixitongchexiao">The order has been cancelled by the system</string>
+    <string name="dingdanyijingchaoshi">Order has timed out</string>
+    <string name="qingquerenyifukuanfouzedingdanjiangzai">Please confirm payment has been made; otherwise, the order will be automatically canceled after 30 minutes. Three automatic cancellations per day will affect credit, and malicious behavior will be frozen in the cash payment function for 24 hours.</string>
+    <string name="yibiaojifukuan">Marked for payment</string>
+    <string name="shengyu">Left</string>
+    <string name="shengyulingling">"00 minutes and 00 seconds left"</string>
+    <string name="qingxuanzezhifufangshi">Please select a payment method</string>
+    <string name="qingxuanzetixianbizhong">Please select the withdrawal currency</string>
+    <string name="huoquxinxishibai">Failed to get information</string>
+    <string name="qingxuazejianleixing">Please select the key type</string>
+    <string name="qingtianxietibidizhi">Please fill in the withdrawal address</string>
+    <string name="qingshurutibishuliang">Please enter the number of coins to be withdrawn</string>
+    <string name="tibishuliangbuzu">Insufficient number of coin withdrawals</string>
+    <string name="tibibizhong">Currency of withdrawal</string>
+    <string name="querenqianqingzixiheduitibidizhixinxi">Please check the information of the withdrawal address carefully before confirmation to avoid unnecessary property loss.</string>
+    <string name="qingshuruhuazhuanshuliang">Please enter the number of transfers</string>
+    <string name="xiangtongzhanghuzhijianbunenghuazhuan">Transfers cannot be made between the same accounts</string>
+    <string name="usdtzichan">USDTS Assets</string>
+    <string name="ninhaiweitianjiashoukuanfangshi">You have not added a payment method</string>
+    <string name="tixianshenqingyitijiao">Withdrawal application has been submitted, waiting for the platform to release the money</string>
+    <string name="tixianyiwancheng">The mention has been completed</string>
+    <string name="usdttixian">USDT Withdrawal</string>
+    <string name="tixiandingdanxiangqing">Details of withdrawal orders</string>
+    <string name="qingxianxuanzegendanleixing">Please select the order type first</string>
+    <string name="youxiangyanzhengma">E-mail verification code</string>
+    <string name="bangdingchenggong">Bind successfully</string>
+    <string name="jiaruwomen">Join Us</string>
+    <string name="wodeyongjin">My Commission</string>
+    <string name="wodeyaoqingma">My Invitation Code：</string>
+    <string name="anquanyanzheng">Security verification</string>
+    <string name="yanzhengchenggong">Verification success</string>
+    <string name="lianjieshibai">Connection failure</string>
+    <string name="kaiqitongzhituisong">Turn on notification push</string>
+    <string name="kaiqitongzhituisongjiangyouzhuyu">Turning on notification push will help you get the latest news! \nHighly recommended to turn on</string>
+    <string name="xiacizaishuo">Talk about it next time</string>
+    <string name="qukaiqi">Go to open</string>
+    <string name="zaianyicituichu">Press again to exit</string>
+    <string name="lingtianlingshi">0 Day 0 Hour 00 Minute 00 Second</string>
+    <string name="shifouquedingkaitongdaidangongneng">Are you sure you want to open the band order function?</string>
+    <string name="kaitongjidaibianniyiyuedu">Open means you have read it.</string>
+    <string name="wwctdaidangongnengfuwuxieyi">Service Agreement for FireUp with Order Function</string>
+    <string name="bianjizixuan">Edit Optional</string>
+    <string name="quedingshanchuzixuan">Confirm deletion of optional</string>
+    <string name="weituodingdanxiangqing">Commissioning order details</string>
+    <string name="duanxinyanzhengma">SMS verification code</string>
+    <string name="yanzhengma">verification code</string>
+    <string name="qingshuruduanxinyanzhengma">Please insert SMS verification code</string>
+    <string name="huoquchenggong">Obtain successfully</string>
+    <string name="leidatushuoming">Description of Radar Chart</string>
+    <string name="yybyuce">YYB prediction</string>
+    <string name="yucechaoguo">Predictions exceed</string>
+    <string name="caiduiyujikede">A correct guess is expected to yield</string>
+    <string name="yybjieguoyijingcaijieshushiweizhun">YYB. The results are based on the end of the competition and are for reference only.</string>
+    <string name="qingshurupinglun">Please enter a comment</string>
+    <string name="wenzitaichang">Text is too long</string>
+    <string name="benchangyucejieshu">This game is over, please wait for the following game</string>
+    <string name="zanweiyuce">No prediction yet</string>
+    <string name="pinglungchenggong">Comment Success</string>
+    <string name="yuce">Projections</string>
+    <string name="zai">In</string>
+    <string name="xuanzerengou">Choose to subscribe</string>
+    <string name="zichan">Assets</string>
+    <string name="shangjia">Put on the market</string>
+    <string name="yixiajia">Removed from the market</string>
+    <string name="chushouzhong">On Sale</string>
+    <string name="quedingshanchu">Confirm to delete</string>
+    <string name="shifouquedingshangjia">Are you sure to put it on the market?</string>
+    <string name="shifouquedingxiajia">Are you sure to take it off the market?</string>
+    <string name="qingxuanzeshangjiashoukuanfangshi">Please select a merchant payment method</string>
+    <string name="quanbumairu">Buy All</string>
+    <string name="shifukuan">Actual payment</string>
+    <string name="caozuochaoshi">Operation timeout</string>
+    <string name="qingquedingyidenglushoukuanzhanghu">Please make sure you are logged in to your account and verify that you have received the money correctly</string>
+    <string name="qingquerenhaimeiyoufukuangeiduifang">Please confirm that no payment has been made to the other party</string>
+    <string name="dingdanjiangzai">Orders will be placed in</string>
+    <string name="houchaoshiquxiao">Cancellation after timeout</string>
+    <string name="zhifubao">Alipay</string>
+    <string name="qingshurugoumaishuliang">Please enter the purchase quantity</string>
+    <string name="chushoushuliang">Sold Quantity</string>
+    <string name="bianjiguanggao">Editing Ads</string>
+    <string name="liuyanchangdubunengdayu">Message length cannot be greater than 140 characters</string>
+    <string name="qingxuanzeshoufukuanfangshi">Please select the payment and receipt method</string>
+    <string name="qingshuruzuidaxiane">Please enter the maximum limit</string>
+    <string name="qingshuruzuixiaoxiane">Please enter the minimum limit</string>
+    <string name="qingshurushuliang">Please insert quantity</string>
+    <string name="dangqianchushouzuidijia">Current lowest price for sale</string>
+    <string name="quedingshenqingquxiaoshangjiarenzheng">Are you sure to apply to cancel merchant certification?</string>
+    <string name="zhengzaishenqingquxiaoshangjiarenzheng">Applying to cancel merchant certification</string>
+    <string name="shenqingquxiaoshangjiarenzheng">Apply to cancel merchant certification</string>
+    <string name="renzhengzhong">Verifing real-name</string>
+    <string name="yishiming">With real-name verification</string>
+    <string name="weishiming">Without real-name verification</string>
+    <string name="shanjiafuwuxieyi">Merchant Service Agreement</string>
+    <string name="zuoweiguanggaobaozhengzichanqietongyi">As the advertiser guarantees the assets and agrees to</string>
+    <string name="tongyidongjie">Agree to freeze</string>
+    <string name="qianwangshiming">Verify the real-name</string>
+    <string name="weishimingbunengshenqingshangjiarenzheng">Can\'t apply for merchant certification without a real-name verification. Please authenticate your real name before submitting your merchant certification application.</string>
+    <string name="weishimingbunengshenqingshangjia">Can\'t apply for merchant certification without a real-name verification</string>
+    <string name="dingdanyichaoshi">Order has expired</string>
+    <string name="hao">Number</string>
+    <string name="wodeguanggao">My Ads</string>
+    <string name="shensutixing">Complaint Reminder</string>
+    <string name="qingxuanzeshensuliyou">Please select a reason for your complaint</string>
+    <string name="liuyanbunengchaoguosanbaigezifu">Message cannot exceed 300 characters</string>
+    <string name="dingdanjilu">Order History</string>
+    <string name="xuanzeguojiahuodiqu">Please select a country or region</string>
+    <string name="sousuoguojiahuodiqu">Select a country or region</string>
+    <string name="zhucezhanghu">Re-register your account</string>
+    <string name="chongxinhuoqu">Recapture</string>
+    <string name="wwctyinsitiaokuan">Privacy Policy for procoin</string>
+    <string name="wwctyonghuxieyi">User Agreement for procoin</string>
+    <string name="zhucejidaibiaoniyitongyibingjieshou">Registration means that you agree and accept it.</string>
+    <string name="duanxinyanzhengmayijingfasongzhi">SMS verification code has been sent to</string>
+    <string name="qingchongxinhuoquyanzhengma">Please retrieve the verification code</string>
+    <string name="cuowutishi">Error Reminder</string>
+    <string name="nindehuihuayijingguoqi">Your session has expired, please login again</string>
+    <string name="weizhileixing">Unknown Type</string>
+    <string name="quanbutupian">All images</string>
+    <string name="zhang">piece</string>
+    <string name="huiyuan">Member</string>
+    <string name="wei">person</string>
+    <string name="heji">Balance</string>
+    <string name="yuezhanghukeyong">Available Account Balance</string>
+    <string name="shezhiwuxiao">Setting Invalid</string>
+    <string name="nian">Year</string>
+    <string name="ri">Day</string>
+    <string name="riqibunengchaoguojintian">Date cannot exceed today</string>
+    <string name="tianjiazhifubao">Add Alipay</string>
+    <string name="tianjiaweixin">Add WeChat</string>
+    <string name="qingtianjiashoukuanerweima">Please add the QR code for receiving</string>
+    <string name="tianjiayinhangka">Add Bank Card</string>
+    <string name="qingshurukaihuyinhangmingcheng">Please enter the name of your bank</string>
+    <string name="tianjiazhanghuleixing">Add Account Type</string>
+    <string name="shanchushibai">Delete failed</string>
+    <string name="shanchuchenggong">Delete successfully</string>
+    <string name="wodesixin">My private message</string>
+    <string name="qingshangchuanguohuizhao">Please upload a photo of your national emblem</string>
+    <string name="qingshangchuanrenxiangzhao">Please upload headshots</string>
+    <string name="qingshurushenfenzhenghaoma">Please insert ID number</string>
+    <string name="gerenshezhi">Personal Settings</string>
+    <string name="nindeziliaoyijingxiugaishifoubaocun">Your profile has been modified, do you want to save it?</string>
+    <string name="gengxinxinxichenggong">Update information successfully</string>
+    <string name="weixiugai">Not modified</string>
+    <string name="qingshurumingzi">Please insert the name</string>
+    <string name="qingshuruyidaoliugezhongming">Please insert 1–6 Chinese names or 1–12 English names.</string>
+    <string name="yonghumingguoduan">The username is too short.</string>
+    <string name="yonghumingguochang">The username is too long.</string>
+    <string name="wenzitaichangyisiling">The text is too long, can not exceed 140 characters</string>
+    <string name="qingxuanzetupian">Please select a image</string>
+    <string name="chucuole">Something went wrong</string>
+    <string name="dangqianzuiduotianjia">Currently added at most</string>
+    <string name="zhangtupian">pieces of images</string>
+    <string name="quanbushipin">All Video</string>
+    <string name="shipinbucunzai">Video does not exist</string>
+    <string name="shipindaxiaobunengchaoguo">Video size cannot exceed</string>
+    <string name="qingshuruyuanmima">Please Insert Original Password</string>
+    <string name="xuanzeshoukuanfangshi">Select Payment Method</string>
+    <string name="wanshang">Evening</string>
+    <string name="xiawu">Afternoon</string>
+    <string name="shangwu">Morning</string>
+    <string name="lingchen">Dawn</string>
+    <string name="zhongwu">Noon</string>
+    <string name="qingchongxindenglu">Please login again</string>
+    <string name="genghuanshoujihaoma">Change mobile number</string>
+    <string name="zhuxiao">Write-offs</string>
+    <string name="niquedingyaozhuxiaoma">Are you sure you want to write off?</string>
+    <string name="huoquhuancundaxiaocuowu">Error in getting cache size</string>
+    <string name="zhengzaiqingli">Clearing…</string>
+    <string name="huancunyiqingli">Cache cleared</string>
+    <string name="quedingyaoqingchuhuancun">Are you sure you want to clear your cache?</string>
+    <string name="zanbuqingli">Temporarily not cleared</string>
+    <string name="qingli">Clear</string>
+    <string name="yibangding">Bounded</string>
+    <string name="shenqingbangding">Apply for binding</string>
+    <string name="mianfeidingyue">Free Subscribe</string>
+    <string name="yidingyue">Subscribed</string>
+    <string name="dingyueyiguoqi">Subscription has expired</string>
+    <string name="shifoudingyuegaiyonghu">Are you going to subscribe this user?</string>
+    <string name="shenqingbangdingxuzhi">Apply for binding instructions</string>
+    <string name="yichuzhezhangzhaopianma">Do you want to remove this photo?</string>
+    <string name="changanshexiang">Long press camera</string>
+    <string name="quedingjidaibiaoniyitongyibingjieshou">Confirmation means that you agree and accept it.</string>
+    <string name="shuzizichanjiedaifuwuhetong">Digital Asset Lending Service Contract</string>
+    <string name="gangganjiaoyixieyi">Leverage Trading Agreement</string>
+    "<string name="jiaoyifuwuxieyi">Transaction Service Agreement
+</string>"
+    <string name="zhisunbunengdayu">Stop loss cannot be larger than</string>
+    <string name="cunbibao">CredEarn</string>
+    <string name="keyongshuliangbuzu">The available quantity is not enough</string>
+    <string name="qingshuruzhuanrushuliang">Please enter the quantity to be transferred</string>
+    <string name="qingzuidizhuanru">Please transfer a minimum of </string>
+    <string name="shuliangdaocunbibao">Amount to CredEarn</string>
+    <string name="shifouyidangqianshijiapingcang">Are you closing your position at the current market price</string>
+    <string name="kehzuanchushuliangbuzu">Insufficient transferable amount</string>
+    <string name="qingshuruzhuanchu">Please enter to transfer out</string>
+    <string name="shuliangdaochicang">Quantity to position</string>
+    <string name="shouyi">Earnung</string>
+    <string name="yunxulaizicilaiyuandeyingyonghou">Allow applications from this source before updating</string>
+    <string name="wanchengyanzhenghoudenglu">Login after finishing verification.</string>
+    <string name="wanchengyanzhenghouhuoquyanzhengma">Obtain the verification code after completing the verification.</string>
+    <string name="yifuzhidaoniantieban">Copied to pasteboard</string>
+    <string name="shoujihaomabunengweikong">Cell phone number cannot be empty</string>
+    "<string name="laingcishurudemimabuxiangtong">The password entered twice is not the same.
+</string>"
+    "<string name="fangwencunchukongjian">Access Storage Space
+</string>"
+
+
+    <string name="finish">Complete</string>
+    <string name="download">Downloading</string>
+    <string name="jump">Skip</string>
+    <string name="next">Next step</string>
+    <string name="input">Insert</string>
+    <string name="download_finish">Open</string>
+    <string name="request_failed">Request failed, please re-request!</string>
+    <!--<string user_name="hello_world">Hello world!</string>-->
+    <string name="novalue">---</string>
+    <string name="weipanSubcribeTips">* Please use funds carefully. The operation of the master is for reference and learning exchange purposes only and does not constitute any investment advice. Users need to bear the risk for their operation.</string>
+    <string name="weekBoard">Weekly Rankings</string>
+    <string name="novalueTime">--:--:--</string>
+    <string name="rewardCode">Bonus code</string>
+    <string name="rewardRecord">Bonus record</string>
+    <string name="inputRewardCode">Please insert bonus code</string>
+    "<string name="luckyboxBest">Best Luck
+</string>"
+    <string name="luckyMessage">Congratulations with great fortune!</string>
+    "<string name="reportTips">Select a reason for complaint
+</string>"
+    <string name="accountWarning">Several users have complained about this account, and please protect your privacy and security when communicating.</string>
+    <!--<string user_name="action_settings">Settings</string>-->
+    <string name="refresh">Refresh</string>
+    <string name="scan_qrcode">Scan it</string>
+    <string name="load_desc_loading">Loading&#8230;</string>
+    <string name="load_desc_sending">Sending&#8230;</string>
+    <string name="load_desc_getcode">Please wait a moment while we get the verification code.&#8230;</string>
+    <!-- Drop down to refresh the last refresh time -->
+    <string name="tip_home_new_desc"> There is a new message alert, so pull down to refresh</string>
+    <!-- Market Conditions -->
+    <string name="add_my_stock">Add Optional</string>
+    <string name="add_mystock">Add Optional Stocks</string>
+    <string name="del_mystock">Delete Optional Stocks</string>
+    <string name="home_main_head_more">More\nMore\nOptional\nOptional</string>
+    <string name="stock_my_stock">My Optional Stocks</string>
+    <string name="stock_add_my_stock">Add Optional Stocks</string>
+    <string name="stock_setup_my_stock">Optional Stocks Management</string>
+    <string name="stock_search">Search</string>
+    <string name="stock_more">More</string>
+    <string name="stock_name_fdm">Name Code</string>
+    <string name="stock_action_zjcj">Latest Price</string>
+    <string name="stock_action_rate">Ups and downs</string>
+    <string name="stock_action_add">Add</string>
+    <string name="stock_action_setting">Manage</string>
+    <string name="stock_action_mintime">Time</string>
+    <string name="stock_action_kline">K-line</string>
+    <string name="stock_action_f10">Data</string>
+    <string name="stock_action_theme">Stockbar</string>
+    <string name="stock_action_hot">Hotspot</string>
+    <string name="stock_action_broadcast">Live Streaming</string>
+    <string name="stock_broadcast_aticle">Live Streaming Article</string>
+    <string name="stock_shijian">Time</string>
+    <string name="stock_xianshou">Current Lot</string>
+    <string name="stock_sell_1">Sell ①</string>
+    <string name="stock_sell_2">Sell ②</string>
+    <string name="stock_sell_3">Sell ③</string>
+    <string name="stock_sell_4">Sell ④</string>
+    <string name="stock_sell_5">Sell ⑤</string>
+    <string name="stock_buy_1">Buy ①</string>
+    <string name="stock_buy_2">Buy ②</string>
+    <string name="stock_buy_3">Buy ③</string>
+    <string name="stock_buy_4">Buy ④</string>
+    <string name="stock_buy_5">Buy ⑤</string>
+    <string name="stock_zgcj">Highest</string>
+    <string name="stock_zdcj">Lowest</string>
+    <string name="stock_jrkp">Opening</string>
+    <string name="stock_rate">Increase</string>
+    <string name="stock_amt">Ups and downs</string>
+    <string name="stock_fuquan">Reinstated</string>
+    <string name="stock_rixian">Daily Line</string>
+    <string name="stock_m5">MA5:</string>
+    <string name="stock_m10">MA10:</string>
+    <string name="stock_m30">MA30:</string>
+    <string name="stock_rate_rank">Top Gainers</string>
+    <string name="stock_5rate_rank">5-Minute Top Gainers</string>
+    <string name="stock_lingzhang_bk">Leading Sectors</string>
+    <string name="stock_lingzhang_gu">Leading Stocks</string>
+
+    <string-array name="stock_list_menu">
+        <item>My Optional Stocks</item>
+        <item>My Friends Optional Stocks</item>
+    </string-array>
+
+    <string name="myStockList">My Optional Stocks</string>
+    <string name="myFrdsStockList">My Friends\' Optional Stocks</string>
+    <string name="stock_A_hot">A-share Hotspots</string>
+    <string name="stock_dapanzhibo">Live streaming of the broad market</string>
+    <string name="rate">Increase%</string>
+    <string name="price">Latest Price</string>
+    <string name="name">Name</string>
+
+    <string-array name="stock_hot_list_menu">
+        <item>Ranking of the Shanghai and Shenzhen A shares</item>
+        <item>Ranking of the Shanghai A shares</item>
+        <item>Ranking of the Shenzhen A shares</item>
+        <item>SMB Ranking</item>
+        <item>GEM Ranking</item>
+        <item>Board Rankings</item>
+        <item>CSI 300 Index 5-Minute Rising Rate Ranking</item>
+        <item>SSE Composite Index 5-Minute Rising Rate Ranking</item>
+        <item>SZAI 5-Minute Rising Rate Ranking</item>
+        <item>Ranking of the Shanghai B shares</item>
+        <item>Ranking of the Shenzhen B shares</item>
+        <item>Ranking of Shanghai and Shenzhen Funds</item>
+    </string-array>
+
+    <string name="index_0">Ranking of the Shanghai and Shenzhen A shares</string>
+    <string name="index_1">Ranking of the Shanghai A shares</string>
+    <string name="index_2">Ranking of the Shenzhen A shares</string>
+    <string name="index_3">SMB Ranking</string>
+    <string name="index_4">GEM Ranking</string>
+    <string name="index_5">Board Rankings</string>
+    <string name="index_6">CSI 300 Index 5-Minute Rising Rate Ranking</string>
+    <string name="index_7">SSE Composite Index 5-Minute Rising Rate Ranking</string>
+    <string name="index_8">SZAI 5-Minute Rising Rate Ranking</string>
+    <string name="index_9">Ranking of the Shanghai B shares</string>
+    <string name="index_10">Ranking of the Shenzhen B shares</string>
+    <string name="index_11">CSI 300 Index Fund Ranking</string>
+
+    <string-array name="stock_f10">
+        <item>News</item>
+        <item>Announcement</item>
+        <item>Research Report</item>
+        <item>Overview</item>
+        <item>Finance</item>
+        <item>Shareholder dividends</item>
+        <item>Shareholder</item>
+        <item>Senior Management</item>
+    </string-array>
+
+    <string name="homepagefrnewggdtop">%1$s checked %3$s of %2$s</string>
+
+    <!-- My News -->
+    <string name="my_msg">News</string>
+    <string name="business">Transaction</string>
+    <string name="jf">Points</string>
+    <!-- Shareholder -->
+    <string name="square">Shareholderbar</string>
+    <string name="square_newest">Latest</string>
+    <string name="square_stock">Optional Stocks</string>
+    <string name="square_stock2">Optional</string>
+    <string name="square_mine">My</string>
+    <string name="square_topic">Search Topics</string>
+    <string name="square_edit_topic">Leave a Post</string>
+    <string name="square_info_title">Topic Posts</string>
+    <!-- <string user_name="square_store">Favorites</string> -->
+    <string name="square_unstore">Cancel Favorites</string>
+    <string name="square_order_desc">View in reverse order</string>
+    <string name="square_order_asc">View in order</string>
+    <string name="square_frds_of_good">People who have liked</string>
+    <string name="allSquare">The post from %1$s</string>
+    <string name="followNum">Go to %1$s floor</string>
+    <string name="goSquare">Go to %1$s to check out</string>
+    <string name="shareToFriendCircleFromSystem">Share to the Discover in TOKA road</string>
+    <string name="shareToSquareFromSystem">Share to the Shareholderbar in TOKA road</string>
+    <string name="shareToCircleFromSystem">Share to the circle in TOKA road</string>
+    <string name="send">Send</string>
+    <string name="squareSendTitle">Leave a post</string>
+    <string name="friend_circle">Friends\' updates</string>
+    <string name="goFriend_circle">Go to %1$s to check out</string>
+    <string name="friend_circle_send_title">Publish Perspectives</string>
+    <string name="friend_circle_frds_title">Friends\' Perspective</string>
+    <string name="success">%1$s Success</string>
+    <string name="unsuccess">%1$s Fail</string>
+    <string name="unStore">Canceled collection</string>
+    <string name="storeSuccess">Successfully collected</string>
+
+    <!-- Stock Market Calendar -->
+    <string name="stockschedule">Stock Market Calendar</string>
+    <string name="stockschedule_pullLable">Find the earlier schedule</string>
+    <string name="stockschedule_refreshingLabel">Loadeding…</string>
+    <string name="stockschedule_releaseLabel">Release to load the earlier schedule</string>
+    <string name="stockschedule_refreshSuccessLabel">Loaded successfully</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="report">Complaints</string>
+
+    <!-- Words to share -->
+    <string name="shareToFriends">Share toFriends</string>
+    <string name="shareToWeibo">Share to Sina Weibo</string>
+    <string name="shareToTalkie">Share to Private Chat Shareholderbar</string>
+    <string name="shareToFrTalkie">Share to Discover</string>
+    <string name="shareToChat">Share to Private Chat</string>
+    <string name="shareToCircle">Share to the circle</string>
+    <string name="shareToWeChat">Forward to WeChat Friends</string>
+    <string name="shareToWeChatQuan">Forward to WeChat Discover</string>
+    <string name="shareImageToFriends">Friends of TOKA road</string>
+    <string name="shareImageToWeibo">Forward to Sina Weibo</string>
+    <string name="shareImageWeChat">Forward to WeChat Friends</string>
+    <string name="shareImageWeChatQuan">Forward to WeChat Discover</string>
+    <string name="shareImagePaper">Forward to Newspaper</string>
+    <string name="doddletext">Double-click to modify the text</string>
+    <string name="weichatFriends">WeChat Friends</string>
+    <string name="weichatCircle">WeChat Discover</string>
+    <!-- Newspaper -->
+    <string name="more">More</string>
+    <string name="newsstander">Newsstands</string>
+    <string name="myCreatePaper">Create my newspaper</string>
+    <string name="mySubscriberPaper">Newspaper I Subscribe</string>
+    <string name="createPaper">Create newspaper</string>
+    <string name="delPaper">Delete newspaper</string>
+    <string name="planeActivityTitle">Media Columns</string>
+    <string name="pp_createArticle">You haven\'t created any articles yet, please create them now!</string>
+    <string name="introduction">Introduction</string>
+    <string name="menu">Operation</string>
+    <string name="publishArticle">Publish Articles</string>
+    <string name="editPaper">Edit Newspaper</string>
+    <string name="paperIntroduction">Newspaper Introduction</string>
+    <string name="pp_newsurl">Please click to the external link to read the whole content.</string>
+    <string name="pp_sending">Publishing Articles…</string>
+    <string name="pp_remainNum">Remaining characters:140/140</string>
+    <string name="publish">Publish</string>
+    <string name="sure">Confirm</string>
+    <string name="paperInfo">Newspaper Introduction</string>
+    <string name="modify">Modify</string>
+    <string name="modifyName">Modify Name</string>
+    <string name="modifyInfo">Modify Introduction</string>
+    <string name="submit">Submit</string>
+    <string name="complete">Complete</string>
+    <string name="allSubscriberPeople">All Subscribers</string>
+    <string name="allListenerPeople">All Listeners</string>
+    <string name="articleInfo">Article Details</string>
+    <string name="changeToMyPaper">Forward to my newspaper</string>
+    <string name="newspaper">Newspaper</string>
+    <string name="pp_publishPaper">Creating Newspaper…</string>
+    <string name="addCustomCategory">Custom categories are being added…</string>
+    <string name="create">Create</string>
+    <string name="issue">Publish</string>
+    <string name="customCategory">Add Customized Category</string>
+    <string name="otherCategory">Other Category</string>
+    <string name="hisOtherPapers">His/Hers Other Newspaper</string>
+    <string name="close">Close</string>
+    <string name="paperdelete">Delete Newspaper</string>
+    <string name="isNewsGoodOrBad">You think the news is</string>
+
+    <!-- Today's Toutiao  -->
+    <string name="todayHotnews">Today\'s Toutiao </string>
+    <string name="tjrHotnews">Toutiao  of TOKA road</string>
+    <string name="newsInfo">Details</string>
+    <string name="topLine">Toutiao</string>
+
+    <string-array name="hotnewsShare">
+        <item>Circle</item>
+        <item>Private Chats</item>
+        <item>Shareholderbar</item>
+        <item>WeChat Friends</item>
+        <item>WeChat Discover</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+
+    <string-array name="stockIndexDel">
+        <item>Delete Optional Stocks</item>
+        <item>Circle</item>
+        <item>Private Chat</item>
+        <item>Shareholderbar</item>
+        <item>WeChat Friends</item>
+        <item>WeChat Discover</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+    <string-array name="stockIndexAdd">
+        <item>Add Optional Stocks</item>
+        <item>Circle</item>
+        <item>Private Chat</item>
+        <item>Shareholderbar</item>
+        <item>WeChat Friends</item>
+        <item>WeChat Discover</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+    <string-array name="newspaperShare">
+        <item>Circle</item>
+        <item>Private Chat</item>
+        <item>Shareholderbar</item>
+        <item>WeChat Friends</item>
+        <item>WeChat Discover</item>
+        <item>Sina Weibo</item>
+        <item>Forward to Newspaper</item>
+    </string-array>
+
+    <string-array name="microShare">
+        <item>Circle</item>
+        <item>Shareholderbar</item>
+        <item>WeChat Friends</item>
+        <item>WeChat Discover</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+    <string-array name="stockDel">
+        <item>Delete Optional Stocks</item>
+        <item>Circle</item>
+        <item>Private Chat</item>
+        <item>Shareholderbar</item>
+        <item>WeChat Friends</item>
+        <item>WeChat Discover</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+    <string-array name="stockAdd">
+        <item>Add Optional Stocks</item>
+        <item>Circle</item>
+        <item>Private Chat</item>
+        <item>Shareholderbar</item>
+        <item>WeChat Friends</item>
+        <item>WeChat Discover</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+
+    <string-array name="stockSchedule">
+        <item>Comment</item>
+        <item>Circle</item>
+        <item>Shareholderbar</item>
+        <item>WeChat Friends</item>
+        <item>WeChat Discover</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+
+    <string-array name="circleInvite">
+        <item>WeChat Friends</item>
+        <item>WeChat Discover</item>
+        <item>Friends of TOKA road</item>
+    </string-array>
+    <string-array name="appInvite">
+        <item>WeChat Friends</item>
+        <item>WeChat Discover</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+    <string-array name="appwebshare">
+        <item>WeChat Friends</item>
+        <item>WeChat Discover</item>
+    </string-array>
+
+    <!-- Starting from my homepage -->
+    <string-array name="myhomepageMyinfoPermissionsaction">
+        <item>Only visible to yourself</item>
+        <item>Only visible to friends</item>
+        <item>Visible to anyone</item>
+    </string-array>
+    <!-- No value is shown by default, so please fill in a null value. -->
+    <string-array name="myhomepageMyinfostyleaction">
+        <item>Short-term aggressive type</item>
+        <item>Medium-term swing type</item>
+        <item>Long-term steady type</item>
+    </string-array>
+    <!-- No value is shown by default, so please fill in a null value. -->
+    <string-array name="myhomepageMyinfostockage">
+        <item>Primary school students (within six months)</item>
+        <item>Junior high school students (6 months-2 years)</item>
+        <item>University student (2–10 years)</item>
+        <item>Elderly (10 years or more)</item>
+    </string-array>
+    <string-array name="squareConcerStockage">
+        <item />
+        <item>Primary school students</item>
+        <item>Junior high school students</item>
+        <item>University student</item>
+        <item>Elderly</item>
+    </string-array>
+
+
+    <string-array name="circleWeipanSetting">
+        <item>Close</item>
+        <item>Only circle owners/administrators are allowed</item>
+        <item>Allows everyone</item>
+    </string-array>
+
+
+    <!-- Component Market -->
+    <string name="app_yixue">Binding Elearning</string>
+    <string name="app_advert">Activity Area</string>
+    <string name="app_martket">Component Supermarket</string>
+    <string name="finalictmartket">Financial Supermarket</string>
+    <string name="app_edit">Component Management</string>
+    <string name="app_more">More Component</string>
+    <string name="app_detail">Component Details</string>
+    <!-- Friends List, Invite Friends -->
+    <string name="friend_talking">Chat with him/her privately</string>
+    <string name="friend_add">Add Friends</string>
+    <string name="friend_list">Friends List</string>
+    <string name="invite_friend">Invite Friends</string>
+    <string name="find_know_friend">Friends who may be interested</string>
+    <string name="send_sms">Send SMS</string>
+    <!-- Private chat -->
+    <string name="chat_home">Private chat</string>
+    <string name="chat_jion">Room</string>
+
+    <!-- For the start of the interview -->
+    <string name="send_img_file_not_exist">File does not exist</string>
+    <string name="back">Return</string>
+    <string name="MySubscription">My Subscription</string>
+    <string name="MyCreate">I created the</string>
+    <string name="IamGuest">I am guest</string>
+    <string name="guest">Guest</string>
+    <string name="guest2">Guest:</string>
+    <string name="invite">Invite</string>
+    <string name="participant">Participants:</string>
+    <string name="acceptInvite">Start immediately</string>
+    <string name="columnNameHit">Enter the column name…</string>
+    <string name="tvEditHit">(Please enter 1–10 digits in Chinese or English)</string>
+    <string name="tvColumnInfoHit">Column introduction:</string>
+    <string name="tvNum">Remaining words：0/140</string>
+    <string name="tvOtherSubscriptioner">Click to view subscribed fans >></string>
+    <string name="subscription">Subscribe</string>
+    <string name="edit">Edit</string>
+    <string name="editNoSpace">Edit</string>
+    <string name="findOtherSubscriptioner">Subscribed Fans</string>
+    <string name="createNewProgram">Create a new program</string>
+    <string name="emcee">Hosts</string>
+    <string name="maxGuest">Guests (up to three guests can be invited)：</string>
+    <string name="subscriptionNews">Subscribe to the new section</string>
+    <string name="subscriptionNewColumn">Subscribe to the new section</string>
+    <string name="search">Search</string>
+    <string name="host">Popular</string>
+    <string name="recommend">Recommend</string>
+    <string name="friend">Friends</string>
+    <string name="searchColumn">Find a column</string>
+    <string name="subscriptionNum">Total %1$s subscribed followers:</string>
+    <string name="textwaring">Remaining words：&lt;font color="Red">%1$s&lt;/font>/%2$s</string>
+    <string name="subscriptionOk">Subscribe Successfully</string>
+    <string name="unSubscriptionOk">Unsubscribe successfully</string>
+    <string name="unSubscription">Unsubscribe</string>
+    <string name="addProgram">Create a new episode of the program</string>
+    <string name="etProgramName">Enter a topic for this issue (1–20 characters)</string>
+    <string name="cancle">Cancel</string>
+    <string name="tryListening">Try it out</string>
+    <string name="pressedRecord">Press and hold to record</string>
+    <string name="time">%1$s\&apos;\&apos;</string>
+    <string name="say">Let me say</string>
+    <string name="inputHint">Enter the column name</string>
+    <string name="columnHead">Column headshot</string>
+    <string name="myIssue">I created the column</string>
+    <string name="recordAgain">Re-recording</string>
+    <string name="currBg_huanle">Background music: Happiness</string>
+    <string name="currBg_jiezou">Background music: Tempo</string>
+    <string name="currBg_jidong">Background music: Excited</string>
+    <string name="currBg_shuqing">Background music: Lyrical</string>
+    <string name="currBg_wu">Background music: None</string>
+    <string name="huanle">Happiness</string>
+    <string name="jiezou">Tempo</string>
+    <string name="jidong">Excited</string>
+    <string name="shuqing">Lyrical</string>
+    <string name="wu">No</string>
+    <string name="attachMap">Attachment</string>
+    <string name="speak">Recording</string>
+    <string name="friend_new">New friends</string>
+    <string name="kline_cycle_minute_time">Minute Line</string>
+    <string name="kline_cycle_date_time">Daily Line</string>
+    <string name="kline_cycle_week_time">Weekly Line</string>
+    <string name="kline_cycle_month_time">Monthly Line</string>
+    <string name="kline_cycle_minute_5_time">5 minutes</string>
+    <string name="kline_cycle_minute_10_time">10 minutes</string>
+    <string name="kline_cycle_minute_15_time">15 minutes</string>
+    <string name="kline_cycle_minute_30_time">30 minutes</string>
+    <string name="kline_cycle_minute_60_time">60 minutes</string>
+    <string name="payment_term">Payment method</string>
+    <string name="fix_passwd">Change password</string>
+    <string name="addfriend">Hi,I\'m %1$s, add me as your friend to discuss stocks together!</string>
+    <string name="noNamefriend">Quickly add me as a friend to discuss stocks together!</string>
+    <string name="friend_home">Personal Home page</string>
+    <string name="invite_contact">Select Invitees</string>
+    <string name="phone_register">Mobile Phone Register</string>
+    <string name="register">Register</string>
+    <string name="favorite_main">Favorites</string>
+    <string name="login_password">Forgot Password</string>
+    <string name="friendStock">Self-selection of %1$s</string>
+    <string name="hasAdd">Added</string>
+    <string name="frdsOfLookThisArticle">Friends who have read the article：</string>
+    <string name="noFrdsOfLookThisArticle">No friends have seen the article yet</string>
+    <string name="intelligentVoice">TOKA Cousin</string>
+    <string name="settings">Settings</string>
+    <string name="modifyUserInfo">Modify Personal Information</string>
+    <string name="accountManage">Account Management</string>
+    <string name="aboutTaojinlu">About Coinbar</string>
+    <string name="myMsg">My News</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback2">Feedback >></string>
+    <string name="feedbackSend">Describe Opinion</string>
+    <string name="selfDescription">Self-description</string>
+    <string name="dateOfBirth">Date of Birth</string>
+    <string name="city">Location</string>
+    <string name="occupation">Career</string>
+    <string name="marketRate">Rate the Coinbar</string>
+    <string name="advertAndCooperate">Advertising and Business Cooperation</string>
+    <string name="welcomepage">Welcome Page</string>
+    <string name="noSubscription">The station has no subscribers at the moment</string>
+    <string name="noListener">The station has no listeners at the moment</string>
+    <string name="noIamGuest">You do not have a guest program yet</string>
+    <string name="issueNoReward">The program has not received any reward yet</string>
+
+    <!-- Apply for certification -->
+    <string name="applyAddV">Apply for certification</string>
+    <string name="applyAddVTips">Personal authentication is the confirmation of the real identity of the user of TOKA \n all authentication is free</string>
+    <string name="applyAddVConditionTitle">You can apply if you meet the following basic requirements</string>
+    <string name="applyAddVPrivilegeTitle">After certification you will receive the following privileges</string>
+    <string name="applyAddVEnterpriseNeed">Enterprise certification is required:</string>
+    <string name="applyAddVPersonalNeed">Personal certification is required:</string>
+    <string name="applyAddVEnterpriseNeedMaterial">Enterprise certified related materials</string>
+    <string name="applyAddVPersonalNeedMaterial">Individual certified related materials</string>
+    <string name="applyAddVMark">Blue Internet Celebrity\'s certification mark</string>
+    <string name="applyAddVFrdsUnlimited">No limit to the number of friends</string>
+    <string name="square_publish_tips_toast">Please do not post too often, let the server rest.</string>
+    <string name="square_publish_tips">After %1$ seconds to publish</string>
+    <string name="about_taojinroad">TOKA provides a private space for you to play stocks with your acquaintance stock friends. After adding them as friends, you can play various interesting stock features and games together to improve your level. \n\n You can also see what stocks and essential information your friends are following at any time every day. \n\n More importantly, all the features on TOKA are free!</string>
+    <string name="findResult">Search Results</string>
+    <string name="findFrds">Find Friends</string>
+    <string name="saveToSd">Save to Mobile Phone</string>
+    <string name="editPic">Edit Image</string>
+    <string name="delPic">Delete Image</string>
+    <string name="toggle_on">Open</string>
+    <string name="toggle_off">Close</string>
+    <string name="pushTextFormat">%1$s:00</string>
+    <string name="pushSettings">Settings for message push</string>
+    <string name="brotherSettings">Shake settings</string>
+    <string name="stockSettings">Settings for refresh frequency</string>
+    <string name="pushSettingsVoice">Sounds</string>
+    <string name="pushSettingsVibrate">Vibration</string>
+    <string name="registFankui">Can\'t register? Give us some feedback!>></string>
+    <string name="action_app_market">Organize Market</string>
+    <string name="userOfMyConcern">People I follow</string>
+    <string name="userOfConcernMe">People who follow me</string>
+    <string name="concernMe">Followed me</string>
+    <string name="mySquare">My post</string>
+    <string name="myComment">My comment</string>
+    <string name="mySquareStore">Favorites of Shareholderbar</string>
+    <string name="concern">Follow</string>
+    <string name="userOfUserConcern">People he/she follows</string>
+    <string name="userOfConcernUser">People who follow him/her</string>
+    <string name="concernUser">Follow him/her</string>
+    <string name="userSquare">His/her posts</string>
+    <string name="userStore">His/her favorites</string>
+    <string name="userInfo">Personal Information</string>
+    <string name="taConcernNum">%1$sPeople to Follow：%2$s</string>
+    <string name="ConcernTaNum">%1$sPeople to Follow：%2$s</string>
+    <string name="delConcern">Unfollow</string>
+    <string name="concernSuccess">Follow successfully</string>
+    <string name="concernSuccessRecount">There are currently %1$s of followers left</string>
+    <string name="concernCount"> %1$s people</string>
+    <string name="concernUserByUser"> Followed %1$s </string>
+    <string name="userconcernBuUser"> %1$sPeople to Follow </string>
+    <string name="userSquareByUser">Posts from %1$s</string>
+    <string name="userStoreByUser">%Favorite from %1$s</string>
+    <string name="funs">Fans</string>
+    <string name="funsNum">%1$s people</string>
+    <string name="reloadText">Click on the screen to reload</string>
+    <string name="noConcern">You are not following anyone. Please go to the square to see it \n click on the headshot to add attention</string>
+    <string name="publicSquare">Plaza</string>
+    <string name="userTag">Personal tag</string>
+    <string name="likePeple">Interested parties</string>
+    <string name="userNoHeadToast">This user has no headshot.</string>
+    <string name="homeMsgHotNewsCount">Other %1$s</string>
+    <string name="homeMsgNP">More News</string>
+    <string name="homeMsgNPR1">More of his / her news</string>
+    <string name="homeMsgNPR2">More of his / her announcements</string>
+    <string name="homeMsgNPR3">More of his / her research reports</string>
+    <string name="homeMsgTalk">More of his / her interview columns</string>
+    <string name="homeMsgTl">More Schedule</string>
+    <string name="friends">Friends</string>
+    <string name="mine">My</string>
+    <string name="paper_source">Forward from &lt;%1$s&gt;</string>
+    <string name="roadSigns">Road signs</string>
+    <string name="interaction">Casino</string>
+    <string name="account">Account</string>
+    <string name="roadSignsWithSpace">Road signs</string>
+    <string name="interactionWithSpace">Findings</string>
+    <string name="accountWithSpace">Account</string>
+    <string name="friendWithSpace">Friend</string>
+    <string name="subcribeRoadSigns">Subscribe to road signs</string>
+    <string name="homeRoadSignsNewCount">%1$s pieces</string>
+    <string name="recommendedRoadSigns">Recommended road signs</string>
+    <string name="recommendedsubscription">Recommend Subscribe</string>
+    <string name="not">No</string>
+    <string name="yes">Yes</string>
+    <string name="unSubscribeRoadSignsHint">Unsubscribe from this road sign?</string>
+    <string name="unSubscribeStockRoadSignsHint">Not follow anymore %1$s?</string>
+    <string name="myStockVertical">Optional</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="unSubscribe">Unsubscribe</string>
+    <string name="myElsePaper">My other newspaper</string>
+    <string name="addStockAndGetServiceHint">Services to be received</string>
+    <string name="deleteStockAndGetServiceHint">You will lose the following services \n* stock news alert\n* stock announcement alert\n* stock research report alert\n* stock movement alert\n* stock golden cross dead cross alert\n* stock gossip alert</string>
+    <string name="addStockAndGetService">You will lose the following services \n* stock news alert\n* stock announcement alert\n* stock research report alert\n* stock movement alert\n* stock golden cross dead cross alert\n* stock gossip alert</string>
+    <string name="addStockHint">Subscribe to Optional Stocks【%1$s】</string>
+    <string name="deleteStockHint">Cancel Optional Stocks【%1$s】</string>
+    <string name="cancleNoSpace">Cancel</string>
+    <string name="microinterviews">Micro Radio</string>
+    <string name="newsstandHot">Popular</string>
+    <string name="newsstandRecommend">Recommend</string>
+    <string name="newsstandMyFriendsPaper">Friend</string>
+    <string name="newsstandOrderByTime">Latest</string>
+    <string name="newsstandMenu">Catalog</string>
+    <string name="newsstandSearchPaperHint">Search newspapers</string>
+    <string name="searchBear">Search outcomes</string>
+    <string name="investment_0">Short-term aggressive type</string>
+    <string name="investment_1">Medium-term swing type</string>
+    <string name="investment_2">Long-term steady type</string>
+    <string name="stockage_0">Primary school students (within six months)</string>
+    <string name="stockage_1">Junior high school students (6 months-2 years)</string>
+    <string name="stockage_2">University student (2–10 years)</string>
+    <string name="stockage_3">Elderly (10 years or more)</string>
+    <string name="theRequired">(Required)</string>
+    <string name="theRequiredToast">Please subscribe to the essential road signs</string>
+    <string name="chat_add">Add membership</string>
+    <string name="budget_detail">Details of income and expenditure</string>
+    <string name="me">I</string>
+    <string name="myCompents">My component</string>
+    <string name="settingCompents">Manage components</string>
+    <string name="addCompents">Add components</string>
+    <string name="squareComment">Come and see what people are talking about~</string>
+    <string name="wallet">Wallet</string>
+    <string name="clause">Disclaimers</string>
+    <string name="walletHint">\"The person who helped me, I want to thank you\"\n-please look forward to wallet function-</string>
+    <string name="homeNewsNum">(%1$s New)</string>
+    <string name="userSelfdescribtionHint">This guy was lazy and left nothing behind!</string>
+    <string name="basicInformation">Basic Information</string>
+    <string name="hisFriendscircle">News of %1$s</string>
+    <string name="hisStock">Optional Stocks of %1$s</string>
+    <string name="hisFriend">Friends of %1$s</string>
+    <string name="personalitySignature">Personalized Signature</string>
+    <string name="actionSearchUser">Search Users</string>
+    <string name="searching">Searching…</string>
+    <string name="searchNoResult">No matching results</string>
+    <string name="findSomeoneWhoMightKnow">Find people who may be interested</string>
+    <string name="findUserHint">Please enter your real cell phone number to find friends you may know. We guarantee that your cell phone number will only be used as our feature for this time, and no other use will be involved. Thank you very much for your support of TOKA Road!</string>
+    <string name="post"> Post </string>
+    <string name="addGood">Likes</string>
+    <string name="addStore">Save</string>
+    <string name="addConcern">Follow</string>
+    <string name="mvTabRedString">Crosstalk</string>
+    <string name="mvTabHot">Popular</string>
+    <string name="mvTabNewest">Latest</string>
+    <string name="mvTabMine">My</string>
+    <string name="mvSearchColumn">Search Radio</string>
+    <string name="redStringIssue">Crosstalk Program</string>
+    <string name="redStringColumn">Crosstalk Radio</string>
+    <string name="hotIssue">Popular Programs</string>
+    <string name="hotColumn">Popular Radio</string>
+    <string name="myColumn">My Programs</string>
+    <string name="mySubscribeColumn">Radio stations I subscribed to</string>
+    <string name="createOneColumn">Create a radio station</string>
+    <string name="friendColumn">Good friends\' radio</string>
+    <string name="createColumn">Establish a radio station</string>
+    <string name="friendHasNoColumn">Your friend has not created a radio station</string>
+    <string name="talkTjrBean">TOKA beans received：%1$s</string>
+    <string name="editMyTalk">Edit my radio station</string>
+    <string name="editMyTalkName">Modify the name of the radio station</string>
+    <string name="editMyTalkInfo">Modify the radio\'s profile</string>
+    <string name="issueName">Name of this show</string>
+    <string name="invateGuest">Invited Guests</string>
+    <string name="publishIssue">Confirm the Release</string>
+    <string name="rewardSubTitle">Ask the host a question, the host replies to this comment and is automatically rewarded</string>
+    <string name="addReward">Invite the owner to reply</string>
+    <string name="delTalk">Delete radios</string>
+    <string name="delTalkdialogMsg">Are you sure to delete radios?</string>
+    <string name="hint">Hint</string>
+    <string name="rewardRank">Reward Ranking</string>
+    <string name="listenNum">Total number of listeners</string>
+    <string name="onlyLookReward">Only see the reward</string>
+    <string name="searchinputHin">Please enter the radio station you are searching for</string>
+    <string name="issueList">Program List</string>
+    <string name="noAttachedMap">The program is not yet accompanied by a picture</string>
+    <string name="MyPayDou">My TOKA Bean</string>
+    <string name="MyPayIcon">Roadcoins</string>
+    <string name="MyPayDetail">Pay orders</string>
+    <string name="MyPaySetting">Settings of the wallet</string>
+    <string name="PaySetPassword">Set the password for your wallet</string>
+    <string name="payCashHis">Bonus</string>
+    <string name="phone">Phone number</string>
+    <string name="signCardHolder">Card holder</string>
+    <string name="signCardNumber">Bank card number</string>
+    <string name="issueListener">Total number of listeners of the program</string>
+    <string name="issueRewardRank">Ranking of the program\'s reward</string>
+    <string name="addAttach">attached</string>
+    <string name="rewardHint">The function is not yet open, please look forward to it!</string>
+    <string name="isSubcribeTalk">Do you subscribe to the radio station\"%1$s\"?</string>
+    <string name="mvAttach">Attachment</string>
+    <string name="continueRecord">Continue speaking</string>
+    <string name="reward">Reward</string>
+    <string name="bill">Bill</string>
+    <string name="billhis">Bill record</string>
+    <string name="income_record">Income and expenditure records</string>
+    <string name="bonus_record">Bonus Record</string>
+    <string name="bonus_recipe">Bonus Withdrawal</string>
+    <string name="bonus_extract">Bonus Withdrawal</string>
+    <!--<string user_name="extract_success">Successful withdrawals</string>
+        <string user_name="extract_fail">Failed withdrawals</string>-->
+    <string name="withcashHis">Withdrawal History</string>
+    <string name="withcash">Withdrawal</string>
+    <string name="hotNewsActivity">Activity</string>
+    <string name="relay">Forward</string>
+    <string name="startTalk">Create micro-radio programs</string>
+    <string name="selectedTalk">Choose the micro radio station</string>
+    <string name="selectTalkToCreateIssue">Choose the micro radio station that launched the program</string>
+    <string name="IssuewithArticle">Related micro-radio programs</string>
+    <string name="addAccount">Add Account</string>
+    <string name="manageAccount">Manage Account</string>
+    <string name="securitiesAccount">Open Securities Account</string>
+    <string name="accountAssistant">Account Opening Assistant</string>
+    <string name="tuiguang">Promote</string>
+    <string name="OpenTuiguang">Click on the jump to open</string>
+    <string name="circleMore">More</string>
+    <string name="party">Meeting</string>
+    <string name="Information">Information</string>
+    <string name="chat">Chat</string>
+    <string name="chatInfo">Chat Message</string>
+    <string name="circle">Circle</string>
+    <!-- Circle -->
+    <string name="processing">Processing</string>
+    <string name="ended">Ended</string>
+    <string name="changeImage">Replace image</string>
+    <string name="partyTitle">Title of the meeting</string>
+    <string name="pleaseInputPartyTitle">Please enter a meeting topic</string>
+    <string name="paartyDate">Meeting date</string>
+    <string name="paartyTime">Meeting time</string>
+    <string name="pleaseSelectPartyDate">Please select the meeting date</string>
+    <string name="pleaseSelectPartyTime">Please select the meeting time</string>
+    <string name="partyVoucher">Meal Coupon</string>
+    <string name="pleaseSelectVoucher">Not selected</string>
+    <string name="comtactMam">Contact person</string>
+    <string name="pleaseInputComtactMam">Please enter a contact person</string>
+    <string name="comtactMethod">Contact Information</string>
+    <string name="pleaseInputComtactMethod">Please enter contact information</string>
+    <string name="partyDesc">Meeting Description</string>
+    <string name="pleaseInputPartyDesc">Please enter a description of the meeting</string>
+    <string name="failureToGetBGImage">Failed to get background image</string>
+    <string name="notNullForPartyTitle">Meeting title cannot be empty</string>
+    <string name="notNullForPartyTime">The title of the meeting should not be empty</string>
+    <string name="partyTitleNotLess4">The title of the meeting should not be more than 4 words</string>
+    <string name="partyTitleNotGreater10">The title of the meeting should not be more than 10 words</string>
+    <string name="partyTimeMustBigTwo">The meeting time must be greater than 1 day</string>
+    <string name="partyTimeMustBigOld">The new party time must be larger than the original party time</string>
+    <string name="partyTimeMustSmallThirty">The meeting time must be less than 30 days</string>
+    <string name="notNullForpartyComtactMan">The meeting contact cannot be empty</string>
+    <string name="notNullForpartyComtactMethod">Meeting contact can be empty</string>
+    <string name="pleaseInputPhoneNum">Please enter the correct cell phone number!</string>
+    <string name="notNullForpartyDesc">The meeting introduction can not be empty</string>
+    <string name="partyDescNotLess20">The meeting introduction can not be more than 20 characters</string>
+    <string name="partyDescNotGreater140">The meeting introduction can not be more than 140 characters</string>
+    <string name="infoflowDetail">Information Details</string>
+    <string name="infoflow">Information</string>
+    <string name="publicInfoflow">Publish Information</string>
+    <string name="createParty">Create a meeting</string>
+    <string name="createPartySelectLocation">Choose Location</string>
+    <string name="editParty">Create a meeting</string>
+    <string name="partyDetail">Meeting Details</string>
+    <string name="selectPartyBackground">Please select the background image of the meeting</string>
+    <string name="selectVoucher">Please choose a card voucher</string>
+    <string name="noPublicInfoFlow">The circle has not yet published information</string>
+    <string name="infoflowTitleNoNull">Information title cannot be empty</string>
+    <string name="infoflowTitleSoLong">Title word count should not exceed 25 words</string>
+    <string name="infoflowContentNoNull">The word count of information content cannot be empty</string>
+    <string name="infoflowContentSoLong">The word count of information content cannot exceed 5000 words!</string>
+
+    <string name="uploadImage">Upload images</string>
+    <string name="uploadSuccess">Upload Successfully</string>
+
+    <string name="createCircle">Create circles</string>
+    <string name="introduceCircleHint">Introduce your circle to others, please don\'t be modest!</string>
+    <string name="circleNameHint">The circle name is unique and unchangeable, so please fill in carefully</string>
+    <string name="membersApply">Membership Application</string>
+    <string name="circleSysNews">System News</string>
+    <string name="circleNumber">Circle number</string>
+    <string name="circleName">Circle name</string>
+    <string name="circleIntroduction">Circle introduction</string>
+    <string name="adress">Address</string>
+    <string name="distance">Distance</string>
+    <string name="qrcode">QR code</string>
+    <string name="circleCreateTime">Date Created</string>
+    <string name="circleCreator">Circle Master</string>
+    <string name="circleManager">Administrators</string>
+    <string name="circleMembers">Members of the circle</string>
+    <string name="InvitecircleMembers">Invite new members</string>
+    <string name="editCircle">Editor\'s circle introduction</string>
+    <string name="managerMembers">Members of the management circle</string>
+    <string name="circleTop">Place at the top</string>
+    <string name="unselectedCircleTop">Not selected to be placed at the top</string>
+    <string name="circleNewsSetting">Reminder settings for circle message push</string>
+    <string name="circleRecommendRemind">Recommended Reminder</string>
+    <string name="circlePartyRemind">Meeting Reminder</string>
+    <string name="circleChatRemind">Chat Reminder</string>
+    <string name="circleTradeRemind">Trading Service Reminder</string>
+    <string name="circleInformationRemind">Information Reminder</string>
+    <string name="circleMatchRemind">Contest Reminder</string>
+    <string name="circleSettings">Circle Settings</string>
+    <string name="exitCircle">Exit the Circle</string>
+    <string name="circleSetTop">Set at the top</string>
+
+    <string name="group">Portfolio</string>
+    <string name="stock">Optional Stocks</string>
+    <string name="photo">Image</string>
+    <string name="takePicture">Take photos</string>
+
+    <string name="delete">Cancel the meeting</string>
+    <string name="sureCancel">Confirmed cancellation</string>
+    <string name="moreAction">. . .</string>
+    <string name="joinPartyMenber">Members who attended the meeting</string>
+    <string name="retryAgain">Please try again later</string>
+    <string name="parameterError">Parameter error</string>
+
+
+    <string name="editCircleRoomName">The name of the circle chat</string>
+    <string name="circleMembersDynamicAnalysis">Posting analysis of members</string>
+    <string name="startParty">Initiate a meeting</string>
+    <string name="startGame">Launching a competition</string>
+
+
+    <string name="circleComputerServerManager">Management of computer back-end</string>
+    <string name="circleWorkSpace">Working Area</string>
+    <string name="editCircleTopic">The name of the editorial circle chat</string>
+    <string name="editCircleName">Change circle name</string>
+
+    <string name="allowApply">Consent</string>
+    <string name="refuseApply">Reject</string>
+    <string name="circleCreater">Circle Master</string>
+    <string name="circleAdmin">Administrators</string>
+
+    <string name="circleNoPartyHintIfIsAdmin">There is no meeting in the circle yet, click to create</string>
+    <string name="circleNoPartyHint">There is no meeting in the circle yet</string>
+    <string name="circleNoFlowHintIfIsAdmin">There is no information in the circle yet, click to create</string>
+    <string name="circleNoFlowHint">There is no information in the circle yet</string>
+
+    <string name="searchHint">Enter circle number to search</string>
+    <string name="nearby">Nearby</string>
+    <string name="noCircle">You haven\'t created/joined a circle yet</string>
+    <string name="searchCircleHint">Search by entering the circle number</string>
+    <string name="searchFriendHint">Search for Friends</string>
+    <string name="nearbyCircle">Nearby Circles</string>
+
+    <string name="circleSearchNoResult">No search results</string>
+    <string name="circleNearbyNone">No circles nearby at the moment</string>
+    <string name="circleRecommendNone1">No recommended circles at the moment</string>
+    <string name="weipanNoSubcribe1">You haven\'t subscribed yet</string>
+    <string name="weipanNoSubcribe2">Click the top right button to add a subscription!</string>
+    <string name="circleRecommendNone2">Add/modify personal tags for your recommendation</string>
+    <string name="editTags">Go to add/modify >> </string>
+
+
+    <string name="circleApplyJoinTitle">Apply to join the circle</string>
+    <string name="sendTo">Send to</string>
+
+    <string name="circleAlreadyApply">Already applied, waiting for admin to approve</string>
+
+    <string name="circleAge">Circle Age</string>
+    <string name="circleredit">Credit</string>
+
+    <string name="circleFavorableComment">Good</string>
+    <string name="circleBadReview">Poor</string>
+    <string name="circleAverage">Average</string>
+
+    <string name="circleSeeAllComments">View all comments</string>
+    <string name="circleComments">Evaluation</string>
+
+    <string name="circleAnonymous">Anonymous</string>
+
+    <string name="circleMsg">Circle News</string>
+    <string name="circleFoodList">Meal Coupon</string>
+    <string name="circleCardList">Card Coupon</string>
+    <string name="circleGameList">Game Tickets</string>
+    <string name="circleExpFoodList">Expired Coupons</string>
+
+    <string name="circleSysMsg">Message from the Circle System</string>
+    <string name="circlePartyMsg">Meeting News</string>
+
+
+    <string name="circlePublishCommentHint">Write something (write 15 words, the stock goes up every day)</string>
+
+    <string name="circleReplyComment">Reply to the comment</string>
+
+    <string name="circleReplyCommentHint">Reply to the comment (can not exceed 140 characters)</string>
+
+
+    <string name="searchCircleByNo">Enter the circle number to search</string>
+    <string name="searchCircleBy2Code">Scan the QR code to join the circle</string>
+    <string name="searchCircle">Search circles</string>
+
+    <string name="searchStock">Search stocks</string>
+
+    <string name="synRadioToCircle">Sync to the Circle</string>
+    <string name="receiveImageFailure">Failed to get image</string>
+    <string name="pleaseSelectImage">Please select the image and upload it!</string>
+    <string name="upload">Upload</string>
+    <string name="circleNoParty">No parties have been created for this circle</string>
+    <string name="sureCancelParty">Are you sure you want to cancel the meeting?</string>
+    <string name="sureDeletePartyImage">Are you sure you want to delete the meeting pictures?</string>
+    <string name="sureDeleteInfoflow">Are you sure you want to delete the information?</string>
+    <string name="sureDelete">Confirm Delete</string>
+    <string name="deleteSuccess">Deleted successfully</string>
+    <string name="signSuccess">Congratulations for your successful registration!</string>
+    <string name="signFailure">Application failed, please try again!</string>
+
+    <string name="alreadyInCircle">You are already in the circle</string>
+
+    <string name="selectCircle">Choose circles</string>
+
+    <string name="circleSearchMember">Search memberships</string>
+
+    <string name="friendDynamic">Friend Update</string>
+    <string name="directMessage">Private Chat</string>
+    <string name="circleLuckly">Bonus Points</string>
+    <string name="circleGiftHis">Withdrawn records</string>
+
+    <string name="circleGame">Competition</string>
+
+    <string name="circle_game_fdm_count">This competition must%have%1$s stocks in play</string>
+
+    <string name="aboutCircle">About the circle</string>
+    <string name="bindBankCard">Binding bank card</string>
+    <string name="bindName">Real-Name Verification</string>
+    <string name="resetBankCard">Change bank card</string>
+    <string name="resetPhone">Change mobile number</string>
+    <string name="balance">Balance</string>
+    <string name="resetSecurtyPassword">Retrieve the password of your wallet</string>
+
+
+    <string name="newtimesecurities">New Era Securities</string>
+    <string name="newtimesecurities_en">New Times Securities</string>
+
+    <string name="accountType">Account Type</string>
+    <string name="selectAccountType">Please select account type</string>
+    <string name="newtimesAccount">Account&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="newtimesTradePassword">Transaction password</string>
+
+    <string name="newtimesAccountHint">Please insert account</string>
+    <string name="newtimesTradePasswordHint">Please insert your transaction password.</string>
+
+    <string name="newtimesTradePasswordForget">Forgot Password ></string>
+    <string name="newtimesRegister">I don\'t have an account, and I would like to open an account. ></string>
+
+
+    <string name="tradeFiveSpeed">Fifth gear</string>
+    <string name="tradeThereSpeed">Price comparison assistant</string>
+    <string name="tradeInfo">Detail</string>
+    <string name="bindNewTimes">New Era Securities</string>
+
+
+    <string name="tradeBuy">Purchase</string>
+    <string name="tradeSell">Sell</string>
+    <string name="tradeKillAnOrder">Revocation</string>
+
+    <string name="tradeStockAssets">New Era Securities</string>
+
+    <string name="tradeQueryCommission">Order Inquiry</string>
+
+    <string name="tradeQueryTodayCommission">Today\'s Orders</string>
+
+    <string name="tradeQueryHistoryCommission">Historical Orders</string>
+
+    <string name="tradeQueryTransaction">Transaction Inquiry</string>
+
+    <string name="tradeQuerycapital">Funds Inquiry</string>
+    <string name="tradeQueryTransferOfBankCard">Bank Transfer</string>
+    <string name="tradeStartTime">Start Date</string>
+    <string name="tradeNotice">7 days from the start date</string>
+    <string name="tradeEndTime">Deadline</string>
+
+    <string name="tradeQueryTodayTransaction">Today\'s Deal</string>
+    <string name="tradeQueryHistoryTransaction">Historical Deal</string>
+
+    <string name="tradeBankCard2Transfer">Transfer to Securities</string>
+    <string name="tradeTransfer2BankCard">Transfer to Banks</string>
+
+    <string name="tradeIn">Top-up</string>
+    <string name="tradeOut">Withdrawal</string>
+
+    <string name="tradeTransferRecord">Transfer Record</string>
+
+    <string name="beansMall">TOKA Mall</string>
+
+    <string name="circle_kline_pk">K-line Singles</string>
+    <string name="circle_kline_box">K-line Treasure Box</string>
+    <string name="circleChatDefault">This type is not supported at the moment, so please upgrade to the latest version.</string>
+
+    <string name="circleDefaultAdress">This circle is from Mars</string>
+
+    <string name="tjrAdvertCooperateTip">If you are interested in business cooperation, please send an email to</string>
+    <string name="tjrEmail">hz@redflea.com</string>
+
+
+    <string name="article">Article</string>
+    <string name="circleOnlineCount">Online:%1$s</string>
+    <string name="lottery">Jackpot</string>
+
+    <string name="lotteryByTjrDou">Jackpot of TOKA</string>
+    <string name="mall">Props</string>
+
+    <string name="lotteryHistory">Records</string>
+    <string name="giftInfo">Prize Details</string>
+
+    <string name="receiptAddressRegister">Registration of receiving information</string>
+
+    <string name="modifyAddressRegister">Modify the information of the received goods</string>
+
+    <string name="paySetting">Wallet Settings</string>
+
+    <string name="luckyTip">TOKA Mall</string>
+
+    <string name="myHoldStock">My Position Stocks</string>
+    <string name="tradeCheck">Insert Password</string>
+    <string name="circleHostTag">Circle Owner\'s Tags：</string>
+
+    <string name="microDisk">Product</string>
+
+    <string name="microDiskTitle">Silver Nickel</string>
+    <string name="microDiskTitle2">Silver Nickel:</string>
+
+    <string name="microDiskSubTitle">Provided by Guangdong Precious Metals Trading Center</string>
+    <string name="prodLogin">Product Login</string>
+    <string name="weipanHold">My Assets</string>
+
+
+    <string name="tradeLogout">Logout</string>
+
+    <string name="tradeHoldInfo">Position Details</string>
+
+    <string name="weipanOrderInfo">Order Details</string>
+    <string name="weipanFollowRecord">Reference Records</string>
+    <string name="weipanCoupon">Experience Voucher</string>
+    <string name="weipanUserAccount">Personal Account</string>
+
+    <string name="weipanTractionInfo">Profit and Loss Record</string>
+    <string name="weipanCapitalFlow">Details of Income and Expenses</string>
+
+    <string name="weipanAccountBalance">Account Balance</string>
+    <string name="weipanRegist">Register Products</string>
+
+    <string name="weipanRecharge">Top-up</string>
+
+    <string name="weipanWithdraw">Withdrawal</string>
+    <string name="weipanNewsList">Product Information</string>
+    <string name="weipanSubscribe">My Subscriptions</string>
+    <string name="weipanInviteReward">Invitation Rewards</string>
+    <string name="weipanInviteNoRewardCode">No reward code at the moment</string>
+    <string name="weipanRank">Ranking of Masters</string>
+    <string name="weipanProfit">Accuracy</string>
+    <string name="weipanProfitValue">Profit Amount</string>
+    <string name="circleJoin">Circles to join</string>
+    <string name="radioOrder">Subscribed Micro Radio</string>
+    <string name="paperOrder">Subscribed Newspaper</string>
+    <string name="sendLuckyBox">Send TOKA treasure box</string>
+    <string name="LuckyBox">TOKA treasure box</string>
+
+    <string name="weipanCouponRule">1. Experience coupons must be used within the valid time; \n2. Experience coupons can only be used when opening a position for trading; \n3. There is no need to pay commission when using experience coupons to build an order; \n4. When using experience coupons to build an order, the number of order lots must be the same as the number of experience coupons; \n5. When closing an order that has used experience coupons, the profit part goes to the user, and the loss, the user does not have any loss.</string>
+    <string name="weipanOrderCreateSuccessTip">Open price:%1$s\nOrder number: %2$s\nTime: %3$s\n\nPlease set a stop gain or stop loss price to manage your risk.</string>
+
+    <string name="weipanAutoCloseTip">* If the order is not closed before the settlement time (04:00 am), the position will be completed by force.</string>
+
+    <string name="weipanUserOrderHistory">Records of operations</string>
+    <string name="reportAcc">Complaint users</string>
+    <string name="inputBoxNum">Insert amount of TOKA treasure box</string>
+    <string name="inputBeanNum">Insert TOKA Amount</string>
+    <string name="bean">TOKA</string>
+
+    <string name="clearCircleChat">Clearing Chat Records</string>
+    <string name="sendRewardCode">Send your bonus code</string>
+
+    <string name="residualMallGoods">Remaining &lt;font color=%1$s>%2$s&lt;/font> item%3$s</string>
+    <string name="what_kind_of_goods">What can users get through the treasure hunt?></string>
+
+    <string name="involvedNum">Number of people who have participated</string>
+    <string name="remaindNum">Remaining number of people</string>
+    <string name="changeIndexChart">Change Index Chart</string>
+    <string name="manageStock">Management of optional stocks</string>
+    <string name="ignoreMsg">Please neglect this message</string>
+    <string name="msg2Top">Please put this message on top</string>
+    <string name="cancelMsg2Top">Un-top this message</string>
+    <string name="commonCompentsSetting">Management of common components</string>
+    <string name="suspension">Suspend</string>
+    <string name="bullish">Bullish</string>
+    <string name="bearish">Bearish</string>
+
+    <!-- High quality gold -->
+    <string name="upgoldtitle">Gold</string>
+    <string name="hisOrder">Historical Orders</string>
+    <string name="totalAssets">All Assets</string>
+    <string name="yuan">Yuan</string>
+    <string name="availableCash">Cash available for purchase</string>
+    <string name="positionMargin">Position Margin</string>
+    <string name="freezeFunds">Frozen Assets</string>
+    <string name="totalEarning">Today\'s profit and loss</string>
+    <string name="myPosition">My Position</string>
+    <string name="myAssets">My Assets</string>
+    <string name="currentExchange">Today\'s Transaction</string>
+    <string name="historyExchange">Historical Transactions</string>
+    <string name="matchAmt">Transaction volume</string>
+    <string name="matchPrice">Turnover Price</string>
+    <string name="buyRise">Buy Up</string>
+    <string name="sellFall">Buy Down</string>
+    <string name="closeWarehouse">Closed positions</string>
+    <string name="upgold_price">Price(yuan)</string>
+    <string name="upgold_profit_loss">Expected profit and loss:</string>
+    <string name="upgold_total">Total Amount</string>
+    <string name="upgold_formula">(Price*lot)</string>
+    <string name="upgold_cov">Commission:</string>
+    <string name="upgold_cov_1">Commission</string>
+    <string name="upgold_margin">Margin</string>
+    <string name="upgold_sure">Confirmation of closed positions</string>
+    <string name="spotTrading">Trading of spot goods</string>
+    <string name="goldTrading">Trading of gold</string>
+    <string name="currTransfer">Today\'s Transfer</string>
+    <string name="hisTransfer">Historical Transfer</string>
+    <string name="personalAccount">Personal Account</string>
+    <string name="bankTransfer">Bank Transfer</string>
+    <string name="transfer">Transfer</string>
+    <string name="daySettlement">Daily Settlement</string>
+    <string name="UPGoldNews">Gold Information</string>
+    <string name="numAndAlpha">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="UPGoldReference">Gold Insider</string>
+    <string name="UPGoldRecommend">Investment advisors of gold</string>
+    <string name="UPGoldVIP">TOKA VIP</string>
+    <string name="event">Big issue</string>
+
+
+    <!--Golden Experience Plate-->
+    <string name="gold_exp_title">Golden Experience Plate</string>
+    <string name="gold_exp_income_record">Profit and loss record of experience vouchers</string>
+    <string name="gold_exp_my_tickets">My Experience Voucher</string>
+    <string name="gold_exp_withdraw">Receive the bonus</string>
+    <string name="money_lowercase">Bonus (yuan)</string>
+    <string name="money_uppercase">Bonus capitalization (yuan)</string>
+    <!--<string user_name="all_turn_out">Withdraw All</string>-->
+    <string name="withdraw_record">Withdrawn Records</string>
+    <string name="withdraw_2_wallet">Withdraw bonus to your wallet</string>
+    <!--<string user_name="input_amount">Enter the amount to be collected</string>-->
+    <!--<string user_name="can_withdraw">Available to receive:</string>-->
+    <!--<string user_name="withdraw_amount">Amount received</string>-->
+    <string name="withdraw_success">Received successfully</string>
+    <string name="withdraw_fail">Failed to receive</string>
+
+
+    <!--The following are newly added-->
+    <string name="home_tab_mycard">Follow</string>
+    <string name="home_tab_news">Information</string>
+    <string name="home_tab_activity_money">Activity funds</string>
+    <string name="home_tab_market">Flea Market</string>
+    <string name="home_tab_account">Account</string>
+    <string name="contract">Contract</string>
+    <string name="home_tab_circle">Circle</string>
+    <string name="myscard_name_fdm">Artist / Code</string>
+    <string name="myscard_zjcj">Current Price(yuan/pc)</string>
+    <string name="follow_add">Add Famous Person Card</string>
+    <string name="follow_add_ps">Collect the most popular famous person cards, share \n  economy of famous person!</string>
+    <string name="follow_add_description">"Red Flea," famous person cards can be purchased and transferred. Apart from getting bonus points from selling famous person cards, you can also redeem your favorite famous person for blessings, customized talent shows, and even attend your company\'s commercial performances!</string>
+
+    <!--Price ( Valid Price <font color="#ff4f12">%1$s</font> - <font color="#ff4f12">%2$s</font>)-->
+    <!--<string user_name="effective_price_domain">Price ( Valid Price &lt;font color="#ff4f12">%1$s&lt;/font> - &lt;font color="#ff4f12">%2$s&lt;/font>)</string>-->
+    <string name="effective_price_domain_orange">Price ( Valid Price &lt;font color="#fe3f26">%1$1.2f - %2$1.2f&lt;/font>)</string>
+    <string name="effective_price_domain_green">Price ( Valid Price &lt;font color="#1ec590">%1$1.2f - %2$1.2f&lt;/font>)</string>
+
+    <string name="bestBuy1price">Price (The buying price is ①)</string>
+    <string name="bestSell1price">Price (The best selling price is ①)</string>
+
+
+    <!--<string user_name="effective_price_domain_green">Price (Valid Price &lt;font color="#1ec590">%1$1.2f&lt;/font> - &lt;font color="#1ec590">%2$1.2f&lt;/font>)</string>-->
+
+
+    <string name="buy_max_amount">Maximum buyable &lt;font color="#fe3f26"> %1$s &lt;/font> pieces</string>
+
+    <string name="sell_max_amount">Maximum sellable &lt;font color="#1ec590"> %1$s &lt;/font> pieces</string>
+
+    <string name="borrow_max_amount">Maximum debit card &lt;font color="#1ec590"> %1$s &lt;/font> 张</string>
+
+    <string name="back_max_amount">Maximum returnable cards &lt;font color="#fe3f26"> %1$s &lt;/font> 张</string>
+
+
+    <string name="home_tab_hot">Popular</string>
+    <string name="home_tab_face">Appearance</string>
+    <string name="home_tab_game">Gaming</string>
+    <string name="home_tab_show">Talent</string>
+    <string name="entrustToday">Unfinished Orders</string>
+    <string name="orderQuery">Order Inquiry</string>
+    <string name="entrustHistory">Historical Orders</string>
+    <string name="orderHistory">Historical Orders</string>
+    <string name="orderToday">Current Orders</string>
+    <string name="rateRanking">Popularity List</string>
+    <string name="worthRanking">Market Value List</string>
+    <string name="home_market_more">More</string>
+    <string name="trading">There are orders being processed>></string>
+    <string name="olstar_name_code">Famous person name/code</string>
+    <string name="buy_amount">Buy-in volume</string>
+    <string name="pay_2_buy_up">Pay — yuan to buy up</string>
+    <string name="pay_2_buy_down">Pay — yuan to buy down</string>
+    <string name="pay_2_buy">Pay — yuan to buy</string>
+
+    <string name="sell">Transfer</string>
+    <string name="can_use_cash">Cash available for purchase:—yuan</string>
+    <string name="home_olstar_trade_buy_sell_fare">Handling fee :%1$s$ (reference)</string>
+    <string name="home_olstar_trade_sell_rent">Debit card rental:%1$s$(reference)</string>
+    <string name="buy">Buy</string>
+    <string name="confirm_sell">Confirm transfer</string>
+    <string name="confirm_buy">Confirm Purchase</string>
+    <string name="pay_amount">Payment Amount</string>
+    <string name="final_pay_amount">Actual Amount Paid:</string>
+    <string name="newcardPanicBuying">Purchase a New Card</string>
+    <string name="businessToday">Today\'s Deals</string>
+    <string name="businessHistory">Historical Deals</string>
+    <string name="announce">Announcement</string>
+    <string name="holdDetails">Cardholder Details</string>
+
+    <string name="bingBankCard">Bind Bank Card</string>
+
+
+    <string name="home_orderQuery">Order Inquiry</string>
+    <string name="home_businessHistroy">Transaction Inquiry</string>
+    <string name="home_newcardPrivilege">New Card Privileges</string>
+    <string name="home_bankcardInOut">Refunds for Top-up</string>
+
+    <string name="secKill">Famous person card sold out immediately</string>
+    <string name="product_second_kill">Product sold out immediately</string>
+
+    <string name="home_exchange">Exchange Pickup</string>
+    <string name="login">Log in</string>
+
+
+    <string name="manage_delivery_address">Manage the delivery address</string>
+
+    <string name="add_delivery_address">Add the delivery address</string>
+
+
+    <string name="publish_redolstarcard">Apply to issue a famous person card</string>
+    <string name="redCardARScanning">AR scan for the famous person card</string>
+    <string name="edit_address">Edit Address</string>
+
+    <string name="confirm_pick_up">Confirm Pickup</string>
+
+
+    <string name="pick_up">Pickup</string>
+    <string name="exchange">Exchange</string>
+
+
+    <string name="submit_information">Submit Information</string>
+
+    <string name="i_will_publish_card">I want to send the famous person card</string>
+
+    <string name="pick_up_count">Number of pickups(&lt;font color="#fe3f26">%1$s&lt;/font>sheet can be picked up)</string>
+    <string name="confirm_exchange">Confirm Redemption</string>
+
+    <string name="publish_dyn">Post News</string>
+
+
+    <string name="record">Historical Records</string>
+    <string name="mytickets">My Principal Voucher</string>
+
+    <string name="used">Expired</string>
+
+    <string name="takeRecord">Receiving Records</string>
+
+
+    <string name="qustionAnswer">Q&amp;A</string>
+    <string name="da_v_qustionAnswer">Q&amp;A of Internet Celebrity</string>
+
+    <string name="mogul">Master said</string>
+
+    <string name="bi_real_text">฿</string>
+
+    <string name="hotQuestion">Popular Questions</string>
+    <string name="hotAnswer">High-scoring Responses</string>
+
+
+    <string name="pull_to_refresh_pull_label">Drop-down to refresh…</string>
+    <string name="pull_to_refresh_release_label">Let go to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_up_refresh_refreshing_label">Scroll up to load more…</string>
+    <string name="pull_to_up_refresh_release_label">Load more after drop-down…</string>
+    <string name="pull_to_up_refresh_success_label">Refresh Successfully</string>
+
+    <string name="auto_load_more_initialise_label">Drop-down loading</string>
+    <string name="auto_load_more_loading_label">Loading more…</string>
+    <string name="auto_load_more_fail_label">Failed to load, please click to reload.</string>
+    <string name="auto_load_more_complete_label">All Loaded</string>
+    <string name="auto_load_more_nodata_label">No data available at the moment.</string>
+    <string name="auto_load_more_full">Click to see all comments</string>
+
+    <!-- Drop down to refresh the latest refresh time -->
+    <string name="last_updateTime">Latest Updates: %1$s</string>
+
+    <string name="project_order_manager">Management of Project Orders</string>
+
+    <string name="transaction_query">REDZ⇋TOKA Exchange Inquiry</string>
+    <string name="my_entrust">Pending Commissions</string>
+    <string name="my_history_entrust">Historical Commissions</string>
+    <string name="my_business_list">Completion Details</string>
+
+    <string name="payPassword">Payment Password</string>
+
+    <string name="modifyPayPassword">Modify transaction password</string>
+
+    <string name="setPayPassword">Set up transaction password</string>
+
+    <string name="identityAuthen">Real-Name Verification</string>
+
+    <string name="bindEmail">Binding E-mail</string>
+
+    <string name="addTips">Please confirm the information of the item you have filled in. Once the item is on the shelf, the editing function of the item will be limited (title, price, number of copies, etc., except for the subscription type), as well as the item will not be able to be deleted and removed from the shelf. So do you want to continue?</string>
+
+    <string name="projectBusinessHistory">Latest Transaction Records</string>
+\
+    <string name="app_zhcn_name">Global Digital Currency Platform</string>
+    <string name="app_full_name">Worldwide Coin Trade（Global Digital Currency Platform）</string>
+    <string name="label_receive_activity">Submit</string>
+    <string name="hint_password_number">Please enter at least 6 digits of password</string>
+    <string name="userBriefHint">This person is very lazy, and do not leave anything …</string>
+    <string name="digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+    <string name="digits2">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="home_title">LOGO</string>
+    <string name="bigv">大V</string>
+    <string name="email_phone">E-mail or Phone</string>
+    <string name="email">E-mail</string>
+
+
+    <string name="test">Multilingual Testing</string>
+    <string name="languageset">Multi-language Settings</string>
+    <string name="followSystem">Follow the System</string>
+
+    <string name="userProtocol">《User Service Agreement》</string>
+    <!--<string name="privacyProtocol">《Privacy Policy of Currency Follow-up Software》</string>-->
+    <string name="circleRule">《Rules for circle owners of procoin software》</string>
+    <string name="label_login_activity">Log in</string>
+    <string name="label_signup_activity">Register</string>
+    <string name="label_phone_number">Mobile Number</string>
+    <string name="hint_phone_number">Please inser mobile number</string>
+    <string name="label_verify_code">SMS verification code</string>
+    <string name="hint_verify_code">Insert  verification code</string>
+    <string name="btn_verify_code">Obtain verification code</string>
+    <string name="label_password_number">Password</string>
+    <string name="label_password_confirm">Confirm Password</string>
+    <string name="hint_paassword_confirm">Please re-ente</string>
+    <string name="label_forget_password">Forgot the password</string>
+
+
+    <string name="qushezhi">Go to Settings</string>
+    <string name="qushimingrenzheng">Go to Real-name Verification</string>
+    <string name="chaoguozuidabeishu">Exceeds maximum multiplier:</string>
+    <string name="qutianjiashoukuanfangshi">To add a way to collect money</string>
+    <string name="jiaoyijilu">Trading History</string>
+    <string name="guojiqihuojiaoyijilu">Trading History of International Futures</string>
+    <string name="waihuijiaoyijilu">Trading History of Forex</string>
+    <string name="shuzihuobigendanjiaoyijilu">Trading History of Follow-Up Orders for Digital Currencies</string>
+    <string name="guojiqihuogendanjiaoyijilu">Trading History of Follow-up Orders for International Futures</string>
+    <string name="waihuigendanjiaoyijilu">History of transactions with Forex follow-up orders</string>
+    <string name="xuanzejiaoyileixing">Choose Transaction Type</string>
+    <string name="gendandaoshi">Follow-Up Instructor:</string>
+    <string name="chakandaoshi">View Instructors</string>
+
+    <string name="xinbishengou" translatable="false">New currency subscription</string>
+    <string name="shuruzhengjianxinxi" translatable="false">Enter certificate information</string>
+    <string name="qingshuruzhengjianhaoma" translatable="false">Please enter the ID number</string>
+    <string name="huzhao" translatable="false">passport</string>
+    <string name="shenfenzheng" translatable="false">ID</string>
+    <string name="shangchuanzhengjianzhaopian" translatable="false">Upload ID photos</string>
+    <string name="shangchuanzhengjianzhengmian" translatable="false">Upload the front of the certificate</string>
+    <string name="shangchuanzhengjianfanmian" translatable="false">Upload the reverse side of the certificate</string>
+    <string name="zijinzhanghu" translatable="false">Capital account</string>
+    <string name="jiaoyizhanghu" translatable="false">Trading account</string>
+    <string name="qiehuanyuyan" translatable="false">switch language</string>
+    <string name="tuichudenglu" translatable="false">Log out</string>
+
+    <string name="zhangfubang">Increase list</string>
+    <string name="diefubang">Decline list</string>
+    <string name="yijiangendanwuxudingpan">ワンクリックでチェックする必要はありません</string>
+    <string name="jinruotcshichang">Enter OTC market</string>
+    <string name="waihuizhanghu">Foreign exchange account</string>
+    <string name="youxianghuoshoujihao">Email or Phone</string>
+    <string name="youxiang">Email</string>
+    <string name="shangchuanchongzhijietu">Click here \n to upload the screenshot of recharge</string>
+    <string name="chongzhi2">Recharge</string>
+    <string name="tijiao">Submit</string>
+    <string name="chongzhiwangluo">Recharge network</string>
+    <string name="tibierweima">Withdrawal QR code</string>
+    <string name="shangchuantibierweima">Click here to upload the QR code of currency withdrawal</string>
+    <string name="gendandongjiezichan">Documentary frozen assets</string>
+    <string name="zhangdieyanse">Up and down color</string>
+    <string name="lvzhanghongdie">Green rose and red fell</string>
+    <string name="hongzhanglvdie">Red rose and green fell</string>
+    <string name="shezhichenggong">Set successfully</string>
+
+    <string name="shimingrenzhengzhongxin">Real name Certification Center</string>
+    <string name="shimingrenzhengchenggong">Success</string>
+    <string name="ninyitongguoshimingrenzheng">You have passed the real name certification</string>
+    <string name="zhenshixingming">Real name</string>
+    <string name="zhengjianhao">Certificate No</string>
+    <string name="yishimingrenzheng">Real name certified</string>
+    <string name="renzhengzhuangtai">Authentication status</string>
+    <string name="renzhengriqi">Date of certification</string>
+</resources>

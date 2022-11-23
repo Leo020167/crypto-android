@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/xml_compents_bg"
+    android:orientation="vertical"
+    android:padding="15dip"
+    android:id="@+id/llItem">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvInOut"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/tibi"
+            android:textStyle="bold"
+            android:textColor="@color/c6175ae"
+            android:textSize="@dimen/font_size_14" />
+
+        <ImageView
+            android:id="@+id/img_youjiantou"
+            style="@style/commonAarrow"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dip"
+        >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shuliang"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_12" />
+
+            <TextView
+                android:id="@+id/tvAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:layout_marginTop="4dip"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zhuangtai"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_12" />
+
+            <TextView
+                android:id="@+id/tvState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:layout_marginTop="4dip"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_12" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shijian"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_12" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:layout_marginLeft="20dip"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_12" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dip"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ll_2_shuliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shuliang"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_12" />
+
+            <TextView
+                android:id="@+id/tvAmount2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:layout_marginTop="4dip"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zhuangtai"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_12" />
+
+            <TextView
+                android:id="@+id/tvState2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:layout_marginTop="4dip"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_shengoushijian2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_2_shuliang"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shengoushijian"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_12" />
+
+            <TextView
+                android:id="@+id/tvTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_12" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_below="@+id/ll_2_shuliang"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jiecangshijian"
+                android:textColor="@color/c661d3155"
+                android:textSize="@dimen/font_size_12" />
+
+            <TextView
+                android:id="@+id/tvJiecangTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textColor="@color/c1d3155"
+                android:textSize="@dimen/font_size_12" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+rootProject.name = "FireUp-繁体"
+include ':bitcnew'
+include ':tjrsocial'
+include ':swipback'
+include ':tjrhttpapi'

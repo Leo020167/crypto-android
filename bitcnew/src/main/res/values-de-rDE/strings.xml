@@ -1,0 +1,2623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FireUp</string>
+    <string name="xuanzezhanghu">Konto auswählen</string>
+    <string name="queding">bestimmen</string>
+    <string name="ninmuqiandeyouxiangshi">Ihr aktueller Briefkasten ist in% s. Wofür wollen Sie ihn wechseln?</string>
+    <string name="qingshuruyouxiang">Bitte E-Mail-Adresse eingeben</string>
+    <string name="fasongyanzhengma">Senden Sie den Verifizierungscode</string>
+    <string name="qingshuruxinyouxiang">Bitte geben Sie eine neue Mailbox ein</string>
+    <string name="yanzhengmayifasongzhi">Der Verifizierungscode wurde an</string>
+    <string name="qingshuruyouxiangyanzhengma">Bitte geben Sie den Bestätigungscode des Briefkastens ein</string>
+    <string name="xiayibu">nächster schritt</string>
+    <string name="quanziid">(Kreis ID:%s)</string>
+    <string name="jianjie">kurze Einführung:</string>
+    <string name="wenzhang">Artikel</string>
+    <string name="gongpian">% der Artikel insgesamt</string>
+    <string name="jiemu">Programm</string>
+    <string name="gongge">insgesamt %s</string>
+    <string name="gongmingchengyuan">% der Mitglieder insgesamt</string>
+    <string name="yaoqing">Einladung</string>
+    <string name="xinshenqingjiaru">Teilnahme an neuen Anträgen</string>
+    <string name="shezhiqunjiarufangshi">Setzen Sie den Weg zur Gruppe</string>
+    <string name="kaitongvip">Öffnen Sie Vip</string>
+    <string name="xiaoximiandarao">Nachricht kostenlos</string>
+    <string name="jinzhichengyuanfayan">Die Mitglieder dürfen nicht sprechen.</string>
+    <string name="guanliheimingdan">Schwarze Listen verwalten</string>
+    <string name="qingkongliaotianneirong">Leerer Chat-Inhalt</string>
+    <string name="tuichuquanzi">Beenden des Kreises</string>
+    <string name="shenqingjiaru">Bewerben Sie sich</string>
+    <string name="fengmianbeijing">Hintergrund des Cover</string>
+    <string name="shangchuanquanzitouxiang">Laden Sie den Avatar des Kreises hoch</string>
+    <string name="quanzimingzi">Name des Kreises</string>
+    <string name="shuruquanzimingzi">Geben Sie den Kreisnamen ein</string>
+    <string name="quanzijianjie">Profil des Kreises</string>
+    <string name="shuruquanzijianjie">Eingabe des Kreisprofils</string>
+    <string name="quedingchuangjian">OK zu erstellen</string>
+    <string name="daili">Agent</string>
+    <string name="chengweidaili">Werden Sie Agent</string>
+    <string name="shenhezhong">Gegenstand der Überprüfung</string>
+    <string name="quanbuyongjinusdt">Vollständige Provision（USDT）</string>
+    <string name="xinzengkehushuren">Anzahl der neuen Kunden</string>
+    <string name="zuorixinzeng">Neues gestern</string>
+    <string name="jinrixinzeng">Neu heute</string>
+    <string name="fanyongjineusdt">Betrag neu einzahlen（USDT）</string>
+    <string name="kehujiaoyieusdt">Volumen der Kundentransaktionen（USDT）</string>
+    <string name="weilebaozhengnidezhanghaoanquanqingyanzhengshenfen">Um die Sicherheit Ihres Kontos zu gewährleisten, überprüfen Sie bitte Ihre Identität</string>
+    <string name="xiaoyingyong">Kleine Anwendung</string>
+    <string name="gonggao">Mitteilung</string>
+    <string name="gengduo">mehr</string>
+    <string name="davpaihangbang">Große V-Rangliste</string>
+    <string name="qishilijianggongshiwomenjinghouweininjiamian">Die wahre Stärke wird bald bekannt gegeben. Wir warten darauf, Ihnen einen Preis zu geben</string>
+    <string name="btc">BTC/USDT <font fgcolor="#BC0016">-0.23%</font></string>
+    <string name="greyvalue">= $ 274050.62</string>
+    <string name="redvalue">43500.09</string>
+    <string name="dav">Big V</string>
+    <string name="otc">OTC</string>
+    <string name="shurushenfenzhengxinxi">Geben Sie die ID-Karteninformationen ein</string>
+    <string name="qingshurushenfenzhengxingming">Bitte geben Sie Ihren Personalausweis ein</string>
+    <string name="qingshurushenfenzhenghao">Bitte geben Sie Ihre ID-Nummer ein</string>
+    <string name="shangchuanshenfenzhengzhaopian">Dokument hochladen</string>
+    <string name="paisherenxiangye">Eine Seite für ein Portrait</string>
+    <string name="chakanshili">Beispiele ansehen</string>
+    <string name="paisheguohuiye">Seite zur Aufnahme des nationalen Emblems</string>
+    <string name="paisheshouchishenfenzheng">Handheld-Personalausweis für Schüsse</string>
+    <string name="zhucizhengjingongtokapingtairenzhengshiyong">*Hinweis: Dieses Zertifikat wird nur für die Toka-Plattform-Zertifizierung verwendet. Es ist datiert XX, XXXX</string>
+    <string name="shangchuandezhengjianzhaojiangjinxingfangdaoshuiyinchuli">• 上传的证件照将进行防盗水印处理，我们严格遵照法律法规，保护您的个人私隐。</string>
+    <string name="wancheng">vollständig</string>
+    <string name="denglu">Melden Sie sich</string>
+    <string name="huanyinglaitfg">Willkommen auf der Procoin Handelsplattform</string>
+    <string name="qingshurumima">Bitte geben Sie ein Passwort ein</string>
+    <string name="qingshuruyanzhengma">Bitte geben Sie den Verifizierungscode ein</string>
+    <string name="huoquyanzhengma">Verifikationscode erhalten</string>
+    <string name="wangjilezhaohuimima">Passwort vergessen? Passwort abrufen</string>
+    <string name="chongzhimima">Passwort zurücksetzen</string>
+    <string name="zhongguo">China</string>
+    <string name="qingshurushoujihaoma">Bitte geben Sie Ihre Mobiltelefonnummer ein</string>
+    <string name="mimabixushibashiliushuzi">Das Passwort muss eine Kombination von 8–16 Ziffern von Zahlen und Buchstaben sein</string>
+    <string name="qingzaicishurumima">Bitte geben Sie das Passwort erneut ein</string>
+    <string name="zhuce">Register</string>
+    <string name="qingshuruyaoqingmabitian">Bitte geben Sie den Einladungscode ein (erforderlich)</string>
+    <string name="register_email">Registrierung der Mailbox</string>
+    <string name="shuruyanzhengma">Code eingeben</string>
+    <string name="qinghuoquduanxinyanzhengma">Bitte erhalten Sie SMS-Bestätigungscode</string>
+    <string name="wanchengyanzheng">Vollständige Validierung</string>
+    <string name="kuohaoid">(ID:%s)</string>
+    <string name="tayucedapanpaiming">TA Vorhersageranking</string>
+    <string name="chuchumaolu">Neuheit</string>
+    <string name="shenglv">Wahrscheinlichkeit gewinnen</string>
+    <string name="yucezhanji">Ergebnisse der Vorhersage</string>
+    <string name="tajiarudequanzi">Der Kreis von TA</string>
+    <string name="gongxichenggongfaxingtoka">Herzlichen Glückwunsch,Toka erfolgreich ausgestellt</string>
+    <string name="faxingliang">Durchblutung:</string>
+    <string name="tokayongtu">Zweck von Toka:</string>
+    <string name="fenxiangwodetoka">Teilen Sie meine Toka</string>
+    <string name="create_toka_warning">Die oben genannten Bedingungen wurden auf der Blockkette hinterlegt und sind offen und transparent. Im Falle eines Streites können die Toka-Inhaber die Inhaltsdaten der mit Blockchain-Technologie hinterlegten Zertifikate lokalen Internet-Gerichten und Schiedsausschüssen übermitteln.</string>
+    <string name="create_toka_warning2">Befestigung:\nAm September 7, 2018 hat der Oberste Volksgerichtshof von China die Bestimmungen des Obersten Volksgerichtshofs über mehrere Themen im Zusammenhang mit der Gerichtsverhandlung von Fällen im Internet verkündet und umgesetzt. Die Bestimmungen haben einschlägige Bestimmungen über den Online-Weg für Internetgerichte zur Rechtsprechung, den Umfang der angenommenen Fälle, den Aufbau einer Internet-Streitbeilegungsplattform, die Online-Bearbeitung von Strafverfolgungsmaterialien, den Online-Austausch von Beweismitteln und die elektronische Bearbeitung von Rechtsstreitigkeiten und Beweismitteln erlassen.Unter anderem schreibt Artikel 11 vor, dass "wenn die von den Parteien übermittelten elektronischen Daten ihre Echtheit durch elektronische Signatur, Vertrauenstempel, Hash-Value-Überprüfung, Blockchain und andere Beweismittel, feste und manipulationssichere technische Mittel oder durch die Authentifizierung der elektronischen forensischen und deponierten Plattform nachweisen können, das Internet-Gericht dies bestätigt.”</string>
+    <string name="register_phone">Mobile Registrierung</string>
+    <string name="xuefenxfmingxi">Credit (XF) Details</string>
+    <string name="kuaijiegoumai">Schneller Kauf</string>
+    <string name="tixian">Entzug</string>
+    <string name="lishi">Geschichte</string>
+    <string name="woxiang">Ich glaube…</string>
+    <string name="goumai">Kauf</string>
+    <string name="chushou">verkaufen</string>
+    <string name="jiage">Preis</string>
+    <string name="shurujiage">Wert der Einfuhr</string>
+    <string name="dangqiangoumaizuigaojia">Aktueller Höchstpreis</string>
+    <string name="tianru">füllen</string>
+    <string name="shuliang">Anzahl</string>
+    <string name="shurushuliang">Geben Sie die Menge</string>
+    <string name="chushouusdtshixitongjianghuicongyuezhanghuzhongdongjiegaibufenzijin">Beim Verkauf von usdt wird das System diesen Teil der Mittel aus dem Kontostand einfrieren</string>
+    <string name="xiane">Quote</string>
+    <string name="zuixiao">Minimum</string>
+    <string name="zuida">Maximal</string>
+    <string name="fangshikeduoxuan">Modus (mehrere Optionen)</string>
+    <string name="liuyanneirong">Inhalt der Nachricht</string>
+    <string name="qingxiexianinxiangduimaijiashuodehua">Bitte schreiben Sie auf, was Sie dem Verkäufer / Käufer sagen wollen! (nur Worte 140)</string>
+    <string name="querenfabu">Bestätigen der Freigabe</string>
+    <string name="shoujianrenxingmingzuishaoliangwei">收件人姓名(最少2位)</string>
+    <string name="shoujianrendianhuazuishaoshiyiwei">Telefonnummer des Empfängers (mindestens 11)</string>
+    <string name="xuanzeshengfenchengshi">Wählen Sie Provinz und Stadt</string>
+    <string name="xiangxidizhiwuliushiwei">Detaillierte Adresse (5–60 Ziffern))</string>
+    <string name="shezhichengmorenshouhuodizhi">  Als Standard-Versandadresse setzen</string>
+    <string name="shanchu">Löschen</string>
+    <string name="save">Erhaltung</string>
+    <string name="save_delivery_address">Quittungsinformationen speichern</string>
+    <string name="xingming">vollständiger Name</string>
+    <string name="qingshuruxingming">Bitte geben Sie Ihren Namen ein</string>
+    <string name="zhanghao">Nummer des Kontos</string>
+    <string name="qingshuruzhanghao">Bitte geben Sie die Kontonummer ein</string>
+    <string name="shoukuanma">Code der Sammlung</string>
+    <string name="qingwubishiyongyuninzhuceshouhaomayizhideshimingzhanghao">Bitte verwenden Sie ein echtes Namenskonto, das mit Ihrer registrierten Mobiltelefonnummer übereinstimmt.</string>
+    <string name="kaihuxingming">Name des Kontos</string>
+    <string name="kaihuyinhang">Bank der Einlagen</string>
+    <string name="qingshurukaihuyinhang">Bitte geben Sie die Einzahlungsbank ein</string>
+    <string name="yinhangkahao">Bankkarte Nr.</string>
+    <string name="qingshuruyinhangkahao">Bitte geben Sie die Bankkartennummer ein</string>
+    <string name="tuijian">empfehlen</string>
+    <string name="shensuliyou">Gründe für die Beschwerde</string>
+    <string name="shensujietukexuan">Screenshot der Beschwerde (optional)</string>
+    <string name="shensuliuyankexuan">Griechenlandnachricht (optional)</string>
+    <string name="ninkeyixiexianinshensudexiangxiqingkuang">Sie können die Details Ihrer Beschwerde aufschreiben ~ ~ (beschränkt auf 300 Wörter)</string>
+    <string name="appealMessage">Nach Einreichung einer Beschwerde werden die Vermögenswerte eingefroren, und der Bürgerbeauftragte wird bis zum Ende der Beschwerde in diese Transaktion eingreifen. Bösartige Beschwerde ist ein Akt der Störung der normalen Betriebsordnung der Plattform. Wenn die Umstände ernst sind, wird das Konto eingefroren.</string>
+    <string name="tijiaoshensu">Eine Beschwerde einreichen</string>
+    <string name="dianjichakanquanbupinglun">Klicken Sie hier, um alle Kommentare anzuzeigen</string>
+    <string name="yixianshiquanbuneirong">Alles wird angezeigt</string>
+    <string name="xufei">Erneuerung</string>
+    <string name="qingshuru">Bitte geben Sie ein</string>
+    <string name="zhanghuyuekeyongusdt">Verfügbarer Kontostand:%s USDT</string>
+    <string name="zhudingyuehuoxufeihoushoudaogaiyonghudejiaoyicelue">Hinweis: Die Transaktionsstrategie des Benutzers wird nach Abonnement oder Erneuerung empfangen</string>
+    <string name="hejiusdt">insgesamt:%s USDT</string>
+    <string name="shimingxinxi">Real name information</string>
+    <string name="zhengjianhaoma">Kennnummer</string>
+    <string name="baozhengjin">Bindung</string>
+    <string name="baozhengjinyonyufabuchushouhuogoumai">Die Anzahlung wird verwendet, um Anzeigen für den Verkauf oder Kauf von usdt zu veröffentlichen, geben Zertifizierungsinformationen und sperren sie aus dem Vermögenssaldo sofort.</string>
+    <string name="shenqingshangjiarenzheng">Beantragen Sie eine Händlerzertifizierung</string>
+    <string name="qingshuruyonghumingyiliugezi">Bitte geben Sie den Benutzernamen (1–6) ein</string>
+    <string name="quxiao">Stornieren</string>
+    <string name="ruguoninyixiangduifangfukuangqingqianwanbuyaoquxiaodingdan">Wenn Sie die andere Partei bezahlt haben, bitte stornieren Sie die Bestellung nicht</string>
+    <string name="maijiadangrileijisanbiquxiao">Der Käufer stornierte insgesamt dreimal am selben Tag, was die Kauffunktion am selben Tag beeinflussen wird.</string>
+    <string name="woquerenmeiyoufukuangeiduifang">   Ich bestätige, dass es keine Zahlung an die andere Partei gibt</string>
+    <string name="qugoumai">Zu kaufen</string>
+    <string name="quhuazhuan">Zum Transfer</string>
+    <string name="tongyi">akzeptieren</string>
+    <string name="jujue">Verweigern</string>
+    <string name="yitongyi">Einverstanden.</string>
+    <string name="yichuheimingdan">Schwarze Liste entfernen</string>
+    <string name="zanbuzhichichakangaixiaoxiqingshengjidaozuixinban">Es wird nicht unterstützt, um diese Nachricht zu sehen. Bitte aktualisieren Sie auf die neueste Version</string>
+    <string name="zaishangpinzhongmailezhang">Kaufen Steigende Rohstoffe</string>
+    <string name="genjin">Folgemaßnahmen</string>
+    <string name="jiancangjia">Preis des Lagers:</string>
+    <string name="circle_unread_message_tip">Hier ist, was du nicht gelesen hast.</string>
+    <string name="circle_new_message">%1$s Neue Nachrichten</string>
+    <string name="circle_unread_message">%1$sUngelesene Nachricht</string>
+    <string name="zhibozhong">Live Übertragung</string>
+    <string name="fasong">Senden Sie</string>
+    <string name="haishengxiamiao">% s Sekunden</string>
+    <string name="dianjiluyin">Klicken Sie auf Aufnahme</string>
+    <string name="chonglu">Wiedergewinnung</string>
+    <string name="circleApplyJoinReasonHint">Bitte geben Sie den Grund für die Teilnahme am Kreis ein</string>
+    <string name="circleApplyJoin">Bewerben Sie sich</string>
+    <string name="wuxushenqingjiaruquanzi">Kein Grund, sich dem Kreis anzuschließen</string>
+    <string name="xuyaoshenfenyanzhengjiaruquanzi">Benötige Authentifizierung, um dem Kreis beizutreten</string>
+    <string name="picture">Bild</string>
+    <string name="shuruquanhaosousuo">Geben Sie die Kreisnummer-Suche ein</string>
+    <string name="sousuo">Suche</string>
+    <string name="meiyousousuojieguo">Keine Suchergebnisse</string>
+    <string name="pingcangyingkui">Gewinn und Verlust schließen</string>
+    <string name="pingcangjia">Abschließender Preis</string>
+    <string name="pingcangshoushu">Anzahl der geschlossenen Positionen</string>
+    <string name="pingcangshouxufei">Gebühren schließen</string>
+    <string name="pingcangshijian">Zeit zum Schließen</string>
+    <string name="yinglifencheng">Die Gewinnbeteiligung</string>
+    <string name="putongpingcang">Allgemeines Schließen</string>
+    <string name="yidangqianshijiachengjiao">(Schließung zum aktuellen Marktpreis)</string>
+    <string name="qingshurupingcangshoushu">Bitte geben Sie die Anzahl der geschlossenen Positionen ein</string>
+    <string name="shou">Hand</string>
+    <string name="shaixuan">Bildschirm</string>
+    <string name="weituojilu">Datensatz der Einziehung</string>
+    <string name="lishijilu">Historische Aufzeichnungen</string>
+    <string name="qingshurubizhong">Bitte Währung eingeben</string>
+    <string name="dingdanzhuangtai">Status der Bestellung</string>
+    <string name="yichengjiao">Geschlossen</string>
+    <string name="yichexiao">aufgehoben</string>
+    <string name="dingdanleixing">Art der Bestellung</string>
+    <string name="chongzhi">Zurücksetzen</string>
+    <string name="yingliqingkuang">Rentabilität</string>
+    <string name="jiaoyicishu">Anzahl der Transaktionen</string>
+    <string name="weituojiageusdt">Eingeweihter Preis(USDT)</string>
+    <string name="weituoshuliang">Eingeführte Menge(%s)</string>
+    <string name="weituoshijian">Eingeweihte Zeit</string>
+    <string name="chengjiaojunjiausdt">Durchschnittlicher Transaktionspreis(USDT)</string>
+    <string name="chengjiaoshuliang">Anzahl der Transaktionen(%s)</string>
+    <string name="chengjiaoeusdt">Umsatz(USDT)</string>
+    <string name="shouxufeiusdt">Service berechnen(USDT)</string>
+    <string name="wodeyingliusdt">Mein Gewinn(USDT)</string>
+    <string name="wodechengjiao">Mein Deal</string>
+    <string name="gendanchengjiao">Dokumentation der Transaktion</string>
+    <string name="gendanfenchengusdt">Anteil der Dokumentation(USDT)</string>
+    <string name="jishufuwufeiusdt">Gebühr für den technischen Service(USDT)</string>
+    <string name="chengjiaomingxi">Einzelheiten der Transaktion</string>
+    <string name="chexiao">Widerruf</string>
+    <string name="quanbuweituo">Alle Aufträge</string>
+    <string name="bizhong">Währung</string>
+    <string name="quanbuchengjiao">Alle Transaktionen</string>
+    <string name="bufenchengjiao">Teilweise Transaktion</string>
+    <string name="zhuanchuzhanghaoxuanze">Auswahl des Kontos übertragen</string>
+    <string name="zhuanruzhuanghuxuanze">Übertragung bei der Kontoauswahl</string>
+    <string name="yicunbtczongliang">Insgesamt gespeicherte BTC</string>
+    <string name="yihuousdtshouyi">Erhaltene Einnahmen</string>
+    <string name="zhuanru">to change in</string>
+    <string name="zhuanchu">Transfer raus</string>
+    <string name="pinglun">Kommentar</string>
+    <string name="xiepinglun">Kommentare schreiben</string>
+    <string name="shoucang">Erhebung</string>
+    <string name="dianzan">Daumen hoch</string>
+    <string name="fabiao">veröffentlichen</string>
+    <string name="zanwushuju">Keine Daten</string>
+    <string name="querenchushou">Bestätigen Verkauf</string>
+    <string name="danjia">Preis pro Einheit</string>
+    <string name="gendantouru">Documentale Eingabe</string>
+    <string name="keyongusdt">Verfügbar USB:</string>
+    <string name="shuruusdtshuliang">Geben Sie usdt-Menge ein</string>
+    <string name="gendanshezhi">Einstellungen der Dokumentation</string>
+    <string name="meicigendanshangxian">Obere Grenze je Merchandising</string>
+    <string name="qingshuruzuidausdt">Bitte geben Sie den maximalen usdt</string>
+    <string name="zhiyingwushezhi">Zwischenstopp: keine Einstellung</string>
+    <string name="zhisunwushezhi">Stoppverlust: keine Einstellung</string>
+    <string name="mairu">Kauf</string>
+    <string name="maichu">Verkauf aus</string>
+    <string name="qingshurugendanjine">Bitte geben Sie den Dokumentbetrag ein</string>
+    <string name="quanbu">ganze</string>
+    <string name="lijigendan">Sofortiges Merchandising</string>
+    <string name="shijian">Zeit</string>
+    <string name="yingliusdt">Gewinn(USDT)</string>
+    <string name="jieshushijian">Die Endzeit</string>
+    <string name="gendanyingkuiusdt">Dokumentierter Gewinn und Verlust(USDT)</string>
+    <string name="zhengzaiweituo">Delegierung</string>
+    <string name="chiyoushuliang">Menge der Betriebe</string>
+    <string name="chengbenjunjia">Durchschnittlicher Preis</string>
+    <string name="leijiyingkui">Kumulierter Gewinn und Verlust</string>
+    <string name="gendanzichanfenbu">Verteilung der dokumentarischen Vermögenswerte</string>
+    <string name="jiaoyimingxi">Einzelheiten der Transaktion</string>
+    <string name="gendanzongtouru">Insgesamt dokumentarische Investitionen</string>
+    <string name="yue">Bilanz</string>
+    <string name="gendanmeibishangxian">Maximaler Betrag pro Dokumentation:</string>
+    <string name="gendanzhiying">Prüfung der Dokumentation:</string>
+    <string name="zanwushezhi">Keine Einstellungen</string>
+    <string name="gendanzhisun">Dokumentarfilmstopp Verlust:</string>
+    <string name="gendanchicang">Position der Dokumentation</string>
+    <string name="yincangxiaoebizhong">   Kleine Währung ausblenden</string>
+    <string name="zanwuchicang">Keine Position</string>
+    <string name="yitingzhigendan">Merchandising gestoppt</string>
+    <string name="tingzhigendan">Schluss mit dem Merchandising</string>
+    <string name="zhuijiatouru">Zusätzliche Investitionen</string>
+    <string name="yingkui">Gewinn und Verlust</string>
+    <string name="zhuijiachicangjine">Zusätzliche Position</string>
+    <string name="gendanxiangqing">Dokumentation Details</string>
+    <string name="zonghepingfen">Umfassende Punktzahl</string>
+    <string name="bencigendanchicangbeidong">Diese dokumentarische Position (passiv)</string>
+    <string name="shizhi">Wert des Marktes</string>
+    <string name="meibigendanshangxian">Maximaler Betrag pro Dokumentation:</string>
+    <string name="zhiying">Unterbrechung:</string>
+    <string name="zhisun">Stoppen Sie den Verlust:</string>
+    <string name="xiugai">ändern</string>
+    <string name="dingyueshu">Anzahl der Abonnements</string>
+    <string name="gendanzongeusdt">Dokumentarfilm insgesamt(USDT)</string>
+    <string name="leijigendanjingfencheng">Kumulierter Nettoanteil der Dokumentation</string>
+    <string name="yugugendanfencheng">Geschätzter dokumentarischer Anteil</string>
+    <string name="chibichengben">Kosten der Währungsreserven</string>
+    <string name="gendanzijin">Dokumentationsfonds (englisch)</string>
+    <string name="chibishizhi">Marktwert der Barbestände</string>
+    <string name="woshitanchudedialog">Ich bin der Dialog, der auftaucht</string>
+    <string name="woshidibu">Ich bin der Grund</string>
+    <string name="zengjiakaicangbaozhengjinusdt">Erhöhung der Öffnungsspanne(USDT)</string>
+    <string name="zhuijiajine">Zusätzliche Beträge</string>
+    <string name="qingshuruzhuijiajine">Bitte zusätzliche Menge eingeben</string>
+    <string name="shuzihuobigendanzhanghu">Digitales Währungsdokumentarisches Konto</string>
+    <string name="guojiqihuogendanzhanghu">Internationales Futures-Dokumentenkonto</string>
+    <string name="waihuigendanzhanghu">Währungsdokumentarisches Konto</string>
+    <string name="meicigendanjine">Betrag pro Dokument</string>
+    <string name="qingshurumeicigendanjine">Bitte geben Sie die Anzahl der Dokumentationen ein</string>
+    <string name="zhifudailifei">Zahlung der Vermittlungsgebühr</string>
+    <string name="dailifeiwei">Die Agenturgebühr ist%sUSDT,Bestätigen Sie die Zahlung?</string>
+    <string name="jianban">Vereinfachte Version</string>
+    <string name="dangqianjia">Aktueller Preis:HK$</string>
+    <string name="gendanzhegensuiyujimairushuliang">Merchandiser folgen erwarteten Käufen - Menge:</string>
+    <string name="gendanzhegensuimairuzongjine">Gesamtbetrag des Käufes von Followern::</string>
+    <string name="mairujine">Betrag der Anschaffung(HK$)</string>
+    <string name="shurumairujine">Geben Sie den Kaufbetrag ein</string>
+    <string name="mairudanjia">Preis je Einheit(HK$)</string>
+    <string name="shurumairudanjia">Geben Sie den Kaufpreis ein</string>
+    <string name="yujishuliang">Geschätzte Menge:</string>
+    <string name="yujijine">Geschätzter Betrag:</string>
+    <string name="tijiaodingdan">Ort bestellen</string>
+    <string name="zhuanyeban">professionelle Ausgabe</string>
+    <string name="dangqianzuiyoujia">Aktueller bester Preis(HK$)</string>
+    <string name="querenlikaizhifu">Bestätigung der Abreise</string>
+    <string name="runinyifukuanqingwubidianji">Wenn Sie bezahlt haben, klicken Sie bitte auf "Ich habe erfolgreich bezahlt"</string>
+    <string name="dingdanjiangzaihouchaoshiquxiao">Die Bestellung wird nach %s Timeout storniert</string>
+    <string name="woquerenhaimeiyoufukuangeiduifang">   Ich bestätige, dass ich die andere Partei noch nicht bezahlt habe.</string>
+    <string name="guanzhu">folgen</string>
+    <string name="yonghuming">Name des Benutzers</string>
+    <string name="zongtouru">Investitionen insgesamt</string>
+    <string name="keyong">verfügbar</string>
+    <string name="xiabikeyong">Weiter verfügbar</string>
+    <string name="yingli">Gewinn</string>
+    <string name="tuodongtupianwanchengyanzheng">Ziehen Sie das Bild, um die Überprüfung abzuschließen</string>
+    <string name="zongshuliangbtc">Gesamtmenge:%s BTC</string>
+    <string name="pingjunchengbenjia">Durchschnittlicher Preis:</string>
+    <string name="yinglibili">Verhältnis der Gewinne:</string>
+    <string name="chengbenqujian">Intervall der Kosten</string>
+    <string name="bili">Proportion</string>
+    <string name="zongshizhiusdt">Marktwert insgesamt:%s USDT</string>
+    <string name="shizhiusdt">Wert des Marktes(USDT)</string>
+    <string name="zhanghuzongzichanusdt">Aktiva des Kontos insgesamt(USDT)</string>
+    <string name="chongbi">Währungsreserven</string>
+    <string name="tibi">Währung der Auszahlung</string>
+    <string name="huazhuan">Übertragung</string>
+    <string name="fabigoumai">Kauf gesetzlicher Währung</string>
+    <string name="shuzihuobi">Digitale Währung</string>
+    <string name="guojiqihuo">Internationale Futures</string>
+    <string name="gendan">Dokumentarfilm</string>
+    <string name="shuzihuobigendan">Digitale Währungsdokumentation</string>
+    <string name="guojiqihuogendan">Internationale Zukunftsdokumentation</string>
+    <string name="waihuigendan">Dokumentarfilm über den Devisenhandel</string>
+    <string name="zanwugendan">Keine Dokumentation</string>
+    <string name="shuruidsousuo">Eingabe der ID-Suche</string>
+    <string name="yonghumingcheng">Name des Benutzers</string>
+    <string name="dingyuezhuangtai">Status des Abonnements</string>
+    <string name="zanwuguanzhu">Keine Aufmerksamkeit!</string>
+    <string name="yueusdt">Bilanz(USDT)</string>
+    <string name="dangqianzongyingkuiusdt">Laufende Gesamtgewinn- und Verlustrechnung(USDT)</string>
+    <string name="chicang">Position</string>
+    <string name="yuezhanghuzongzichanusdt">Bilanz insgesamt Aktiva(USDT)</string>
+    <string name="dongjieusdt">gefroren(USDT)</string>
+    <string name="zanwujilu">Kein Eintrag</string>
+    <string name="shouye">Home Page</string>
+    <string name="nihaimeijiarurenhequanzi">Du hast noch keine Kreise verbunden.</string>
+    <string name="quchuangjian">Zu erstellen</string>
+    <string name="gaoshoupaihangbang">Ranking Master</string>
+    <string name="shuzihuobizongzichanusdt">Aktiva der digitalen Währung insgesamt(USDT)</string>
+    <string name="fengxianlv">Risiko rate</string>
+    <string name="keyongbaozhengjinusdt">Freie Marge(USDT)</string>
+    <string name="weishixianyingkuiusdt">Nicht realisierter Gewinn und Verlust(USDT)</string>
+    <string name="chicangbaozhengjinusdt">Rand der Position(USDT)</string>
+    <string name="dongjiebaozhengjin">Einlage, gefroren</string>
+    <string name="daidandaoshi">Tutor:</string>
+    <string name="jiebang">Ungebunden</string>
+    <string name="qubangding">Entnahme</string>
+    <string name="kaiqigendan">Offener Dokumentarfilm:</string>
+    <string name="yikaiqi">Schaltet auf</string>
+    <string name="gendanbeishu">Dokumentär mehrere:</string>
+    <string name="bei">Zeiten</string>
+    <string name="zidingyi">benutzerdefiniert</string>
+    <string name="guzhiqihuo">Aktienindex Futures</string>
+    <string name="mingchengdaima">Code des Namens</string>
+    <string name="zuixinjia">Aktuelle Preise</string>
+    <string name="zhangdiefu">Spanne der Fluktuation</string>
+    <string name="hangqing">Angebot</string>
+    <string name="zixuan">Optional</string>
+    <string name="hushen">Hushen</string>
+    <string name="ganggu">Bestände in Hongkong</string>
+    <string name="waihui">Devisen</string>
+    <string name="faxian">finden</string>
+    <string name="zanwuzixuan">Keine Option～</string>
+    <string name="woyaomai">Ich möchte es kaufen</string>
+    <string name="woyaomai2">Ich will verkaufen</string>
+    <string name="goumaishuliang">Menge des Käufes</string>
+    <string name="jiageyue">Der Preis ist ungefähr</string>
+    <string name="xiane12usdt">Quote %1$s USDT-%2$s USDT</string>
+    <string name="lingshouxufeigoumai">0 Handling charge kaufen</string>
+    <string name="haiweibianjiziliao">Daten noch nicht bearbeitet</string>
+    <string name="fabimaimai">Verkauf der gesetzlichen Währung</string>
+    <string name="shuzihuobijiaoyijilu">Digitale Währungstransaktionen</string>
+    <string name="qihuojiaoyijilu">Futures Trading Record</string>
+    <string name="gendanjiaoyijilu">Buchungen der Dokumentation</string>
+    <string name="xitongtongzhi">Meldung des Systems</string>
+    <string name="bangzhuzhongxin">Hilfe Center</string>
+    <string name="fenxiangyingyong">Antrag auf Freigabe</string>
+    <string name="kefu">Kundendienst</string>
+    <string name="shezhi">zur Einrichtung</string>
+    <string name="xuanzebizhong">Wählen Sie Währung</string>
+    <string name="guanliyuan">Administratoren</string>
+    <string name="guanfang">offizielle</string>
+    <string name="zhanghu">Konto</string>
+    <string name="dingyue">abonnieren</string>
+    <string name="wode">mein</string>
+    <string name="gendanzongyingkui">Gesamtgewinn und Verlust der Dokumentation</string>
+    <string name="huobi">Feuermünze </string>
+    <string name="shurujiumima">Passwort eingeben</string>
+    <string name="shezhixinmimabashiliuweishuzi">Setzen Sie ein neues Passwort (8–16-stellige Zahl, Buchstabenkombination))</string>
+    <string name="querenxinmima">Neues Passwort bestätigen</string>
+    <string name="chicangyingkui">Position Gewinn und Verlust</string>
+    <string name="dongjie">gefroren</string>
+    <string name="hangqingshuxinpinlvshezhi">Einstellung der Wiederholfrequenz der Quotierung</string>
+    <string name="yicunzongliang">Insgesamt%s gespeichert</string>
+    <string name="yihuousdtshouyinianhua">Das USDT-Einkommen wurde erzielt(Annulliert %s%)</string>
+    <string name="fenxiang">Aktie</string>
+    <string name="weixin">WeChatGenericName</string>
+    <string name="dangqianmeiyouneirong">Es gibt derzeit keinen Inhalt</string>
+    <string name="dianji">Klick</string>
+    <string name="tianjiaguanzhuqitarendedongtai">Trends hinzufügen, die anderen folgen</string>
+    <string name="huozheziji">Oder sich selbst.</string>
+    <string name="tianjiadongtai">Dynamisch hinzufügen</string>
+    <string name="fenxiangxinxianshi">Neue Dinge teilen</string>
+    <string name="dangqianmeiyouwangluo">Derzeit gibt es keine Netzwerke</string>
+    <string name="fukuanqueren">Bestätigung der Zahlung</string>
+    <string name="qingquerenninyixiangmaijiafukuan">Bitte bestätigen Sie, dass Sie den Verkäufer bezahlt haben</string>
+    <string name="eyidianjijiangzhijiedongjiezhanghu">Bösartige Klicks werden das Konto direkt einfrieren</string>
+    <string name="zhuanrushuliangdaocunbibao">Übergabe in Menge an Schatz</string>
+    <string name="qingzuidizhuanruyibai">Bitte geben Sie mindestens 100</string>
+    <string name="keyongshuliang">Verfügbare Menge:</string>
+    <string name="querenzhuanru">Bestätigen Sie die Übertragung</string>
+    <string name="gendanleixing">Art der Dokumentation</string>
+    <string name="kuisunbutie">Subvention für Verluste</string>
+    <string name="jine">Betrag des Geldes</string>
+    <string name="daoqiri">Dauer der Expiration</string>
+    <string name="rengoushuzihuobi">Digitale Abonnementwährung</string>
+    <string name="jurengoujieshuhaisheng">Bis zum Ende des Abonnements:</string>
+    <string name="tianshifen">%1$s Tag %2$s Stunde %3$s Minute</string>
+    <string name="dangqianrengoujiausdt">Aktueller Bezugspreis(USDT)</string>
+    <string name="benlunrengouzongshuliang">Gesamtzahl der Abonnements in dieser Runde</string>
+    <string name="benlunrengoujindu">Ablauf dieser Abonnementrunde:</string>
+    <string name="rengouzoushitu">Trendthema der Abonnements</string>
+    <string name="huigoujilu">Datensatz für Repurchase</string>
+    <string name="rengou">Abonnement</string>
+    <string name="jiaoyi">Transaktion</string>
+    <string name="xuanzerengoushuliang">Wählen Sie die Abonnementmenge</string>
+    <string name="suocangquanyishuoming">Beschreibung der Sperre im Eigenkapital</string>
+    <string name="rengoujine">Betrag der Abonnements: </string>
+    <string name="nimuqiansuocangquanyidengji">Ihre aktuelle Sperre im Eigenkapital</string>
+    <string name="chiyouusdtshuliang">Anzahl der gehaltenen USB-Karten:</string>
+    <string name="rengousuocang">Sperre für Abonnements</string>
+    <string name="zongshuliang">Menge insgesamt</string>
+    <string name="suocang">Lager abschließen</string>
+    <string name="zhongyao">wichtig</string>
+    <string name="gensuixitong">Folgen des Systems</string>
+    <string name="jiantizhongwen">Vereinfachtes Chinesisch</string>
+    <string name="English">English</string>
+    <string name="zhifufangshi">Methode der Zahlung</string>
+    <string name="jiaoyijine">Betrag der Transaktion</string>
+    <string name="kuaijiequ">Kurze Strecke</string>
+    <string name="zixuanqu">Optionaler Bereich</string>
+    <string name="zongjia">Preis insgesamt</string>
+    <string name="dingdanhao">Nummer der Bestellung</string>
+    <string name="dingdanshijian">Zeit der Bestellung</string>
+    <string name="maijianicheng">Spitzname des Käufers</string>
+    <string name="maijiaxingming">Name des Käufers</string>
+    <string name="maijianicheng2">Spitzname des Verkäufers</string>
+    <string name="maijiaxingming2">Name des Verkäufers</string>
+    <string name="shoukuanfangshi">Methode der Zahlung</string>
+    <string name="qufukuan">Zu zahlen</string>
+    <string name="shensu">Beschwerde</string>
+    <string name="woquerenshoudaofukuan">Ich bestätige den Eingang der Zahlung</string>
+    <string name="xiangmaijiafukuan">Zahlung an den Verkäufer</string>
+    <string name="fukuanshijianshengyu">Restliche Zahlungsfrist</string>
+    <string name="ninzhengzaixiang">Sie kaufen von einem procoin zertifizierten Verkäufer%s USDT</string>
+    <string name="weixinzhanghao">Konto Wechat</string>
+    <string name="qingwubishiyongbenrendezhifufangshixiangyixiayinhangkazixingzhuanzhang">Bitte verwenden Sie Ihre eigene Zahlungsmethode, um Geld auf die folgende Bankkarte zu überweisen（%s）</string>
+    <string name="woyifukuanchenggong">我已付款成功</string>
+    <string name="querengoumai">Kauf bestätigen</string>
+    <string name="shuliangusdt">Anzahl  %s USDT</string>
+    <string name="kanzhangzuoduogaiyao">Zusammenfassung des Anstiegs</string>
+    <string name="kaicangjia">Preis der Eröffnung</string>
+    <string name="kaicangfangxiang">Die Öffnungsrichtung</string>
+    <string name="chicangbaozhengjin">Rand der Position</string>
+    <string name="chicangshoushu">Anzahl der Positionen</string>
+    <string name="kaicangshouxufei">Gebühr für die Eröffnung</string>
+    <string name="kaicangshijian">Open Time</string>
+    <string name="zhiyingjiage">Preis der Gewinneinstellung</string>
+    <string name="zhisunjiage">Preis stopp</string>
+    <string name="kaicangzhuangtai">Status der Eröffnung</string>
+    <string name="xianjia">Gegenwärtiger Preis</string>
+    <string name="pingcangmingxi">Details zum Schließen</string>
+    <string name="kuaijiepingcang">Schnelles Schließen</string>
+    <string name="jiaoyiguizeshuoming">Beschreibung der Transaktionsregeln</string>
+    <string name="ruhejiaoyi">So handeln</string>
+    <string name="shijiaweituo">nach dem Markt</string>
+    <string name="xianjiaweituo">Limit Order</string>
+    <string name="zhengzaijiazaigengduo">Mehr laden…</string>
+    <string name="benqileiji">Kumuliert im laufenden Zeitraum</string>
+    <string name="chaoguo">übersteigen</string>
+    <string name="buchaoguo">Nicht mehr als</string>
+    <string name="zoushi">Trend>></string>
+    <string name="wangqijilu">Frühere Aufzeichnungen</string>
+    <string name="shuoliangju">Sag etwas.</string>
+    <string name="ruchangdaojishi">Countdown zum Eintritt:</string>
+    <string name="ninbenchangyuce">Ihre aktuelle Prognose:</string>
+    <string name="qingdengdaijieguogongbu">Bitte warten Sie, bis die Ergebnisse bekannt gegeben werden</string>
+    <string name="huodongguize">Regeln der Tätigkeit</string>
+    <string name="yucejilu">Aufzeichnung der Vorhersagen</string>
+    <string name="fadanmu">Barrage</string>
+    <string name="qingshuruninxiangshuode">Bitte geben Sie ein, was Sie sagen möchten</string>
+    <string name="tianjiashouhuodizhi">Lieferadresse hinzufügen</string>
+    <string name="fenshi">Teilen der Zeit</string>
+    <string name="wuri">Fünfte</string>
+    <string name="yifenzhong">Eine Minute</string>
+    <string name="shiwufenzhong">15 Minuten</string>
+    <string name="yixiaoshi">1 Stunde</string>
+    <string name="rixian">Tag</string>
+    <string name="zhouxian">Woche</string>
+    <string name="yuexian">Monat</string>
+    <string name="gao">hoch</string>
+    <string name="di">niedrig</string>
+    <string name="ersih">24H</string>
+    <string name="ma5">MA5:</string>
+    <string name="ma10">MA10:</string>
+    <string name="ma30">MA30:</string>
+    <string name="riqi">Datum</string>
+    <string name="kai">geöffnet</string>
+    <string name="zhangdiee">Aufstieg und Fall</string>
+    <string name="yishoupan">Geschlossen</string>
+    <string name="liang">Betrag</string>
+    <string name="rik">Tag K</string>
+    <string name="zhouk">WocheK</string>
+    <string name="yuek">MonatK</string>
+    <string name="shendu">Tiefe</string>
+    <string name="fangxiang">Richtung</string>
+    <string name="mingcheng">Name</string>
+    <string name="faxingshijian">Zeit der Veröffentlichung</string>
+    <string name="faxingzongliang">Emission insgesamt</string>
+    <string name="liutongzongliang">Umlauf insgesamt</string>
+    <string name="zhongchoujiage">Preis für Crowdfunding</string>
+    <string name="baipishu">weißes Papier</string>
+    <string name="guanwang">Offizielle Website</string>
+    <string name="qukuailianchaxun">Abfrage Blockkette</string>
+    <string name="jimai5">Versand⑤</string>
+    <string name="jimai4">Versand④</string>
+    <string name="jimai3">Versand③</string>
+    <string name="jimai2">Versand②</string>
+    <string name="jimai1">Versand①</string>
+    <string name="qiugou1">wollen kaufen①</string>
+    <string name="qiugou2">wollen kaufen②</string>
+    <string name="qiugou3">wollen kaufen③</string>
+    <string name="qiugou4">wollen kaufen④</string>
+    <string name="qiugou5">wollen kaufen⑤</string>
+    <string name="shuliangshou">Menge (Hand)</string>
+    <string name="mairujia">Der Kaufpreis</string>
+    <string name="maichujia">Verkaufspreis</string>
+    <string name="yiyanzhengshenfen">1.Authentifizierung</string>
+    <string name="ergenggaishoujihao">2.Telefonnummer ändern</string>
+    <string name="sanwancheng">3.vollständig</string>
+    <string name="yibangdingshoujihao">Bound mobile number:</string>
+    <string name="qingshuruxinshoujihaoma">Bitte geben Sie eine neue Telefonnummer ein</string>
+    <string name="ershezhimima">2.Passwort setzen</string>
+    <string name="sanquerenmima">3.Passwort bestätigen</string>
+    <string name="qingshuruliuweizhifumima">Bitte geben Sie ein 6-stelliges Zahlungspasswort ein</string>
+    <string name="qingzaicishuruliuweizhifumima">Bitte geben Sie das 6-stellige Zahlungspasswort erneut ein</string>
+    <string name="xiaoshudianhouliangweiweishu">Mantissa von zwei Ziffern nach dem Dezimalpunkt,Es wird bei jeder Bargeldzahlung zufällig generiert, um die Identität des Zahlers für den Zahlungsempfänger zu bestätigen. Bitte zahlen Sie den vollen Betrag genau, sonst wird der Auftrag ungültig.</string>
+    <string name="ninzanweifabuguanggao">您暂未发布广告～</string>
+    <string name="tianjiaguanggao">Anzeige hinzufügen</string>
+    <string name="zanwujianjie">Kein Profil</string>
+    <string name="wodechicang">Meine Position</string>
+    <string name="chiyou">halten</string>
+    <string name="shizhichengbenjia">Wert des Marktes/Kosten Preis</string>
+    <string name="yejizoushi">Entwicklung der Leistung</string>
+    <string name="gendanrenqi">Beliebtheit beim Merchandising</string>
+    <string name="bizhongjiaoyicishuhuizong">Zusammenfassung der Währungstransaktionszeiten</string>
+    <string name="moren">Standard</string>
+    <string name="bianji">edit</string>
+    <string name="dangqianbanben">aktuelle Version</string>
+    <string name="guanyuwomen">Über uns</string>
+    <string name="lianxiwomen">Kontaktieren Sie uns</string>
+    <string name="fuwutiaokuan">Allgemeine Geschäftsbedingungen</string>
+    <string name="jianjitupian">Bilder Clip</string>
+    <string name="xiexieshenmeba140zi">Schreiben Sie etwas…(Innerhalb von 140 Wörtern)</string>
+    <string name="zuijinxiangce">Jüngstes Album</string>
+    <string name="yulan">Vorschau</string>
+    <string name="zuijinshipin">Jüngstes Video</string>
+    <string name="shimingrenzheng">Authentifizierung des realen Namens</string>
+    <string name="bangdingyouxiang">Bind Mailbox</string>
+    <string name="xiugaimima">Passwort ändern</string>
+    <string name="bangdingshouji">Verbindendes Mobiltelefon</string>
+    <string name="shezhijiaoyimima">Passwort festlegen</string>
+    <string name="shuaxinpinlvshezhi">Einstellung der Refresh-Rate</string>
+    <string name="xiaoxituisong">Nachricht drücken</string>
+    <string name="qingchuhuancun">Cache löschen</string>
+    <string name="touxiang">Portrait des Kopfes</string>
+    <string name="nicheng">Spitzname</string>
+    <string name="xingbie">Geschlecht</string>
+    <string name="nan">männlich</string>
+    <string name="nv">weiblich</string>
+    <string name="erweima">QR Code</string>
+    <string name="shengri">Geburtstag</string>
+    <string name="weishezhi">Nicht gesetzt</string>
+    <string name="gerenjianjie">Persönliches Profil</string>
+    <string name="qingbianjigerenjianjie">Bitte bearbeiten Sie Ihr Profil</string>
+    <string name="kaitongxuzhi">Anweisungen zum Öffnen</string>
+    <string name="daidangongneng">Funktion</string>
+    <string name="kaitongtiaojianzongzichanbudiyuusdt">Öffnungsbedingungen: Gesamtvermögen nicht weniger als%sUSDT</string>
+    <string name="lijikaitong">Jetzt öffnen</string>
+    <string name="chushouusdt">Verkauf von usdt</string>
+    <string name="qingshuruchushoushuliang">Bitte geben Sie die Verkaufsmenge ein</string>
+    <string name="quanbuchushou">Alle verkauft</string>
+    <string name="shishoukuan">Tatsächliche Einnahmen</string>
+    <string name="sanshimiaohouzidongquxiao">Automatisch nach s stornieren</string>
+    <string name="xiadan">eine Bestellung aufgeben</string>
+    <string name="goumaizhong">Kaufen</string>
+    <string name="shuliangusdtdaousdt">Anzahl  %1$s USDT-%2$s USDT</string>
+    <string name="xianeyuandaoyuan">Quote  HK$%1$s-HK$%2$s</string>
+    <string name="fangshi">Modus</string>
+    <string name="leixinggoumai">Art der Bestellung</string>
+    <string name="xiajia">Aus dem Regal</string>
+    <string name="tuodong">Ziehen</string>
+    <string name="quanxuan">　Alle auswählen</string>
+    <string name="querenquxiaodingdan">Bestätigen Sie die Stornierung</string>
+    <string name="runinyijingxiangmaijiafukuanqingbuyaoquxiaodingdan">Wenn Sie den Verkäufer bezahlt haben, bitte stornieren Sie die Bestellung nicht</string>
+    <string name="quxiaoguizemaijiadangrileijisibiquxiao">Stornierungsvorschriften: Der Käufer hat insgesamt vier Stornierungen am selben Tag,  n, die Kauffunktion am selben Tag einschränken.</string>
+    <string name="wozaixiangxiang">Ich werde darüber nachdenken.</string>
+    <string name="tijiaochenggong">Eingereicht erfolgreich</string>
+    <string name="jiaoyibizhong">Währung der Transaktion</string>
+    <string name="gendanjine">Währung der Transaktion</string>
+    <string name="wodejine">Mein Betrag</string>
+    <string name="weituomairuzongjine">Gesamtbetrag des anvertrauten Kaufs</string>
+    <string name="gendanshuliang">Anzahl der Dokumente</string>
+    <string name="wodeshuliang">Meine Nummer</string>
+    <string name="weituomaichuzongshuliang">Gesamtmenge der anvertrauten Verkäufe</string>
+    <string name="shengchengshijian">Zeit der Erzeugung</string>
+    <string name="guanbi">schließen</string>
+    <string name="zongzichan">Aktiva insgesamt</string>
+    <string name="gendanzongjine">Gesamtbetrag der Dokumentation</string>
+    <string name="zhuijia">Hinzufügen</string>
+    <string name="gaoshou">Mörder</string>
+    <string name="yuezonge">Bilanz/insgesamt</string>
+    <string name="shezhiguanli">Einstellung des Managements</string>
+    <string name="meicimairudegendanzuidajine">Maximaler dokumentarischer Betrag pro Kauf:</string>
+    <string name="querenshoukuanbingfangxing">Bestätigung des Eingangs und der Freigabe</string>
+    <string name="qingwubidengluwangshangyinhang">Bitte vergewissern Sie sich, dass Sie sich auf das Online-Banking- oder Drittzahlungskonto einloggen, um den Zahlungseingang zu bestätigen.</string>
+    <string name="woquerenyidenglushoukuanzhanghu">   Ich bestätige, dass ich mich beim Einzahlungskonto eingeloggt habe und dass die Einziehung korrekt ist.</string>
+    <string name="leixingxuanze">Auswahl des Typs</string>
+    <string name="zhuangtaixuanze">Auswahl des Status</string>
+    <string name="yiwancheng">Abgeschlossen</string>
+    <string name="daifukuan">Bis zur Zahlung</string>
+    <string name="yiquxiao">Storniert</string>
+    <string name="jiaoyijinecny">Betrag der Transaktion(HKD)</string>
+    <string name="qingshurujiaoyimima">Bitte geben Sie das Transaktionspasswort ein</string>
+    <string name="wangjijiaoyimima">Vergessen Sie das Transaktionspasswort</string>
+    <string name="zhifujine">Betrag der Zahlung</string>
+    <string name="qingzhunquezhifuyishangjine">Bitte zahlen Sie den oben genannten Betrag genau, sonst scheitert die Bestellung</string>
+    <string name="fuzhijine">Menge kopieren</string>
+    <string name="zhidaole">Ich hab\s.</string>
+    <string name="xiugaizhifumima">Passwort ändern</string>
+    <string name="wangjizhifumima">Passwort vergessen</string>
+    <string name="weitianjiazhanghu">Kein Konto hinzugefügt</string>
+    <string name="tianjia">hinzufügen zu</string>
+    <string name="xitonghuiweininshaixuanbaohanmubiaojinedeshangpin">Das System filtert die Elemente, die Zielmenge für Sie enthalten</string>
+    <string name="shangjiarenzheng">Authentifizierung durch Händler</string>
+    <string name="shoukuanguanli">Verwaltung der Sammlung</string>
+    <string name="xuanzeruchangquan">Tickets auswählen</string>
+    <string name="wodeyyb">Mein YYB:</string>
+    <string name="buchao">Nicht mehr als</string>
+    <string name="yujikedekedou">Gut, es wird erwartet.%s, die Ergebnisse unterliegen dem Ende des Tests, nur als Referenz.</string>
+    <string name="yucebuchao">Nicht mehr als</string>
+    <string name="gendanjingfencheng">Nettoanteil der Dokumentation=Anteil der Dokumentation-Gebühr für den technischen Service</string>
+    <string name="miandaraoshiduan">Unbeherrschte Zeit</string>
+    <string name="shengyin">Stimme</string>
+    <string name="zhendong">Vibration</string>
+    <string name="xuanzeshijianduan">Zeitraum auswählen</string>
+    <string name="gendanyinglie">Gewinn der Dokumentation</string>
+    <string name="shiyigensuigaohoudeyonghu">Interpretation: der Gesamtgewinn und der Verlust der Benutzer nach Experten in den letzten 30-Tagen.</string>
+    <string name="yinglinengli">Rentabilität</string>
+    <string name="shiyigaoshouzuijinsanshitian">Interpretation: der Durchschnittsertrag jeder Transaktion in den letzten 30-Tagen. Je größer der Wert, desto größer die individuelle Rentabilität.</string>
+    <string name="gendanshouyilv">Documentale Rendite</string>
+    <string name="shiyigensuigaoshoudeyonghuzuijin">Interpretation: der durchschnittliche Ertrag jeder Transaktion der Benutzer nach Experten in den letzten 30-Tagen. Je größer der Wert, desto besser das Benutzereinkommen nach dem Master.</string>
+    <string name="gendanshenglv">Dokumentierter Gewinnkurs</string>
+    <string name="shiyigensuigaoshouyinglidejilv">Interpretation: die Wahrscheinlichkeit, einem Experten zu folgen, um einen Gewinn zu erzielen. Je höher der Wert, desto höher die Wahrscheinlichkeit des dokumentarischen Profits.</string>
+    <string name="renqizhishu">Index der Popularität</string>
+    <string name="shiyigaoshouzuijinrenqi">Interpretation: die Anzahl der Anhänger von Experten in den letzten 30-Tagen. Je größer der Wert, desto mehr Anhänger und desto größer die Popularität.</string>
+    <string name="jianleixing">Art des Schlüssels</string>
+    <string name="baocunerweima">QR-Code speichern</string>
+    <string name="chongbidizhi">Adresse der Währung</string>
+    <string name="fuzhi">Kopie</string>
+    <string name="chongzhijine">Menge der Ladung</string>
+    <string name="qingshuruchongzhijine">Bitte geben Sie die Lademenge ein</string>
+    <string name="xuanzezhifufangshi">Wählen Sie Zahlungsmethode</string>
+    <string name="goumaiusdt">Kauf USDT</string>
+    <string name="goumaidanjia">Preis je Einheit: HK$</string>
+    <string name="qingshurugoumaijine">Bitte geben Sie den Kaufbetrag ein</string>
+    <string name="goumaishuliangusdt">Menge des Käufes:%sUSDT</string>
+    <string name="btcshuliang">BTC Menge</string>
+    <string name="usdtshouyi">Einnahmen von Usdt</string>
+    <string name="zhuanchubtcdaochicang">Übertragung von BTC auf Position</string>
+    <string name="qingshuruzhuanchushuliang">Bitte geben Sie die Transfermenge ein</string>
+    <string name="kezhuanchushuliang">Menge der Übertragung:</string>
+    <string name="dongjieshuliang">Menge gefroren:</string>
+    <string name="querenzhuanchu">Bestätigen Sie den Transfer</string>
+    <string name="shuruyonghuid">Benutzername eingeben</string>
+    <string name="qingkonglishi">Klare Geschichte</string>
+    <string name="sousuodaima">Code suchen</string>
+    <string name="jiazaishibaidianjichongxinshuaxin">Laden fehlgeschlagen, klicken Sie auffrischen</string>
+    <string name="yinhangka">Karte der Bank</string>
+    <string name="jiagezuiyou">Optimaler Preis</string>
+    <string name="xuanze">  Wahl</string>
+    <string name="xinzengshoukuanfangshi">Neue Sammelmethode</string>
+    <string name="gendanbeishushezhi">Dokumentierte mehrfache Einstellung</string>
+    <string name="beishu">mehrere</string>
+    <string name="qingshuruzhengzhengshu">Bitte geben Sie eine positive Ganzzahl ein</string>
+    <string name="zhisunshezhi">Einstellung des Verlustes anhalten</string>
+    <string name="qingshuruzhisunjiage">Bitte geben Sie den Stop-Loss-Preis ein</string>
+    <string name="zhiyingshezhi">Einstellung der Unterbrechung</string>
+    <string name="zhiyingjia">Stoppen des Gewinns</string>
+    <string name="qingshuruzhiyingjiage">Bitte geben Sie den Preis an</string>
+    <string name="zhiyingzhisunshezhi">Einstellung von Gewinn und Verlust stoppen</string>
+    <string name="wushezhi">Keine Einstellungen</string>
+    <string name="qingshuruzhiyingbili">Bitte geben Sie das Stop-Interferenz-Verhältnis ein</string>
+    <string name="zhisunjia">Anhalten des Verlustpreises</string>
+    <string name="qingshuruzhisunbili">Bitte geben Sie das Stoppverluste-Verhältnis ein</string>
+    <string name="woshi">Bin ich.</string>
+    <string name="yiruzhuprocoin">Ich habe mich in procoin niedergelassen und halte mein festes Angebot mit einem Klick auf</string>
+    <string name="wozhuanduoshaonijiuzhuanduoshao">Du kannst so viel verdienen wie ich.</string>
+    <string name="wwct">procoin</string>
+    <string name="huanqiushuzizichanjiaoyipingtai">Global Digital Asset Trading Platform</string>
+    <string name="weixinhaoyou">Wir chatten Freunde</string>
+    <string name="pengyouquan">Kreis der Freunde</string>
+    <string name="QQhaouyou">QQ Freunde</string>
+    <string name="QQkongjian">QQ Zone</string>
+    <string name="weibo">micro-blog</string>
+    <string name="xiangyouhuadonghuakuaitianchongpintu">Schieben Sie den Schieberegler nach rechts, um das Puzzle zu füllen</string>
+    <string name="huanyizhang">Eine ändern</string>
+    <string name="shuruhuochanganzhantiedizhi">Geben Sie oder lange drücken Sie die Paste-Adresse</string>
+    <string name="shurutibishuliang">Geben Sie die Widerrufsmenge ein</string>
+    <string name="ketibishuliang">Menge der Rücknahme:</string>
+    <string name="shouxufei">Service berechnen</string>
+    <string name="fanweidaobtc">Bereich %1$s-%2$s BTC</string>
+    <string name="zuixiaotibishuliangwei">Die Mindestentnahmemenge beträgt:</string>
+    <string name="daozhangshuliang">Erhaltene Menge:</string>
+    <string name="tibishuliang">Betrag der Auszahlung</string>
+    <string name="tibidizhi">Adresse der Währung extrahieren</string>
+    <string name="zhuangtai">Zustand</string>
+    <string name="dangqianweituo">Aktuelle Delegation</string>
+    <string name="dangqianchicang">Aktuelle Position</string>
+    <string name="zanwuweituo">Keine Beauftragung</string>
+    <string name="jiaoyie">ein Umsatz</string>
+    <string name="shichangweituo">Auftrag des Marktes</string>
+    <string name="yidangqianzuiyoujiagejiaoyi">Handel zum aktuellen besten Preis</string>
+    <string name="qingshurushoushu">Bitte geben Sie die Anzahl der Hände ein</string>
+    <string name="kekaishou">Hand öffnen%s</string>
+    <string name="kaicangbaozhengjinusdt">Spanne öffnen %s USDT</string>
+    <string name="kanzhangzuoduo">steigen</string>
+    <string name="kandiezuokong">Fall</string>
+    <string name="chengjiaoshijian">Zeit der Transaktion</string>
+    <string name="chengjiaojia">Preis der Transaktion</string>
+    <string name="chengjiaoliang">Volumen</string>
+    <string name="weituoshuliangbtc">Eingeführte Menge(BTC)</string>
+    <string name="chengjiaoshuliangbtc">Anzahl der Transaktionen(BTC)</string>
+    <string name="wodechengjiaobtc">Mein Deal.(BTC)</string>
+    <string name="gendanchengjiaobtc">Dokumentation der Transaktion(BTC)</string>
+    <string name="kanzhang">steigen</string>
+    <string name="kandie">Fall</string>
+    <string name="dangqiankaicang">Aktuelle Öffnung</string>
+    <string name="shoushu">Anzahl der Hände</string>
+    <string name="weituojia">Preis der Kommission</string>
+    <string name="kaicangbaozhengjin">Spanne öffnen</string>
+    <string name="shouyilv">Ertrag</string>
+    <string name="yingkuiusdt">Gewinn und Verlust(USDT)</string>
+    <string name="wodeweituobtc">Meine Provision(BTC)</string>
+    <string name="gendanweituobtc">Beauftragung mit Dokumenten(BTC)</string>
+    <string name="jilu">Datensatz</string>
+    <string name="cong">von</string>
+    <string name="dao">zu</string>
+    <string name="yuezhanghu">Bilanz</string>
+    <string name="guzhiqihuozhanghu">Konto des Aktienindex Futures</string>
+    <string name="huazhuanshuliang">Menge der Übertragung</string>
+    <string name="shuruhuazhuanshuliang">Geben Sie die Übertragungsmenge ein</string>
+    <string name="zhiyoujiangzichanhuazhuandaoxiangduiyingde">Transaktionen können nur durchgeführt werden, wenn Vermögenswerte auf entsprechende Konten übertragen werden. Es gibt keine Bearbeitungsgebühr für die Überweisung zwischen Konten</string>
+    <string name="leixing">Typ</string>
+    <string name="qingzai">Bitte innerhalb der angegebenen Zeit  </string>
+    <string name="neifukuangeiduifang">  Bezahlen Sie die andere Partei</string>
+    <string name="dingdanyiquxiao">Bestellung storniert</string>
+    <string name="lianxiduifang">Kontaktieren Sie einander</string>
+    <string name="goumaijine">Aufgekaufter Betrag</string>
+    <string name="shoukuanerweima">Sammlung QR-Code</string>
+    <string name="zhifubaozhanghao">Konto Alipay</string>
+    <string name="xiadanshijian">Zeit der Bestellung</string>
+    <string name="qingshiyongbenrenzhifubaoxiangyishangzhuanzhang">Bitte benutzen Sie mein Alipay, um auf das obige Konto zu überweisen. Bitte fügen Sie während des Transfers keine Anmerkungen hinzu. \N die Zahlung innerhalb der angegebenen Zeit abschließen. Nachdem die Zahlung abgeschlossen ist, klicken Sie auf [Zeichen wie bezahlt]</string>
+    <string name="quxiaodingdan">Stornierung der Bestellung</string>
+    <string name="quzhifu">Zu zahlen</string>
+    <string name="biaojiweiyizhifu">Markieren als bezahlt</string>
+    <string name="yinhangzhanghao">Bankkonto und</string>
+    <string name="yinhangkaxinxi">Informationen zur Bankkarte</string>
+    <string name="shoukuanren">Zahlungsempfänger</string>
+    <string name="qingzhunquezhifuyixiajine">Bitte zahlen Sie den folgenden Betrag genau, sonst scheitert die Bestellung</string>
+    <string name="zhifubaomingcheng">Alipay name</string>
+    <string name="weixinmingcheng">Name des Chats</string>
+    <string name="shengyushijian">Verbleibende Zeit</string>
+    <string name="zhuanzhangshiqingwutianjiarenhebeizhu">Bitte fügen Sie während der Übertragung keine Bemerkungen hinzu</string>
+    <string name="qingzaiguidingshijianneiwanchengzhifu">Bitte füllen Sie die Zahlung innerhalb der angegebenen Frist aus. Nach der Zahlung klicken Sie auf [Zeichen wie bezahlt]</string>
+    <string name="banbengengxin">Aktualisierung der Version</string>
+    <string name="faxianxinbanben">Entdecken Sie neue Versionen und erleben Sie mehr nach dem Upgrade</string>
+    <string name="shaohouzaishuo">Später</string>
+    <string name="lijishengji">Upgrade jetzt</string>
+    <string name="usdtshuoming">Beschreibung Usdt</string>
+    <string name="zhanghuyueusdt">Saldo des Kontos(USDT)</string>
+    <string name="weiwancheng">hängen in der Luft</string>
+    <string name="chongzhizongeyuan">Aufladung insgesamt(yuan)</string>
+    <string name="gendanrenshu">Anzahl der Personen</string>
+    <string name="jiaoyishouyi">Erträge aus Transaktionen</string>
+    <string name="zhunquelv">Genauigkeit</string>
+    <string name="shangyueshouyiusdt">Einnahmen letzten Monat(USDT)</string>
+    <string name="zhegerenhenlan">Kein Inhalt</string>
+    <string name="xiangqing">Details ></string>
+    <string name="agaoshoushouyilv">A.Master Rate of Return</string>
+    <string name="byonghugendanshouyilv">B.Benutzerdokumentarische Rendite</string>
+    <string name="cyinglizhanbi">C.Anteil der Gewinne</string>
+    <string name="drenqi">D.Popularität</string>
+    <string name="egendanyingkuileijijine">E.Kumulierter Betrag der dokumentarischen Gewinne und Verluste</string>
+    <string name="chicangbaifenhao">Position %s%</string>
+    <string name="yuebaofenhao">Bilanz %s%</string>
+    <string name="weikaitongdaidangongneng">Die einzelne Funktion ist nicht aktiviert und die Betriebsdaten werden nicht vorübergehend offengelegt</string>
+    <string name="wen">Problem</string>
+    <string name="qingshuruxieshenme">Bitte etwas eingeben</string>
+    <string name="zongshouyiusdt">Einnahmen insgesamt(USDT)</string>
+    <string name="zhengzaijiazaizhong">Laden…</string>
+    <string name="zhuanchubtc">Transfer BTC</string>
+    <string name="lijitiyan">Jetzt erleben</string>
+    <string name="zhengzaijiazaizhongqingshaodeng">Laden, bitte warten…</string>
+    <string name="tiaoguo">Skip</string>
+    <string name="xuanzeriqi">Datum auswählen</string>
+    <string name="tixianshuliang">Menge der Rücknahme</string>
+    <string name="shijia">der Marktpreis</string>
+    <string name="tijiaoshijian">Zeit der Einreichung</string>
+    <string name="zhanghuming">Name des Kontos</string>
+    <string name="tianjiashoukuanfangshi">＋ Methode der Sammlung hinzufügen</string>
+    <string name="muqianchiyouusdt">Aktuell halten:</string>
+    <string name="qingshurutixianshuliang">Bitte geben Sie die Widerrufsmenge ein</string>
+    <string name="tixianxuefenxf">Gutschriften für den Entzug(XF)</string>
+    <string name="shengyuxuefenxf">Weitere Kredite(XF):</string>
+    <string name="quanbutixian">Vollständiger Rückzug</string>
+    <string name="yigeyuenei">Innerhalb eines Monats</string>
+    <string name="sangeyuenei">Innerhalb von drei Monaten</string>
+    <string name="liugeyuenei">Innerhalb von sechs Monaten</string>
+    <string name="yiniannei">Innerhalb eines Jahres</string>
+    <string name="dangqianhuigoujiausdt">Derzeitige Rückkaufpreise(USDT)</string>
+    <string name="yybshuoming">Beschreibung YYB</string>
+    <string name="yichanchuyybzongliang">YYB-Ausgabe insgesamt</string>
+    <string name="yixiaohuiyybzongliang">Insgesamt YYB zerstört</string>
+    <string name="huigoujiazoushitu">Trendkarte des Rückkaufpreises</string>
+    <string name="huigou">Rückkauf</string>
+    <string name="shengyukehuigouyybshuliang">Verbleibende Rückkaufmenge YYB</string>
+    <string name="qingshuruhuigouyybshuliang">Bitte geben Sie die Menge des Rückkaufs YYB ein</string>
+    <string name="chiyouyybshuliang">Nummer des JJB gehalten:</string>
+    <string name="chakantadehaoyou">Sieh dir seine Freunde an.</string>
+    <string name="sousuochengyuan">Suche nach Mitgliedern</string>
+    <string name="duihuan">Austausch</string>
+    <string name="tihuo">Lieferung von Waren"</string>
+    <string name="fenhongjilu">Die Dividendenrechnung</string>
+    <string name="tihuoxingquan">Recht auf Lieferung</string>
+    <string name="fabu">Freigabe</string>
+    <string name="wodedingdan">Meine Bestellung</string>
+    <string name="bangzhu">Hilfe</string>
+    <string name="tuichucicibianji">Beenden Sie diese Bearbeitung?</string>
+    <string name="canshucuowu">Fehler des Parameters</string>
+    <string name="meiyouhuoqudaotupian">Keine Bilder erhalten</string>
+    <string name="baocuntupianchucuo">Fehler beim Speichern von Bildern</string>
+    <string name="baocuntupiandao">Bild speichern</string>
+    <string name="paizhao">Foto</string>
+    <string name="congxiangcehuoqu">Wählen Sie aus dem Album</string>
+    <string name="tupianxuanze">Auswahl der Bilder</string>
+    <string name="baocuntupian">Bild speichern</string>
+    <string name="caozuo">Betrieb</string>
+    <string name="laiyuanwwctjiaoyipingtaigendanwangyefenxiang">Quelle: Teilen mit der Dokumentationsseite der Procoin Handelsplattform</string>
+    <string name="meiyouhuoqudaowangyedizhi">Keine Webseite-Adresse erhalten, bitte die Seite erneut eingeben</string>
+    <string name="tupianbaocunshibai">Speichern der Bilder fehlgeschlagen</string>
+    <string name="shanchuhoujiangqingkong">Nach dem Löschen wird der Nachrichteneintrag des Chats gelöscht</string>
+    <string name="bunenggengzijiliaotian">Du kannst nicht mit dir reden.</string>
+    <string name="meiyougengduolishijilule">Keine Geschichte mehr</string>
+    <string name="shenqingliyou">Gründe für die Anmeldung: </string>
+    <string name="chuliren">Handler</string>
+    <string name="yitongguo">Passiert</string>
+    <string name="yijujue">Abgelehnt</string>
+    <string name="tishi">Tipps</string>
+    <string name="quedingchongfugaixiaoxi">Sind Sie sicher, dass Sie die Nachricht zurücksenden</string>
+    <string name="bule">nein</string>
+    <string name="chongfa">Weiterverbreitung</string>
+    <string name="quanzhu">Meister des Kreises</string>
+    <string name="zhucezhong">[Registrierung im Gange…]</string>
+    <string name="yuyinxiazaishibai">Voice Download fehlgeschlagen</string>
+    <string name="meiyousdka">Keine SD-Karte</string>
+    <string name="chongluhuishanchugangcaideluyin">Re recording will delete the recording just now</string>
+    <string name="dianjitaipinfanle">Klicken Sie zu oft</string>
+    <string name="anxialuyin">Press record</string>
+    <string name="zhengzailuyin">Aufnahme</string>
+    <string name="dianjibofang">Klicken Sie auf Spiel</string>
+    <string name="dianjitingzhi">Klicken Sie auf Stop</string>
+    <string name="qingquedingyoucharusdka">Sind Sie sicher, die SD-Karte einzufügen</string>
+    <string name="luyinshijiantaiduan">Die Aufnahmezeit ist zu kurz</string>
+    <string name="bofangyichang">Abnormale Wiedergabe</string>
+    <string name="qingshuruneirong">Bitte geben Sie den Inhalt ein</string>
+    <string name="suoyouchengyuan">Alle Mitglieder</string>
+    <string name="chengyuanshenqing">Antrag des Mitglieds</string>
+    <string name="tupian">Bild</string>
+    <string name="gong">insgesamt</string>
+    <string name="mingchengyuan">Mitglied</string>
+    <string name="pian">Artikel</string>
+    <string name="ge">Werkstück</string>
+    <string name="qingchuchenggong">erfolgreich gelöscht</string>
+    <string name="shifoutuichuquanzi">Verlassen Sie den Kreis?</string>
+    <string name="tuichu">Bild speichern</string>
+    <string name="yituichu">Ausgegrenzt</string>
+    <string name="nihaibushiquanzichengyuanwufachakan">Du bist noch kein Mitglied des Kreises. Du kannst es nicht sehen</string>
+    <string name="chuangjianquanzi">Kreis erstellen</string>
+    <string name="bianjiquanzi">Redaktioneller Kreis</string>
+    <string name="chuangjian">stellen</string>
+    <string name="qingshuruquanzimingzi">Bitte geben Sie den Kreisnamen ein</string>
+    <string name="quanzimingzitaichangle">Der Kreisname ist zu lang</string>
+    <string name="qingshuruquanzijianjie">Bitte geben Sie das Kreisprofil ein</string>
+    <string name="qingshangchuanquanzitouxiang">Bitte laden Sie einen Kreis-Avatar hoch</string>
+    <string name="xuanzehuifuderen">Wählen Sie die zu antwortende Person</string>
+    <string name="sousuoquanzi">Kreis suchen</string>
+    <string name="shezhijiarufangshi">Setze Verbindungsmethode</string>
+    <string name="quedingchexiaodingdan">Bestätigen Sie die Stornierung</string>
+    <string name="gendanjidaibiaonitongyibingjieshou">Dokumentation bedeutet, dass Sie zustimmen und akzeptieren</string>
+    <string name="fengxiantishi">Tipps für Risiken</string>
+    <string name="he">und</string>
+    <string name="gendanguize">Regeln der Dokumentation</string>
+    <string name="zuixiaogendanjine">Mindestdokumentarischer Betrag</string>
+    <string name="zuixiaozhuijiajine">Minimaler Zusatzbetrag</string>
+    <string name="yiyong">Verwendet</string>
+    <string name="zongshizhi">Marktwert insgesamt</string>
+    <string name="qingshurugendanzongjine">Bitte geben Sie den gesamten Dokumentbetrag ein</string>
+    <string name="zuidajinebunengdayugendanzongjine">Der Höchstbetrag kann nicht größer sein als die Gesamtmenge der Dokumentation</string>
+    <string name="qingshuruzuidajine">Bitte geben Sie den Höchstbetrag ein</string>
+    <string name="gendanjilu">Dokumentarfilm (englisch)</string>
+    <string name="yikouchugendanfenchengbufen">Gezielter dokumentarischer Anteil</string>
+    <string name="shizhixiaoyu">Marktwert kleiner als</string>
+    <string name="usdtdebizhong">Währung von usdt</string>
+    <string name="wenxintishi">Erinnerung</string>
+    <string name="zhengzaitingzhigendan">Stoppen des Merchandising</string>
+    <string name="mibigendanjineshangxian">Höchstbetrag je Dokumentation</string>
+    <string name="tingzhigendanjiangyishijiamaichuninsuoyoudegendanchicang">Stoppen der Verfolgung wird alle Ihre Tracking-Positionen zum Marktpreis verkaufen</string>
+    <string name="gendanyonghushuju">Dokumentierte Benutzerdaten</string>
+    <string name="chakanziliao">Informationen anzeigen</string>
+    <string name="siliao">Privater Chat</string>
+    <string name="quxiaoguanliyuan">Administrator abbrechen</string>
+    <string name="sheweiguanliyuan">Als Administrator setzen</string>
+    <string name="yichuchuquanzi">Aus dem Kreis entfernen</string>
+    <string name="yichuchuquanzibinglahei">Aus dem Kreis entfernen und löschen</string>
+    <string name="tian">Tag</string>
+    <string name="yijingruzhu">Schon geregelt</string>
+    <string name="daoqi">abgelaufen</string>
+    <string name="geguanzhu">Follower</string>
+    <string name="chongzhijineyuan">Menge der Lademenge (yuan)</string>
+    <string name="mairujineyuan">Gesamtkauf (yuan)</string>
+    <string name="tixianjineyuan">Auszahlungsbetrag (yuan)</string>
+    <string name="maichujineyuan">Verkaufsmenge (yuan)</string>
+    <string name="yiruzhu">Abgeschlossen</string>
+    <string name="zanwu">Noch nicht.</string>
+    <string name="benlunrengou">Aktuelles Abonnement</string>
+    <string name="shi">Stunde</string>
+    <string name="fen">Minute</string>
+    <string name="miao">Sekunde</string>
+    <string name="zanweikaifang">Noch nicht geöffnet</string>
+    <string name="dangqianzanwurengou">Derzeit kein Abonnement</string>
+    <string name="guzhiqihuozongzichanusdt">Aktiva des Aktienindex Futures insgesamt(USDT)</string>
+    <string name="waihuizongzichanusdt">Währungsreserven insgesamt(USDT)</string>
+    <string name="shuzihuobigendanzongzichanusdt">Dokumentenmaterial in digitaler Währung insgesamt(USDT)</string>
+    <string name="guojiqihuogendanzongzichanusdt">Insgesamt internationale Termindokumentarische Vermögenswerte(USDT)</string>
+    <string name="waihuigendanzongzichanusdt">Summe der Devisenpapierpapiere(USDT)</string>
+    <string name="weibangding">Ungebunden</string>
+    <string name="weikaiqi">Nicht geöffnet</string>
+    <string name="gendanshuzihuobizongzichanusdt">Dokumentarfilm-Aktiva der digitalen Währung insgesamt(USDT)</string>
+    <string name="gendanguzhiqihuozongzichanusdt">Dokumentarfilm-Aktiva des Aktienindex Futures insgesamt(USDT)</string>
+    <string name="shifoubaquanbukedouduihuanchengkbt">Möchten Sie alle XX in kBT konvertieren?</string>
+    <string name="muqianzanwukedou">Es gibt derzeit keine XX. Bitte gehen Sie zur kleinen Anwendung Blitzvorhersage, um sie zu erhalten</string>
+    <string name="weihuoqudaokefuxinxi">Informationen zum Kundendienst nicht erhalten</string>
+    <string name="yaoqinghaoyoukaiqihuanqiu">Freunde einladen, globale digitale Asset-Transaktion zu eröffnen</string>
+    <string name="tashi">TA ist</string>
+    <string name="woyizaiwwctyijiangenshangletadeshipanjiaoyi">Ich habe das feste Angebot von TA bei Procoin eingehalten.</string>
+    <string name="tazhuanleduoshaowojiuzhuanduoshao">Ich verdiene so viel, wie Ta verdient.</string>
+    <string name="yaoqinghaoyou">Freunde einladen</string>
+    <string name="fenxiangshibai">Teilen fehlgeschlagen</string>
+    <string name="huigoushuliangbunengdayu">Die Rückkaufmenge darf nicht größer sein als die verbleibende Rückkaufmenge YB</string>
+    <string name="qingquerenmeiyoufukuangeiduifang">Bitte bestätigen Sie, dass keine Zahlung an die andere Partei erfolgt</string>
+    <string name="qingshurubeishu">Bitte mehrere eingeben</string>
+    <string name="beishubunengweiling">Mehrere kann nicht 0 sein</string>
+    <string name="qingtianjiashoukuanfangshi">Bitte fügen Sie die Sammlungsmethode hinzu</string>
+    <string name="usdtyuebuzu">USDT Tut mir leid, dein Kredit ist knapp.</string>
+    <string name="qingshurumairujiage">Bitte geben Sie den Kaufpreis ein</string>
+    <string name="qingshurumairushuliang">Bitte geben Sie die Bestellmenge ein</string>
+    <string name="shifouquedingxiadan">Sind Sie sicher, eine Bestellung abzugeben?</string>
+    <string name="mairugaiyao">Zusammenfassung des Kaufs</string>
+    <string name="kekai">Kann geöffnet werden</string>
+    <string name="qingshurujiage">Bitte Preis eingeben</string>
+    <string name="qingshurumaichujiage">Bitte geben Sie den Verkaufspreis ein</string>
+    <string name="qingshurumaichushuliang">Bitte geben Sie die verkaufte Menge ein</string>
+    <string name="maichugaiyao">Zusammenfassung der Verkäufe</string>
+    <string name="xianjinmairu">Kauf in bar</string>
+    <string name="bibijilu">Datensatz der Währung</string>
+    <string name="shuzihuobijilu">Digitaler Währungsrekord</string>
+    <string name="guzhiqihuojilu">Digitaler Währungsrekord</string>
+    <string name="caiwujilu">Finanzielle Aufzeichnungen</string>
+    <string name="huazhuanjilu">Datensatz der Übertragung</string>
+    <string name="jishufuwufei">Gebühr für den technischen Service</string>
+    <string name="weituomairu">Eingeweihter Kauf</string>
+    <string name="gendanzhegensuiyujimairu">Erwartete Anschaffung durch den Merchandiser</string>
+    <string name="woyujimairushuliang">Ich erwarte zu kaufen</string>
+    <string name="weituomaichu">Eingeweihter Verkauf</string>
+    <string name="maichushuliang">Menge verkauft</string>
+    <string name="gendanzhegensuimaichu">Merchandiser folgen Verkauf</string>
+    <string name="gendanzhegensuiyujizongjine">Gesamt geschätzter Betrag der Dokumentation</string>
+    <string name="woyujijine">Mein geschätzter Betrag</string>
+    <string name="qingshurumairudanjia">Bitte geben Sie den Kaufpreis ein</string>
+    <string name="chibishuliangbuzu">Unzureichende Währung</string>
+    <string name="quedingmaichu">Sind Sie sicher, zu verkaufen?</string>
+    <string name="dingdangaiyao">Zusammenfassung der Bestellung</string>
+    <string name="fabigoumaiusdt">Kauf gesetzlicher Währung USDT</string>
+    <string name="qingnaixindenghouduifangfangbi">Bitte warten Sie geduldig, bis die andere Partei Geld ausgibt.</string>
+    <string name="daifangxing">Zur Freigabe</string>
+    <string name="dingdanyiwancheng">Bestellung abgeschlossen</string>
+    <string name="dingdanyiguoqi">Die Bestellung ist abgelaufen</string>
+    <string name="dingdanyicheixao">Bestellung storniert</string>
+    <string name="dingdanyibeixitongchexiao">Die Bestellung wurde vom System storniert</string>
+    <string name="dingdanyijingchaoshi">Die Reihenfolge ist abgelaufen</string>
+    <string name="qingquerenyifukuanfouzedingdanjiangzai">Bitte bestätigen Sie, dass die Zahlung erfolgt ist, sonst wird die Bestellung in 30 Minuten automatisch storniert. Automatische Stornierung 3-mal am Tag wird auf Kredit, böswilliges Verhalten eingefroren werden, und Cash-Payment-Funktion wird für 24-Stunden verfügbar sein</string>
+    <string name="yibiaojifukuan">Gezeichnete Zahlung</string>
+    <string name="shengyu">Überschuss</string>
+    <string name="shengyulingling">"00 Minuten und 00 Sekunden"</string>
+    <string name="qingxuanzezhifufangshi">Bitte wählen Sie die Zahlungsmethode</string>
+    <string name="qingxuanzetixianbizhong">Bitte wählen Sie Auszahlungswährung</string>
+    <string name="huoquxinxishibai">Fehler bei der Information</string>
+    <string name="qingxuazejianleixing">Bitte Schlüsseltyp auswählen</string>
+    <string name="qingtianxietibidizhi">Bitte füllen Sie die Rücknahmeadresse aus</string>
+    <string name="qingshurutibishuliang">Bitte geben Sie die Widerrufsmenge ein</string>
+    <string name="tibishuliangbuzu">Unzureichende Rücknahmemenge</string>
+    <string name="tibibizhong">Währung der Auszahlung</string>
+    <string name="querenqianqingzixiheduitibidizhixinxi">Bitte überprüfen Sie vor der Bestätigung sorgfältig die Angaben der Widerrufsdadresse, um einen unnötigen Immobilienverlust zu vermeiden.</string>
+    <string name="qingshuruhuazhuanshuliang">Bitte geben Sie die Transfermenge ein</string>
+    <string name="xiangtongzhanghuzhijianbunenghuazhuan">Kann nicht zwischen den gleichen Konten übertragen werden</string>
+    <string name="usdtzichan">Aktiva von Usdt</string>
+    <string name="ninhaiweitianjiashoukuanfangshi">Sie haben keine Sammelmethode hinzugefügt</string>
+    <string name="tixianshenqingyitijiao">Der Rücktrittsantrag wurde eingereicht und wartet auf die Zahlung von der Plattform</string>
+    <string name="tixianyiwancheng">Der Widerruf ist nun abgeschlossen</string>
+    <string name="usdttixian">Rücktritt von Usdt</string>
+    <string name="tixiandingdanxiangqing">Einzelheiten zur Auszahlung</string>
+    <string name="qingxianxuanzegendanleixing">Bitte wählen Sie zuerst den Dokumenttyp aus</string>
+    <string name="youxiangyanzhengma">E-Mail-Code zur Überprüfung</string>
+    <string name="bangdingchenggong">Verbinden erfolgreich</string>
+    <string name="jiaruwomen">Begleiten Sie uns</string>
+    <string name="wodeyongjin">Meine Provision</string>
+    <string name="wodeyaoqingma">Mein Einladungscode:</string>
+    <string name="anquanyanzheng">Überprüfung der Sicherheit</string>
+    <string name="yanzhengchenggong">Validierung erfolgreich</string>
+    <string name="lianjieshibai">Verbindung fehlgeschlagen</string>
+    <string name="kaiqitongzhituisong">Benachrichtigung aktivieren</string>
+    <string name="kaiqitongzhituisongjiangyouzhuyu">Wenn Sie die Benachrichtigung einschalten, erhalten Sie die neuesten Nachrichten.!\nEs wird dringend empfohlen, ihn einzuschalten</string>
+    <string name="xiacizaishuo">Nächstes Mal.</string>
+    <string name="qukaiqi">Zu öffnen</string>
+    <string name="zaianyicituichu">Drücken Sie erneut zum Ausgang</string>
+    <string name="lingtianlingshi">0 Tag 0 Stunden 00 Minute 00 Sekunde</string>
+    <string name="shifouquedingkaitongdaidangongneng">Sind Sie sicher, dass Sie die einzelne Funktion öffnen möchten?</string>
+    <string name="kaitongjidaibianniyiyuedu">Eröffnung bedeutet, dass Sie gelesen haben</string>
+    <string name="wwctdaidangongnengfuwuxieyi">Procoin Service Agreement mit einer einzigen Funktion</string>
+    <string name="bianjizixuan">Autoselektion bearbeiten</string>
+    <string name="quedingshanchuzixuan">Sind Sie sicher, dass Sie die AutoSelect löschen möchten</string>
+    <string name="weituodingdanxiangqing">Einzelheiten zum Versandauftrag</string>
+    <string name="duanxinyanzhengma">SMS-Verifikationscode (SMS)</string>
+    <string name="yanzhengma">Code der Überprüfung</string>
+    <string name="qingshuruduanxinyanzhengma">Bitte geben Sie SMS-Bestätigungscode ein</string>
+    <string name="huoquchenggong">Erfolg haben</string>
+    <string name="leidatushuoming">Beschreibung der Radarkarte</string>
+    <string name="yybyuce">YYB Prognose</string>
+    <string name="yucechaoguo">Vorhersage über</string>
+    <string name="caiduiyujikede">Es wird erwartet, dass es xx</string>
+    <string name="yybjieguoyijingcaijieshushiweizhun">YYB，Die Ergebnisse unterliegen dem Ende des Quizes und dienen nur als Referenz.</string>
+    <string name="qingshurupinglun">Bitte geben Sie einen Kommentar ein</string>
+    <string name="wenzitaichang">Text zu lang</string>
+    <string name="benchangyucejieshu">Diese Vorhersage ist vorbei, bitte warten Sie auf die nächste</string>
+    <string name="zanweiyuce">Noch nicht vorhergesagt</string>
+    <string name="pinglungchenggong">Comment success</string>
+    <string name="yuce">Prognose</string>
+    <string name="zai">bleiben</string>
+    <string name="xuanzerengou">Fakultatives Abonnement</string>
+    <string name="zichan">Aktiva</string>
+    <string name="shangjia">Auf das Regal legen</string>
+    <string name="yixiajia">Entfernt</string>
+    <string name="chushouzhong">Im Verkauf</string>
+    <string name="quedingshanchu">OK zu löschen</string>
+    <string name="shifouquedingshangjia">Sind Sie sicher, dass Sie es auf dem Regal?</string>
+    <string name="shifouquedingxiajia">Sind Sie sicher, dass Sie vom Regal?</string>
+    <string name="qingxuanzeshangjiashoukuanfangshi">Bitte wählen Sie die Sammelmethode</string>
+    <string name="quanbumairu">Alle kaufen</string>
+    <string name="shifukuan">Tatsächliche Zahlung</string>
+    <string name="caozuochaoshi">Ablauf der Operation</string>
+    <string name="qingquedingyidenglushoukuanzhanghu">Bitte bestätigen Sie, dass Sie sich im Einzahlungskonto eingeloggt haben und dass die Einziehung korrekt ist.</string>
+    <string name="qingquerenhaimeiyoufukuangeiduifang">Bitte bestätigen Sie, dass Sie die andere Partei nicht bezahlt haben</string>
+    <string name="dingdanjiangzai">Ordnung wird</string>
+    <string name="houchaoshiquxiao">Zeitüberschreitung nach XXX-Zeit storniert</string>
+    <string name="zhifubao">Alipay</string>
+    <string name="qingshurugoumaishuliang">Bitte geben Sie die Bestellmenge ein</string>
+    <string name="chushoushuliang">Menge verkauft</string>
+    <string name="bianjiguanggao">Werbung bearbeiten</string>
+    <string name="liuyanchangdubunengdayu">Die Länge der Nachricht kann nicht größer als 140 Zeichen sein</string>
+    <string name="qingxuanzeshoufukuanfangshi">Bitte wählen Sie die Zahlungsmethode</string>
+    <string name="qingshuruzuidaxiane">Bitte geben Sie die maximale Grenze ein</string>
+    <string name="qingshuruzuixiaoxiane">Bitte geben Sie die Mindestgrenze ein</string>
+    <string name="qingshurushuliang">Bitte geben Sie die Menge</string>
+    <string name="dangqianchushouzuidijia">Der aktuelle niedrigste Verkaufspreis</string>
+    <string name="quedingshenqingquxiaoshangjiarenzheng">Sind Sie sicher, dass Sie eine Stornierung der Merchant Authentifizierung beantragen?</string>
+    <string name="zhengzaishenqingquxiaoshangjiarenzheng">Anwendung zur Löschung der Händlerauthentifizierung</string>
+    <string name="shenqingquxiaoshangjiarenzheng">Beantragen Sie eine Stornierung der Händlerauthentifizierung</string>
+    <string name="renzhengzhong">Unter Zertifizierung</string>
+    <string name="yishiming">Echter Name schon</string>
+    <string name="weishiming">Kein richtiger Name</string>
+    <string name="shanjiafuwuxieyi">Kaufmännischer Dienstleistungsvertrag</string>
+    <string name="zuoweiguanggaobaozhengzichanqietongyi">Als Garantievermögen des Inserenten und stimmt</string>
+    <string name="tongyidongjie">Vereinbaren Sie das Einfrieren</string>
+    <string name="qianwangshiming">Gehe zum richtigen Namen</string>
+    <string name="weishimingbunengshenqingshangjiarenzheng">Sie können keine Merchant Authentifizierung ohne Ihren echten Namen beantragen. Bitte reichen Sie die Merchant Authentication-Anwendung nach der Authentifizierung Ihres echten Namens ein.</string>
+    <string name="weishimingbunengshenqingshangjia">Sie können keine Merchant Authentifizierung ohne Ihren richtigen Namen beantragen</string>
+    <string name="dingdanyichaoshi">Die Reihenfolge ist abgelaufen</string>
+    <string name="hao">Anzahl</string>
+    <string name="wodeguanggao">Meine Anzeige</string>
+    <string name="shensutixing">Erinnerung an Beschwerde</string>
+    <string name="qingxuanzeshensuliyou">Bitte wählen Sie den Grund für die Beschwerde</string>
+    <string name="liuyanbunengchaoguosanbaigezifu">Die Nachricht darf 300 Zeichen nicht überschreiten</string>
+    <string name="dingdanjilu">Datensatz der Bestellung</string>
+    <string name="xuanzeguojiahuodiqu">Bitte wählen Sie ein Land oder eine Region</string>
+    <string name="sousuoguojiahuodiqu">Suche nach Land</string>
+    <string name="zhucezhanghu">Registriertes Konto</string>
+    <string name="chongxinhuoqu">Wiederaufforderung</string>
+    <string name="wwctyinsitiaokuan">《procoin Klausel zum Datenschutz》</string>
+    <string name="wwctyonghuxieyi">《procoinZustimmung des Benutzers》</string>
+    <string name="zhucejidaibiaoniyitongyibingjieshou">Durch die Registrierung haben Sie zugestimmt und akzeptiert</string>
+    <string name="duanxinyanzhengmayijingfasongzhi">SMS-Verifizierungscode wurde an</string>
+    <string name="qingchongxinhuoquyanzhengma">Bitte erhalten Sie den Verifizierungscode erneut</string>
+    <string name="cuowutishi">Eingabeaufforderung für Fehler</string>
+    <string name="nindehuihuayijingguoqi">Ihre Sitzung ist abgelaufen,Bitte melden Sie sich erneut an</string>
+    <string name="weizhileixing">unbekannter Typ</string>
+    <string name="quanbutupian">Alle Bilder</string>
+    <string name="zhang">Article</string>
+    <string name="huiyuan">Mitglied</string>
+    <string name="wei">Anzahl der Personen</string>
+    <string name="heji">insgesamt</string>
+    <string name="yuezhanghukeyong">Bilanz verfügbar</string>
+    <string name="shezhiwuxiao">Ungültige Einstellung</string>
+    <string name="nian">Jahr</string>
+    <string name="ri">Tag</string>
+    <string name="riqibunengchaoguojintian">Das Datum kann heute nicht überschreiten</string>
+    <string name="tianjiazhifubao">Alipay hinzufügen</string>
+    <string name="tianjiaweixin">Wechat hinzufügen</string>
+    <string name="qingtianjiashoukuanerweima">Bitte fügen Sie die Sammlung QR-Code hinzu</string>
+    <string name="tianjiayinhangka">Bankkarte hinzufügen</string>
+    <string name="qingshurukaihuyinhangmingcheng">Bitte geben Sie den Namen der Bank ein</string>
+    <string name="tianjiazhanghuleixing">Kontoart hinzufügen</string>
+    <string name="shanchushibai">Löschen fehlgeschlagen</string>
+    <string name="shanchuchenggong">Löschen erfolgreich</string>
+    <string name="wodesixin">Mein Privatbrief</string>
+    <string name="qingshangchuanguohuizhao">Bitte laden Sie das nationale Emblem-Foto hoch</string>
+    <string name="qingshangchuanrenxiangzhao">Bitte laden Sie ein Portrait</string>
+    <string name="qingshurushenfenzhenghaoma">Bitte geben Sie Ihre ID-Nummer ein</string>
+    <string name="gerenshezhi">Persönliche Einstellungen</string>
+    <string name="nindeziliaoyijingxiugaishifoubaocun">Ihre Daten wurden geändert. Möchten Sie sie speichern?</string>
+    <string name="gengxinxinxichenggong">Aktualisierung erfolgreich</string>
+    <string name="weixiugai">nicht geändert</string>
+    <string name="qingshurumingzi">Bitte geben Sie einen Namen ein</string>
+    <string name="qingshuruyidaoliugezhongming">Bitte geben Sie 1–6 chinesische Namen oder 1–12 englische Namen ein</string>
+    <string name="yonghumingguoduan">Der Benutzername ist zu kurz</string>
+    <string name="yonghumingguochang">Der Benutzername ist zu lang</string>
+    <string name="wenzitaichangyisiling">Der Text ist zu lang, um 140 Zeichen zu überschreiten</string>
+    <string name="qingxuanzetupian">Bitte wählen Sie ein Bild</string>
+    <string name="chucuole">出错了</string>
+    <string name="dangqianzuiduotianjia">当前最多添加</string>
+    <string name="zhangtupian">Bild</string>
+    <string name="quanbushipin">Alle Videos</string>
+    <string name="shipinbucunzai">Video existiert nicht</string>
+    <string name="shipindaxiaobunengchaoguo">Die Videogröße kann nicht überschreiten</string>
+    <string name="qingshuruyuanmima">Bitte geben Sie das Originalpasswort ein</string>
+    <string name="xuanzeshoukuanfangshi">Wählen Sie die Sammelmethode</string>
+    <string name="wanshang">Nacht</string>
+    <string name="xiawu">Nachmittag</string>
+    <string name="shangwu">Morgen</string>
+    <string name="lingchen">vor Sonnenaufgang</string>
+    <string name="zhongwu">mittags</string>
+    <string name="qingchongxindenglu">Bitte melden Sie sich erneut an</string>
+    <string name="genghuanshoujihaoma">Ändern Sie die Mobiltelefonnummer</string>
+    <string name="zhuxiao">Stornierung</string>
+    <string name="niquedingyaozhuxiaoma">Bist du sicher, dass du unterschreiben willst??</string>
+    <string name="huoquhuancundaxiaocuowu">Fehler bei der Cache-Größe erhalten</string>
+    <string name="zhengzaiqingli">Die Reinigung…</string>
+    <string name="huancunyiqingli">Cache gereinigt</string>
+    <string name="quedingyaoqingchuhuancun">Sind Sie sicher, dass Sie den Cache löschen wollen?</string>
+    <string name="zanbuqingli">Keine Reinigung für die Zeit</string>
+    <string name="qingli">klar</string>
+    <string name="yibangding">Abgebunden</string>
+    <string name="shenqingbangding">Verbindlich für die Anwendung</string>
+    <string name="mianfeidingyue">Kostenloses Abonnement</string>
+    <string name="yidingyue">Gezeichnet</string>
+    <string name="dingyueyiguoqi">Das Abonnement ist abgelaufen</string>
+    <string name="shifoudingyuegaiyonghu">Abonnieren Sie diesen Benutzer?</string>
+    <string name="shenqingbangdingxuzhi">Hinweise für die Anwendung</string>
+    <string name="yichuzhezhangzhaopianma">Dieses Foto entfernen?</string>
+    <string name="changanshexiang">Lange Druckkamera</string>
+    <string name="quedingjidaibiaoniyitongyibingjieshou">Indem Sie bestätigen, haben Sie zugestimmt und akzeptiert</string>
+    <string name="shuzizichanjiedaifuwuhetong">Dienstleistungsauftrag für digitale Anlagekredite</string>
+    <string name="gangganjiaoyixieyi">Vereinbarung über Leveraged Transaction</string>
+    <string name="jiaoyifuwuxieyi">Vereinbarung über Transaktionsdienste</string>
+    <string name="zhisunbunengdayu">Der Verlust kann nicht größer sein als</string>
+    <string name="cunbibao">Geld sparen</string>
+    <string name="keyongshuliangbuzu">Nicht genügend verfügbare Menge</string>
+    <string name="qingshuruzhuanrushuliang">Bitte geben Sie den Transfer in Menge ein</string>
+    <string name="qingzuidizhuanru">Minimaler Transfer in</string>
+    <string name="shuliangdaocunbibao">Menge zur Aufbewahrung von Schätzen</string>
+    <string name="shifouyidangqianshijiapingcang">Ob die Position zum aktuellen Marktpreis geschlossen wird</string>
+    <string name="kehzuanchushuliangbuzu">Unzureichende Transfermenge</string>
+    <string name="qingshuruzhuanchu">Bitte geben Sie den Transfer ein</string>
+    <string name="shuliangdaochicang">Menge an Position</string>
+    <string name="shouyi">Gewinn</string>
+    <string name="yunxulaizicilaiyuandeyingyonghou">Erlauben Sie Apps aus dieser Quelle, bevor sie aktualisiert werden können</string>
+    <string name="wanchengyanzhenghoudenglu">Melden Sie sich nach Überprüfung an</string>
+    <string name="wanchengyanzhenghouhuoquyanzhengma">Den Verifikationscode nach Prüfung erhalten</string>
+    <string name="yifuzhidaoniantieban">Kopiert zu Pasteboard</string>
+    <string name="shoujihaomabunengweikong">Mobiltelefon kann nicht leer sein</string>
+    <string name="laingcishurudemimabuxiangtong">Die beiden Passwörter sind unterschiedlich</string>
+    <string name="fangwencunchukongjian">Zugang zum Speicherplatz</string>
+
+
+    <string name="finish">vollständig</string>
+    <string name="download">Herunterladen</string>
+    <string name="jump">Skip</string>
+    <string name="next">nächster Schritt</string>
+    <string name="input">Eingabe</string>
+    <string name="download_finish">geöffnet</string>
+    <string name="request_failed">Anfrage fehlgeschlagen, bitte wiederholen!</string>
+    <!--<string user_name="hello_world">Hello world!</string>-->
+    <string name="novalue">---</string>
+    <string name="weipanSubcribeTips">* Investitionen sollten vorsichtig sein. Expertenbetrieb dient nur als Referenz, Lernen und Kommunikation und stellt keine Anlagevorschläge dar. Nutzer agieren entsprechend auf eigene Gefahr.</string>
+    <string name="weekBoard">Wöchentliche Einstufung</string>
+    <string name="novalueTime">--:--:--</string>
+    <string name="rewardCode">Code der Belohnung</string>
+    <string name="rewardRecord">Rekord der Belohnung</string>
+    <string name="inputRewardCode">Code eingeben</string>
+    <string name="luckyboxBest">Viel Glück</string>
+    <string name="luckyMessage">Herzlichen Glückwunsch zum Vermögen!</string>
+    <string name="reportTips">Wählen Sie den Grund für die Beschwerde</string>
+    <string name="accountWarning">Dieses Konto wurde von vielen Benutzern beschwert. Bitte schützen Sie Ihre Privatsphäre und Sicherheit während der Kommunikation</string>
+    <!--<string user_name="action_settings">Settings</string>-->
+    <string name="refresh">Aktualisieren</string>
+    <string name="scan_qrcode">scannen</string>
+    <string name="load_desc_loading">Laden&#8230;</string>
+    <string name="load_desc_sending">Senden&#8230;</string>
+    <string name="load_desc_getcode">Erhalten von Verifikationscode, bitte warten&#8230;</string>
+    <!-- Letzte Auffrischungszeit herunterladen -->
+    <string name="tip_home_new_desc"> Wenn es eine neue Nachricht gibt, rufen Sie refresh</string>
+    <!-- Angebot -->
+    <string name="add_my_stock">AutoSelect hinzufügen</string>
+    <string name="add_mystock">Optionale Aktien hinzufügen</string>
+    <string name="del_mystock">Optionale Freigaben löschen</string>
+    <string name="home_main_head_more">Weitere\nOptionen\n\n</string>
+    <string name="stock_my_stock">Meine optionalen Aktien</string>
+    <string name="stock_add_my_stock">Optionale Aktien hinzufügen</string>
+    <string name="stock_setup_my_stock">Optionale Lagerverwaltung</string>
+    <string name="stock_search">Suche</string>
+    <string name="stock_more">mehr</string>
+    <string name="stock_name_fdm">Code des Namens</string>
+    <string name="stock_action_zjcj">Aktuelle Preise</string>
+    <string name="stock_action_rate">Spanne der Fluktuation</string>
+    <string name="stock_action_add">hinzufügen zu</string>
+    <string name="stock_action_setting">Verwaltung</string>
+    <string name="stock_action_mintime">Teilen der Zeit</string>
+    <string name="stock_action_kline">Linie K</string>
+    <string name="stock_action_f10">Daten</string>
+    <string name="stock_action_theme">Gruppe der Bestände</string>
+    <string name="stock_action_hot">Hotspot</string>
+    <string name="stock_action_broadcast">Live Übertragung</string>
+    <string name="stock_broadcast_aticle">Artikel live</string>
+    <string name="stock_shijian">Zeit</string>
+    <string name="stock_xianshou">Gegenwärtige Hand</string>
+    <string name="stock_sell_1">Verkauf①</string>
+    <string name="stock_sell_2">Verkauf②</string>
+    <string name="stock_sell_3">Verkauf③</string>
+    <string name="stock_sell_4">Verkauf④</string>
+    <string name="stock_sell_5">Verkauf⑤</string>
+    <string name="stock_buy_1">Kauf①</string>
+    <string name="stock_buy_2">Kauf②</string>
+    <string name="stock_buy_3">Kauf③</string>
+    <string name="stock_buy_4">Kauf④</string>
+    <string name="stock_buy_5">Kauf⑤</string>
+    <string name="stock_zgcj">Maximal</string>
+    <string name="stock_zdcj">Minimum</string>
+    <string name="stock_jrkp">das Eröffnungsangebot</string>
+    <string name="stock_rate">Erhöhung</string>
+    <string name="stock_amt">Aufstieg und Fall</string>
+    <string name="stock_fuquan">Wiedereinerklärte Rechte</string>
+    <string name="stock_rixian">Tag</string>
+    <string name="stock_m5">MA5:</string>
+    <string name="stock_m10">MA10:</string>
+    <string name="stock_m30">MA30:</string>
+    <string name="stock_rate_rank">Liste vergrößern</string>
+    <string name="stock_5rate_rank">5-minütige Aufstiegsliste</string>
+    <string name="stock_lingzhang_bk">Blech führen</string>
+    <string name="stock_lingzhang_gu">Führende Erwerbspersonen</string>
+
+    <string-array name="stock_list_menu">
+        <item>Meine optionalen Aktien</item>
+        <item>Auswahl der Freunde</item>
+    </string-array>
+
+    <string name="myStockList">Meine optionalen Aktien</string>
+    <string name="myFrdsStockList">Auswahl der Freunde</string>
+    <string name="stock_A_hot">Hot Spot A-Share</string>
+    <string name="stock_dapanzhibo">Live-Übertragung auf dem Markt</string>
+    <string name="rate">Erhöhung%</string>
+    <string name="price">Aktuelle Preise</string>
+    <string name="name">Name</string>
+
+    <string-array name="stock_hot_list_menu">
+        <item>Shanghai und Shenzhen A Aktien Ranking</item>
+        <item>Hu A Ranking</item>
+        <item>Shen A Ranking</item>
+        <item>Ranking der KMU</item>
+        <item>Rang der Steine</item>
+        <item>Rangfolge der Platten</item>
+        <item>Shanghai und Shenzhen A Aktien Rangfolge der 5-minütigen Geschwindigkeitszunahme</item>
+        <item>Hu A Rangfolge der 5-minütigen Geschwindigkeitszunahme</item>
+        <item>Shen A Rangfolge der 5-minütigen Geschwindigkeitszunahme</item>
+        <item>Hu B Ranking</item>
+        <item>Shen B Ranking</item>
+        <item>Ranking of Shanghai and Shenzhen Fonds</item>
+    </string-array>
+
+    <string name="index_0">Shanghai und Shenzhen A Aktien Ranking</string>
+    <string name="index_1">Hu A Ranking</string>
+    <string name="index_2">Shen A Ranking</string>
+    <string name="index_3">Ranking der KMU</string>
+    <string name="index_4">Rang der Steine</string>
+    <string name="index_5">Rangfolge der Platten</string>
+    <string name="index_6">Shanghai und Shenzhen A Aktien Rangfolge der 5-minütigen Geschwindigkeitszunahme</string>
+    <string name="index_7">Hu A Rangfolge der 5-minütigen Geschwindigkeitszunahme</string>
+    <string name="index_8">Shen A, Rangfolge der 5-minütigen Geschwindigkeitszunahme</string>
+    <string name="index_9">Shanghai B Ranking</string>
+    <string name="index_10">Shen B Ranking</string>
+    <string name="index_11">Ranking of Shanghai and Shenzhen Fonds</string>
+
+    <string-array name="stock_f10">
+        <item>Journalismus</item>
+        <item>Mitteilung</item>
+        <item>Research Report</item>
+        <item>Erhebung</item>
+        <item>Finanzen</item>
+        <item>ein Bonus</item>
+        <item>Aktionär</item>
+        <item>Senior Executive</item>
+    </string-array>
+
+    <string name="homepagefrnewggdtop">%1$s die %2$s von %3$sgeprüft</string>
+
+    <!-- Meine Neuigkeiten -->
+    <string name="my_msg">News</string>
+    <string name="business">Transaktion</string>
+    <string name="jf">Integral</string>
+    <!-- Gruppe der Börsenfreunde -->
+    <string name="square">Gruppe der Börsenfreunde</string>
+    <string name="square_newest">Neueste</string>
+    <string name="square_stock">Optionale Aktien</string>
+    <string name="square_stock2">Optional</string>
+    <string name="square_mine">mein</string>
+    <string name="square_topic">Thema suchen</string>
+    <string name="square_edit_topic">Post</string>
+    <string name="square_info_title">Thema Post</string>
+    <!-- <string user_name="square_store">Erhebung</string> -->
+    <string name="square_unstore">Sammlung abbrechen</string>
+    <string name="square_order_desc">Ansicht in umgekehrter Reihenfolge</string>
+    <string name="square_order_asc">Positive Auftragsansicht</string>
+    <string name="square_frds_of_good">Wie Menschen</string>
+    <string name="allSquare">%1$sBeiträge</string>
+    <string name="followNum">%1$sBoden</string>
+    <string name="goSquare">Gehe zu% 1 $s</string>
+    <string name="shareToFriendCircleFromSystem">Teilen Sie mit Freunden auf der Taojin Road</string>
+    <string name="shareToSquareFromSystem">Teilen Sie mit der Taojin Road Group</string>
+    <string name="shareToCircleFromSystem">Mit dem goldenen Straßenkreis teilen</string>
+    <string name="send">Senden Sie</string>
+    <string name="squareSendTitle">Post</string>
+    <string name="friend_circle">Soziale Updates</string>
+    <string name="goFriend_circle">Gehe zu% 1 $s</string>
+    <string name="friend_circle_send_title">Äußere Meinungen</string>
+    <string name="friend_circle_frds_title">Standpunkt des Freundes</string>
+    <string name="success">%1$sErfolg</string>
+    <string name="unsuccess">%1$sfehlgeschlagen</string>
+    <string name="unStore">Abholung storniert</string>
+    <string name="storeSuccess">Sammlung erfolgreich</string>
+
+    <!-- Kalender der Aktienmärkte -->
+    <string name="stockschedule">Kalender der Aktienmärkte</string>
+    <string name="stockschedule_pullLable">Frühere Termine finden</string>
+    <string name="stockschedule_refreshingLabel">Laden…</string>
+    <string name="stockschedule_releaseLabel">Lassen Sie los und laden Sie einen früheren Zeitplan</string>
+    <string name="stockschedule_refreshSuccessLabel">Laden erfolgreich</string>
+    <string name="comment">Kommentar</string>
+    <string name="share">Aktie</string>
+    <string name="report">Beschwerde</string>
+
+    <!-- Gemeinsamer Text -->
+    <string name="shareToFriends">Mit Freunden teilen</string>
+    <string name="shareToWeibo">Teilen Sie mit sina Weibo</string>
+    <string name="shareToTalkie">Mit Aktienfreunden teilen</string>
+    <string name="shareToFrTalkie">Mit Freunden teilen</string>
+    <string name="shareToChat">Frei zum privaten Chat</string>
+    <string name="shareToCircle">Teilen zum Kreis</string>
+    <string name="shareToWeChat">Weiter zu unseren Freunden</string>
+    <string name="shareToWeChatQuan">Vorwärts zu wechat Kreis von Freunden</string>
+    <string name="shareImageToFriends">Teilen Sie mit Freunden auf der Taojin Road</string>
+    <string name="shareImageToWeibo">Weiter nach Sina Weibo</string>
+    <string name="shareImageWeChat">Weiter zu unseren Freunden</string>
+    <string name="shareImageWeChatQuan">Vorwärts zu wechat Kreis von Freunden</string>
+    <string name="shareImagePaper">Weiter zur Zeitung</string>
+    <string name="doddletext">Doppelklicken, um den Text zu ändern</string>
+    <string name="weichatFriends">Wir chatten Freunde</string>
+    <string name="weichatCircle">Der Kreis der Freunde</string>
+    <!-- Zeitung -->
+    <string name="more">mehr</string>
+    <string name="newsstander">Zeitungskiosk</string>
+    <string name="myCreatePaper">Die Zeitung, die ich geschaffen habe</string>
+    <string name="mySubscriberPaper">Die Zeitung, die ich abonniere</string>
+    <string name="createPaper">Eine Zeitung erstellen</string>
+    <string name="delPaper">Zeitung löschen</string>
+    <string name="planeActivityTitle">Datenspalte für Medien</string>
+    <string name="pp_createArticle">Sie haben noch keine Artikel erstellt. Beeilen Sie sich, sie zu erstellen!</string>
+    <string name="introduction">kurze Einführung</string>
+    <string name="menu">Betrieb</string>
+    <string name="publishArticle">einen Artikel veröffentlichen</string>
+    <string name="editPaper">Eine Zeitung bearbeiten</string>
+    <string name="paperIntroduction">Einführung der Zeitung</string>
+    <string name="pp_newsurl">Klicken Sie auf die externe Verbindung, um den vollständigen Text zu lesen</string>
+    <string name="pp_sending">Artikel veröffentlichen</string>
+    <string name="pp_remainNum">Übrige Worte:140/140</string>
+    <string name="publish">veröffentlichen</string>
+    <string name="sure">bestimmen</string>
+    <string name="paperInfo">Einführung der Zeitung</string>
+    <string name="modify">ändern</string>
+    <string name="modifyName">Name bearbeiten</string>
+    <string name="modifyInfo">Einführung von Änderungen</string>
+    <string name="submit">Senden</string>
+    <string name="complete">vollständig</string>
+    <string name="allSubscriberPeople">Alle Abonnenten</string>
+    <string name="allListenerPeople">Alle Hörer</string>
+    <string name="articleInfo">Einzelheiten zum Artikel</string>
+    <string name="changeToMyPaper">Geh zu meiner Zeitung</string>
+    <string name="newspaper">Zeitung</string>
+    <string name="pp_publishPaper">Zeitung erstellen</string>
+    <string name="addCustomCategory">Hinzufügen einer benutzerdefinierten Klassifikation</string>
+    <string name="create">stellen</string>
+    <string name="issue">veröffentlichen</string>
+    <string name="customCategory">Benutzerdefinierte Klassifikation hinzufügen</string>
+    <string name="otherCategory">Sonstige Kategorien</string>
+    <string name="hisOtherPapers">Andere Zeitungen von Ta</string>
+    <string name="close">schließen</string>
+    <string name="paperdelete">Zeitung löschen</string>
+    <string name="isNewsGoodOrBad">Was denkst du, ist die Nachricht</string>
+
+    <!-- Die heutigen Schlagzeilen -->
+    <string name="todayHotnews">Die heutigen Schlagzeilen</string>
+    <string name="tjrHotnews">Goldrausch Schlagzeilen</string>
+    <string name="newsInfo">detailliert</string>
+    <string name="topLine">Überschriften</string>
+
+    <string-array name="hotnewsShare">
+        <item>Kreis</item>
+        <item>Privater Chat</item>
+        <item>Freund der Börse</item>
+        <item>Wir chatten Freunde</item>
+        <item>Der Kreis der Freunde</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+
+    <string-array name="stockIndexDel">
+        <item>Optionale Freigaben löschen</item>
+        <item>Kreis</item>
+        <item>Privater Chat</item>
+        <item>Freund der Börse</item>
+        <item>Wir chatten Freunde</item>
+        <item>Der Kreis der Freunde</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+    <string-array name="stockIndexAdd">
+        <item>Optionale Aktien hinzufügen</item>
+        <item>Kreis</item>
+        <item>Privater Chat</item>
+        <item>Freund der Börse</item>
+        <item>Wir chatten Freunde</item>
+        <item>Der Kreis der Freunde</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+    <string-array name="newspaperShare">
+        <item>Kreis</item>
+        <item>Privater Chat</item>
+        <item>Freund der Börse</item>
+        <item>Wir chatten Freunde</item>
+        <item>Der Kreis der Freunde</item>
+        <item>Sina Weibo</item>
+        <item>Weiter zur Zeitung</item>
+    </string-array>
+
+    <string-array name="microShare">
+        <item>Kreis</item>
+        <item>Freund der Börse</item>
+        <item>Wir chatten Freunde</item>
+        <item>Der Kreis der Freunde</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+    <string-array name="stockDel">
+        <item>Optionale Freigaben löschen</item>
+        <item>Kreis</item>
+        <item>Privater Chat</item>
+        <item>Freund der Börse</item>
+        <item>Wir chatten Freunde</item>
+        <item>Der Kreis der Freunde</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+    <string-array name="stockAdd">
+        <item>Optionale Aktien hinzufügen</item>
+        <item>Kreis</item>
+        <item>Privater Chat</item>
+        <item>Freund der Börse</item>
+        <item>Wir chatten Freunde</item>
+        <item>Der Kreis der Freunde</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+
+    <string-array name="stockSchedule">
+        <item>Kommentar</item>
+        <item>Kreis</item>
+        <item>Freund der Börse</item>
+        <item>Wir chatten Freunde</item>
+        <item>Der Kreis der Freunde</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+
+    <string-array name="circleInvite">
+        <item>Wir chatten Freunde</item>
+        <item>Der Kreis der Freunde</item>
+        <item>Liebe Freunde</item>
+    </string-array>
+    <string-array name="appInvite">
+        <item>Wir chatten Freunde</item>
+        <item>Der Kreis der Freunde</item>
+        <item>Sina Weibo</item>
+    </string-array>
+
+    <string-array name="appwebshare">
+        <item>Wir chatten Freunde</item>
+        <item>Der Kreis der Freunde</item>
+    </string-array>
+
+    <!-- Meine Homepage beginnt -->
+    <string-array name="myhomepageMyinfoPermissionsaction">
+        <item>Nur für sich sichtbar</item>
+        <item>Nur für Freunde sichtbar</item>
+        <item>Sichtbar für jedermann</item>
+    </string-array>
+    <!-- Der Standardwert wird nicht angezeigt, so füllen Sie einen Leerwert aus -->
+    <string-array name="myhomepageMyinfostyleaction">
+        <item>Kurzfristiger radikaler Typ</item>
+        <item>Midline Band type</item>
+        <item>Langfristig robust</item>
+    </string-array>
+    <!-- Der Standardwert wird nicht angezeigt, so füllen Sie einen Leerwert aus -->
+    <string-array name="myhomepageMyinfostockage">
+        <item>Schüler der Grundschule (innerhalb eines halben Jahres)</item>
+        <item>Schüler der Mittelschule (ein halbes Jahr - 2 Jahre)</item>
+        <item>Studentinnen und Studenten (2–10 Jahre)</item>
+        <item>Alte Aktionäre (mehr als zehn Jahre)</item>
+    </string-array>
+    <string-array name="squareConcerStockage">
+        <item> </item>
+        <item>Schüler</item>
+        <item>Schüler der Mittelschule</item>
+        <item>Student am College</item>
+        <item>Alte Aktionäre</item>
+    </string-array>
+
+
+    <string-array name="circleWeipanSetting">
+        <item>schließen</item>
+        <item>Nur Kreisbesitzer sind erlaubt/Administratoren</item>
+        <item>Lassen Sie alle</item>
+    </string-array>
+
+
+    <!-- Der Komponentenmarkt -->
+    <string name="app_yixue">Bindung Yixuetang</string>
+    <string name="app_advert">Fläche der Tätigkeit</string>
+    <string name="app_martket">Der Komponentenmarkt</string>
+    <string name="finalictmartket">Finanzieller Supermarkt</string>
+    <string name="app_edit">Verwaltung von Komponenten</string>
+    <string name="app_more">Weitere Komponenten</string>
+    <string name="app_detail">Details zum Bauteil</string>
+    <!-- Liste der Freunde laden Freunde ein -->
+    <string name="friend_talking">privater Chat mit TA</string>
+    <string name="friend_add">Als Freund hinzufügen</string>
+    <string name="friend_list">Liste der Freunde</string>
+    <string name="invite_friend">Freunde einladen</string>
+    <string name="find_know_friend">Freunde, die interessiert sein könnten</string>
+    <string name="send_sms">SMS senden</string>
+    <!-- Privater Chat -->
+    <string name="chat_home">Privater Chat</string>
+    <string name="chat_jion">Zimmer</string>
+
+    <!-- Starten Sie das Interview -->
+    <string name="send_img_file_not_exist">Datei existiert nicht</string>
+    <string name="back">zurück</string>
+    <string name="MySubscription">Ich abonniere</string>
+    <string name="MyCreate">Ich habe erstellt</string>
+    <string name="IamGuest">Ich bin ein Gast</string>
+    <string name="guest">Sehr geehrter Gast</string>
+    <string name="guest2">Sehr geehrter Gast:</string>
+    <string name="invite">Einladung</string>
+    <string name="participant">Teilnehmer:</string>
+    <string name="acceptInvite">Fang jetzt an.</string>
+    <string name="columnNameHit">Name der Spalte eingeben…</string>
+    <string name="tvEditHit">(Bitte geben Sie 1–10-stellige Chinesisch oder Englisch ein)</string>
+    <string name="tvColumnInfoHit">Einführung der Rubrik:</string>
+    <string name="tvNum">Übrige Worte:0/140</string>
+    <string name="tvOtherSubscriptioner">Klicken Sie hier, um registrierte Fans anzuzeigen >></string>
+    <string name="subscription">abonnieren</string>
+    <string name="edit">edit</string>
+    <string name="editNoSpace">edit</string>
+    <string name="findOtherSubscriptioner">Abonnieren Sie die Fans</string>
+    <string name="createNewProgram">Neues Programm erstellen</string>
+    <string name="emcee">Host</string>
+    <string name="maxGuest">Gäste (bis zu drei Gäste können eingeladen werden):</string>
+    <string name="subscriptionNews">Neue Spalten abonnieren</string>
+    <string name="subscriptionNewColumn">Neue Spalten abonnieren</string>
+    <string name="search">Suche</string>
+    <string name="host">Heiß</string>
+    <string name="recommend">empfehlen</string>
+    <string name="friend">Guter Freund.</string>
+    <string name="searchColumn">Spalte suchen</string>
+    <string name="subscriptionNum">Gesamtzahl der abonnierten Fans %1$s:</string>
+    <string name="textwaring">Übrige Worte:&lt;font color="Red">%1$s&lt;/font>/%2$s</string>
+    <string name="subscriptionOk">Abonnement erfolgreich</string>
+    <string name="unSubscriptionOk">Abmeldung erfolgreich</string>
+    <string name="unSubscription">Abmeldung</string>
+    <string name="addProgram">Neues Programm erstellen</string>
+    <string name="etProgramName">Geben Sie das aktuelle Thema ein (1–20 Zeichen)</string>
+    <string name="cancle">Abbrechen</string>
+    <string name="tryListening">Prüfung</string>
+    <string name="pressedRecord">Drücken und halten</string>
+    <string name="time">%1$s\&apos;\&apos;</string>
+    <string name="say">Lass mich darüber reden.</string>
+    <string name="inputHint">Name der Spalte eingeben</string>
+    <string name="columnHead">Avatar der Spalte</string>
+    <string name="myIssue">Spalten, die ich erstellt habe</string>
+    <string name="recordAgain">Re recording</string>
+    <string name="currBg_huanle">Hintergrundmusik: Freude</string>
+    <string name="currBg_jiezou">Hintergrundmusik: Rhythmus</string>
+    <string name="currBg_jidong">Hintergrundmusik: Aufregung</string>
+    <string name="currBg_shuqing">Hintergrundmusik: Lyric</string>
+    <string name="currBg_wu">Hintergrundmusik: Keine</string>
+    <string name="huanle">glücklich</string>
+    <string name="jiezou">Rhythmus</string>
+    <string name="jidong">Aufgeregt</string>
+    <string name="shuqing">Text</string>
+    <string name="wu">Nichts</string>
+    <string name="attachMap">Angefügte Zeichnungen</string>
+    <string name="speak">Aufzeichnung von Ton</string>
+    <string name="friend_new">Neue Freunde</string>
+    <string name="kline_cycle_minute_time">Minute</string>
+    <string name="kline_cycle_date_time">Tag</string>
+    <string name="kline_cycle_week_time">Woche</string>
+    <string name="kline_cycle_month_time">Monat</string>
+    <string name="kline_cycle_minute_5_time">50 Minuten</string>
+<string name="kline_cycle_minute_10_time">10 Minuten</string>
+<string name="kline_cycle_minute_15_time">15 Minuten</string>
+<string name="kline_cycle_minute_30_time">30 Minuten</string>
+<string name="kline_cycle_minute_60_time">60 Minuten</string>
+<string name="payment_term">Methode der Zahlung</string>
+<string name="fix_passwd">Passwort ändern</string>
+<string name="addfriend">Hi,Bin ich%1$s，Füge mich als Freund zum Börsenhandel hinzu!</string>
+<string name="noNamefriend">Füge mich als Freund zum Börsenhandel hinzu!</string>
+<string name="friend_home">Persönliche Homepage</string>
+<string name="invite_contact">Teilnehmer auswählen</string>
+<string name="phone_register">Mobile Registrierung</string>
+<string name="register">Register</string>
+<string name="favorite_main">Favoriten</string>
+<string name="login_password">Passwort vergessen</string>
+<string name="friendStock">%1$sOptional</string>
+<string name="hasAdd">Hinzugefügt</string>
+<string name="frdsOfLookThisArticle">Freunde, die diesen Artikel gelesen haben:</string>
+<string name="noFrdsOfLookThisArticle">Keine Freunde haben diesen Artikel gelesen</string>
+<string name="intelligentVoice">Intelligente Stimme</string>
+<string name="settings">zur Einrichtung</string>
+<string name="modifyUserInfo">Persönliche Informationen bearbeiten</string>
+<string name="accountManage">Account Management</string>
+<string name="aboutTaojinlu">Über Taojinlu</string>
+<string name="myMsg">Meine Neuigkeiten</string>
+<string name="feedback">Feedback</string>
+<string name="feedback2">Feedback >></string>
+<string name="feedbackSend">Kommentare ausfüllen</string>
+<string name="selfDescription">Eigene Beschreibung</string>
+<string name="dateOfBirth">Datum der Geburt</string>
+<string name="city">Lage</string>
+<string name="occupation">Beruf</string>
+<string name="marketRate">Partitur</string>
+<string name="advertAndCooperate">Werbung und Unternehmenskooperation</string>
+<string name="welcomepage">Willkommen Seite</string>
+<string name="noSubscription">Der Sender hat vorerst keine Abonnenten</string>
+<string name="noListener">Die Station hat vorerst keine Hörer</string>
+<string name="noIamGuest">Du hast noch keine Gastshow.</string>
+<string name="issueNoReward">Das Programm hat noch keine Belohnung erhalten</string>
+
+    <!-- Antrag auf Zertifizierung -->
+<string name="applyAddV">Antrag auf Zertifizierung</string>
+<string name="applyAddVTips">Persönliche Authentifizierung ist die Bestätigung der realen Identität der Taojin Straßenbenutzer  Nall Authentifizierung ist kostenlos</string>
+<string name="applyAddVConditionTitle">Sie können sich bewerben, wenn Sie folgende Rahmenbedingungen erfüllen:</string>
+<string name="applyAddVPrivilegeTitle">Nach der Zertifizierung erhalten Sie folgende Rechte:</string>
+<string name="applyAddVEnterpriseNeed">Die Enterprise-Zertifizierung erfordert::</string>
+<string name="applyAddVPersonalNeed">Persönliche Zertifizierung erfordert:</string>
+<string name="applyAddVEnterpriseNeedMaterial">Werkstoffe für die Enterprise-Zertifizierung</string>
+<string name="applyAddVPersonalNeedMaterial">Persönliche Zertifizierungsmaterialien</string>
+<string name="applyAddVMark">Blaues V-Zertifizierungszeichen</string>
+<string name="applyAddVFrdsUnlimited">Unbegrenzte Anzahl von Freunden</string>
+<string name="square_publish_tips_toast">Bitte nicht häufig posten und lassen Sie den Server sich ausruhen</string>
+<string name="square_publish_tips">Veröffentlicht in %1$s Sekunden</string>
+<string name="about_taojinroad">Taojin Straße bietet Ihnen einen privaten Raum, um Aktien mit Ihren Bekannten zu spielen. Nachdem Sie als Freunde hinzugefügt wurden, können Sie alle Arten von interessanten Aktienfunktionen und Spiele spielen, um Ihr Niveau zu verbessern.\n\nTaojin Straße bietet Ihnen einen privaten Raum, um Aktien mit Ihren Bekannten zu spielen. Nachdem Sie als Freunde hinzugefügt wurden, können Sie alle Arten von interessanten Aktienfunktionen und Spiele spielen, um Ihr Niveau zu verbessern.\n\nNoch wichtiger ist, dass alle Funktionen auf dem Goldrausch frei sind</string>
+<string name="findResult">Ergebnisse anzeigen</string>
+<string name="findFrds">Freunde finden</string>
+<string name="saveToSd">Speichern zum Telefon</string>
+<string name="editPic">Bild bearbeiten</string>
+<string name="delPic">Bild löschen</string>
+<string name="toggle_on">geöffnet</string>
+<string name="toggle_off">geschlossen</string>
+<string name="pushTextFormat">%1$s:00</string>
+<string name="pushSettings">Einstellungen für Nachrichten drücken</string>
+<string name="brotherSettings">Einstellungen schütteln</string>
+<string name="stockSettings">Einstellung der Refresh-Rate</string>
+<string name="pushSettingsVoice">Stimme</string>
+<string name="pushSettingsVibrate">Vibration</string>
+<string name="registFankui">Kann ich nicht? Feedback geben>></string>
+<string name="action_app_market">Der Komponentenmarkt</string>
+<string name="userOfMyConcern">Menschen, die mir wichtig sind</string>
+<string name="userOfConcernMe">Menschen, die sich um mich sorgen</string>
+<string name="concernMe">Folgte mir.</string>
+<string name="mySquare">Mein Beitrag</string>
+<string name="myComment">Meine Kommentare</string>
+<string name="mySquareStore">Bevorzugte Freunde</string>
+<string name="concern">folgen</string>
+<string name="userOfUserConcern">Personen, die von TA betroffen sind</string>
+<string name="userOfConcernUser">Menschen, die sich um</string>
+<string name="concernUser">Fokus auf Ta</string>
+<string name="userSquare">Post von TA</string>
+<string name="userStore">Die Favoriten von TA</string>
+<string name="userInfo">personenbezogene Daten</string>
+<string name="taConcernNum">%1$sBetroffene Personen：%2$s</string>
+<string name="ConcernTaNum">folgen%1$s：%2$s</string>
+<string name="delConcern">Aufmerksamkeit abbrechen</string>
+<string name="concernSuccess">Fokus auf Erfolg</string>
+<string name="concernSuccessRecount">Derzeit gibt es noch %1$s  Orte zu folgen</string>
+<string name="concernCount"> %1$s Menschen</string>
+<string name="concernUserByUser"> folgen%1$s </string>
+<string name="userconcernBuUser"> %1$sBetroffene Personen </string>
+<string name="userSquareByUser"> %1$sBeiträge </string>
+<string name="userStoreByUser"> %1$sFavoriten </string>
+<string name="funs">Ventilatoren</string>
+<string name="funsNum">%1$sMenschen</string>
+<string name="reloadText">Klicken Sie auf den Bildschirm, um neu zu laden</string>
+<string name="noConcern">Sie haben noch niemandem etwas Aufmerksamkeit geschenkt. Gehen Sie zum Platz und sehen Sie sich das an.\nKlicken Sie auf den Avatar, um Aufmerksamkeit hinzuzufügen</string>
+<string name="publicSquare">Quadrat</string>
+<string name="userTag">Persönliches Label</string>
+<string name="likePeple">Interessierte Personen</string>
+<string name="userNoHeadToast">Der Benutzer hat keinen Avatar</string>
+<string name="homeMsgHotNewsCount">andere %1$s </string>
+<string name="homeMsgNP">Weitere News</string>
+<string name="homeMsgNPR1">Weitere TA Nachrichten</string>
+<string name="homeMsgNPR2">Weitere TA-Ankündigungen</string>
+<string name="homeMsgNPR3">Weitere TA-Forschungsberichte</string>
+<string name="homeMsgTalk">Weitere TA Interviewspalten</string>
+<string name="homeMsgTl">Mehr Agenda</string>
+<string name="friends">Guter Freund.</string>
+<string name="mine">mein</string>
+<string name="paper_source">Vorwärts von &lt;%1$s&gt;</string>
+<string name="roadSigns">Schild der Straße</string>
+<string name="interaction">Entertainment City</string>
+<string name="account">Nummer des Kontos</string>
+<string name="roadSignsWithSpace">Schild der Straße</string>
+<string name="interactionWithSpace">Entdecken</string>
+<string name="accountWithSpace">Nummer des Kontos</string>
+<string name="friendWithSpace">Guter Freund.</string>
+<string name="subcribeRoadSigns">Schilder abonnieren</string>
+<string name="homeRoadSignsNewCount">%1$sneu</string>
+<string name="recommendedRoadSigns">Empfohlene Straßenschilder</string>
+<string name="recommendedsubscription">Empfohlenes Abonnement</string>
+<string name="not">nein</string>
+<string name="yes">ja</string>
+<string name="unSubscribeRoadSignsHint">Abmelden von diesem Zeichen?</string>
+<string name="unSubscribeStockRoadSignsHint">Nicht mehr aufpassen%1$s?</string>
+<string name="myStockVertical">Weitere Optionen</string>
+<string name="subscribe">abonnieren</string>
+<string name="unSubscribe">Abmeldung</string>
+<string name="myElsePaper">Meine anderen Zeitungen</string>
+<string name="addStockAndGetServiceHint">Wird den Service bekommen</string>
+<string name="deleteStockAndGetServiceHint">Sie verlieren folgende Leistungen\n*Nachrichten erinnern\n*teilt Ankündigung Mahnung\n*teilt Research Report Erinnerung\n*Share Change Erinnerung\n*teilt Erinnerung\n*Share-Grapefruine-Erinnerung</string>
+<string name="addStockAndGetService">Sie erhalten folgende Leistungen\n*Nachrichten erinnern\n*teilt Ankündigung Mahnung\n*teilt Research Report Erinnerung\n*Share Change Erinnerung\n*teilt Erinnerung\n*Share-Grapefruine-Erinnerung</string>
+<string name="addStockHint">Abonnieren Sie optionale Aktien【%1$s】</string>
+<string name="deleteStockHint">Optionale Freigaben löschen【%1$s】</string>
+<string name="cancleNoSpace">Stornieren</string>
+<string name="microinterviews">Micro Radio</string>
+<string name="newsstandHot">Heiß</string>
+<string name="newsstandRecommend">empfehlen</string>
+<string name="newsstandMyFriendsPaper">Guter Freund.</string>
+<string name="newsstandOrderByTime">Neueste</string>
+<string name="newsstandMenu">Klassifikation</string>
+<string name="newsstandSearchPaperHint">Zeitungen durchsuchen</string>
+<string name="searchBear">Ergebnis der Suche</string>
+<string name="investment_0">Kurzfristiger radikaler Typ</string>
+<string name="investment_1">Midline Band type</string>
+<string name="investment_2">Langfristig robust</string>
+<string name="stockage_0">Schüler der Grundschule (innerhalb eines halben Jahres)</string>
+<string name="stockage_1">Schüler der Mittelschule (ein halbes Jahr - 2 Jahre)</string>
+<string name="stockage_2">Studentinnen und Studenten (2–10 Jahre)</string>
+<string name="stockage_3">Alte Aktionäre (mehr als zehn Jahre)</string>
+<string name="theRequired">(Obligatorisch)</string>
+<string name="theRequiredToast">Bitte abonnieren Sie die erforderlichen Straßenschilder</string>
+<string name="chat_add">Mitglied hinzufügen</string>
+<string name="budget_detail">Einnahmen und Ausgaben</string>
+<string name="me">Ich</string>
+<string name="myCompents">Meine Komponenten</string>
+<string name="settingCompents">Komponenten des Managements</string>
+<string name="addCompents">Komponente hinzufügen</string>
+<string name="squareComment">Mal sehen, wovon wir reden.~</string>
+<string name="wallet">Brieftasche</string>
+<string name="clause">Haftungsausschluss</string>
+<string name="walletHint">\"Ich möchte Ihnen danken, dass Sie mir geholfen haben.\"\n-Brieftasche Funktion, freuen Sie sich auf-</string>
+<string name="homeNewsNum">(%1$sneu)</string>
+<string name="userSelfdescribtionHint">nichts in der Welt</string>
+<string name="basicInformation">Grundlegende Informationen</string>
+<string name="hisFriendscircle">%1$sdynamisch</string>
+<string name="hisStock">%1$sOptionale Aktien</string>
+<string name="hisFriend">%1$sGuter Freund.</string>
+<string name="personalitySignature">Persönliche Unterschrift</string>
+<string name="actionSearchUser">Benutzer suchen</string>
+<string name="searching">Suche…</string>
+<string name="searchNoResult">Keine passenden Ergebnisse</string>
+<string name="findSomeoneWhoMightKnow">Finden Sie Leute, die interessiert sein könnten</string>
+<string name="findUserHint">Bitte geben Sie Ihre echte Handy-Nummer ein, um Freunde zu finden, die Sie kennen. Wir garantieren Ihnen, dass Ihre Handynummer diesmal nur als unsere Funktion genutzt wird und nicht mit anderen Zwecken verbunden ist. Vielen Dank für Ihre Unterstützung für die Taojin Straße!</string>
+<string name="post"> Post </string>
+<string name="addGood">Daumen hoch</string>
+<string name="addStore">Erhebung</string>
+<string name="addConcern">folgen</string>
+<string name="mvTabRedString">florierend</string>
+<string name="mvTabHot">Heiß</string>
+<string name="mvTabNewest">Neueste</string>
+<string name="mvTabMine">mein</string>
+<string name="mvSearchColumn">Suche Station</string>
+<string name="redStringIssue">Heißes Programm</string>
+<string name="redStringColumn">Hot Radio</string>
+<string name="hotIssue">Beliebte Programme</string>
+<string name="hotColumn">Beliebtes Radio</string>
+<string name="myColumn">Mein Radio</string>
+<string name="mySubscribeColumn">Stationen, die ich abonniere</string>
+<string name="createOneColumn">Eine Station erstellen</string>
+<string name="friendColumn">Stationen der Freunde</string>
+<string name="createColumn">Station erstellen</string>
+<string name="friendHasNoColumn">Dein Freund hat keine Station geschaffen.</string>
+<string name="talkTjrBean">Gold suchende Bohnen erhalten:%1$s</string>
+<string name="editMyTalk">Meine Station bearbeiten</string>
+<string name="editMyTalkName">Den Namen der Station ändern</string>
+<string name="editMyTalkInfo">Profil der Station ändern</string>
+<string name="issueName">Titel des aktuellen Programms</string>
+<string name="invateGuest">Eingeladene Gäste</string>
+<string name="publishIssue">Bestätigen der Freigabe</string>
+<string name="rewardSubTitle">Stellen Sie dem Moderator Fragen, und der Moderator wird den Moderator automatisch belohnen, nachdem er auf diesen Kommentar geantwortet hat.</string>
+<string name="addReward">Bitte den Vermieter um Antwort</string>
+<string name="delTalk">Station löschen</string>
+<string name="delTalkdialogMsg">Sind Sie sicher, die Station zu löschen?</string>
+<string name="hint">Tipps</string>
+<string name="rewardRank">Ranking der Belohnung</string>
+<string name="listenNum">Gesamtzahl der Hörer</string>
+<string name="onlyLookReward">Schau dir die Belohnung an.</string>
+<string name="searchinputHin">Bitte geben Sie die gewünschte Station ein</string>
+<string name="issueList">Liste der Programme</string>
+<string name="noAttachedMap">Das Programm hat keine angehängten Zeichnungen</string>
+<string name="MyPayDou">Mein PayDou</string>
+<string name="MyPayIcon">Mein PayIcon</string>
+<string name="MyPayDetail">Bestellung der Zahlung</string>
+<string name="MyPaySetting">Einstellungen der Brieftasche</string>
+<string name="PaySetPassword">Passwort festlegen</string>
+<string name="payCashHis">Bonus</string>
+<string name="phone">Telefon Nummer</string>
+<string name="signCardHolder">Kartenhalter</string>
+<string name="signCardNumber">Bankkarte Nr.</string>
+<string name="issueListener">Gesamtzahl der Hörprogramme</string>
+<string name="issueRewardRank">Reihenfolge der Programmprämien</string>
+<string name="addAttach">Fügt angehängte Zeichnungen hinzu</string>
+<string name="rewardHint">Die Funktion ist noch nicht geöffnet, freuen Sie sich bitte darauf!</string>
+<string name="isSubcribeTalk">Abonnieren Sie diese Station\"%1$s\"?</string>
+<string name="mvAttach">Angefügte Zeichnungen</string>
+<string name="continueRecord">Sprechen Sie weiter</string>
+<string name="reward">Belohnung</string>
+<string name="bill">Rechnung</string>
+<string name="billhis">Aufzeichnungen der Abrechnung</string>
+<string name="income_record">Einnahmen und Ausgaben</string>
+<string name="bonus_record">Datensatz des Bonus</string>
+<string name="bonus_recipe">Sammlung von Bonus</string>
+<string name="bonus_extract">Auszahlung des Bonus</string>
+    <!--<string user_name="extract_success">Extraktion erfolgreich</string>
+        <string user_name="extract_fail">Vorgeschichte des Widerrufs</string>-->
+<string name="withcashHis">Vorgeschichte des Widerrufs</string>
+<string name="withcash">Entzug</string>
+<string name="hotNewsActivity">Aktivität</string>
+<string name="relay">vorwärts</string>
+<string name="startTalk">Erstellen eines Mikroradioprogramms</string>
+<string name="selectedTalk">Wählen Sie Mikroradiostation</string>
+<string name="selectTalkToCreateIssue">Wählen Sie die Mikroradiostation, die das Programm startet</string>
+<string name="IssuewithArticle">Verwandte Mikroradioprogramme</string>
+<string name="addAccount">Konto hinzufügen</string>
+<string name="manageAccount">Konto Management</string>
+<string name="securitiesAccount">Eröffnung des Wertpapierkontos</string>
+<string name="accountAssistant">Assistent für Kontoeröffnung</string>
+<string name="tuiguang">Erweiterung</string>
+<string name="OpenTuiguang">Klick zum Öffnen</string>
+<string name="circleMore">mehr</string>
+<string name="party">Party</string>
+<string name="Information">Informationen</string>
+<string name="chat">chat</string>
+<string name="chatInfo">Nachricht Chat</string>
+<string name="circle">Kreis</string>
+    <!-- Kreis -->
+<string name="processing">Laufend</string>
+<string name="ended">Ist beendet</string>
+<string name="changeImage">Bild ersetzen</string>
+<string name="partyTitle">Titel der Partei</string>
+<string name="pleaseInputPartyTitle">Bitte geben Sie das Parteithema ein</string>
+<string name="paartyDate">Datum der Party</string>
+<string name="paartyTime">Party Zeit</string>
+<string name="pleaseSelectPartyDate">Bitte wählen Sie Party-Datum</string>
+<string name="pleaseSelectPartyTime">Bitte wählen Sie eine Party-Zeit</string>
+<string name="partyVoucher">Gutschein für Mahlzeiten</string>
+<string name="pleaseSelectVoucher">Nicht ausgewählt</string>
+<string name="comtactMam">Kontakte</string>
+<string name="pleaseInputComtactMam">Bitte Kontakt eingeben</string>
+<string name="comtactMethod">Informationen zum Kontakt</string>
+<string name="pleaseInputComtactMethod">Bitte geben Sie die Kontaktdaten ein</string>
+<string name="partyDesc">Beschreibung der Partei</string>
+<string name="pleaseInputPartyDesc">Bitte geben Sie die Parteibeschreibung ein</string>
+<string name="failureToGetBGImage">Das Hintergrundbild ist fehlgeschlagen</string>
+<string name="notNullForPartyTitle">Titel der Partei kann nicht leer sein</string>
+<string name="notNullForPartyTime">Party-Zeit kann nicht leer sein</string>
+<string name="partyTitleNotLess4">Der Parteititel kann nicht weniger als vier Worte sein</string>
+<string name="partyTitleNotGreater10">Der Parteititel kann nicht mehr als zehn Worte sein</string>
+<string name="partyTimeMustBigTwo">Party Zeit muss größer sein als ein Tag</string>
+<string name="partyTimeMustBigOld">Die neue Parteizeit muss größer sein als die ursprüngliche Parteizeit</string>
+<string name="partyTimeMustSmallThirty">Die Party muss weniger als 30 Tage dauern</string>
+<string name="notNullForpartyComtactMan">Der Parteikontakt kann nicht leer sein</string>
+<string name="notNullForpartyComtactMethod">Die Kontaktinformationen können leer sein</string>
+<string name="pleaseInputPhoneNum">Bitte geben Sie die richtige Mobiltelefonnummer ein!</string>
+<string name="notNullForpartyDesc">Parteiprofil kann nicht leer sein</string>
+<string name="partyDescNotLess20">Das Parteiprofil kann nicht weniger als 20 Worte sein</string>
+<string name="partyDescNotGreater140">Das Parteiprofil kann nicht mehr als 140 Worte sein</string>
+<string name="infoflowDetail">Angaben zur Information</string>
+<string name="infoflow">Informationen</string>
+<string name="publicInfoflow">Veröffentlichen von Informationen</string>
+<string name="createParty">Eine Partei erstellen</string>
+<string name="createPartySelectLocation">Standort auswählen</string>
+<string name="editParty">Die Redaktion</string>
+<string name="partyDetail">Details der Partei</string>
+<string name="selectPartyBackground">Bitte wählen Sie das Hintergrundbild</string>
+<string name="selectVoucher">Bitte wählen Sie einen Gutschein</string>
+<string name="noPublicInfoFlow">Der Kreis hat noch keine Informationen veröffentlicht</string>
+<string name="infoflowTitleNoNull">Der Informationstitel kann nicht leer sein</string>
+<string name="infoflowTitleSoLong">Die Anzahl der Wörter im Titel darf nicht höher sein als 25</string>
+<string name="infoflowContentNoNull">Inhalt der Informationen kann nicht leer sein</string>
+<string name="infoflowContentSoLong">Die Anzahl der Wörter im Informationsinhalt darf 5000 Wörter nicht überschreiten!</string>
+
+<string name="uploadImage">Bilder hochladen</string>
+<string name="uploadSuccess">Upload erfolgreich</string>
+
+<string name="createCircle">Kreis erstellen</string>
+<string name="introduceCircleHint">Stell deinen Kreis anderen vor.</string>
+<string name="circleNameHint">Der Kreisname ist einzigartig und kann nicht geändert werden. Bitte füllen Sie ihn sorgfältig aus.</string>
+<string name="membersApply">Antrag des Mitglieds</string>
+<string name="circleSysNews">Nachricht des Systems</string>
+<string name="circleNumber">Nummer des Kreises</string>
+<string name="circleName">Name des Kreises</string>
+<string name="circleIntroduction">Einführung des Kreises</string>
+<string name="adress">Ort</string>
+<string name="distance">Entfernung</string>
+<string name="qrcode">QR Code</string>
+<string name="circleCreateTime">Datum der Erstellung</string>
+<string name="circleCreator">Meister des Kreises</string>
+<string name="circleManager">Administratoren</string>
+<string name="circleMembers">Mitglied des Kreises</string>
+<string name="InvitecircleMembers">Neue Mitglieder einladen</string>
+<string name="editCircle">Einführung in die Bearbeitung</string>
+<string name="managerMembers">Mitglieder des Managementkreises</string>
+<string name="circleTop">Topping</string>
+<string name="unselectedCircleTop">Oben nicht ausgewählt</string>
+<string name="circleNewsSetting">Schalte die Erinnerungseinstellungen ein</string>
+<string name="circleRecommendRemind">Erinnerung an die Empfehlung</string>
+<string name="circlePartyRemind">Party Erinnerung</string>
+<string name="circleChatRemind">Erinnerung an Chat</string>
+<string name="circleTradeRemind">Erinnerung an den Transaktionsservice</string>
+<string name="circleInformationRemind">Hinweis auf Informationen</string>
+<string name="circleMatchRemind">Erinnerung an das Spiel</string>
+<string name="circleSettings">Einstellung des Kreises</string>
+<string name="exitCircle">Beenden des Kreises</string>
+<string name="circleSetTop">Set top</string>
+
+<string name="group">Kombination</string>
+<string name="stock">Fakultative Bestände</string>
+<string name="photo">Foto</string>
+<string name="takePicture">Fotografie</string>
+
+<string name="delete">Stornieren Sie die Party</string>
+<string name="sureCancel">OK zu stornieren</string>
+<string name="moreAction">. . .</string>
+<string name="joinPartyMenber">Mitglieder der Partei</string>
+<string name="retryAgain">Bitte versuchen Sie es später.</string>
+<string name="parameterError">Fehler des Parameters</string>
+
+
+<string name="editCircleRoomName">Name des Chats</string>
+<string name="circleMembersDynamicAnalysis">Dynamische Analyse der Mitgliedstaaten</string>
+<string name="startParty">Eine Party starten</string>
+<string name="startGame">einen Wettbewerb vorschlagen</string>
+
+
+<string name="circleComputerServerManager">Computerrückseitiges Management</string>
+<string name="circleWorkSpace">Bereich der Arbeit</string>
+<string name="editCircleTopic">Chat-Namen bearbeiten</string>
+<string name="editCircleName">Name des Kreises ändern</string>
+
+<string name="allowApply">Einverstanden!</string>
+<string name="refuseApply">Verweigern</string>
+<string name="circleCreater">Meister des Kreises</string>
+<string name="circleAdmin">Administratoren</string>
+
+<string name="circleNoPartyHintIfIsAdmin">Es gibt keine Partei im Kreis. Klicken Sie auf create</string>
+<string name="circleNoPartyHint">Der Kreis hatte noch keine Party.</string>
+<string name="circleNoFlowHintIfIsAdmin">Der Kreis hat noch keine Informationen.</string>
+<string name="circleNoFlowHint">Der Kreis hat noch keine Informationen</string>
+
+<string name="searchHint">Geben Sie die Kreisnummer-Suche ein</string>
+<string name="nearby">nahe</string>
+<string name="noCircle">Sie haben noch keinen Kreis angelegt</string>
+<string name="searchCircleHint">Geben Sie die Kreisnummer-Suche ein</string>
+<string name="searchFriendHint">Suche nach Freunden</string>
+<string name="nearbyCircle">Kreis in der Nähe</string>
+
+<string name="circleSearchNoResult">Keine Suchergebnisse</string>
+<string name="circleNearbyNone">Es gibt vorerst keinen Kreis in der Nähe</string>
+<string name="circleRecommendNone1">Keine Empfehlung</string>
+<string name="weipanNoSubcribe1">Sie haben noch nicht abonniert</string>
+<string name="weipanNoSubcribe2">Klicken Sie oben rechts, um ein Abonnement hinzuzufügen</string>
+<string name="circleRecommendNone2">Fügen Sie persönliche Tags für Ihre Empfehlung hinzu/ändern</string>
+<string name="editTags">Gehe zum Hinzufügen von /modifizieren >> </string>
+
+
+<string name="circleApplyJoinTitle">Wenden Sie sich an den Kreis an</string>
+<string name="sendTo">Senden an</string>
+
+<string name="circleAlreadyApply">Applied, waiting for administrator to pass</string>
+
+<string name="circleAge">Alter des Kreises</string>
+<string name="circleredit">Kredit</string>
+
+<string name="circleFavorableComment">Gelobt</string>
+<string name="circleBadReview">Kommentar negativ</string>
+<string name="circleAverage">Mittlere Bewertung</string>
+
+<string name="circleSeeAllComments">Alle Kommentare anzeigen</string>
+<string name="circleComments">Bewertung</string>
+
+<string name="circleAnonymous">anonym</string>
+
+<string name="circleMsg">Nachricht im Kreis</string>
+<string name="circleFoodList">Gutschein für Mahlzeiten</string>
+<string name="circleCardList">Gutschein für Karten</string>
+<string name="circleGameList">Fahrkarte für Spiele</string>
+<string name="circleExpFoodList">Abgelaufener Gutschein</string>
+
+<string name="circleSysMsg">Anzeige des Kreissystems</string>
+<string name="circlePartyMsg">Party News</string>
+
+
+<string name="circlePublishCommentHint">Schreiben Sie einige Kommentare (15-Wörter, Aktien steigen jeden Tag)</string>
+
+<string name="circleReplyComment">Bewertung der Antworten</string>
+
+<string name="circleReplyCommentHint">Antwort auf die Bewertung (nicht mehr als 140 Zeichen)</string>
+
+
+<string name="searchCircleByNo">Geben Sie die Kreisnummer-Suche ein</string>
+<string name="searchCircleBy2Code">QR-Code scannen, um sich dem Kreis anzuschließen</string>
+<string name="searchCircle">Kreis suchen</string>
+
+<string name="searchStock">Suche nach Lager</string>
+
+<string name="synRadioToCircle">Sync zum Kreis</string>
+<string name="receiveImageFailure">Das Bild ist fehlgeschlagen</string>
+<string name="pleaseSelectImage">Bitte wählen Sie ein Bild aus und laden Sie es hoch!</string>
+<string name="upload">Hochladen</string>
+<string name="circleNoParty">Der Kreis hat noch keine Partei geschaffen</string>
+<string name="sureCancelParty">Bist du sicher, dass du die Party absagen willst?</string>
+<string name="sureDeletePartyImage">Sind Sie sicher, das Party-Bild zu löschen?</string>
+<string name="sureDeleteInfoflow">Sind Sie sicher, die Informationen zu löschen?</string>
+<string name="sureDelete">OK zu löschen</string>
+<string name="deleteSuccess">Löschen erfolgreich</string>
+<string name="signSuccess">Herzlichen Glückwunsch zur erfolgreichen Registrierung!</string>
+<string name="signFailure">Registrierung fehlgeschlagen, versuchen Sie es noch einmal!</string>
+
+<string name="alreadyInCircle">Du bist schon im Kreis</string>
+
+<string name="selectCircle">Kreis auswählen</string>
+
+<string name="circleSearchMember">Suche nach Mitgliedern</string>
+
+<string name="friendDynamic">Soziale Updates</string>
+<string name="directMessage">Privater Chat</string>
+<string name="circleLuckly">Punkte für Bonus</string>
+<string name="circleGiftHis">Aufzeichnung empfangen</string>
+
+<string name="circleGame">Match</string>
+
+<string name="circle_game_fdm_count">Dieser Wettbewerb muss%1$sDer Aktienkrieg</string>
+
+<string name="aboutCircle">Über den Kreis</string>
+<string name="bindBankCard">Bind Bankkarte</string>
+<string name="bindName">Authentifizierung des realen Namens</string>
+<string name="resetBankCard">Bankkarte bearbeiten</string>
+<string name="resetPhone">Mobiltelefonnummer bearbeiten</string>
+<string name="balance">Bilanz</string>
+<string name="resetSecurtyPassword">Passwort der Brieftasche abrufen</string>
+
+
+<string name="newtimesecurities">Wertpapiere der neuen Ära</string>
+<string name="newtimesecurities_en">New Times Securities</string>
+
+<string name="accountType">Art des Kontos</string>
+<string name="selectAccountType">Wählen Sie den Kontotyp</string>
+<string name="newtimesAccount">Nummer&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; des Kontos</string>
+<string name="newtimesTradePassword">Passwort der Transaktion</string>
+
+<string name="newtimesAccountHint">Bitte geben Sie die Kontonummer ein</string>
+<string name="newtimesTradePasswordHint">Bitte geben Sie das Transaktionspasswort ein</string>
+
+<string name="newtimesTradePasswordForget">Vergessen Sie das Transaktionspasswort></string>
+<string name="newtimesRegister">Ich möchte ein Konto eröffnen. ></string>
+
+
+<string name="tradeFiveSpeed">Fünftes Fanggerät</string>
+<string name="tradeThereSpeed">Assistent für Preisvergleich</string>
+<string name="tradeInfo">detailliert</string>
+<string name="bindNewTimes">Wertpapiere der neuen Ära</string>
+
+
+<string name="tradeBuy">Kauf</string>
+<string name="tradeSell">Verkauf aus</string>
+<string name="tradeKillAnOrder">Stornieren Sie die Bestellung</string>
+
+<string name="tradeStockAssets">Wertpapiere der neuen Ära</string>
+
+<string name="tradeQueryCommission">Abfrage bestellen</string>
+
+<string name="tradeQueryTodayCommission">Heute bestellen</string>
+
+<string name="tradeQueryHistoryCommission">Historische Ordnung</string>
+
+<string name="tradeQueryTransaction">Untersuchung von Transaktionen</string>
+
+<string name="tradeQuerycapital">Abfrage des Fonds</string>
+<string name="tradeQueryTransferOfBankCard">Übertragung von Wertpapieren</string>
+<string name="tradeStartTime">Datum des Beginns</string>
+<string name="tradeNotice">7 Tage ab dem Startdatum</string>
+<string name="tradeEndTime">Datum des Abschlusses</string>
+
+<string name="tradeQueryTodayTransaction">Deal heute</string>
+<string name="tradeQueryHistoryTransaction">Historische Transaktion</string>
+
+<string name="tradeBankCard2Transfer">Übertragung auf Wertpapiere</string>
+<string name="tradeTransfer2BankCard">Überweisung an die Bank</string>
+
+<string name="tradeIn">Aufladung</string>
+<string name="tradeOut">Entzug</string>
+
+<string name="tradeTransferRecord">Datensatz der Übertragung</string>
+
+<string name="beansMall">Einkaufszentrum Golden Beans</string>
+
+<string name="circle_kline_pk">K-Line Einzelspick</string>
+<string name="circle_kline_box">K-line Schatzkiste</string>
+<string name="circleChatDefault">Die Anzeige dieses Typs wird derzeit nicht unterstützt. Bitte aktualisieren Sie auf die neueste Version</string>
+
+<string name="circleDefaultAdress">Dieser Kreis kommt vom Mars</string>
+
+<string name="tjrAdvertCooperateTip">Wenn Sie an einer geschäftlichen Zusammenarbeit interessiert sind, senden Sie bitte eine E-Mail an</string>
+<string name="tjrEmail">hz@redflea.com</string>
+
+
+<string name="article">Artikel</string>
+<string name="circleOnlineCount">Online:%1$s</string>
+<string name="lottery">Glück ziehen</string>
+
+<string name="lotteryByTjrDou">Goldbohne Lotterie</string>
+<string name="mall">Prop</string>
+
+<string name="lotteryHistory">Datensatz</string>
+<string name="giftInfo">Details zum Preis</string>
+
+<string name="receiptAddressRegister">Registrierung von Empfangsinformationen</string>
+
+<string name="modifyAddressRegister">Änderung der Empfangsinformationen</string>
+
+<string name="paySetting">Einstellungen der Brieftasche</string>
+
+<string name="luckyTip">Einkaufszentrum Taojindou</string>
+
+<string name="myHoldStock">Meine Positionen</string>
+<string name="tradeCheck">Passwort eingeben</string>
+<string name="circleHostTag">Beschriftung Kreis:</string>
+
+<string name="microDisk">Ware</string>
+
+<string name="microDiskTitle">Silber Nickel</string>
+<string name="microDiskTitle2">Silber Nickel:</string>
+
+<string name="microDiskSubTitle">Bereitgestellt von Guangdong Edelmetallhandelszentrum</string>
+<string name="prodLogin">Commodity Login</string>
+<string name="weipanHold">Meine Vermögenswerte</string>
+
+
+<string name="tradeLogout">Loggen Sie sich</string>
+
+<string name="tradeHoldInfo">Angaben zur Position</string>
+
+<string name="weipanOrderInfo">Details zur Bestellung</string>
+<string name="weipanFollowRecord">Datensatz der Referenz</string>
+<string name="weipanCoupon">Gutschein für Erfahrungen</string>
+<string name="weipanUserAccount">individuelle Rechnung</string>
+
+<string name="weipanTractionInfo">Gewinn- und Verlustrechnung</string>
+<string name="weipanCapitalFlow">Einnahmen und Ausgaben</string>
+
+<string name="weipanAccountBalance">Saldo des Kontos</string>
+<string name="weipanRegist">Registrierung von Waren</string>
+
+<string name="weipanRecharge">Aufladung</string>
+
+<string name="weipanWithdraw">Entzug</string>
+<string name="weipanNewsList">Informationen über Waren</string>
+<string name="weipanSubscribe">Meine Abonnements</string>
+<string name="weipanInviteReward">Belohnung der Einladung</string>
+<string name="weipanInviteNoRewardCode">Kein Belohnungscode</string>
+<string name="weipanRank">Ranking Master</string>
+<string name="weipanProfit">Genauigkeit</string>
+<string name="weipanProfitValue">Höhe des Gewinns</string>
+<string name="circleJoin">Schließen Sie sich unserem Kreis</string>
+<string name="radioOrder">Gezeichnetes Mikroradio</string>
+<string name="paperOrder">Gezeichnete Zeitung</string>
+<string name="sendLuckyBox">Schick Goldbohne Schatzkiste</string>
+<string name="LuckyBox">Goldbohne Schatzkiste</string>
+
+<string name="weipanCouponRule">1、Der Erfahrungscoupon muss innerhalb der gültigen Frist verwendet werden;\n2、Gutscheine für die Erfahrung können nur bei Positionen-Building-Transaktionen verwendet werden;\n3、Bei der Nutzung von Erfahrungsgutscheinen zur Erstellung von Dokumenten ist keine Bearbeitungsgebühr zu entrichten;\n4、Bei der Erstellung eines Dokuments mit Erfahrungsgutscheinen muss die Anzahl der Bestellungen mit der Anzahl der Erfahrungsgutscheine übereinstimmen;\n5、Wird die Bestellung mit Experience Coupon geschlossen, wenn sie gewinnbringend ist, gehört der Gewinnanteil dem Nutzer; Wenn es einen Verlust gibt, hat der Benutzer keinen Verlust</string>
+<string name="weipanOrderCreateSuccessTip">Preis für Lagergebäude:%1$s\nBestell-Nr.: %2$s\nZeit: %3$s\n\nBitte setzen Sie den Stop-Gewinn-Preis oder Stopp-Verlust-Preis, um Ihr Risiko zu kontrollieren</string>
+
+<string name="weipanAutoCloseTip">* Ist der Auftrag nicht vor der Abrechnungszeit geschlossen worden (04:00 a.m.), so wird er gewaltsam geschlossen.</string>
+
+<string name="weipanUserOrderHistory">Datensatz der Operation</string>
+<string name="reportAcc">Benutzer der Beschwerde</string>
+<string name="inputBoxNum">Geben Sie die Anzahl der Schatzkästen ein</string>
+<string name="inputBeanNum">Menge der Goldbohne</string>
+<string name="bean">Bohnen nach Gold</string>
+
+<string name="clearCircleChat">Chat löschen</string>
+<string name="sendRewardCode">Senden Sie Ihren Belohnungscode</string>
+
+<string name="residualMallGoods">Verbleibend &lt;font color=%1$s>%2$s&lt;/font> articulo%3$s</string>
+<string name="what_kind_of_goods">Was können Benutzer von der Nutzung von Schatz?></string>
+
+<string name="involvedNum">Anzahl der Teilnehmer</string>
+<string name="remaindNum">Verbleibende Nummer</string>
+<string name="changeIndexChart">Index ändern</string>
+<string name="manageStock">Optionale Lagerverwaltung</string>
+<string name="ignoreMsg">Diese Nachricht ignorieren</string>
+<string name="msg2Top">Top this message</string>
+<string name="cancelMsg2Top">Topping abbrechen</string>
+<string name="commonCompentsSetting">Gemeinsames Komponentenmanagement</string>
+<string name="suspension">Suspension</string>
+<string name="bullish">Bullisch</string>
+<string name="bearish">Bearish</string>
+
+    <!-- Premium Gold -->
+<string name="upgoldtitle">Gold</string>
+<string name="hisOrder">Historische Ordnung</string>
+<string name="totalAssets">Aktiva insgesamt</string>
+<string name="yuan">yuan</string>
+<string name="availableCash">Barzahlung für den Kauf</string>
+<string name="positionMargin">Rand der Position</string>
+<string name="freezeFunds">Einfrieren der Mittel</string>
+<string name="totalEarning">Laufende Gewinne und Verluste</string>
+<string name="myPosition">Meine Position</string>
+<string name="myAssets">Meine Vermögenswerte</string>
+<string name="currentExchange">Deal heute</string>
+<string name="historyExchange">Historische Transaktion</string>
+<string name="matchAmt">Volumen</string>
+<string name="matchPrice">Preis der Transaktion</string>
+<string name="buyRise">Kaufen Sie auf</string>
+<string name="sellFall">Kaufen Herbst</string>
+<string name="closeWarehouse">eine Position schließen</string>
+<string name="upgold_price">Preis (yuan)</string>
+<string name="upgold_profit_loss">Geschätzte Gewinne und Verluste:</string>
+<string name="upgold_total">insgesamt</string>
+<string name="upgold_formula">(Preis *Hand)</string>
+<string name="upgold_cov">Service berechnen:</string>
+<string name="upgold_cov_1">Service berechnen</string>
+<string name="upgold_margin">Bindung</string>
+<string name="upgold_sure">Bestätigen Schließen</string>
+<string name="spotTrading">Spot Trading</string>
+<string name="goldTrading">Handel mit Gold</string>
+<string name="currTransfer">Transfer heute</string>
+<string name="hisTransfer">Historischer Transfer</string>
+<string name="personalAccount">individuelle Rechnung</string>
+<string name="bankTransfer">Überweisung der Bank</string>
+<string name="transfer">Konten für Überweisungen</string>
+<string name="daySettlement">Tägliche Abrechnung</string>
+<string name="UPGoldNews">Gold Informationen</string>
+<string name="numAndAlpha">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+<string name="UPGoldReference">Gold Referenz</string>
+<string name="UPGoldRecommend">Empfehlung für Gold</string>
+<string name="UPGoldVIP">Gold Rush VIP</string>
+<string name="event">Große Veranstaltung</string>
+
+
+    <!--Gold experience disk-->
+<string name="gold_exp_title">Gold experience disk</string>
+<string name="gold_exp_income_record">Gewinn- und Verlustaufzeichnung des Erfahrungsguts</string>
+<string name="gold_exp_my_tickets">Mein Erfahrungsgutschein</string>
+<string name="gold_exp_withdraw">Erhalten Sie Bonus</string>
+<string name="money_lowercase">Bonus(Yuan)</string>
+<string name="money_uppercase">Bonus in Worten(Yuan)</string>
+    <!--<string user_name="all_turn_out">Erhalten Sie alle</string>-->
+<string name="withdraw_record">Aufzeichnung empfangen</string>
+<string name="withdraw_2_wallet">Erhalten Sie Bonus an Wallet</string>
+    <!--<string user_name="input_amount">Eingang des Betrags</string>-->
+    <!--<string user_name="can_withdraw">Verfügbar:</string>-->
+    <!--<string user_name="withdraw_amount">Betrag der Forderung</string>-->
+<string name="withdraw_success">Erhalten erfolgreich</string>
+<string name="withdraw_fail">Sammlung fehlgeschlagen</string>
+
+
+    <!--Hier sind die neuen.-->
+<string name="home_tab_mycard">folgen</string>
+<string name="home_tab_news">Informationen</string>
+<string name="home_tab_activity_money">Übung sb.\s Muskeln</string>
+<string name="home_tab_market">Billiger Markt</string>
+<string name="home_tab_account">Konto</string>
+<string name="contract">Vertrag</string>
+<string name="home_tab_circle">Kreis</string>
+<string name="myscard_name_fdm">Künstler / Code</string>
+<string name="myscard_zjcj">Aktueller Preis (yuan /Stück)</string>
+<string name="follow_add">Rote Karte hinzufügen</string>
+<string name="follow_add_ps">Sammeln Sie die beliebtesten Promi-Karten und teilen Sie \n Promi-Wirtschaft!</string>
+<string name="follow_add_description">In der "roten Floh" kann die rote Mann Karte gekauft und übertragen werden. Neben dem Erhalt der entsprechenden roten Umschlag der roten Mann Karte Verkauf, kann es auch den geliebten roten Mann Segen für Sie austauschen, Talentleistungen für Sie anpassen, und sogar besuchen Sie die kommerziellen Performances Ihrer Firma!</string>
+
+    <!--Preis (effektiver Preis <font color="#ff4f12">%1$s</font> - <font color="#ff4f12">%2$s</font>)-->
+    <!--<string user_name="effective_price_domain">Preis (effektiver Preis &lt;font color="#ff4f12">%1$s&lt;/font> - &lt;font color="#ff4f12">%2$s&lt;/font>)</string>-->
+<string name="effective_price_domain_orange">Preis (effektiver Preis &lt;font color="#fe3f26">%1$1.2f - %2$1.2f&lt;/font>)</string>
+<string name="effective_price_domain_green">Preis (effektiver Preis &lt;font color="#1ec590">%1$1.2f - %2$1.2f&lt;/font>)</string>
+
+<string name="bestBuy1price">Preis (der beste Preis ist ① Kaufpreis)</string>
+<string name="bestSell1price">Preis (der beste Preis ① der Verkaufspreis)</string>
+
+
+    <!--<string user_name="effective_price_domain_green">Preis (effektiver Preis) &lt;font color="#1ec590">%1$1.2f&lt;/font> - &lt;font color="#1ec590">%2$1.2f&lt;/font>)</string>-->
+
+
+<string name="buy_max_amount">Maximal verfügbar zum Kauf&lt;font color="#fe3f26"> %1$s &lt;/font> Articulo</string>
+
+<string name="sell_max_amount">Maximal verkaufbar &lt;font color="#1ec590"> %1$s &lt;/font> Articulo</string>
+
+<string name="borrow_max_amount">Maximale Debitkarte&lt;font color="#1ec590"> %1$s &lt;/font> Articulo</string>
+
+<string name="back_max_amount">Maximale Return Card &lt;font color="#fe3f26"> %1$s &lt;/font> Articulo</string>
+
+
+<string name="home_tab_hot">Heiß</string>
+<string name="home_tab_face">Niveau des Erscheinungsbildes</string>
+<string name="home_tab_game">E-sports</string>
+<string name="home_tab_show">Talent und Geschick</string>
+<string name="entrustToday">Ausstehende Aufträge</string>
+<string name="orderQuery">Abfrage bestellen</string>
+<string name="entrustHistory">Historische Ordnung</string>
+<string name="orderHistory">Historische Ordnung</string>
+<string name="orderToday">Heute bestellen</string>
+<string name="rateRanking">Liste der Popularität</string>
+<string name="worthRanking">Liste der Marktwerte</string>
+<string name="home_market_more">mehr</string>
+<string name="trading">Bearbeitung von Bestellungen>></string>
+<string name="olstar_name_code">Celebrity name /code</string>
+<string name="buy_amount">Volumen des Käufes</string>
+<string name="pay_2_buy_up">Zahlung — yuan Kaufen Sie auf</string>
+<string name="pay_2_buy_down">Zahlung — yuan Kaufen Herbst</string>
+<string name="pay_2_buy">Zahlung — yuan Kauf</string>
+
+<string name="sell">Übertragung des Besitzes von</string>
+<string name="can_use_cash">Barzahlung für den Kauf:—yuan</string>
+<string name="home_olstar_trade_buy_sell_fare">Service berechnen:%1$sYuan (Referenz)</string>
+<string name="home_olstar_trade_sell_rent">Vermietung von Karten:%1$sYuan (Referenz)</string>
+<string name="buy">Kauf</string>
+<string name="confirm_sell">Bestätigung der Übertragung</string>
+<string name="confirm_buy">Kauf bestätigen</string>
+<string name="pay_amount">Betrag der Zahlung</string>
+<string name="final_pay_amount">Bezahlt in Höhe:</string>
+<string name="newcardPanicBuying">Neuer Kartendruck</string>
+<string name="businessToday">Deal heute</string>
+<string name="businessHistory">Historische Transaktion</string>
+<string name="announce">Mitteilung</string>
+<string name="holdDetails">Details der Karte</string>
+
+<string name="bingBankCard">Bind Bankkarte</string>
+
+
+<string name="home_orderQuery">Abfrage bestellen</string>
+<string name="home_businessHistroy">Untersuchung von Transaktionen</string>
+<string name="home_newcardPrivilege">Neue Karten-Privilegien</string>
+<string name="home_bankcardInOut">Rückerstattung der Ladung</string>
+
+<string name="secKill">Zweite Kill Red Man Karte</string>
+<string name="product_second_kill">Der Rohstoff</string>
+
+<string name="home_exchange">Lieferung an die Börse</string>
+<string name="login">Melden Sie sich</string>
+
+
+<string name="manage_delivery_address">Lieferadresse verwalten</string>
+
+<string name="add_delivery_address">Lieferadresse hinzufügen</string>
+
+
+<string name="publish_redolstarcard">Antrag auf Ausstellung der roten Karte</string>
+<string name="redCardARScanning">Rote Karte</string>
+<string name="edit_address">Adresse bearbeiten</string>
+
+<string name="confirm_pick_up">Bestätigung der Lieferung</string>
+
+
+<string name="pick_up">Lieferung von Waren</string>
+<string name="exchange">Austausch</string>
+
+
+<string name="submit_information">Übermittlung von Informationen</string>
+
+<string name="i_will_publish_card">Ich möchte eine rote Karte ausstellen</string>
+
+<string name="pick_up_count">Abholmenge (verfügbar) &lt;font color="#fe3f26">%1$s&lt;/font>Articulo)</string>
+<string name="confirm_exchange">Austausch bestätigen</string>
+
+<string name="publish_dyn">Dynamik der Veröffentlichung</string>
+
+
+<string name="record">Historische Aufzeichnungen</string>
+<string name="mytickets">Mein Hauptzertifikat</string>
+
+<string name="used">Ungültiges</string>
+
+<string name="takeRecord">Aufzeichnung empfangen</string>
+
+
+<string name="qustionAnswer">Q &amp; A</string>
+<string name="da_v_qustionAnswer">Big V Q &amp; A</string>
+
+<string name="mogul">Sagte der große Mann</string>
+
+<string name="bi_real_text">฿</string>
+
+<string name="hotQuestion">Aktuelle Themen</string>
+<string name="hotAnswer">Antwort mit hoher Punktzahl</string>
+
+
+<string name="pull_to_refresh_pull_label">Aktualisieren nach unten…</string>
+<string name="pull_to_refresh_release_label">Freigabe zum Auffrischen…</string>
+<string name="pull_to_refresh_refreshing_label">Laden…</string>
+<string name="pull_to_up_refresh_refreshing_label">Heben Sie auf, um mehr zu laden…</string>
+<string name="pull_to_up_refresh_release_label">Laden Sie mehr…</string>
+<string name="pull_to_up_refresh_success_label">Refresh erfolgreich</string>
+
+<string name="auto_load_more_initialise_label">Laden der Freigabe</string>
+<string name="auto_load_more_loading_label">Mehr laden..</string>
+<string name="auto_load_more_fail_label">Laden fehlgeschlagen, klicken Sie erneut</string>
+<string name="auto_load_more_complete_label">Alles geladen</string>
+<string name="auto_load_more_nodata_label">Keine Daten</string>
+<string name="auto_load_more_full">Klicken Sie hier, um alle Kommentare anzuzeigen</string>
+
+    <!-- Letzte Auffrischungszeit herunterladen -->
+<string name="last_updateTime">Letzte Aktualisierung: %1$s</string>
+
+<string name="project_order_manager">Management von Projektaufträgen</string>
+
+<string name="transaction_query">REDZ⇋TOKA Abfrage austauschen</string>
+<string name="my_entrust">Eine Delegation</string>
+<string name="my_history_entrust">Historische Beauftragung</string>
+<string name="my_business_list">Details zum Abschluss</string>
+
+<string name="payPassword">Passwort für die Zahlung</string>
+
+<string name="modifyPayPassword">Passwort ändern</string>
+
+<string name="setPayPassword">Passwort festlegen</string>
+
+<string name="identityAuthen">Authentifizierung des realen Namens</string>
+
+<string name="bindEmail">Bind Mailbox</string>
+
+<string name="addTips">Bitte bestätigen Sie die von Ihnen ausgefüllten Artikelinformationen. Sobald sie auf dem Regal sind, wird die Editierfunktion des Artikels begrenzt sein (Titel, Preis, Anzahl von Kopien, etc., außer Abonnement-Typ), und das Element wird nicht gelöscht und vom Regal entfernt. Möchten Sie fortfahren?</string>
+
+<string name="projectBusinessHistory">Aktuelle Transaktionen</string>
+
+<string name="app_zhcn_name">Global Digital Asset Trading Platform</string>
+<string name="app_full_name">Worldwide Coin Trade（Global Digital Asset Trading Platform）</string>
+<string name="label_receive_activity">Senden</string>
+<string name="hint_password_number">Bitte geben Sie ein Passwort von mindestens sechs Ziffern ein</string>
+<string name="userBriefHint">keine Nachricht…</string>
+<string name="digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+<string name="digits2">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+<string name="home_title">LOGO</string>
+<string name="bigv">Big V</string>
+<string name="email_phone">Email or Phone</string>
+<string name="email">Email</string>
+
+
+<string name="test">Mehrsprachige Prüfung</string>
+<string name="languageset">Mehrsprachige Einstellungen</string>
+<string name="followSystem">Folgen des Systems</string>
+
+<string name="userProtocol">Vereinbarung über den User-Service</string>
+    <!--<string name="privacyProtocol">Privacy Policy for currency graved documentary software</string>-->
+<string name="circleRule">Procoin Software Circle Master Regeln</string>
+<string name="label_login_activity">Melden Sie sich</string>
+<string name="label_signup_activity">Register</string>
+<string name="label_phone_number">Telefon Nummer</string>
+<string name="hint_phone_number">Bitte geben Sie die Telefonnummer ein</string>
+<string name="label_verify_code">SMS-Verifikationscode (SMS)</string>
+<string name="hint_verify_code">Code eingeben</string>
+<string name="btn_verify_code">Verifikationscode erhalten</string>
+<string name="label_password_number">Passwort</string>
+<string name="label_password_confirm">Passwort bestätigen</string>
+<string name="hint_paassword_confirm">Bitte geben Sie Ihr Passwort erneut ein</string>
+<string name="label_forget_password">Passwort vergessen</string>
+
+
+<string name="qushezhi">Zu setzen</string>
+<string name="qushimingrenzheng">Gehe zur Echtname-Authentifizierung</string>
+<string name="chaoguozuidabeishu">Maximale Mehrfachüberschreitung:</string>
+<string name="qutianjiashoukuanfangshi">Um die Sammelmethode hinzuzufügen</string>
+<string name="jiaoyijilu">Datensatz der Transaktion</string>
+<string name="guojiqihuojiaoyijilu">International Futures Trading Records</string>
+<string name="waihuijiaoyijilu">Devisen- und Devisentransaktionen</string>
+<string name="shuzihuobigendanjiaoyijilu">Buchungen in digitaler Währung</string>
+<string name="guojiqihuogendanjiaoyijilu">International Futures Documentary Trading Record</string>
+<string name="waihuigendanjiaoyijilu">Dokumentarische Devisentransaktionen</string>
+<string name="xuanzejiaoyileixing">Wählen Sie den Transaktionstyp</string>
+<string name="gendandaoshi">Merchandiser:</string>
+<string name="chakandaoshi">Ansicht Mentor</string>
+
+
+    <string name="xinbishengou" translatable="false">Neues Währungsabonnement</string>
+    <string name="shuruzhengjianxinxi" translatable="false">Geben Sie Zertifikatsinformationen ein</string>
+    <string name="qingshuruzhengjianhaoma" translatable="false">Bitte geben Sie die ID-Nummer ein</string>
+    <string name="huzhao" translatable="false">Reisepass</string>
+    <string name="shenfenzheng" translatable="false">Personalausweis (ID)</string>
+    <string name="shangchuanzhengjianzhaopian" translatable="false">ID-Fotos hochladen</string>
+    <string name="shangchuanzhengjianzhengmian" translatable="false">Laden Sie die Vorderseite des Zertifikats hoch</string>
+    <string name="shangchuanzhengjianfanmian" translatable="false">Laden Sie die Rückseite des Zertifikats hoch</string>
+    <string name="zijinzhanghu" translatable="false">Konto des Fonds</string>
+    <string name="jiaoyizhanghu" translatable="false">Das Handelskonto</string>
+    <string name="qiehuanyuyan" translatable="false">Sprache wechseln</string>
+    <string name="tuichudenglu" translatable="false">Loggen Sie sich</string>
+
+    <string name="zhangfubang">Liste vergrößern</string>
+    <string name="diefubang">Liste ablehnen</string>
+    <string name="yijiangendanwuxudingpan">Ein Klick Merchandising, keine Notwendigkeit, auf die Platte zu starren</string>
+    <string name="jinruotcshichang">Eintritt in den OTC-Markt</string>
+    <string name="waihuizhanghu">Währungs- und Währungskonto</string>
+    <string name="youxianghuoshoujihao">Email oder Handy</string>
+    <string name="youxiang">Email</string>
+    <string name="shangchuanchongzhijietu">Klicken Sie hier  um den Screenshot der Aufladung hochzuladen</string>
+    <string name="chongzhi2">Aufladung</string>
+    <string name="tijiao">Senden</string>
+    <string name="chongzhiwangluo">Netzwerk für Aufladung</string>
+    <string name="tibierweima">Entzug QR-Code</string>
+    <string name="shangchuantibierweima">Klicken Sie hier, um den QR-Code des Währungsentzugs hochzuladen</string>
+    <string name="gendandongjiezichan">Festgestelltes Vermögen</string>
+    <string name="zhangdieyanse">Farbe auf und ab</string>
+    <string name="lvzhanghongdie">Grüne Rose und rot fiel</string>
+    <string name="hongzhanglvdie">Rote Rose und Grün fielen</string>
+    <string name="shezhichenggong">Setzt erfolgreich</string>
+
+    <string name="shimingrenzhengzhongxin">Real name Certification Center</string>
+    <string name="shimingrenzhengchenggong">Erfolg</string>
+    <string name="ninyitongguoshimingrenzheng">Sie haben die echte Namenszertifizierung bestanden</string>
+    <string name="zhenshixingming">Real name</string>
+    <string name="zhengjianhao">Zertifikat Nr.</string>
+    <string name="yishimingrenzheng">Real name certified</string>
+    <string name="renzhengzhuangtai">Status der Authentifizierung</string>
+    <string name="renzhengriqi">Datum der Zertifizierung</string>
+</resources>
