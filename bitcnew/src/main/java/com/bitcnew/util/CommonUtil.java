@@ -145,6 +145,19 @@ public class CommonUtil {
         context.startActivityForResult(intent, requestCode);
     }
 
+    public static String getClipboardText(Context context) {
+        ClipboardManager manager = (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
+        if (manager != null) {
+            if (manager.hasPrimaryClip() && manager.getPrimaryClip().getItemCount() > 0) {
+                CharSequence addedText = manager.getPrimaryClip().getItemAt(0).getText();
+                String addedTextString = String.valueOf(addedText);
+                if (!TextUtils.isEmpty(addedTextString)) {
+                    return addedTextString;
+                }
+            }
+        }
+        return "";
+    }
 
     @SuppressLint("NewApi")
     @SuppressWarnings("deprecation")

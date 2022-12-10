@@ -36,6 +36,7 @@ import com.bitcnew.module.home.XinbishengouActivity;
 import com.bitcnew.module.home.adapter.HomeFirstButtonAdapter;
 import com.bitcnew.module.login.LoginActivity;
 import com.bitcnew.module.myhome.AboutActivity;
+import com.bitcnew.module.pledge.PledgeMainActivity;
 import com.bitcnew.updatedialog.DownAndNoticeDialogManager;
 import com.bitcnew.util.VeDate;
 import com.bumptech.glide.Glide;
@@ -93,6 +94,8 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
     LinearLayout ll_otc;
     @BindView(R.id.ll_zaixiankefu)
     LinearLayout ll_zaixiankefu;
+    @BindView(R.id.ll_zhiyashengyi)
+    LinearLayout ll_zhiyashengyi;
     @BindView(R.id.re_otc)
     RelativeLayout re_otc;
     @BindView(R.id.symbol_txt)
@@ -176,6 +179,7 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         ll_xinbishengou.setOnClickListener(this);
         ll_otc.setOnClickListener(this);
         ll_zaixiankefu.setOnClickListener(this);
+        ll_zhiyashengyi.setOnClickListener(this);
         initBang();
         init();
         tjrImageLoaderUtil = new TjrImageLoaderUtil(R.drawable.ic_common_mic2);
@@ -607,6 +611,9 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
                 } else {
                     startCreateChat();
                 }
+                break;
+            case R.id.ll_zhiyashengyi:
+                PageJumpUtil.pageJump(getActivity(), PledgeMainActivity.class);
                 break;
         }
     }

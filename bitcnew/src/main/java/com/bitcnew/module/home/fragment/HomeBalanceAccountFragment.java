@@ -1,19 +1,29 @@
 package com.bitcnew.module.home.fragment;
 
+import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SwitchCompat;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bitcnew.common.constant.CommonConst;
 import com.bitcnew.common.web.CommonWebViewActivity;
+import com.bitcnew.module.home.adapter.AccountBalanceListAdapter;
+import com.bitcnew.module.home.entity.AccountBalance;
 import com.bitcnew.module.myhome.AboutActivity;
 import com.google.gson.reflect.TypeToken;
 import com.bitcnew.R;
@@ -33,8 +43,13 @@ import com.bitcnew.util.MyCallBack;
 import com.bitcnew.util.PageJumpUtil;
 import com.bitcnew.widgets.SimpleRecycleDivider;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnCheckedChanged;
+import butterknife.OnEditorAction;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 
@@ -67,9 +82,14 @@ public class HomeBalanceAccountFragment extends UserBaseFragment {
     TextView tvNoData;
     @BindView(R.id.tvAll)
     TextView tvAll;
+    @BindView(R.id.hideLittleSwitch)
+    SwitchCompat hideLittleSwitch;
+    @BindView(R.id.keywordEt)
+    EditText keywordEt;
 
-
-    private TakeCoinHistoryAdapter takeCoinHistoryAdapter;
+//    private TakeCoinHistoryAdapter takeCoinHistoryAdapter;
+    private List<AccountBalance> balanceList;
+    private AccountBalanceListAdapter balanceListAdapter;
 
 
     private AccountInfo balanceAccount;
@@ -88,23 +108,44 @@ public class HomeBalanceAccountFragment extends UserBaseFragment {
         return fragment;
     }
 
-    @Override
-    public void setUserVisibleHint(boolean isVisibleToUser) {
-        super.setUserVisibleHint(isVisibleToUser);
-        Log.d("HomeAccountFragment", "setUserVisibleHint==isVisibleToUser " + isVisibleToUser);
-        if (isVisibleToUser && getParentFragment() != null && getParentFragment().getUserVisibleHint()) {
-            startGetwithdrawCoinList();
+    @OnCheckedChanged(R.id.hideLittleSwitch)
+    public void onHideLittleSwitchToggle(CompoundButton btn, boolean checked) {
+        balanceListAdapter.setHideLittle(checked);
+    }
+
+    @OnEditorAction(R.id.keywordEt)
+    public boolean onKeywordSearch(TextView view, int actionId, KeyEvent event) {
+        if (actionId == EditorInfo.IME_ACTION_NEXT || actionId == EditorInfo.IME_ACTION_DONE || actionId == EditorInfo.IME_ACTION_SEARCH) {
+            balanceListAdapter.setKeyword(keywordEt.getText().toString());
+            closeKeybord(getActivity());
+        }
+        return false;
+    }
+
+    public static void closeKeybord(Activity activity) {
+        InputMethodManager imm =  (InputMethodManager)activity.getSystemService(Context.INPUT_METHOD_SERVICE);
+        if(imm != null) {
+            imm.hideSoftInputFromWindow(activity.getWindow().getDecorView().getWindowToken(), 0);
         }
     }
 
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        if (getUserVisibleHint() && getParentFragment() != null && getParentFragment().getUserVisibleHint()) {
-            startGetwithdrawCoinList();
-        }
-    }
+//    @Override
+//    public void setUserVisibleHint(boolean isVisibleToUser) {
+//        super.setUserVisibleHint(isVisibleToUser);
+//        Log.d("HomeAccountFragment", "setUserVisibleHint==isVisibleToUser " + isVisibleToUser);
+//        if (isVisibleToUser && getParentFragment() != null && getParentFragment().getUserVisibleHint()) {
+//            startGetwithdrawCoinList();
+//        }
+//    }
+//
+//
+//    @Override
+//    public void onResume() {
+//        super.onResume();
+//        if (getUserVisibleHint() && getParentFragment() != null && getParentFragment().getUserVisibleHint()) {
+//            startGetwithdrawCoinList();
+//        }
+//    }
 
     //    @BindView(R.id.tvEableBalance)
 //    TextView tvEableBalance;
@@ -119,8 +160,25 @@ public class HomeBalanceAccountFragment extends UserBaseFragment {
             tvEableBalance.setText(balanceAccount.holdAmount);
             tvFrozenBalance.setText(balanceAccount.frozenAmount);
             tvShizhi.setText(balanceAccount.assetsCny);
-        }
 
+
+            balanceList.clear();
+            if (null != balanceAccount.symbolList) {
+                balanceList.addAll(balanceAccount.symbolList);
+            }
+            balanceListAdapter.notifyDataSetChanged();
+
+            if (null != balanceAccount.symbolList && !balanceAccount.symbolList.isEmpty()) {
+                rvList.setVisibility(View.VISIBLE);
+                tvNoData.setVisibility(View.GONE);
+            } else {
+                rvList.setVisibility(View.GONE);
+                tvNoData.setVisibility(View.VISIBLE);
+            }
+        } else {
+            rvList.setVisibility(View.GONE);
+            tvNoData.setVisibility(View.VISIBLE);
+        }
     }
 
 
@@ -146,19 +204,22 @@ public class HomeBalanceAccountFragment extends UserBaseFragment {
             ll_shizhi.setVisibility(View.INVISIBLE);
         }
 
-        takeCoinHistoryAdapter = new TakeCoinHistoryAdapter(getActivity());
+//        takeCoinHistoryAdapter = new TakeCoinHistoryAdapter(getActivity());
+        balanceList = new ArrayList<>();
+        balanceListAdapter = new AccountBalanceListAdapter(balanceList);
         rvList.setLayoutManager(new LinearLayoutManager(getActivity()));
-        SimpleRecycleDivider simpleRecycleDivider = new SimpleRecycleDivider(getActivity(), 0, 0, ContextCompat.getColor(getActivity(), R.color.pageBackground), 10);
-        simpleRecycleDivider.setShowLastDivider(false);
-        rvList.addItemDecoration(simpleRecycleDivider);
-        rvList.setAdapter(takeCoinHistoryAdapter);
-        takeCoinHistoryAdapter.setOnItemClick(new OnItemClick() {
-            @Override
-            public void onItemClickListen(int pos, TaojinluType t) {
-                TakeCoinHistory takeCoinHistory = (TakeCoinHistory) t;
-                TakeCoinHistoryDetailsActivity.pageJump(getActivity(), takeCoinHistory);
-            }
-        });
+//        SimpleRecycleDivider simpleRecycleDivider = new SimpleRecycleDivider(getActivity(), 0, 0, ContextCompat.getColor(getActivity(), R.color.pageBackground), 10);
+//        simpleRecycleDivider.setShowLastDivider(false);
+//        rvList.addItemDecoration(simpleRecycleDivider);
+//        rvList.setAdapter(takeCoinHistoryAdapter);
+//        takeCoinHistoryAdapter.setOnItemClick(new OnItemClick() {
+//            @Override
+//            public void onItemClickListen(int pos, TaojinluType t) {
+//                TakeCoinHistory takeCoinHistory = (TakeCoinHistory) t;
+//                TakeCoinHistoryDetailsActivity.pageJump(getActivity(), takeCoinHistory);
+//            }
+//        });
+        rvList.setAdapter(balanceListAdapter);
         tvAll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -216,29 +277,29 @@ public class HomeBalanceAccountFragment extends UserBaseFragment {
 
 
     private void startGetwithdrawCoinList() {
-        CommonUtil.cancelCall(withdrawCoinListCall);
-        withdrawCoinListCall = VHttpServiceManager.getInstance().getVService().withdrawCoinList(pageNo);
-        withdrawCoinListCall.enqueue(new MyCallBack(getActivity()) {
-            @Override
-            protected void callBack(ResultData resultData) {
-                if (resultData.isSuccess()) {
-                    pageSize = resultData.getPageSize(pageSize);
-                    group = resultData.getGroup("data", new TypeToken<Group<TakeCoinHistory>>() {
-                    }.getType());
-                    takeCoinHistoryAdapter.setGroup(group);
-                    if (group != null && group.size() > 0) {
-                        rvList.setVisibility(View.VISIBLE);
-                        tvNoData.setVisibility(View.GONE);
-                    } else {
-                        rvList.setVisibility(View.GONE);
-                        tvNoData.setVisibility(View.VISIBLE);
-                    }
-//                    if (takeCoinHistoryAdapter.getRealItemCount() > 0) {
-//                        takeCoinHistoryAdapter.onLoadComplete(resultData.isSuccess(), group == null || group.size() < pageSize);
+//        CommonUtil.cancelCall(withdrawCoinListCall);
+//        withdrawCoinListCall = VHttpServiceManager.getInstance().getVService().withdrawCoinList(pageNo);
+//        withdrawCoinListCall.enqueue(new MyCallBack(getActivity()) {
+//            @Override
+//            protected void callBack(ResultData resultData) {
+//                if (resultData.isSuccess()) {
+//                    pageSize = resultData.getPageSize(pageSize);
+//                    group = resultData.getGroup("data", new TypeToken<Group<TakeCoinHistory>>() {
+//                    }.getType());
+//                    takeCoinHistoryAdapter.setGroup(group);
+//                    if (group != null && group.size() > 0) {
+//                        rvList.setVisibility(View.VISIBLE);
+//                        tvNoData.setVisibility(View.GONE);
+//                    } else {
+//                        rvList.setVisibility(View.GONE);
+//                        tvNoData.setVisibility(View.VISIBLE);
 //                    }
-                }
-            }
-
-        });
+////                    if (takeCoinHistoryAdapter.getRealItemCount() > 0) {
+////                        takeCoinHistoryAdapter.onLoadComplete(resultData.isSuccess(), group == null || group.size() < pageSize);
+////                    }
+//                }
+//            }
+//
+//        });
     }
 }

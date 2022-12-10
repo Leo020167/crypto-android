@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6F4"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/tianjiatibidizhi"
+            android:textColor="#3E4660"
+            android:textSize="14dp"
+            app:fontFamily="@font/puhuiti_medium" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ffffff_14dp"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="20dp">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/xuanzebizhong"
+                    android:textColor="#3E4660"
+                    android:textSize="14dp"
+                    app:fontFamily="@font/puhuiti_medium" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/xuanzetibiwangluoLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xuanzetibiwangluo"
+                    android:textColor="#3E4660"
+                    android:textSize="14dp"
+                    app:fontFamily="@font/puhuiti_medium" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/coinTypeTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bg_3e4660_strike_3dp"
+                    android:drawableRight="@drawable/sanjiaoxing_blue"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#3E4660"
+                    android:gravity="center"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:textColor="#3E4660"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/puhuiti_medium"
+                    tools:text="BTC" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:scrollbars="none"
+                    >
+
+                    <RadioGroup
+                        android:id="@+id/coinSubTypeRadioGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:orientation="horizontal">
+
+                    </RadioGroup>
+                </HorizontalScrollView>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/tibidizhi"
+                android:textColor="#3E4660"
+                android:textSize="14dp"
+                app:fontFamily="@font/puhuiti_medium" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/addressEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/bg_edf3fa_6dp"
+                    android:fontFamily="@font/puhuiti_medium"
+                    android:gravity="center_vertical"
+                    android:hint="@string/qingshurudizhi"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:textColor="#333"
+                    android:textColorHint="#A2A9BC"
+                    android:textSize="14dp" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/action_copy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/bg_copy"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="8dp"
+                    android:text="@string/zhantie"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+            </FrameLayout>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/beizhu"
+                android:textColor="#3E4660"
+                android:textSize="14dp"
+                app:fontFamily="@font/puhuiti_medium" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/beizhuEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_edf3fa_6dp"
+                    android:fontFamily="@font/puhuiti_medium"
+                    android:gravity="center_vertical"
+                    android:hint="@string/qingshurubeizhu"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:textColor="#333"
+                    android:textColorHint="#A2A9BC"
+                    android:textSize="14dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/action_add"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_7270f8_4d4bda_5dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/ic_add"
+                    android:drawableTint="@color/white"
+                    android:text="@string/tianjia"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/puhuiti_medium" />
+
+            </FrameLayout>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</LinearLayout>

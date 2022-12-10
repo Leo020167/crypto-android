@@ -21,7 +21,9 @@ import com.bitcnew.http.util.CommonUtil;
 import com.bitcnew.module.home.entity.AccountInfo;
 import com.bitcnew.module.home.entity.Position;
 import com.bitcnew.module.home.entity.UserFollow;
+import com.bitcnew.module.home.trade.RechargeCoin1Activity;
 import com.bitcnew.module.home.trade.RechargeCoinActivity;
+import com.bitcnew.module.home.trade.TakeCoin1Activity;
 import com.bitcnew.module.home.trade.TakeCoinActivity;
 import com.bitcnew.module.home.trade.TransferCoinActivity;
 import com.bitcnew.module.home.trade.USDTTradeActivity;
@@ -301,10 +303,12 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
                 }
                 break;
             case R.id.llRechargeCoin:
-                PageJumpUtil.pageJump(getActivity(), RechargeCoinActivity.class);
+//                PageJumpUtil.pageJump(getActivity(), RechargeCoinActivity.class);
+                PageJumpUtil.pageJump(getActivity(), RechargeCoin1Activity.class);
                 break;
             case R.id.llWithDrawCoin:
-                PageJumpUtil.pageJump(getActivity(), TakeCoinActivity.class);
+//                PageJumpUtil.pageJump(getActivity(), TakeCoinActivity.class);
+                PageJumpUtil.pageJump(getActivity(), TakeCoin1Activity.class);
                 break;
             case R.id.llTransfer:
                 PageJumpUtil.pageJump(getActivity(), TransferCoinActivity.class);

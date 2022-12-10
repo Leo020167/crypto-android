@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lang_cn_zh">简体中文</string>
+    <string name="lang_cn_hk">繁體中文</string>
+    <string name="lang_eng">ENGLISH</string>
+    <string name="lang_kor">한국인</string>
+    <string name="lang_jp">日本語</string>
+    <string name="lang_rs">Русский язык</string>
+    <string name="lang_fra">Français</string>
+    <string name="lang_sp">Español</string>
+    <string name="lang_pt">Português</string>
+
+</resources>

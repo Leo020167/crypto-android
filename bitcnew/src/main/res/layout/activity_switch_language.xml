@@ -4,91 +4,391 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#F4F6F4"
     android:orientation="vertical"
     tools:context=".module.home.SwitchLanguageActivity">
-    <include layout="@layout/toolbar" />
-    <View
+
+    <com.bitcnew.common.base.CommonToolbar
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:title="@string/qiehuanyuyan" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/ll_en"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_lang_uk" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_en"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/lang_eng"
+                android:textColor="#333"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_en"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_menu_finish"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="52dp"
+            android:background="#DDD" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/ll_zhCn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_lang_cn_zh" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_zhCn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/lang_cn_zh"
+                android:textColor="#333"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_zhCn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_menu_finish"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="52dp"
+            android:background="#DDD" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/ll_zhTw"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_lang_cn_hk" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_zhTw"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/lang_cn_hk"
+                android:textColor="#333"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_zhTw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_menu_finish"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="52dp"
+            android:background="#DDD" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/ll_ko"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_lang_kor" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_ko"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/lang_kor"
+                android:textColor="#333"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_ko"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_menu_finish"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="52dp"
+            android:background="#DDD" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/ll_fr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_lang_fra" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_fr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/lang_fra"
+                android:textColor="#333"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_fr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_menu_finish"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="52dp"
+            android:background="#DDD" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/ll_ru"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_lang_rs" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_ru"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/lang_rs"
+                android:textColor="#333"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_ru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_menu_finish"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="52dp"
+            android:background="#DDD" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/ll_es"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_lang_sp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_es"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/lang_sp"
+                android:textColor="#333"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_es"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_menu_finish"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="52dp"
+            android:background="#DDD" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/ll_jp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_lang_jp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_jp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/lang_jp"
+                android:textColor="#333"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_jp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_menu_finish"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="52dp"
+            android:background="#DDD"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/ll_pt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:visibility="gone">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_lang_pt" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_pt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/lang_pt"
+                android:textColor="#333"
+                android:textSize="16dp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_menu_finish"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <Space
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 
-    <View
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/action_save"
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/cd8d7dc" />
-    <TextView
-        android:id="@+id/txt_language1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="15dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/bg_7270f8_4d4bda_5dp"
         android:gravity="center"
-        android:text="简体中文"
-        android:textColor="@color/c1d3155"
-        android:textSize="@dimen/font_size_16"/>
+        android:text="@string/baocunyuyanshezhi"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:fontFamily="@font/puhuiti_medium" />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/cd8d7dc" />
-    <TextView
-        android:id="@+id/txt_language2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="15dp"
-        android:gravity="center"
-        android:text="繁體中文"
-        android:textColor="@color/c1d3155"
-        android:textSize="@dimen/font_size_16"/>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/cd8d7dc" />
-    <TextView
-        android:id="@+id/txt_language3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="15dp"
-        android:gravity="center"
-        android:text="English"
-        android:textColor="@color/c1d3155"
-        android:textSize="@dimen/font_size_16"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/cd8d7dc" />
-    <TextView
-        android:id="@+id/txt_language4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="15dp"
-        android:gravity="center"
-        android:text="日本語"
-        android:textColor="@color/c1d3155"
-        android:textSize="@dimen/font_size_16"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/cd8d7dc" />
-    <TextView
-        android:id="@+id/txt_language5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="15dp"
-        android:gravity="center"
-        android:text="Deutsch"
-        android:textColor="@color/c1d3155"
-        android:textSize="@dimen/font_size_16"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/cd8d7dc" />
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
 </LinearLayout>

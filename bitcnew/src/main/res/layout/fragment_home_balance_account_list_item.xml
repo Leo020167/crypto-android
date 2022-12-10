@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="7.5dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="7.5dp"
+    android:background="@drawable/bg_f6f7f9_10dp"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="15dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/coinTypeTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#6175AE"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/puhuiti"
+            tools:text="BTC" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/usdtBalanceTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#A2A9BC"
+            android:textSize="12dp"
+            app:fontFamily="@font/puhuiti_medium"
+            tools:text="≈ 23193.00000000 USDT" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/keyongzichan"
+            android:textColor="#A2A9BC"
+            android:textSize="12dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dongjiezichan"
+            android:textColor="#A2A9BC"
+            android:textSize="12dp" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/ableBalanceTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#3E4660"
+            android:textSize="16dp"
+            app:fontFamily="@font/puhuiti_medium"
+            tools:text="12293.00000000" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/freezeBalanceTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3E4660"
+            android:textSize="16dp"
+            app:fontFamily="@font/puhuiti_medium"
+            tools:text="12293.00000000" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</LinearLayout>

@@ -18,6 +18,7 @@ import com.bitcnew.common.base.TJRBaseToolBarActivity;
 import com.bitcnew.common.constant.CommonConst;
 import com.bitcnew.common.entity.ResultData;
 import com.bitcnew.data.sharedpreferences.SysShareData;
+import com.bitcnew.module.login.LoginActivity;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.MyCallBack;
 import com.bitcnew.nsk.TjrStarNSKManager;
@@ -25,6 +26,7 @@ import com.bitcnew.util.PageJumpUtil;
 import com.bitcnew.MainApplication;
 import com.bitcnew.common.entity.BootPage;
 import com.bitcnew.module.home.HomeActivity;
+import com.bitcnew.util.SPUtils;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
 import com.bitcnew.http.TjrBaseApi;
@@ -57,19 +59,38 @@ public class WelcomeActivity extends TJRBaseToolBarActivity {
 //            } else {
 //                PageJumpUtil.pageJump(WelcomeActivity.this, HomeActivity.class, null);
 //            }
-//            String lang =(String) SPUtils.get(this,"myLanguage","moren");
-//            switchLanguage(lang);
-            PageJumpUtil.pageJump(WelcomeActivity.this, HomeActivity.class, null);
+            String lang = (String) SPUtils.get(this,"myLanguage1","");
+            switchLanguage(lang);
+//            PageJumpUtil.pageJump(WelcomeActivity.this, HomeActivity.class, null);
         }
         overridePendingTransition(R.anim.alpha_from0_to1, R.anim.alpha_from1_to0);
         WelcomeActivity.this.finish();
     }
 
-    private void switchLanguage(String language) {//设置应用语言类型
+    private void switchLanguage(String lang) {//设置应用语言类型
         Resources resources = getResources();
         Configuration config = resources.getConfiguration();
         DisplayMetrics dm = resources.getDisplayMetrics();
-        config.locale = Locale.TRADITIONAL_CHINESE;
+        if ("zh-cn".equals(lang)) {//简体中文
+            config.locale = Locale.SIMPLIFIED_CHINESE;
+        } else if ("zh-tw".equals(lang)) {//繁体中文
+            config.locale = Locale.TRADITIONAL_CHINESE;
+        } else if ("ko".equals(lang)) {//韩语
+            config.locale = Locale.KOREA;
+        } else if ("jp".equals(lang)) {//日语
+            config.locale = Locale.JAPANESE;
+        } else if ("ru".equals(lang)) {//俄语
+            config.locale = new Locale("ru");
+        } else if ("fr".equals(lang)) {//法语
+            config.locale = Locale.FRENCH;
+        } else if ("es".equals(lang)) {//西班牙语
+            config.locale = new Locale("es");
+        } else if ("pt".equals(lang)) {//葡萄牙语
+            config.locale = new Locale("pt");
+        } else {
+//            config.locale = Locale.getDefault();
+            config.locale = Locale.ENGLISH;
+        }
         resources.updateConfiguration(config, dm);
         //更新语言后，destroy当前页面，重新绘制
         finish();

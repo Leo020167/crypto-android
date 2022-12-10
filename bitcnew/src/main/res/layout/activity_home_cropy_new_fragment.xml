@@ -413,7 +413,7 @@
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="80dp"
+                        android:layout_height="108dp"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="11dp"
                         android:orientation="horizontal"
@@ -430,13 +430,14 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/tab1_menu1"/>
-                            <TextView
+                            <android.support.v7.widget.AppCompatTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="10dp"
+                                android:layout_marginTop="6dp"
                                 android:text="@string/dav"
                                 android:textColor="@color/c666666"
-                                android:textSize="12sp"/>
+                                android:textSize="12sp"
+                                app:fontFamily="@font/puhuiti_medium"/>
                         </LinearLayout>
                         <LinearLayout
                             android:id="@+id/ll_xinbishengou"
@@ -450,13 +451,14 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/tab1_menu2"/>
-                            <TextView
+                            <android.support.v7.widget.AppCompatTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="10dp"
+                                android:layout_marginTop="6dp"
                                 android:text="@string/chuangxinshiyanqu"
                                 android:textColor="@color/c666666"
-                                android:textSize="12sp"/>
+                                android:textSize="12sp"
+                                app:fontFamily="@font/puhuiti_medium"/>
                         </LinearLayout>
                         <LinearLayout
                             android:id="@+id/ll_otc"
@@ -470,13 +472,14 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/tab1_menu3"/>
-                            <TextView
+                            <android.support.v7.widget.AppCompatTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="10dp"
+                                android:layout_marginTop="6dp"
                                 android:text="@string/otcjiaoyi"
                                 android:textColor="@color/c666666"
-                                android:textSize="12sp"/>
+                                android:textSize="12sp"
+                                app:fontFamily="@font/puhuiti_medium"/>
                         </LinearLayout>
                         <LinearLayout
                             android:id="@+id/ll_zaixiankefu"
@@ -490,13 +493,36 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/tab1_menu4"/>
-                            <TextView
+                            <android.support.v7.widget.AppCompatTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="10dp"
+                                android:layout_marginTop="6dp"
                                 android:text="@string/zaixiankefu"
                                 android:textColor="@color/c666666"
-                                android:textSize="12sp"/>
+                                android:textSize="12sp"
+                                app:fontFamily="@font/puhuiti_medium"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/ll_zhiyashengyi"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/tab1_menu5"/>
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:text="@string/zhiyashengyi"
+                                android:textColor="@color/c666666"
+                                android:textSize="12sp"
+                                app:fontFamily="@font/puhuiti_medium"/>
                         </LinearLayout>
                     </LinearLayout>
 

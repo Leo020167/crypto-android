@@ -1,6 +1,7 @@
 package com.bitcnew.http.tjrcpt;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.util.Log;
 
 import com.bitcnew.SpUtils;
@@ -10,9 +11,14 @@ import com.bitcnew.http.retrofitservice.PublicParameterInterceptor;
 import com.bitcnew.http.retrofitservice.VService;
 //import com.cropyme.http.retrofitservice.ImredzService;
 
+import java.io.IOException;
+import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
+import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
@@ -135,6 +141,10 @@ public class VHttpServiceManager {
     public static final String SUB_GETDETAIL = "subscribe/getDetail.do";//新币申购详情
     public static final String SUB_APPLY = "subscribe/apply.do";//新币申购
     public static final String SUB_ALLIN = "subscribe/allIn.do";//全额申购接口
+
+    public static final String PLEDGE_LIST = "/procoin/pledge/list.do";
+    public static final String PLEDGE_RECORD_LIST = "/procoin/pledge/recordList.do";
+    public static final String PLEDGE_COMMIT = "/procoin/pledge/commit.do";
 
 //    public static final String SHARE_GETSHAREINFO = "share/getShareInfo.do";//
 
@@ -409,6 +419,7 @@ public class VHttpServiceManager {
                 httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
                 builder.addInterceptor(httpLoggingInterceptor);//这里是日志监听
             }
+            builder.addInterceptor(createLangInterceptor());
             builder.connectTimeout(TIMEOUT, TimeUnit.SECONDS);
             builder.readTimeout(TIMEOUT, TimeUnit.SECONDS);
             builder.writeTimeout(TIMEOUT, TimeUnit.SECONDS);
@@ -434,6 +445,7 @@ public class VHttpServiceManager {
                 httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
                 builder.addInterceptor(httpLoggingInterceptor);//这里是日志监听
             }
+            builder.addInterceptor(createLangInterceptor());
             builder.connectTimeout(TIMEOUT, TimeUnit.SECONDS);
             builder.readTimeout(TIMEOUT, TimeUnit.SECONDS);
             builder.writeTimeout(TIMEOUT, TimeUnit.SECONDS);
@@ -450,7 +462,36 @@ public class VHttpServiceManager {
 
     }
 
-
+    private Interceptor createLangInterceptor() {
+        return new Interceptor() {
+            @Override
+            public Response intercept(Chain chain) throws IOException {
+                SharedPreferences sp = context.getSharedPreferences("config", Context.MODE_PRIVATE);
+                String lang = sp.getString("myLanguage1", "");
+                if ("zh-cn".equals(lang)) {//简体中文
+                    lang = "cn";
+                } else if ("zh-tw".equals(lang)) {//繁体中文
+                    lang = "ts";
+                } else if ("ko".equals(lang)) {//韩语
+                    lang = "ko";
+                } else if ("jp".equals(lang)) {//日语
+                    lang = "ja";
+                } else if ("ru".equals(lang)) {//俄语
+                    lang = "ru";
+                } else if ("fr".equals(lang)) {//法语
+                    lang = "fr";
+                } else if ("es".equals(lang)) {//西班牙语
+                    lang = "es";
+                } else if ("pt".equals(lang)) {//葡萄牙语
+                    lang = "pt";
+                } else {
+                    lang = "en";
+                }
+                Request request = chain.request().newBuilder().addHeader("lang", lang).build();
+                return chain.proceed(request);
+            }
+        };
+    }
 
     public VService getMarketService() {
         if (marketService == null) {
@@ -467,6 +508,7 @@ public class VHttpServiceManager {
                 httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
                 builder.addInterceptor(httpLoggingInterceptor);//这里是日志监听
             }
+            builder.addInterceptor(createLangInterceptor());
             builder.connectTimeout(TIMEOUT, TimeUnit.SECONDS);
             builder.readTimeout(TIMEOUT, TimeUnit.SECONDS);
             builder.writeTimeout(TIMEOUT, TimeUnit.SECONDS);
@@ -503,6 +545,7 @@ public class VHttpServiceManager {
                 httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
                 builder.addInterceptor(httpLoggingInterceptor);//这里是日志监听
             }
+            builder.addInterceptor(createLangInterceptor());
             builder.connectTimeout(TIMEOUT, TimeUnit.SECONDS);
             builder.readTimeout(TIMEOUT, TimeUnit.SECONDS);
             builder.writeTimeout(TIMEOUT, TimeUnit.SECONDS);
@@ -535,6 +578,7 @@ public class VHttpServiceManager {
                 httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
                 builder.addInterceptor(httpLoggingInterceptor);//这里是日志监听
             }
+            builder.addInterceptor(createLangInterceptor());
             builder.connectTimeout(UPLOADTIMEOUT, TimeUnit.SECONDS);
             builder.readTimeout(UPLOADTIMEOUT, TimeUnit.SECONDS);
             builder.writeTimeout(UPLOADTIMEOUT, TimeUnit.SECONDS);

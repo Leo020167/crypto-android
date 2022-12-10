@@ -563,4 +563,29 @@
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:windowSoftInputMode">adjustPan</item>
     </style>
+
+    <style name="tabTextAppearance">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#A2A9BC</item>
+        <item name="fontFamily">@font/puhuiti_medium</item>
+    </style>
+
+    <style name="base_tab">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabTextAppearance">@style/tabTextAppearance</item>
+        <item name="tabTextColor">#A2A9BC</item>
+        <item name="tabRippleColor">@color/transparent</item>
+        <item name="tabSelectedTextColor">#4D4BDA</item>
+        <item name="tabIndicatorFullWidth">false</item>
+        <item name="tabIndicatorGravity">bottom</item>
+        <item name="tabIndicatorColor">#4D4BDA</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabMode">scrollable</item>
+    </style>
+
 </resources>

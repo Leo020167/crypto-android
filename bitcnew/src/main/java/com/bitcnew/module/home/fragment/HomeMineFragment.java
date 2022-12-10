@@ -39,6 +39,7 @@ import com.bitcnew.module.home.ShequActivity;
 import com.bitcnew.module.home.ShimingrenzhengtongguoActivity;
 import com.bitcnew.module.home.TakePhotoActivity;
 import com.bitcnew.module.home.WebActivity;
+import com.bitcnew.module.home.ZichanActivity;
 import com.bitcnew.module.home.trade.RechargeCoinActivity;
 import com.bitcnew.module.home.trade.TakeCoinActivity;
 import com.bitcnew.module.home.trade.TransferCoinActivity;
@@ -92,6 +93,8 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
     @BindView(R.id.ivSetting)
     LinearLayout ivSetting;
 
+    @BindView(R.id.llZichan)
+    LinearLayout llZichan;
 
     @BindView(R.id.llRechargeCoin)
     LinearLayout llRechargeCoin;
@@ -227,6 +230,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
         llShareApp.setOnClickListener(this);
         llIdentityAuthen.setOnClickListener(this);
         llBindEmail.setOnClickListener(this);
+        llZichan.setOnClickListener(this);
 
         badgePrivateChat = new BadgeView(getActivity(), tvFeedback);
         badgePrivateChat.setBadgeMargin(0, 0);
@@ -420,8 +424,9 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
                     showShareDialogFragment();
                 }
                 break;
-
-
+            case R.id.llZichan: // 资产
+                PageJumpUtil.pageJump(getActivity(), ZichanActivity.class);
+                break;
         }
     }
 

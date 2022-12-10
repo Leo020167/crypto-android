@@ -57,6 +57,7 @@
         <activity android:name=".module.home.ShequActivity" />
         <activity android:name=".module.home.trade.TradeLeverActivity2" />
         <activity android:name=".module.home.MarketActivity2" />
+        <activity android:name=".module.home.ZichanActivity" />
         <activity
             android:name=".module.WebActivity2"
             android:exported="false" />
@@ -245,6 +246,16 @@
             android:name=".module.myhome.MyMessageActivity"
             android:configChanges="locale|layoutDirection"
             android:label="@string/myMsg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.pledge.PledgeMainActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/zhiyashengyi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.pledge.PledgeRecordListActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/zhiyajilu"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.tencent.tauth.AuthActivity"
@@ -565,6 +576,18 @@
             android:configChanges="locale|layoutDirection"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".module.home.trade.TakeCoin1Activity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.TakeCoinAddressListActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.TakeCoinAddressAddActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".module.home.trade.history.TakeCoinHistoryDetailsActivity"
             android:configChanges="locale|layoutDirection"
             android:screenOrientation="portrait" />
@@ -582,6 +605,10 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".module.home.trade.RechargeCoinActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.trade.RechargeCoin1Activity"
             android:configChanges="locale|layoutDirection"
             android:screenOrientation="portrait" />
         <activity
@@ -657,6 +684,10 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".module.wallet.LeverInfoActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.wallet.LeverInfo1Activity"
             android:configChanges="locale|layoutDirection"
             android:screenOrientation="portrait" />
         <activity

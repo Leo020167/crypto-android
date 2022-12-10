@@ -11,6 +11,8 @@ package com.bitcnew.module.home.entity;
 import com.bitcnew.http.base.Group;
 import com.bitcnew.http.base.TaojinluType;
 
+import java.util.List;
+
 public class AccountInfo implements TaojinluType {
 
     public String accountType;// 账户类型
@@ -26,6 +28,7 @@ public class AccountInfo implements TaojinluType {
     public String frozenBail;// 冻结保证金＝所有委托的订单保证金累加
     public String eableBail;// 可用保证金＝账户权益－持仓保证金－冻结保证金（当可用保证金为0系统撤销用户委托订单）
     public String disableAmount;//冻结保证金xin
+    public List<AccountBalance> symbolList;
 
 
     public AccountInfo() {

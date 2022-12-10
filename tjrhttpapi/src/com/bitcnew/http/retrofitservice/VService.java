@@ -48,6 +48,16 @@ public interface VService {
     @POST(VHttpServiceManager.SUB_ALLIN)
     Call<ResponseBody> subscribe_allin(@Field("subscribeId") String subscribeId);
 
+    @POST(VHttpServiceManager.PLEDGE_LIST)
+    Call<ResponseBody> pledgeList();
+
+    @POST(VHttpServiceManager.PLEDGE_RECORD_LIST)
+    @FormUrlEncoded
+    Call<ResponseBody> pledgeRecordList(@Field("status") String status, @Field("userId") Long userId);
+
+    @POST(VHttpServiceManager.PLEDGE_COMMIT)
+    @FormUrlEncoded
+    Call<ResponseBody> pledgeCommit(@Field("count") String count,  @Field("pledgeId") Long pledgeId, @Field("userId") Long userId);
 
     @FormUrlEncoded
     @POST(VHttpServiceManager.SUB_APPLY)
@@ -998,6 +1008,89 @@ public interface VService {
     @FormUrlEncoded
     @POST(VHttpServiceManager.WITHDRAWCOIN_LIST)
     Call<ResponseBody> withdrawCoinList(@Field("pageNo") int pageNo);
+
+    /**
+     * 获取充币信息
+     *
+     * @param userId
+     * @return
+     */
+    @FormUrlEncoded
+    @POST("/procoin/depositeWithdraw/getChargeConfigs.do")
+    Call<ResponseBody> getChargeConfigs(@Field("userId") Long userId, @Field("symbol") String symbol);
+
+    /**
+     * 提交充币申请
+     *
+     * @param userId
+     * @return
+     */
+    @FormUrlEncoded
+    @POST("/procoin/depositeWithdraw/chargeSubmit.do")
+    Call<ResponseBody> chargeSubmit(@Field("userId") Long userId, @Field("symbol") String symbol,
+                                    @Field("chainType") String chainType, @Field("address") String address,
+                                    @Field("amount") String amount, @Field("image") String image);
+
+    /**
+     * 获取提币信息
+     *
+     * @param userId
+     * @return
+     */
+    @FormUrlEncoded
+    @POST("/procoin/depositeWithdraw/getWithdrawConfigs.do")
+    Call<ResponseBody> getWithdrawConfigs(@Field("userId") Long userId, @Field("symbol") String symbol);
+
+    /**
+     * 提交提币申请
+     *
+     * @param userId
+     * @return
+     */
+    @FormUrlEncoded
+    @POST("/procoin/depositeWithdraw/withdrawSubmit.do")
+    Call<ResponseBody> withdrawSubmit(@Field("userId") Long userId, @Field("addressId") String addressId, @Field("amount") String amount);
+
+    /**
+     * 提币地址列表
+     *
+     * @param userId
+     * @return
+     */
+    @FormUrlEncoded
+    @POST("/procoin/depositeWithdraw/addressList.do")
+    Call<ResponseBody> takeCoinAddressList(@Field("userId") Long userId);
+
+    /**
+     * 添加提币地址
+     *
+     * @param userId
+     * @return
+     */
+    @FormUrlEncoded
+    @POST("/procoin/depositeWithdraw/addAddress.do")
+    Call<ResponseBody> addTakeCoinAddress(@Field("userId") Long userId, @Field("symbol") String coinType, @Field("chainType") String chainType, @Field("address") String address, @Field("remark") String remark);
+
+    /**
+     * 删除提币地址
+     *
+     * @param addressId
+     * @return
+     */
+    @FormUrlEncoded
+    @POST("/procoin/depositeWithdraw/delAddress.do")
+    Call<ResponseBody> delTakeCoinAddress(@Field("addressId") String addressId);
+
+    /**
+     * 获取币种和链链接列表
+     *
+     * @param inOut 1: 充值；-1：提现
+     * @param userId
+     * @return
+     */
+    @FormUrlEncoded
+    @POST("/procoin/depositeWithdraw/coinList.do")
+    Call<ResponseBody> coinList(@Field("inOut") int inOut, @Field("userId") Long userId);
 
     /**
      * 提币列表

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="7.5dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="7.5dp"
+    android:background="@drawable/bg_ffffff_14dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="15dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/coinTypeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6175AE"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:text="BTC" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/dizhiTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="#A2A9BC"
+            android:textSize="12dp"
+            app:fontFamily="@font/puhuiti_medium"
+            tools:text="0x8a449601e8f0920a0ccfdddec67ae5870f07c0fb" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/beizhu"
+                android:textColor="#A2A9BC"
+                android:textSize="12dp"
+                app:fontFamily="@font/puhuiti_medium" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/beizhuTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="#3E4660"
+                android:textSize="12dp"
+                app:fontFamily="@font/puhuiti_medium"
+                tools:text="自己寫的備註USDT" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/action_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:padding="15dp"
+        android:src="@drawable/ic_del_del" />
+
+</FrameLayout>

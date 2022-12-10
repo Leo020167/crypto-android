@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.bitcnew.common.base.CommonToolbar
+        android:id="@+id/commonToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/zongzichan"
+        android:textColor="#666"
+        android:textSize="14dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/balanceTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="0"
+        android:textColor="#333"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/keyong"
+                android:textColor="#333"
+                android:textSize="14dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/ableBalanceTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#333"
+                android:textSize="14dp" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/weituo"
+                android:textColor="#333"
+                android:textSize="14dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/freezeBalanceTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#333"
+                android:textSize="14dp" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/action_set"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_f6f7f9_10dp"
+            android:backgroundTint="@color/c6175ae"
+            android:gravity="center"
+            android:text="@string/shezhizhiyingzhisun"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="40dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/action_buy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_f6f7f9_10dp"
+            android:backgroundTint="@color/greencolor2"
+            android:gravity="center"
+            android:text="@string/mairu"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="0dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/action_sell"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_f6f7f9_10dp"
+            android:backgroundTint="@color/redcolor2"
+            android:gravity="center"
+            android:text="@string/maichu"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</LinearLayout>

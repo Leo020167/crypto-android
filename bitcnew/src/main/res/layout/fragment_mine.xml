@@ -377,6 +377,26 @@
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
 
             </LinearLayout>
+            <View
+                style="@style/dividerLine_horizontal"
+                android:layout_marginLeft="15dip" />
+            <LinearLayout
+                android:id="@+id/llZichan"
+                style="@style/inSideSettingItem">
+                <ImageView
+                    style="@style/perval_home_ic_style"
+                    android:src="@drawable/ic_zichan"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dip"
+                    android:text="@string/zichan"
+                    android:textColor="@color/c1d3155"
+                    android:textSize="@dimen/font_size_16" />
+                <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
+            </LinearLayout>
             <LinearLayout
                 android:id="@+id/llDaili"
                 style="@style/inSideSettingItem"
@@ -476,6 +496,10 @@
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
 
             </LinearLayout>
+
+            <View
+                style="@style/dividerLine_horizontal"
+                android:layout_marginLeft="15dip" />
 
             <LinearLayout
                 android:id="@+id/llHelp"
@@ -586,6 +610,10 @@
             <!--<android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />-->
             <!--</LinearLayout>-->
 
+            <View
+                style="@style/dividerLine_horizontal"
+                android:layout_marginLeft="15dip" />
+
             <LinearLayout
                 android:id="@+id/ivSetting"
                 style="@style/inSideSettingItem">
@@ -602,8 +630,7 @@
             </LinearLayout>
             <View
                 style="@style/dividerLine_horizontal"
-                android:layout_marginLeft="15dip"
-                android:layout_marginRight="15dip" />
+                android:layout_marginLeft="15dip" />
             <LinearLayout
                 android:id="@+id/llIdentityAuthen"
                 style="@style/inSideSettingItem">
@@ -622,8 +649,7 @@
             </LinearLayout>
             <View
                 style="@style/dividerLine_horizontal"
-                android:layout_marginLeft="15dip"
-                android:layout_marginRight="15dip" />
+                android:layout_marginLeft="15dip"  />
             <LinearLayout
                 android:id="@+id/llBindEmail"
                 style="@style/inSideSettingItem">

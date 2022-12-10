@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatRadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginLeft="8dp"
+    android:gravity="center"
+    android:button="@null"
+    android:background="@drawable/bg_radio_00bab8"
+    android:paddingLeft="11dp"
+    android:paddingRight="11dp"
+    android:textColor="@color/textcolor_radio_00bab8"
+    android:textSize="16dp"
+    android:fontFamily="@font/puhuiti_medium"
+    tools:text="ERC200">
+
+</android.support.v7.widget.AppCompatRadioButton>

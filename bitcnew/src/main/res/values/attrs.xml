@@ -243,6 +243,32 @@
         <attr name="circleWidth" format="dimension" />
     </declare-styleable>
 
+
+    <!-- 状态栏是否黑色字体 -->
+    <attr name="statusBarDarkFont" format="boolean" />
+    <!-- toolbar 分割线高度 -->
+    <attr name="toolbar_lineHeight" format="dimension" />
+    <!-- toolbar 字体颜色：图标会设置和字体一个颜色 -->
+    <attr name="toolbar_textColor" format="color" />
+    <!-- toolbar z: 控制是否有阴影 -->
+    <attr name="toolbar_elevation" format="dimension" />
+
+    <attr name="title" format="string|reference"/>
+    <attr name="backShown" format="boolean|reference"/>
+    <attr name="moreSrc" format="reference"/>
+    <attr name="moreText" format="string|reference"/>
+    <attr name="titleBackground" format="color|reference"/>
+    <attr name="titleColor" format="color|reference"/>
+
+    <declare-styleable name="CommonToolbar">
+        <attr name="title"/>
+        <attr name="backShown"/>
+        <attr name="moreSrc"/>
+        <attr name="moreText"/>
+        <attr name="titleBackground"/>
+        <attr name="titleColor"/>
+    </declare-styleable>
+
     <!--   //本地的轮询域名-->
     <string-array name="yuming">
         <item>galaves.com</item>

@@ -10,7 +10,9 @@ package com.bitcnew.module.home.entity;
 
 import com.bitcnew.http.base.TaojinluType;
 
-public class Position implements TaojinluType {
+import java.io.Serializable;
+
+public class Position implements TaojinluType, Serializable {
 
     public String buySell;
     public String buySellValue;
@@ -53,5 +55,10 @@ public class Position implements TaojinluType {
     public String createTime;//创建时间
     public String updateTime;//成交时间
     public int state;                  //状态：-1 已撤销，0 未成交，1 已成交
+
+    public String usdtAmount;
+    public String airDropAmount;
+    public String subAmount;
+    public String frozenAmount;
 
 }

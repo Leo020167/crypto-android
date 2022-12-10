@@ -36,6 +36,8 @@ import retrofit2.Call;
 public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implements View.OnClickListener {
 
 
+    @BindView(R.id.switchIv)
+    View switchIv;
     @BindView(R.id.tvMenu)
     TextView tvMenu;
     @BindView(R.id.etAmount)
@@ -91,6 +93,7 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
         super.onCreate(savedInstanceState);
         ButterKnife.bind(this);
 
+        switchIv.setOnClickListener(this);
         llFrom.setOnClickListener(this);
         llTo.setOnClickListener(this);
         tvAll.setOnClickListener(this);
@@ -215,6 +218,18 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+            case R.id.switchIv:
+                AccountType temp = accountTypeTo;
+                accountTypeTo = accountTypeFrom;
+                accountTypeFrom = temp;
+
+                tvFrom.setText(accountTypeFrom == null ? null: accountTypeFrom.accountName);
+                tvTo.setText(accountTypeTo == null ? null : accountTypeTo.accountName);
+
+                if (null != accountTypeFrom) {
+                    startOutHoldAmountCall(accountTypeFrom.accountType);
+                }
+                break;
             case R.id.llFrom:
                 if (group == null || group.size() == 0) return;
                 PageJumpUtil.pageJumpResult(TransferCoinActivity.this, TransferSelectAccountActivity.class, new Intent(), 0x123);

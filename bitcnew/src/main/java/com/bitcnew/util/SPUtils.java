@@ -28,6 +28,7 @@ public class SPUtils {
         } else if (value instanceof Long) {
             edit.putLong(key, (Long) value);
         }
+        edit.apply();
         SharedPreferencesCompat.EditorCompat.getInstance().apply(edit);
     }
 

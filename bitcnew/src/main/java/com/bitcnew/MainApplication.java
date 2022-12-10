@@ -42,6 +42,13 @@ import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 
 public class MainApplication extends AbstractBaseApplication {
+
+    private static MainApplication instance;
+
+    public static MainApplication getInstance() {
+        return instance;
+    }
+
     public static boolean isConnected = false;//在第一次进入APP时，如果网络有问题，则会显示noWeb页面，如果中途网络有问题，除了独立的Activity，Fragment不会显示noWeb页面
     private static final String KEY_DEX2_SHA1 = "KEY_DEX2_SHA1";
     private volatile User user;
@@ -93,6 +100,7 @@ public class MainApplication extends AbstractBaseApplication {
             return;//没加载完就不让进去
         }
         super.onCreate();
+        instance = this;
         ctx = getApplicationContext();
         //上线关掉联调模式，在初始化时调用.不可链接可视化埋点
 //        StatisticsDataAPI.instance(this, DebugMode.DEBUG_OFF);

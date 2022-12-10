@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_ffffff_10_10_0_0dp"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_4d4bda_3dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/canyuzhiya"
+            android:textColor="#333"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/puhuiti" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_pledge_apply_item"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/dayCountTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6175AE"
+                        android:textSize="24dp"
+                        app:fontFamily="@font/puhuiti_medium"
+                        tools:text="7" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6175AE"
+                        android:textSize="24dp"
+                        app:fontFamily="@font/puhuiti_medium"
+                        android:text="@string/tian" />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zhiyazhouqi"
+                    android:textColor="#333333"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="0dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_pledge_apply_item"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/coinTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6175AE"
+                        android:textSize="24dp"
+                        app:fontFamily="@font/puhuiti_medium"
+                        tools:text="150" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/coinTypeTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6175AE"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="18dp"
+                        android:text="%"
+                        app:fontFamily="@font/puhuiti_medium" />
+                </LinearLayout>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/meirilixi"
+                    android:textColor="#333333"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zhiyashuliang"
+                android:textColor="#A2A9BC"
+                android:textSize="12dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/minCountTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zuixiaozhiyashuliang__"
+                android:textColor="#A2A9BC"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/numEt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_f6f7f9_5dp"
+            android:gravity="center_vertical"
+            android:hint="@string/qingshuruzihyashuliang"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="16dp"
+            android:textColorHint="#A2A9BC"
+            android:fontFamily="@font/puhuiti"/>
+        
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/action_ok"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/bg_pledge_btn"
+            android:gravity="center"
+            android:text="@string/queding"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

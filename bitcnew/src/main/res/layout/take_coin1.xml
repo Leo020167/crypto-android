@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6F4"
+    android:orientation="vertical">
+
+    <com.bitcnew.common.base.CommonToolbar
+        android:id="@+id/commonToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:moreSrc="@drawable/ic_home_account_menu_logo"
+        app:title="@string/tibi" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="37dp">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/bg_ffffff_14dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/keyongLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/keyongyue_"
+                        android:textColor="#A2A9BC"
+                        android:textSize="14dp"
+                        app:fontFamily="@font/puhuiti_medium" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/keyongTv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0"
+                        android:textColor="#A2A9BC"
+                        android:textSize="18dp"
+                        app:fontFamily="@font/puhuiti_medium" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/dongjieLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dongjiejine_"
+                        android:textColor="#A2A9BC"
+                        android:textSize="14dp"
+                        app:fontFamily="@font/puhuiti_medium" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/dongjieTv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0"
+                        android:textColor="#F32A44"
+                        android:textSize="18dp"
+                        app:fontFamily="@font/puhuiti_medium" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <!-- -->
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/bg_ffffff_14dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/xuanzebizhong"
+                        android:textColor="#3E4660"
+                        android:textSize="14dp"
+                        app:fontFamily="@font/puhuiti_medium" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/xuanzetibiwangluoLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/xuanzetibiwangluo"
+                        android:textColor="#3E4660"
+                        android:textSize="14dp"
+                        app:fontFamily="@font/puhuiti_medium" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_vertical">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/coinTypeTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bg_3e4660_strike_3dp"
+                        android:drawableRight="@drawable/sanjiaoxing_blue"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="#3E4660"
+                        android:gravity="center"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp"
+                        android:textColor="#3E4660"
+                        android:textSize="16dp"
+                        app:fontFamily="@font/puhuiti_medium"
+                        tools:text="BTC" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:scrollbars="none">
+
+                        <RadioGroup
+                            android:id="@+id/coinSubTypeRadioGroup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="right"
+                            android:orientation="horizontal">
+
+                        </RadioGroup>
+
+                    </HorizontalScrollView>
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/line_e2e4f0"
+                    android:layerType="software" />
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tibidizhi"
+                        android:textColor="#3E4660"
+                        android:textSize="14dp"
+                        app:fontFamily="@font/puhuiti_medium" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/tibidizhiguanliTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:text="@string/tibidizhiguanli"
+                        android:textColor="#00BAB8"
+                        android:textSize="14dp"
+                        app:fontFamily="@font/puhuiti_medium" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tibidizhiTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_edf3fa_6dp"
+                    android:drawableRight="@drawable/ic_arrow"
+                    android:gravity="center_vertical"
+                    android:hint="@string/qingxuanzetibidizhi"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="15dp"
+                    android:text=""
+                    android:textColor="#A2A9BC"
+                    android:textColorHint="#A2A9BC"
+                    android:textSize="14dp"
+                    app:fontFamily="@font/puhuiti_medium" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bg_f6f7f9_14dp"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="15dp"
+                    android:text="@string/tibishuoming"
+                    android:textColor="#6175AE"
+                    android:textSize="12dp"
+                    app:fontFamily="@font/puhuiti_medium" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/bg_ffffff_14dp"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/tibishuliang"
+                    android:textColor="#A2A9BC"
+                    android:textSize="12dp" />
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/tibishuliangEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_f6f7f9_5dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/qingshurutibishuliang"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="#333333"
+                    android:textColorHint="#A2A9BC"
+                    android:textSize="16dp" />
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/shouxufeiLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tibishouxufei"
+                        android:textColor="#A2A9BC"
+                        android:textSize="14dp" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/shouxufeiTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#6175AE"
+                        android:textSize="16dp"
+                        app:fontFamily="@font/puhuiti_medium" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/daozhangshuliangLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tibidaozhangshuliang"
+                        android:textColor="#A2A9BC"
+                        android:textSize="14dp" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/daozhangshuliangTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:textColor="#6175AE"
+                        android:textSize="16dp"
+                        app:fontFamily="@font/puhuiti_medium" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/action_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_7270f8_4d4bda_5dp"
+                    android:gravity="center"
+                    android:text="@string/tijiao"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/puhuiti_medium" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,9 +1,12 @@
 package com.bitcnew.common.base;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
+import com.bitcnew.common.util.ToastUtils;
 import com.taojin.swipback.SwipeBackLayout;
 import com.taojin.swipback.SwipeBackLayout.OnPageScrollEndCallBack;
 import com.taojin.swipback.Utils;
@@ -14,6 +17,18 @@ public abstract class TJRBaseToolBarSwipeBackActivity extends TJRBaseToolBarActi
 	private SwipeBackActivityHelper mHelper;
 	private boolean mOverrideExitAniamtion = true;
 	private boolean mIsFinishing;
+
+	public Context getContext() {
+		return this;
+	}
+
+	public void showToast(int resId) {
+		ToastUtils.showToast(getContext(), resId);
+	}
+
+	public void showToast(String msg) {
+		ToastUtils.showToast(getContext(), msg);
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

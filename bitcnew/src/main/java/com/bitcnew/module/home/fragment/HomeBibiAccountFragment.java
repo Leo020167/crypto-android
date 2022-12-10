@@ -20,6 +20,7 @@ import com.bitcnew.http.base.TaojinluType;
 import com.bitcnew.http.tjrcpt.VHttpServiceManager;
 import com.bitcnew.http.widget.dialog.ui.TjrBaseDialog;
 import com.bitcnew.module.home.OnItemClick;
+import com.bitcnew.module.home.adapter.BiBiListAdapter;
 import com.bitcnew.module.home.adapter.CaiwujiluAdapter;
 import com.bitcnew.module.home.adapter.ChicangAdapter;
 import com.bitcnew.module.home.entity.AccountInfo;
@@ -30,6 +31,7 @@ import com.bitcnew.module.home.trade.adapter.TradeLeverHistoryAdapter;
 import com.bitcnew.module.home.trade.entity.TakeCoinHistory;
 import com.bitcnew.module.home.trade.history.TakeCoinHistoryActivity;
 import com.bitcnew.module.home.trade.history.TakeCoinHistoryDetailsActivity;
+import com.bitcnew.module.wallet.LeverInfo1Activity;
 import com.bitcnew.module.wallet.LeverInfoActivity;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.MyCallBack;
@@ -37,6 +39,9 @@ import com.bitcnew.util.PageJumpUtil;
 import com.bitcnew.widgets.LoadMoreRecycleView;
 import com.bitcnew.widgets.SimpleRecycleDivider;
 import com.google.gson.reflect.TypeToken;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -80,8 +85,10 @@ public class HomeBibiAccountFragment extends UserBaseFragment implements View.On
     LoadMoreRecycleView rvList2;
 
 
-    private ChicangAdapter tradeLeverHistoryAdapter;
     private AccountInfo balanceAccount;
+//    private ChicangAdapter tradeLeverHistoryAdapter;
+    private List<Position> biBiList;
+    private BiBiListAdapter biBiListAdapter;
 
     public static HomeBibiAccountFragment newInstance() {
         HomeBibiAccountFragment fragment = new HomeBibiAccountFragment();
@@ -103,7 +110,11 @@ public class HomeBibiAccountFragment extends UserBaseFragment implements View.On
 
             if (null!=balanceAccount){
                 if (balanceAccount.openList != null&&balanceAccount.openList.size()>0) {
-                    tradeLeverHistoryAdapter.setGroup(balanceAccount.openList);
+//                    tradeLeverHistoryAdapter.setGroup(balanceAccount.openList);
+                    biBiList.clear();
+                    biBiList.addAll(balanceAccount.openList);
+                    biBiListAdapter.notifyDataSetChanged();
+
                     rvList.setVisibility(View.VISIBLE);
                     tvNoData.setVisibility(View.GONE);
                 }else {
@@ -125,26 +136,31 @@ public class HomeBibiAccountFragment extends UserBaseFragment implements View.On
         txt_chichang.setOnClickListener(this);
         tvAll.setOnClickListener(this);
 
-        tradeLeverHistoryAdapter = new ChicangAdapter(getActivity());
+//        tradeLeverHistoryAdapter = new ChicangAdapter(getActivity());
         rvList.setLayoutManager(new LinearLayoutManager(getActivity()));
-        SimpleRecycleDivider simpleRecycleDivider = new SimpleRecycleDivider(getActivity(), 0, 0, ContextCompat.getColor(getActivity(), R.color.pageBackground), 10);
-        simpleRecycleDivider.setShowLastDivider(false);
-        rvList.addItemDecoration(simpleRecycleDivider);
-        rvList.setAdapter(tradeLeverHistoryAdapter);
-        tradeLeverHistoryAdapter.setOnItemClick(new OnItemClick() {
-            @Override
-            public void onItemClickListen(int pos, TaojinluType t) {
-                Position order = (Position) t;
-                LeverInfoActivity.pageJump(getActivity(),order.orderId,"2");
-            }
+//        SimpleRecycleDivider simpleRecycleDivider = new SimpleRecycleDivider(getActivity(), 0, 0, ContextCompat.getColor(getActivity(), R.color.pageBackground), 10);
+//        simpleRecycleDivider.setShowLastDivider(false);
+//        rvList.addItemDecoration(simpleRecycleDivider);
+//        rvList.setAdapter(tradeLeverHistoryAdapter);
+//        tradeLeverHistoryAdapter.setOnItemClick(new OnItemClick() {
+//            @Override
+//            public void onItemClickListen(int pos, TaojinluType t) {
+//                Position order = (Position) t;
+//                LeverInfoActivity.pageJump(getActivity(),order.orderId,"2");
+//            }
+//        });
+        biBiList = new ArrayList<>();
+        biBiListAdapter = new BiBiListAdapter(biBiList);
+        biBiListAdapter.setOnItemClickListener((item, position) -> {
+//            LeverInfoActivity.pageJump(getActivity(), item.orderId,"2");
+            LeverInfo1Activity.pageJump(getActivity(), item, item.orderId, "2");
         });
-
-
+        rvList.setAdapter(biBiListAdapter);
 
         adapter2 = new CaiwujiluAdapter(getActivity());
         rvList2.setLayoutManager(new LinearLayoutManager(getActivity()));
         SimpleRecycleDivider simpleRecycleDivider2 = new SimpleRecycleDivider(getActivity(), 0, 0, ContextCompat.getColor(getActivity(), R.color.pageBackground), 10);
-        simpleRecycleDivider.setShowLastDivider(false);
+        simpleRecycleDivider2.setShowLastDivider(false);
         rvList2.addItemDecoration(simpleRecycleDivider2);
         rvList2.setAdapter(adapter2);
         adapter2.setOnItemClick(new OnItemClick() {

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="7.5dp"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_pledge_record_item"
+            android:orientation="vertical"
+            android:paddingLeft="22dp"
+            android:paddingTop="12dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="15dp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/coinTypeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#3E4660"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/puhuiti"
+                tools:text="BTC" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/leijishouyi"
+                    android:textColor="#A2A9BC"
+                    android:textSize="12dp"
+                    app:fontFamily="@font/puhuiti" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zhiyashuliang"
+                    android:textColor="#A2A9BC"
+                    android:textSize="12dp"
+                    app:fontFamily="@font/puhuiti" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/leijishouyiTv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#6175AE"
+                    android:textSize="22dp"
+                    app:fontFamily="@font/puhuiti_medium"
+                    tools:text="1000" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/zhiyashuliangTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#6175AE"
+                    android:textSize="22dp"
+                    app:fontFamily="@font/puhuiti_medium"
+                    tools:text="1000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/zhiyakaishishijian"
+                    android:textColor="#A2A9BC"
+                    android:textSize="12dp"
+                    app:fontFamily="@font/puhuiti" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/zhiyakaishishijianTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#6175AE"
+                    android:textSize="12dp"
+                    app:fontFamily="@font/puhuiti"
+                    tools:text="2022-10-01 10:17:00" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/zhiyadaoqishijian"
+                    android:textColor="#A2A9BC"
+                    android:textSize="12dp"
+                    app:fontFamily="@font/puhuiti" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/zhiyadaoqishijianTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#6175AE"
+                    android:textSize="12dp"
+                    app:fontFamily="@font/puhuiti"
+                    tools:text="2022-10-01 10:17:00" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tianshuTv"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="17.5dp"
+        android:layout_marginRight="15dp"
+        android:elevation="3dp"
+        android:background="@drawable/bg_6175ae_10_0_0_10dp"
+        android:gravity="center_vertical|right"
+        android:paddingLeft="12dp"
+        android:paddingRight="6dp"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        tools:text="150天" />
+
+</FrameLayout>
