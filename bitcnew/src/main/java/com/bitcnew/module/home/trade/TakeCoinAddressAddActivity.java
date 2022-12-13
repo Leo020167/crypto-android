@@ -16,6 +16,7 @@ import com.bitcnew.http.tjrcpt.VHttpServiceManager;
 import com.bitcnew.http.util.CommonUtil;
 import com.bitcnew.module.home.trade.dialog.CoinTypePickerDialog;
 import com.bitcnew.module.home.trade.entity.CoinChains;
+import com.bitcnew.module.home.trade.entity.CoinConfig;
 import com.bitcnew.util.MyCallBack;
 import com.google.gson.Gson;
 
@@ -45,7 +46,7 @@ public class TakeCoinAddressAddActivity extends TJRBaseToolBarSwipeBackActivity 
     private CoinChains coinChains;
 
     private Call<ResponseBody> addCall;
-    private String coinType;
+    private CoinConfig coinType;
     private String chain;
 
     @OnClick(R.id.coinTypeTv)
@@ -77,7 +78,7 @@ public class TakeCoinAddressAddActivity extends TJRBaseToolBarSwipeBackActivity 
         String beizhu = beizhuEt.getText().toString();
 
         CommonUtil.cancelCall(addCall);
-        addCall = VHttpServiceManager.getInstance().getVService().addTakeCoinAddress(getUserIdLong(), coinType, chain, address, beizhu);
+        addCall = VHttpServiceManager.getInstance().getVService().addTakeCoinAddress(getUserIdLong(), coinType.getSymbol(), chain, address, beizhu);
         addCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {
@@ -183,9 +184,9 @@ public class TakeCoinAddressAddActivity extends TJRBaseToolBarSwipeBackActivity 
         }
     }
 
-    private void setCoinType(String coinType) {
+    private void setCoinType(CoinConfig coinType) {
         this.coinType = coinType;
-        coinTypeTv.setText(coinType);
+        coinTypeTv.setText(coinType.getSymbol());
 
         if (needChain(coinType)) {
             xuanzetibiwangluoLabel.setVisibility(View.VISIBLE);
@@ -196,8 +197,8 @@ public class TakeCoinAddressAddActivity extends TJRBaseToolBarSwipeBackActivity 
         }
     }
 
-    private boolean needChain(String coinType) {
-        return "usdt".equalsIgnoreCase(coinType);
+    private boolean needChain(CoinConfig coinType) {
+        return null != coinType && "usdt".equalsIgnoreCase(coinType.getSymbol());
     }
 
 }

@@ -2520,6 +2520,8 @@
     <string name="shuliangjiakeyong">數量/可用</string>
     <string name="chengben">成本</string>
     <string name="shezhizhiyingzhisun">設定止盈止損</string>
+    <string name="shezhizhiying">設定止盈</string>
+    <string name="shezhizhisun">設定止損</string>
     <string name="daikaishi">未開始</string>
     <string name="shengouzhong">申購中</string>
     <string name="yijieshu">已結束</string>

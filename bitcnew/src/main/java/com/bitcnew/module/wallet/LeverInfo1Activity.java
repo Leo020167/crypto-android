@@ -57,13 +57,14 @@ public class LeverInfo1Activity extends TJRBaseToolBarSwipeBackActivity {
 
     private TjrMinuteTaskPool tjrMinuteTaskPool;
 
+    private Position position;
     private long orderId;
     private OrderInfo orderInfo;
     private String type;//币币的时候传2，其他不传
     private CloseListAdapter closeListAdapter;
 
-    @OnClick(R.id.action_set)
-    public void onSetClick() {
+    @OnClick(R.id.action_setWin)
+    public void onSetWinClick() {
         if (orderInfo == null) return;
         setWinFragmentDialog = SetWinFragmentDialog.newInstance(orderInfo.stopWinPrice, orderInfo.priceDecimals);
         setWinFragmentDialog.setSetStopWinListen(new SetWinFragmentDialog.SetStopWinListen() {
@@ -73,6 +74,19 @@ public class LeverInfo1Activity extends TJRBaseToolBarSwipeBackActivity {
             }
         });
         setWinFragmentDialog.show(getSupportFragmentManager(), "");
+    }
+
+    @OnClick(R.id.action_setLoss)
+    public void onSetLossClick() {
+        if (orderInfo == null) return;
+        setLossFragmentDialog = SetLossFragmentDialog.newInstance(orderInfo.stopLossPrice, orderInfo.priceDecimals);
+        setLossFragmentDialog.setSetStopLossListen(new SetLossFragmentDialog.SetStopLossListen() {
+            @Override
+            public void goSetStopLoss(String stopLoss) {
+                startUpdateLossCall(stopLoss, "");
+            }
+        });
+        setLossFragmentDialog.show(getSupportFragmentManager(), "");
     }
 
     @OnClick(R.id.action_buy)
@@ -100,7 +114,10 @@ public class LeverInfo1Activity extends TJRBaseToolBarSwipeBackActivity {
     }
 
     public void setData(Position data) {
-
+        commonToolbar.setTitle(data.symbol);
+        balanceTv.setText(String.valueOf(data.amount));
+        ableBalanceTv.setText(data.availableAmount);
+        freezeBalanceTv.setText(data.frozenAmount);
     }
 
     @Override
@@ -116,8 +133,8 @@ public class LeverInfo1Activity extends TJRBaseToolBarSwipeBackActivity {
                 type = bundle.getString("type","");
             }
             if (bundle.containsKey("data")) {
-                Position data = (Position) bundle.getSerializable("data");
-                setData(data);
+                position = (Position) bundle.getSerializable("data");
+                setData(position);
             }
         }
     }
@@ -130,12 +147,12 @@ public class LeverInfo1Activity extends TJRBaseToolBarSwipeBackActivity {
 
     private void startGetPrybarDetailCall() {
         CommonUtil.cancelCall(getPrybarDetailCall);
-        getPrybarDetailCall = VHttpServiceManager.getInstance().getVService().prybarDetail(orderId);
+        getPrybarDetailCall = VHttpServiceManager.getInstance().getVService().prybarDetail(orderId, position.symbol);
         getPrybarDetailCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {
                 if (resultData.isSuccess()) {
-                    orderInfo = resultData.getObject("order", OrderInfo.class);
+                    orderInfo = resultData.getObject("data", OrderInfo.class);
                     setData();
                 }
             }

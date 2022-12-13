@@ -42,6 +42,7 @@ import com.bitcnew.http.util.CommonUtil;
 import com.bitcnew.module.home.RechargeCoinActivity2;
 import com.bitcnew.module.home.trade.dialog.CoinTypePickerDialog;
 import com.bitcnew.module.home.trade.entity.CoinChains;
+import com.bitcnew.module.home.trade.entity.CoinConfig;
 import com.bitcnew.module.home.trade.entity.RechargeCoinAddress;
 import com.bitcnew.module.home.trade.entity.RechargeCoinConfig;
 import com.bitcnew.module.home.trade.history.TakeCoinHistoryActivity;
@@ -103,7 +104,7 @@ public class RechargeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
 
     private Call<ResponseBody> coinListCall;
     private CoinChains coinChains;
-    private String coinType;
+    private CoinConfig coinType;
     private String chain;
 
     private Call<ResponseBody> configCall;
@@ -241,9 +242,9 @@ public class RechargeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
         }
     }
 
-    private void setCoinType(String coinType) {
+    private void setCoinType(CoinConfig coinType) {
         this.coinType = coinType;
-        coinTypeTv.setText(coinType);
+        coinTypeTv.setText(coinType.getSymbol());
         zhiyunxuchongzhiLabel.setText(getString(R.string.zhiyunxuchongzhi_, coinType));
 
         if (needChain(coinType)) {
@@ -266,8 +267,8 @@ public class RechargeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
         loadConfig(coinType);
     }
 
-    private boolean needChain(String coinType) {
-        return "usdt".equalsIgnoreCase(coinType);
+    private boolean needChain(CoinConfig coinType) {
+        return null != coinType && "usdt".equalsIgnoreCase(coinType.getSymbol());
     }
 
     private void setChain(String chain) {
@@ -287,12 +288,12 @@ public class RechargeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
         bindAddress();
     }
 
-    private void loadConfig(final String coinType) {
-        if (null == coinType || coinType.length() == 0) {
+    private void loadConfig(final CoinConfig coinType) {
+        if (null == coinType || null == coinType.getSymbol() || coinType.getSymbol().length() == 0) {
             return;
         }
         CommonUtil.cancelCall(configCall);
-        configCall = VHttpServiceManager.getInstance().getVService().getChargeConfigs(getUserIdLong(), coinType);
+        configCall = VHttpServiceManager.getInstance().getVService().getChargeConfigs(getUserIdLong(), coinType.getSymbol());
         configCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {
@@ -533,7 +534,7 @@ public class RechargeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
         com.bitcnew.util.CommonUtil.cancelCall(submitCall);
         long userId = Long.parseLong(ConfigTjrInfo.getInstance().getUserId());
         submitCall = VHttpServiceManager.getInstance().getVService().chargeSubmit(userId,
-                coinType, chain, address.getAddress(), amount, uploadHeadurl);
+                coinType.getSymbol(), chain, address.getAddress(), amount, uploadHeadurl);
         submitCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {

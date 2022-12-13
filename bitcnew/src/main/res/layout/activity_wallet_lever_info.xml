@@ -84,14 +84,26 @@
         </android.support.v7.widget.LinearLayoutCompat>
 
         <android.support.v7.widget.AppCompatTextView
-            android:id="@+id/action_set"
+            android:id="@+id/action_setWin"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/bg_f6f7f9_10dp"
             android:backgroundTint="@color/c6175ae"
             android:gravity="center"
-            android:text="@string/shezhizhiyingzhisun"
+            android:text="@string/shezhizhiying"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/action_setLoss"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_f6f7f9_10dp"
+            android:backgroundTint="@color/c6175ae"
+            android:gravity="center"
+            android:text="@string/shezhizhisun"
             android:textColor="@color/white"
             android:textSize="16dp" />
 

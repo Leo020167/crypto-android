@@ -21,6 +21,7 @@ import com.bitcnew.http.tjrcpt.VHttpServiceManager;
 import com.bitcnew.http.util.CommonUtil;
 import com.bitcnew.module.home.trade.dialog.CoinTypePickerDialog;
 import com.bitcnew.module.home.trade.entity.CoinChains;
+import com.bitcnew.module.home.trade.entity.CoinConfig;
 import com.bitcnew.module.home.trade.entity.TakeCoinAddress;
 import com.bitcnew.module.home.trade.entity.TakeCoinConfig;
 import com.bitcnew.module.home.trade.history.TakeCoinHistoryActivity;
@@ -76,7 +77,7 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
     private Call<ResponseBody> coinListCall;
     private CoinChains coinChains;
 
-    private String coinType;
+    private CoinConfig coinType;
     private String chain;
     private TakeCoinAddress address;
 
@@ -181,7 +182,7 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
             return;
         }
 
-        setCoinType(address.getSymbol());
+        setCoinType(new CoinConfig(address.getSymbol()));
         setChain(address.getChainType());
 
         tibidizhiTv.setText(address.getAddress());
@@ -291,13 +292,13 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
         }
     }
 
-    private void setCoinType(String coinType) {
+    private void setCoinType(CoinConfig coinType) {
         if (Objects.equals(coinType, this.coinType)) {
             return;
         }
 
         this.coinType = coinType;
-        coinTypeTv.setText(coinType);
+        coinTypeTv.setText(coinType.getSymbol());
 
         if (needChain(coinType)) {
             xuanzetibiwangluoLabel.setVisibility(View.VISIBLE);
@@ -329,16 +330,16 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
         }
     }
 
-    private boolean needChain(String coinType) {
-        return "usdt".equalsIgnoreCase(coinType);
+    private boolean needChain(CoinConfig coinType) {
+        return null != coinType && "usdt".equalsIgnoreCase(coinType.getSymbol());
     }
 
-    private void loadConfig(String coinType) {
-        if (null == coinType || coinType.length() == 0) {
+    private void loadConfig(CoinConfig coinType) {
+        if (null == coinType || null == coinType.getSymbol() || coinType.getSymbol().length() == 0) {
             return;
         }
         CommonUtil.cancelCall(configCall);
-        configCall = VHttpServiceManager.getInstance().getVService().getWithdrawConfigs(getUserIdLong(), coinType);
+        configCall = VHttpServiceManager.getInstance().getVService().getWithdrawConfigs(getUserIdLong(), coinType.getSymbol());
         configCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {

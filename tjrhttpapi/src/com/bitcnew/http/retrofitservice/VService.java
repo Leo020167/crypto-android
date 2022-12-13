@@ -1423,6 +1423,11 @@ public interface VService {
     @POST(VHttpServiceManager.PRYBAR_ORDER_DETAIL)
     Call<ResponseBody> prybarDetail(@Field("orderId") long orderId);
 
+    //订单详情
+    @FormUrlEncoded
+    @POST(VHttpServiceManager.PRYBAR_ORDER_DETAIL)
+    Call<ResponseBody> prybarDetail(@Field("orderId") long orderId, @Field("symbol") String symbol);
+
     //获取持仓详情
     @FormUrlEncoded
     @POST(VHttpServiceManager.PRYBAR_ORDER_DETAIL)

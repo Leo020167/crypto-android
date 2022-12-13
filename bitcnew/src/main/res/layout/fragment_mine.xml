@@ -379,10 +379,12 @@
             </LinearLayout>
             <View
                 style="@style/dividerLine_horizontal"
-                android:layout_marginLeft="15dip" />
+                android:layout_marginLeft="15dip"
+                android:visibility="gone"/>
             <LinearLayout
                 android:id="@+id/llZichan"
-                style="@style/inSideSettingItem">
+                style="@style/inSideSettingItem"
+                android:visibility="gone">
                 <ImageView
                     style="@style/perval_home_ic_style"
                     android:src="@drawable/ic_zichan"/>

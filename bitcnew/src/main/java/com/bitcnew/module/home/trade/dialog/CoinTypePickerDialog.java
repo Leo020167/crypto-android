@@ -13,21 +13,22 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bitcnew.R;
+import com.bitcnew.module.home.trade.entity.CoinConfig;
 
 import java.util.List;
 
 public class CoinTypePickerDialog extends Dialog {
 
     public interface OnConfirmListener {
-        void onConfirm(String coinType);
+        void onConfirm(CoinConfig coinType);
     }
 
     private RecyclerView recyclerView;
 
-    private final List<String> coinTypeList;
+    private final List<CoinConfig> coinTypeList;
     private final Adapter coinTypeListAdapter;
 
-    public CoinTypePickerDialog(Context context, List<String> coinTypeList, OnConfirmListener onConfirmListener) {
+    public CoinTypePickerDialog(Context context, List<CoinConfig> coinTypeList, OnConfirmListener onConfirmListener) {
         super(context, R.style.MyDialog);
         FrameLayout container = new FrameLayout(context);
         container.setLayoutParams(new ViewGroup.LayoutParams(-1, -1));
@@ -48,7 +49,7 @@ public class CoinTypePickerDialog extends Dialog {
                 return;
             }
 
-            String coinType = coinTypeList.get(index);
+            CoinConfig coinType = coinTypeList.get(index);
             if (null != onConfirmListener) {
                 onConfirmListener.onConfirm(coinType);
             }
@@ -58,10 +59,10 @@ public class CoinTypePickerDialog extends Dialog {
 
     private static class Adapter extends RecyclerView.Adapter<ViewHolder> {
 
-        private final List<String> list;
+        private final List<CoinConfig> list;
         private int current = -1;
 
-        private Adapter(List<String> list) {
+        private Adapter(List<CoinConfig> list) {
             this.list = list;
         }
 
@@ -79,12 +80,12 @@ public class CoinTypePickerDialog extends Dialog {
 
         @Override
         public void onBindViewHolder(@NonNull ViewHolder viewHolder, final int position) {
-            final String item = getItem(position);
+            final CoinConfig item = getItem(position);
             onBindViewHolder(viewHolder, position, item);
         }
 
-        void onBindViewHolder(@NonNull ViewHolder viewHolder, final int position, final String item) {
-            viewHolder.text1.setText(item);
+        void onBindViewHolder(@NonNull ViewHolder viewHolder, final int position, final CoinConfig item) {
+            viewHolder.text1.setText(item.getSymbol());
             final int p = position;
             viewHolder.text1.setSelected(current == position);
             viewHolder.text1.setOnClickListener(v -> {
@@ -93,7 +94,7 @@ public class CoinTypePickerDialog extends Dialog {
             });
         }
 
-        public String getItem(int position) {
+        public CoinConfig getItem(int position) {
             return null != list && position >= 0 && position < list.size() ? list.get(position) : null;
         }
 

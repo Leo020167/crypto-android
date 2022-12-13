@@ -6,7 +6,7 @@ public class CoinChains {
 
 //    {"chainTypeList": ["Trc20", "Erc20", "Omni"],"coinList": ["BTC", "ETH", "USDT"]}
     private List<String> chainTypeList;
-    private List<String> coinList;
+    private List<CoinConfig> coinList;
 
     public List<String> getChainTypeList() {
         return chainTypeList;
@@ -16,11 +16,11 @@ public class CoinChains {
         this.chainTypeList = chainTypeList;
     }
 
-    public List<String> getCoinList() {
+    public List<CoinConfig> getCoinList() {
         return coinList;
     }
 
-    public void setCoinList(List<String> coinList) {
+    public void setCoinList(List<CoinConfig> coinList) {
         this.coinList = coinList;
     }
 }
