@@ -2392,7 +2392,7 @@
     <string name="languageset">多語言設置</string>
     <string name="followSystem">跟隨系統</string>
     <string name="userProtocol">《用戶服務協議》</string>
-    <!--<string name="privacyProtocol">《刻幣跟單軟件隱私政策》</string>-->
+    <string name="privacyProtocol">《刻幣跟單軟件隱私政策》</string>
     <string name="circleRule">《procoin軟件圈主規則》</string>
     <string name="label_login_activity">登錄</string>
     <string name="label_signup_activity">註冊</string>
@@ -2572,6 +2572,7 @@
     <string name="jineusdt">金額(USDT)</string>
     <string name="weichengjiao">未成交</string>
     <string name="maichujiage">賣出價格</string>
+
     <string name="zhiyashengyi">質押生息</string>
     <string name="zhiyajilu">質押记录</string>
     <string name="zhuixiaozhiyashuliang">最小質押數量</string>

@@ -40,7 +40,9 @@ import com.bitcnew.module.home.ShimingrenzhengtongguoActivity;
 import com.bitcnew.module.home.TakePhotoActivity;
 import com.bitcnew.module.home.WebActivity;
 import com.bitcnew.module.home.ZichanActivity;
+import com.bitcnew.module.home.trade.RechargeCoin1Activity;
 import com.bitcnew.module.home.trade.RechargeCoinActivity;
+import com.bitcnew.module.home.trade.TakeCoin1Activity;
 import com.bitcnew.module.home.trade.TakeCoinActivity;
 import com.bitcnew.module.home.trade.TransferCoinActivity;
 import com.bitcnew.module.home.trade.history.CoinFollowHistoryActivity;
@@ -366,11 +368,11 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
                 break;
 
             case R.id.llRechargeCoin:
-                PageJumpUtil.pageJump(getActivity(), RechargeCoinActivity.class);
+                PageJumpUtil.pageJump(getActivity(), RechargeCoin1Activity.class);
 //                RechargeCoinActivity.pageJump(getActivity(),"USDT");
                 break;
             case R.id.llWithDrawCoin:
-                PageJumpUtil.pageJump(getActivity(), TakeCoinActivity.class);
+                PageJumpUtil.pageJump(getActivity(), TakeCoin1Activity.class);
                 break;
             case R.id.llTransfer:
                 PageJumpUtil.pageJump(getActivity(), TransferCoinActivity.class);

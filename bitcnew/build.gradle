@@ -116,6 +116,16 @@ android {
         }
     }*/
 
+    signingConfigs{
+        release {
+            storeFile file('fireup.jks')
+            storePassword "taojinroad2318"
+            keyAlias 'fireup'
+            keyPassword "taojinroad2318"
+        }
+    }
+
+
 //    afterEvaluate {
 //        android.applicationVariants.all { variant ->
 ////            println("==r.txt dir: ${project.buildDir}/intermediates/symbols/${variant.dirName}/R.txt")
@@ -135,7 +145,7 @@ android {
 //            minifyEnabled false
 //            zipAlignEnabled false
 //            shrinkResources false
-          //  signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             ndk {
                 abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64','armeabi'
             }
@@ -150,7 +160,7 @@ android {
 //            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
 //            proguardFile 'proguard.cfg'
-//            signingConfig signingConfigs.release
+            signingConfig signingConfigs.release
 
 //            applicationVariants.all { variant ->
 //                variant.outputs.each { output ->
