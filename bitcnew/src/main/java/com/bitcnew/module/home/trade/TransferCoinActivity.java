@@ -12,6 +12,9 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.bitcnew.common.util.GsonUtils;
+import com.bitcnew.module.home.trade.dialog.CoinTypePickerDialog;
+import com.bitcnew.module.home.trade.entity.CoinConfig;
 import com.google.gson.reflect.TypeToken;
 import com.bitcnew.R;
 import com.bitcnew.common.base.TJRBaseToolBarSwipeBackActivity;
@@ -24,6 +27,9 @@ import com.bitcnew.module.home.trade.history.TransferCoinHistoryActivity;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.MyCallBack;
 import com.bitcnew.util.PageJumpUtil;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -56,7 +62,10 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
     TextView tvFrom;
     @BindView(R.id.tvTo)
     TextView tvTo;
+    @BindView(R.id.tvCoinType)
+    TextView tvCoinType;
 
+    private Call<ResponseBody> getCoinTypeCall;
     private Call<ResponseBody> listAccountTypeCall;
     private Call<ResponseBody> outHoldAmountCall;
     private Call<ResponseBody> transferCall;
@@ -69,6 +78,9 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
     private int amountDecimals = 6;
 
 //    private ArrayList<String> data = new ArrayList<>();
+
+    private List<CoinConfig> coinTypeList;
+    private CoinConfig coinType;
 
     @Override
     protected int setLayoutId() {
@@ -99,6 +111,7 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
         tvAll.setOnClickListener(this);
         tvMenu.setOnClickListener(this);
         tvTransferCoin.setOnClickListener(this);
+        tvCoinType.setOnClickListener(this);
         etAmount.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -124,6 +137,48 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
         startListAccountTypeCall();
     }
 
+    public void startGetCoinTypeCall() {
+        CommonUtil.cancelCall(getCoinTypeCall);
+        tvCoinType.setText("");
+        coinType = null;
+        if (null == accountTypeFrom || null == accountTypeTo) {
+            return;
+        }
+        getCoinTypeCall = VHttpServiceManager.getInstance().getVService().getTransferSymbols(accountTypeFrom.accountType, accountTypeTo.accountType);
+        getCoinTypeCall.enqueue(new MyCallBack(this) {
+            @Override
+            protected void callBack(ResultData resultData) {
+                if (resultData.isSuccess()) {
+                    try {
+                        if (null != resultData.data && resultData.data.startsWith("[{")) {
+                            coinTypeList = GsonUtils.createGson().fromJson(resultData.data, new TypeToken<List<CoinConfig>>() {
+                            }.getType());
+                        } else if (null != resultData.data) {
+                            coinTypeList = new ArrayList<>();
+                            String[] arr = GsonUtils.createGson().fromJson(resultData.data, String[].class);
+                            if (null != arr) {
+                                for (String arrItem : arr) {
+                                    coinTypeList.add(new CoinConfig(arrItem));
+                                }
+                            }
+                        } else {
+                            coinTypeList = null;
+                        }
+
+                        if (coinTypeList != null && coinTypeList.size() == 1) {
+                            coinType = coinTypeList.get(0);
+                            tvCoinType.setText(coinType.getSymbol());
+                        }
+                    } catch (Exception e) {
+                        coinTypeList = null;
+                        showToast(e.getMessage());
+                    }
+                } else {
+                    showToast(resultData.msg);
+                }
+            }
+        });
+    }
 
     public void startListAccountTypeCall() {
         CommonUtil.cancelCall(listAccountTypeCall);
@@ -149,8 +204,7 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
                             }
                         }
                         getApplicationContext().accountTypeGroup = group;
-
-
+                        startGetCoinTypeCall();
                     }
                 }
             }
@@ -175,7 +229,7 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
 
     public void startTransferCall(final String amount, final String accountTypeFrom, final String accountTypeTo, String payPass) {
         CommonUtil.cancelCall(transferCall);
-        transferCall = VHttpServiceManager.getInstance().getVService().transfer(amount, accountTypeFrom, accountTypeTo,payPass);
+        transferCall = VHttpServiceManager.getInstance().getVService().transfer(coinType.getSymbol(), amount, accountTypeFrom, accountTypeTo,payPass);
         transferCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {
@@ -205,9 +259,11 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
                     accountTypeFrom = account;
                     tvFrom.setText(accountName);
                     startOutHoldAmountCall(accountTypeFrom.accountType);
+                    startGetCoinTypeCall();
                 } else if (requestCode == 0x456) {
                     accountTypeTo = account;
                     tvTo.setText(accountName);
+                    startGetCoinTypeCall();
                 }
             }
 
@@ -229,6 +285,8 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
                 if (null != accountTypeFrom) {
                     startOutHoldAmountCall(accountTypeFrom.accountType);
                 }
+
+                startGetCoinTypeCall();
                 break;
             case R.id.llFrom:
                 if (group == null || group.size() == 0) return;
@@ -254,13 +312,31 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
                         CommonUtil.showmessage(getResources().getString(R.string.xiangtongzhanghuzhijianbunenghuazhuan), TransferCoinActivity.this);
                         return;
                     }
+                    if (null == coinType) {
+                        CommonUtil.showmessage(getResources().getString(R.string.qingxuanzebizhong), TransferCoinActivity.this);
+                        return;
+                    }
                     startTransferCall(amount, accountTypeFrom.accountType, accountTypeTo.accountType,"");
                 }
                 break;
             case R.id.tvMenu:
                 PageJumpUtil.pageJump(TransferCoinActivity.this, TransferCoinHistoryActivity.class);
                 break;
+            case R.id.tvCoinType:
+                pickCoinType();
+                break;
         }
+    }
+
+    private void pickCoinType() {
+        if (null == coinTypeList) {
+            return;
+        }
+
+        new CoinTypePickerDialog(getContext(), coinTypeList, coinType -> {
+            this.coinType = coinType;
+            tvCoinType.setText(coinType.getSymbol());
+        }).show();
     }
 
     @Override
@@ -268,4 +344,5 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
         getApplicationContext().accountTypeGroup = null;
         super.finish();
     }
+
 }

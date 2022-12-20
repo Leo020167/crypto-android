@@ -134,7 +134,7 @@ public class TakeCoinAddressAddActivity extends TJRBaseToolBarSwipeBackActivity 
         if (null == coinChains) {
             return;
         }
-        new CoinTypePickerDialog(getContext(), coinChains.getCoinList(), coinType -> {
+        new CoinTypePickerDialog(getContext(), coinChains.getCoinConfigList(), coinType -> {
             setCoinType(coinType);
         }).show();
     }
@@ -153,7 +153,7 @@ public class TakeCoinAddressAddActivity extends TJRBaseToolBarSwipeBackActivity 
                     if (showDialogFlag) {
                         _showCoinTypePickerDialog();
                     } else if (null == coinType && null != coinChains && null != coinChains.getCoinList() && !coinChains.getCoinList().isEmpty()) {
-                        setCoinType(coinChains.getCoinList().get(0));
+                        setCoinType(coinChains.getCoinConfigList().get(0));
                     }
                 } else {
                     showToast(resultData.msg);

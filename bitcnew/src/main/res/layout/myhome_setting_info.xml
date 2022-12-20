@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/pageBackground">
+    android:background="@color/pageBackground"
+    android:orientation="vertical">
 
     <include layout="@layout/toolbar" />
 
@@ -28,45 +28,45 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/settingItemVerticalSpacing"
-                android:orientation="vertical"
-                android:background="@color/white">
+                android:background="@color/white"
+                android:orientation="vertical">
 
                 <!--<LinearLayout-->
-                    <!--android:id="@+id/llindName"-->
-                    <!--style="@style/inSideSettingItem">-->
+                <!--android:id="@+id/llindName"-->
+                <!--style="@style/inSideSettingItem">-->
 
-                    <!--<TextView-->
-                        <!--style="@style/settingTextStyle"-->
-                        <!--android:layout_weight="1"-->
-                        <!--android:text="@string/bindName"-->
-                        <!--android:layout_marginLeft="0dip"/>-->
+                <!--<TextView-->
+                <!--style="@style/settingTextStyle"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/bindName"-->
+                <!--android:layout_marginLeft="0dip"/>-->
 
-                    <!--<ImageView style="@style/commonAarrow" />-->
+                <!--<ImageView style="@style/commonAarrow" />-->
                 <!--</LinearLayout>-->
                 <!--<View-->
-                    <!--style="@style/dividerLine_horizontal"-->
-                    <!--android:layout_marginLeft="15dip"-->
-                    <!--android:layout_marginRight="15dip" />-->
+                <!--style="@style/dividerLine_horizontal"-->
+                <!--android:layout_marginLeft="15dip"-->
+                <!--android:layout_marginRight="15dip" />-->
 
                 <!--<LinearLayout-->
-                    <!--android:id="@+id/llPaymentTerm"-->
-                    <!--style="@style/inSideSettingItem">-->
-                    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
-                    <!--&lt;!&ndash;style="@style/perval_home_ic_style"&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:src="@drawable/ic_homesetting_fixpasswd_bg" />&ndash;&gt;-->
+                <!--android:id="@+id/llPaymentTerm"-->
+                <!--style="@style/inSideSettingItem">-->
+                <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+                <!--&lt;!&ndash;style="@style/perval_home_ic_style"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:src="@drawable/ic_homesetting_fixpasswd_bg" />&ndash;&gt;-->
 
-                    <!--<TextView-->
-                        <!--style="@style/settingTextStyle"-->
-                        <!--android:layout_weight="1"-->
-                        <!--android:text="@string/payment_term"-->
-                        <!--android:layout_marginLeft="0dip"/>-->
+                <!--<TextView-->
+                <!--style="@style/settingTextStyle"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/payment_term"-->
+                <!--android:layout_marginLeft="0dip"/>-->
 
-                    <!--<ImageView style="@style/commonAarrow" />-->
+                <!--<ImageView style="@style/commonAarrow" />-->
                 <!--</LinearLayout>-->
                 <!--<View-->
-                    <!--style="@style/dividerLine_horizontal"-->
-                    <!--android:layout_marginLeft="15dip"-->
-                    <!--android:layout_marginRight="15dip" />-->
+                <!--style="@style/dividerLine_horizontal"-->
+                <!--android:layout_marginLeft="15dip"-->
+                <!--android:layout_marginRight="15dip" />-->
 
 
                 <LinearLayout
@@ -78,16 +78,18 @@
 
                     <TextView
                         style="@style/settingTextStyle"
+                        android:layout_marginLeft="0dip"
                         android:layout_weight="1"
-                        android:text="@string/xiugaimima"
-                        android:layout_marginLeft="0dip"/>
+                        android:text="@string/xiugaimima" />
 
                     <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
                 </LinearLayout>
+
                 <View
                     style="@style/dividerLine_horizontal"
                     android:layout_marginLeft="15dip"
                     android:layout_marginRight="15dip" />
+
                 <LinearLayout
                     android:id="@+id/llAccountBindViewing"
                     style="@style/inSideSettingItem">
@@ -98,125 +100,127 @@
 
                     <TextView
                         style="@style/settingTextStyle"
+                        android:layout_marginLeft="0dip"
                         android:layout_weight="1"
-                        android:text="@string/bangdingshouji"
-                        android:layout_marginLeft="0dip"/>
+                        android:text="@string/bangdingshouji" />
 
                     <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
                 </LinearLayout>
+
                 <View
                     style="@style/dividerLine_horizontal"
                     android:layout_marginLeft="15dip"
                     android:layout_marginRight="15dip" />
+
                 <LinearLayout
                     android:id="@+id/llPayPassword"
-                    style="@style/inSideSettingItem"
-                    android:visibility="gone"
-                    >
+                    style="@style/inSideSettingItem">
 
                     <TextView
                         style="@style/settingTextStyle"
+                        android:layout_marginLeft="0dip"
                         android:layout_weight="1"
-                        android:text="@string/shezhijiaoyimima"
-                        android:layout_marginLeft="0dip"/>
+                        android:text="@string/shezhijiaoyimima" />
 
                     <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
                 </LinearLayout>
-                <View
-                    style="@style/dividerLine_horizontal"
-                    android:layout_marginLeft="15dip"
-                    android:layout_marginRight="15dip"
-                    android:visibility="gone"/>
-                <LinearLayout
-                    android:id="@+id/llZhangdieyanse"
-                    style="@style/inSideSettingItem"
-                    >
 
-                    <TextView
-                        style="@style/settingTextStyle"
-                        android:layout_weight="1"
-                        android:text="@string/zhangdieyanse"
-                        android:layout_marginLeft="0dip"/>
-
-                    <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
-                </LinearLayout>
                 <View
                     style="@style/dividerLine_horizontal"
                     android:layout_marginLeft="15dip"
                     android:layout_marginRight="15dip" />
+
+                <LinearLayout
+                    android:id="@+id/llZhangdieyanse"
+                    style="@style/inSideSettingItem">
+
+                    <TextView
+                        style="@style/settingTextStyle"
+                        android:layout_marginLeft="0dip"
+                        android:layout_weight="1"
+                        android:text="@string/zhangdieyanse" />
+
+                    <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
+                </LinearLayout>
+
+                <View
+                    style="@style/dividerLine_horizontal"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip" />
+
                 <LinearLayout
                     android:id="@+id/llSwitchLanguage"
                     style="@style/inSideSettingItem"
-                    android:visibility="visible"
-                    >
+                    android:visibility="visible">
 
                     <TextView
                         style="@style/settingTextStyle"
+                        android:layout_marginLeft="0dip"
                         android:layout_weight="1"
-                        android:text="@string/qiehuanyuyan"
-                        android:layout_marginLeft="0dip"/>
+                        android:text="@string/qiehuanyuyan" />
 
                     <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
                 </LinearLayout>
-                <!--<View-->
-                    <!--style="@style/dividerLine_horizontal"-->
-                    <!--android:layout_marginLeft="15dip"-->
-                    <!--android:layout_marginRight="15dip" />-->
+
+                <View
+                    style="@style/dividerLine_horizontal"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip" />
                 <!--<LinearLayout-->
-                    <!--android:id="@+id/llOTCPaymentWay"-->
-                    <!--style="@style/inSideSettingItem">-->
+                <!--android:id="@+id/llOTCPaymentWay"-->
+                <!--style="@style/inSideSettingItem">-->
 
-                    <!--<TextView-->
-                        <!--style="@style/settingTextStyle"-->
-                        <!--android:layout_weight="1"-->
-                        <!--android:text="OTC收款方式"-->
-                        <!--android:layout_marginLeft="0dip"/>-->
+                <!--<TextView-->
+                <!--style="@style/settingTextStyle"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="OTC收款方式"-->
+                <!--android:layout_marginLeft="0dip"/>-->
 
-                    <!--<ImageView style="@style/commonAarrow" />-->
+                <!--<ImageView style="@style/commonAarrow" />-->
                 <!--</LinearLayout>-->
                 <!--<View-->
-                    <!--style="@style/dividerLine_horizontal"-->
-                    <!--android:layout_marginLeft="15dip"-->
-                    <!--android:layout_marginRight="15dip" />-->
+                <!--style="@style/dividerLine_horizontal"-->
+                <!--android:layout_marginLeft="15dip"-->
+                <!--android:layout_marginRight="15dip" />-->
                 <!--<LinearLayout-->
-                    <!--android:id="@+id/llAddressManager"-->
-                    <!--style="@style/inSideSettingItem">-->
-                    <!--<TextView-->
-                        <!--style="@style/settingTextStyle"-->
-                        <!--android:layout_weight="1"-->
-                        <!--android:text="收货地址管理"-->
-                        <!--android:layout_marginLeft="0dip"/>-->
+                <!--android:id="@+id/llAddressManager"-->
+                <!--style="@style/inSideSettingItem">-->
+                <!--<TextView-->
+                <!--style="@style/settingTextStyle"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="收货地址管理"-->
+                <!--android:layout_marginLeft="0dip"/>-->
 
-                    <!--<ImageView style="@style/commonAarrow" />-->
+                <!--<ImageView style="@style/commonAarrow" />-->
                 <!--</LinearLayout>-->
                 <!--<View-->
-                    <!--android:layout_marginLeft="12dp"-->
-                    <!--android:layout_marginRight="12dp"-->
-                    <!--style="@style/beebarDivider"/>-->
+                <!--android:layout_marginLeft="12dp"-->
+                <!--android:layout_marginRight="12dp"-->
+                <!--style="@style/beebarDivider"/>-->
                 <!--<View-->
-                    <!--style="@style/dividerLine_horizontal"-->
-                    <!--android:layout_marginLeft="20dip" />-->
+                <!--style="@style/dividerLine_horizontal"-->
+                <!--android:layout_marginLeft="20dip" />-->
 
 
                 <!--<View-->
-                    <!--style="@style/dividerLine_horizontal"-->
-                    <!--android:layout_marginLeft="20dip" />-->
+                <!--style="@style/dividerLine_horizontal"-->
+                <!--android:layout_marginLeft="20dip" />-->
 
                 <!--<LinearLayout-->
-                    <!--android:id="@+id/llManageDeliveryAddress"-->
-                    <!--style="@style/inSideSettingItem">-->
+                <!--android:id="@+id/llManageDeliveryAddress"-->
+                <!--style="@style/inSideSettingItem">-->
 
-                    <!--<ImageView-->
-                        <!--style="@style/perval_home_ic_style"-->
-                        <!--android:src="@drawable/ic_adress" />-->
+                <!--<ImageView-->
+                <!--style="@style/perval_home_ic_style"-->
+                <!--android:src="@drawable/ic_adress" />-->
 
-                    <!--<TextView-->
-                        <!--style="@style/settingTextStyle"-->
-                        <!--android:layout_marginLeft="12dip"-->
-                        <!--android:layout_weight="1"-->
-                        <!--android:text="@string/manage_delivery_address" />-->
+                <!--<TextView-->
+                <!--style="@style/settingTextStyle"-->
+                <!--android:layout_marginLeft="12dip"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/manage_delivery_address" />-->
 
-                    <!--<ImageView style="@style/commonAarrow" />-->
+                <!--<ImageView style="@style/commonAarrow" />-->
                 <!--</LinearLayout>-->
 
             </LinearLayout>
@@ -226,8 +230,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/settingItemVerticalSpacing"
-                android:orientation="vertical"
-                android:background="@color/white">
+                android:background="@color/white"
+                android:orientation="vertical">
+
                 <LinearLayout
                     android:id="@+id/llStockSettings"
                     style="@style/inSideSettingItem">
@@ -239,12 +244,13 @@
 
                     <TextView
                         style="@style/settingTextStyle"
+                        android:layout_marginLeft="0dip"
                         android:layout_weight="1"
-                        android:text="@string/shuaxinpinlvshezhi"
-                        android:layout_marginLeft="0dip"/>
+                        android:text="@string/shuaxinpinlvshezhi" />
 
                     <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
                 </LinearLayout>
+
                 <View
                     style="@style/dividerLine_horizontal"
                     android:layout_marginLeft="15dip"
@@ -261,33 +267,35 @@
 
                     <TextView
                         style="@style/settingTextStyle"
+                        android:layout_marginLeft="0dip"
                         android:layout_weight="1"
-                        android:text="@string/xiaoxituisong"
-                        android:layout_marginLeft="0dip"/>
+                        android:text="@string/xiaoxituisong" />
 
                     <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
                 </LinearLayout>
+
                 <View
                     style="@style/dividerLine_horizontal"
                     android:layout_marginLeft="15dip"
                     android:layout_marginRight="15dip" />
+
                 <LinearLayout
                     android:id="@+id/rlclearCache"
                     style="@style/inSideSettingItem">
 
                     <!--<ImageView-->
-                        <!--android:id="@+id/imageView7"-->
-                        <!--style="@style/perval_home_ic_style"-->
-                        <!--android:layout_width="wrap_content"-->
-                        <!--android:src="@drawable/ic_homesetting_clearcache_bg" />-->
+                    <!--android:id="@+id/imageView7"-->
+                    <!--style="@style/perval_home_ic_style"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:src="@drawable/ic_homesetting_clearcache_bg" />-->
 
                     <TextView
                         style="@style/settingTextStyle"
                         android:layout_width="0dip"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dip"
                         android:layout_weight="1"
-                        android:text="@string/qingchuhuancun"
-                        android:layout_marginLeft="0dip"/>
+                        android:text="@string/qingchuhuancun" />
 
                     <ProgressBar
                         android:id="@+id/cachePb"
@@ -308,29 +316,27 @@
                 </LinearLayout>
 
                 <!--<View-->
-                    <!--android:id="@+id/vLinePush"-->
-                    <!--style="@style/dividerLine_horizontal"-->
-                    <!--android:layout_marginLeft="20dip" />-->
-
-
+                <!--android:id="@+id/vLinePush"-->
+                <!--style="@style/dividerLine_horizontal"-->
+                <!--android:layout_marginLeft="20dip" />-->
 
 
                 <!--<LinearLayout-->
-                    <!--android:id="@+id/llStockSettings"-->
-                    <!--style="@style/inSideSettingItem">-->
+                <!--android:id="@+id/llStockSettings"-->
+                <!--style="@style/inSideSettingItem">-->
 
-                    <!--<ImageView-->
-                        <!--android:id="@+id/imageView"-->
-                        <!--style="@style/perval_home_ic_style"-->
-                        <!--android:src="@drawable/ic_homesetting_stock_bg" />-->
+                <!--<ImageView-->
+                <!--android:id="@+id/imageView"-->
+                <!--style="@style/perval_home_ic_style"-->
+                <!--android:src="@drawable/ic_homesetting_stock_bg" />-->
 
-                    <!--<TextView-->
-                        <!--style="@style/settingTextStyle"-->
-                        <!--android:layout_marginLeft="12dip"-->
-                        <!--android:layout_weight="1"-->
-                        <!--android:text="@string/stockSettings" />-->
+                <!--<TextView-->
+                <!--style="@style/settingTextStyle"-->
+                <!--android:layout_marginLeft="12dip"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/stockSettings" />-->
 
-                    <!--<ImageView style="@style/commonAarrow" />-->
+                <!--<ImageView style="@style/commonAarrow" />-->
                 <!--</LinearLayout>-->
 
 
@@ -340,24 +346,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/settingItemVerticalSpacing"
-                android:orientation="vertical"
-                android:background="@color/white">
+                android:background="@color/white"
+                android:orientation="vertical">
                 <!--<LinearLayout-->
-                    <!--android:id="@+id/llFeedback"-->
-                    <!--style="@style/inSideSettingItem">-->
+                <!--android:id="@+id/llFeedback"-->
+                <!--style="@style/inSideSettingItem">-->
 
-                    <!--<TextView-->
-                        <!--style="@style/settingTextStyle"-->
-                        <!--android:layout_weight="1"-->
-                        <!--android:text="客服"-->
-                        <!--android:layout_marginLeft="0dip"/>-->
+                <!--<TextView-->
+                <!--style="@style/settingTextStyle"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="客服"-->
+                <!--android:layout_marginLeft="0dip"/>-->
 
-                    <!--<ImageView style="@style/commonAarrow" />-->
+                <!--<ImageView style="@style/commonAarrow" />-->
                 <!--</LinearLayout>-->
                 <!--<View-->
-                    <!--style="@style/dividerLine_horizontal"-->
-                    <!--android:layout_marginLeft="15dip"-->
-                    <!--android:layout_marginRight="15dip" />-->
+                <!--style="@style/dividerLine_horizontal"-->
+                <!--android:layout_marginLeft="15dip"-->
+                <!--android:layout_marginRight="15dip" />-->
                 <LinearLayout
                     android:id="@+id/llabout"
                     style="@style/inSideSettingItem">
@@ -370,6 +376,7 @@
 
                     <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
                 </LinearLayout>
+
                 <View
                     style="@style/dividerLine_horizontal"
                     android:layout_marginLeft="15dip"
@@ -378,60 +385,59 @@
                 <LinearLayout
                     android:id="@+id/llShareApp"
                     style="@style/inSideSettingItem"
-                    android:visibility="gone"
-                    >
+                    android:visibility="gone">
 
                     <TextView
                         style="@style/settingTextStyle"
+                        android:layout_marginLeft="0dip"
                         android:layout_weight="1"
-                        android:text="分享APP"
-                        android:layout_marginLeft="0dip"/>
+                        android:text="分享APP" />
 
                     <ImageView style="@style/commonAarrow" />
                 </LinearLayout>
 
                 <!--<View-->
-                    <!--android:id="@+id/vLinePublishRedOlstarCard"-->
-                    <!--style="@style/dividerLine_horizontal"-->
-                    <!--android:layout_marginLeft="20dip" />-->
+                <!--android:id="@+id/vLinePublishRedOlstarCard"-->
+                <!--style="@style/dividerLine_horizontal"-->
+                <!--android:layout_marginLeft="20dip" />-->
 
                 <!--<LinearLayout-->
-                    <!--android:id="@+id/llPublishRedOlstarCard"-->
-                    <!--style="@style/inSideSettingItem">-->
+                <!--android:id="@+id/llPublishRedOlstarCard"-->
+                <!--style="@style/inSideSettingItem">-->
 
-                    <!--<ImageView-->
-                        <!--android:id="@+id/imageView8"-->
-                        <!--style="@style/perval_home_ic_style"-->
-                        <!--android:src="@drawable/ic_publish_card" />-->
+                <!--<ImageView-->
+                <!--android:id="@+id/imageView8"-->
+                <!--style="@style/perval_home_ic_style"-->
+                <!--android:src="@drawable/ic_publish_card" />-->
 
-                    <!--<TextView-->
-                        <!--style="@style/settingTextStyle"-->
-                        <!--android:layout_marginLeft="12dip"-->
-                        <!--android:layout_weight="1"-->
-                        <!--android:text="@string/publish_redolstarcard" />-->
+                <!--<TextView-->
+                <!--style="@style/settingTextStyle"-->
+                <!--android:layout_marginLeft="12dip"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/publish_redolstarcard" />-->
 
-                    <!--<ImageView style="@style/commonAarrow" />-->
+                <!--<ImageView style="@style/commonAarrow" />-->
                 <!--</LinearLayout>-->
 
                 <!--<View-->
-                    <!--style="@style/dividerLine_horizontal"-->
-                    <!--android:layout_marginLeft="20dip" />-->
+                <!--style="@style/dividerLine_horizontal"-->
+                <!--android:layout_marginLeft="20dip" />-->
 
                 <!--<LinearLayout-->
-                    <!--android:id="@+id/llRedCardARScanning"-->
-                    <!--style="@style/inSideSettingItem">-->
+                <!--android:id="@+id/llRedCardARScanning"-->
+                <!--style="@style/inSideSettingItem">-->
 
-                    <!--<ImageView-->
-                        <!--style="@style/perval_home_ic_style"-->
-                        <!--android:src="@drawable/ic_account_about_redcard_arscan_bg" />-->
+                <!--<ImageView-->
+                <!--style="@style/perval_home_ic_style"-->
+                <!--android:src="@drawable/ic_account_about_redcard_arscan_bg" />-->
 
-                    <!--<TextView-->
-                        <!--style="@style/settingTextStyle"-->
-                        <!--android:layout_marginLeft="12dip"-->
-                        <!--android:layout_weight="1"-->
-                        <!--android:text="@string/redCardARScanning" />-->
+                <!--<TextView-->
+                <!--style="@style/settingTextStyle"-->
+                <!--android:layout_marginLeft="12dip"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/redCardARScanning" />-->
 
-                    <!--<ImageView style="@style/commonAarrow" />-->
+                <!--<ImageView style="@style/commonAarrow" />-->
                 <!--</LinearLayout>-->
 
             </LinearLayout>
@@ -445,18 +451,17 @@
                 android:paddingRight="0dip">
 
                 <!--<ImageView-->
-                    <!--style="@style/perval_home_ic_style"-->
-                    <!--android:src="@drawable/ic_account_setup_icon_logout" />-->
+                <!--style="@style/perval_home_ic_style"-->
+                <!--android:src="@drawable/ic_account_setup_icon_logout" />-->
 
                 <TextView
                     style="@style/settingTextStyle"
-                    android:layout_weight="1"
-                    android:text="@string/tuichudenglu"
-                    android:gravity="center"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="0dip"
-                    android:textColor="@color/cfe5400"
-                    />
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tuichudenglu"
+                    android:textColor="@color/cfe5400" />
 
             </LinearLayout>
 

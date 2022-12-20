@@ -214,15 +214,15 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
                 tvHeyueAccount.setSelected(false);
                 tvBibiAccount.setSelected(false);
                 break;
+//            case 1:
+//                tvYueAccount.setSelected(false);
+//                tvTokenAccount.setSelected(true);
+//                tvGendanAccount.setSelected(false);
+//                tvQuanqiuzhishuAccount.setSelected(false);
+//                tvHeyueAccount.setSelected(false);
+//                tvBibiAccount.setSelected(false);
+//                break;
             case 1:
-                tvYueAccount.setSelected(false);
-                tvTokenAccount.setSelected(true);
-                tvGendanAccount.setSelected(false);
-                tvQuanqiuzhishuAccount.setSelected(false);
-                tvHeyueAccount.setSelected(false);
-                tvBibiAccount.setSelected(false);
-                break;
-            case 2:
                 tvYueAccount.setSelected(false);
                 tvTokenAccount.setSelected(false);
                 tvGendanAccount.setSelected(true);
@@ -230,7 +230,7 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
                 tvHeyueAccount.setSelected(false);
                 tvBibiAccount.setSelected(false);
                 break;
-            case 3:
+            case 2:
                 tvYueAccount.setSelected(false);
                 tvTokenAccount.setSelected(false);
                 tvGendanAccount.setSelected(false);
@@ -238,7 +238,7 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
                 tvHeyueAccount.setSelected(false);
                 tvBibiAccount.setSelected(false);
                 break;
-            case 4:
+            case 3:
                 tvYueAccount.setSelected(false);
                 tvTokenAccount.setSelected(false);
                 tvGendanAccount.setSelected(false);
@@ -246,7 +246,7 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
                 tvHeyueAccount.setSelected(true);
                 tvBibiAccount.setSelected(false);
                 break;
-            case 5:
+            case 4:
                 tvYueAccount.setSelected(false);
                 tvTokenAccount.setSelected(false);
                 tvGendanAccount.setSelected(false);
@@ -254,7 +254,7 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
                 tvHeyueAccount.setSelected(false);
                 tvBibiAccount.setSelected(true);
                 break;
-            case 6:
+            case 5:
                 tvYueAccount.setSelected(false);
                 tvTokenAccount.setSelected(false);
                 tvGendanAccount.setSelected(false);
@@ -277,29 +277,29 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
                     vp_content.setCurrentItem(0);
                 }
                 break;
-            case R.id.tvTokenAccount:
+//            case R.id.tvTokenAccount:
+//                if (vp_content.getCurrentItem() != 1) {
+//                    vp_content.setCurrentItem(1);
+//                }
+//                break;
+            case R.id.tvGendanAccount:
                 if (vp_content.getCurrentItem() != 1) {
                     vp_content.setCurrentItem(1);
                 }
                 break;
-            case R.id.tvGendanAccount:
+            case R.id.tvQuanqiuzhishuAccount:
                 if (vp_content.getCurrentItem() != 2) {
                     vp_content.setCurrentItem(2);
                 }
                 break;
-            case R.id.tvQuanqiuzhishuAccount:
+            case R.id.tvHeyueAccount:
                 if (vp_content.getCurrentItem() != 3) {
                     vp_content.setCurrentItem(3);
                 }
                 break;
-            case R.id.tvHeyueAccount:
+            case R.id.tvBibiAccount:
                 if (vp_content.getCurrentItem() != 4) {
                     vp_content.setCurrentItem(4);
-                }
-                break;
-            case R.id.tvBibiAccount:
-                if (vp_content.getCurrentItem() != 5) {
-                    vp_content.setCurrentItem(5);
                 }
                 break;
             case R.id.llRechargeCoin:
@@ -439,7 +439,7 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
 
         @Override
         public int getCount() {
-            return 6;
+            return 5;
         }
 
         @Override
@@ -448,15 +448,15 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
                 default:
                 case 0:
                     return HomeBalanceAccountFragment.newInstance(0);
+//                case 1:
+//                    return HomeTokenAccountFragment.newInstance(1);
                 case 1:
-                    return HomeTokenAccountFragment.newInstance(1);
-                case 2:
                     return HomeDigitalAccountFragment.newInstance(2);
-                case 3:
+                case 2:
                     return HomeDigitalAccountFragment.newInstance(3);
-                case 4:
+                case 3:
                     return HomeDigitalAccountFragment.newInstance(4);
-                case 5:
+                case 4:
                     return HomeBibiAccountFragment.newInstance();
             }
         }

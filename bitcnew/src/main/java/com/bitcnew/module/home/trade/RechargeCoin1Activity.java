@@ -151,7 +151,7 @@ public class RechargeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
 
     @Override
     protected String getActivityTitle() {
-        return getString(R.string.tibi);
+        return getString(R.string.chongbi);
     }
 
     @Override
@@ -192,7 +192,7 @@ public class RechargeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
         if (null == coinChains) {
             return;
         }
-        new CoinTypePickerDialog(getContext(), coinChains.getCoinList(), coinType -> {
+        new CoinTypePickerDialog(getContext(), coinChains.getCoinConfigList(), coinType -> {
             setCoinType(coinType);
         }).show();
     }
@@ -211,7 +211,7 @@ public class RechargeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
                     if (showDialogFlag) {
                         _showCoinTypePickerDialog();
                     } else if (null == coinType && null != coinChains && null != coinChains.getCoinList() && !coinChains.getCoinList().isEmpty()) {
-                        setCoinType(coinChains.getCoinList().get(0));
+                        setCoinType(coinChains.getCoinConfigList().get(0));
                     }
                 } else {
                     showToast(resultData.msg);
@@ -245,7 +245,7 @@ public class RechargeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
     private void setCoinType(CoinConfig coinType) {
         this.coinType = coinType;
         coinTypeTv.setText(coinType.getSymbol());
-        zhiyunxuchongzhiLabel.setText(getString(R.string.zhiyunxuchongzhi_, coinType));
+        zhiyunxuchongzhiLabel.setText(getString(R.string.zhiyunxuchongzhi_, coinType.getSymbol()));
 
         if (needChain(coinType)) {
             xuanzetibiwangluoLabel.setVisibility(View.VISIBLE);
@@ -261,8 +261,8 @@ public class RechargeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
             chainTv.setVisibility(View.GONE);
         }
 
-        keyongyueLabel.setText(getString(R.string.keyongyue_, coinType));
-        zuixiaochongzhijineLabel.setText(getString(R.string.dongjiejine_, coinType));
+        keyongyueLabel.setText(getString(R.string.keyongyue_, coinType.getSymbol()));
+        zuixiaochongzhijineLabel.setText(getString(R.string.dongjiejine_, coinType.getSymbol()));
 
         loadConfig(coinType);
     }

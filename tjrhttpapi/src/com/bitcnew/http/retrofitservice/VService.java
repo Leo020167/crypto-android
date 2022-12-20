@@ -1500,7 +1500,12 @@ public interface VService {
     //划转
     @FormUrlEncoded
     @POST(VHttpServiceManager.ACCOUNT_TRANSFER)
-    Call<ResponseBody> transfer(@Field("amount") String amount, @Field("fromAccountType") String fromAccountType, @Field("toAccountType") String toAccountType, @Field("payPass") String payPass);
+    Call<ResponseBody> transfer(@Field("symbol") String symbol, @Field("amount") String amount, @Field("fromAccountType") String fromAccountType, @Field("toAccountType") String toAccountType, @Field("payPass") String payPass);
+
+    // 获取划转币种
+    @FormUrlEncoded
+    @POST("/procoin/account/getTransferSymbols.do")
+    Call<ResponseBody> getTransferSymbols(@Field("fromAccountType") String fromAccountType, @Field("toAccountType") String toAccountType);
 
 
     /**

@@ -2626,4 +2626,6 @@
     <string name="keyongzichan">可用資產</string>
     <string name="dongjiezichan">凍結資產</string>
     <string name="weituo">委託</string>
+    <string name="qingxuanzebizhong">請選擇幣種</string>
+
 </resources>

@@ -15,7 +15,7 @@ public class TjrBaseApi {
 //    public static String  gamePredictHttp="http://predict.piglobalexchanges.com";
 //    public static String  mApiCropymeBaseUploadFile="http://upload.piglobalexchanges.com";
 //    public static String  mApiWebUri = "http://coupon.piglobalexchanges.com";
-    //正式环境
+    //测试环境
     public static String  stockHomeUri ="market.worldcoinservice.com";
     public static String  stockHomeUriHttp="http://market.worldcoinservice.com";//retrofit的baseurl必须以"/"结束否则报错
     public static String  mApiSubPushUrl="api.worldcoinservice.com";

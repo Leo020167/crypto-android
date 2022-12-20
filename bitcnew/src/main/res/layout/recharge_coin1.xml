@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         app:moreSrc="@drawable/ic_home_account_menu_logo"
-        app:title="@string/tibi" />
+        app:title="@string/chongbi" />
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"

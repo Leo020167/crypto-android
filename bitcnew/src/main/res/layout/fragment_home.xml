@@ -157,7 +157,9 @@
                         android:text="@string/token"
                         android:textColor="@color/xml_usdt_tab_text"
                         android:textSize="@dimen/font_size_14"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:visibility="gone"
+                        />
                     <TextView
                         android:id="@+id/tvGendanAccount"
                         android:layout_width="wrap_content"

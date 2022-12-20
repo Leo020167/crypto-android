@@ -242,7 +242,7 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
         if (null == coinChains) {
             return;
         }
-        new CoinTypePickerDialog(getContext(), coinChains.getCoinList(), coinType -> {
+        new CoinTypePickerDialog(getContext(), coinChains.getCoinConfigList(), coinType -> {
             setCoinType(coinType);
         }).show();
     }
@@ -261,7 +261,7 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
                     if (showDialogFlag) {
                         _showCoinTypePickerDialog();
                     } else if (null == coinType && null != coinChains && null != coinChains.getCoinList() && !coinChains.getCoinList().isEmpty()) {
-                        setCoinType(coinChains.getCoinList().get(0));
+                        setCoinType(coinChains.getCoinConfigList().get(0));
                     }
                 } else {
                     showToast(resultData.msg);
@@ -308,10 +308,10 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
             coinSubTypeRadioGroup.setVisibility(View.GONE);
         }
 
-        keyongLabel.setText(getString(R.string.keyongyue_, coinType));
-        dongjieLabel.setText(getString(R.string.dongjiejine_, coinType));
-        shouxufeiLabel.setText(getString(R.string.tibishouxufei, coinType));
-        daozhangshuliangLabel.setText(getString(R.string.tibidaozhangshuliang, coinType));
+        keyongLabel.setText(getString(R.string.keyongyue_, coinType.getSymbol()));
+        dongjieLabel.setText(getString(R.string.dongjiejine_, coinType.getSymbol()));
+        shouxufeiLabel.setText(getString(R.string.tibishouxufei, coinType.getSymbol()));
+        daozhangshuliangLabel.setText(getString(R.string.tibidaozhangshuliang, coinType.getSymbol()));
 
         loadConfig(coinType);
     }
