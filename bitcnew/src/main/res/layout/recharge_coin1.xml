@@ -293,7 +293,10 @@
                 android:background="@drawable/bg_ffffff_14dp"
                 android:orientation="vertical"
                 android:paddingTop="15dp"
-                android:paddingBottom="20dp">
+                android:paddingBottom="20dp"
+                android:visibility="gone"
+                tools:visibility="visible"
+                >
 
                 <android.support.v7.widget.AppCompatTextView
                     android:layout_width="wrap_content"
