@@ -56,10 +56,10 @@
     <string name="shurushenfenzhengxinxi">输入身份证信息</string>
     <string name="qingshurushenfenzhengxingming">请输入身份证姓名</string>
     <string name="qingshurushenfenzhenghao">请输入身份证号</string>
-    <string name="shangchuanshenfenzhengzhaopian">上传身份证照片</string>
-    <string name="paisherenxiangye">拍摄人像页</string>
+    <string name="shangchuanshenfenzhengzhaopian">上传图片</string>
+    <string name="paisherenxiangye">选择正面</string>
     <string name="chakanshili">查看示例</string>
-    <string name="paisheguohuiye">拍摄国徽页</string>
+    <string name="paisheguohuiye">选择反面</string>
     <string name="paisheshouchishenfenzheng">拍摄手持身份证</string>
     <string name="zhucizhengjingongtokapingtairenzhengshiyong">*注：此证仅供TOKA平台认证使用，xxxx年xx月xx日</string>
     <string name="shangchuandezhengjianzhaojiangjinxingfangdaoshuiyinchuli">• 上传的证件照将进行防盗水印处理，我们严格遵照法律法规，保护您的个人私隐。</string>
