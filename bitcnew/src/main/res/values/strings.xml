@@ -2587,7 +2587,7 @@
     <string name="zhiyakaishishijian">質押開始時間</string>
     <string name="zhiyadaoqishijian">質押到期時間</string>
     <string name="canyuzhiya">參與質押</string>
-    <string name="zuixiaozhiyashuliang__">最小質押數量%1$s%2$s</string>
+    <string name="zuixiaozhiyashuliang__">最小質押數量: %1$s%2$s</string>
     <string name="qingshuruzihyashuliang">請輸入質押數量</string>
     <string name="canyuzhiyachenggong">參與質押成功</string>
     <string name="yincangxiaojine">隱藏小金額</string>
