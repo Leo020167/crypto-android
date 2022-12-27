@@ -32,10 +32,12 @@ import com.bitcnew.http.model.Components;
 import com.bitcnew.http.model.Placard;
 import com.bitcnew.module.chat.ChatRoomActivity;
 import com.bitcnew.module.home.NoticeListActivity;
+import com.bitcnew.module.home.SwitchLanguageActivity;
 import com.bitcnew.module.home.XinbishengouActivity;
 import com.bitcnew.module.home.adapter.HomeFirstButtonAdapter;
 import com.bitcnew.module.login.LoginActivity;
 import com.bitcnew.module.myhome.AboutActivity;
+import com.bitcnew.module.myhome.SettingActivity;
 import com.bitcnew.module.pledge.PledgeMainActivity;
 import com.bitcnew.updatedialog.DownAndNoticeDialogManager;
 import com.bitcnew.util.VeDate;
@@ -83,6 +85,15 @@ import okhttp3.ResponseBody;
 import retrofit2.Call;
 
 public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implements View.OnClickListener {
+
+    @BindView(R.id.langIv)
+    ImageView langIv;
+
+    @OnClick(R.id.switchFl)
+    public void onSwitchLangClick() {
+        PageJumpUtil.pageJump(getContext(), SwitchLanguageActivity.class);
+    }
+
     @BindView(R.id.ivHead)
     CircleImageView ivHead;
 
@@ -186,6 +197,38 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         setUserInfo(getUser());//先初始化
         return view;
     }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        String lang = (String) SPUtils.get(getActivity(),"myLanguage1","");
+        setLangUISelect(lang);
+    }
+
+    private void setLangUISelect(String lang) {
+        langIv.setVisibility(View.VISIBLE);
+        if ("zh-cn".equals(lang)) {
+            langIv.setImageResource(R.drawable.icon_lang_cn_zh);
+        } else if ("zh-tw".equals(lang)) {
+            langIv.setImageResource(R.drawable.icon_lang_cn_hk);
+        } else if ("ko".equals(lang)) {
+            langIv.setImageResource(R.drawable.icon_lang_kor);
+        } else if ("jp".equals(lang)) {
+            langIv.setImageResource(R.drawable.icon_lang_jp);
+        } else if ("ru".equals(lang)) {
+            langIv.setImageResource(R.drawable.icon_lang_rs);
+        } else if ("fr".equals(lang)) {
+            langIv.setImageResource(R.drawable.icon_lang_fra);
+        } else if ("es".equals(lang)) {
+            langIv.setImageResource(R.drawable.icon_lang_sp);
+        } else if ("pt".equals(lang)) {
+            langIv.setImageResource(R.drawable.icon_lang_pt);
+        } else {
+            langIv.setImageResource(R.drawable.icon_lang_uk);
+        }
+    }
+
 
     private HomeMarketAdapter0 homeMarketAdapter;
 
