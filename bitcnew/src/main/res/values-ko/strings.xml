@@ -1321,7 +1321,10 @@
     <string name="stock_5rate_rank">5 분 부스터</string>
     <string name="stock_lingzhang_bk">주요 부문</string>
     <string name="stock_lingzhang_gu">주요 주식</string>
-    <string name="stock_list_menu">내 선택, 친구는 선택합니다</string>
+    <string-array name="stock_list_menu">
+        <item>내 선택</item>
+        <item>친구는 선택합니다</item>
+    </string-array>
     <string name="myStockList">내 선택</string>
     <string name="myFrdsStockList">친구의 선택</string>
     <string name="stock_A_hot">a-share 핫스팟</string>
@@ -1329,7 +1332,20 @@
     <string name="rate">% 증가하다</string>
     <string name="price">최신 가격</string>
     <string name="name">이름</string>
-    <string name="stock_hot_list_menu">Shanghai Shenzhen A-Shares의 순위,Shanghai A순위 ,Shenzhen A의 순위 ,중소기업 이사회 순위,성장 기업 시장 순위,판자 순위,상하이와 Shenzhen A-Shares 5 분짜리 속도 순위가 상승했습니다,Shanghai A의 5 분 성장률 순위,Shenzhen A의 5 분 성장률 순위,Shanghai B 순위,Shenzhen B 랭킹,상하이와 심천 펀드의 순위</string>
+    <string-array name="stock_hot_list_menu">
+        <item>Shanghai Shenzhen A-Shares의 순위</item>
+        <item>Shanghai A순위</item>
+        <item>Shenzhen A의 순위</item>
+        <item>중소기업 이사회 순위</item>
+        <item>성장 기업 시장 순위</item>
+        <item>판자 순위</item>
+        <item>상하이와 Shenzhen A-Shares 5 분짜리 속도 순위가 상승했습니다</item>
+        <item>Shanghai A의 5 분 성장률 순위</item>
+        <item>Shenzhen A의 5 분 성장률 순위</item>
+        <item>Shanghai B 순위</item>
+        <item>Shenzhen B 랭킹</item>
+        <item>상하이와 심천 펀드의 순위</item>
+    </string-array>
     <string name="index_0">Shanghai Shenzhen A-Shares의 순위</string>
     <string name="index_1">Shanghai A순위</string>
     <string name="index_2">Shenzhen A의 순위</string>
@@ -1342,7 +1358,16 @@
     <string name="index_9">Shanghai B 순위</string>
     <string name="index_10">Shenzhen B 랭킹</string>
     <string name="index_11">상하이와 심천 펀드의 순위</string>
-    <string name="stock_f10">뉴스, 발표, 연구, 프로필, 재무, 배당금, 주주, 임원</string>
+    <string-array name="stock_f10">
+        <item>뉴스</item>
+        <item>발표</item>
+        <item>연구</item>
+        <item>프로필</item>
+        <item>재무</item>
+        <item>배당금</item>
+        <item>주주</item>
+        <item>임원</item>
+    </string-array>
     <string name="homepagefrnewggdtop">%1$s보기 2 $ S의 %3$s</string>
     <string name="my_msg">소식</string>
     <string name="business">거래</string>
@@ -1443,22 +1468,115 @@
     <string name="tjrHotnews">골드 러쉬로드 헤드 라인</string>
     <string name="newsInfo">세부</string>
     <string name="topLine">표제</string>
-    <string name="hotnewsShare">서클, 개인 채팅, 주주 바, Wechat 친구, Wechat Friend Circle, Sina Weibo</string>
-    <string name="stockIndexDel">자체 선택 주식, 서클, 개인 채팅, 주주 바, Wechat 친구, Wechat 친구 서클, Sina Weibo 삭제</string>
-    <string name="stockIndexAdd">자체 선택 주식, 서클, 개인 채팅, Sharemate Bar, Wechat Friends, Wechat Friend Circle, Sina Weibo 삭제</string>
-    <string name="newspaperShare">Circle, Private Chat, 주주 바, Wechat 친구, Wechat Friend Circle, Sina Weibo, 신문으로 전달</string>
-    <string name="microShare">서클, 주주 바, Wechat 친구, Wechat Circle of Friends, Sina Weibo</string>
-    <string name="stockDel">자체 선택 주식, 서클, 개인 채팅, 주주 바, Wechat 친구, Wechat 친구 서클, Sina Weibo 삭제</string>
-    <string name="stockAdd">선택한 주식, 서클, 개인 채팅, 친구, Wechat 친구, Wechat Friends, Sina Weibo 추가</string>
-    <string name="stockSchedule">코멘트, 서클, 주식 친구 바, 웨이스 친구, 웨이트 친구 서클,시나 웨이 보</string>
-    <string name="circleInvite">wechat 친구, Wechat 친구, 골드 러쉬로드 친구들</string>
-    <string name="appInvite">wechat 친구, Wechat 친구, Sina Weibo</string>
-    <string name="appwebshare">Wechat 친구, Wechat 친구의 원</string>
-    <string name="myhomepageMyinfoPermissionsaction">당신만이 볼 수 있고 친구 만 볼 수 있고 누구나 볼 수 있습니다.</string>
-    <string name="myhomepageMyinfostyleaction">단기 급진적, 중간 선 밴드 유형, 장기 강력한</string>
-    <string name="myhomepageMyinfostockage">초등학생 (반년 이내), 중학생 (반년에서 2 년), 대학생 (2-10 세), 베테랑 주주 (10 년 이상)</string>
-    <string name="squareConcerStockage">초등학생, 중학생, 대학생, 베테랑 주주</string>
-    <string name="circleWeipanSetting">닫히면 서클 소유자/관리자 만 허용되며 모두 허용됩니다.</string>
+    <string-array name="hotnewsShare">
+        <item>서클</item>
+        <item>개인 채팅</item>
+        <item>주주 바</item>
+        <item>Wechat 친구</item>
+        <item>Wechat Friend Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockIndexDel">
+        <item>자체 선택 주식</item>
+        <item>서클</item>
+        <item>개인 채팅</item>
+        <item>주주 바</item>
+        <item>Wechat 친구</item>
+        <item>Wechat 친구 서클</item>
+        <item>Sina Weibo 삭제</item>
+    </string-array>
+    <string-array name="stockIndexAdd">
+        <item>자체 선택 주식</item>
+        <item>서클</item>
+        <item>개인 채팅</item>
+        <item>Sharemate Bar</item>
+        <item>Wechat Friends</item>
+        <item>Wechat Friend Circle</item>
+        <item>Sina Weibo 삭제</item>
+    </string-array>
+    <string-array name="newspaperShare">
+        <item>Circle</item>
+        <item>Private Chat</item>
+        <item>주주 바</item>
+        <item>Wechat 친구</item>
+        <item>Wechat Friend Circle</item>
+        <item>Sina Weibo</item>
+        <item>신문으로 전달</item>
+    </string-array>
+    <string-array name="microShare">
+        <item>서클</item>
+        <item>주주 바</item>
+        <item>Wechat 친구</item>
+        <item>Wechat Circle of Friends</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockDel">
+        <item>자체 선택 주식</item>
+        <item>서클</item>
+        <item>개인 채팅</item>
+        <item>주주 바</item>
+        <item>Wechat 친구</item>
+        <item>Wechat 친구 서클</item>
+        <item>Sina Weibo 삭제</item>
+    </string-array>
+    <string-array name="stockAdd">
+        <item>선택한 주식</item>
+        <item>서클</item>
+        <item>개인 채팅</item>
+        <item>친구</item>
+        <item>Wechat 친구</item>
+        <item>Wechat Friends</item>
+        <item>Sina Weibo 추가</item>
+    </string-array>
+    <string-array name="stockSchedule">
+        <item>코멘트</item>
+        <item>서클</item>
+        <item>주식 친구 바</item>
+        <item>웨이스 친구</item>
+        <item>웨이트 친구 서클</item>
+        <item>시나 웨이 보</item>
+    </string-array>
+    <string-array name="circleInvite">
+        <item>wechat 친구</item>
+        <item>Wechat 친구</item>
+        <item>골드 러쉬로드 친구들</item>
+    </string-array>
+    <string-array name="appInvite">
+        <item>wechat 친구</item>
+        <item>Wechat 친구</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="appwebshare">
+        <item>Wechat 친구</item>
+        <item>Wechat 친구의 원</item>
+    </string-array>
+    <string-array name="myhomepageMyinfoPermissionsaction">
+        <item>당신만이 볼 수</item>
+        <item>있고 친구 만 볼 수</item>
+        <item>있고 누구나 볼 수 있습니다</item>
+    </string-array>
+    <string-array name="myhomepageMyinfostyleaction">
+        <item>단기 급진적</item>
+        <item>중간 선 밴드 유형</item>
+        <item>장기 강력한</item>
+    </string-array>
+    <string-array name="myhomepageMyinfostockage">
+        <item>초등학생 (반년 이내)</item>
+        <item>중학생 (반년에서 2 년)</item>
+        <item>대학생 (2\-10 세)</item>
+        <item>베테랑 주주 (10 년 이상)</item>
+    </string-array>
+    <string-array name="squareConcerStockage">
+        <item>초등학생</item>
+        <item>중학생</item>
+        <item>대학생</item>
+        <item>베테랑 주주</item>
+    </string-array>
+    <string-array name="circleWeipanSetting">
+        <item>닫히면</item>
+        <item>서클 소유자/관리자 만 허용</item>
+        <item>되며 모두 허용됩니다</item>
+    </string-array>
     <string name="app_yixue">아카데미에 혜택을 주어야합니다</string>
     <string name="app_advert">활동 영역</string>
     <string name="app_martket">구성 요소 시장</string>
@@ -2370,6 +2488,8 @@
     <string name="shuliangjiakeyong">사용 가능한 양</string>
     <string name="chengben">비용</string>
     <string name="shezhizhiyingzhisun">중지 손실을 설정하고 이익을 얻으십시오</string>
+    <string name="shezhizhiying">Set Take Profit</string>
+    <string name="shezhizhisun">Set Stop Loss</string>
     <string name="daikaishi">시작되지 않았습니다</string>
     <string name="shengouzhong">진행중인 요청</string>
     <string name="yijieshu">닫은</string>

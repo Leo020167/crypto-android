@@ -1257,7 +1257,7 @@
     <string name="input">輸入</string>
     <string name="download_finish">打開</string>
     <string name="request_failed">請求失敗,請重新請求!</string>
-    <!--<string user_name="hello_world">Hello world!</string>-->
+    <string name="hello_world">Hello world!</string>
     <string name="novalue">---</string>
     <string name="weipanSubcribeTips">* 投資需謹慎，高手操作僅供參考和學習交流之用，不構成任何投資建議，用戶據此操作，風險自擔。</string>
     <string name="weekBoard">周排行</string>
@@ -1269,7 +1269,7 @@
     <string name="luckyMessage">恭喜發財，大吉大利！</string>
     <string name="reportTips">選擇投訴理由</string>
     <string name="accountWarning">該賬號被多名用戶投訴，交流時請保護好自己的隱私安全</string>
-    <!--<string user_name="action_settings">Settings</string>-->
+    <string name="action_settings">Settings</string>
     <string name="refresh">刷新</string>
     <string name="scan_qrcode">掃一掃</string>
     <string name="load_desc_loading">加載中&#8230;</string>
@@ -1386,7 +1386,7 @@
     <string name="square_topic">搜索話題</string>
     <string name="square_edit_topic">發貼</string>
     <string name="square_info_title">主題貼</string>
-    <!-- <string user_name="square_store">收藏</string> -->
+    <string name="square_store">收藏</string>
     <string name="square_unstore">取消收藏</string>
     <string name="square_order_desc">倒序查看</string>
     <string name="square_order_asc">正序查看</string>
@@ -1580,7 +1580,6 @@
         <item>老股灰(10年以上)</item>
     </string-array>
     <string-array name="squareConcerStockage">
-        <item />
         <item>小學生</item>
         <item>中學生</item>
         <item>大學生</item>
@@ -1905,8 +1904,8 @@
     <string name="bonus_record">獎金記錄</string>
     <string name="bonus_recipe">獎金領取</string>
     <string name="bonus_extract">獎金提取</string>
-    <!--<string user_name="extract_success">提取成功</string>
-        <string user_name="extract_fail">提取失敗</string>-->
+    <string name="extract_success">提取成功</string>
+    <string name="extract_fail">提取失敗</string>
     <string name="withcashHis">提現歷史</string>
     <string name="withcash">提現</string>
     <string name="hotNewsActivity">活動</string>
@@ -2252,12 +2251,12 @@
     <string name="gold_exp_withdraw">領取獎金</string>
     <string name="money_lowercase">獎金(元)</string>
     <string name="money_uppercase">獎金大寫(元)</string>
-    <!--<string user_name="all_turn_out">全部領取</string>-->
+    <string name="all_turn_out">全部領取</string>
     <string name="withdraw_record">領取記錄</string>
     <string name="withdraw_2_wallet">領取獎金到錢包</string>
-    <!--<string user_name="input_amount">輸入領取金額</string>-->
-    <!--<string user_name="can_withdraw">可領取:</string>-->
-    <!--<string user_name="withdraw_amount">領取金額</string>-->
+    <string name="input_amount">輸入領取金額</string>
+    <string name="can_withdraw">可領取:</string>
+    <string name="withdraw_amount">領取金額</string>
     <string name="withdraw_success">領取成功</string>
     <string name="withdraw_fail">領取失敗</string>
     <!--下面是新加的-->
@@ -2274,7 +2273,7 @@
     <string name="follow_add_ps">收藏時下最流行的紅人卡,分享\n紅人經濟!</string>
     <string name="follow_add_description">在「紅跳蚤」，紅人卡可購買、轉讓，除了獲得紅人卡銷售的到期分紅包之外，還能兌換摯愛紅人對你祝福、為你定制才藝表演,甚至出席你公司商業演出！</string>
     <!--價格(有效價格 <font color="#ff4f12">%1$s</font> - <font color="#ff4f12">%2$s</font>)-->
-    <!--<string user_name="effective_price_domain">價格(有效價格 &lt;font color="#ff4f12">%1$s&lt;/font> - &lt;font color="#ff4f12">%2$s&lt;/font>)</string>-->
+    <string name="effective_price_domain">價格(有效價格 &lt;font color="#ff4f12">%1$s&lt;/font> - &lt;font color="#ff4f12">%2$s&lt;/font>)</string>
     <string name="effective_price_domain_orange">價格(有效價格 &lt;font color="#fe3f26">%1$1.2f - %2$1.2f&lt;/font>)</string>
     <string name="effective_price_domain_green">價格(有效價格 &lt;font color="#1ec590">%1$1.2f - %2$1.2f&lt;/font>)</string>
     <string name="bestBuy1price">價格(最優價為買①價)</string>

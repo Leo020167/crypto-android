@@ -1321,7 +1321,10 @@
     <string name="stock_5rate_rank">5分のブースター</string>
     <string name="stock_lingzhang_bk">主要なセクター</string>
     <string name="stock_lingzhang_gu">主要な株</string>
-    <string name="stock_list_menu">私のピック、友達が選ぶ</string>
+    <string-array name="stock_list_menu">
+        <item>私のピック</item>
+        <item>友達が選ぶ</item>
+    </string-array>
     <string name="myStockList">私のピック</string>
     <string name="myFrdsStockList">友達のピック</string>
     <string name="stock_A_hot">A-Share Hotspot</string>
@@ -1329,7 +1332,20 @@
     <string name="rate">% 増加</string>
     <string name="price">最新の価格</string>
     <string name="name">名前</string>
-    <string name="stock_hot_list_menu">上海と深センA-Sharesのランキング、上海Aのランキング、深センAのランキング、中小企業委員会のランキング、宝石ランキング、セクターランキング、上海および深センA-Shares 5分間の上昇スピードランキング、シャンガイAの5ミニュートのランキング 成長率、深センAの5分間の成長率、上海Bランキング、深センBランキング、上海および深センファンドのランキング</string>
+    <string-array name="stock_hot_list_menu">
+        <item>上海と深センA-Sharesのランキング</item>
+        <item>上海Aのランキング</item>
+        <item>深センAのランキング</item>
+        <item>中小企業委員会のランキング</item>
+        <item>宝石ランキング</item>
+        <item>セクターランキング</item>
+        <item>上海および深センA-Shares 5分間の上昇スピードランキング</item>
+        <item>シャンガイAの5ミニュートのランキング 成長率</item>
+        <item>深センAの5分間の成長率</item>
+        <item>上海Bランキング</item>
+        <item>深センBランキング</item>
+        <item>上海および深センファンドのランキング</item>
+    </string-array>
     <string name="index_0">上海と深センのランキング</string>
     <string name="index_1">上海のランキングa</string>
     <string name="index_2">深Shenzhenのランキングa</string>
@@ -1342,7 +1358,16 @@
     <string name="index_9">上海Bランキング</string>
     <string name="index_10">深圳Bランキング</string>
     <string name="index_11">上海深圳センの資金のランキング</string>
-    <string name="stock_f10">ニュース、発表、研究報告、概要、財務、配当、株主、幹部</string>
+    <string-array name="stock_f10">
+        <item>ニュース</item>
+        <item>発表</item>
+        <item>研究報告</item>
+        <item>概要</item>
+        <item>財務</item>
+        <item>配当</item>
+        <item>株主</item>
+        <item>幹部</item>
+    </string-array>
     <string name="homepagefrnewggdtop">%1$s viewed%2$s of%3$s</string>
     <string name="my_msg">ニュース</string>
     <string name="business">取引</string>
@@ -1443,22 +1468,115 @@
     <string name="tjrHotnews">ゴールドラッシュロードの見出し</string>
     <string name="newsInfo">詳細</string>
     <string name="topLine">見出し</string>
-    <string name="hotnewsShare">サークル、プライベートチャット、株主バー、ウェチャトフレンズ、ウェチャトフレンドサークル、シナワイボ</string>
-    <string name="stockIndexDel">自己選択の株式、サークル、プライベートチャット、株主バー、Wechatの友人、WeChat Friend Circle、Sina Weiboを削除する</string>
-    <string name="stockIndexAdd">自己選択の在庫、サークル、プライベートチャット、シェアメイトバー、Wechatの友人、WeChat Friend Circle、Sina Weiboを削除する</string>
-    <string name="newspaperShare">サークル、プライベートチャット、株主バー、ウェチャトフレンド、ウェチャトフレンドサークル、シナワイボ、新聞に転送</string>
-    <string name="microShare">サークル、株主バー、Wechatの友人、WeChat Sircle of Friends、Sina Weibo</string>
-    <string name="stockDel">自己選択の株式、サークル、プライベートチャット、株主バー、Wechatの友人、WeChat Friend Circle、Sina Weiboを削除する</string>
-    <string name="stockAdd">選択した在庫、サークル、プライベートチャット、友人、Wechatの友人、WeChatの友人、Sina Weiboを追加します</string>
-    <string name="stockSchedule">コメント、サークル、ストックフレンドバー、wechatの友人、ウェチャトフレンドサークル、シナワイボ</string>
-    <string name="circleInvite">WeChatの友達、Wechat Friends Circle、Taojin Road Friends</string>
-    <string name="appInvite">WeChat Friends、Wechat Friends Circle、Sina Weibo</string>
-    <string name="appwebshare">Wechatの友達、Wechat Friends Circle</string>
-    <string name="myhomepageMyinfoPermissionsaction">あなただけが見ることができ、友達だけが見ることができ、誰もが見ることができます</string>
-    <string name="myhomepageMyinfostyleaction">短期ラジカル、正中線のバンドタイプ、長期堅牢</string>
-    <string name="myhomepageMyinfostockage">小学生（半年以内）、中学生（半年から2年）、大学生（2〜10歳）、ベテラン株主（10年以上）</string>
-    <string name="squareConcerStockage">小学生、中学生、大学生、ベテラン株主</string>
-    <string name="circleWeipanSetting">閉じて、サークルの所有者/管理者のみが許可され、すべてが許可されます</string>
+    <string-array name="hotnewsShare">
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>株主バー</item>
+        <item>ウェチャトフレンズ</item>
+        <item>ウェチャトフレンドサークル</item>
+        <item>シナワイボ</item>
+    </string-array>
+    <string-array name="stockIndexDel">
+        <item>自己選択の株式</item>
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>株主バー</item>
+        <item>Wechatの友人</item>
+        <item>WeChat Friend Circle</item>
+        <item>Sina Weiboを削除する</item>
+    </string-array>
+    <string-array name="stockIndexAdd">
+        <item>自己選択の在庫</item>
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>シェアメイトバー</item>
+        <item>Wechatの友人</item>
+        <item>WeChat Friend Circle</item>
+        <item>Sina Weiboを削除する</item>
+    </string-array>
+    <string-array name="newspaperShare">
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>株主バー</item>
+        <item>ウェチャトフレンド</item>
+        <item>ウェチャトフレンドサークル</item>
+        <item>シナワイボ</item>
+        <item>新聞に転送</item>
+    </string-array>
+    <string-array name="microShare">
+        <item>サークル</item>
+        <item>株主バー</item>
+        <item>Wechatの友人</item>
+        <item>WeChat Sircle of Friends</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockDel">
+        <item>自己選択の株式</item>
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>株主バー</item>
+        <item>Wechatの友人</item>
+        <item>WeChat Friend Circle</item>
+        <item>Sina Weiboを削除する</item>
+    </string-array>
+    <string-array name="stockAdd">
+        <item>選択した在庫</item>
+        <item>サークル</item>
+        <item>プライベートチャット</item>
+        <item>友人</item>
+        <item>Wechatの友人</item>
+        <item>WeChatの友人</item>
+        <item>Sina Weiboを追加します</item>
+    </string-array>
+    <string-array name="stockSchedule">
+        <item>コメント</item>
+        <item>サークル</item>
+        <item>ストックフレンドバー</item>
+        <item>wechatの友人</item>
+        <item>ウェチャトフレンドサークル</item>
+        <item>シナワイボ</item>
+    </string-array>
+    <string-array name="circleInvite">
+        <item>WeChatの友達</item>
+        <item>Wechat Friends Circle</item>
+        <item>Taojin Road Friends</item>
+    </string-array>
+    <string-array name="appInvite">
+        <item>WeChat Friends</item>
+        <item>Wechat Friends Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="appwebshare">
+        <item>Wechatの友達</item>
+        <item>Wechat Friends Circle</item>
+    </string-array>
+    <string-array name="myhomepageMyinfoPermissionsaction">
+        <item>あなただけが見ることができ</item>
+        <item>友達だけが見ることができ</item>
+        <item>誰もが見ることができます</item>
+    </string-array>
+    <string-array name="myhomepageMyinfostyleaction">
+        <item>短期ラジカル</item>
+        <item>正中線のバンドタイプ</item>
+        <item>長期堅牢</item>
+    </string-array>
+    <string-array name="myhomepageMyinfostockage">
+        <item>小学生（半年以内）</item>
+        <item>中学生（半年から2年）</item>
+        <item>大学生（2〜10歳）</item>
+        <item>ベテラン株主（10年以上）</item>
+    </string-array>
+    <string-array name="squareConcerStockage">
+        <item>小学生</item>
+        <item>中学生</item>
+        <item>大学生</item>
+        <item>ベテラン株主</item>
+    </string-array>
+    <string-array name="circleWeipanSetting">
+        <item>閉じて</item>
+        <item>サークルの所有者/管理者のみが許可され</item>
+        <item>すべてが許可されます</item>
+    </string-array>
     <string name="app_yixue">アカデミーに利益をもたらすために縛られています</string>
     <string name="app_advert">アクティビティエリア</string>
     <string name="app_martket">コンポーネント市場</string>
@@ -2370,6 +2488,8 @@
     <string name="shuliangjiakeyong">利用可能な数量</string>
     <string name="chengben">料金</string>
     <string name="shezhizhiyingzhisun">停止損失を設定し、利益を得ます</string>
+    <string name="shezhizhiying">Set Take Profit</string>
+    <string name="shezhizhisun">Set Stop Loss</string>
     <string name="daikaishi">始まっていない</string>
     <string name="shengouzhong">進行中の要求</string>
     <string name="yijieshu">閉まっている</string>

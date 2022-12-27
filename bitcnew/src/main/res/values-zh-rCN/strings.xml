@@ -1258,7 +1258,7 @@
     <string name="input">输入</string>
     <string name="download_finish">打开</string>
     <string name="request_failed">请求失败,请重新请求!</string>
-    <!--<string user_name="hello_world"  >Hello world!</string>-->
+    <string name="hello_world">Hello world!</string>
     <string name="novalue">---</string>
     <string name="weipanSubcribeTips">* 投资需谨慎，高手操作仅供参考和学习交流之用，不构成任何投资建议，用户据此操作，风险自担。</string>
     <string name="weekBoard">周排行</string>
@@ -1270,7 +1270,7 @@
     <string name="luckyMessage">恭喜发财，大吉大利！</string>
     <string name="reportTips">选择投诉理由</string>
     <string name="accountWarning">该账号被多名用户投诉，交流时请保护好自己的隐私安全</string>
-    <!--<string user_name="action_settings"  >Settings</string>-->
+    <string name="action_settings">Settings</string>
     <string name="refresh">刷新</string>
     <string name="scan_qrcode">扫一扫</string>
     <string name="load_desc_loading">加载中&#8230;</string>
@@ -1394,7 +1394,7 @@
     <string name="square_topic" translatable="false">搜索话题</string>
     <string name="square_edit_topic" translatable="false">发贴</string>
     <string name="square_info_title" translatable="false">主题贴</string>
-    <!-- <string user_name="square_store"  >收藏</string> -->
+    <string name="square_store">收藏</string>
     <string name="square_unstore" translatable="false">取消收藏</string>
     <string name="square_order_desc" translatable="false">倒序查看</string>
     <string name="square_order_asc" translatable="false">正序查看</string>
@@ -1605,7 +1605,6 @@
         <item>老股灰(10年以上)</item>
     </string-array>
     <string-array name="squareConcerStockage">
-        <item />
         <item>小学生</item>
         <item>中学生</item>
         <item>大学生</item>
@@ -1936,8 +1935,8 @@
     <string name="bonus_record">奖金记录</string>
     <string name="bonus_recipe">奖金领取</string>
     <string name="bonus_extract">奖金提取</string>
-    <!--<string user_name="extract_success"  >提取成功</string>
-        <string user_name="extract_fail"  >提取失败</string>-->
+    <string name="extract_success">提取成功</string>
+    <string name="extract_fail">提取失败</string>
     <string name="withcashHis">提现历史</string>
     <string name="withcash">提现</string>
     <string name="hotNewsActivity">活动</string>
@@ -2371,12 +2370,12 @@
     <string name="gold_exp_withdraw">领取奖金</string>
     <string name="money_lowercase">奖金(元)</string>
     <string name="money_uppercase">奖金大写(元)</string>
-    <!--<string user_name="all_turn_out"  >全部领取</string>-->
+    <string name="all_turn_out">全部领取</string>
     <string name="withdraw_record">领取记录</string>
     <string name="withdraw_2_wallet">领取奖金到钱包</string>
-    <!--<string user_name="input_amount"  >输入领取金额</string>-->
-    <!--<string user_name="can_withdraw"  >可领取:</string>-->
-    <!--<string user_name="withdraw_amount"  >领取金额</string>-->
+    <string name="input_amount">输入领取金额</string>
+    <string name="can_withdraw">可领取:</string>
+    <string name="withdraw_amount">领取金额</string>
     <string name="withdraw_success">领取成功</string>
     <string name="withdraw_fail">领取失败</string>
 
@@ -2396,7 +2395,7 @@
     <string name="follow_add_description">在“红跳蚤”，红人卡可购买、转让，除了获得红人卡销售的到期分红包之外，还能兑换挚爱红人对你祝福、为你定制才艺表演,甚至出席你公司商业演出！</string>
 
     <!--价格(有效价格 <font color="#ff4f12"  >%1$s</font> - <font color="#ff4f12"  >%2$s</font>)-->
-    <!--<string user_name="effective_price_domain"  >价格(有效价格 &lt;font color="#ff4f12"  >%1$s&lt;/font> - &lt;font color="#ff4f12"  >%2$s&lt;/font>)</string>-->
+    <string name="effective_price_domain">价格(有效价格 &lt;font color="#ff4f12"  >%1$s&lt;/font> - &lt;font color="#ff4f12"  >%2$s&lt;/font>)</string>
     <string name="effective_price_domain_orange">价格(有效价格 &lt;font color="#fe3f26"  >%1$1.2f - %2$1.2f&lt;/font>)</string>
     <string name="effective_price_domain_green">价格(有效价格 &lt;font color="#1ec590"  >%1$1.2f - %2$1.2f&lt;/font>)</string>
 

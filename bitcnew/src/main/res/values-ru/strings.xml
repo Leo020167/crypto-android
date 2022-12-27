@@ -1321,7 +1321,10 @@
     <string name="stock_5rate_rank">5-минутные бустеры</string>
     <string name="stock_lingzhang_bk">Ведущие сектора</string>
     <string name="stock_lingzhang_gu">Ведущие акции</string>
-    <string name="stock_list_menu">Мои выборы, друзья выбирают</string>
+    <string-array name="stock_list_menu">
+        <item>Мои выборы</item>
+        <item>друзья выбирают</item>
+    </string-array>
     <string name="myStockList">Мои выборы</string>
     <string name="myFrdsStockList">Подруга</string>
     <string name="stock_A_hot">A-Share Hotspot</string>
@@ -1329,7 +1332,20 @@
     <string name="rate">% Увеличивать</string>
     <string name="price">Последняя цена</string>
     <string name="name">Имя</string>
-    <string name="stock_hot_list_menu">Рейтинг Шанхай и Шэньчжэнь-Шеры, Рейтинг Шанхай А, рейтинг Шэньчжэнь А, рейтинг доски МСП, рейтинг драгоценных камней, рейтинг сектора, Шанхай и Шэньчжэнь. Темпы роста, рейтинг 5-минутных темпов роста Шэньчжэнь А, рейтинг Шанхай Б, рейтинг Шэньчжэнь Б, рейтинг фондов Шанхай и Шэньчжэнь</string>
+    <string-array name="stock_hot_list_menu">
+        <item>Рейтинг Шанхай и Шэньчжэнь-Шеры</item>
+        <item>Рейтинг Шанхай А</item>
+        <item>рейтинг Шэньчжэнь А</item>
+        <item>рейтинг доски МСП</item>
+        <item>рейтинг драгоценных камней</item>
+        <item>рейтинг сектора</item>
+        <item>Шанхай и Шэньчжэнь</item>
+        <item>Темпы роста</item>
+        <item>рейтинг 5-минутных темпов роста Шэньчжэнь А</item>
+        <item>рейтинг Шанхай Б</item>
+        <item>рейтинг Шэньчжэнь Б</item>
+        <item>рейтинг фондов Шанхай и Шэньчжэнь</item>
+    </string-array>
     <string name="index_0">Рейтинг Шанхай и Шэньчжэнь А-Шары</string>
     <string name="index_1">Рейтинг Шанхая а</string>
     <string name="index_2">Рейтинг Шэньчжэна</string>
@@ -1342,7 +1358,16 @@
     <string name="index_9">Шанхай B Рейтинг</string>
     <string name="index_10">Шэньчжэнь B Рейтинг</string>
     <string name="index_11">Рейтинг фондов Шанхай и Шэньчжэнь</string>
-    <string name="stock_f10">Новости, объявления, исследования, профиль, финансовые показатели, дивиденды, акционеры, руководители</string>
+    <string-array name="stock_f10">
+        <item>Новости</item>
+        <item>объявления</item>
+        <item>исследования</item>
+        <item>профиль</item>
+        <item>финансовые показатели</item>
+        <item>дивиденды</item>
+        <item>акционеры</item>
+        <item>руководители</item>
+    </string-array>
     <string name="homepagefrnewggdtop">%1$s Просмотр %2$s %3$s</string>
     <string name="my_msg">Новости</string>
     <string name="business">Торговля</string>
@@ -1443,22 +1468,115 @@
     <string name="tjrHotnews">Заголовки Gold Rush Road</string>
     <string name="newsInfo">Подробности</string>
     <string name="topLine">Заголовок</string>
-    <string name="hotnewsShare">Круг, частный чат, барьер акционеров, Wechat Friends, WeChat Friend Circle, Sina Weibo</string>
-    <string name="stockIndexDel">Удалить самостоятельные акции, круги, личный чат, бар акционеров, друзья WeChat, WeChat Friend Circle, Sina Weibo</string>
-    <string name="stockIndexAdd">Удалить самостоятельные акции, кружок, личный чат, батончик со шарниром, Wechat Friends, Wechat Friend Circle, Sina Weibo</string>
-    <string name="newspaperShare">Круг, частный чат, бар акционеров, друг WeChat, WeChat Friend Circle, Sina Weibo, вперед в газете</string>
-    <string name="microShare">Круги, бара акционеров, друзья WeChat, WeChat Circle of Friends, Sina Weibo</string>
-    <string name="stockDel">Удалить самостоятельные акции, круги, личный чат, бар акционеров, друзья WeChat, WeChat Friend Circle, Sina Weibo</string>
-    <string name="stockAdd">Добавьте выбранные вами акции, круги, личный чат, друзья, друзья WeChat, друзья WeChat, Sina Weibo</string>
-    <string name="stockSchedule">Комментарий, кружок, батончик с подругой, друзья WeChat, Wechat Friend Circle, Sina Weibo</string>
-    <string name="circleInvite">Wechat Friends, Wechat Friends Circle, друзья Taojin Road</string>
-    <string name="appInvite">Wechat Friends, Wechat Friends Circle, Sina Weibo</string>
-    <string name="appwebshare">Wechat Friends, Wechat Friends Circle</string>
-    <string name="myhomepageMyinfoPermissionsaction">Только вы можете видеть, видят только друзья, каждый может увидеть</string>
-    <string name="myhomepageMyinfostyleaction">Краткосрочный радикальный тип полосы средней линии, долгосрочный прочный</string>
-    <string name="myhomepageMyinfostockage">Учащиеся начальной школы (в течение полугода), учащиеся средней школы (от полугода до двух лет), учащиеся колледжа (2-10 лет), ветеранов-акционеров (10 лет или более)</string>
-    <string name="squareConcerStockage">Учащиеся начальной школы, учащиеся средней школы, студенты колледжа, ветеранские акционеры</string>
-    <string name="circleWeipanSetting">Закрыто, разрешены только владельцы/администраторы кругов, все разрешены</string>
+    <string-array name="hotnewsShare">
+        <item>Круг</item>
+        <item>частный чат</item>
+        <item>барьер акционеров</item>
+        <item>Wechat Friends</item>
+        <item>WeChat Friend Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockIndexDel">
+        <item>Удалить самостоятельные акции</item>
+        <item>круги</item>
+        <item>личный чат</item>
+        <item>бар акционеров</item>
+        <item>друзья WeChat</item>
+        <item>WeChat Friend Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockIndexAdd">
+        <item>Удалить самостоятельные акции</item>
+        <item>кружок</item>
+        <item>личный чат</item>
+        <item>батончик со шарниром</item>
+        <item>Wechat Friends</item>
+        <item>Wechat Friend Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="newspaperShare">
+        <item>Круг</item>
+        <item>частный чат</item>
+        <item>бар акционеров</item>
+        <item>друг WeChat</item>
+        <item>WeChat Friend Circle</item>
+        <item>Sina Weibo</item>
+        <item>вперед в газете</item>
+    </string-array>
+    <string-array name="microShare">
+        <item>Круги</item>
+        <item>бара акционеров</item>
+        <item>друзья WeChat</item>
+        <item>WeChat Circle of Friends</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockDel">
+        <item>Удалить самостоятельные акции</item>
+        <item>круги</item>
+        <item>личный чат</item>
+        <item>бар акционеров</item>
+        <item>друзья WeChat</item>
+        <item>WeChat Friend Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockAdd">
+        <item>Добавьте выбранные вами акции</item>
+        <item>круги</item>
+        <item>личный чат</item>
+        <item>друзья</item>
+        <item>друзья WeChat</item>
+        <item>друзья WeChat</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockSchedule">
+        <item>Комментарий</item>
+        <item>кружок</item>
+        <item>батончик с подругой</item>
+        <item>друзья WeChat</item>
+        <item>Wechat Friend Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="circleInvite">
+        <item>Wechat Friends</item>
+        <item>Wechat Friends Circle</item>
+        <item>друзья Taojin Road</item>
+    </string-array>
+    <string-array name="appInvite">
+        <item>Wechat Friends</item>
+        <item>Wechat Friends Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="appwebshare">
+        <item>Wechat Friends</item>
+        <item>Wechat Friends Circle</item>
+    </string-array>
+    <string-array name="myhomepageMyinfoPermissionsaction">
+        <item>Только вы можете видеть</item>
+        <item>видят только друзья</item>
+        <item>каждый может увидеть</item>
+    </string-array>
+    <string-array name="myhomepageMyinfostyleaction">
+        <item>Краткосрочный радикальный</item>
+        <item>тип полосы средней линии</item>
+        <item>долгосрочный прочный</item>
+    </string-array>
+    <string-array name="myhomepageMyinfostockage">
+        <item>Учащиеся начальной школы (в течение полугода)</item>
+        <item>учащиеся средней школы (от полугода до двух лет)</item>
+        <item>учащиеся колледжа (2\-10 лет)</item>
+        <item>ветеранов-акционеров (10 лет или более)</item>
+    </string-array>
+    <string-array name="squareConcerStockage">
+        <item>Учащиеся начальной школы</item>
+        <item>учащиеся средней школы</item>
+        <item>студенты колледжа</item>
+        <item>ветеранские акционеры</item>
+    </string-array>
+    <string-array name="circleWeipanSetting">
+        <item>Закрыто</item>
+        <item>разрешены только владельцы/администраторы кругов</item>
+        <item>все разрешены</item>
+    </string-array>
     <string name="app_yixue">Обязательно принести пользу академии</string>
     <string name="app_advert">Область активности</string>
     <string name="app_martket">Рынок компонентов</string>
@@ -2370,6 +2488,8 @@
     <string name="shuliangjiakeyong">Кол-во в наличии</string>
     <string name="chengben">Расходы</string>
     <string name="shezhizhiyingzhisun">Установить остановку и получить прибыль</string>
+    <string name="shezhizhiying">Set Take Profit</string>
+    <string name="shezhizhisun">Set Stop Loss</string>
     <string name="daikaishi">Не начато</string>
     <string name="shengouzhong">Реквизиция в процессе</string>
     <string name="yijieshu">Закрыто</string>

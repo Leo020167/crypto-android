@@ -1321,7 +1321,10 @@
     <string name="stock_5rate_rank">Refuerzos de 5 minutos</string>
     <string name="stock_lingzhang_bk">Sectores líderes</string>
     <string name="stock_lingzhang_gu">Acciones principales</string>
-    <string name="stock_list_menu">Mis elecciones, amigos eligen</string>
+    <string-array name="stock_list_menu">
+        <item>Mis elecciones</item>
+        <item>amigos eligen</item>
+    </string-array>
     <string name="myStockList">Mis elecciones</string>
     <string name="myFrdsStockList">Celecciones de amigos</string>
     <string name="stock_A_hot">Punto de acceso</string>
@@ -1329,7 +1332,20 @@
     <string name="rate">% Aumentar</string>
     <string name="price">Último precio</string>
     <string name="name">Nombre</string>
-    <string name="stock_hot_list_menu">Clasificación de Shanghai y Shenzhen a-Shares, clasificación de Shanghai A, clasificación de Shenzhen A, clasificación de pyme, clasificación de gemas, clasificación del sector, Shanghai y Shenzhen a-shares Ranking Rising Speed Ranking, Ranking of Shanghai A de 5 minutos Tasa de crecimiento, clasificación de la tasa de crecimiento de 5 minutos de Shenzhen A, Ranking de Shanghai B, Ranking de Shenzhen B, clasificación de Shanghai y Shenzhen Funds</string>
+    <string-array name="stock_hot_list_menu">
+        <item>Clasificación de Shanghai y Shenzhen a-Shares</item>
+        <item>clasificación de Shanghai A</item>
+        <item>clasificación de Shenzhen A</item>
+        <item>clasificación de pyme</item>
+        <item>clasificación de gemas</item>
+        <item>clasificación del sector</item>
+        <item>Shanghai y Shenzhen a-shares Ranking Rising Speed Ranking</item>
+        <item>Ranking of Shanghai A de 5 minutos Tasa de crecimiento</item>
+        <item>clasificación de la tasa de crecimiento de 5 minutos de Shenzhen A</item>
+        <item>Ranking de Shanghai B</item>
+        <item>Ranking de Shenzhen B</item>
+        <item>clasificación de Shanghai y Shenzhen Funds</item>
+    </string-array>
     <string name="index_0">Clasificación de Shanghai y Shenzhen A-Shares</string>
     <string name="index_1">Clasificación de Shanghai a</string>
     <string name="index_2">Clasificación de Shenzhen A</string>
@@ -1342,7 +1358,16 @@
     <string name="index_9">Ranking de shanghai b</string>
     <string name="index_10">Ranking de shenzhen b</string>
     <string name="index_11">Clasificación de fondos de Shanghai y Shenzhen</string>
-    <string name="stock_f10">Noticias, anuncios, investigación, perfil, finanzas, dividendos, accionistas, ejecutivos</string>
+    <string-array name="stock_f10">
+        <item>Noticias</item>
+        <item>anuncios</item>
+        <item>investigación</item>
+        <item>perfil</item>
+        <item>finanzas</item>
+        <item>dividendos</item>
+        <item>accionistas</item>
+        <item>ejecutivos</item>
+    </string-array>
     <string name="homepagefrnewggdtop">%1$s visto %2$s de %3$s</string>
     <string name="my_msg">Noticias</string>
     <string name="business">Comercio</string>
@@ -1443,22 +1468,115 @@
     <string name="tjrHotnews">Titulares de la carretera de la fiebre del oro</string>
     <string name="newsInfo">Detalles</string>
     <string name="topLine">Titular</string>
-    <string name="hotnewsShare">Círculo, chat privado, bar de accionistas, amigos de WeChat, WeChat Friend Circle, Sina Weibo</string>
-    <string name="stockIndexDel">Eliminar existencias autoseleccionadas, círculos, chat privado, bar de accionistas, amigos de WeChat, WeChat Friend Circle, Sina Weibo</string>
-    <string name="stockIndexAdd">Eliminar acciones autoseleccionadas, círculo, chat privado, bar de Sharemate, WeChat Friends, Wechat Friend Circle, Sina Weibo</string>
-    <string name="newspaperShare">Círculo, chat privado, bar de accionistas, amigo wechat, wechat friend circle, sina weibo, avance al periódico</string>
-    <string name="microShare">Círculos, Bar de Accionistas, WeChat Friends, WeChat Circle of Friends, Sina Weibo</string>
-    <string name="stockDel">Eliminar existencias autoseleccionadas, círculos, chat privado, bar de accionistas, amigos de WeChat, WeChat Friend Circle, Sina Weibo</string>
-    <string name="stockAdd">Agregue sus acciones seleccionadas, círculos, chat privado, amigos, amigos de WeChat, WeChat Friends, Sina Weibo</string>
-    <string name="stockSchedule">Comentario, Circle, Stock Friend Bar, Wechat Friends, WeChat Friend Circle, Sina Weibo</string>
-    <string name="circleInvite">WeChat Friends, Wechat Friends Circle, Taojin Road Friends</string>
-    <string name="appInvite">WeChat Friends, Wechat Friends Circle, Sina Weibo</string>
-    <string name="appwebshare">WeChat Friends, WeChat Friends Circle</string>
-    <string name="myhomepageMyinfoPermissionsaction">Solo tú puedes ver, solo los amigos pueden ver, cualquiera puede ver</string>
-    <string name="myhomepageMyinfostyleaction">Radical a corto plazo, tipo de banda de línea media, robusto a largo plazo</string>
-    <string name="myhomepageMyinfostockage">Estudiantes de la escuela primaria (dentro de medio año), estudiantes de secundaria (medio año a dos años), estudiantes universitarios (2-10 años), accionistas veteranos (10 años o más)</string>
-    <string name="squareConcerStockage">Estudiantes de la escuela primaria, estudiantes de secundaria, estudiantes universitarios, accionistas veteranos</string>
-    <string name="circleWeipanSetting">Cerrado, solo se permiten propietarios/administradores del círculo, todos están permitidos</string>
+    <string-array name="hotnewsShare">
+        <item>Círculo</item>
+        <item>chat privado</item>
+        <item>bar de accionistas</item>
+        <item>amigos de WeChat</item>
+        <item>WeChat Friend Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockIndexDel">
+        <item>Eliminar existencias autoseleccionadas</item>
+        <item>círculos</item>
+        <item>chat privado</item>
+        <item>bar de accionistas</item>
+        <item>amigos de WeChat</item>
+        <item>WeChat Friend Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockIndexAdd">
+        <item>Eliminar acciones autoseleccionadas</item>
+        <item>círculo</item>
+        <item>chat privado</item>
+        <item>bar de Sharemate</item>
+        <item>WeChat Friends</item>
+        <item>Wechat Friend Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="newspaperShare">
+        <item>Círculo</item>
+        <item>chat privado</item>
+        <item>bar de accionistas</item>
+        <item>amigo wechat</item>
+        <item>wechat friend circle</item>
+        <item>sina weibo</item>
+        <item>avance al periódico</item>
+    </string-array>
+    <string-array name="microShare">
+        <item>Círculos</item>
+        <item>Bar de Accionistas</item>
+        <item>WeChat Friends</item>
+        <item>WeChat Circle of Friends</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockDel">
+        <item>Eliminar existencias autoseleccionadas</item>
+        <item>círculos</item>
+        <item>chat privado</item>
+        <item>bar de accionistas</item>
+        <item>amigos de WeChat</item>
+        <item>WeChat Friend Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockAdd">
+        <item>Agregue sus acciones seleccionadas</item>
+        <item>círculos</item>
+        <item>chat privado</item>
+        <item>amigos</item>
+        <item>amigos de WeChat</item>
+        <item>WeChat Friends</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="stockSchedule">
+        <item>Comentario</item>
+        <item>Circle</item>
+        <item>Stock Friend Bar</item>
+        <item>Wechat Friends</item>
+        <item>WeChat Friend Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="circleInvite">
+        <item>WeChat Friends</item>
+        <item>Wechat Friends Circle</item>
+        <item>Taojin Road Friends</item>
+    </string-array>
+    <string-array name="appInvite">
+        <item>WeChat Friends</item>
+        <item>Wechat Friends Circle</item>
+        <item>Sina Weibo</item>
+    </string-array>
+    <string-array name="appwebshare">
+        <item>WeChat Friends</item>
+        <item>WeChat Friends Circle</item>
+    </string-array>
+    <string-array name="myhomepageMyinfoPermissionsaction">
+        <item>Solo tú puedes ver</item>
+        <item>solo los amigos pueden ver</item>
+        <item>cualquiera puede ver</item>
+    </string-array>
+    <string-array name="myhomepageMyinfostyleaction">
+        <item>Radical a corto plazo</item>
+        <item>tipo de banda de línea media</item>
+        <item>robusto a largo plazo</item>
+    </string-array>
+    <string-array name="myhomepageMyinfostockage">
+        <item>Estudiantes de la escuela primaria (dentro de medio año)</item>
+        <item>estudiantes de secundaria (medio año a dos años)</item>
+        <item>estudiantes universitarios (2\-10 años)</item>
+        <item>accionistas veteranos (10 años o más)</item>
+    </string-array>
+    <string-array name="squareConcerStockage">
+        <item>Estudiantes de la escuela primaria</item>
+        <item>estudiantes de secundaria</item>
+        <item>estudiantes universitarios</item>
+        <item>accionistas veteranos</item>
+    </string-array>
+    <string-array name="circleWeipanSetting">
+        <item>Cerrado</item>
+        <item>solo se permiten propietarios/administradores del círculo</item>
+        <item>todos están permitidos</item>
+    </string-array>
     <string name="app_yixue">Beneficio a beneficiar a la Academia</string>
     <string name="app_advert">Área de actividad</string>
     <string name="app_martket">Mercado de componentes</string>
@@ -2370,6 +2488,8 @@
     <string name="shuliangjiakeyong">Cantidad disponible</string>
     <string name="chengben">Costo</string>
     <string name="shezhizhiyingzhisun">Establecer la pérdida de la pérdida y tomar ganancias</string>
+    <string name="shezhizhiying">Set Take Profit</string>
+    <string name="shezhizhisun">Set Stop Loss</string>
     <string name="daikaishi">No empezado</string>
     <string name="shengouzhong">Solicitud en progreso</string>
     <string name="yijieshu">Cerrado</string>
