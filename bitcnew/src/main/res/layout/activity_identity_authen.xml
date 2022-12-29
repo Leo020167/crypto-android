@@ -176,7 +176,7 @@
                         android:id="@+id/ivBackImg"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/xuanzefanmian"
+                        tools:background="@drawable/xuanzefanmian"
                         android:scaleType="centerCrop" />
 
                     <ImageView

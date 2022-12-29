@@ -53,9 +53,9 @@
     <string name="redvalue">43500.09</string>
     <string name="dav">大V</string>
     <string name="otc">OTC</string>
-    <string name="shurushenfenzhengxinxi">输入身份证信息</string>
-    <string name="qingshurushenfenzhengxingming">请输入身份证姓名</string>
-    <string name="qingshurushenfenzhenghao">请输入身份证号</string>
+    <string name="shurushenfenzhengxinxi">输入证件信息</string>
+    <string name="qingshurushenfenzhengxingming">请输入证件姓名</string>
+    <string name="qingshurushenfenzhenghao">请输入证件号码</string>
     <string name="shangchuanshenfenzhengzhaopian">上传图片</string>
     <string name="paisherenxiangye">选择正面</string>
     <string name="chakanshili">查看示例</string>
