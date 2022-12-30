@@ -1,11 +1,13 @@
 package com.bitcnew.module.home.trade.fragment;
 
 import android.animation.ValueAnimator;
+import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -14,12 +16,14 @@ import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.util.TypedValue;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
@@ -44,6 +48,7 @@ import com.google.gson.Gson;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 
@@ -83,6 +88,9 @@ public class TradeLeverFragment2 extends UserBaseFragment implements View.OnClic
     TextView tvBail;
     @BindView(R.id.tvTransfer)
     TextView tvTransfer;
+    @BindView(R.id.quickInputContainer)
+    ViewGroup quickInputContainer;
+
     private Call<ResponseBody> getPrybarConfigCall;
     private Call<ResponseBody> getPrybarCheckOutCall;
     private Call<ResponseBody> getPrybarCreateOrderCall;
@@ -102,6 +110,7 @@ public class TradeLeverFragment2 extends UserBaseFragment implements View.OnClic
     private String holdUsdt = "0.0";
     private String[] multiNumList;
     private String[] initHandList;
+    private String[] openRateList;
     private String leverMultiple = "";
 
     private int priceDecimals = 2;//价格的小数点数量
@@ -119,6 +128,55 @@ public class TradeLeverFragment2 extends UserBaseFragment implements View.OnClic
         bundle.putInt(CommonConst.BUYSELL, buySell);
         fragment.setArguments(bundle);
         return fragment;
+    }
+
+    @OnClick(value = {R.id.quick20Tv,R.id.quick40Tv,R.id.quick60Tv,R.id.quick80Tv,R.id.quick100Tv})
+    public void handleQuickInputClick(View v) {
+        if (!(v instanceof TextView)) {
+            return;
+        }
+
+        String text = (String)v.getTag();
+        if (null == text || text.length() == 0) {
+            text = ((TextView) v).getText().toString().replace("%", "").trim();
+        }
+        if (text.length() == 0) {
+            return;
+        }
+
+        try {
+            int value = (int) (d_maxHand * Double.parseDouble(text) / 100);
+            etHand.setText(String.valueOf(value));
+        } catch (Exception e) {
+
+        }
+    }
+
+    private void initQuickInput() {
+        if (openRateList == null || openRateList.length == 0) {
+            return;
+        }
+
+        quickInputContainer.removeAllViews();
+        for (String quick : openRateList) {
+            TextView text = new AppCompatTextView(getActivity());
+            text.setLayoutParams(new LinearLayout.LayoutParams(0, -1, 1));
+            text.setGravity(Gravity.CENTER);
+            text.setTextSize(TypedValue.COMPLEX_UNIT_DIP,10);
+            text.setTextColor(Color.parseColor("#333333"));
+            text.setText(quick + "%");
+            text.setTag(quick);
+            text.setOnClickListener(this::handleQuickInputClick);
+
+            if (quickInputContainer.getChildCount() != 0) {
+                View line = new View(getActivity());
+                line.setLayoutParams(new LinearLayout.LayoutParams(1, -1));
+                line.setBackgroundColor(Color.parseColor("#DDDDDD"));
+                quickInputContainer.addView(line);
+            }
+
+            quickInputContainer.addView(text);
+        }
     }
 
     public void setDecimals(int priceDecimals, int amountDecimals) {
@@ -265,6 +323,7 @@ public class TradeLeverFragment2 extends UserBaseFragment implements View.OnClic
                     holdUsdt = resultData.getItem("holdUsdt", String.class);
                     multiNumList = resultData.getStringArray("multiNumList");
                     initHandList = resultData.getStringArray("initHandList");
+                    openRateList = resultData.getStringArray("openRateList");
 
                     priceDecimals = resultData.getItem("priceDecimals", Integer.class);
                     openFeeScale = resultData.getItem("openFeeScale", String.class);
@@ -292,6 +351,7 @@ public class TradeLeverFragment2 extends UserBaseFragment implements View.OnClic
 
                     }
                     startCheckOut();
+                    initQuickInput();
                 }
             }
         });

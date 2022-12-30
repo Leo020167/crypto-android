@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@color/white"
     android:orientation="vertical">
 
     <LinearLayout
@@ -186,9 +188,11 @@
 
         <TextView
             android:id="@+id/txt_shou"
-            android:layout_width="40dip"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="right"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:gravity="center"
             android:text="@string/shou"
             android:textColor="@color/c666175ae"
@@ -196,6 +200,84 @@
             android:textStyle="bold" />
     </FrameLayout>
 
+    <LinearLayout
+        android:id="@+id/quickInputContainer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_dddddd_stroke_2dp"
+        >
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/quick20Tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:textColor="#333"
+            android:text="20%"
+            android:tag="20"
+            />
+
+        <View android:layout_width="0.5dp" android:layout_height="match_parent" android:background="#DDD" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/quick40Tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:textColor="#333"
+            android:text="40%"
+            android:tag="40"
+            />
+
+        <View android:layout_width="0.5dp" android:layout_height="match_parent" android:background="#DDD" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/quick60Tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:textColor="#333"
+            android:text="60%"
+            android:tag="60"
+            />
+
+        <View android:layout_width="0.5dp" android:layout_height="match_parent" android:background="#DDD" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/quick80Tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:textColor="#333"
+            android:text="80%"
+            android:tag="80"
+            />
+
+        <View android:layout_width="0.5dp" android:layout_height="match_parent" android:background="#DDD" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/quick100Tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:textColor="#333"
+            android:text="100%"
+            android:tag="100"
+            />
+
+    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"

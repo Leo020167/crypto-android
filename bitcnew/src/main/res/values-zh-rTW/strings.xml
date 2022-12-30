@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WorldCoin</string>
     <string name="xuanzezhanghu">選擇賬戶</string>
     <string name="queding">確定</string>
     <string name="ninmuqiandeyouxiangshi">您目前的郵箱是%s，想要把它更新為？</string>

@@ -2593,6 +2593,7 @@
     <string name="chakandaoshi">查看导师</string>
 
     <string name="xinbishengou" translatable="false">新币申购</string>
+    <string name="chuangxinshiyanqu" translatable="false">创新试验区</string>
     <string name="shuruzhengjianxinxi" translatable="false">输入证件信息</string>
     <string name="qingshuruzhengjianhaoma" translatable="false">请输入证件号码</string>
     <string name="huzhao" translatable="false">护照</string>
