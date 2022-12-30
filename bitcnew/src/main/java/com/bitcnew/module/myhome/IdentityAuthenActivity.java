@@ -275,7 +275,7 @@ public class IdentityAuthenActivity extends TJRBaseToolBarSwipeBackActivity impl
 //第一个参数：Context对象
 //第二个参数：任意唯一的字符串
 //第三个参数：创建的File对象
-            imageUri = FileProvider.getUriForFile(IdentityAuthenActivity.this, "com.bitcnew.fileprovider", outputImage);
+            imageUri = FileProvider.getUriForFile(IdentityAuthenActivity.this, getPackageName() + ".fileprovider", outputImage);
         } else {
 //否则，调用Uri的fromFile()方法将File对象转换成Uri对象
             imageUri = Uri.fromFile(outputImage);
@@ -305,7 +305,7 @@ public class IdentityAuthenActivity extends TJRBaseToolBarSwipeBackActivity impl
 //第一个参数：Context对象
 //第二个参数：任意唯一的字符串
 //第三个参数：创建的File对象
-            imageUri2 = FileProvider.getUriForFile(IdentityAuthenActivity.this, "com.bitcnew.fileprovider", outputImage2);
+            imageUri2 = FileProvider.getUriForFile(IdentityAuthenActivity.this, getPackageName() + ".fileprovider", outputImage2);
         } else {
 //否则，调用Uri的fromFile()方法将File对象转换成Uri对象
             imageUri2 = Uri.fromFile(outputImage2);

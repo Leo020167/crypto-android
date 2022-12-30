@@ -254,7 +254,7 @@ public class ShareDialogFragment extends DialogFragment implements View.OnClickL
             Log.d("ShareDialogFragment", "file==" + f.getAbsolutePath());
             Uri uri = null;
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                uri = FileProvider.getUriForFile(getActivity(), "com.bitcnew.fileprovider", f);
+                uri = FileProvider.getUriForFile(getActivity(), getActivity().getPackageName() + ".fileprovider", f);
             } else {
                 uri = Uri.fromFile(f);
             }

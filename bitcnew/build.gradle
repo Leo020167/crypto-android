@@ -92,9 +92,15 @@ android {
 
     productFlavors {
         fire {
+            applicationId "com.bitcnew"
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "fire"]
+            resValue "string", "app_name", "WorldCoin"
         }
-
+        encrypted {
+            applicationId "com.bitcnew.encrypted"
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "encrypted"]
+            resValue "string", "app_name", "Encrypted"
+        }
     }
     lintOptions {
         checkReleaseBuilds false

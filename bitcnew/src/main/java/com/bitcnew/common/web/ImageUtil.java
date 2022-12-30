@@ -36,7 +36,7 @@ public class ImageUtil {
             File file = new File(path);
             file.getParentFile().mkdirs();
             //改变Uri  com.xykj.customview.fileprovider注意和xml中的一致
-            Uri uri = FileProvider.getUriForFile(context, "com.bitcnew.fileprovider", file);
+            Uri uri = FileProvider.getUriForFile(context, context.getPackageName() + ".fileprovider", file);
 
             Log.d("takeBigPicture", "path==" + path + "   uri==" + uri);
             //添加权限

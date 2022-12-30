@@ -47,11 +47,11 @@
         <item name="android:layout_width">150dp</item>
         <item name="android:layout_height">200dip</item>
         <item name="android:src">@drawable/xml_bubbleview_default_src</item>
-        <item name="com.bitcnew:angle">4dip</item>
-        <item name="com.bitcnew:arrowHeight">8dip</item>
-        <item name="com.bitcnew:arrowPosition">10dip</item>
-        <item name="com.bitcnew:arrowWidth">6dip</item>
         <item name="android:scaleType">centerCrop</item>
+        <item name="angle">4dip</item>
+        <item name="arrowHeight">8dip</item>
+        <item name="arrowPosition">10dip</item>
+        <item name="arrowWidth">6dip</item>
     </style>
 
 </resources>
