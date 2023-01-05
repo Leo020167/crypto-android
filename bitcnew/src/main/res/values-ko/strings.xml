@@ -2541,6 +2541,9 @@
     <string name="weichengjiao">매여 있지 않은</string>
     <string name="maichujiage">판매 가격</string>
 
+    <string name="zhanghuweishiming">계정이 실명이 아닙니다.</string>
+    <string name="qurenzheng">인증하러 가기</string>
+
     <string name="zhiyashengyi">약정이자</string>
     <string name="zhiyajilu">서약 기록</string>
     <string name="zhuixiaozhiyashuliang">최소 약정 금액</string>

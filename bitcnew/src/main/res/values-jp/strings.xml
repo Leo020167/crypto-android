@@ -2541,6 +2541,9 @@
     <string name="weichengjiao">バウンドアンバウンド</string>
     <string name="maichujiage">価格を売る</string>
 
+    <string name="zhanghuweishiming">アカウントは実名ではありません</string>
+    <string name="qurenzheng">認証に行く</string>
+
     <string name="zhiyashengyi">利子の担保</string>
     <string name="zhiyajilu">誓約書</string>
     <string name="zhuixiaozhiyashuliang">最低保証金額</string>

@@ -2541,6 +2541,9 @@
     <string name="weichengjiao">Unbound</string>
     <string name="maichujiage">Sell price</string>
 
+    <string name="zhanghuweishiming">Account is not real name</string>
+    <string name="qurenzheng">go to authentication</string>
+
     <string name="zhiyashengyi">質押生息</string>
     <string name="zhiyajilu">質押记录</string>
     <string name="zhuixiaozhiyashuliang">最小質押數量</string>

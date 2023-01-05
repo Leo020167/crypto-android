@@ -19,12 +19,15 @@ import com.bitcnew.common.entity.ResultData;
 import com.bitcnew.common.text.MoneyTextWatcher;
 import com.bitcnew.http.tjrcpt.VHttpServiceManager;
 import com.bitcnew.http.util.CommonUtil;
+import com.bitcnew.module.dialog.TwoBtnDialog;
 import com.bitcnew.module.home.trade.dialog.CoinTypePickerDialog;
 import com.bitcnew.module.home.trade.entity.CoinChains;
 import com.bitcnew.module.home.trade.entity.CoinConfig;
 import com.bitcnew.module.home.trade.entity.TakeCoinAddress;
 import com.bitcnew.module.home.trade.entity.TakeCoinConfig;
 import com.bitcnew.module.home.trade.history.TakeCoinHistoryActivity;
+import com.bitcnew.module.myhome.IdentityAuthenActivity;
+import com.bitcnew.module.myhome.entity.IdentityAuthen;
 import com.bitcnew.util.MyCallBack;
 import com.bitcnew.util.PageJumpUtil;
 import com.google.gson.Gson;
@@ -89,6 +92,46 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
     // 提交
     @OnClick(R.id.action_submit)
     public void onSubmitClick() {
+        startGetIdentityAuthen();
+    }
+
+    private IdentityAuthen identityAuthen;
+    private Call<ResponseBody> getIdentityAuthenCall;
+
+    private void startGetIdentityAuthen() {//是否已实名认证
+        getIdentityAuthenCall = VHttpServiceManager.getInstance().getVService().getIdentityAuthen();
+        getIdentityAuthenCall.enqueue(new MyCallBack(getContext()) {
+            @Override
+            protected void callBack(ResultData resultData) {
+                if (resultData.isSuccess()) {
+                    identityAuthen = resultData.getObject("identityAuth", IdentityAuthen.class);//0：审核中，1：已通过，2：未通过
+                    if (null != identityAuthen) {
+                        if (identityAuthen.state == 1) {
+                            goSub();
+                        } else {
+                            goAuth();
+                        }
+                    } else {
+                        goAuth();
+                    }
+                }
+            }
+        });
+    }
+
+    private void goAuth() {
+        TwoBtnDialog dialog = new TwoBtnDialog(getContext(), getContext().getResources().getString(R.string.tishi), getContext().getResources().getString(R.string.zhanghuweishiming), getContext().getResources().getString(R.string.qurenzheng));
+        dialog.txtSure.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+                PageJumpUtil.pageJump(getContext(), IdentityAuthenActivity.class);
+            }
+        });
+        dialog.show();
+    }
+
+    private void goSub() {
         if (coinType == null) {
             showToast(R.string.xuanzetibibizhong);
             return;

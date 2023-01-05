@@ -2541,6 +2541,9 @@
     <string name="weichengjiao">Non lié</string>
     <string name="maichujiage">Prix de vente</string>
 
+    <string name="zhanghuweishiming">Le compte n\'est pas un vrai nom</string>
+    <string name="qurenzheng">aller à l\'authentification</string>
+
     <string name="zhiyashengyi">Intérêts en gage</string>
     <string name="zhiyajilu">registre des promesses de dons</string>
     <string name="zhuixiaozhiyashuliang">Montant minimum de l\'engagement</string>

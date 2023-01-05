@@ -2541,6 +2541,9 @@
     <string name="weichengjiao">Несвязанный</string>
     <string name="maichujiage">Цена продажи</string>
 
+    <string name="zhanghuweishiming">Аккаунт не настоящее имя</string>
+    <string name="qurenzheng">перейти к аутентификации</string>
+
     <string name="zhiyashengyi">Залог процентов</string>
     <string name="zhiyajilu">запись о залоге</string>
     <string name="zhuixiaozhiyashuliang">Минимальная сумма залога</string>

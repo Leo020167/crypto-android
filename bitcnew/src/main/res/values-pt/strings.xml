@@ -2541,6 +2541,9 @@
     <string name="weichengjiao">Desatado</string>
     <string name="maichujiage">Precio de venta</string>
 
+    <string name="zhanghuweishiming">A conta não é o nome verdadeiro</string>
+    <string name="qurenzheng">ir para autenticação</string>
+
     <string name="zhiyashengyi">interés de promesa</string>
     <string name="zhiyajilu">registro de compromiso</string>
     <string name="zhuixiaozhiyashuliang">Cantidad mínima de compromiso</string>

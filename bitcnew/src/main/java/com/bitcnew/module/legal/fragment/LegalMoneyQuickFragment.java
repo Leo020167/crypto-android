@@ -410,7 +410,7 @@ public class LegalMoneyQuickFragment extends UserBaseFragment implements View.On
         });
     }
     private void goAuth(){
-        TwoBtnDialog dialog = new TwoBtnDialog(getActivity(),getActivity().getResources().getString(R.string.tishi),"帳戶未實名","去認證");
+        TwoBtnDialog dialog = new TwoBtnDialog(getContext(), getContext().getResources().getString(R.string.tishi), getContext().getResources().getString(R.string.zhanghuweishiming), getContext().getResources().getString(R.string.qurenzheng));
         dialog.txtSure.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

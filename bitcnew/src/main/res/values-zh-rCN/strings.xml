@@ -2747,6 +2747,9 @@
     <string name="weichengjiao">未成交</string>
     <string name="maichujiage">卖出价格</string>
 
+    <string name="zhanghuweishiming">账户未实名</string>
+    <string name="qurenzheng">去认证</string>
+
     <string name="zhiyashengyi">质押生息</string>
     <string name="zhiyajilu">质押记录</string>
     <string name="zhuixiaozhiyashuliang">最小质押数量</string>
