@@ -103,6 +103,7 @@
     <string name="goumai">구입하다</string>
     <string name="chushou">팔다</string>
     <string name="jiage">가격</string>
+    <string name="jiage_">가격:</string>
     <string name="shurujiage">가격을 입력하십시오</string>
     <string name="dangqiangoumaizuigaojia">현재 구매의 최고 가격</string>
     <string name="tianru">채우십시오</string>

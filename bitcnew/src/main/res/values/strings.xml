@@ -103,6 +103,7 @@
     <string name="goumai">Buy</string>
     <string name="chushou">Sell</string>
     <string name="jiage">Price</string>
+    <string name="jiage_">Price:</string>
     <string name="shurujiage">Enter price</string>
     <string name="dangqiangoumaizuigaojia">The highest price for the current purchase</string>
     <string name="tianru">Fill in</string>
@@ -2599,5 +2600,10 @@
     <string name="dongjiezichan">凍結資產</string>
     <string name="weituo">委託</string>
     <string name="qingxuanzebizhong">請選擇幣種</string>
+
+    <string name="huodongzongliang">活动总量</string>
+    <string name="rengoujiage">认购价格</string>
+    <string name="huodongbizhong">活动币种</string>
+    <string name="jieshoubizhong">接受币种</string>
 
 </resources>

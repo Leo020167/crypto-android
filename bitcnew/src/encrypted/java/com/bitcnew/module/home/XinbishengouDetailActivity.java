@@ -1,7 +1,6 @@
 package com.bitcnew.module.home;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -46,36 +45,20 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
     ProgressBar progress;
     @BindView(R.id.txt_baifenbi)
     TextView txt_baifenbi;
+    @BindView(R.id.txt_huodongzongliang)
+    TextView txt_huodongzongliang;
+    @BindView(R.id.txt_zhuangtai)
+    TextView txt_zhuangtai;
     @BindView(R.id.txt_bencikeshengouzongliang)
     TextView txt_bencikeshengouzongliang;
-    @BindView(R.id.txt_benciyishengou)
-    TextView txt_benciyishengou;
     @BindView(R.id.txt_bencishengyushengouliang)
     TextView txt_bencishengyushengouliang;
-    @BindView(R.id.txt_kaishi_time_tit)
-    TextView txt_kaishi_time_tit;
-    @BindView(R.id.txt_kaishi_time)
-    TextView txt_kaishi_time;
-    @BindView(R.id.txt_jieshu_time_tit)
-    TextView txt_jieshu_time_tit;
-    @BindView(R.id.txt_jieshu_time)
-    TextView txt_jieshu_time;
-    @BindView(R.id.txt_shengouzongliang)
-    TextView txt_shengouzongliang;
     @BindView(R.id.txt_start_time)
     TextView txt_start_time;
     @BindView(R.id.txt_end_time)
     TextView txt_end_time;
-    @BindView(R.id.txt_shangshijianyishijian)
-    TextView txt_shangshijianyishijian;
-    @BindView(R.id.txt_shangshijiecangshijian)
-    TextView txt_shangshijiecangshijian;
-    @BindView(R.id.txt_duihuanbili)
-    TextView txt_duihuanbili;
-    @BindView(R.id.txt_woyishengou)
-    TextView txt_woyishengou;
-    @BindView(R.id.txt_zuixiaoshengou)
-    TextView txt_zuixiaoshengou;
+    @BindView(R.id.txt_huodongbizhong)
+    TextView txt_huodongbizhong;
 
     @BindView(R.id.txt_status2)
     TextView txt_status2;
@@ -206,12 +189,9 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
                                         isCan = false;
                                         txt_status.setBackgroundResource(R.drawable.border_status_1);
                                         txt_status.setText(getResources().getString(R.string.daikaishi));
+                                        txt_zhuangtai.setText(getResources().getString(R.string.daikaishi));
                                         txt_status2.setBackgroundResource(R.drawable.border_status_1);
                                         txt_status2.setText(getResources().getString(R.string.yurezhong));
-                                        txt_kaishi_time_tit.setVisibility(View.VISIBLE);
-                                        txt_kaishi_time.setVisibility(View.VISIBLE);
-                                        txt_jieshu_time_tit.setVisibility(View.GONE);
-                                        txt_jieshu_time.setVisibility(View.GONE);
                                         userTime = bean.getDetail().getStartTime()*1000-System.currentTimeMillis();
                                         if (!isApp){
                                             startTime();
@@ -221,12 +201,9 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
                                         isCan = true;
                                         txt_status.setBackgroundResource(R.drawable.border_status_0);
                                         txt_status.setText(getResources().getString(R.string.shengouzhong));
+                                        txt_zhuangtai.setText(getResources().getString(R.string.shengouzhong));
                                         txt_status2.setBackgroundResource(R.drawable.border_status_0);
                                         txt_status2.setText(getResources().getString(R.string.shengou));
-                                        txt_kaishi_time_tit.setVisibility(View.GONE);
-                                        txt_kaishi_time.setVisibility(View.GONE);
-                                        txt_jieshu_time_tit.setVisibility(View.VISIBLE);
-                                        txt_jieshu_time.setVisibility(View.VISIBLE);
                                         userTime = bean.getDetail().getEndTime()*1000-System.currentTimeMillis();
                                         if (!isApp){
                                             startTime();
@@ -236,12 +213,9 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
                                         isCan = false;
                                         txt_status.setBackgroundResource(R.drawable.border_status_2);
                                         txt_status.setText(getResources().getString(R.string.yijieshu));
+                                        txt_zhuangtai.setText(getResources().getString(R.string.yijieshu));
                                         txt_status2.setBackgroundResource(R.drawable.border_status_2);
                                         txt_status2.setText(getResources().getString(R.string.yijieshu));
-                                        txt_kaishi_time_tit.setVisibility(View.GONE);
-                                        txt_kaishi_time.setVisibility(View.GONE);
-                                        txt_jieshu_time_tit.setVisibility(View.GONE);
-                                        txt_jieshu_time.setVisibility(View.GONE);
                                         break;
                                 }
                                 if (!TextUtils.isEmpty(bean.getDetail().getContent())){
@@ -251,29 +225,26 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
                                     richEditor_jianjie.setVisibility(View.GONE);
                                 }
 
-                                double p = 0.00;
-                                if (bean.getDetail().getSum() != 0) {
-                                    double a = Double.longBitsToDouble(bean.getDetail().getAlCount());
-                                    double b = Double.longBitsToDouble(bean.getDetail().getSum());
-                                    p = a/b;
-                                } else {
-                                    p = 0.00;
-                                }
-                                int p2 = (int) Math.round(p*100);
-                                progress.setProgress(p2);
-                                txt_baifenbi.setText(p2+"%");
+//                                double p = 0.00;
+//                                if (bean.getDetail().getSum() != 0) {
+//                                    double a = Double.longBitsToDouble(bean.getDetail().getAlCount());
+//                                    double b = Double.longBitsToDouble(bean.getDetail().getSum());
+//                                    p = a/b;
+//                                } else {
+//                                    p = 0.00;
+//                                }
+//                                int p2 = (int) Math.round(p*100);
+//                                progress.setProgress(p2);
+//                                txt_baifenbi.setText(p2+"%");
+                                progress.setProgress(bean.getDetail().getProgressInt());
+                                txt_baifenbi.setText(bean.getDetail().getProgress() + "%");
+                                txt_huodongzongliang.setText(bean.getDetail().getSum()+"");
+
                                 txt_bencikeshengouzongliang.setText(bean.getDetail().getSum()+"");
-                                txt_benciyishengou.setText(bean.getDetail().getAlCount()+"");
-                                long s = bean.getDetail().getSum() - bean.getDetail().getAlCount();
-                                txt_bencishengyushengouliang.setText(s+"");
-                                txt_shengouzongliang.setText(bean.getDetail().getAllSum()+"");
+                                txt_bencishengyushengouliang.setText(bean.getDetail().getRate());
+                                txt_huodongbizhong.setText(bean.getDetail().getSymbol());
                                 txt_start_time.setText(getDateToString(bean.getDetail().getStartTime())+"（香港時間）");
                                 txt_end_time.setText(getDateToString(bean.getDetail().getEndTime())+"（香港時間）");
-                                txt_shangshijianyishijian.setText(getDateToString(bean.getDetail().getTradeTime())+"（香港時間）");
-                                txt_shangshijiecangshijian.setText(getDateToString(bean.getDetail().getLiftBanTime())+"（香港時間）");
-                                txt_duihuanbili.setText(bean.getDetail().getRate()+"USDT");
-                                txt_woyishengou.setText(userCount+"");
-                                txt_zuixiaoshengou.setText(bean.getDetail().getMin());
 
                                 if (!TextUtils.isEmpty(bean.getDetail().getAuthorSummary())){
                                     txt_faqichengyuan.loadDataWithBaseURL(null,bean.getDetail().getAuthorSummary(), "text/html" , "utf-8", null);
@@ -352,10 +323,6 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
             long useTime1 = userTime / 1000;
             setTimeShow(useTime1);
         }else {
-            txt_kaishi_time_tit.setVisibility(View.GONE);
-            txt_kaishi_time.setVisibility(View.GONE);
-            txt_jieshu_time_tit.setVisibility(View.GONE);
-            txt_jieshu_time.setVisibility(View.GONE);
         }
     }
 
@@ -390,8 +357,6 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
             mSecond = "" + second;
         }
         String strTime = mHour + ":" + mMin + ":" + mSecond + "";
-        txt_kaishi_time.setText(strTime);
-        txt_jieshu_time.setText(strTime);
     }
 
 

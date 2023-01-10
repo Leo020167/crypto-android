@@ -15,6 +15,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import java.io.UnsupportedEncodingException;
+import java.lang.reflect.Method;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.util.ArrayList;
@@ -106,15 +107,21 @@ public class RichEditor extends WebView {
     @SuppressLint("SetJavaScriptEnabled")
     public RichEditor(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        try {
+            setVerticalScrollBarEnabled(false);
+            setHorizontalScrollBarEnabled(false);
+            Method method = getClass().getDeclaredMethod("getSettings");
+            if (null != method && method.isAccessible()) {
+                getSettings().setJavaScriptEnabled(true);
+            }
+            setWebChromeClient(new WebChromeClient());
+            setWebViewClient(createWebviewClient());
+            loadUrl(SETUP_HTML);
 
-        setVerticalScrollBarEnabled(false);
-        setHorizontalScrollBarEnabled(false);
-        getSettings().setJavaScriptEnabled(true);
-        setWebChromeClient(new WebChromeClient());
-        setWebViewClient(createWebviewClient());
-        loadUrl(SETUP_HTML);
+            applyAttributes(context, attrs);
+        } catch (Exception e) {
 
-        applyAttributes(context, attrs);
+        }
     }
 
     protected EditorWebViewClient createWebviewClient() {

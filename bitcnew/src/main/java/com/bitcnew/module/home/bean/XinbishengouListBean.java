@@ -48,6 +48,23 @@ public class XinbishengouListBean implements Serializable {
     private String warning;
     private long userTime;
 
+    private String progress;
+
+    public String getProgress() {
+        return progress;
+    }
+
+    public int getProgressInt() {
+        if (null == getProgress() || getProgress().length() == 0) {
+            return 0;
+        }
+
+        return (int) Double.parseDouble(getProgress());
+    }
+
+    public void setProgress(String progress) {
+        this.progress = progress;
+    }
 
     @SerializedName("allSum")
     private long allSum;

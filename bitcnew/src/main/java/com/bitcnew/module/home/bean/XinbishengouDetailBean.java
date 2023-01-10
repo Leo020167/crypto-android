@@ -75,7 +75,42 @@ public class XinbishengouDetailBean implements Serializable {
         @SerializedName("allSum")
         private long allSum;
 
+        @SerializedName(value = "alAmount", alternate = "allAmount")
+        private long allAmount;
+        private long sumAmount;
+        private String progress;
 
+        public long getAllAmount() {
+            return allAmount;
+        }
+
+        public void setAllAmount(long allAmount) {
+            this.allAmount = allAmount;
+        }
+
+        public long getSumAmount() {
+            return sumAmount;
+        }
+
+        public void setSumAmount(long sumAmount) {
+            this.sumAmount = sumAmount;
+        }
+
+        public String getProgress() {
+            return progress;
+        }
+
+        public void setProgress(String progress) {
+            this.progress = progress;
+        }
+
+        public int getProgressInt() {
+            if (null == getProgress() || getProgress().length() == 0) {
+                return 0;
+            }
+
+            return (int) Double.parseDouble(getProgress());
+        }
 
         public String getTitle() {
             return title;

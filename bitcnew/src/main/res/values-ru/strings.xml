@@ -103,6 +103,7 @@
     <string name="goumai">Купить</string>
     <string name="chushou">Продавать</string>
     <string name="jiage">Цена</string>
+    <string name="jiage_">Цена:</string>
     <string name="shurujiage">Введите цену</string>
     <string name="dangqiangoumaizuigaojia">Самая высокая цена за текущую покупку</string>
     <string name="tianru">Заполнять</string>

@@ -103,6 +103,7 @@
     <string name="goumai">购买</string>
     <string name="chushou">出售</string>
     <string name="jiage">价格</string>
+    <string name="jiage_">价格：</string>
     <string name="shurujiage">输入价格</string>
     <string name="dangqiangoumaizuigaojia">当前购买最高价</string>
     <string name="tianru">填入</string>
