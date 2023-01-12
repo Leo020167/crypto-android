@@ -15,6 +15,8 @@ import com.bitcnew.http.tjrcpt.VHttpServiceManager;
 import com.bitcnew.module.dialog.EditCountDialog;
 import com.bitcnew.module.home.bean.SubAllInBean;
 import com.bitcnew.module.home.bean.XinbishengouDetailBean;
+import com.bitcnew.module.home.trade.TradeActivity;
+import com.bitcnew.module.home.trade.TradeLeverActivity2;
 import com.bitcnew.module.richeditor.RichEditor;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.MyCallBack;
@@ -63,20 +65,8 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
     @BindView(R.id.txt_status2)
     TextView txt_status2;
 
-    @BindView(R.id.txt_faqichengyuan)
-    RichEditor txt_faqichengyuan;
-    @BindView(R.id.txt_xiangmucanyutiaojian)
-    RichEditor txt_xiangmucanyutiaojian;
-    @BindView(R.id.txt_fengxiantishi)
-    RichEditor txt_fengxiantishi;
-    @BindView(R.id.txt_bizhongjieshao)
-    RichEditor txt_bizhongjieshao;
-    @BindView(R.id.txt_xiangmujieshao)
-    RichEditor txt_xiangmujieshao;
-    @BindView(R.id.txt_shengoushuoming)
-    RichEditor txt_shengoushuoming;
-
     private String id;
+    private String symbol;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,29 +93,32 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
         switch (view.getId()){
             case R.id.txt_status2:
                 if (isCan){
-                    EditCountDialog dialog = new EditCountDialog(this);
-                    dialog.txt_quaneshengou.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            if (!TextUtils.isEmpty(maxCount)){
-                                dialog.etContent.setText(maxCount);
-                            }else {
-                                dialog.etContent.setText("");
-                            }
-                        }
-                    });
-                    dialog.txtSure.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            if (TextUtils.isEmpty(dialog.etContent.getText().toString().trim())){
-                                CommonUtil.showmessage(getResources().getString(R.string.qingshurushengoushuliang),XinbishengouDetailActivity.this);
-                                return;
-                            }
-                            startSubscribe_getApply(dialog.etContent.getText().toString().trim());
-                            dialog.dismiss();
-                        }
-                    });
-                    dialog.show();
+//                    TradeActivity.pageJump(this, symbol, 1);
+                    TradeLeverActivity2.pageJump(this, symbol, 1);
+
+//                    EditCountDialog dialog = new EditCountDialog(this);
+//                    dialog.txt_quaneshengou.setOnClickListener(new View.OnClickListener() {
+//                        @Override
+//                        public void onClick(View v) {
+//                            if (!TextUtils.isEmpty(maxCount)){
+//                                dialog.etContent.setText(maxCount);
+//                            }else {
+//                                dialog.etContent.setText("");
+//                            }
+//                        }
+//                    });
+//                    dialog.txtSure.setOnClickListener(new View.OnClickListener() {
+//                        @Override
+//                        public void onClick(View view) {
+//                            if (TextUtils.isEmpty(dialog.etContent.getText().toString().trim())){
+//                                CommonUtil.showmessage(getResources().getString(R.string.qingshurushengoushuliang),XinbishengouDetailActivity.this);
+//                                return;
+//                            }
+//                            startSubscribe_getApply(dialog.etContent.getText().toString().trim());
+//                            dialog.dismiss();
+//                        }
+//                    });
+//                    dialog.show();
                 }
                 break;
         }
@@ -177,6 +170,7 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
                         if (null!=bean){
                             userCount = bean.getUserCount();
                             if (null!=bean.getDetail()){
+                                symbol = bean.getDetail().getSymbol();
                                 if (!TextUtils.isEmpty(bean.getDetail().getImage())){
                                     Glide.with(XinbishengouDetailActivity.this).load(bean.getDetail().getImage()).into(img_tu);
                                 }
@@ -203,7 +197,7 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
                                         txt_status.setText(getResources().getString(R.string.shengouzhong));
                                         txt_zhuangtai.setText(getResources().getString(R.string.shengouzhong));
                                         txt_status2.setBackgroundResource(R.drawable.border_status_0);
-                                        txt_status2.setText(getResources().getString(R.string.shengou));
+                                        txt_status2.setText(getResources().getString(R.string.lijicanyu));
                                         userTime = bean.getDetail().getEndTime()*1000-System.currentTimeMillis();
                                         if (!isApp){
                                             startTime();
@@ -237,36 +231,14 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
 //                                progress.setProgress(p2);
 //                                txt_baifenbi.setText(p2+"%");
                                 progress.setProgress(bean.getDetail().getProgressInt());
-                                txt_baifenbi.setText(bean.getDetail().getProgress() + "%");
+                                txt_baifenbi.setText(bean.getDetail().getProgressInt() + "%");
                                 txt_huodongzongliang.setText(bean.getDetail().getSum()+"");
 
                                 txt_bencikeshengouzongliang.setText(bean.getDetail().getSum()+"");
                                 txt_bencishengyushengouliang.setText(bean.getDetail().getRate());
                                 txt_huodongbizhong.setText(bean.getDetail().getSymbol());
-                                txt_start_time.setText(getDateToString(bean.getDetail().getStartTime())+"（香港時間）");
-                                txt_end_time.setText(getDateToString(bean.getDetail().getEndTime())+"（香港時間）");
-
-                                if (!TextUtils.isEmpty(bean.getDetail().getAuthorSummary())){
-                                    txt_faqichengyuan.loadDataWithBaseURL(null,bean.getDetail().getAuthorSummary(), "text/html" , "utf-8", null);
-                                }
-                                if (!TextUtils.isEmpty(bean.getDetail().getSummary())){
-                                    txt_xiangmujieshao.loadDataWithBaseURL(null,bean.getDetail().getSummary(), "text/html" , "utf-8", null);
-                                }
-                                if (!TextUtils.isEmpty(bean.getDetail().getContent())){
-                                    txt_bizhongjieshao.loadDataWithBaseURL(null,bean.getDetail().getContent(), "text/html" , "utf-8", null);
-                                }
-
-                                if (!TextUtils.isEmpty(bean.getDetail().getCondition())){
-                                    txt_xiangmucanyutiaojian.loadDataWithBaseURL(null,bean.getDetail().getCondition(), "text/html" , "utf-8", null);
-                                }
-                                if (!TextUtils.isEmpty(bean.getDetail().getWarning())){
-                                    txt_fengxiantishi.loadDataWithBaseURL(null,bean.getDetail().getWarning(), "text/html" , "utf-8", null);
-                                }
-
-                                if (!TextUtils.isEmpty(bean.getDetail().getDescription())){
-                                    txt_shengoushuoming.loadDataWithBaseURL(null,bean.getDetail().getDescription(), "text/html" , "utf-8", null);
-                                }
-
+                                txt_start_time.setText(getDateToString(bean.getDetail().getStartTime()));
+                                txt_end_time.setText(getDateToString(bean.getDetail().getEndTime()));
                             }
                         }
                     }

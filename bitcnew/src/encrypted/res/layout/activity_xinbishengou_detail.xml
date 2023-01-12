@@ -78,19 +78,6 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txt_status2"
-                android:layout_width="175dp"
-                android:layout_height="35dp"
-                android:layout_marginHorizontal="15dp"
-                android:layout_marginTop="30dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/border_status_0"
-                android:gravity="center"
-                android:paddingVertical="5dp"
-                android:text="@string/yurezhong"
-                android:textColor="@color/white"
-                android:textSize="16sp" />
-            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
@@ -277,124 +264,19 @@
                 android:textColor="#ff333333"
                 android:textSize="13sp"/>
 
-
-
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:text="發起成員"
-                android:textColor="@color/c333333"
-                android:textSize="15sp" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                >
-
-                <com.bitcnew.module.richeditor.RichEditor
-                    android:id="@+id/txt_faqichengyuan"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </RelativeLayout>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="項目介紹"
-                android:textColor="@color/c333333"
-                android:textSize="15sp"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                >
-
-                <com.bitcnew.module.richeditor.RichEditor
-                    android:id="@+id/txt_xiangmujieshao"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="幣種介紹"
-                android:textColor="@color/c333333"
-                android:textSize="15sp" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp">
-
-                <com.bitcnew.module.richeditor.RichEditor
-                    android:id="@+id/txt_bizhongjieshao"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </RelativeLayout>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="項目參與條件"
-                android:textColor="@color/c333333"
-                android:textSize="15sp" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                >
-
-                <com.bitcnew.module.richeditor.RichEditor
-                    android:id="@+id/txt_xiangmucanyutiaojian"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="風險提示"
-                android:textColor="@color/c333333"
-                android:textSize="15sp" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp">
-
-                <com.bitcnew.module.richeditor.RichEditor
-                    android:id="@+id/txt_fengxiantishi"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </RelativeLayout>
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="申購說明"
-                android:textColor="@color/c333333"
-                android:textSize="15sp" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="20dp">
-
-                <com.bitcnew.module.richeditor.RichEditor
-                    android:id="@+id/txt_shengoushuoming"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </RelativeLayout>
+                android:id="@+id/txt_status2"
+                android:layout_width="175dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/border_status_0"
+                android:gravity="center"
+                android:paddingVertical="5dp"
+                android:text="@string/yurezhong"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
 
         </LinearLayout>
     </ScrollView>

@@ -349,13 +349,13 @@ public class XinbishengouActivity extends TJRBaseToolBarSwipeBackActivity implem
 //            holder.progress_item.setProgress(p2);
 //            holder.txt_baifenbi.setText(p2 + "%");
             holder.progress_item.setProgress(item.getProgressInt());
-            holder.txt_baifenbi.setText(item.getProgress() + "%");
+            holder.txt_baifenbi.setText(item.getProgressInt() + "%");
 
             holder.txt_shengouzongliang.setText(item.getSumAmount()+"");
 //            holder.txt_bencikeshengouzongliang.setText(item.getAmount()+"");
             holder.txt_bencikeshengouzongliang.setText(item.getRate());
-            holder.txt_s_time.setText(getDateToString(item.getStartTime())+"（香港時間）");
-            holder.txt_e_time.setText(getDateToString(item.getEndTime())+"（香港時間）");
+            holder.txt_s_time.setText(getDateToString(item.getStartTime()));
+            holder.txt_e_time.setText(getDateToString(item.getEndTime()));
 
 
             holder.ll_all.setClickable(true);
