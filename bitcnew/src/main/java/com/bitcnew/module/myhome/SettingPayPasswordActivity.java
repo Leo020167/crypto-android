@@ -108,7 +108,11 @@ public class SettingPayPasswordActivity extends TJRBaseToolBarSwipeBackActivity 
         tvVerify.setOnClickListener(this);
         tvComplete.setOnClickListener(this);
         if (user == null) user = getApplicationContext().getUser();
-        tvAccount.setText(formatPhone(user.phone));
+        phone = user.getPhone();
+        countryCode = user.getCountryCode();
+        tvAccount.setText(formatPhone(phone));
+        startGetMyHomeCallCall();
+
         etVerify.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -145,8 +149,28 @@ public class SettingPayPasswordActivity extends TJRBaseToolBarSwipeBackActivity 
                 tvComplete.setEnabled(true);
             }
         });
+    }
 
+    private String phone;
+    private String countryCode;
+    private Call<ResponseBody> getUserInfoCall;
+    private void startGetMyHomeCallCall() {
+        getUserInfoCall = VHttpServiceManager.getInstance().getVService().myUserInfo();
+        getUserInfoCall.enqueue(new MyCallBack(this) {
+            @Override
+            protected void callBack(ResultData resultData) {
+                if (resultData.isSuccess()) {
+                    phone = resultData.getItem("phone", String.class);
+                    countryCode = resultData.getItem("countryCode", String.class);
+                    tvAccount.setText(formatPhone(phone));
+                }
+            }
 
+            @Override
+            protected void handleError(Call<ResponseBody> call) {
+                super.handleError(call);
+            }
+        });
     }
 
     private String formatPhone(String phone) {
@@ -229,12 +253,12 @@ public class SettingPayPasswordActivity extends TJRBaseToolBarSwipeBackActivity 
 
     public void startGetSms(String dragImgKey, int locationx) {
         CommonUtil.cancelCall(smsCall);
-        smsCall = VHttpServiceManager.getInstance().getVService().getSms(dragImgKey, locationx,"android",1,user.getCountryCode(),user.getPhone());
+        smsCall = VHttpServiceManager.getInstance().getVService().getSms(dragImgKey, locationx,"android",1,countryCode,phone);
         smsCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {
                 if (resultData.isSuccess()) {
-                    CommonUtil.showmessage(getResources().getString(R.string.duanxinyanzhengmayijingfasongzhi) + formatPhone(user.getPhone()), SettingPayPasswordActivity.this);
+                    CommonUtil.showmessage(getResources().getString(R.string.duanxinyanzhengmayijingfasongzhi) + formatPhone(phone), SettingPayPasswordActivity.this);
                     Counting();
                 }
             }
@@ -252,7 +276,7 @@ public class SettingPayPasswordActivity extends TJRBaseToolBarSwipeBackActivity 
     public void checkIdentity(String dragImgKey, int locationx) {
         smsCode = etVerify.getText().toString().trim();
         CommonUtil.cancelCall(checkIdentityCall);
-        checkIdentityCall = VHttpServiceManager.getInstance().getVService().checkIdentity(user.getPhone(), smsCode, dragImgKey, locationx);
+        checkIdentityCall = VHttpServiceManager.getInstance().getVService().checkIdentity(phone, smsCode, dragImgKey, locationx);
         checkIdentityCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {
@@ -275,7 +299,7 @@ public class SettingPayPasswordActivity extends TJRBaseToolBarSwipeBackActivity 
     public void setPayPass(String dragImgKey, int locationx) {
         CommonUtil.cancelCall(setPayPassCall);
         showProgressDialog();
-        setPayPassCall = VHttpServiceManager.getInstance().getVService().setPayPass(user.getPhone(), smsCode, dragImgKey, locationx, payPass, configPayPass);
+        setPayPassCall = VHttpServiceManager.getInstance().getVService().setPayPass(phone, smsCode, dragImgKey, locationx, payPass, configPayPass);
         setPayPassCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {
