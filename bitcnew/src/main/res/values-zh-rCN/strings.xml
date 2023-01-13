@@ -573,8 +573,8 @@
     <string name="sanwancheng">3.完成</string>
     <string name="yibangdingshoujihao">已绑定手机号:</string>
     <string name="qingshuruxinshoujihaoma">请输入新手机号码</string>
-    <string name="ershezhimima">2.设置密码</string>
-    <string name="sanquerenmima">3.确认密码</string>
+    <string name="ershezhimima">1.设置密码</string>
+    <string name="sanquerenmima">2.确认密码</string>
     <string name="qingshuruliuweizhifumima">请输入6位支付密码</string>
     <string name="qingzaicishuruliuweizhifumima">请再次输入6位支付密码</string>
     <string name="xiaoshudianhouliangweiweishu">小数点后2位尾数,每次现金支付时随机生成，目的是为收款者确认现金支付者的身份，所以请准确支付完整金额，否则导致订单失效。</string>

@@ -573,8 +573,8 @@
     <string name="sanwancheng">3.Finish</string>
     <string name="yibangdingshoujihao">Bound cell phone number:</string>
     <string name="qingshuruxinshoujihaoma">Please input your new mobile phone number</string>
-    <string name="ershezhimima">2.Set password</string>
-    <string name="sanquerenmima">3.Confirm password</string>
+    <string name="ershezhimima">1.Set password</string>
+    <string name="sanquerenmima">2.Confirm password</string>
     <string name="qingshuruliuweizhifumima">Please input 6-digit payment password</string>
     <string name="qingzaicishuruliuweizhifumima">Please input 6-digit payment password again</string>
     <string name="xiaoshudianhouliangweiweishu">After the decimal point, two digits are randomly generated at each cash payment. The purpose is to confirm the identity of the cash payment person for the receipt, so please pay the full amount accurately, otherwise the order will fail.</string>

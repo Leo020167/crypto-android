@@ -102,7 +102,7 @@ public class SettingPayPasswordActivity extends TJRBaseToolBarSwipeBackActivity 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ButterKnife.bind(this);
-        setStep(1);
+        setStep(2);
         tvNext1.setOnClickListener(this);
         tvNext2.setOnClickListener(this);
         tvVerify.setOnClickListener(this);

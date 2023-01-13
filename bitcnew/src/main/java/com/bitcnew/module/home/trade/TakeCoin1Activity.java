@@ -2,6 +2,8 @@ package com.bitcnew.module.home.trade;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.support.v4.view.ViewCompat;
 import android.text.Editable;
@@ -17,6 +19,7 @@ import com.bitcnew.common.base.CommonToolbar;
 import com.bitcnew.common.base.TJRBaseToolBarSwipeBackActivity;
 import com.bitcnew.common.entity.ResultData;
 import com.bitcnew.common.text.MoneyTextWatcher;
+import com.bitcnew.common.util.UIHandler;
 import com.bitcnew.http.tjrcpt.VHttpServiceManager;
 import com.bitcnew.http.util.CommonUtil;
 import com.bitcnew.module.dialog.TwoBtnDialog;
@@ -27,6 +30,7 @@ import com.bitcnew.module.home.trade.entity.TakeCoinAddress;
 import com.bitcnew.module.home.trade.entity.TakeCoinConfig;
 import com.bitcnew.module.home.trade.history.TakeCoinHistoryActivity;
 import com.bitcnew.module.myhome.IdentityAuthenActivity;
+import com.bitcnew.module.myhome.SettingPayPasswordActivity;
 import com.bitcnew.module.myhome.entity.IdentityAuthen;
 import com.bitcnew.util.MyCallBack;
 import com.bitcnew.util.PageJumpUtil;
@@ -34,6 +38,8 @@ import com.google.gson.Gson;
 
 import java.math.BigDecimal;
 import java.util.Objects;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -377,7 +383,7 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
         return null != coinType && "usdt".equalsIgnoreCase(coinType.getSymbol());
     }
 
-    private void loadConfig(CoinConfig coinType) {
+    private void loadConfig(final CoinConfig coinType) {
         if (null == coinType || null == coinType.getSymbol() || coinType.getSymbol().length() == 0) {
             return;
         }
@@ -399,4 +405,38 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
         });
     }
 
+    private Timer timer;
+    public void startTimer() {
+        stopTimer();
+        timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                if (null == coinType) {
+                    return;
+                }
+
+                loadConfig(coinType);
+            }
+        }, 1000, 3000);
+    }
+
+    public void stopTimer() {
+        if (null != timer) {
+            timer.cancel();
+            timer = null;
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        startTimer();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        stopTimer();
+    }
 }

@@ -573,8 +573,8 @@
     <string name="sanwancheng">3. 피니시</string>
     <string name="yibangdingshoujihao">바인딩 휴대 전화 번호 :</string>
     <string name="qingshuruxinshoujihaoma">새 휴대 전화 번호를 입력하십시오</string>
-    <string name="ershezhimima">2. 비밀번호를 설정합니다</string>
-    <string name="sanquerenmima">3. 비밀번호를 확인하십시오</string>
+    <string name="ershezhimima">1. 비밀번호를 설정합니다</string>
+    <string name="sanquerenmima">2. 비밀번호를 확인하십시오</string>
     <string name="qingshuruliuweizhifumima">6 자리 지불 비밀번호를 입력하십시오</string>
     <string name="qingzaicishuruliuweizhifumima">6 자리 지불 비밀번호를 다시 입력하십시오</string>
     <string name="xiaoshudianhouliangweiweishu">소수점 이후, 각 현금 지불마다 2 자리가 무작위로 생성됩니다. 목적은 영수증에 대한 현금 지불 담당자의 신원을 확인하는 것이므로 전체 금액을 정확하게 지불하십시오. 그렇지 않으면 주문이 실패합니다.</string>

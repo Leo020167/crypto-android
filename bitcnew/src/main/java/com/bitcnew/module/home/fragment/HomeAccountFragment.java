@@ -361,24 +361,24 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
                         setBalance(balanceAccount,0);
                         String s = balanceAccount.openList == null ? "null" : (balanceAccount.openList.size() + "");
                         Log.d("digitalAccount", "digitalAccount.openList11111==" + s);
+//                    } else if (vp_content.getCurrentItem() == 1) {
+//                        setTokenData(tokenAccount, 1, null);
+//                        String s = tokenAccount.openList == null ? "null" : (tokenAccount.openList.size() + "");
+//                        Log.d("digitalAccount", "stockAccount.openList11111==" + s);
                     } else if (vp_content.getCurrentItem() == 1) {
-                        setTokenData(tokenAccount, 1, null);
-                        String s = tokenAccount.openList == null ? "null" : (tokenAccount.openList.size() + "");
-                        Log.d("digitalAccount", "stockAccount.openList11111==" + s);
-                    } else if (vp_content.getCurrentItem() == 2) {
-                        setDitigalData(followAccount, 2, followDv);
+                        setDitigalData(followAccount, 1, followDv);
                         String s = followAccount.openList == null ? "null" : (followAccount.openList.size() + "");
                         Log.d("digitalAccount", "stockAccount.openList11111==" + s);
-                    } else if (vp_content.getCurrentItem() == 3) {
-                        setDitigalData(stockAccount, 3, null);
+                    } else if (vp_content.getCurrentItem() == 2) {
+                        setDitigalData(stockAccount, 2, null);
                         String s = stockAccount.openList == null ? "null" : (stockAccount.openList.size() + "");
                         Log.d("digitalAccount", "stockAccount.openList11111==" + s);
-                    } else if (vp_content.getCurrentItem() == 4) {
-                        setDitigalData(digitalAccount, 4, null);
+                    } else if (vp_content.getCurrentItem() == 3) {
+                        setDitigalData(digitalAccount, 3, null);
                         String s = digitalAccount.openList == null ? "null" : (digitalAccount.openList.size() + "");
                         Log.d("digitalAccount", "stockAccount.openList11111==" + s);
-                    } else if (vp_content.getCurrentItem() == 5) {
-                        setBiBi(spotAccount,5);
+                    } else if (vp_content.getCurrentItem() == 4) {
+                        setBiBi(spotAccount,4);
                         String s = spotAccount.openList == null ? "null" : (spotAccount.openList.size() + "");
                         Log.d("digitalAccount", "stockAccount.openList11111==" + s);
                     }

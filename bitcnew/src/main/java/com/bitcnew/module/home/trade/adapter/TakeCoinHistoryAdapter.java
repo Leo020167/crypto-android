@@ -58,6 +58,8 @@ public class TakeCoinHistoryAdapter extends BaseLoadMoreImageLoaderRecycleAdapte
 
         @BindView(R.id.tvInOut)
         TextView tvInOut;
+        @BindView(R.id.shuliangTv)
+        TextView shuliangTv;
         @BindView(R.id.tvAmount)
         TextView tvAmount;
         @BindView(R.id.tvState)
@@ -80,6 +82,10 @@ public class TakeCoinHistoryAdapter extends BaseLoadMoreImageLoaderRecycleAdapte
                 tvInOut.setText(context.getResources().getString(R.string.tibi));
             }
             tvState.setText(data.stateDesc);
+
+            String label = itemView.getContext().getString(R.string.shuliang);
+            shuliangTv.setText(label + "(" + data.symbol + ")");
+
             tvAmount.setText(data.amount);
             tvTime.setText(DateUtils.getStringDateOfString2(data.createTime, DateUtils.TEMPLATE_yyyyMMdd_HHmm));
             llItem.setOnClickListener(new View.OnClickListener() {

@@ -573,8 +573,8 @@
     <string name="sanwancheng">3. finalizar</string>
     <string name="yibangdingshoujihao">Número de teléfono celular encuadernado:</string>
     <string name="qingshuruxinshoujihaoma">Ingrese su nuevo número de teléfono móvil</string>
-    <string name="ershezhimima">2. Contraseña de hilo</string>
-    <string name="sanquerenmima">3. Confirma contraseña</string>
+    <string name="ershezhimima">1. Contraseña de hilo</string>
+    <string name="sanquerenmima">2. Confirma contraseña</string>
     <string name="qingshuruliuweizhifumima">Ingrese la contraseña de pago de 6 dígitos</string>
     <string name="qingzaicishuruliuweizhifumima">Ingrese la contraseña de pago de 6 dígitos nuevamente</string>
     <string name="xiaoshudianhouliangweiweishu">Después del punto decimal, se generan dos dígitos al azar en cada pago en efectivo. El propósito es confirmar la identidad de la persona de pago en efectivo para el recibo, por lo que por favor pague el monto total con precisión, de lo contrario, el pedido fallará.</string>

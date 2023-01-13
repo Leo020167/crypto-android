@@ -78,13 +78,13 @@ public class TakeCoinHistoryDetailsActivity extends TJRBaseToolBarSwipeBackActiv
             }
         }
         if (takeCoinHistory != null) {
-            tvAmount.setText(takeCoinHistory.amount);
+            tvAmount.setText(takeCoinHistory.amount + takeCoinHistory.symbol);
             if (takeCoinHistory.inOut == 1) {
                 tvAccountType.setText(getResources().getString(R.string.chongbi));
             } else {
                 tvAccountType.setText(getResources().getString(R.string.tibi));
             }
-            tvFee.setText(takeCoinHistory.fee);
+            tvFee.setText(takeCoinHistory.fee + takeCoinHistory.symbol);
             tvTakeCoinAddress.setText(takeCoinHistory.address);
             tvState.setText(takeCoinHistory.stateDesc);
             tvTime.setText(DateUtils.getStringDateOfString2(takeCoinHistory.createTime, DateUtils.TEMPLATE_yyyyMMdd_HHmm));

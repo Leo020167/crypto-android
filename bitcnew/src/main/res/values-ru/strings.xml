@@ -573,8 +573,8 @@
     <string name="sanwancheng">3. Финансовый</string>
     <string name="yibangdingshoujihao">Связанный номер мобильного телефона:</string>
     <string name="qingshuruxinshoujihaoma">Пожалуйста, введите свой новый номер мобильного телефона</string>
-    <string name="ershezhimima">2.set пароль</string>
-    <string name="sanquerenmima">3. Подтвердите пароль</string>
+    <string name="ershezhimima">1.set пароль</string>
+    <string name="sanquerenmima">2. Подтвердите пароль</string>
     <string name="qingshuruliuweizhifumima">Пожалуйста, введите 6-значный пароль оплаты</string>
     <string name="qingzaicishuruliuweizhifumima">Пожалуйста, введите 6-значный пароль платежа снова</string>
     <string name="xiaoshudianhouliangweiweishu">После десятичной точки две цифры случайным образом генерируются при каждом денежном платеже. Цель состоит в том, чтобы подтвердить личность лица, оплачиваемого денежными средствами, за квитанцию, поэтому, пожалуйста, заплатите полную сумму точно, в противном случае заказ потерпит неудачу.</string>

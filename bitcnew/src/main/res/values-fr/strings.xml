@@ -573,8 +573,8 @@
     <string name="sanwancheng">3.finir</string>
     <string name="yibangdingshoujihao">Numéro de téléphone portable lié:</string>
     <string name="qingshuruxinshoujihaoma">Veuillez saisir votre nouveau numéro de téléphone mobile</string>
-    <string name="ershezhimima">2.Set Mot de passe</string>
-    <string name="sanquerenmima">3. CONFIRM Mot de passe</string>
+    <string name="ershezhimima">1.Set Mot de passe</string>
+    <string name="sanquerenmima">2. CONFIRM Mot de passe</string>
     <string name="qingshuruliuweizhifumima">Veuillez saisir le mot de passe de paiement à 6 chiffres</string>
     <string name="qingzaicishuruliuweizhifumima">Veuillez saisir à nouveau le mot de passe de paiement à 6 chiffres</string>
     <string name="xiaoshudianhouliangweiweishu">Après le point décimal, deux chiffres sont générés au hasard à chaque paiement en espèces. Le but est de confirmer l\'identité de la personne de paiement en espèces pour le reçu, veuillez donc payer le montant total avec précision, sinon la commande échouera.</string>

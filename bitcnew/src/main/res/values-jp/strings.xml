@@ -573,8 +573,8 @@
     <string name="sanwancheng">3.フィニッシュ</string>
     <string name="yibangdingshoujihao">バインドされた携帯電話番号：</string>
     <string name="qingshuruxinshoujihaoma">新しい携帯電話番号を入力してください</string>
-    <string name="ershezhimima">2.パスワードを設定します</string>
-    <string name="sanquerenmima">3.パスワードを構成します</string>
+    <string name="ershezhimima">1.パスワードを設定します</string>
+    <string name="sanquerenmima">2.パスワードを構成します</string>
     <string name="qingshuruliuweizhifumima">6桁の支払いパスワードを入力してください</string>
     <string name="qingzaicishuruliuweizhifumima">6桁の支払いパスワードをもう一度入力してください</string>
     <string name="xiaoshudianhouliangweiweishu">小数点の後、2桁が各現金支払いでランダムに生成されます。目的は、領収書の現金支払い担当者の身元を確認することです。そのため、全額を正確に支払います。</string>

@@ -573,8 +573,8 @@
     <string name="sanwancheng">3.完成</string>
     <string name="yibangdingshoujihao">已綁定手機號:</string>
     <string name="qingshuruxinshoujihaoma">請輸入新手機號碼</string>
-    <string name="ershezhimima">2.設置密碼</string>
-    <string name="sanquerenmima">3.確認密碼</string>
+    <string name="ershezhimima">1.設置密碼</string>
+    <string name="sanquerenmima">2.確認密碼</string>
     <string name="qingshuruliuweizhifumima">請輸入6位支付密碼</string>
     <string name="qingzaicishuruliuweizhifumima">請再次輸入6位支付密碼</string>
     <string name="xiaoshudianhouliangweiweishu">小數點後2位尾數,每次現金支付時隨機生成，目的是為收款者確認現金支付者的身份，所以請準確支付完整金額，否則導致訂單失效。</string>
