@@ -1,5 +1,7 @@
 package com.bitcnew.module.myhome;
 
+import android.content.ContentResolver;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -22,13 +24,17 @@ import android.widget.Toast;
 import com.bitcnew.common.base.TJRBaseToolBarSwipeBackActivity;
 import com.bitcnew.common.constant.CommonConst;
 import com.bitcnew.common.entity.ResultData;
-import com.bitcnew.common.web.ImageUtil;
 import com.bitcnew.module.home.TakePhotoActivity;
 import com.bitcnew.module.myhome.entity.IdentityAuthen;
 import com.bitcnew.util.DynamicPermission;
+import com.bitcnew.util.ImageUtil;
 import com.bitcnew.util.MyCallBack;
 import com.bitcnew.util.PageJumpUtil;
 import com.bitcnew.util.PermissionUtils;
+import com.luck.picture.lib.PictureSelector;
+import com.luck.picture.lib.config.PictureConfig;
+import com.luck.picture.lib.config.PictureMimeType;
+import com.luck.picture.lib.entity.LocalMedia;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.bitcnew.http.retrofitservice.UploadFileUtils;
 //import com.cropyme.http.tjrcpt.RedzHttpServiceManager;
@@ -46,6 +52,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -257,65 +264,96 @@ public class IdentityAuthenActivity extends TJRBaseToolBarSwipeBackActivity impl
     private File outputImage,outputImage2;
     private Uri imageUri,imageUri2;
     public static final int TAKE_PHOTO = 1,TAKE_PHOTO2=2;//声明一个请求码，用于识别返回的结果
+    public static final int REQ_PHOTO1 = 11,REQ_PHOTO2=12;//声明一个请求码，用于识别返回的结果
     private void requestCamera(int toke_photo) {
-//创建file对象，用于储存拍照后的图片，getExternalCacheDir() : 将照片存放在手机的关联缓存目录下
-        outputImage = new File(getExternalCacheDir(), "output_image.jpg");
-        try {
-            if (outputImage.exists()) {
-                outputImage.delete();
-            }
-            outputImage.createNewFile();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+////创建file对象，用于储存拍照后的图片，getExternalCacheDir() : 将照片存放在手机的关联缓存目录下
+//        outputImage = new File(getExternalCacheDir(), "output_image.jpg");
+//        try {
+//            if (outputImage.exists()) {
+//                outputImage.delete();
+//            }
+//            outputImage.createNewFile();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//
+//        if (Build.VERSION.SDK_INT >= 24) {
+////如果系统版本大于7.0，调用FileProvider的getUriForFile()方法将File对象转换成一个封装过的Uri对象
+////getUriForFile()参数说明
+////第一个参数：Context对象
+////第二个参数：任意唯一的字符串
+////第三个参数：创建的File对象
+//            imageUri = FileProvider.getUriForFile(IdentityAuthenActivity.this, getPackageName() + ".fileprovider", outputImage);
+//        } else {
+////否则，调用Uri的fromFile()方法将File对象转换成Uri对象
+//            imageUri = Uri.fromFile(outputImage);
+//        }
+////启动相机程序
+//        Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+////设定图片的输出地址
+//        intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+////使用startActivityForResult()启动Intent时，Intent结束后会有结果返回到onActivityResult()方法中。
+//        startActivityForResult(intent, toke_photo);
 
-        if (Build.VERSION.SDK_INT >= 24) {
-//如果系统版本大于7.0，调用FileProvider的getUriForFile()方法将File对象转换成一个封装过的Uri对象
-//getUriForFile()参数说明
-//第一个参数：Context对象
-//第二个参数：任意唯一的字符串
-//第三个参数：创建的File对象
-            imageUri = FileProvider.getUriForFile(IdentityAuthenActivity.this, getPackageName() + ".fileprovider", outputImage);
-        } else {
-//否则，调用Uri的fromFile()方法将File对象转换成Uri对象
-            imageUri = Uri.fromFile(outputImage);
-        }
-//启动相机程序
-        Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
-//设定图片的输出地址
-        intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
-//使用startActivityForResult()启动Intent时，Intent结束后会有结果返回到onActivityResult()方法中。
-        startActivityForResult(intent, toke_photo);
+        PictureSelector.create(this)
+                .openGallery(PictureMimeType.ofImage())
+//                .imageEngine(GlideEngine.createGlideEngine())
+                .maxSelectNum(1)
+                .minSelectNum(1)
+                .freeStyleCropEnabled(true) // 裁切框可拖动
+                .circleDimmedLayer(false) // 圆形头像裁切
+                .showCropFrame(true) // 是否显示裁剪矩形边框
+                .showCropGrid(true) // 是否显示裁剪矩形网格
+                .selectionMode(PictureConfig.SINGLE)
+//                .isSingleDirectReturn(true)
+//                .isAndroidQTransform(true)
+                .isGif(false)
+                .forResult(REQ_PHOTO1);
     }
     private void requestCamera2(int toke_photo) {
-//创建file对象，用于储存拍照后的图片，getExternalCacheDir() : 将照片存放在手机的关联缓存目录下
-        outputImage2 = new File(getExternalCacheDir(), "output_image2.jpg");
-        try {
-            if (outputImage2.exists()) {
-                outputImage2.delete();
-            }
-            outputImage2.createNewFile();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+////创建file对象，用于储存拍照后的图片，getExternalCacheDir() : 将照片存放在手机的关联缓存目录下
+//        outputImage2 = new File(getExternalCacheDir(), "output_image2.jpg");
+//        try {
+//            if (outputImage2.exists()) {
+//                outputImage2.delete();
+//            }
+//            outputImage2.createNewFile();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//
+//        if (Build.VERSION.SDK_INT >= 24) {
+////如果系统版本大于7.0，调用FileProvider的getUriForFile()方法将File对象转换成一个封装过的Uri对象
+////getUriForFile()参数说明
+////第一个参数：Context对象
+////第二个参数：任意唯一的字符串
+////第三个参数：创建的File对象
+//            imageUri2 = FileProvider.getUriForFile(IdentityAuthenActivity.this, getPackageName() + ".fileprovider", outputImage2);
+//        } else {
+////否则，调用Uri的fromFile()方法将File对象转换成Uri对象
+//            imageUri2 = Uri.fromFile(outputImage2);
+//        }
+////启动相机程序
+//        Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+////设定图片的输出地址
+//        intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri2);
+////使用startActivityForResult()启动Intent时，Intent结束后会有结果返回到onActivityResult()方法中。
+//        startActivityForResult(intent, toke_photo);
 
-        if (Build.VERSION.SDK_INT >= 24) {
-//如果系统版本大于7.0，调用FileProvider的getUriForFile()方法将File对象转换成一个封装过的Uri对象
-//getUriForFile()参数说明
-//第一个参数：Context对象
-//第二个参数：任意唯一的字符串
-//第三个参数：创建的File对象
-            imageUri2 = FileProvider.getUriForFile(IdentityAuthenActivity.this, getPackageName() + ".fileprovider", outputImage2);
-        } else {
-//否则，调用Uri的fromFile()方法将File对象转换成Uri对象
-            imageUri2 = Uri.fromFile(outputImage2);
-        }
-//启动相机程序
-        Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
-//设定图片的输出地址
-        intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri2);
-//使用startActivityForResult()启动Intent时，Intent结束后会有结果返回到onActivityResult()方法中。
-        startActivityForResult(intent, toke_photo);
+        PictureSelector.create(this)
+                .openGallery(PictureMimeType.ofImage())
+//                .imageEngine(GlideEngine.createGlideEngine())
+                .maxSelectNum(1)
+                .minSelectNum(1)
+                .freeStyleCropEnabled(true) // 裁切框可拖动
+                .circleDimmedLayer(false) // 圆形头像裁切
+                .showCropFrame(true) // 是否显示裁剪矩形边框
+                .showCropGrid(true) // 是否显示裁剪矩形网格
+                .selectionMode(PictureConfig.SINGLE)
+//                .isSingleDirectReturn(true)
+//                .isAndroidQTransform(true)
+                .isGif(false)
+                .forResult(REQ_PHOTO2);
     }
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -611,6 +649,69 @@ public class IdentityAuthenActivity extends TJRBaseToolBarSwipeBackActivity impl
 //
 //        }
 
+        if (REQ_PHOTO1 == requestCode && RESULT_OK == resultCode) {
+            List<Uri> list = obtainChooseImage(data);
+            if (!list.isEmpty()) {
+                try {
+                    Uri photo = list.get(0);
+                    ivFrontImg.setImageURI(photo);
+
+                    File file = getFileFromUri(getContext(), photo);
+                    startUploadFront(file.getAbsolutePath());
+                } catch (Exception e) {
+                    Log.e("", e.getMessage(), e);
+                }
+            }
+        } else if (REQ_PHOTO2 == requestCode) {
+            List<Uri> list = obtainChooseImage(data);
+            if (!list.isEmpty()) {
+                try {
+                    Uri photo = list.get(0);
+                    ivBackImg.setImageURI(photo);
+                    File file = getFileFromUri(getContext(), photo);
+                    startUploadBack(file.getAbsolutePath());
+                } catch (Exception e) {
+                    Log.e("", e.getMessage(), e);
+                }
+            }
+        }
+    }
+
+    private static File getFileFromUri(Context context, Uri uri) {
+        String schema = uri.getScheme();
+
+        if (ContentResolver.SCHEME_CONTENT.equals(schema)) {
+            return ImageUtil.getFileFromContentUri(context, uri);
+        }
+
+        if (ContentResolver.SCHEME_FILE.equals(schema) || null == schema) {
+            return new File(uri.getPath());
+        }
+
+        return null;
+    }
+
+    public static List<Uri> obtainChooseImage(Intent data) {
+        List<LocalMedia> selectList = PictureSelector.obtainMultipleResult(data);
+        if (null == selectList) {
+            return new ArrayList<>(0);
+        }
+        List<Uri> list = new ArrayList<>(selectList.size());
+        for (LocalMedia media : selectList) {
+            String path;
+            if (media.isCut() && !media.isCompressed()) {
+                // 裁剪过
+                path = media.getCutPath();
+            } else if (media.isCompressed() || (media.isCut() && media.isCompressed())) {
+                // 压缩过,或者裁剪同时压缩过,以最终压缩过图片为准
+                path = media.getCompressPath();
+            } else {
+                // 原图
+                path = media.getPath();
+            }
+            list.add(Uri.parse(path));
+        }
+        return list;
     }
 
     public File saveBitmapFile(Bitmap bitmap){

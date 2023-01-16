@@ -48,6 +48,8 @@ dependencies {
 
     // 基础依赖包，必须要依赖
     api 'com.gyf.immersionbar:immersionbar:3.0.0'
+
+    api 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'
 }
 
 //def releaseTime() {
@@ -65,7 +67,7 @@ android {
     defaultConfig {
         // Enabling multidex support.
 //        minSdkVersion9
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 28
         multiDexEnabled true
         manifestPlaceholders = [UMENG_CHANNEL_VALUE: "fire"]
