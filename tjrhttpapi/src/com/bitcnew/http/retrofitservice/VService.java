@@ -1069,7 +1069,7 @@ public interface VService {
      */
     @FormUrlEncoded
     @POST("/procoin/depositeWithdraw/addAddress.do")
-    Call<ResponseBody> addTakeCoinAddress(@Field("userId") Long userId, @Field("symbol") String coinType, @Field("chainType") String chainType, @Field("address") String address, @Field("remark") String remark);
+    Call<ResponseBody> addTakeCoinAddress(@Field("userId") Long userId, @Field("symbol") String coinType, @Field("chainType") String chainType, @Field("address") String address, @Field("remark") String remark, @Field("payPass") String payPass);
 
     /**
      * 删除提币地址

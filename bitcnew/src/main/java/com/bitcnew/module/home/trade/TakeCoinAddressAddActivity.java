@@ -77,8 +77,12 @@ public class TakeCoinAddressAddActivity extends TJRBaseToolBarSwipeBackActivity 
         }
         String beizhu = beizhuEt.getText().toString();
 
+        doAddTakeCoinAddress(address, beizhu, null);
+    }
+
+    private void doAddTakeCoinAddress(String address, String beizhu, String payPass) {
         CommonUtil.cancelCall(addCall);
-        addCall = VHttpServiceManager.getInstance().getVService().addTakeCoinAddress(getUserIdLong(), coinType.getSymbol(), chain, address, beizhu);
+        addCall = VHttpServiceManager.getInstance().getVService().addTakeCoinAddress(getUserIdLong(), coinType.getSymbol(), chain, address, beizhu, payPass);
         addCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {
@@ -88,6 +92,11 @@ public class TakeCoinAddressAddActivity extends TJRBaseToolBarSwipeBackActivity 
                 } else {
                     showToast(resultData.msg);
                 }
+            }
+
+            @Override
+            protected void onPassWordFinsh(String pwString) {
+                doAddTakeCoinAddress(address, beizhu, pwString);
             }
         });
     }

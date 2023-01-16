@@ -262,7 +262,7 @@ public class RechargeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
         }
 
         keyongyueLabel.setText(getString(R.string.keyongyue_, coinType.getSymbol()));
-        zuixiaochongzhijineLabel.setText(getString(R.string.dongjiejine_, coinType.getSymbol()));
+        zuixiaochongzhijineLabel.setText(getString(R.string.zuixiaochongzijine_, coinType.getSymbol()));
 
         loadConfig(coinType);
     }
