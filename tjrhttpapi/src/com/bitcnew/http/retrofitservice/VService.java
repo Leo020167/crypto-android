@@ -1049,7 +1049,7 @@ public interface VService {
      */
     @FormUrlEncoded
     @POST("/procoin/depositeWithdraw/withdrawSubmit.do")
-    Call<ResponseBody> withdrawSubmit(@Field("userId") Long userId, @Field("addressId") String addressId, @Field("amount") String amount);
+    Call<ResponseBody> withdrawSubmit(@Field("userId") Long userId, @Field("addressId") String addressId, @Field("amount") String amount, @Field("payPass") String payPass);
 
     /**
      * 提币地址列表

@@ -160,6 +160,10 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
             return;
         }
 
+        doWithdraw(amount, null);
+    }
+
+    private void doWithdraw(String amount, String payPassword) {
         try {
             BigDecimal available = new BigDecimal(config.getAvailableAmount()).subtract(new BigDecimal(config.getFee()));
             if (available.compareTo(BigDecimal.ZERO) <= 0) {
@@ -172,7 +176,7 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
             }
 
             CommonUtil.cancelCall(submitCall);
-            submitCall = VHttpServiceManager.getInstance().getVService().withdrawSubmit(getUserIdLong(), address.getId(), amount);
+            submitCall = VHttpServiceManager.getInstance().getVService().withdrawSubmit(getUserIdLong(), address.getId(), amount, payPassword);
             submitCall.enqueue(new MyCallBack(this) {
                 @Override
                 protected void callBack(ResultData resultData) {
@@ -181,6 +185,11 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
                     } else {
                         showToast(resultData.msg);
                     }
+                }
+
+                @Override
+                protected void onPassWordFinsh(String pwString) {
+                    doWithdraw(amount, pwString);
                 }
             });
         } catch (Exception e) {
