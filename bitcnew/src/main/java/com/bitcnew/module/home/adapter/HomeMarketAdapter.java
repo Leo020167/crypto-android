@@ -13,11 +13,15 @@ import android.widget.TextView;
 
 import com.bitcnew.R;
 import com.bitcnew.common.base.adapter.BaseImageLoaderRecycleAdapter;
+import com.bitcnew.http.base.Group;
 import com.bitcnew.module.home.MarketActivity;
 import com.bitcnew.module.home.MarketActivity2;
 import com.bitcnew.module.home.entity.Market;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.StockChartUtil;
+
+import java.util.List;
+import java.util.Objects;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -39,6 +43,32 @@ public class HomeMarketAdapter extends BaseImageLoaderRecycleAdapter<Market> {
         this.isLever = isLever;
         this.accountType = accountType;
 //        this.accountType = accountType;
+    }
+
+    public void update(Group<Market> group) {
+        List<Market> currentGroup = getGroup();
+        if (null == currentGroup || currentGroup.size() <= 0) {
+            setGroup(group);
+            return;
+        }
+
+        Market current;
+        Market newer;
+        for (int i = 0; i < currentGroup.size() && i < group.size(); i++) {
+            current = currentGroup.get(i);
+            newer = group.get(i);
+
+            if (Objects.equals(current.symbol, newer.symbol) && Objects.equals(current.rate, newer.rate)) {
+                continue;
+            }
+            getGroup().set(i, newer);
+            if (Objects.equals(current.symbol, newer.symbol)) {
+                notifyItemChanged(i, new String[]{current.rate, newer.rate});
+            } else {
+                notifyItemChanged(i);
+            }
+        }
+
     }
 
     @Override

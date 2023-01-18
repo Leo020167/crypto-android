@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+import com.bitcnew.module.home.adapter.HomeMarketItemAnimator;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.bitcnew.R;
@@ -165,7 +166,7 @@ public class HomeStockDigitalMarkFragment extends UserBaseFragment implements Vi
     private Runnable task = new Runnable() {
         public void run() {
             try {
-//                startGetMarket();
+                startGetMarket();
 //                String result = C ropymelHttpSocket.getInstance().marketData("", sortField, sortType, String.valueOf(accountType));
 //                setData(result);
             } catch (Exception e) {
@@ -222,6 +223,7 @@ public class HomeStockDigitalMarkFragment extends UserBaseFragment implements Vi
 
         homeMarketAdapter = new HomeMarketAdapter(getActivity(), isLever,accountType);
         rvMarketList.setLayoutManager(new LinearLayoutManager(getActivity()));
+        rvMarketList.setItemAnimator(new HomeMarketItemAnimator());
 //        rvMarketList.addItemDecoration(new SimpleRecycleDivider(getActivity(), true));
         rvMarketList.setAdapter(homeMarketAdapter);
 //        llSearch.setOnClickListener(this);
@@ -258,7 +260,8 @@ public class HomeStockDigitalMarkFragment extends UserBaseFragment implements Vi
                     Group<Market> groupMarket = resultData.getGroup("quotes", new TypeToken<Group<Market>>() {
                     }.getType());
                     if (groupMarket != null && groupMarket.size() > 0) {
-                        homeMarketAdapter.setGroup(groupMarket);
+//                        homeMarketAdapter.setGroup(groupMarket);
+                        homeMarketAdapter.update(groupMarket);
                     }
                     int size = (groupMarket == null ? 0 : groupMarket.size());
                     if (!isRun && size > 0) startTimer();
