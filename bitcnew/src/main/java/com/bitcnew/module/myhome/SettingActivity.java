@@ -224,7 +224,12 @@ public class SettingActivity extends TJRBaseToolBarSwipeBackActivity {
 //                    PageJumpUtil.pageJump(SettingActivity.this, ManagerAddressActivity.class);
 //                    break;
                 case R.id.llPayPassword:
-                    PageJumpUtil.pageJump(SettingActivity.this, SettingPayPasswordActivity.class);
+                    if (!TextUtils.isEmpty(phone)){ // 判断是否绑定手机号
+                        PageJumpUtil.pageJump(SettingActivity.this, SettingPayPasswordActivity.class);
+                    }else{
+                        Intent intent = new Intent(SettingActivity.this, BindPhoneActivity.class);
+                        startActivity(intent);
+                    }
                     break;
                 case R.id.llZhangdieyanse:
                     Intent intent3 = new Intent(SettingActivity.this, SwichColorActivity.class);

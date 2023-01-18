@@ -2,6 +2,7 @@ package com.bitcnew.util;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
@@ -10,15 +11,18 @@ import android.view.View;
 
 import com.bitcnew.R;
 import com.bitcnew.common.entity.ResultData;
+import com.bitcnew.http.tjrcpt.VHttpServiceManager;
 import com.bitcnew.http.util.MD5;
 import com.bitcnew.common.base.BaseBarActivity;
 import com.bitcnew.common.entity.jsonparser.ResultDataParser;
 import com.bitcnew.http.widget.dialog.ui.TjrBaseDialog;
+import com.bitcnew.module.home.BindPhoneActivity;
 import com.bitcnew.module.home.trade.TransferCoinActivity;
 import com.bitcnew.module.home.trade.dialog.RechargeOrTransferDialog;
 import com.bitcnew.module.legal.LegalMoneyActivity;
 import com.bitcnew.module.myhome.IdentityAuthenActivity;
 import com.bitcnew.module.myhome.PaymentTermActivity;
+import com.bitcnew.module.myhome.SettingActivity;
 import com.bitcnew.module.myhome.SettingPayPasswordActivity;
 import com.bitcnew.util.dialog.DragFragment;
 import com.bitcnew.widgets.transactionpassword.FixAuthPasswordDialog2;
@@ -205,7 +209,6 @@ public abstract class MyCallBack implements Callback<ResponseBody> {
         goHuazhuanDialog.show();
     }
 
-
     TjrBaseDialog goPaymentTermDialog;
     private void showGoPaymentTermDialog(final String msg) {
         goPaymentTermDialog = new TjrBaseDialog(ctx) {
@@ -272,7 +275,7 @@ public abstract class MyCallBack implements Callback<ResponseBody> {
             @Override
             public void onclickOk() {
                 dismiss();
-                PageJumpUtil.pageJump(ctx, SettingPayPasswordActivity.class);
+                goSetPayPassword();
             }
 
             @Override
@@ -290,6 +293,31 @@ public abstract class MyCallBack implements Callback<ResponseBody> {
         goSetTradePassDialog.setTitleVisibility(View.VISIBLE);
         goSetTradePassDialog.setTvTitle(ctx.getResources().getString(R.string.wenxintishi));
         goSetTradePassDialog.show();
+    }
+
+    private Call<ResponseBody> getUserInfoCall;
+    private void goSetPayPassword() {
+        getUserInfoCall = VHttpServiceManager.getInstance().getVService().myUserInfo();
+        getUserInfoCall.enqueue(new MyCallBack(ctx) {
+            @Override
+            protected void callBack(ResultData resultData) {
+                if (resultData.isSuccess()) {
+                    String email = resultData.getItem("email", String.class);
+                    String phone = resultData.getItem("phone", String.class);
+                    if (!TextUtils.isEmpty(phone)) {
+                        PageJumpUtil.pageJump(ctx, SettingPayPasswordActivity.class);
+                    } else {
+                        Intent intent = new Intent(ctx, BindPhoneActivity.class);
+                        ctx.startActivity(intent);
+                    }
+                }
+            }
+
+            @Override
+            protected void handleError(Call<ResponseBody> call) {
+                super.handleError(call);
+            }
+        });
     }
 
     TjrBaseDialog goIdentityAuth;
