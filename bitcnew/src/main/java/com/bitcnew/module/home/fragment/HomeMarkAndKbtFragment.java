@@ -18,6 +18,7 @@ import android.widget.TextView;
 import com.bitcnew.common.constant.CommonConst;
 import com.bitcnew.R;
 import com.bitcnew.module.home.HomeActivity;
+import com.bitcnew.module.home.HomeMarkAndKbtFragmentTabConfig;
 import com.bitcnew.module.home.OptionalDragSortActivity;
 import com.bitcnew.module.home.SearchCoinActivity;
 import com.bitcnew.module.login.LoginActivity;
@@ -163,8 +164,8 @@ public class HomeMarkAndKbtFragment extends UserBaseImmersionBarFragment impleme
             viewPager.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    viewPager.setCurrentItem(1, false);
-                    slideTab(1);
+                    viewPager.setCurrentItem(HomeMarkAndKbtFragmentTabConfig.TAB_HE_YUE, false);
+                    slideTab(HomeMarkAndKbtFragmentTabConfig.TAB_HE_YUE);
                 }
             }, 300);
         }
@@ -173,20 +174,19 @@ public class HomeMarkAndKbtFragment extends UserBaseImmersionBarFragment impleme
 
     public void slideTab(int pos) {
         switch (pos) {
-            case 0:
+            case HomeMarkAndKbtFragmentTabConfig.TAB_QAUAN_QIU:
                 tvQQZS.setSelected(true);
                 tvHY.setSelected(false);
                 tvBB.setSelected(false);
                 ivOptionalSort.setVisibility(View.GONE);
                 break;
-
-            case 1:
+            case HomeMarkAndKbtFragmentTabConfig.TAB_HE_YUE:
                 tvQQZS.setSelected(false);
                 tvHY.setSelected(true);
                 tvBB.setSelected(false);
                 ivOptionalSort.setVisibility(View.GONE);
                 break;
-            case 2:
+            case HomeMarkAndKbtFragmentTabConfig.TAB_BI_BI:
                 tvQQZS.setSelected(false);
                 tvHY.setSelected(false);
                 tvBB.setSelected(true);
@@ -215,18 +215,18 @@ public class HomeMarkAndKbtFragment extends UserBaseImmersionBarFragment impleme
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.tvQQZS:
-                if (viewPager.getCurrentItem() != 0) {
-                    viewPager.setCurrentItem(0);
+                if (viewPager.getCurrentItem() != HomeMarkAndKbtFragmentTabConfig.TAB_QAUAN_QIU) {
+                    viewPager.setCurrentItem(HomeMarkAndKbtFragmentTabConfig.TAB_QAUAN_QIU);
                 }
                 break;
             case R.id.tvHY:
-                if (viewPager.getCurrentItem() != 1) {
-                    viewPager.setCurrentItem(1);
+                if (viewPager.getCurrentItem() != HomeMarkAndKbtFragmentTabConfig.TAB_HE_YUE) {
+                    viewPager.setCurrentItem(HomeMarkAndKbtFragmentTabConfig.TAB_HE_YUE);
                 }
                 break;
             case R.id.tvBB:
-                if (viewPager.getCurrentItem() != 2) {
-                    viewPager.setCurrentItem(2);
+                if (viewPager.getCurrentItem() != HomeMarkAndKbtFragmentTabConfig.TAB_BI_BI) {
+                    viewPager.setCurrentItem(HomeMarkAndKbtFragmentTabConfig.TAB_BI_BI);
                 }
                 break;
             case R.id.ivSearch:
@@ -271,11 +271,11 @@ public class HomeMarkAndKbtFragment extends UserBaseImmersionBarFragment impleme
         @Override
         public Fragment getItem(int position) {
             switch (position) {
-                case 0:
+                case HomeMarkAndKbtFragmentTabConfig.TAB_QAUAN_QIU:
                     return HomeStockDigitalMarkFragment.newInstance("stock", 1);
-                case 1:
+                case HomeMarkAndKbtFragmentTabConfig.TAB_HE_YUE:
                     return HomeStockDigitalMarkFragment.newInstance("digital", 1);
-                case 2:
+                case HomeMarkAndKbtFragmentTabConfig.TAB_BI_BI:
                     return HomeStockDigitalMarkFragment.newInstance("spot", 1);
                 default:
                     return HomeStockDigitalMarkFragment.newInstance("stock", 1);
