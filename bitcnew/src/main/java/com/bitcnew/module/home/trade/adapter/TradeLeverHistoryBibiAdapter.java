@@ -145,29 +145,29 @@ public class TradeLeverHistoryBibiAdapter extends BaseLoadMoreImageLoaderRecycle
                     tvState2.setText(context.getResources().getString(R.string.yichengjiao));
                 }
                 tvOpenPrice2.setText(data.price);
-                llItem2.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        if (!TextUtils.isEmpty(data.buySell)){
-                            if (data.buySell.equals("buy")||data.buySell.equals("买入")){
-
-                            }else {
-                                Intent in = new Intent(context, MaichuDetailActivity.class);
-                                in.putExtra("symbol",data.symbol);//币种
-                                in.putExtra("profit",data.profit);//盈亏
-                                in.putExtra("originPrice",data.originPrice);//成本
-                                in.putExtra("price",data.price);
-                                in.putExtra("amount",data.amount+"");
-                                in.putExtra("fee",data.fee+"");
-                                in.putExtra("updateTime",data.updateTime);
-                                context.startActivity(in);
-                            }
-                        }else {
-                            tvBuySell2.setText("");
-                        }
-//                    LeverInfoActivity.pageJump(context, data.orderId);
-                    }
-                });
+//                llItem2.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        if (!TextUtils.isEmpty(data.buySell)){
+//                            if (data.buySell.equals("buy")||data.buySell.equals("买入")){
+//
+//                            }else {
+//                                Intent in = new Intent(context, MaichuDetailActivity.class);
+//                                in.putExtra("symbol",data.symbol);//币种
+//                                in.putExtra("profit",data.profit);//盈亏
+//                                in.putExtra("originPrice",data.originPrice);//成本
+//                                in.putExtra("price",data.price);
+//                                in.putExtra("amount",data.amount+"");
+//                                in.putExtra("fee",data.fee+"");
+//                                in.putExtra("updateTime",data.updateTime);
+//                                context.startActivity(in);
+//                            }
+//                        }else {
+//                            tvBuySell2.setText("");
+//                        }
+////                    LeverInfoActivity.pageJump(context, data.orderId);
+//                    }
+//                });
             }else {
                 llItem.setVisibility(View.VISIBLE);
                 llItem2.setVisibility(View.GONE);

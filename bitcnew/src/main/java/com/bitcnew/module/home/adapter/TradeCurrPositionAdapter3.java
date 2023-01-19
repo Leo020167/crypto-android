@@ -33,7 +33,8 @@ public class TradeCurrPositionAdapter3  extends BaseImageLoaderRecycleAdapter<Po
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.trade_position_item3, parent, false));
+//        return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.trade_position_item3, parent, false));
+        return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.item_bibi, parent, false));
     }
 
 
@@ -51,51 +52,69 @@ public class TradeCurrPositionAdapter3  extends BaseImageLoaderRecycleAdapter<Po
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        @BindView(R.id.tvSymbol)
-        TextView tvSymbol;
-        @BindView(R.id.tvBuySell)
-        TextView tvBuySell;
-        @BindView(R.id.tvProfitCash)
-        TextView tvProfitCash;
-        @BindView(R.id.tvAmount)
-        TextView tvAmount;
-        @BindView(R.id.tvOpenPrice)
-        TextView tvOpenPrice;
-        @BindView(R.id.tvProfit)
-        TextView tvProfit;
-        @BindView(R.id.llItem)
-        LinearLayout llItem;
+//        @BindView(R.id.tvSymbol)
+//        TextView tvSymbol;
+//        @BindView(R.id.tvBuySell)
+//        TextView tvBuySell;
+//        @BindView(R.id.tvProfitCash)
+//        TextView tvProfitCash;
+//        @BindView(R.id.tvAmount)
+//        TextView tvAmount;
+//        @BindView(R.id.tvOpenPrice)
+//        TextView tvOpenPrice;
+//        @BindView(R.id.tvProfit)
+//        TextView tvProfit;
+//        @BindView(R.id.llItem)
+//        LinearLayout llItem;
+
+        final TextView coinTypeTv;
+        final TextView usdtBalanceTv;
+        final TextView ableBalanceTv;
+        final TextView freezeBalanceTv;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            ButterKnife.bind(this, itemView);
+//            ButterKnife.bind(this, itemView);
+
+            coinTypeTv = itemView.findViewById(R.id.coinTypeTv);
+            usdtBalanceTv = itemView.findViewById(R.id.usdtBalanceTv);
+            ableBalanceTv = itemView.findViewById(R.id.ableBalanceTv);
+            freezeBalanceTv = itemView.findViewById(R.id.freezeBalanceTv);
         }
 
         public void setData(final Position data) {
+//            tvSymbol.setText(CommonUtil.getOriginSymbol(data.symbol));
+//            if (!TextUtils.isEmpty( data.buySellValue)){
+//                tvBuySell.setText( "•" + data.buySellValue);
+//            }else {
+//                tvBuySell.setText( "");
+//            }
+//
+//            tvProfitCash.setText(StockChartUtil.formatWithSign(data.profitRate) + "%");
+//            tvAmount.setText(""+data.amount);
+//            tvOpenPrice.setText(String.valueOf(data.price));
+//            tvProfit.setText(StockChartUtil.formatWithSign(data.profit));
+//
+//            if (!TextUtils.isEmpty(data.profit)) {
+//                int color=StockChartUtil.getRateTextColor(context, Double.parseDouble(data.profit));
+//                tvProfitCash.setTextColor(color);
+//                tvProfit.setTextColor(color);
+//            }
+//
+//            llItem.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    ChicangDetailActivity.pageJump(context,data.symbol);
+//                }
+//            });
 
-            tvSymbol.setText(CommonUtil.getOriginSymbol(data.symbol));
-            if (!TextUtils.isEmpty( data.buySellValue)){
-                tvBuySell.setText( "•" + data.buySellValue);
-            }else {
-                tvBuySell.setText( "");
-            }
-
-            tvProfitCash.setText(StockChartUtil.formatWithSign(data.profitRate) + "%");
-            tvAmount.setText(""+data.amount);
-            tvOpenPrice.setText(String.valueOf(data.price));
-            tvProfit.setText(StockChartUtil.formatWithSign(data.profit));
-
-            if (!TextUtils.isEmpty(data.profit)) {
-                int color=StockChartUtil.getRateTextColor(context, Double.parseDouble(data.profit));
-                tvProfitCash.setTextColor(color);
-                tvProfit.setTextColor(color);
-            }
-
-            llItem.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    ChicangDetailActivity.pageJump(context,data.symbol);
-                }
+            coinTypeTv.setText(data.symbol);
+            coinTypeTv.setText(data.symbol);
+            usdtBalanceTv.setText("≈ " + data.usdtAmount + " USDT");
+            ableBalanceTv.setText(data.availableAmount);
+            freezeBalanceTv.setText(data.frozenAmount);
+            itemView.setOnClickListener(v -> {
+                ChicangDetailActivity.pageJump(context,data.symbol);
             });
         }
     }

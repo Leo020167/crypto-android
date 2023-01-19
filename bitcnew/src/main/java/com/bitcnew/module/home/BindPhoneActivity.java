@@ -44,8 +44,8 @@ public class BindPhoneActivity extends TJRBaseToolBarActivity implements View.On
             tv_newVerfiy.setOnClickListener(this);
             tvCountryName.setOnClickListener(this);
             tvCountryCode.setOnClickListener(this);
-            tvCountryCode.setText("+852");//默认中国
-            tvCountryName.setText(getResources().getString(R.string.zhongguo));//默认中国
+            tvCountryCode.setText("+1");//默认中国
+            tvCountryName.setText(getResources().getString(R.string.miguo));//默认中国
             txt_wancheng.setOnClickListener(this);
         }
 

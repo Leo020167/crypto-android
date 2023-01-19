@@ -28,6 +28,9 @@ import com.bitcnew.widgets.LoadMoreRecycleView;
 import com.bitcnew.widgets.SimpleRecycleDivider;
 import com.google.gson.reflect.TypeToken;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 
@@ -195,6 +198,18 @@ public class TradeHistoryLeverBibiFragment extends UserBaseFragment {
                     pageSize = resultData.getPageSize(pageSize);
                     group = resultData.getGroup("data", new TypeToken<Group<Position>>() {
                     }.getType());
+
+                    List<Position> list = new ArrayList<>(group.size());
+                    Position item;
+                    for (int i = 0, count = group.size(); i < count; i++) {
+                        item = group.get(i);
+                        if ("limit".equalsIgnoreCase(item.orderType)) {
+                            continue;
+                        }
+                        list.add(item);
+                    }
+                    group = new Group<>(list);
+
 //                    if (group != null && group.size() > 0) {
                     if (bibiAdapter!=null){
                         if (accountType.equals("spot")) {
