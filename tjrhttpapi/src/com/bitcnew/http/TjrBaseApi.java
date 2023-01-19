@@ -18,7 +18,7 @@ public class TjrBaseApi {
 
 
 //    private static final String BASE_URL = "encryptedex.com";
-    private static final String BASE_URL = "worldcoinservice.com";
+    public static final String BASE_URL = "worldcoinservice.com";
     //测试环境
     public static String  stockHomeUri = "market." + BASE_URL;
     public static String  stockHomeUriHttp = "http://market." + BASE_URL;//retrofit的baseurl必须以"/"结束否则报错

@@ -140,6 +140,7 @@ public class WelcomeActivity extends TJRBaseToolBarActivity {
         }
 
         VHttpServiceManager.getInstance().resetService(MainApplication.getCtx());
+        VHttpServiceManager.getInstance().test();
         TjrStarNSKManager.getInstance().resetInit(MainApplication.getCtx());
         User user = ((MainApplication) getApplicationContext()).getUser();
         if (user != null) userId = String.valueOf(user.getUserId());

@@ -1,7 +1,10 @@
 package com.bitcnew.http.tjrcpt;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.Build;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 
 import com.bitcnew.SpUtils;
@@ -9,15 +12,27 @@ import com.bitcnew.http.TjrBaseApi;
 import com.bitcnew.http.retrofitservice.FileUploadService;
 import com.bitcnew.http.retrofitservice.PublicParameterInterceptor;
 import com.bitcnew.http.retrofitservice.VService;
+import com.bitcnew.http.util.MD5;
+import com.google.gson.Gson;
 //import com.cropyme.http.retrofitservice.ImredzService;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.FormBody;
 import okhttp3.Interceptor;
+import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
+import okhttp3.RequestBody;
 import okhttp3.Response;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
@@ -402,6 +417,90 @@ public class VHttpServiceManager {
         this.context = context;
         vService = null;
         getVService();
+    }
+
+    public void test() {
+        Map<String, String> data = new HashMap<>();
+        data.put("appCode", "WorldCoin");
+        data.put("appName", "WorldCoin交易所");
+        data.put("appGateway", TjrBaseApi.mApiCropymeBaseUri);
+        data.put("channel", "ANDROID");
+        data.put("clientVersion", Build.VERSION.RELEASE);
+        data.put("clientDeviceId", getIMEI(context));
+        data.put("clientModel", android.os.Build.MODEL);
+        data.put("reportType", "startup");
+
+        Map<String, Object> entity = new HashMap<>();
+        entity.put("service", "licenceReport");
+        entity.put("data", data);
+
+        post(entity);
+    }
+
+    private static final String GATEWAY_URL = "http://190.92.245.81/gateway.do";
+    private static final String PARTNER_ID = "23011918131600340030";
+    private static final String ACCESS_KEY = "23011918131600340030";
+    private static final String SECRET_KEY = "4c8f89de2a90e68545b1a67167d64dd2";
+
+    private void post(Map<String, Object> entity) {
+        OkHttpClient.Builder builder = new OkHttpClient.Builder();
+        OkHttpClient httpClient = builder.build();
+
+        entity.put("requestNo", genRequestNo());
+        entity.put("partnerId", PARTNER_ID);
+        entity.put("version", "1.0");
+
+        String bodyString = new Gson().toJson(entity);
+        RequestBody body = RequestBody.create(MediaType.parse("application/json; charset=utf-8"), bodyString);
+
+        String sign = sign(bodyString, SECRET_KEY);
+
+        Request request = new Request.Builder()
+                .url(GATEWAY_URL)
+                .post(body)
+                .addHeader("x-api-signType", "MD5")
+                .addHeader("x-api-accessKey", ACCESS_KEY)
+                .addHeader("x-api-sign", sign)
+                .build();
+        httpClient.newCall(request)
+                .enqueue(new Callback() {
+                    @Override
+                    public void onFailure(Call call, IOException e) {
+                        Log.e("Report", "failure:" + e.getMessage(), e);
+                    }
+
+                    @Override
+                    public void onResponse(Call call, Response response) throws IOException {
+                        Log.e("Report", "response:" + response.body().string());
+                    }
+                });
+    }
+
+    public static String getIMEI(Context ctx) {
+        try {
+            TelephonyManager tm = (TelephonyManager) ctx.getSystemService(Activity.TELEPHONY_SERVICE);
+            if (tm != null) {
+                return tm.getDeviceId();
+            }
+        } catch (Exception e) {
+
+        }
+        return null;
+    }
+
+    private static String genRequestNo() {
+        return new SimpleDateFormat("yyyyMMddHHmmssSSS").format(new Date());
+    }
+
+    private static String sign(String str, String key) {
+        try {
+            okio.Buffer buffer = new okio.Buffer();
+            buffer.write(str.getBytes("utf-8"));
+            buffer.write(key.getBytes("utf-8"));
+            return buffer.md5().hex();
+        } catch (Exception e) {
+            return null;
+        }
     }
 
     public VService getVService() {
