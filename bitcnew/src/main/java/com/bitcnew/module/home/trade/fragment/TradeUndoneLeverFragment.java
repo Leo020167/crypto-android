@@ -154,8 +154,16 @@ public class TradeUndoneLeverFragment extends UserBaseFragment {
 
 
     private void startGetTradeOrderList() {
+        String type = null;
+        String orderState = null;
+        int isDone = 0;
+        if ("spot".equalsIgnoreCase(accountType)) { // 币币
+            type = "2";
+            orderState = "0";
+            isDone = 1;
+        }
         CommonUtil.cancelCall(realCall);
-        realCall = VHttpServiceManager.getInstance().getVService().queryList(symbol,accountType, 0, "", pageNo,"");
+        realCall = VHttpServiceManager.getInstance().getVService().queryList2(symbol,accountType, isDone, "", pageNo,orderState, type);
         realCall.enqueue(new MyCallBack(getActivity()) {
             @Override
             protected void callBack(ResultData resultData) {

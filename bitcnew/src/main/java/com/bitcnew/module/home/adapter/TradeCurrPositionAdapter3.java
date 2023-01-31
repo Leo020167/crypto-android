@@ -15,6 +15,7 @@ import com.bitcnew.http.base.Group;
 import com.bitcnew.module.home.ChicangDetailActivity;
 import com.bitcnew.module.home.entity.Position;
 import com.bitcnew.module.home.trade.adapter.TradeCurrPositionAdapter;
+import com.bitcnew.module.wallet.LeverInfo1Activity;
 import com.bitcnew.module.wallet.LeverInfoActivity;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.StockChartUtil;
@@ -114,7 +115,8 @@ public class TradeCurrPositionAdapter3  extends BaseImageLoaderRecycleAdapter<Po
             ableBalanceTv.setText(data.availableAmount);
             freezeBalanceTv.setText(data.frozenAmount);
             itemView.setOnClickListener(v -> {
-                ChicangDetailActivity.pageJump(context,data.symbol);
+//                ChicangDetailActivity.pageJump(context,data.symbol);
+                LeverInfo1Activity.pageJump(context, data, data.orderId, "2");
             });
         }
     }

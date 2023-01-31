@@ -185,7 +185,13 @@ public class TradeHistoryLeverBibiFragment extends UserBaseFragment {
     private void startGetMyUserProjectList() {
         CommonUtil.cancelCall(realCall);
         if (accountType.equals("spot")){
-            realCall = VHttpServiceManager.getInstance().getVService().queryList2(symbol,accountType, -1, "", pageNo,orderState,"2");
+            String _orderState = "1";
+            if ("filled".equalsIgnoreCase(orderState)) {
+                _orderState = "1";
+            } else if ("canceled".equalsIgnoreCase(orderState)) {
+                _orderState = "-1";
+            }
+            realCall = VHttpServiceManager.getInstance().getVService().queryList2(symbol,accountType, 1, "", pageNo, _orderState,"2");
         }else {
             realCall = VHttpServiceManager.getInstance().getVService().queryList(symbol,accountType, -1, "", pageNo,orderState);
         }

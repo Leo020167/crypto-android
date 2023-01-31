@@ -176,6 +176,8 @@ public class SettingAccountActivity extends TJRBaseToolBarSwipeBackActivity impl
                 if (resultData.isSuccess()) {
                     phone = resultData.getItem("phone", String.class);
                     tvAccount.setText(formatPhone(phone));
+                    tvCountryCode.setText(resultData.getItem("countryCode", String.class));
+                    tvCountryName.setText(resultData.getItem("countryName", String.class));
                 }
             }
 
@@ -185,6 +187,9 @@ public class SettingAccountActivity extends TJRBaseToolBarSwipeBackActivity impl
             }
         });
     }
+
+
+
     private void setStep(int step) {
         if (step == 1) {
             currentState = 1;

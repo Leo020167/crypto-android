@@ -35,6 +35,8 @@ import com.bitcnew.module.home.JiaoyijiluActivity;
 import com.bitcnew.module.home.OnItemClick;
 import com.bitcnew.module.home.adapter.DangqianweituoAdapter;
 import com.bitcnew.module.home.adapter.TradeCurrPositionAdapter3;
+import com.bitcnew.module.home.entity.AccountInfo;
+import com.bitcnew.module.home.entity.Caiwujilu;
 import com.bitcnew.module.home.entity.Position;
 import com.bitcnew.module.home.entity.Prybar;
 import com.bitcnew.module.home.trade.adapter.TradeCurrPositionAdapter;
@@ -545,6 +547,11 @@ public class TradeLeverActivity2 extends TJRBaseToolBarSwipeBackActivity impleme
         if (TextUtils.isEmpty(accountType)) {//因为这个accountType是里面fragment获取的，所以先判断一下
             return;
         }
+//        if (currPos == 0) {
+//            startGetHomeAccount();
+//        } else {
+//            startGetMyUserProjectList();
+//        }
         if (isDone == 0) {//持仓
             orderState = "1";
         }else {//委托
@@ -578,6 +585,50 @@ public class TradeLeverActivity2 extends TJRBaseToolBarSwipeBackActivity impleme
             protected void handleError(Call<ResponseBody> call) {
                 super.handleError(call);
 //                tradeUndoneLeverAdapter.onLoadComplete(false, false);
+            }
+        });
+    }
+
+    private void startGetHomeAccount() {
+        if (0 != currPos) {
+            return;
+        }
+        com.bitcnew.http.util.CommonUtil.cancelCall(realCall);
+        realCall = VHttpServiceManager.getInstance().getVService().homeAccount();
+        realCall.enqueue(new MyCallBack(getContext()) {
+            @Override
+            protected void callBack(ResultData resultData) {
+                if (resultData.isSuccess()) {
+                    AccountInfo spotAccount = resultData.getObject("spotAccount", AccountInfo.class);//币币账户
+
+                    tradeCurrPositionAdapter.setGroup(spotAccount.openList);
+                    showHold();
+                }
+            }
+
+            @Override
+            protected void handleError(Call<ResponseBody> call) {
+                super.handleError(call);
+            }
+        });
+    }
+
+    private void startGetMyUserProjectList() {
+        if (0 == currPos) {
+            return;
+        }
+        CommonUtil.cancelCall(realCall);
+        realCall = VHttpServiceManager.getInstance().getVService().withdrawCoinList3(1,"","2");
+        realCall.enqueue(new MyCallBack(getContext()) {
+            @Override
+            protected void callBack(ResultData resultData) {
+                Group<Caiwujilu> group = null;
+                if (resultData.isSuccess()) {
+                    group = resultData.getGroup("data", new TypeToken<Group<Caiwujilu>>() {
+                    }.getType());
+                    tradeUndoneLeverAdapter.setGroup(group);
+                    showEntrust();
+                }
             }
         });
     }
