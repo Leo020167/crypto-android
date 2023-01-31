@@ -310,8 +310,8 @@ public class MarketActivity extends TJRBaseToolBarSwipeBackActivity implements V
             return;
         }
 
-        String col = (String) SPUtils.get(this,"swichColor","0");
-        if (!TextUtils.isEmpty(col)&&col.equals("1")){//绿涨红跌
+        String col = (String) SPUtils.get(this,"swichColor", SwichColorActivity.COLOR_GREEN_UP_RED_DOWN);
+        if (!TextUtils.isEmpty(col)&&SwichColorActivity.COLOR_GREEN_UP_RED_DOWN.equalsIgnoreCase(col)){//绿涨红跌
             tvBuy.setBackgroundResource(R.drawable.selector_rect_solid_corner0_00ad88);
             tvSell.setBackgroundResource(R.drawable.selector_rect_solid_corner0_e2214e);
         }else{

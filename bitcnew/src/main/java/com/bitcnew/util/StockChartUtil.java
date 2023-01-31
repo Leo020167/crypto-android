@@ -9,6 +9,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.TypedValue;
 
+import com.bitcnew.module.home.SwichColorActivity;
 import com.bitcnew.widgets.quotitian.entity.StockDomain;
 import com.bitcnew.R;
 
@@ -56,8 +57,8 @@ public class StockChartUtil {
 
 
     public static int getRateColorNoWhite(Context context,double rate) {
-        String col = (String) SPUtils.get(context, "swichColor", "0");
-        if (!TextUtils.isEmpty(col) && col.equals("0")) {
+        String col = (String) SPUtils.get(context, "swichColor", SwichColorActivity.COLOR_GREEN_UP_RED_DOWN);
+        if (!TextUtils.isEmpty(col) && SwichColorActivity.COLOR_RED_UP_GREEN_DOWN.equalsIgnoreCase(col)) {
             if (rate >= 0) return ZHANG;
             else return DIE;
         }else {
@@ -67,8 +68,8 @@ public class StockChartUtil {
     }
 
     public static int getRateAlphaColorNoWhite(Context context,double rate) {
-        String col = (String) SPUtils.get(context, "swichColor", "0");
-        if (!TextUtils.isEmpty(col) && col.equals("0")) {
+        String col = (String) SPUtils.get(context, "swichColor", SwichColorActivity.COLOR_GREEN_UP_RED_DOWN);
+        if (!TextUtils.isEmpty(col) && SwichColorActivity.COLOR_RED_UP_GREEN_DOWN.equalsIgnoreCase(col)) {
             if (rate >= 0) return ALPHA_ZHANG;
             else return ALPHA_DIE;
         }else {
@@ -467,8 +468,8 @@ public class StockChartUtil {
     }
 
     public static int getRateBg(Context context, double rate) {
-        String col = (String) SPUtils.get(context, "swichColor", "0");
-        if (!TextUtils.isEmpty(col) && col.equals("0")) {
+        String col = (String) SPUtils.get(context, "swichColor", SwichColorActivity.COLOR_GREEN_UP_RED_DOWN);
+        if (!TextUtils.isEmpty(col) && SwichColorActivity.COLOR_RED_UP_GREEN_DOWN.equalsIgnoreCase(col)) {
             if (rate > 0) return R.drawable.shape_profit_rate_zhang_bg;
             else if (rate == 0 || rate == -100d) return R.drawable.shape_profit_rate_0_bg;
             else return R.drawable.shape_profit_rate_die_bg;
@@ -486,8 +487,8 @@ public class StockChartUtil {
      * @return
      */
     public static int getRateTextColor(Context context, double rate) {
-        String col = (String) SPUtils.get(context, "swichColor", "0");
-        if (!TextUtils.isEmpty(col) && col.equals("0")) {
+        String col = (String) SPUtils.get(context, "swichColor", SwichColorActivity.COLOR_GREEN_UP_RED_DOWN);
+        if (!TextUtils.isEmpty(col) && SwichColorActivity.COLOR_RED_UP_GREEN_DOWN.equalsIgnoreCase(col)) {
             if (rate > 0) {
                 return ContextCompat.getColor(context, R.color.quotation_zhang_color);
             } else if (rate < 0) {
@@ -513,8 +514,8 @@ public class StockChartUtil {
      * @return
      */
     public static int getRateTextColorWithBlackBg(Context context, double rate) {
-        String col = (String) SPUtils.get(context, "swichColor", "0");
-        if (!TextUtils.isEmpty(col) && col.equals("0")) {
+        String col = (String) SPUtils.get(context, "swichColor", SwichColorActivity.COLOR_GREEN_UP_RED_DOWN);
+        if (!TextUtils.isEmpty(col) && SwichColorActivity.COLOR_RED_UP_GREEN_DOWN.equalsIgnoreCase(col)) {
             if (rate > 0) {
                 return ContextCompat.getColor(context, R.color.quotation_zhang_color);
             } else if (rate < 0) {

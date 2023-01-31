@@ -13,6 +13,10 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class SwichColorActivity extends TJRBaseToolBarSwipeBackActivity implements View.OnClickListener{
+
+    public static final String COLOR_GREEN_UP_RED_DOWN = "1";
+    public static final String COLOR_RED_UP_GREEN_DOWN = "0";
+
     @BindView(R.id.txt_color1)
     TextView txt_color1;
     @BindView(R.id.txt_color2)
@@ -40,12 +44,12 @@ public class SwichColorActivity extends TJRBaseToolBarSwipeBackActivity implemen
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.txt_color1:
-                SPUtils.put(this,"swichColor","1");
+                SPUtils.put(this,"swichColor",COLOR_GREEN_UP_RED_DOWN);
                 CommonUtil.showmessage(getResources().getString(R.string.shezhichenggong),this);
                 finish();
                 break;
             case R.id.txt_color2:
-                SPUtils.put(this,"swichColor","0");
+                SPUtils.put(this,"swichColor",COLOR_RED_UP_GREEN_DOWN);
                 CommonUtil.showmessage(getResources().getString(R.string.shezhichenggong),this);
                 finish();
                 break;

@@ -15,6 +15,7 @@ import android.view.MotionEvent;
 import com.bitcnew.common.entity.ResultData;
 import com.bitcnew.common.entity.jsonparser.ResultDataParser;
 import com.bitcnew.http.tjrcpt.VHttpServiceManager;
+import com.bitcnew.module.home.SwichColorActivity;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.DateUtils;
 import com.bitcnew.util.SPUtils;
@@ -125,7 +126,7 @@ public class StarKlineChart extends KLineChartBaseView {
     private void init(Context context, boolean canScrollKLine) {
         this.mContext = context;
         this.canScrollKLine = canScrollKLine;
-        col = (String) SPUtils.get(context,"swichColor","0");
+        col = (String) SPUtils.get(context,"swichColor", SwichColorActivity.COLOR_GREEN_UP_RED_DOWN);
 //        chartBgColor = Color.WHITE;
         gestureDetector = new GestureDetector(new GestureListener());
         paint = new Paint(Paint.ANTI_ALIAS_FLAG);
@@ -496,7 +497,7 @@ public class StarKlineChart extends KLineChartBaseView {
                     if (kc.getCoordinateX() >= 0 && kc.getCoordinateX() <= chartWidth) {
                         if (kc.getAmt() > 0) {// 坐标比较,真实价大的坐标小,所以真实价的收盘大于开盘,坐标比的话就是小于
                             // 收盘价大于开盘价
-                            if (!TextUtils.isEmpty(col)&&col.equals("1")) {//绿涨红跌
+                            if (!TextUtils.isEmpty(col)&&SwichColorActivity.COLOR_GREEN_UP_RED_DOWN.equalsIgnoreCase(col)) {//绿涨红跌
                                 paint.setColor(StockChartUtil.DIE);// 颜色绿
                             }else{
                                 paint.setColor(StockChartUtil.ZHANG);// 颜色红
@@ -513,7 +514,7 @@ public class StarKlineChart extends KLineChartBaseView {
                             }
                         } else if (kc.getAmt() < 0) {// 坐标比较,真实价大的坐标小,所以真实价的收盘小于开盘,坐标比的话就是大于
                             // 收盘价小于开盘价
-                            if (!TextUtils.isEmpty(col)&&col.equals("1")) {//绿涨红跌
+                            if (!TextUtils.isEmpty(col)&&SwichColorActivity.COLOR_GREEN_UP_RED_DOWN.equalsIgnoreCase(col)) {//绿涨红跌
                                 paint.setColor(StockChartUtil.ZHANG);// 颜色红
                             }else{
                                 paint.setColor(StockChartUtil.DIE);// 颜色绿
@@ -649,14 +650,14 @@ public class StarKlineChart extends KLineChartBaseView {
             if ((kc.getCoordinateX() - candlesWidth / 2) != (kc.getCoordinateX() + candlesWidth / 2))
                 volpaint.setStyle(Paint.Style.FILL);// 实心
             else volpaint.setStyle(Paint.Style.FILL);// 空心 Paint.Style.STROKE
-            if (!TextUtils.isEmpty(col)&&col.equals("1")) {//绿涨红跌
+            if (!TextUtils.isEmpty(col)&&SwichColorActivity.COLOR_GREEN_UP_RED_DOWN.equalsIgnoreCase(col)) {//绿涨红跌
                 volpaint.setColor(StockChartUtil.ZHANG);/* 设定paint的颜色 */
             }else {
                 volpaint.setColor(StockChartUtil.DIE);/* 设定paint的颜色 */
             }
 
         } else {
-            if (!TextUtils.isEmpty(col)&&col.equals("1")) {//绿涨红跌
+            if (!TextUtils.isEmpty(col)&&SwichColorActivity.COLOR_GREEN_UP_RED_DOWN.equalsIgnoreCase(col)) {//绿涨红跌
                 volpaint.setColor(StockChartUtil.DIE);/* 设定paint的颜色 */
             }else {
                 volpaint.setColor(StockChartUtil.ZHANG);/* 设定paint的颜色 */

@@ -32,6 +32,7 @@ import com.bitcnew.http.model.Components;
 import com.bitcnew.http.model.Placard;
 import com.bitcnew.module.chat.ChatRoomActivity;
 import com.bitcnew.module.home.NoticeListActivity;
+import com.bitcnew.module.home.SwichColorActivity;
 import com.bitcnew.module.home.SwitchLanguageActivity;
 import com.bitcnew.module.home.XinbishengouActivity;
 import com.bitcnew.module.home.adapter.HomeFirstButtonAdapter;
@@ -337,8 +338,8 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
                     symbol_txt.setText(curr.getString("symbol") + "/" + curr.getString("currency"));
                     String rate = curr.get("rate").toString();
                     symbol_txt0.setText(rate + "%");
-                    String col = (String) SPUtils.get(getActivity(), "swichColor", "0");
-                    if (!TextUtils.isEmpty(col) && col.equals("1")) {
+                    String col = (String) SPUtils.get(getActivity(), "swichColor", SwichColorActivity.COLOR_GREEN_UP_RED_DOWN);
+                    if (!TextUtils.isEmpty(col) && SwichColorActivity.COLOR_GREEN_UP_RED_DOWN.equalsIgnoreCase(col)) {
                         if (rate.contains("-")) {
                             symbol_txt0.setTextColor(getActivity().getResources().getColor(R.color.redcolor2));
                             currency_txt.setTextColor(getActivity().getResources().getColor(R.color.redcolor2));
