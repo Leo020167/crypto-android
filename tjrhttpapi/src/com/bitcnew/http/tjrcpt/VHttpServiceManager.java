@@ -348,6 +348,7 @@ public class VHttpServiceManager {
     public static final String PRYBAR_ORDER_UPDATEWINLOSS = "prybar/order/updateWinLoss.do";//止盈止损提交：第2步
 
     public static final String ARTICLE_NOTICELIST = "article/noticeList.do";
+    public static final String ARTICLE_HELPLIST = "article/helpList.do";
     public static final String ARTICLE_NOTICETOP = "article/noticeTop.do";
 
 

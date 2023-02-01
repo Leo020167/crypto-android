@@ -1597,6 +1597,11 @@ public interface VService {
     @POST(VHttpServiceManager.ARTICLE_NOTICELIST)
     Call<ResponseBody> noticeList(@Field("pageNo") int pageNo);
 
+    //获取帮助中心列表
+    @FormUrlEncoded
+    @POST(VHttpServiceManager.ARTICLE_HELPLIST)
+    Call<ResponseBody> helpList(@Field("pageNo") int pageNo);
+
     @FormUrlEncoded
     @POST(VHttpServiceManager.ARTICLE_NOTICETOP)
     Call<ResponseBody> noticeTop(@Field("page") int page);

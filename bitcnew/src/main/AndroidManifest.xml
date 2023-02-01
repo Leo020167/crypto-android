@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:uses-libraryandroid="http://schemas.android.com/apk/res-auto"
     package="com.bitcnew"
-    android:versionCode="115"
-    android:versionName="1.2.0.15">
+    android:versionCode="116"
+    android:versionName="1.2.0.16">
 
     <uses-sdk
         android:targetSdkVersion="28"
@@ -694,6 +694,11 @@
             android:name=".module.home.NoticeListActivity"
             android:configChanges="locale|layoutDirection"
             android:label="@string/myMsg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.home.HelpListActivity"
+            android:configChanges="locale|layoutDirection"
+            android:label="@string/bangzhuzhongxin"
             android:screenOrientation="portrait" />
         <activity
             android:name=".module.legal.LegalMoneyActivity"

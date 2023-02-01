@@ -33,8 +33,10 @@ import com.bitcnew.module.chat.ChatRoomActivity;
 import com.bitcnew.module.home.BindEmailActivity;
 import com.bitcnew.module.home.DailiActivity;
 import com.bitcnew.module.home.EmailAuthActivity;
+import com.bitcnew.module.home.HelpListActivity;
 import com.bitcnew.module.home.HomeActivity;
 import com.bitcnew.module.home.JiaoyijiluActivity;
+import com.bitcnew.module.home.NoticeListActivity;
 import com.bitcnew.module.home.ShequActivity;
 import com.bitcnew.module.home.ShimingrenzhengtongguoActivity;
 import com.bitcnew.module.home.TakePhotoActivity;
@@ -396,9 +398,11 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
                 PaymentTermActivity.pageJump(getActivity(), 0);
                 break;
             case R.id.llHelp:
-                if (!TextUtils.isEmpty(helpCenterUrl)) {
-                    CommonWebViewActivity.pageJumpCommonWebViewActivity(getActivity(), helpCenterUrl);
-                }
+//                if (!TextUtils.isEmpty(helpCenterUrl)) {
+//                    CommonWebViewActivity.pageJumpCommonWebViewActivity(getActivity(), helpCenterUrl);
+//                }
+                Intent intent = new Intent(getActivity(), HelpListActivity.class);
+                startActivity(intent);
                 break;
             case R.id.llDigitalHis:
                 CoinTradeEntrustLeverActivity.pageJump(getActivity(), "digital");
