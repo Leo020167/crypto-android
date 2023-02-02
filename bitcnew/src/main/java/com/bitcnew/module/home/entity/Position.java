@@ -63,4 +63,6 @@ public class Position implements TaojinluType, Serializable {
 
     public String orderType;
 
+    public String sum;
+
 }

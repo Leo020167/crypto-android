@@ -121,11 +121,11 @@ public class TradeLeverHistoryBibiAdapter extends BaseLoadMoreImageLoaderRecycle
                 llItem2.setVisibility(View.VISIBLE);
                 tvSymbol2.setText(CommonUtil.getOriginSymbol(data.symbol));
                 if (!TextUtils.isEmpty(data.buySell)){
-                    if (data.buySell.equals("buy")||data.buySell.equals("买入")){
-                        tvBuySell2.setText("• 买入");
+                    if (data.buySell.equals("buy") || data.buySell.equals("买入")){
+                        tvBuySell2.setText("• " + context.getString(R.string.mairu));
                         tvBuySell2.setTextColor(context.getResources().getColor(R.color.c14cc4B));
                     }else {
-                        tvBuySell2.setText("• 卖出");
+                        tvBuySell2.setText("• " + context.getString(R.string.maichu));
                         tvBuySell2.setTextColor(context.getResources().getColor(R.color.ccc1414));
                     }
                 }else {

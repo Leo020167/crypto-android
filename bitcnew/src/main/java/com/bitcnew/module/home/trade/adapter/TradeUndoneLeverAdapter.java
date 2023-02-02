@@ -93,11 +93,26 @@ public class TradeUndoneLeverAdapter extends BaseLoadMoreImageLoaderRecycleAdapt
 
         public void setData(final Position data, final int pos) {
             tvSymbol.setText(CommonUtil.getOriginSymbol(data.symbol));
-            tvBuySell.setText("•" + data.buySellValue);
+
+//            tvBuySell.setText("•" + data.buySellValue);
+            if (data.buySell.equals("buy") || data.buySell.equals("买入")){
+                tvBuySell.setText(" • " + context.getString(R.string.mairu));
+                tvBuySell.setTextColor(context.getResources().getColor(R.color.c14cc4B));
+            } else {
+                tvBuySell.setText(" • " + context.getString(R.string.maichu));
+                tvBuySell.setTextColor(context.getResources().getColor(R.color.ccc1414));
+            }
+
             tvTime.setText(DateUtils.getStringDateOfString2(String.valueOf(data.openTime), DateUtils.TEMPLATE_yyyyMMdd_HHmm));
-            tvHand.setText(data.openHand);
+
+//            tvHand.setText(data.openHand);
+            tvHand.setText(data.amount+"");
+
             tvOpenPrice.setText(data.price);
-            tvOpenBail.setText(data.openBail);
+
+//            tvOpenBail.setText(data.openBail);
+            tvOpenBail.setText(data.sum);
+
             tvCancel.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
