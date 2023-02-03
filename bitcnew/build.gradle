@@ -92,6 +92,7 @@ android {
 
     }
 
+    flavorDimensions "default"
     productFlavors {
         fire {
             applicationId "com.bitcnew"
@@ -102,6 +103,11 @@ android {
             applicationId "com.bitcnew.encrypted"
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "encrypted"]
             resValue "string", "app_name", "Encrypted"
+        }
+        tradingview {
+            applicationId "com.bitcnew.tradingview"
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "TradingView"]
+            resValue "string", "app_name", "TradingView"
         }
     }
     lintOptions {

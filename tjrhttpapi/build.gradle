@@ -22,6 +22,18 @@ android {
     defaultConfig {
         minSdkVersion 16
     }
+    flavorDimensions "default"
+    productFlavors {
+        fire {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"worldcoinservice.com"'
+        }
+        encrypted {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"encryptedex.com"'
+        }
+        tradingview {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"worldcoinservice.com"'
+        }
+    }
 
     sourceSets {
         main {
