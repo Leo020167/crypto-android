@@ -292,6 +292,7 @@ public class JiaoyijiluActivity extends TJRBaseToolBarSwipeBackActivity implemen
                         txtTitle.setText(title);
                     }
                     setFragmentData(accountType);
+                    setFragmentData2(accountType);
                     if (!TextUtils.isEmpty(accountType)){
                         if (accountType.equals("stock")||accountType.equals("digital")){//stock全球指数交易记录   digital合约交易记录
                             ll_zongjiaoyishoushu.setVisibility(View.VISIBLE);

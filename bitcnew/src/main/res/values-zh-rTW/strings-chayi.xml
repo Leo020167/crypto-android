@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">花費TFU:</string>
+    <string name="shequzongjianglitfu">社區總獎勵(TFU)</string>
+    <string name="jianglitfu">獎勵（TFU）</string>
+    <string name="fanyongusdt">返傭（TFU）</string>
+    <string name="xiaohaotoken">消耗TFU:</string>
+    <string name="token">TFU</string>
+    <string name="zongzichantoken">總資產(TFU)</string>
+    <string name="chakanruhehuoqutoken">查看如何獲取TFU</string>
+    <string name="shuliangtoken">數量(TFU)</string>
+</resources>

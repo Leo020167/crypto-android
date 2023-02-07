@@ -21,6 +21,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bitcnew.BuildConfig;
 import com.bitcnew.common.base.TJRBaseToolBarSwipeBackActivity;
 import com.bitcnew.common.constant.CommonConst;
 import com.bitcnew.common.web.CommonWebViewActivity;
@@ -164,6 +165,11 @@ public class SignUpActivity extends TJRBaseToolBarSwipeBackActivity implements T
         tvCountryCode.setOnClickListener(this);
 
         etInviteCode= (TextView) findViewById(R.id.etInviteCode);
+        if ("encrypted".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            etInviteCode.setHint(R.string.qingshuruyaoqingmabitian);
+        } else {
+            etInviteCode.setHint(R.string.qingshuruyaoqingmaxuantian);
+        }
 
         tvCountryName = (TextView) findViewById(R.id.tvCountryName);
         tvCountryName.setOnClickListener(this);
@@ -272,10 +278,10 @@ public class SignUpActivity extends TJRBaseToolBarSwipeBackActivity implements T
 
 
                 String inviteCode=etInviteCode.getText().toString();
-//                if(TextUtils.isEmpty(inviteCode)){
-//                    CommonUtil.showmessage(getResources().getString(R.string.qingshuruyaoqingmabitian),this);
-//                    return;
-//                }
+                if("encrypted".equalsIgnoreCase(BuildConfig.FLAVOR) && TextUtils.isEmpty(inviteCode)){
+                    CommonUtil.showmessage(getResources().getString(R.string.qingshuruyaoqingmabitian),this);
+                    return;
+                }
 
 //                if (!tv_sign.isChecked()) {
 //                    CommonUtil.showmessage("请先阅读《BITC用户协议》和《FireUp 隐私条款》", SignUpActivity.this);

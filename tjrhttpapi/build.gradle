@@ -31,7 +31,7 @@ android {
             buildConfigField 'String', 'SERVER_ADDRESS', '"encryptedex.com"'
         }
         tradingview {
-            buildConfigField 'String', 'SERVER_ADDRESS', '"worldcoinservice.com"'
+            buildConfigField 'String', 'SERVER_ADDRESS', '"bjchjscl.com"'
         }
     }
 

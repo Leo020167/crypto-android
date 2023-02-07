@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bitcnew.BuildConfig;
 import com.bitcnew.SpUtils;
 import com.bitcnew.common.base.TJRBaseToolBarActivity;
 import com.bitcnew.common.constant.CommonConst;
@@ -89,8 +90,13 @@ public class WelcomeActivity extends TJRBaseToolBarActivity {
             config.locale = new Locale("pt");
         } else {
 //            config.locale = Locale.getDefault();
-            config.locale = Locale.ENGLISH;
+            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                config.locale = Locale.TRADITIONAL_CHINESE;
+            } else {
+                config.locale = Locale.ENGLISH;
+            }
         }
+
         resources.updateConfiguration(config, dm);
         //更新语言后，destroy当前页面，重新绘制
         finish();
@@ -144,9 +150,9 @@ public class WelcomeActivity extends TJRBaseToolBarActivity {
         TjrStarNSKManager.getInstance().resetInit(MainApplication.getCtx());
         User user = ((MainApplication) getApplicationContext()).getUser();
         if (user != null) userId = String.valueOf(user.getUserId());
-        getDns();
-//        jumpNextPage();
 
+//        getDns();
+        jumpNextPage();
     }
 
     private int urlNum=1,wNum,listSize=1;//网络请求次数,   尾数

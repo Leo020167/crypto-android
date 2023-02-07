@@ -24,6 +24,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
+import com.bitcnew.BuildConfig;
 import com.bitcnew.MainApplication;
 import com.bitcnew.bean.TransformersBean;
 import com.bitcnew.common.constant.CommonConst;
@@ -31,6 +32,7 @@ import com.bitcnew.http.common.ConfigTjrInfo;
 import com.bitcnew.http.model.Components;
 import com.bitcnew.http.model.Placard;
 import com.bitcnew.module.chat.ChatRoomActivity;
+import com.bitcnew.module.home.MarketActivity2;
 import com.bitcnew.module.home.NoticeListActivity;
 import com.bitcnew.module.home.SwichColorActivity;
 import com.bitcnew.module.home.SwitchLanguageActivity;
@@ -226,7 +228,11 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         } else if ("pt".equals(lang)) {
             langIv.setImageResource(R.drawable.icon_lang_pt);
         } else {
-            langIv.setImageResource(R.drawable.icon_lang_uk);
+            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                langIv.setImageResource(R.drawable.icon_lang_cn_hk);
+            } else {
+                langIv.setImageResource(R.drawable.icon_lang_uk);
+            }
         }
     }
 
@@ -245,7 +251,11 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         homeMarketAdapter.setOnPlayClickListener(new HomeMarketAdapter0.OnPlayClickListener() {
             @Override
             public void onSelClick(int pos, String symbol) {
-                MarketActivity.pageJump(getActivity(), symbol, 1, "digital");
+                if ("encrypted".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                    MarketActivity2.pageJump(getActivity(), symbol, 1,"spot");
+                } else {
+                    MarketActivity.pageJump(getActivity(), symbol, 1, "digital");
+                }
             }
         });
 

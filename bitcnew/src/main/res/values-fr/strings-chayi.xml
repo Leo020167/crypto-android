@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">FREE FLOWS TFU:</string>
+    <string name="shequzongjianglitfu">Total des récompenses communautaires (TFU)</string>
+    <string name="jianglitfu">Incitatif (TFU)</string>
+    <string name="fanyongusdt">Commission de retour (TFU)</string>
+    <string name="xiaohaotoken">Consommation TFU:</string>
+    <string name="token">TFU</string>
+    <string name="zongzichantoken">Actif total (TFU)</string>
+    <string name="chakanruhehuoqutoken">Voir comment obtenir TFU</string>
+    <string name="shuliangtoken">Quantité (TFU</string>
+</resources>

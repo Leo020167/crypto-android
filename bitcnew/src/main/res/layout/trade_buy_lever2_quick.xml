@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quickInputContainer"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/bg_dddddd_stroke_2dp">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/quick20Tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="20"
+        android:text="20%"
+        android:textColor="#333"
+        android:textSize="10dp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="#DDD" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/quick40Tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="40"
+        android:text="40%"
+        android:textColor="#333"
+        android:textSize="10dp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="#DDD" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/quick60Tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="60"
+        android:text="60%"
+        android:textColor="#333"
+        android:textSize="10dp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="#DDD" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/quick80Tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="80"
+        android:text="80%"
+        android:textColor="#333"
+        android:textSize="10dp" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="#DDD" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/quick100Tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:tag="100"
+        android:text="100%"
+        android:textColor="#333"
+        android:textSize="10dp" />
+
+</LinearLayout>

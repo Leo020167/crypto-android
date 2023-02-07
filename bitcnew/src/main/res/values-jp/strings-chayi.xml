@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">フラワー料金TFU：</string>
+    <string name="shequzongjianglitfu">合計コミュニティ報酬（TFU）</string>
+    <string name="jianglitfu">インセンティブ（TFU）</string>
+    <string name="fanyongusdt">帰還委員会（TFU）</string>
+    <string name="xiaohaotoken">TFU消費：</string>
+    <string name="token">TFU</string>
+    <string name="zongzichantoken">総資産（TFU）</string>
+    <string name="chakanruhehuoqutoken">TFUの入手方法をご覧ください</string>
+    <string name="shuliangtoken">数量（TFU</string>
+</resources>

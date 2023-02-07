@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.bitcnew.R;
 import com.bitcnew.module.home.trade.entity.CoinConfig;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CoinTypePickerDialog extends Dialog {
@@ -28,7 +29,7 @@ public class CoinTypePickerDialog extends Dialog {
     private final List<CoinConfig> coinTypeList;
     private final Adapter coinTypeListAdapter;
 
-    public CoinTypePickerDialog(Context context, List<CoinConfig> coinTypeList, OnConfirmListener onConfirmListener) {
+    public CoinTypePickerDialog(Context context, List<CoinConfig> coinTypeList1, OnConfirmListener onConfirmListener) {
         super(context, R.style.MyDialog);
         FrameLayout container = new FrameLayout(context);
         container.setLayoutParams(new ViewGroup.LayoutParams(-1, -1));
@@ -38,8 +39,11 @@ public class CoinTypePickerDialog extends Dialog {
         recyclerView = view.findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(context));
 
-        this.coinTypeList = coinTypeList;
-        coinTypeListAdapter = new Adapter(coinTypeList);
+        this.coinTypeList = new ArrayList<>();
+        if (null != coinTypeList1) {
+            this.coinTypeList.addAll(coinTypeList1);
+        }
+        coinTypeListAdapter = new Adapter(this.coinTypeList);
         recyclerView.setAdapter(coinTypeListAdapter);
 
         view.findViewById(R.id.action_add).setOnClickListener(v -> {
@@ -49,7 +53,7 @@ public class CoinTypePickerDialog extends Dialog {
                 return;
             }
 
-            CoinConfig coinType = coinTypeList.get(index);
+            CoinConfig coinType = this.coinTypeList.get(index);
             if (null != onConfirmListener) {
                 onConfirmListener.onConfirm(coinType);
             }

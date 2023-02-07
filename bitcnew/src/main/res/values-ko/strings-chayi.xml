@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">꽃 수수료 TFU :</string>
+    <string name="shequzongjianglitfu">총 커뮤니티 보상 (TFU)</string>
+    <string name="jianglitfu">인센티브 (TFU)</string>
+    <string name="fanyongusdt">반품위원회 (TFU)</string>
+    <string name="xiaohaotoken">TFU 소비 :</string>
+    <string name="token">TFU</string>
+    <string name="zongzichantoken">총 자산 (TFU)</string>
+    <string name="chakanruhehuoqutoken">TFU를 얻는 방법을보십시오</string>
+    <string name="shuliangtoken">수량 (TFU</string>
+</resources>

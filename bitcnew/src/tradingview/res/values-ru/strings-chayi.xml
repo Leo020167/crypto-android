@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Цветочная плата TVC:</string>
+    <string name="shequzongjianglitfu">Общее вознаграждение сообщества (TVC)</string>
+    <string name="jianglitfu">Стимул (TVC)</string>
+    <string name="fanyongusdt">Комиссия по возвращению (TVC)</string>
+    <string name="xiaohaotoken">Потребление TVC:</string>
+    <string name="token">TVC</string>
+    <string name="zongzichantoken">Общие активы (TVC)</string>
+    <string name="chakanruhehuoqutoken">Посмотрите, как получить TVC</string>
+    <string name="shuliangtoken">Количество (TVC</string>
+    <string name="zhiyashengyi">Defi особая зона</string>
+    <string name="meirilixi">ежедневный доход</string>
+
+</resources>

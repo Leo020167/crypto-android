@@ -36,6 +36,7 @@ import com.bitcnew.module.wallet.LeverInfoActivity;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.MyCallBack;
 import com.bitcnew.util.PageJumpUtil;
+import com.bitcnew.util.StockChartUtil;
 import com.bitcnew.widgets.LoadMoreRecycleView;
 import com.bitcnew.widgets.SimpleRecycleDivider;
 import com.google.gson.reflect.TypeToken;
@@ -106,6 +107,7 @@ public class HomeBibiAccountFragment extends UserBaseFragment implements View.On
             tvFrozenBalance.setText(balanceAccount.frozenAmount);
             tvWeituojine.setText(balanceAccount.frozenBail);
             tvZongyingkui.setText(balanceAccount.profit);
+            tvZongyingkui.setTextColor(StockChartUtil.getRateTextColor(getContext(), Double.parseDouble(balanceAccount.profit)));
             tvDangqianchicang.setText("当前持仓值");
 
             if (null!=balanceAccount){

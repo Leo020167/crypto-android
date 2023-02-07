@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Flower Fee TFU:</string>
+    <string name="shequzongjianglitfu">Total Community Rewards (TFU)</string>
+    <string name="jianglitfu">Incentive (TFU)</string>
+    <string name="fanyongusdt">Return commission (TFU)</string>
+    <string name="xiaohaotoken">TFU consumption:</string>
+    <string name="token">TFU</string>
+    <string name="zongzichantoken">Total Assets (TFU)</string>
+    <string name="chakanruhehuoqutoken">See how to get TFU</string>
+    <string name="shuliangtoken">Quantity (TFU</string>
+</resources>

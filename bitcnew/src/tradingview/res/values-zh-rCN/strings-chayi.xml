@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">花费TVC:</string>
+    <string name="shequzongjianglitfu">社区总奖励(TVC)</string>
+    <string name="jianglitfu">奖励（TVC）</string>
+    <string name="fanyongusdt">返佣（TVC）</string>
+    <string name="xiaohaotoken">消耗TVC:</string>
+    <string name="token">TVC</string>
+    <string name="zongzichantoken">总资产(TVC)</string>
+    <string name="chakanruhehuoqutoken">查看如何获取TVC</string>
+    <string name="shuliangtoken">数量(TVC)</string>
+    <string name="zhiyashengyi">Defi专区</string>
+    <string name="meirilixi">每日收益</string>
+
+</resources>

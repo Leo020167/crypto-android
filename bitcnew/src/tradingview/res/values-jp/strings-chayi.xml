@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">フラワー料金TVC：</string>
+    <string name="shequzongjianglitfu">合計コミュニティ報酬（TVC）</string>
+    <string name="jianglitfu">インセンティブ（TVC）</string>
+    <string name="fanyongusdt">帰還委員会（TVC）</string>
+    <string name="xiaohaotoken">TVC消費：</string>
+    <string name="token">TVC</string>
+    <string name="zongzichantoken">総資産（TVC）</string>
+    <string name="chakanruhehuoqutoken">TVCの入手方法をご覧ください</string>
+    <string name="shuliangtoken">数量（TVC</string>
+    <string name="zhiyashengyi">Defi 特別エリア</string>
+    <string name="meirilixi">日収</string>
+
+</resources>

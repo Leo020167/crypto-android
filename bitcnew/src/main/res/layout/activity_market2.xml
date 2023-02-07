@@ -314,7 +314,8 @@
                                 android:paddingRight="10dip"
                                 android:text="@string/wuri"
                                 android:textColor="@color/selector_select_ff6b1b_unselect_6a7081"
-                                android:textSize="@dimen/font_size_14" />
+                                android:textSize="@dimen/font_size_14"
+                                android:visibility="gone" />
                             <TextView
                                 android:id="@+id/tvKline1Minutes"
                                 android:layout_width="wrap_content"

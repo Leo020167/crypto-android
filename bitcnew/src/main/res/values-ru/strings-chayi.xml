@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Цветочная плата TFU:</string>
+    <string name="shequzongjianglitfu">Общее вознаграждение сообщества (TFU)</string>
+    <string name="jianglitfu">Стимул (TFU)</string>
+    <string name="fanyongusdt">Комиссия по возвращению (TFU)</string>
+    <string name="xiaohaotoken">Потребление TFU:</string>
+    <string name="token">TFU</string>
+    <string name="zongzichantoken">Общие активы (TFU)</string>
+    <string name="chakanruhehuoqutoken">Посмотрите, как получить TFU</string>
+    <string name="shuliangtoken">Количество (TFU</string>
+</resources>

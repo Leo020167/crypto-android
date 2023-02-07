@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Flower Fee TVC:</string>
+    <string name="shequzongjianglitfu">Total Community Rewards (TVC)</string>
+    <string name="jianglitfu">Incentive (TVC)</string>
+    <string name="fanyongusdt">Return commission (TVC)</string>
+    <string name="xiaohaotoken">TVC consumption:</string>
+    <string name="token">TVC</string>
+    <string name="zongzichantoken">Total Assets (TVC)</string>
+    <string name="chakanruhehuoqutoken">See how to get TVC</string>
+    <string name="shuliangtoken">Quantity (TVC</string>
+    <string name="zhiyashengyi">Defi special area</string>
+    <string name="meirilixi">Daily income</string>
+</resources>

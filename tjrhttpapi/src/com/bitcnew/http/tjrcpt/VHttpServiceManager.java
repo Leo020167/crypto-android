@@ -8,6 +8,7 @@ import android.telephony.TelephonyManager;
 import android.util.Log;
 
 import com.bitcnew.SpUtils;
+import com.bitcnew.http.BuildConfig;
 import com.bitcnew.http.TjrBaseApi;
 import com.bitcnew.http.retrofitservice.FileUploadService;
 import com.bitcnew.http.retrofitservice.PublicParameterInterceptor;
@@ -585,7 +586,11 @@ public class VHttpServiceManager {
                 } else if ("pt".equals(lang)) {//葡萄牙语
                     lang = "pt";
                 } else {
-                    lang = "en";
+                    if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                        lang = "ts";
+                    } else {
+                        lang = "en";
+                    }
                 }
                 Request request = chain.request().newBuilder().addHeader("lang", lang).build();
                 return chain.proceed(request);
