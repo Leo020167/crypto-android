@@ -1156,8 +1156,8 @@
     <string name="sousuoguojiahuodiqu">国または地域ごとに検索します</string>
     <string name="zhucezhanghu">アカウント登録</string>
     <string name="chongxinhuoqu">取得します</string>
-    <string name="wwctyinsitiaokuan">《ファイアーアッププライバシーポリシー》</string>
-    <string name="wwctyonghuxieyi">《ファイアーアップユーザー契約》</string>
+    <string name="wwctyinsitiaokuan">《%sププライバシーポリシー》</string>
+    <string name="wwctyonghuxieyi">《%sプユーザー契約》</string>
     <string name="zhucejidaibiaoniyitongyibingjieshou">登録することにより、あなたはそれに同意し、受け入れます</string>
     <string name="duanxinyanzhengmayijingfasongzhi">SMS検証コードが送信されました</string>
     <string name="qingchongxinhuoquyanzhengma">確認コードをもう一度取得してください</string>

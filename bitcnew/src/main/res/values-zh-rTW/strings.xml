@@ -1156,8 +1156,8 @@
     <string name="sousuoguojiahuodiqu">搜索國家或地區</string>
     <string name="zhucezhanghu">註冊賬戶</string>
     <string name="chongxinhuoqu">重新獲取</string>
-    <string name="wwctyinsitiaokuan">《FireUp隱私條款》</string>
-    <string name="wwctyonghuxieyi">《FireUp用戶協議》</string>
+    <string name="wwctyinsitiaokuan">《%s隱私條款》</string>
+    <string name="wwctyonghuxieyi">《%s用戶協議》</string>
     <string name="zhucejidaibiaoniyitongyibingjieshou">註冊即代表你已同意並接受</string>
     <string name="duanxinyanzhengmayijingfasongzhi">短信驗證碼已經發送至</string>
     <string name="qingchongxinhuoquyanzhengma">請重新獲取驗證碼</string>

@@ -52,6 +52,10 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
     TextView tvAll;
     @BindView(R.id.tvEnableAmount)
     TextView tvEnableAmount;
+    @BindView(R.id.amountCoinTypeTv)
+    TextView amountCoinTypeTv;
+    @BindView(R.id.tvEnableAmountCoinType)
+    TextView tvEnableAmountCoinType;
     @BindView(R.id.tvTransferCoin)
     TextView tvTransferCoin;
     @BindView(R.id.llFrom)
@@ -168,6 +172,8 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
                         if (coinTypeList != null && coinTypeList.size() == 1) {
                             coinType = coinTypeList.get(0);
                             tvCoinType.setText(coinType.getSymbol());
+                            amountCoinTypeTv.setText(coinType.getSymbol());
+                            tvEnableAmountCoinType.setText(coinType.getSymbol());
                         }
                     } catch (Exception e) {
                         coinTypeList = null;
@@ -220,7 +226,7 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
                 if (resultData.isSuccess()) {
                     amountDecimals = resultData.getItem("amountDecimals", Integer.class);
                     holdAmount = resultData.getItem("holdAmount", String.class);
-                    tvEnableAmount.setText(getResources().getString(R.string.keyongshuliang)+": " + holdAmount + " USDT");
+                    tvEnableAmount.setText(getResources().getString(R.string.keyongshuliang)+": " + holdAmount);
                 }
             }
         });
@@ -336,6 +342,8 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
         new CoinTypePickerDialog(getContext(), coinTypeList, coinType -> {
             this.coinType = coinType;
             tvCoinType.setText(coinType.getSymbol());
+            amountCoinTypeTv.setText(coinType.getSymbol());
+            tvEnableAmountCoinType.setText(coinType.getSymbol());
         }).show();
     }
 

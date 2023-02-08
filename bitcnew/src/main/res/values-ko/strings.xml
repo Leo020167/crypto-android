@@ -1156,8 +1156,8 @@
     <string name="sousuoguojiahuodiqu">국가 또는 지역별 검색</string>
     <string name="zhucezhanghu">계정을 등록하십시오</string>
     <string name="chongxinhuoqu">검색하다</string>
-    <string name="wwctyinsitiaokuan">《FireUp 개인 정보 보호 조건》</string>
-    <string name="wwctyonghuxieyi">《FireUp 사용자 계약》</string>
+    <string name="wwctyinsitiaokuan">《%s 개인 정보 보호 조건》</string>
+    <string name="wwctyonghuxieyi">《%s 사용자 계약》</string>
     <string name="zhucejidaibiaoniyitongyibingjieshou">등록함으로써 귀하는 동의하고 수락합니다</string>
     <string name="duanxinyanzhengmayijingfasongzhi">SMS 확인 코드가 전송되었습니다</string>
     <string name="qingchongxinhuoquyanzhengma">검증 코드를 다시 얻으십시오</string>

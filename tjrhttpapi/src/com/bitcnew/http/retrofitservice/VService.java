@@ -305,7 +305,9 @@ public interface VService {
     //修改手机
     @FormUrlEncoded
     @POST(VHttpServiceManager.V_UPDATE_PHONE)
-    Call<ResponseBody> updatePhone(@Field("phone") String phone,
+    Call<ResponseBody> updatePhone(
+            @Field("countryCode") String countryCode,
+            @Field("phone") String phone,
                                    @Field("code") String code);
     //验证身份
     @FormUrlEncoded

@@ -223,7 +223,9 @@ public class HomeStockDigitalMarkFragment extends UserBaseFragment implements Vi
 
         homeMarketAdapter = new HomeMarketAdapter(getActivity(), isLever,accountType);
         rvMarketList.setLayoutManager(new LinearLayoutManager(getActivity()));
-        rvMarketList.setItemAnimator(new HomeMarketItemAnimator());
+        HomeMarketItemAnimator itemAnimator = new HomeMarketItemAnimator();
+        itemAnimator.setAddDuration(300);
+        rvMarketList.setItemAnimator(itemAnimator);
 //        rvMarketList.addItemDecoration(new SimpleRecycleDivider(getActivity(), true));
         rvMarketList.setAdapter(homeMarketAdapter);
 //        llSearch.setOnClickListener(this);

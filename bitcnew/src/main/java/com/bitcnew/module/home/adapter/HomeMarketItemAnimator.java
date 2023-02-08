@@ -2,21 +2,21 @@ package com.bitcnew.module.home.adapter;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
-import android.animation.AnimatorSet;
-import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
-import android.support.v7.widget.DefaultItemAnimator;
+//import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
+import android.view.ViewPropertyAnimator;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.OvershootInterpolator;
 
-import com.bitcnew.R;
+import com.bitcnew.util.StockChartUtil;
 
 import java.util.HashMap;
 import java.util.List;
@@ -29,6 +29,53 @@ public class HomeMarketItemAnimator extends DefaultItemAnimator {
     private static final OvershootInterpolator OVERSHOOT_INTERPOLATOR = new OvershootInterpolator(4);
 
     Map<RecyclerView.ViewHolder, ValueAnimator> updateAnimationsMap = new HashMap<>();
+
+    @Override
+    void animateAddImpl(RecyclerView.ViewHolder holder) {
+        super.animateAddImpl(holder);
+
+        final double rate;
+        if (holder instanceof HomeMarketAdapter.ViewHolder) {
+            rate = ((HomeMarketAdapter.ViewHolder) holder).getRate();
+        } else {
+            rate = 0;
+        }
+
+        final int bgColor;
+        Drawable bgDrawable = holder.itemView.getBackground();
+        if (bgDrawable instanceof ColorDrawable) {
+            bgColor = ((ColorDrawable) bgDrawable).getColor();
+        } else {
+            bgColor = 0;
+        }
+
+        final int bgColor1 = StockChartUtil.getRateAnimBgColor(rate);
+
+        ValueAnimator anim = ValueAnimator.ofInt(StockChartUtil.getRateTextColor(rate), 0);
+
+        anim.setDuration(getAddDuration());
+        anim.setInterpolator(DECCELERATE_INTERPOLATOR);
+        AnimatorListenerAdapter listener = new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationStart(Animator animation) {
+                holder.itemView.setBackgroundColor(bgColor1);
+            }
+
+            @Override
+            public void onAnimationCancel(Animator animation) {
+                holder.itemView.setBackgroundColor(bgColor);
+            }
+
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                holder.itemView.setBackgroundColor(bgColor);
+                anim.removeListener(this);
+            }
+        };
+        anim.addListener(listener);
+        anim.setStartDelay(holder.getAdapterPosition() * 50);
+        anim.start();
+    }
 
     @NonNull
     @Override
@@ -95,15 +142,8 @@ public class HomeMarketItemAnimator extends DefaultItemAnimator {
             bgColor = 0;
         }
 
-        final int bgColor1;
-        ValueAnimator anim;
-        if (rate2 > rate1) { // 涨
-            bgColor1 = Color.parseColor("#33e2214e");
-            anim = ValueAnimator.ofInt(Color.parseColor("#e2214e"), 0);
-        } else { // 跌
-            bgColor1 = Color.parseColor("#3300ad88");
-            anim = ValueAnimator.ofInt(Color.parseColor("#00ad88"), 0);
-        }
+        final int bgColor1 = StockChartUtil.getRateAnimBgColor(rate2 - rate1);
+        ValueAnimator anim = ValueAnimator.ofInt(StockChartUtil.getRateTextColor(rate2 - rate1), 0);
 
         anim.setDuration(300);
         anim.setInterpolator(DECCELERATE_INTERPOLATOR);

@@ -1156,8 +1156,8 @@
     <string name="sousuoguojiahuodiqu">Recherche par pays ou région</string>
     <string name="zhucezhanghu">Enregistrer un compte</string>
     <string name="chongxinhuoqu">Récupérer</string>
-    <string name="wwctyinsitiaokuan">《Politique de confidentialité de Fireup》</string>
-    <string name="wwctyonghuxieyi">《Contrat utilisateur de Fireup》</string>
+    <string name="wwctyinsitiaokuan">《Politique de confidentialité de %s》</string>
+    <string name="wwctyonghuxieyi">《Contrat utilisateur de %s》</string>
     <string name="zhucejidaibiaoniyitongyibingjieshou">En vous inscrivant, vous acceptez et acceptez que</string>
     <string name="duanxinyanzhengmayijingfasongzhi">Le code de vérification SMS a été envoyé à</string>
     <string name="qingchongxinhuoquyanzhengma">Veuillez rétirer à nouveau le code de vérification</string>

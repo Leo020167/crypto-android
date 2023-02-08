@@ -225,6 +225,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/amountCoinTypeTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right|center_vertical"
@@ -248,15 +249,29 @@
             android:textSize="@dimen/font_size_12"/>
     </FrameLayout>
 
-    <TextView
-        android:id="@+id/tvEnableAmount"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dip"
-        android:text="@string/keyongshuliang"
-        android:textColor="@color/c666175ae"
-        android:textSize="@dimen/font_size_12"
-        android:layout_marginLeft="20dip"/>
+        android:layout_marginLeft="20dip"
+        >
+
+        <TextView
+            android:id="@+id/tvEnableAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/keyongshuliang"
+            android:textColor="@color/c666175ae"
+            android:textSize="@dimen/font_size_12"/>
+        <TextView
+            android:id="@+id/tvEnableAmountCoinType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="USDT"
+            android:textColor="@color/c666175ae"
+            android:textSize="@dimen/font_size_12"/>
+    </LinearLayout>
 
 
     <TextView

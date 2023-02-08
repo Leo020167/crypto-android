@@ -35,6 +35,10 @@
     <color name="blackColorWithAlpha">#bb232322</color>
 
 
+    <color name="quotation_zhang_bg_color">#33e2214e</color><!--行情涨颜色-->
+    <color name="quotation_die_bg_color">#3300ad88</color><!--行情跌颜色-->
+    <color name="quotation_gray_bg_color">#33555555</color><!--行情灰色-->
+
     <color name="quotation_zhang_color">#e2214e</color><!--行情涨颜色-->
     <color name="quotation_die_color">#00ad88</color><!--行情跌颜色-->
     <color name="quotation_gray_color">#555555</color><!--行情灰色-->

@@ -161,6 +161,7 @@ public class BindPhoneActivity extends TJRBaseToolBarActivity implements View.On
     public void changePhone() {
         CommonUtil.cancelCall(changeCall);
         changeCall = VHttpServiceManager.getInstance().getVService().updatePhone(
+                tvCountryCode.getText().toString(),
                 et_newPhone.getText().toString(),
                 et_newSms.getText().toString());
         changeCall.enqueue(new MyCallBack(BindPhoneActivity.this) {

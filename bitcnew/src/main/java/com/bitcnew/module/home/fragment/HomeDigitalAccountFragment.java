@@ -151,7 +151,7 @@ public class HomeDigitalAccountFragment extends UserBaseFragment implements View
             tvProfit.setText(StockChartUtil.formatWithSign(accountInfo.profit));
             tvProfit.setTextColor(StockChartUtil.getRateTextColor(getActivity(), Double.parseDouble(accountInfo.profit)));
             tvOpenBail.setText(accountInfo.openBail);
-            if (pos==2){//跟单账户
+            if (pos==1){//跟单账户
                 txt_dongjie.setText(getActivity().getResources().getString(R.string.gendandongjiezichan));
                 tvFrozenBail.setText(accountInfo.disableAmount);
                 rvList.setVisibility(View.GONE);
@@ -160,7 +160,7 @@ public class HomeDigitalAccountFragment extends UserBaseFragment implements View
                         homeDigitalAdapter.setGroup(accountInfo.openList);
                     }
                 }
-            }else if (pos==3){//全球指数账户
+            }else if (pos==2){//全球指数账户
                 txt_dongjie.setText(getActivity().getResources().getString(R.string.dongjiebaozhengjin));
                 tvFrozenBail.setText(accountInfo.disableAmount);
                 if (null!=accountInfo){

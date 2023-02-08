@@ -97,7 +97,8 @@ public class SignUpActivity extends TJRBaseToolBarSwipeBackActivity implements T
         SpannableString normalText = new SpannableString(getResources().getString(R.string.zhucejidaibiaoniyitongyibingjieshou));
         normalText.setSpan(new ForegroundColorSpan(Color.parseColor("#bebebe")), 0, normalText.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
-        SpannableString clickText = new SpannableString(getResources().getString(R.string.wwctyonghuxieyi));
+
+        SpannableString clickText = new SpannableString(getResources().getString(R.string.wwctyonghuxieyi, getResources().getString(R.string.product_name)));
 
         clickText.setSpan(new ForegroundColorSpan(Color.parseColor("#f08c42")), 0, clickText.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         clickText.setSpan(new ClickableSpan() {
@@ -114,7 +115,7 @@ public class SignUpActivity extends TJRBaseToolBarSwipeBackActivity implements T
         }, 0, clickText.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
 
-        SpannableString clickText2 = new SpannableString(getResources().getString(R.string.wwctyinsitiaokuan));
+        SpannableString clickText2 = new SpannableString(getResources().getString(R.string.wwctyinsitiaokuan, getResources().getString(R.string.product_name)));
         clickText2.setSpan(new ForegroundColorSpan(Color.parseColor("#376eb8")), 0, clickText2.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         clickText2.setSpan(new ClickableSpan() {
             @Override

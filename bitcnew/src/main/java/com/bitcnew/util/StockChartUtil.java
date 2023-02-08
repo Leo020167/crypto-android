@@ -9,6 +9,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.TypedValue;
 
+import com.bitcnew.MainApplication;
 import com.bitcnew.module.home.SwichColorActivity;
 import com.bitcnew.widgets.quotitian.entity.StockDomain;
 import com.bitcnew.R;
@@ -480,12 +481,41 @@ public class StockChartUtil {
         }
     }
 
+    public static int getRateAnimBgColor(double rate) {
+        return getRateAnimBgColor(MainApplication.getInstance().getApplicationContext(), rate);
+    }
+
+    public static int getRateAnimBgColor(Context context, double rate) {
+        String col = (String) SPUtils.get(context, "swichColor", SwichColorActivity.COLOR_GREEN_UP_RED_DOWN);
+        if (!TextUtils.isEmpty(col) && SwichColorActivity.COLOR_RED_UP_GREEN_DOWN.equalsIgnoreCase(col)) {
+            if (rate > 0) {
+                return ContextCompat.getColor(context, R.color.quotation_zhang_bg_color);
+            } else if (rate < 0) {
+                return ContextCompat.getColor(context, R.color.quotation_die_bg_color);
+            } else {
+                return ContextCompat.getColor(context, R.color.quotation_gray_bg_color);
+            }
+        } else {
+            if (rate > 0) {
+                return ContextCompat.getColor(context, R.color.quotation_die_bg_color);
+            } else if (rate < 0) {
+                return ContextCompat.getColor(context, R.color.quotation_zhang_bg_color);
+            } else {
+                return ContextCompat.getColor(context, R.color.quotation_gray_bg_color);
+            }
+        }
+    }
+
     /**
      * 这个是根据涨幅获得相对应的字体颜色
      *
      * @param rate
      * @return
      */
+    public static int getRateTextColor(double rate) {
+        return getRateTextColor(MainApplication.getInstance().getApplicationContext(), rate);
+    }
+
     public static int getRateTextColor(Context context, double rate) {
         String col = (String) SPUtils.get(context, "swichColor", SwichColorActivity.COLOR_GREEN_UP_RED_DOWN);
         if (!TextUtils.isEmpty(col) && SwichColorActivity.COLOR_RED_UP_GREEN_DOWN.equalsIgnoreCase(col)) {

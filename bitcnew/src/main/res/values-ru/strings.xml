@@ -1156,8 +1156,8 @@
     <string name="sousuoguojiahuodiqu">Поиск по стране или региону</string>
     <string name="zhucezhanghu">Зарегистрировать аккаунт</string>
     <string name="chongxinhuoqu">Забрать</string>
-    <string name="wwctyinsitiaokuan">《Политика конфиденциальности огня》</string>
-    <string name="wwctyonghuxieyi">《Пользовательское соглашение пользователя》</string>
+    <string name="wwctyinsitiaokuan">《Политика конфиденциальности %s》</string>
+    <string name="wwctyonghuxieyi">《Пользовательское соглашение пользователя %s》</string>
     <string name="zhucejidaibiaoniyitongyibingjieshou">Зарегистрируясь, вы соглашаетесь и принимаете это</string>
     <string name="duanxinyanzhengmayijingfasongzhi">Код проверки SMS был отправлен на</string>
     <string name="qingchongxinhuoquyanzhengma">Пожалуйста, получите код проверки снова</string>

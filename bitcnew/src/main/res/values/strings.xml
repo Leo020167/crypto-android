@@ -1157,8 +1157,8 @@
     <string name="sousuoguojiahuodiqu">Search by country or region</string>
     <string name="zhucezhanghu">Register an account</string>
     <string name="chongxinhuoqu">Retrieve</string>
-    <string name="wwctyinsitiaokuan">《FireUp Privacy Policy》</string>
-    <string name="wwctyonghuxieyi">《FireUp User Agreement》</string>
+    <string name="wwctyinsitiaokuan">《%s Privacy Policy》</string>
+    <string name="wwctyonghuxieyi">《%s User Agreement》</string>
     <string name="zhucejidaibiaoniyitongyibingjieshou">By registering, you agree and accept that</string>
     <string name="duanxinyanzhengmayijingfasongzhi">SMS verification code has been sent to</string>
     <string name="qingchongxinhuoquyanzhengma">Please obtain the verification code again</string>

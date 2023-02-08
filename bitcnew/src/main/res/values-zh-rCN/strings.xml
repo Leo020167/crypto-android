@@ -1156,8 +1156,8 @@
     <string name="sousuoguojiahuodiqu">搜索国家或地区</string>
     <string name="zhucezhanghu">注册账户</string>
     <string name="chongxinhuoqu">重新获取</string>
-    <string name="wwctyinsitiaokuan">《FireUp 隐私条款》</string>
-    <string name="wwctyonghuxieyi">《BITC用户协议》</string>
+    <string name="wwctyinsitiaokuan">《%s隐私条款》</string>
+    <string name="wwctyonghuxieyi">《%s用户协议》</string>
     <string name="zhucejidaibiaoniyitongyibingjieshou">注册即代表你已同意并接受</string>
     <string name="duanxinyanzhengmayijingfasongzhi">短信验证码已经发送至</string>
     <string name="qingchongxinhuoquyanzhengma">请重新获取验证码</string>

@@ -45,6 +45,14 @@ public class HomeMarketAdapter extends BaseImageLoaderRecycleAdapter<Market> {
 //        this.accountType = accountType;
     }
 
+    @Override
+    public void setGroup(Group<Market> g) {
+        group = g;
+        for (int i = 0, count = getItemCount(); i < count; i++) {
+            notifyItemInserted(i);
+        }
+    }
+
     public void update(Group<Market> group) {
         List<Market> currentGroup = getGroup();
         if (null == currentGroup || currentGroup.size() <= 0) {
@@ -68,7 +76,6 @@ public class HomeMarketAdapter extends BaseImageLoaderRecycleAdapter<Market> {
                 notifyItemChanged(i);
             }
         }
-
     }
 
     @Override
@@ -101,12 +108,23 @@ public class HomeMarketAdapter extends BaseImageLoaderRecycleAdapter<Market> {
         @BindView(R.id.llItem)
         LinearLayout llItem;
 
+        private Market data;
+
         public ViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
         }
 
+        public double getRate() {
+            if (null != data) {
+                return Double.parseDouble(data.rate);
+            }
+            return 0;
+        }
+
         public void setData(final Market data, int position) {
+            this.data = data;
+
             if (position % 2 == 0) {
                 llItem.setBackgroundColor(ContextCompat.getColor(context, R.color.cf6f7f8));
             } else {

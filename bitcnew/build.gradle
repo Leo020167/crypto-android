@@ -98,16 +98,19 @@ android {
             applicationId "com.bitcnew"
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "fire"]
             resValue "string", "app_name", "WorldCoin"
+            resValue "string", "product_name", "FireUp"
         }
         encrypted {
             applicationId "com.bitcnew.encrypted"
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "encrypted"]
             resValue "string", "app_name", "Encrypted"
+            resValue "string", "product_name", "Encrypted"
         }
         tradingview {
             applicationId "com.bitcnew.tradingview"
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "TradingView"]
             resValue "string", "app_name", "TradingView"
+            resValue "string", "product_name", "TradingView"
         }
     }
     lintOptions {
