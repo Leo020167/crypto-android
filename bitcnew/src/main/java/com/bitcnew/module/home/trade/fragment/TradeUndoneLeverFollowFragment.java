@@ -107,7 +107,7 @@ public class TradeUndoneLeverFollowFragment extends UserBaseFragment {
 //                startfindEntrustbslist();
 //            }
 //        });
-        coinTradeEntrustAdapter = new TradeUndoneLeverAdapter(getActivity());
+        coinTradeEntrustAdapter = new TradeUndoneLeverAdapter(getActivity(), accountType);
         listViewAutoLoadMore.setAdapter(coinTradeEntrustAdapter);
         coinTradeEntrustAdapter.setRecycleViewLoadMoreCallBack(loadMoreCallBack);
         listViewAutoLoadMore.setRecycleViewLoadMoreCallBack(loadMoreCallBack);

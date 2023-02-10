@@ -886,6 +886,7 @@
     <string name="bangzhu">돕다</string>
     <string name="tuichucicibianji">이 편집을 종료 하시겠습니까?</string>
     <string name="canshucuowu">매개 변수 오류</string>
+    <string name="yinhanghuming">은행 계정 이름</string>
     <string name="meiyouhuoqudaotupian">이미지가 획득되지 않았습니다</string>
     <string name="baocuntupianchucuo">이미지 저장 오류</string>
     <string name="baocuntupiandao">이미지를 저장하십시오</string>

@@ -175,8 +175,8 @@ public class SignUpActivity extends TJRBaseToolBarSwipeBackActivity implements T
         tvCountryName = (TextView) findViewById(R.id.tvCountryName);
         tvCountryName.setOnClickListener(this);
 
-        tvCountryCode.setText("+1");//默认中国
-        tvCountryName.setText(getResources().getString(R.string.miguo));//默认中国
+        tvCountryCode.setText(R.string.moren_quhao);//默认中国
+        tvCountryName.setText(R.string.moren_diqu);//默认中国
 
 
 //        et_phone.addTextChangedListener(new TextWatcher() {

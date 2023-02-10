@@ -73,6 +73,8 @@
     <string name="chongzhimima">Reset Password</string>
     <string name="zhongguo">Hong Kong</string>
     <string name="miguo">Unite State</string>
+    <string name="moren_quhao">+1</string>
+    <string name="moren_diqu">Unite State</string>
     <string name="qingshurushoujihaoma">Please enter your cell phone number</string>
     <string name="mimabixushibashiliushuzi">Password must be a combination of 8\-16 digits and letters</string>
     <string name="qingzaicishurumima">Please enter your password again</string>
@@ -887,6 +889,7 @@
     <string name="bangzhu">Help</string>
     <string name="tuichucicibianji">Exit this edit?</string>
     <string name="canshucuowu">Parameter error</string>
+    <string name="yinhanghuming">Bank account name</string>
     <string name="meiyouhuoqudaotupian">No image was acquired</string>
     <string name="baocuntupianchucuo">Error saving the image</string>
     <string name="baocuntupiandao">Save image to</string>

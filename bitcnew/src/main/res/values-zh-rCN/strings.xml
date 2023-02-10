@@ -51,7 +51,7 @@
     <string name="btc">BTC/USDT <font fgcolor="#BC0016">-0.23%</font></string>
     <string name="greyvalue">= $ 274050.62</string>
     <string name="redvalue">43500.09</string>
-    <string name="dav">大V</string>
+    <string name="dav">金牌机构</string>
     <string name="otc">OTC</string>
     <string name="shurushenfenzhengxinxi">输入证件信息</string>
     <string name="qingshurushenfenzhengxingming">请输入证件姓名</string>
@@ -886,6 +886,7 @@
     <string name="bangzhu">帮助</string>
     <string name="tuichucicibianji">退出此次编辑?</string>
     <string name="canshucuowu">参数错误</string>
+    <string name="yinhanghuming">银行户名</string>
     <string name="meiyouhuoqudaotupian">没有获取到图片</string>
     <string name="baocuntupianchucuo">保存图片出错</string>
     <string name="baocuntupiandao">保存图片到</string>

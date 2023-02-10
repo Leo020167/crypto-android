@@ -220,7 +220,7 @@ public class TradeLeverActivity extends TJRBaseToolBarSwipeBackActivity implemen
 
         rvEntrustlist.setLayoutManager(new LinearLayoutManager(this));
         rvEntrustlist.addItemDecoration(new SimpleRecycleDivider(this, 15, 15));
-        tradeUndoneLeverAdapter = new TradeUndoneLeverAdapter(this);
+        tradeUndoneLeverAdapter = new TradeUndoneLeverAdapter(this, accountType);
         rvEntrustlist.setAdapter(tradeUndoneLeverAdapter);
         tradeUndoneLeverAdapter.setOnItemClick(new OnItemClick() {
             @Override

@@ -886,6 +886,7 @@
     <string name="bangzhu">Ayuda</string>
     <string name="tuichucicibianji">Salir de esta edición?</string>
     <string name="canshucuowu">error de parametro</string>
+    <string name="yinhanghuming">nome da conta do Banco</string>
     <string name="meiyouhuoqudaotupian">No se adquirió ninguna imagen</string>
     <string name="baocuntupianchucuo">Error al guardar la imagen</string>
     <string name="baocuntupiandao">Guardar la imagen en</string>

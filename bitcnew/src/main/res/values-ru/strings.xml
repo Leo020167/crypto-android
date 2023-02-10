@@ -886,6 +886,7 @@
     <string name="bangzhu">Помощь</string>
     <string name="tuichucicibianji">Выйти из этого редактирования?</string>
     <string name="canshucuowu">Ошибка параметра</string>
+    <string name="yinhanghuming">Название банковского счета</string>
     <string name="meiyouhuoqudaotupian">Изображение не было получено</string>
     <string name="baocuntupianchucuo">Ошибка сохранения изображения</string>
     <string name="baocuntupiandao">Сохранить изображение, чтобы</string>

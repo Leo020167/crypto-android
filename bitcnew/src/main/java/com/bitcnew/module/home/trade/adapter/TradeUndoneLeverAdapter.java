@@ -19,6 +19,7 @@ import com.bitcnew.module.home.trade.TradeLeverActivity;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.DateUtils;
 import com.bitcnew.util.MyCallBack;
+import com.bitcnew.util.StockChartUtil;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -38,14 +39,20 @@ public class TradeUndoneLeverAdapter extends BaseLoadMoreImageLoaderRecycleAdapt
 
     private OnItemClick onItemClick;
     private TjrBaseDialog cancelTipsDialog;
+    private String accountType;
 
     public void setOnItemClick(OnItemClick onItemClick) {
         this.onItemClick = onItemClick;
     }
 
-    public TradeUndoneLeverAdapter(Context context) {
+    public TradeUndoneLeverAdapter(Context context, String accountType) {
         super(context, R.drawable.ic_common_mic2);
         this.context = context;
+        this.accountType = accountType;
+    }
+
+    public void setAccountType(String accountType) {
+        this.accountType = accountType;
     }
 
     @Override
@@ -62,7 +69,7 @@ public class TradeUndoneLeverAdapter extends BaseLoadMoreImageLoaderRecycleAdapt
     public void onBindViewViewHolderWithoutFoot(RecyclerView.ViewHolder holder, int position) {
 
         ViewHolder holder1 = (ViewHolder) holder;
-        holder1.setData(getItem(position), position);
+        holder1.setData(getItem(position), position, accountType);
 
     }
 
@@ -76,10 +83,14 @@ public class TradeUndoneLeverAdapter extends BaseLoadMoreImageLoaderRecycleAdapt
         TextView tvTime;
         @BindView(R.id.tvCancel)
         TextView tvCancel;
+        @BindView(R.id.tvHand_label)
+        TextView tvHand_label;
         @BindView(R.id.tvHand)
         TextView tvHand;
         @BindView(R.id.tvOpenPrice)
         TextView tvOpenPrice;
+        @BindView(R.id.tvOpenBail_label)
+        TextView tvOpenBail_label;
         @BindView(R.id.tvOpenBail)
         TextView tvOpenBail;
         @BindView(R.id.llItem)
@@ -91,27 +102,42 @@ public class TradeUndoneLeverAdapter extends BaseLoadMoreImageLoaderRecycleAdapt
             ButterKnife.bind(this, itemView);
         }
 
-        public void setData(final Position data, final int pos) {
+        public void setData(final Position data, final int pos, String accountType) {
             tvSymbol.setText(CommonUtil.getOriginSymbol(data.symbol));
 
-//            tvBuySell.setText("•" + data.buySellValue);
-            if (data.buySell.equals("buy") || data.buySell.equals("买入")){
-                tvBuySell.setText(" • " + context.getString(R.string.mairu));
-                tvBuySell.setTextColor(context.getResources().getColor(R.color.c14cc4B));
+            if (!"spot".equalsIgnoreCase(accountType)) {
+                if (data.buySell.equals("buy") || data.buySell.equals("买入")){
+                    tvBuySell.setText(" • " + context.getString(R.string.kanzhangzuoduo));
+                    tvBuySell.setTextColor(context.getResources().getColor(R.color.c14cc4B));
+                } else {
+                    tvBuySell.setText(" • " + context.getString(R.string.kandiezuokong));
+                    tvBuySell.setTextColor(context.getResources().getColor(R.color.ccc1414));
+                }
+
+                tvTime.setText(DateUtils.getStringDateOfString2(String.valueOf(data.openTime), DateUtils.TEMPLATE_yyyyMMdd_HHmm));
+
+                tvHand_label.setText(R.string.shoushu);
+                tvHand.setText(data.openHand);
+                tvOpenPrice.setText(data.price);
+                tvOpenBail_label.setText(R.string.kaicangbaozhengjin);
+                tvOpenBail.setText(data.openBail);
             } else {
-                tvBuySell.setText(" • " + context.getString(R.string.maichu));
-                tvBuySell.setTextColor(context.getResources().getColor(R.color.ccc1414));
+                if (data.buySell.equals("buy") || data.buySell.equals("买入")){
+                    tvBuySell.setText(" • " + context.getString(R.string.mairu));
+                    tvBuySell.setTextColor(context.getResources().getColor(R.color.c14cc4B));
+                } else {
+                    tvBuySell.setText(" • " + context.getString(R.string.maichu));
+                    tvBuySell.setTextColor(context.getResources().getColor(R.color.ccc1414));
+                }
+
+                tvTime.setText(DateUtils.getStringDateOfString2(String.valueOf(data.openTime), DateUtils.TEMPLATE_yyyyMMdd_HHmm));
+
+                tvHand_label.setText(R.string.shuliang);
+                tvHand.setText(data.amount+"");
+                tvOpenPrice.setText(data.price);
+                tvOpenBail_label.setText(R.string.jine);
+                tvOpenBail.setText(data.sum);
             }
-
-            tvTime.setText(DateUtils.getStringDateOfString2(String.valueOf(data.openTime), DateUtils.TEMPLATE_yyyyMMdd_HHmm));
-
-//            tvHand.setText(data.openHand);
-            tvHand.setText(data.amount+"");
-
-            tvOpenPrice.setText(data.price);
-
-//            tvOpenBail.setText(data.openBail);
-            tvOpenBail.setText(data.sum);
 
             tvCancel.setOnClickListener(new View.OnClickListener() {
                 @Override

@@ -886,6 +886,7 @@
     <string name="bangzhu">ヘルプ</string>
     <string name="tuichucicibianji">この編集を終了しますか？</string>
     <string name="canshucuowu">パラメーターエラー</string>
+    <string name="yinhanghuming">銀行口座名</string>
     <string name="meiyouhuoqudaotupian">画像は取得されませんでした</string>
     <string name="baocuntupianchucuo">画像を保存するエラー</string>
     <string name="baocuntupiandao">画像を保存します</string>

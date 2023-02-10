@@ -307,6 +307,7 @@ public class VHttpServiceManager {
     public static final String ACCOUNT_HOLD = "account/hold.do";
     public static final String ACCOUNT_LISTACCOUNTTYPE = "account/listAccountType.do";
     public static final String ACCOUNT_OUTHOLDAMOUNT = "account/outHoldAmount.do";
+    public static final String ACCOUNT_GETSYMBOLMAXAMOUNT = "account/getSymbolMaxAmount.do";
     public static final String ACCOUNT_TRANSFER = "account/transfer.do";
     public static final String ACCOUNT_QUERYTRANSFERLIST = "account/queryTransferList.do";
 

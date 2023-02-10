@@ -886,6 +886,7 @@
     <string name="bangzhu">Aider</string>
     <string name="tuichucicibianji">Quitter cette modification?</string>
     <string name="canshucuowu">Erreur de paramètre</string>
+    <string name="yinhanghuming">nom du compte bancaire</string>
     <string name="meiyouhuoqudaotupian">Aucune image n\'a été acquise</string>
     <string name="baocuntupianchucuo">Erreur d\'enregistrement de l\'image</string>
     <string name="baocuntupiandao">Enregistrer l\'image à</string>

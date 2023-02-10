@@ -310,7 +310,7 @@ public class LegalOrderInfoActivity extends TJRBaseActionBarSwipeBackObserverAct
                 tvBuyOrSellRealName.setText(getResources().getString(R.string.maijiaxingming2));
             } else {
                 tvBuyOrSellName.setText(getResources().getString(R.string.maijianicheng));
-                tvBuyOrSellRealName.setText(getResources().getString(R.string.canshucuowu));
+                tvBuyOrSellRealName.setText(getResources().getString(R.string.yinhanghuming));
             }
             llPayWay.setOnClickListener(null);
             if (orderCash.state == OtcOrderStateEnum.wait.state) {

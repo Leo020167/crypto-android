@@ -144,6 +144,9 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
     public void startGetCoinTypeCall() {
         CommonUtil.cancelCall(getCoinTypeCall);
         tvCoinType.setText("");
+        tvEnableAmount.setText(getResources().getString(R.string.keyongshuliang)+": ");
+        amountCoinTypeTv.setText("");
+        tvEnableAmountCoinType.setText("");
         coinType = null;
         if (null == accountTypeFrom || null == accountTypeTo) {
             return;
@@ -174,6 +177,7 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
                             tvCoinType.setText(coinType.getSymbol());
                             amountCoinTypeTv.setText(coinType.getSymbol());
                             tvEnableAmountCoinType.setText(coinType.getSymbol());
+                            getSymbolMaxAmount();
                         }
                     } catch (Exception e) {
                         coinTypeList = null;
@@ -219,7 +223,11 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
 
     public void startOutHoldAmountCall(String accountType) {
         CommonUtil.cancelCall(outHoldAmountCall);
-        outHoldAmountCall = VHttpServiceManager.getInstance().getVService().outHoldAmount(accountType);
+        String symbol = null;
+        if (null != coinType) {
+            symbol = coinType.getSymbol();
+        }
+        outHoldAmountCall = VHttpServiceManager.getInstance().getVService().outHoldAmount(accountType, symbol);
         outHoldAmountCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {
@@ -232,6 +240,24 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
         });
     }
 
+    private Call<ResponseBody> symbolMaxCall;
+    public void getSymbolMaxAmount() {
+        CommonUtil.cancelCall(symbolMaxCall);
+        String symbol = null;
+        if (null != coinType) {
+            symbol = coinType.getSymbol();
+        }
+        symbolMaxCall = VHttpServiceManager.getInstance().getVService().getSymbolMaxAmount(accountTypeFrom.accountType, symbol);
+        symbolMaxCall.enqueue(new MyCallBack(this) {
+            @Override
+            protected void callBack(ResultData resultData) {
+                if (resultData.isSuccess()) {
+                    holdAmount = resultData.data;
+                    tvEnableAmount.setText(getResources().getString(R.string.keyongshuliang)+": " + holdAmount);
+                }
+            }
+        });
+    }
 
     public void startTransferCall(final String amount, final String accountTypeFrom, final String accountTypeTo, String payPass) {
         CommonUtil.cancelCall(transferCall);
@@ -264,11 +290,13 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
                 if (requestCode == 0x123) {
                     accountTypeFrom = account;
                     tvFrom.setText(accountName);
+                    etAmount.setText("");
                     startOutHoldAmountCall(accountTypeFrom.accountType);
                     startGetCoinTypeCall();
                 } else if (requestCode == 0x456) {
                     accountTypeTo = account;
                     tvTo.setText(accountName);
+                    etAmount.setText("");
                     startGetCoinTypeCall();
                 }
             }
@@ -304,7 +332,7 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
                 break;
             case R.id.tvAll:
                 etAmount.setText(holdAmount);
-                etAmount.setSelection(holdAmount.length());
+                etAmount.setSelection(etAmount.length());
                 break;
             case R.id.tvTransferCoin:
                 String amount = etAmount.getText().toString().trim();
@@ -344,6 +372,8 @@ public class TransferCoinActivity extends TJRBaseToolBarSwipeBackActivity implem
             tvCoinType.setText(coinType.getSymbol());
             amountCoinTypeTv.setText(coinType.getSymbol());
             tvEnableAmountCoinType.setText(coinType.getSymbol());
+            etAmount.setText("");
+            getSymbolMaxAmount();
         }).show();
     }
 

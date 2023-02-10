@@ -1499,6 +1499,16 @@ public interface VService {
     @POST(VHttpServiceManager.ACCOUNT_OUTHOLDAMOUNT)
     Call<ResponseBody> outHoldAmount(@Field("accountType") String accountType);
 
+    //获取某个账户可用数量
+    @FormUrlEncoded
+    @POST(VHttpServiceManager.ACCOUNT_OUTHOLDAMOUNT)
+    Call<ResponseBody> outHoldAmount(@Field("accountType") String accountType, @Field("symbol") String symbol);
+
+    //获取某个账户可用数量
+    @FormUrlEncoded
+    @POST(VHttpServiceManager.ACCOUNT_GETSYMBOLMAXAMOUNT)
+    Call<ResponseBody> getSymbolMaxAmount(@Field("fromAccountType") String accountType, @Field("symbol") String symbol);
+
     //划转
     @FormUrlEncoded
     @POST(VHttpServiceManager.ACCOUNT_TRANSFER)
