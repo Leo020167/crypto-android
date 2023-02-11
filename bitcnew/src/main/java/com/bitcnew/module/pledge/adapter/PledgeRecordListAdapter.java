@@ -36,7 +36,7 @@ public class PledgeRecordListAdapter extends RecyclerView.Adapter<PledgeRecordLi
         final PledgeRecord item = getItem(position);
 
         holder.coinTypeTv.setText(item.getSymbol());
-        holder.leijishouyiTv.setText(item.getProfit());
+        holder.leijishouyiTv.setText(item.getPreProfit());
         holder.zhiyashuliangTv.setText(item.getCount());
         holder.zhiyakaishishijianTv.setText(DateUtils.formatDatetime(item.getStartTime()));
         holder.zhiyadaoqishijianTv.setText(DateUtils.formatDatetime(item.getEndTime()));

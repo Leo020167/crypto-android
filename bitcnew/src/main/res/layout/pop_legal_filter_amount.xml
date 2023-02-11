@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/white"
     android:orientation="vertical">
 
@@ -9,43 +10,71 @@
         style="@style/dividerLine_horizontal"
         android:layout_height="1px" />
 
-    <FrameLayout
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dip"
         android:layout_marginRight="15dip"
         android:layout_marginTop="15dip"
-        android:background="@color/cfafafa">
+        android:gravity="center_vertical"
+        >
 
-        <EditText
-            android:id="@+id/etAmount"
-            android:layout_width="match_parent"
-            android:layout_height="35dip"
-            android:background="@drawable/xml_et_bg_4"
-            android:gravity="left|center_vertical"
-            android:hint="@string/xitonghuiweininshaixuanbaohanmubiaojinedeshangpin"
-            android:imeOptions="actionNext"
-            android:inputType="number"
-            android:maxLength="15"
-            android:maxLines="1"
-            android:paddingLeft="10dip"
-            android:paddingRight="50dip"
-            android:textColor="@color/c9a9a9a"
-            android:textSize="@dimen/font_size_12" />
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cfafafa">
 
-        <TextView
-            android:id="@+id/txt_fuhao"
+            <EditText
+                android:id="@+id/etAmount"
+                android:layout_width="match_parent"
+                android:layout_height="35dip"
+                android:background="@drawable/xml_et_bg_4"
+                android:gravity="left|center_vertical"
+                android:hint="@string/xitonghuiweininshaixuanbaohanmubiaojinedeshangpin"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:paddingLeft="10dip"
+                android:paddingRight="50dip"
+                android:textColor="@color/c9a9a9a"
+                android:textSize="@dimen/font_size_12" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fuhao"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:paddingHorizontal="5dip"
-            android:gravity="center"
-            android:text="HKD"
-            android:textColor="@color/c9a9a9a"
-            android:textSize="@dimen/font_size_12" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_transfer_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="5dip"
+            android:paddingLeft="8dip"
+            android:paddingRight="8dip"
+            android:paddingTop="5dip"
+            android:layout_marginLeft="15dp"
+            >
+            <TextView
+                android:id="@+id/txt_fuhao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="CNY"
+                android:textColor="@color/c3d3a50"
+                android:textSize="@dimen/font_size_12" />
 
-    </FrameLayout>
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="12dip"
+                android:layout_height="12dip"
+                android:layout_marginLeft="15dip"
+                app:srcCompat="@drawable/xiajiantou_gray" />
+        </LinearLayout>
 
+    </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvAmount"

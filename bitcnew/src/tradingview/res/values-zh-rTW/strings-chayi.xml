@@ -10,7 +10,7 @@
     <string name="chakanruhehuoqutoken">查看如何獲取TVC</string>
     <string name="shuliangtoken">數量(TVC)</string>
     <string name="zhiyashengyi">Defi專區</string>
-    <string name="meirilixi">每日收益</string>
+    <string name="meirilixi">年化收益</string>
     <string name="huode">獲得TVC</string>
 
 </resources>

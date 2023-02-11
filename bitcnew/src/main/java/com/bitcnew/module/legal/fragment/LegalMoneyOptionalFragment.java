@@ -325,7 +325,7 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.txt_fuhao:
+            case R.id.ll_fuhao:
                 if (null!=fuhao_list&&fuhao_list.size()>0){
                     showPopMoreMenu2(v);
                 }
@@ -607,6 +607,7 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
     TextView tvResetAmount;
     TextView tvFilterAmount;
     TextView txt_fuhao;
+    View ll_fuhao;
 
     private void showPopAmountMenu(View parent) {
         if (popAmount == null) {
@@ -618,6 +619,7 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
             tvResetAmount = view.findViewById(R.id.tvResetAmount);
             tvFilterAmount = view.findViewById(R.id.tvFilterAmount);
             txt_fuhao = view.findViewById(R.id.txt_fuhao);
+            ll_fuhao = view.findViewById(R.id.ll_fuhao);
 
             viewPopAmountCancel = view.findViewById(R.id.viewPopAmountCancel);
             amountAdapter = new OptionalFilterAdapter(getActivity());
@@ -659,7 +661,7 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
 
             tvResetAmount.setOnClickListener(this);
             tvFilterAmount.setOnClickListener(this);
-            txt_fuhao.setOnClickListener(this);
+            ll_fuhao.setOnClickListener(this);
 
             popAmount.setOutsideTouchable(false);
             popAmount.setFocusable(false);//
