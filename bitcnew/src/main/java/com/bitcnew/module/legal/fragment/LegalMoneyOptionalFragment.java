@@ -224,6 +224,7 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
 
         ivMore.setOnClickListener(this);
         ivHistory.setOnClickListener(this);
+        ll_fuhao.setOnClickListener(this);
 
         optionalListAdapter = new OptionalListAdapter(getActivity(), new OnItemClick() {
             @Override
@@ -426,9 +427,11 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
                         if (null!=bean.getCurrencies()&&bean.getCurrencies().size()>0){
                             fuhao_list.clear();
                             fuhao_list.addAll(bean.getCurrencies());
-                            if (popMore2!=null){
+                            if (popMore2 != null){
                                 fuhao = fuhao_list.get(0);
                                 txt_fuhao.setText(fuhao);
+                                pageNo = 1;
+                                startOtcFindAdListCall();
                             }
                         }else {
                             fuhao_list.clear();
@@ -606,7 +609,9 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
 
     TextView tvResetAmount;
     TextView tvFilterAmount;
+    @BindView(R.id.txt_fuhao)
     TextView txt_fuhao;
+    @BindView(R.id.ll_fuhao)
     View ll_fuhao;
 
     private void showPopAmountMenu(View parent) {
@@ -618,8 +623,8 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
 
             tvResetAmount = view.findViewById(R.id.tvResetAmount);
             tvFilterAmount = view.findViewById(R.id.tvFilterAmount);
-            txt_fuhao = view.findViewById(R.id.txt_fuhao);
-            ll_fuhao = view.findViewById(R.id.ll_fuhao);
+//            txt_fuhao = view.findViewById(R.id.txt_fuhao);
+//            ll_fuhao = view.findViewById(R.id.ll_fuhao);
 
             viewPopAmountCancel = view.findViewById(R.id.viewPopAmountCancel);
             amountAdapter = new OptionalFilterAdapter(getActivity());
@@ -661,7 +666,7 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
 
             tvResetAmount.setOnClickListener(this);
             tvFilterAmount.setOnClickListener(this);
-            ll_fuhao.setOnClickListener(this);
+//            ll_fuhao.setOnClickListener(this);
 
             popAmount.setOutsideTouchable(false);
             popAmount.setFocusable(false);//
@@ -760,8 +765,12 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
                 @Override
                 public void onSelClick(int pos) {
                     dissPopMore2();
-                    fuhao=fuhao_list.get(pos);
-                    txt_fuhao.setText(fuhao);
+                    if (fuhao_list != null && fuhao_list.size() > pos) {
+                        fuhao = fuhao_list.get(pos);
+                        txt_fuhao.setText(fuhao);
+                        pageNo = 1;
+                        startOtcFindAdListCall();
+                    }
                 }
             });
             fuhaoAdapter.notifyDataSetChanged();

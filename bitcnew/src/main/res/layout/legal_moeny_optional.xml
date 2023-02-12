@@ -132,6 +132,36 @@
                     app:srcCompat="@drawable/ic_svg_legal_arrow_bottom" />
             </LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/ll_fuhao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/shape_transfer_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dip"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip"
+                android:paddingTop="5dip"
+                android:layout_marginLeft="15dp"
+                >
+                <TextView
+                    android:id="@+id/txt_fuhao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="CNY"
+                    android:textColor="@color/c3d3a50"
+                    android:textSize="@dimen/font_size_12" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="12dip"
+                    android:layout_height="12dip"
+                    android:layout_marginLeft="15dip"
+                    app:srcCompat="@drawable/xiajiantou_gray" />
+            </LinearLayout>
+
             <!--<LinearLayout-->
                 <!--android:id="@+id/llPayNum"-->
                 <!--android:layout_width="wrap_content"-->
