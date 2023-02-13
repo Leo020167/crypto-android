@@ -94,6 +94,8 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
     TextView tvFilterCny;
     @BindView(R.id.ivArrow2)
     AppCompatImageView ivArrow2;
+    @BindView(R.id.ivArrow3)
+    AppCompatImageView ivArrow3;
     @BindView(R.id.llPayAmount)
     LinearLayout llPayAmount;
     //    @BindView(R.id.ivArrow3)
@@ -163,7 +165,18 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
 
     private void startOtcFindAdListCall() {
         CommonUtil.cancelCall(otcFindAdListCall);
-        otcFindAdListCall = VHttpServiceManager.getInstance().getVService().otcFindAdList(type == 0 ? "buy" : "sell", "全部".equals(filterPayWay) ? 0 : "支付宝".equals(filterPayWay) ? 1 : "微信".equals(filterPayWay) ? 2 : "银行卡".equals(filterPayWay) ? 3 : 0, filterCny, pageNo,"",fuhao);
+        String buySell = type == 0 ? "buy" : "sell";
+
+        final String quanbu = getString(R.string.quanbu);
+        final String zhifubao = getString(R.string.zhifubao);
+        final String weixin = getString(R.string.weixin);
+        final String yinhangka = getString(R.string.yinhangka);
+        int filterPayWay = quanbu.equals(this.filterPayWay) ? 0 : zhifubao.equals(this.filterPayWay) ? 1 : weixin.equals(this.filterPayWay) ? 2 : yinhangka.equals(this.filterPayWay) ? 3 : 0;
+
+        final String bizhong = getString(R.string.bizhong);
+        final String coinType = quanbu.equals(fuhao) || bizhong.equals(fuhao) ? null : fuhao;
+
+        otcFindAdListCall = VHttpServiceManager.getInstance().getVService().otcFindAdList(buySell, filterPayWay, filterCny, pageNo,"", coinType);
         otcFindAdListCall.enqueue(new MyCallBack(getActivity()) {
             @Override
             protected void callBack(ResultData resultData) {
@@ -328,7 +341,8 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
         switch (v.getId()) {
             case R.id.ll_fuhao:
                 if (null!=fuhao_list&&fuhao_list.size()>0){
-                    showPopMoreMenu2(v);
+//                    showPopMoreMenu2(v);
+                    showPopCoinTypeMenu(v);
                 }
                 break;
             case R.id.llPayWay:
@@ -420,26 +434,24 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
         getOtcConfigCall.enqueue(new MyCallBack(getActivity()) {
             @Override
             protected void callBack(ResultData resultData) {
-                if (resultData.isSuccess()) {
-                    Gson gson = new Gson();
-                    OtcConfigBean bean = gson.fromJson(resultData.data, OtcConfigBean.class);
-                    if (null!=bean){
-                        if (null!=bean.getCurrencies()&&bean.getCurrencies().size()>0){
-                            fuhao_list.clear();
-                            fuhao_list.addAll(bean.getCurrencies());
-                            if (popMore2 != null){
-                                fuhao = fuhao_list.get(0);
-                                txt_fuhao.setText(fuhao);
-                                pageNo = 1;
-                                startOtcFindAdListCall();
-                            }
-                        }else {
-                            fuhao_list.clear();
-                        }
-                    }else {
-                        fuhao_list.clear();
-                    }
+                fuhao_list.clear();
+                fuhao_list.add(getResources().getString(R.string.quanbu));
+
+                if (!resultData.isSuccess()) {
+                    return;
                 }
+
+                Gson gson = new Gson();
+                OtcConfigBean bean = gson.fromJson(resultData.data, OtcConfigBean.class);
+                if (null == bean){
+                    return;
+                }
+
+                if (null == bean.getCurrencies() && bean.getCurrencies().size() > 0){
+                    return;
+                }
+
+                fuhao_list.addAll(bean.getCurrencies());
             }
         });
     }
@@ -545,10 +557,68 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
     }
 
     private void dissPopPayWay() {
-        if (popPayWay != null & popPayWay.isShowing()) {
+        if (popPayWay != null && popPayWay.isShowing()) {
             popPayWay.dismiss();
+        }
+    }
 
+    PopupWindow popCoinType;
+    private void showPopCoinTypeMenu(View parent) {
+        if (popCoinType == null) {
+            View view = InflaterUtils.inflateView(getActivity(), R.layout.pop_legal_filter_pay_way);
+            popCoinType = new PopupWindow(view, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);//
+            RecyclerView rvPayWay = view.findViewById(R.id.rvPayWay);
 
+            View viewPopPayWayCancel = view.findViewById(R.id.viewPopPayWayCancel);
+            viewPopPayWayCancel.setOnClickListener(v -> dismissPopCoinType());
+
+            OptionalFilterAdapter coinTypeAdapter = new OptionalFilterAdapter(getActivity());
+            rvPayWay.setLayoutManager(new GridLayoutManager(getActivity(), 3));
+            rvPayWay.addItemDecoration(new SimpleSpaceItemDecoration(getActivity(), 10, 0, 5, 5));
+            rvPayWay.setAdapter(coinTypeAdapter);
+            coinTypeAdapter.setData(fuhao_list);
+            coinTypeAdapter.setSelectedIndex(0);
+            if (null != fuhao_list && !fuhao_list.isEmpty()) {
+                fuhao = fuhao_list.get(0);
+            } else {
+                fuhao = null;
+            }
+            coinTypeAdapter.setOnItemclickListen(new OptionalFilterAdapter.onItemclickListen() {
+                @Override
+                public void onItemclick(String coinType) {
+                    dismissPopCoinType();
+
+                    fuhao = coinType;
+                    txt_fuhao.setText(coinType);
+                    pageNo = 1;
+                    startOtcFindAdListCall();
+                }
+            });
+
+            popCoinType.setOutsideTouchable(false);
+            popCoinType.setFocusable(false);//
+            popCoinType.setOutsideTouchable(true);
+            popCoinType.setFocusable(true);
+            popCoinType.setBackgroundDrawable(new ColorDrawable(ContextCompat.getColor(getActivity(), R.color.transparent)));
+            popCoinType.setOnDismissListener(new PopupWindow.OnDismissListener() {
+                @Override
+                public void onDismiss() {
+                    txt_fuhao.setText(fuhao);
+                    txt_fuhao.setTextColor(ContextCompat.getColor(getActivity(), R.color.c3d3a50));
+                    ivArrow3.setImageResource(R.drawable.ic_svg_legal_arrow_bottom);
+                }
+            });
+        }
+        if (popCoinType != null && !popCoinType.isShowing()) {
+            popCoinType.showAsDropDown(parent, 0, 0);
+            txt_fuhao.setTextColor(ContextCompat.getColor(getActivity(), R.color.c6175ae));
+            ivArrow3.setImageResource(R.drawable.ic_svg_legal_arrow_up);
+        }
+    }
+
+    private void dismissPopCoinType() {
+        if (popCoinType != null & popCoinType.isShowing()) {
+            popCoinType.dismiss();
         }
     }
 

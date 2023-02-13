@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import com.bitcnew.R;
 
+import java.util.Arrays;
+import java.util.List;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -27,6 +30,14 @@ public class OptionalFilterAdapter extends RecyclerView.Adapter {
 
     public void setOnItemclickListen(OptionalFilterAdapter.onItemclickListen onItemclickListen) {
         this.onItemclickListen = onItemclickListen;
+    }
+
+    public void setData(List<String> data) {
+        if (null == data) {
+            return;
+        }
+        this.data = data.toArray(new String[0]);
+        notifyDataSetChanged();
     }
 
     public void setData(String[] data) {
@@ -99,6 +110,13 @@ public class OptionalFilterAdapter extends RecyclerView.Adapter {
         }
     }
 
+    public void setSelectedIndex(int position) {
+        if (position < 0 || position >= data.length) {
+            return;
+        }
+        this.selectedKeyType = data[position];
+        notifyDataSetChanged();
+    }
 
     public void setSelected(String keyType) {
         if (!this.selectedKeyType.equals(keyType)) {
