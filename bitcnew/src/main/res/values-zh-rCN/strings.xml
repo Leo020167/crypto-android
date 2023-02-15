@@ -1368,7 +1368,7 @@
     <string name="index_8">深A 5分钟涨速排名</string>
     <string name="index_9">沪B排名</string>
     <string name="index_10">深B排名</string>
-    <string name="index_11" translatable="false">沪深基金排名</string>
+    <string name="index_11">沪深基金排名</string>
 
     <string-array name="stock_f10">
         <item>新闻</item>
@@ -1381,58 +1381,58 @@
         <item>高管</item>
     </string-array>
 
-    <string name="homepagefrnewggdtop" translatable="false">%1$s 查看了%2$s的%3$s</string>
+    <string name="homepagefrnewggdtop">%1$s 查看了%2$s的%3$s</string>
 
     <!-- 我的消息 -->
-    <string name="my_msg" translatable="false">消息</string>
-    <string name="business" translatable="false">交易</string>
-    <string name="jf" translatable="false">积分</string>
+    <string name="my_msg">消息</string>
+    <string name="business">交易</string>
+    <string name="jf">积分</string>
     <!-- 股友吧 -->
-    <string name="square" translatable="false">股友吧</string>
-    <string name="square_newest" translatable="false">最新</string>
-    <string name="square_stock" translatable="false">自选股</string>
-    <string name="square_stock2" translatable="false">自选</string>
-    <string name="square_mine" translatable="false">我的</string>
-    <string name="square_topic" translatable="false">搜索话题</string>
-    <string name="square_edit_topic" translatable="false">发贴</string>
-    <string name="square_info_title" translatable="false">主题贴</string>
+    <string name="square">股友吧</string>
+    <string name="square_newest">最新</string>
+    <string name="square_stock">自选股</string>
+    <string name="square_stock2">自选</string>
+    <string name="square_mine">我的</string>
+    <string name="square_topic">搜索话题</string>
+    <string name="square_edit_topic">发贴</string>
+    <string name="square_info_title">主题贴</string>
     <string name="square_store">收藏</string>
-    <string name="square_unstore" translatable="false">取消收藏</string>
-    <string name="square_order_desc" translatable="false">倒序查看</string>
-    <string name="square_order_asc" translatable="false">正序查看</string>
-    <string name="square_frds_of_good" translatable="false">赞过的人</string>
-    <string name="allSquare" translatable="false">%1$s的贴子</string>
-    <string name="followNum" translatable="false">%1$s楼</string>
-    <string name="goSquare" translatable="false">去%1$s看看</string>
-    <string name="shareToFriendCircleFromSystem" translatable="false">分享到淘金路好友圈</string>
-    <string name="shareToSquareFromSystem" translatable="false">分享到淘金路股友吧</string>
-    <string name="shareToCircleFromSystem" translatable="false">分享到淘金路圈子</string>
-    <string name="send" translatable="false">发送</string>
-    <string name="squareSendTitle" translatable="false">发贴</string>
-    <string name="friend_circle" translatable="false">好友动态</string>
-    <string name="goFriend_circle" translatable="false">去%1$s看看</string>
-    <string name="friend_circle_send_title" translatable="false">发表观点</string>
-    <string name="friend_circle_frds_title" translatable="false">好友观点</string>
-    <string name="success" translatable="false">%1$s成功</string>
-    <string name="unsuccess" translatable="false">%1$s失败</string>
-    <string name="unStore" translatable="false">已取消收藏</string>
-    <string name="storeSuccess" translatable="false">收藏成功</string>
+    <string name="square_unstore">取消收藏</string>
+    <string name="square_order_desc">倒序查看</string>
+    <string name="square_order_asc">正序查看</string>
+    <string name="square_frds_of_good">赞过的人</string>
+    <string name="allSquare">%1$s的贴子</string>
+    <string name="followNum">%1$s楼</string>
+    <string name="goSquare">去%1$s看看</string>
+    <string name="shareToFriendCircleFromSystem">分享到淘金路好友圈</string>
+    <string name="shareToSquareFromSystem">分享到淘金路股友吧</string>
+    <string name="shareToCircleFromSystem">分享到淘金路圈子</string>
+    <string name="send">发送</string>
+    <string name="squareSendTitle">发贴</string>
+    <string name="friend_circle">好友动态</string>
+    <string name="goFriend_circle">去%1$s看看</string>
+    <string name="friend_circle_send_title">发表观点</string>
+    <string name="friend_circle_frds_title">好友观点</string>
+    <string name="success">%1$s成功</string>
+    <string name="unsuccess">%1$s失败</string>
+    <string name="unStore">已取消收藏</string>
+    <string name="storeSuccess">收藏成功</string>
 
     <!-- 股市日程表 -->
-    <string name="stockschedule" translatable="false">股市日程表</string>
-    <string name="stockschedule_pullLable" translatable="false">查找更早的日程</string>
-    <string name="stockschedule_refreshingLabel" translatable="false">正在加载...</string>
-    <string name="stockschedule_releaseLabel" translatable="false">松手加载更早的日程</string>
-    <string name="stockschedule_refreshSuccessLabel" translatable="false">加载成功</string>
-    <string name="comment" translatable="false">评论</string>
-    <string name="share" translatable="false">分享</string>
-    <string name="report" translatable="false">投诉</string>
+    <string name="stockschedule">股市日程表</string>
+    <string name="stockschedule_pullLable">查找更早的日程</string>
+    <string name="stockschedule_refreshingLabel">正在加载...</string>
+    <string name="stockschedule_releaseLabel">松手加载更早的日程</string>
+    <string name="stockschedule_refreshSuccessLabel">加载成功</string>
+    <string name="comment">评论</string>
+    <string name="share">分享</string>
+    <string name="report">投诉</string>
 
     <!-- 分享的文字 -->
-    <string name="shareToFriends" translatable="false">分享给好友</string>
-    <string name="shareToWeibo" translatable="false">分享到新浪微博</string>
-    <string name="shareToTalkie" translatable="false">分享到股友吧</string>
-    <string name="shareToFrTalkie" translatable="false">分享到好友圈</string>
+    <string name="shareToFriends">分享给好友</string>
+    <string name="shareToWeibo">分享到新浪微博</string>
+    <string name="shareToTalkie">分享到股友吧</string>
+    <string name="shareToFrTalkie">分享到好友圈</string>
     <string name="shareToChat">分享到私聊</string>
     <string name="shareToCircle">分享到圈子</string>
     <string name="shareToWeChat">转发给微信好友</string>
@@ -2594,19 +2594,19 @@
     <string name="gendandaoshi">跟单导师:</string>
     <string name="chakandaoshi">查看导师</string>
 
-    <string name="xinbishengou" translatable="false">新币申购</string>
-    <string name="chuangxinshiyanqu" translatable="false">创新试验区</string>
-    <string name="shuruzhengjianxinxi" translatable="false">输入证件信息</string>
-    <string name="qingshuruzhengjianhaoma" translatable="false">请输入证件号码</string>
-    <string name="huzhao" translatable="false">护照</string>
-    <string name="shenfenzheng" translatable="false">身份证</string>
-    <string name="shangchuanzhengjianzhaopian" translatable="false">上传证件照片</string>
-    <string name="shangchuanzhengjianzhengmian" translatable="false">上传证件正面</string>
-    <string name="shangchuanzhengjianfanmian" translatable="false">上传证件反面</string>
-    <string name="zijinzhanghu" translatable="false">资金账户</string>
-    <string name="jiaoyizhanghu" translatable="false">交易账户</string>
-    <string name="qiehuanyuyan" translatable="false">切换语言</string>
-    <string name="tuichudenglu" translatable="false">退出登录</string>
+    <string name="xinbishengou">新币申购</string>
+    <string name="chuangxinshiyanqu">创新试验区</string>
+    <string name="shuruzhengjianxinxi">输入证件信息</string>
+    <string name="qingshuruzhengjianhaoma">请输入证件号码</string>
+    <string name="huzhao">护照</string>
+    <string name="shenfenzheng">身份证</string>
+    <string name="shangchuanzhengjianzhaopian">上传证件照片</string>
+    <string name="shangchuanzhengjianzhengmian">上传证件正面</string>
+    <string name="shangchuanzhengjianfanmian">上传证件反面</string>
+    <string name="zijinzhanghu">资金账户</string>
+    <string name="jiaoyizhanghu">交易账户</string>
+    <string name="qiehuanyuyan">切换语言</string>
+    <string name="tuichudenglu">退出登录</string>
 
     <string name="zhangfubang">涨幅榜</string>
     <string name="diefubang">跌幅榜</string>

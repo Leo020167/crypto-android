@@ -112,6 +112,12 @@ android {
             resValue "string", "app_name", "TradingView"
             resValue "string", "product_name", "TradingView"
         }
+        leadercoin {
+            applicationId "com.bitcnew.leadercoin"
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "LeaderCoin"]
+            resValue "string", "app_name", "LeaderCoin"
+            resValue "string", "product_name", "LeaderCoin"
+        }
     }
     lintOptions {
         checkReleaseBuilds false
