@@ -111,6 +111,7 @@
     <string name="dangqiangoumaizuigaojia">The highest price for the current purchase</string>
     <string name="tianru">Fill in</string>
     <string name="shuliang">Quantity</string>
+    <string name="shuliangkeyong">Quantity</string>
     <string name="shurushuliang">Enter the quantity</string>
     <string name="chushouusdtshixitongjianghuicongyuezhanghuzhongdongjiegaibufenzijin">When selling USDT, the system will freeze the funds from the balance account.</string>
     <string name="xiane">Limit</string>

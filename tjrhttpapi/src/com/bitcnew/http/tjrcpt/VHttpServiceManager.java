@@ -589,6 +589,8 @@ public class VHttpServiceManager {
                 } else {
                     if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                         lang = "ts";
+                    } else if("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                        lang = "cn";
                     } else {
                         lang = "en";
                     }

@@ -79,7 +79,7 @@ public class ChicangAdapter extends BaseLoadMoreImageLoaderRecycleAdapter<Positi
 
         public void setData(final Position data, final int pos) {
             tvSymbol.setText(CommonUtil.getOriginSymbol(data.symbol));
-            tvHand.setText(data.amount+"");
+            tvHand.setText(data.amount);
             tvHand2.setText(data.availableAmount);
             txt_chengben.setText(data.price);
             txt_yingkui.setText(data.profit+"");

@@ -403,7 +403,7 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
             protected void callBack(ResultData resultData) {
                 try {
                     if (resultData.isSuccess()) {
-                        CommonUtil.showmessage("购买成功",XinbishengouDetailActivity.this);
+                        CommonUtil.showmessage("充值成功",XinbishengouDetailActivity.this);
                         startSubscribe_getDetail();
                     }
                 }catch (Exception e){

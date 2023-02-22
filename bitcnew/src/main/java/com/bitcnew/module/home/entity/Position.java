@@ -51,7 +51,7 @@ public class Position implements TaojinluType, Serializable {
     public String originPrice;//成本
     public String availableAmount;   //可用数量
     public double fee;//手续费
-    public double amount;//
+    public String amount;//
     public String createTime;//创建时间
     public String updateTime;//成交时间
     public int state;                  //状态：-1 已撤销，0 未成交，1 已成交

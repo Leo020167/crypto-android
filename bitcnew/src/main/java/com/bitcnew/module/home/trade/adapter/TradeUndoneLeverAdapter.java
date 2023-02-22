@@ -133,7 +133,7 @@ public class TradeUndoneLeverAdapter extends BaseLoadMoreImageLoaderRecycleAdapt
                 tvTime.setText(DateUtils.getStringDateOfString2(String.valueOf(data.openTime), DateUtils.TEMPLATE_yyyyMMdd_HHmm));
 
                 tvHand_label.setText(R.string.shuliang);
-                tvHand.setText(data.amount+"");
+                tvHand.setText(data.amount);
                 tvOpenPrice.setText(data.price);
                 tvOpenBail_label.setText(R.string.jine);
                 tvOpenBail.setText(data.sum);
@@ -181,7 +181,11 @@ public class TradeUndoneLeverAdapter extends BaseLoadMoreImageLoaderRecycleAdapt
 
     private void startOrderCancel(final Position data, final int pos, String payPass) {
         CommonUtil.cancelCall(tradeCancelCall);
-        tradeCancelCall = VHttpServiceManager.getInstance().getVService().proOrderCancel(data.orderId, payPass);
+        Integer type = null;
+        if ("spot".equalsIgnoreCase(accountType)) {
+            type = 2;
+        }
+        tradeCancelCall = VHttpServiceManager.getInstance().getVService().proOrderCancel(data.orderId, payPass, type);
         tradeCancelCall.enqueue(new MyCallBack(context) {
             @Override
             protected void callBack(ResultData resultData) {

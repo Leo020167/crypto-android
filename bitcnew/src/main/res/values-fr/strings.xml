@@ -108,6 +108,7 @@
     <string name="dangqiangoumaizuigaojia">Le prix le plus élevé pour l\'achat actuel</string>
     <string name="tianru">Remplir</string>
     <string name="shuliang">Quantité</string>
+    <string name="shuliangkeyong">Quantité</string>
     <string name="shurushuliang">Entrez la quantité</string>
     <string name="chushouusdtshixitongjianghuicongyuezhanghuzhongdongjiegaibufenzijin">Lors de la vente de l\'USDT, le système gèlera les fonds du compte de solde.</string>
     <string name="xiane">Limite</string>

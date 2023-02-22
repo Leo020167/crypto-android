@@ -108,6 +108,7 @@
     <string name="dangqiangoumaizuigaojia">当前购买最高价</string>
     <string name="tianru">填入</string>
     <string name="shuliang">数量</string>
+    <string name="shuliangkeyong">数量/可用</string>
     <string name="shurushuliang">输入数量</string>
     <string name="chushouusdtshixitongjianghuicongyuezhanghuzhongdongjiegaibufenzijin">出售USDT时系统将会从余额账户中冻结该部分资金</string>
     <string name="xiane">限额</string>

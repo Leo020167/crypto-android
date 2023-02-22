@@ -81,7 +81,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/shuliang"
+                android:text="@string/shuliangkeyong"
                 android:textColor="@color/c663d3a50"
                 android:textSize="@dimen/font_size_12" />
 

@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.bitcnew.BuildConfig;
 import com.bitcnew.R;
 import com.bitcnew.common.base.adapter.BaseLoadMoreImageLoaderRecycleAdapter;
 import com.bitcnew.http.widget.dialog.ui.TjrBaseDialog;
@@ -94,6 +95,10 @@ public class TradeLeverHistoryBibiAdapter extends BaseLoadMoreImageLoaderRecycle
         TextView tvSymbol2;
         @BindView(R.id.tvBuySell2)
         TextView tvBuySell2;
+        @BindView(R.id.tvProfitLabel)
+        TextView tvProfitLabel;
+        @BindView(R.id.tvProfit)
+        TextView tvProfit;
         @BindView(R.id.txt_shouxufei2)
         TextView txt_shouxufei2;
         @BindView(R.id.ivArrow2)
@@ -131,11 +136,22 @@ public class TradeLeverHistoryBibiAdapter extends BaseLoadMoreImageLoaderRecycle
                 }else {
                     tvBuySell2.setText("");
                 }
+
+                if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                    tvProfitLabel.setText(R.string.yingli);
+                    tvProfit.setText(data.profit);
+                    tvProfit.setTextColor(StockChartUtil.getRateTextColor(Double.parseDouble(data.profit)));
+                } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                    tvProfitLabel.setText(R.string.yingli);
+                    tvProfit.setText(data.profit);
+                    tvProfit.setTextColor(StockChartUtil.getRateTextColor(Double.parseDouble(data.profit)));
+                }
+
                 txt_shouxufei2.setText(context.getResources().getString(R.string.shouxufei)+data.fee);
                 tvTime2.setText(DateUtils.getStringDateOfString2(String.valueOf(data.updateTime), DateUtils.TEMPLATE_yyyyMMdd_HHmm));
-                tvHand2.setText(data.amount+"");
+                tvHand2.setText(data.amount);
                 double p = Double.parseDouble(data.price);
-                tvJine2.setText(data.amount*p+"");
+                tvJine2.setText(Double.parseDouble(data.amount)*p+"");
                 int sta = data.state;
                 if (sta == -1){
                     tvState2.setText(context.getResources().getString(R.string.yichexiao));

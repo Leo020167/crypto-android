@@ -91,10 +91,10 @@ public class DangqianweituoAdapter extends BaseLoadMoreImageLoaderRecycleAdapter
             }else {
                 tvBuySell.setText("");
             }
-            tvHand.setText(data.amount+"");
+            tvHand.setText(data.amount);
             tvOpenPrice.setText(data.price);
             double p = Double.parseDouble(data.price);
-            tvTime.setText(data.amount*p+"");
+            tvTime.setText(Double.parseDouble(data.amount)*p+"");
 
             tvCancel.setOnClickListener(new View.OnClickListener() {
                 @Override

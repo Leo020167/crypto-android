@@ -191,7 +191,7 @@ public class ChicangDetailActivity extends TJRBaseToolBarSwipeBackActivity imple
 
     private void startUpdateWinCall(final String stopWin,final String stopWin2) {
         CommonUtil.cancelCall(updateWinCall);
-        updateWinCall = VHttpServiceManager.getInstance().getVService().prybarCreateOrder2(symbol, "sell", stopWin, stopWin2, "limit");
+        updateWinCall = VHttpServiceManager.getInstance().getVService().prybarCreateOrder2(symbol, "sell", stopWin, stopWin2, "limit", 2);
         updateWinCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {
@@ -320,8 +320,9 @@ public class ChicangDetailActivity extends TJRBaseToolBarSwipeBackActivity imple
                 }
                 break;
             case R.id.llLastPrice:
-                if (orderInfo != null)
-                    MarketActivity.pageJump(ChicangDetailActivity.this, orderInfo.getData().getSymbol(), 1, "", true);
+//                if (orderInfo != null)
+//                    MarketActivity.pageJump(ChicangDetailActivity.this, orderInfo.getData().getSymbol(), 1, "", true);
+                TradeLeverActivity2.pageJump(this, orderInfo.getData().getSymbol(), 1);
                 break;
 
         }

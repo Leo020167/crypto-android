@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="huafeitoken">TVC de tarifa de flores:</string>
-    <string name="shequzongjianglitfu">Recompensas de la comunidad total (TVC)</string>
-    <string name="jianglitfu">Incentivo (TVC)</string>
-    <string name="fanyongusdt">Comisión de regreso (TVC)</string>
-    <string name="xiaohaotoken">Consumo de TVC:</string>
-    <string name="token">TVC</string>
-    <string name="zongzichantoken">Activos totales (TVC)</string>
-    <string name="chakanruhehuoqutoken">Vea cómo obtener TVC</string>
-    <string name="shuliangtoken">Cantidad (TVC</string>
+    <string name="huafeitoken">LCN de tarifa de flores:</string>
+    <string name="shequzongjianglitfu">Recompensas de la comunidad total (LCN)</string>
+    <string name="jianglitfu">Incentivo (LCN)</string>
+    <string name="fanyongusdt">Comisión de regreso (LCN)</string>
+    <string name="xiaohaotoken">Consumo de LCN:</string>
+    <string name="token">LCN</string>
+    <string name="zongzichantoken">Activos totales (LCN)</string>
+    <string name="chakanruhehuoqutoken">Vea cómo obtener LCN</string>
+    <string name="shuliangtoken">Cantidad (LCN</string>
     <string name="zhiyashengyi">Defi área especial</string>
     <string name="meirilixi">Renda anualizada</string>
-    <string name="huode">Obtener TVC</string>
+    <string name="huode">Obtener LCN</string>
 
 </resources>

@@ -1413,7 +1413,7 @@ public interface VService {
     //下单2
     @FormUrlEncoded
     @POST(VHttpServiceManager.PRYBAR_ORDER_CREATEORDER)
-    Call<ResponseBody> prybarCreateOrder2(@Field("symbol") String symbol,@Field("buySell") String buySell, @Field("price") String price,  @Field("hand") String hand,@Field("orderType") String orderType);
+    Call<ResponseBody> prybarCreateOrder2(@Field("symbol") String symbol,@Field("buySell") String buySell, @Field("price") String price,  @Field("hand") String hand,@Field("orderType") String orderType,@Field("type") int type);
 
     //下单3
     @FormUrlEncoded
@@ -1571,7 +1571,7 @@ public interface VService {
      */
     @FormUrlEncoded
     @POST(VHttpServiceManager.PRYBAR_ORDER_CANCEL)
-    Call<ResponseBody> proOrderCancel(@Field("orderId") long orderId, @Field("payPass") String payPass);
+    Call<ResponseBody> proOrderCancel(@Field("orderId") long orderId, @Field("payPass") String payPass, @Field("type") Integer type);
 
     @FormUrlEncoded
     @POST(VHttpServiceManager.PRYBAR_ORDER_CANCEL)

@@ -96,7 +96,7 @@ public class TradeCurrPositionAdapter3  extends BaseImageLoaderRecycleAdapter<Po
                 }
 
                 tvProfitCash.setText(StockChartUtil.formatWithSign(data.profitRate) + "%");
-                tvAmount.setText("" + data.amount);
+                tvAmount.setText(data.amount);
                 tvOpenPrice.setText(String.valueOf(data.price));
                 tvProfit.setText(StockChartUtil.formatWithSign(data.profit));
 

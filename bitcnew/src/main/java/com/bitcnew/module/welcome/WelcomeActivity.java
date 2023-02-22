@@ -18,6 +18,7 @@ import com.bitcnew.SpUtils;
 import com.bitcnew.common.base.TJRBaseToolBarActivity;
 import com.bitcnew.common.constant.CommonConst;
 import com.bitcnew.common.entity.ResultData;
+import com.bitcnew.common.util.UIHandler;
 import com.bitcnew.data.sharedpreferences.SysShareData;
 import com.bitcnew.module.login.LoginActivity;
 import com.bitcnew.util.CommonUtil;
@@ -153,8 +154,10 @@ public class WelcomeActivity extends TJRBaseToolBarActivity {
         User user = ((MainApplication) getApplicationContext()).getUser();
         if (user != null) userId = String.valueOf(user.getUserId());
 
+        UIHandler.postDelay(()-> {
 //        getDns();
-        jumpNextPage();
+            jumpNextPage();
+        }, 2000);
     }
 
     private int urlNum=1,wNum,listSize=1;//网络请求次数,   尾数

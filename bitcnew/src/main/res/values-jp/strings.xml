@@ -108,6 +108,7 @@
     <string name="dangqiangoumaizuigaojia">現在の購入の最高価格</string>
     <string name="tianru">埋める</string>
     <string name="shuliang">量</string>
+    <string name="shuliangkeyong">量</string>
     <string name="shurushuliang">数量を入力します</string>
     <string name="chushouusdtshixitongjianghuicongyuezhanghuzhongdongjiegaibufenzijin">USDTを販売すると、システムは残高口座から資金を凍結します。</string>
     <string name="xiane">制限</string>

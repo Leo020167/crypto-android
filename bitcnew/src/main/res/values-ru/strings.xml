@@ -108,6 +108,7 @@
     <string name="dangqiangoumaizuigaojia">Самая высокая цена за текущую покупку</string>
     <string name="tianru">Заполнять</string>
     <string name="shuliang">Количество</string>
+    <string name="shuliangkeyong">Количество</string>
     <string name="shurushuliang">Введите количество</string>
     <string name="chushouusdtshixitongjianghuicongyuezhanghuzhongdongjiegaibufenzijin">При продаже USDT система замораживает средства со счета баланса.</string>
     <string name="xiane">Предел</string>

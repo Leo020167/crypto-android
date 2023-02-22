@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="huafeitoken">花費TVC:</string>
-    <string name="shequzongjianglitfu">社區總獎勵(TVC)</string>
-    <string name="jianglitfu">獎勵（TVC）</string>
-    <string name="fanyongusdt">返傭（TVC）</string>
-    <string name="xiaohaotoken">消耗TVC:</string>
-    <string name="token">TVC</string>
-    <string name="zongzichantoken">總資產(TVC)</string>
-    <string name="chakanruhehuoqutoken">查看如何獲取TVC</string>
-    <string name="shuliangtoken">數量(TVC)</string>
+    <string name="huafeitoken">花費LCN:</string>
+    <string name="shequzongjianglitfu">社區總獎勵(LCN)</string>
+    <string name="jianglitfu">獎勵（LCN）</string>
+    <string name="fanyongusdt">返傭（LCN）</string>
+    <string name="xiaohaotoken">消耗LCN:</string>
+    <string name="token">LCN</string>
+    <string name="zongzichantoken">總資產(LCN)</string>
+    <string name="chakanruhehuoqutoken">查看如何獲取LCN</string>
+    <string name="shuliangtoken">數量(LCN)</string>
     <string name="zhiyashengyi">Defi專區</string>
     <string name="meirilixi">年化收益</string>
-    <string name="huode">獲得TVC</string>
+    <string name="huode">獲得LCN</string>
     <string name="qingshuruyaoqingmaxuantian">請輸入邀請碼</string>
 
 </resources>

@@ -115,7 +115,7 @@ public class LeverInfo1Activity extends TJRBaseToolBarSwipeBackActivity {
 
     public void setData(Position data) {
         commonToolbar.setTitle(data.symbol);
-        balanceTv.setText(String.valueOf(data.amount));
+        balanceTv.setText(data.amount);
         ableBalanceTv.setText(data.availableAmount);
         freezeBalanceTv.setText(data.frozenAmount);
     }

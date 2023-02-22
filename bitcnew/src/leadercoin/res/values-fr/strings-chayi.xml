@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="huafeitoken">FREE FLOWS TVC:</string>
-    <string name="shequzongjianglitfu">Total des récompenses communautaires (TVC)</string>
-    <string name="jianglitfu">Incitatif (TVC)</string>
-    <string name="fanyongusdt">Commission de retour (TVC)</string>
-    <string name="xiaohaotoken">Consommation TVC:</string>
-    <string name="token">TVC</string>
-    <string name="zongzichantoken">Actif total (TVC)</string>
-    <string name="chakanruhehuoqutoken">Voir comment obtenir TVC</string>
-    <string name="shuliangtoken">Quantité (TVC</string>
+    <string name="huafeitoken">FREE FLOWS LCN:</string>
+    <string name="shequzongjianglitfu">Total des récompenses communautaires (LCN)</string>
+    <string name="jianglitfu">Incitatif (LCN)</string>
+    <string name="fanyongusdt">Commission de retour (LCN)</string>
+    <string name="xiaohaotoken">Consommation LCN:</string>
+    <string name="token">LCN</string>
+    <string name="zongzichantoken">Actif total (LCN)</string>
+    <string name="chakanruhehuoqutoken">Voir comment obtenir LCN</string>
+    <string name="shuliangtoken">Quantité (LCN</string>
     <string name="zhiyashengyi">Defi zone spéciale</string>
     <string name="meirilixi">Revenu annualisé</string>
-    <string name="huode">Se TVC du feu</string>
+    <string name="huode">Se LCN du feu</string>
 
 </resources>

@@ -446,7 +446,8 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
                 PageJumpUtil.pageJump(getActivity(), ZichanActivity.class);
                 break;
             case R.id.llAddBankCard:
-                AddReceiptTermActivity.pageJump(getActivity(), 0);
+//                AddReceiptTermActivity.pageJump(getActivity(), 0);
+                PaymentTermActivity.pageJump(getActivity(), 0);
                 break;
         }
     }
