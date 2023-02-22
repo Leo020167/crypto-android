@@ -18,6 +18,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.bitcnew.BuildConfig;
 import com.bitcnew.MainApplication;
 import com.bitcnew.R;
 import com.bitcnew.common.constant.CommonConst;
@@ -42,6 +43,7 @@ import com.bitcnew.module.home.ShimingrenzhengtongguoActivity;
 import com.bitcnew.module.home.TakePhotoActivity;
 import com.bitcnew.module.home.WebActivity;
 import com.bitcnew.module.home.ZichanActivity;
+import com.bitcnew.module.home.entity.AccountInfo;
 import com.bitcnew.module.home.trade.RechargeCoin1Activity;
 import com.bitcnew.module.home.trade.RechargeCoinActivity;
 import com.bitcnew.module.home.trade.TakeCoin1Activity;
@@ -50,6 +52,7 @@ import com.bitcnew.module.home.trade.TransferCoinActivity;
 import com.bitcnew.module.home.trade.history.CoinFollowHistoryActivity;
 import com.bitcnew.module.home.trade.history.CoinTradeEntrustLeverActivity;
 import com.bitcnew.module.legal.LegalMoneyActivity;
+import com.bitcnew.module.myhome.AddReceiptTermActivity;
 import com.bitcnew.module.myhome.IdentityAuthenActivity;
 import com.bitcnew.module.myhome.MyHomeInfoActivity;
 import com.bitcnew.module.myhome.MyMessageActivity;
@@ -108,6 +111,8 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
     LinearLayout llTransfer;
     @BindView(R.id.llLegal)
     LinearLayout llLegal;
+    @BindView(R.id.llAddBankCard)
+    LinearLayout llAddBankCard;
 
     @BindView(R.id.llFollowHis)
     LinearLayout llFollowHis;
@@ -154,6 +159,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
     private String symbol = "";
     private String byyAmount = "";
     private String usdtBalance = "";
+    private String usdtAmount = "";
     private String helpCenterUrl = "";
 
 
@@ -170,6 +176,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
     private int type;
 
     private Call<ResponseBody> getMyHomeCall;
+    private Call<ResponseBody> getHomeAccountCall;
 
     private TjrBaseDialog abilityDialog;
 
@@ -235,6 +242,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
         llIdentityAuthen.setOnClickListener(this);
         llBindEmail.setOnClickListener(this);
         llZichan.setOnClickListener(this);
+        llAddBankCard.setOnClickListener(this);
 
         badgePrivateChat = new BadgeView(getActivity(), tvFeedback);
         badgePrivateChat.setBadgeMargin(0, 0);
@@ -274,6 +282,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
                     symbol = resultData.getItem("symbol", String.class);
                     byyAmount = resultData.getItem("byyAmount", String.class);
                     usdtBalance = resultData.getItem("usdtBalance", String.class);
+                    usdtAmount = resultData.getItem("usdtAmount", String.class);
 
                     helpCenterUrl = resultData.getItem("helpCenterUrl", String.class);
 
@@ -286,6 +295,9 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
                     tvUsdtBalance.setText(usdtBalance);
 //                    tvKBTBalance.setText(kbtAmount);
 
+                    if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                        tvId.setText("可用(USDT)：" + usdtAmount);
+                    }
                 }
             }
 
@@ -433,6 +445,9 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
             case R.id.llZichan: // 资产
                 PageJumpUtil.pageJump(getActivity(), ZichanActivity.class);
                 break;
+            case R.id.llAddBankCard:
+                AddReceiptTermActivity.pageJump(getActivity(), 0);
+                break;
         }
     }
 
@@ -471,6 +486,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
                 if (resultData.isSuccess()) {
                     email = resultData.getItem("email", String.class);
                     phone = resultData.getItem("phone", String.class);
+                    phone = resultData.getItem("usdtAmount", String.class);
                 }
             }
 
@@ -611,13 +627,13 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
             getMyUserInfo();
             startGetIdentityAuthen();
             startGetMyHomeCallCall();
-//            startGetHomeAccount();
             setUserInfo(getUser());
             showLegalPrivateChatNewsCount();
 //            setEditPointFlag();
         } else {
             refresh = true;
         }
+        startGetHomeAccount();
     }
 
 //    public void setEditPointFlag() {
@@ -668,10 +684,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
         }
     }
 
-
-    Call<ResponseBody> getHomeAccountCall;
-
-//    private void startGetHomeAccount() {
+    private void startGetHomeAccount() {
 //        refresh = false;
 //        CommonUtil.cancelCall(getHomeAccountCall);
 //        getHomeAccountCall = VHttpServiceManager.getInstance().getVService().homeAccount();
@@ -679,23 +692,10 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
 //            @Override
 //            protected void callBack(ResultData resultData) {
 //                if (resultData.isSuccess()) {
-//                    String balance = resultData.getItem("balance", String.class);
-//                    User u = resultData.getObject("user", User.class);
-//                    tvTaojinzhiValue.setText(balance);
-//                    if (u != null) {
-//                        if (u.roomId == 0) {
-//                            llMyLive.setVisibility(View.GONE);
-//                        } else {
-//                            llMyLive.setVisibility(View.VISIBLE);
-//                        }
-//                        roomId = u.roomId;
-//                        tvName.setText(u.getUserName());
-//                        if (!TextUtils.isEmpty(u.headUrl) && !u.headUrl.equals(ivHead.getTag())) {//防止闪烁
-//                            tjrImageLoaderUtil.displayImage(u.headUrl, ivHead);
-//                            ivHead.setTag(u.headUrl);
-//                        }
+//                    AccountInfo spotAccount = resultData.getObject("spotAccount", AccountInfo.class);
+//                    if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+//                        tvId.setText("可用(USDT)：" + spotAccount.holdAmount);
 //                    }
-//
 //                }
 //            }
 //
@@ -704,12 +704,17 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
 //                super.handleError(call);
 //            }
 //        });
-//    }
+    }
 
     private void setUserInfo(User u) {
         if (u == null) return;
         tvName.setText(u.getUserName());
-        tvId.setText("ID：" + String.valueOf(u.getUserId()));
+        if (!"leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            tvId.setText("ID：" + String.valueOf(u.getUserId()));
+        } else {
+            tvId.setText("可用(USDT)：" + usdtAmount);
+        }
+
         tvDesc.setText(u.getDescribes());
         tjrImageLoaderUtil.displayImageForHead(u.headUrl, ivHead);
     }

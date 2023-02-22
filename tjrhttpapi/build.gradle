@@ -34,7 +34,7 @@ android {
             buildConfigField 'String', 'SERVER_ADDRESS', '"bjchjscl.com"'
         }
         leadercoin {
-            buildConfigField 'String', 'SERVER_ADDRESS', '"bjchjscl.com"'
+            buildConfigField 'String', 'SERVER_ADDRESS', '"usefortest0603.com"'
         }
     }
 

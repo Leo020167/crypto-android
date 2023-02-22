@@ -153,6 +153,7 @@ public class TradeLeverFragment2 extends UserBaseFragment implements View.OnClic
     }
 
     private void initQuickInput() {
+        quickInputContainer.setVisibility(View.GONE);
         if (openRateList == null || openRateList.length == 0) {
             return;
         }
@@ -177,6 +178,7 @@ public class TradeLeverFragment2 extends UserBaseFragment implements View.OnClic
 
             quickInputContainer.addView(text);
         }
+        quickInputContainer.setVisibility(View.VISIBLE);
     }
 
     public void setDecimals(int priceDecimals, int amountDecimals) {

@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
+import com.bitcnew.BuildConfig;
 import com.bitcnew.R;
 import com.bitcnew.common.entity.ResultData;
 import com.bitcnew.http.base.Group;
@@ -87,7 +88,7 @@ public class HomeBibiAccountFragment extends UserBaseFragment implements View.On
 
 
     private AccountInfo balanceAccount;
-//    private ChicangAdapter tradeLeverHistoryAdapter;
+    private ChicangAdapter tradeLeverHistoryAdapter;
     private List<Position> biBiList;
     private BiBiListAdapter biBiListAdapter;
 
@@ -112,10 +113,13 @@ public class HomeBibiAccountFragment extends UserBaseFragment implements View.On
 
             if (null!=balanceAccount){
                 if (balanceAccount.openList != null&&balanceAccount.openList.size()>0) {
-//                    tradeLeverHistoryAdapter.setGroup(balanceAccount.openList);
-                    biBiList.clear();
-                    biBiList.addAll(balanceAccount.openList);
-                    biBiListAdapter.notifyDataSetChanged();
+                    if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                        tradeLeverHistoryAdapter.setGroup(balanceAccount.openList);
+                    } else {
+                        biBiList.clear();
+                        biBiList.addAll(balanceAccount.openList);
+                        biBiListAdapter.notifyDataSetChanged();
+                    }
 
                     rvList.setVisibility(View.VISIBLE);
                     tvNoData.setVisibility(View.GONE);
@@ -138,26 +142,29 @@ public class HomeBibiAccountFragment extends UserBaseFragment implements View.On
         txt_chichang.setOnClickListener(this);
         tvAll.setOnClickListener(this);
 
-//        tradeLeverHistoryAdapter = new ChicangAdapter(getActivity());
         rvList.setLayoutManager(new LinearLayoutManager(getActivity()));
-//        SimpleRecycleDivider simpleRecycleDivider = new SimpleRecycleDivider(getActivity(), 0, 0, ContextCompat.getColor(getActivity(), R.color.pageBackground), 10);
-//        simpleRecycleDivider.setShowLastDivider(false);
-//        rvList.addItemDecoration(simpleRecycleDivider);
-//        rvList.setAdapter(tradeLeverHistoryAdapter);
-//        tradeLeverHistoryAdapter.setOnItemClick(new OnItemClick() {
-//            @Override
-//            public void onItemClickListen(int pos, TaojinluType t) {
-//                Position order = (Position) t;
-//                LeverInfoActivity.pageJump(getActivity(),order.orderId,"2");
-//            }
-//        });
-        biBiList = new ArrayList<>();
-        biBiListAdapter = new BiBiListAdapter(biBiList);
-        biBiListAdapter.setOnItemClickListener((item, position) -> {
+        if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            tradeLeverHistoryAdapter = new ChicangAdapter(getActivity());
+            SimpleRecycleDivider simpleRecycleDivider = new SimpleRecycleDivider(getActivity(), 0, 0, ContextCompat.getColor(getActivity(), R.color.pageBackground), 10);
+            simpleRecycleDivider.setShowLastDivider(false);
+            rvList.addItemDecoration(simpleRecycleDivider);
+            rvList.setAdapter(tradeLeverHistoryAdapter);
+            tradeLeverHistoryAdapter.setOnItemClick(new OnItemClick() {
+                @Override
+                public void onItemClickListen(int pos, TaojinluType t) {
+                    Position order = (Position) t;
+                    LeverInfoActivity.pageJump(getActivity(),order.orderId,"2");
+                }
+            });
+        } else {
+            biBiList = new ArrayList<>();
+            biBiListAdapter = new BiBiListAdapter(biBiList);
+            biBiListAdapter.setOnItemClickListener((item, position) -> {
 //            LeverInfoActivity.pageJump(getActivity(), item.orderId,"2");
-            LeverInfo1Activity.pageJump(getActivity(), item, item.orderId, "2");
-        });
-        rvList.setAdapter(biBiListAdapter);
+                LeverInfo1Activity.pageJump(getActivity(), item, item.orderId, "2");
+            });
+            rvList.setAdapter(biBiListAdapter);
+        }
 
         adapter2 = new CaiwujiluAdapter(getActivity());
         rvList2.setLayoutManager(new LinearLayoutManager(getActivity()));

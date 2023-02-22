@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/pageBackground">
 
     <LinearLayout
@@ -90,7 +91,8 @@
                                 android:text=""
                                 android:textColor="@color/c1d3155"
                                 android:textSize="@dimen/font_size_22"
-                                android:textStyle="bold" />
+                                android:textStyle="bold"
+                                tools:text="用户名"/>
 
                             <android.support.v7.widget.AppCompatImageView
                                 android:layout_width="20dip"
@@ -160,7 +162,8 @@
                         android:text=""
                         android:textColor="@color/c996175ae"
                         android:textSize="@dimen/font_size_14"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:text="ID: 00000000" />
 
 
                 </LinearLayout>
@@ -339,7 +342,8 @@
             <LinearLayout
                 android:id="@+id/llFuturesHis"
                 style="@style/inSideSettingItem"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
 
                 <ImageView
                     style="@style/perval_home_ic_style"
@@ -646,6 +650,21 @@
                 <TextView
                     style="@style/settingTextStyle"
                     android:text="@string/shimingrenzheng" />
+
+                <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
+            </LinearLayout>
+            <View
+                style="@style/dividerLine_horizontal"
+                android:layout_marginLeft="15dip" />
+            <LinearLayout
+                android:id="@+id/llAddBankCard"
+                style="@style/inSideSettingItem">
+                <ImageView
+                    style="@style/perval_home_ic_style"
+                    android:src="@drawable/ic_svg_receipt_manager" />
+                <TextView
+                    style="@style/settingTextStyle"
+                    android:text="@string/bingBankCard" />
 
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
             </LinearLayout>

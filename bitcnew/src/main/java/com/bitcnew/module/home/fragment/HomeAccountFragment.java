@@ -32,6 +32,8 @@ import com.bitcnew.util.MyCallBack;
 import com.bitcnew.util.PageJumpUtil;
 import com.bitcnew.util.TjrMinuteTaskPool;
 
+import java.util.concurrent.TimeUnit;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import okhttp3.ResponseBody;
@@ -125,7 +127,7 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
             tjrMinuteTaskPool = new TjrMinuteTaskPool();
         }
         isRun = true;
-        tjrMinuteTaskPool.startTime(getActivity(), task);
+        tjrMinuteTaskPool.startTime( task,0,3, TimeUnit.SECONDS);
 
     }
 

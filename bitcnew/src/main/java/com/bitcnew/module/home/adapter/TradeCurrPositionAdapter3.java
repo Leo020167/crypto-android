@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.bitcnew.BuildConfig;
 import com.bitcnew.R;
 import com.bitcnew.common.base.adapter.BaseImageLoaderRecycleAdapter;
 import com.bitcnew.http.base.Group;
@@ -34,8 +35,11 @@ public class TradeCurrPositionAdapter3  extends BaseImageLoaderRecycleAdapter<Po
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-//        return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.trade_position_item3, parent, false));
-        return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.item_bibi, parent, false));
+        if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.trade_position_item3, parent, false));
+        } else {
+            return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.item_bibi, parent, false));
+        }
     }
 
 
@@ -53,20 +57,13 @@ public class TradeCurrPositionAdapter3  extends BaseImageLoaderRecycleAdapter<Po
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-//        @BindView(R.id.tvSymbol)
-//        TextView tvSymbol;
-//        @BindView(R.id.tvBuySell)
-//        TextView tvBuySell;
-//        @BindView(R.id.tvProfitCash)
-//        TextView tvProfitCash;
-//        @BindView(R.id.tvAmount)
-//        TextView tvAmount;
-//        @BindView(R.id.tvOpenPrice)
-//        TextView tvOpenPrice;
-//        @BindView(R.id.tvProfit)
-//        TextView tvProfit;
-//        @BindView(R.id.llItem)
-//        LinearLayout llItem;
+        TextView tvSymbol;
+        TextView tvBuySell;
+        TextView tvProfitCash;
+        TextView tvAmount;
+        TextView tvOpenPrice;
+        TextView tvProfit;
+        LinearLayout llItem;
 
         final TextView coinTypeTv;
         final TextView usdtBalanceTv;
@@ -75,7 +72,13 @@ public class TradeCurrPositionAdapter3  extends BaseImageLoaderRecycleAdapter<Po
 
         public ViewHolder(View itemView) {
             super(itemView);
-//            ButterKnife.bind(this, itemView);
+            tvSymbol = itemView.findViewById(R.id.tvSymbol);
+            tvBuySell = itemView.findViewById(R.id.tvBuySell);
+            tvProfitCash = itemView.findViewById(R.id.tvProfitCash);
+            tvAmount = itemView.findViewById(R.id.tvAmount);
+            tvOpenPrice = itemView.findViewById(R.id.tvOpenPrice);
+            tvProfit = itemView.findViewById(R.id.tvProfit);
+            llItem = itemView.findViewById(R.id.llItem);
 
             coinTypeTv = itemView.findViewById(R.id.coinTypeTv);
             usdtBalanceTv = itemView.findViewById(R.id.usdtBalanceTv);
@@ -84,40 +87,42 @@ public class TradeCurrPositionAdapter3  extends BaseImageLoaderRecycleAdapter<Po
         }
 
         public void setData(final Position data) {
-//            tvSymbol.setText(CommonUtil.getOriginSymbol(data.symbol));
-//            if (!TextUtils.isEmpty( data.buySellValue)){
-//                tvBuySell.setText( "•" + data.buySellValue);
-//            }else {
-//                tvBuySell.setText( "");
-//            }
-//
-//            tvProfitCash.setText(StockChartUtil.formatWithSign(data.profitRate) + "%");
-//            tvAmount.setText(""+data.amount);
-//            tvOpenPrice.setText(String.valueOf(data.price));
-//            tvProfit.setText(StockChartUtil.formatWithSign(data.profit));
-//
-//            if (!TextUtils.isEmpty(data.profit)) {
-//                int color=StockChartUtil.getRateTextColor(context, Double.parseDouble(data.profit));
-//                tvProfitCash.setTextColor(color);
-//                tvProfit.setTextColor(color);
-//            }
-//
-//            llItem.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    ChicangDetailActivity.pageJump(context,data.symbol);
-//                }
-//            });
+            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                tvSymbol.setText(CommonUtil.getOriginSymbol(data.symbol));
+                if (!TextUtils.isEmpty(data.buySellValue)) {
+                    tvBuySell.setText("•" + data.buySellValue);
+                } else {
+                    tvBuySell.setText("");
+                }
 
-            coinTypeTv.setText(data.symbol);
-            coinTypeTv.setText(data.symbol);
-            usdtBalanceTv.setText("≈ " + data.usdtAmount + " USDT");
-            ableBalanceTv.setText(data.availableAmount);
-            freezeBalanceTv.setText(data.frozenAmount);
-            itemView.setOnClickListener(v -> {
+                tvProfitCash.setText(StockChartUtil.formatWithSign(data.profitRate) + "%");
+                tvAmount.setText("" + data.amount);
+                tvOpenPrice.setText(String.valueOf(data.price));
+                tvProfit.setText(StockChartUtil.formatWithSign(data.profit));
+
+                if (!TextUtils.isEmpty(data.profit)) {
+                    int color = StockChartUtil.getRateTextColor(context, Double.parseDouble(data.profit));
+                    tvProfitCash.setTextColor(color);
+                    tvProfit.setTextColor(color);
+                }
+
+                llItem.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        ChicangDetailActivity.pageJump(context, data.symbol);
+                    }
+                });
+            } else {
+                coinTypeTv.setText(data.symbol);
+                coinTypeTv.setText(data.symbol);
+                usdtBalanceTv.setText("≈ " + data.usdtAmount + " USDT");
+                ableBalanceTv.setText(data.availableAmount);
+                freezeBalanceTv.setText(data.frozenAmount);
+                itemView.setOnClickListener(v -> {
 //                ChicangDetailActivity.pageJump(context,data.symbol);
-                LeverInfo1Activity.pageJump(context, data, data.orderId, "2");
-            });
+                    LeverInfo1Activity.pageJump(context, data, data.orderId, "2");
+                });
+            }
         }
     }
 }
