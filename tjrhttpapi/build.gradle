@@ -31,11 +31,13 @@ android {
             buildConfigField 'String', 'SERVER_ADDRESS', '"encryptedex.com"'
         }
         tradingview {
-            buildConfigField 'String', 'SERVER_ADDRESS', '"bjchjscl.com"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"bjchjscl.com"'
+            buildConfigField 'String', 'SERVER_ADDRESS', '"tradingviewex.com"'
         }
         leadercoin {
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"usefortest0603.com"'
-            buildConfigField 'String', 'SERVER_ADDRESS', '"gsxxg.com"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"gsxxg.com"'
+            buildConfigField 'String', 'SERVER_ADDRESS', '"wltlmlg.cn"'
         }
     }
 

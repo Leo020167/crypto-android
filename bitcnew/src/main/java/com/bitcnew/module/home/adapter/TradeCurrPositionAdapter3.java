@@ -24,7 +24,7 @@ import com.bitcnew.util.StockChartUtil;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class TradeCurrPositionAdapter3  extends BaseImageLoaderRecycleAdapter<Position> {
+public class TradeCurrPositionAdapter3 extends BaseImageLoaderRecycleAdapter<Position> {
 
     private Context context;
 
@@ -42,6 +42,42 @@ public class TradeCurrPositionAdapter3  extends BaseImageLoaderRecycleAdapter<Po
         }
     }
 
+    @Override
+    public int getItemCount() {
+        if (null == group) {
+            return 0;
+        }
+        if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            int count = 0;
+            for (int i = 0; i < group.size(); i++) {
+                if (Double.parseDouble(group.get(i).amount) != 0) {
+                    count ++;
+                }
+            }
+            return count;
+        }
+        return super.getItemCount();
+    }
+
+    @Override
+    public Position getItem(int position) {
+        if (position < 0 || position >= getItemCount()) {
+            return null;
+        }
+        if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            int index = -1;
+            for (int i = 0; i < group.size(); i++) {
+                if (Double.parseDouble(group.get(i).amount) == 0) {
+                    continue;
+                }
+                index ++;
+                if (index == position) {
+                    return group.get(i);
+                }
+            }
+        }
+        return super.getItem(position);
+    }
 
     @Override
     public void setGroup(Group<Position> g) {
@@ -96,7 +132,7 @@ public class TradeCurrPositionAdapter3  extends BaseImageLoaderRecycleAdapter<Po
                 }
 
                 tvProfitCash.setText(StockChartUtil.formatWithSign(data.profitRate) + "%");
-                tvAmount.setText(data.amount);
+                tvAmount.setText(data.amount + "/" + data.availableAmount);
                 tvOpenPrice.setText(String.valueOf(data.price));
                 tvProfit.setText(StockChartUtil.formatWithSign(data.profit));
 
