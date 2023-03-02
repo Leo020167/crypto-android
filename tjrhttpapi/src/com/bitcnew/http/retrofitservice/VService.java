@@ -939,7 +939,7 @@ public interface VService {
 
     @FormUrlEncoded
     @POST(VHttpServiceManager.SEARCH_COIN)
-    Call<ResponseBody> searchCoin(@Field("symbol") String symbol);
+    Call<ResponseBody> searchCoin(@Field("symbol") String symbol, @Field("accountType") String accountType);
 
     /**
      * 提币列表

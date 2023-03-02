@@ -230,7 +230,18 @@ public class HomeMarkAndKbtFragment extends UserBaseImmersionBarFragment impleme
                 }
                 break;
             case R.id.ivSearch:
-                PageJumpUtil.pageJump(getActivity(), SearchCoinActivity.class);
+                int pos = viewPager.getCurrentItem();
+                Bundle args = new Bundle();
+                String accountType = null;
+                if (pos == HomeMarkAndKbtFragmentTabConfig.TAB_BI_BI) {
+                    accountType = "spot";
+                } else if (pos == HomeMarkAndKbtFragmentTabConfig.TAB_HE_YUE) {
+                    accountType = "digital";
+                } else if (pos == HomeMarkAndKbtFragmentTabConfig.TAB_QAUAN_QIU) {
+                    accountType = "stock";
+                }
+                args.putString("accountType", accountType);
+                PageJumpUtil.pageJump(getActivity(), SearchCoinActivity.class, args);
                 break;
             case R.id.ivOptionalSort:
                 if (((HomeActivity) getActivity()).isLogin()) {

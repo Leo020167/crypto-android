@@ -60,6 +60,8 @@ public class SearchCoinActivity extends TJRBaseToolBarSwipeBackActivity implemen
     private SearchCoinAdapter searchCoinAdapter;
     private SearchCoinAdapter historyAdapter;
 
+    private String accountType;
+
     @Override
     protected int setLayoutId() {
         return R.layout.search_coin;
@@ -73,6 +75,7 @@ public class SearchCoinActivity extends TJRBaseToolBarSwipeBackActivity implemen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        accountType = getIntent().getStringExtra("accountType");
 //        setContentView(R.layout.my_cropyme);
         ButterKnife.bind(this);
         llCLear.setOnClickListener(this);
@@ -168,7 +171,7 @@ public class SearchCoinActivity extends TJRBaseToolBarSwipeBackActivity implemen
 
     private void startSearch(String value) {
         CommonUtil.cancelCall(searchCall);
-        searchCall = VHttpServiceManager.getInstance().getVService().searchCoin(value);
+        searchCall = VHttpServiceManager.getInstance().getVService().searchCoin(value, accountType);
         searchCall.enqueue(new MyCallBack(this) {
             @Override
             protected void callBack(ResultData resultData) {

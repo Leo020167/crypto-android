@@ -58,10 +58,10 @@ public class PledgeApplyDialog extends Dialog {
             return;
         }
 
-        if (new BigDecimal(num).compareTo(new BigDecimal(pledgeCoin.minCount)) < 0) {
-            Toast.makeText(getContext(), getContext().getString(R.string.zuixiaozhiyashuliang__, pledgeCoin.minCount, pledgeCoin.symbol), Toast.LENGTH_SHORT).show();
-            return;
-        }
+//        if (new BigDecimal(num).compareTo(new BigDecimal(pledgeCoin.minCount)) < 0) {
+//            Toast.makeText(getContext(), getContext().getString(R.string.zuixiaozhiyashuliang__, pledgeCoin.minCount, pledgeCoin.symbol), Toast.LENGTH_SHORT).show();
+//            return;
+//        }
 
         if (null != onConfirmListener) {
             onConfirmListener.onConfirm(pledgeCoin, num);

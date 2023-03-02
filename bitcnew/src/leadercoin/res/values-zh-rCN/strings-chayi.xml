@@ -24,7 +24,7 @@
     <string name="dangqiangoumaizuigaojia">当前充值最高价</string>
     <string name="baozhengjinyonyufabuchushouhuogoumai">保证金用于发布提现或充值USDT广告，提交认证信息即时从资产余额中进行冻结。</string>
     <string name="qugoumai">去充值</string>
-    <string name="fabigoumai">法币充值</string>
+    <string name="fabigoumai">余额提现</string>
     <string name="goumaishuliang">充值数量</string>
     <string name="lingshouxufeigoumai">0手续费充值</string>
     <string name="ninzhengzaixiang">您正在向WWCT认证卖家充值%s USDT</string>
@@ -36,7 +36,7 @@
     <string name="qingshurugoumaijine">请输入充值金额</string>
     <string name="goumaishuliangusdt">充值数量：%sUSDT</string>
     <string name="goumaijine">充值金额</string>
-    <string name="fabigoumaiusdt">法币充值USDT</string>
+    <string name="fabigoumaiusdt">余额提现USDT</string>
     <string name="qingshurugoumaishuliang">请输入充值数量</string>
     <string name="follow_add_description">在“红跳蚤”，红人卡可充值、转让，除了获得红人卡销售的到期分红包之外，还能兑换挚爱红人对你祝福、为你定制才艺表演,甚至出席你公司商业演出！</string>
     <string name="pay_2_buy">支付 — 元充值</string>

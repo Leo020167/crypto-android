@@ -32,12 +32,14 @@ android {
         }
         tradingview {
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"bjchjscl.com"'
-            buildConfigField 'String', 'SERVER_ADDRESS', '"tradingviewex.com"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"tradingviewex.com"'
+            buildConfigField 'String', 'SERVER_ADDRESS', '"bjchjscl.com"'
         }
         leadercoin {
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"usefortest0603.com"'
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"gsxxg.com"'
-            buildConfigField 'String', 'SERVER_ADDRESS', '"wltlmlg.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"wltlmlg.cn"'
+            buildConfigField 'String', 'SERVER_ADDRESS', '"qokwjxf.cn"'
         }
     }
 
