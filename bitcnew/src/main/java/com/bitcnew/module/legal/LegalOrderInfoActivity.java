@@ -437,10 +437,7 @@ public class LegalOrderInfoActivity extends TJRBaseActionBarSwipeBackObserverAct
             }
             timer = new CountDownTimer(orderCash.paySecondTime * 1000, 1000) {
                 public void onTick(long millisUntilFinished) {
-                    String[] time = VeDate.formatSecToTime(millisUntilFinished / 1000);
-                    if (time != null && time.length == 4) {
-                        tvTime.setText(time[2] + ":" + time[3]);
-                    }
+                    tvTime.setText(VeDate.formatSecToTime1(millisUntilFinished / 1000));
                 }
 
                 public void onFinish() {
@@ -469,10 +466,7 @@ public class LegalOrderInfoActivity extends TJRBaseActionBarSwipeBackObserverAct
             }
             timer = new CountDownTimer(orderCash.paySecondTime * 1000, 1000) {
                 public void onTick(long millisUntilFinished) {
-                    String[] time = VeDate.formatSecToTime(millisUntilFinished / 1000);
-                    if (time != null && time.length == 4) {
-                        tvTimeRight.setText(time[2] + ":" + time[3]);
-                    }
+                    tvTime.setText(VeDate.formatSecToTime1(millisUntilFinished / 1000));
                 }
 
                 public void onFinish() {

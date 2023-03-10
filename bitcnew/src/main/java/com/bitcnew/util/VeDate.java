@@ -976,6 +976,16 @@ public class VeDate {
      * @param s
      * @return
      */
+    public static String formatSecToTime1(long s) {
+        String[] times = formatSecToTime(s);
+        if (times == null || times.length != 4) {
+            return "";
+        }
+        int day = Integer.parseInt(times[0]);
+        int hour = day * 24 + Integer.parseInt(times[1]);
+        return hour + ":" + times[2] + ":" + times[3];
+    }
+
     public static String[] formatSecToTime(long s) {
         int dd = (int) s / (24 * 3600); // 共计天数
         int time = (int) (s - (dd * 24 * 3600));
