@@ -400,6 +400,8 @@
     <string name="jiageyue">가격</string>
     <string name="xiane12usdt">제한 %1$s USDT- %2$s USDT</string>
     <string name="lingshouxufeigoumai">0 구매 수수료</string>
+    <string name="lingshouxufeigoumai1">0 구매 수수료</string>
+    <string name="lingshouxufeigoumai2">0 구매 수수료</string>
     <string name="haiweibianjiziliao">아직 데이터 편집이 없습니다 ...</string>
     <string name="fabimaimai">화폐 통화 거래</string>
     <string name="shuzihuobijiaoyijilu">디지털 통화 거래 기록</string>

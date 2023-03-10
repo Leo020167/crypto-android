@@ -403,6 +403,8 @@
     <string name="jiageyue">Price</string>
     <string name="xiane12usdt">Limit %1$s USDT-%2$s USDT</string>
     <string name="lingshouxufeigoumai">0 handling fee to buy</string>
+    <string name="lingshouxufeigoumai1">0 handling fee to buy</string>
+    <string name="lingshouxufeigoumai2">0 handling fee to buy</string>
     <string name="haiweibianjiziliao">No data editing yet...</string>
     <string name="fabimaimai">Legal currency trading</string>
     <string name="shuzihuobijiaoyijilu">Digital Currency Transaction History</string>

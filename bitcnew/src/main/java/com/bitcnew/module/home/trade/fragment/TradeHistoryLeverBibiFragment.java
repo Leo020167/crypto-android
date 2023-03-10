@@ -209,7 +209,7 @@ public class TradeHistoryLeverBibiFragment extends UserBaseFragment {
                     Position item;
                     for (int i = 0, count = group.size(); i < count; i++) {
                         item = group.get(i);
-                        if ("limit".equalsIgnoreCase(item.orderType)) {
+                        if (!accountType.equals("spot") && "limit".equalsIgnoreCase(item.orderType)) {
                             continue;
                         }
                         list.add(item);

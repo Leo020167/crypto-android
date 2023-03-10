@@ -400,6 +400,8 @@
     <string name="jiageyue">Prix</string>
     <string name="xiane12usdt">Limite%1$s USDT-%2$s USDT</string>
     <string name="lingshouxufeigoumai">0 Frais de traitement à acheter</string>
+    <string name="lingshouxufeigoumai1">0 Frais de traitement à acheter</string>
+    <string name="lingshouxufeigoumai2">0 Frais de traitement à acheter</string>
     <string name="haiweibianjiziliao">Aucun montage de données encore ...</string>
     <string name="fabimaimai">Trading de monnaie fiduciaire</string>
     <string name="shuzihuobijiaoyijilu">Historique des transactions de monnaie numérique</string>

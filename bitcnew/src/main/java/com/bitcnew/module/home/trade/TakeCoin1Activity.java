@@ -165,13 +165,14 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
 
     private void doWithdraw(String amount, String payPassword) {
         try {
-            BigDecimal available = new BigDecimal(config.getAvailableAmount()).subtract(new BigDecimal(config.getFee()));
+//            BigDecimal available = new BigDecimal(config.getAvailableAmount()).subtract(new BigDecimal(config.getFee()));
+            BigDecimal available = new BigDecimal(config.getAvailableAmount());
             if (available.compareTo(BigDecimal.ZERO) <= 0) {
-                showToast(getString(R.string._yuebuzu, coinType));
+                showToast(getString(R.string._yuebuzu, coinType.getSymbol()));
                 return;
             }
             if (new BigDecimal(amount).compareTo(available) > 0) {
-                showToast(getString(R.string._yuebuzu, coinType));
+                showToast(getString(R.string._yuebuzu, coinType.getSymbol()));
                 return;
             }
 

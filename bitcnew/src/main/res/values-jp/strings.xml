@@ -400,6 +400,8 @@
     <string name="jiageyue">価格</string>
     <string name="xiane12usdt">Limit%1$s usdt-%2$s usdt</string>
     <string name="lingshouxufeigoumai">0購入手数料</string>
+    <string name="lingshouxufeigoumai1">0購入手数料</string>
+    <string name="lingshouxufeigoumai2">0購入手数料</string>
     <string name="haiweibianjiziliao">まだデータ編集はありません...</string>
     <string name="fabimaimai">フィアット通貨取引</string>
     <string name="shuzihuobijiaoyijilu">デジタル通貨取引履歴</string>

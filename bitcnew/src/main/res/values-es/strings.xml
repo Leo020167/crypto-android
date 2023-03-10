@@ -400,6 +400,8 @@
     <string name="jiageyue">Precio</string>
     <string name="xiane12usdt">Límite %1$s USDT- %2$s USDT</string>
     <string name="lingshouxufeigoumai">0 Tarifa de manejo para comprar</string>
+    <string name="lingshouxufeigoumai1">0 Tarifa de manejo para comprar</string>
+    <string name="lingshouxufeigoumai2">0 Tarifa de manejo para comprar</string>
     <string name="haiweibianjiziliao">No hay edición de datos todavía ...</string>
     <string name="fabimaimai">Comercio de divisas legales</string>
     <string name="shuzihuobijiaoyijilu">Historial de transacciones de moneda digital</string>

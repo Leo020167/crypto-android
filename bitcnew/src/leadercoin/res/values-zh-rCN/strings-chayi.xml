@@ -27,6 +27,8 @@
     <string name="fabigoumai">余额提现</string>
     <string name="goumaishuliang">充值数量</string>
     <string name="lingshouxufeigoumai">0手续费充值</string>
+    <string name="lingshouxufeigoumai1">0手续费充值</string>
+    <string name="lingshouxufeigoumai2">0手续费提现</string>
     <string name="ninzhengzaixiang">您正在向WWCT认证卖家充值%s USDT</string>
     <string name="querengoumai">确认充值</string>
     <string name="goumaizhong">充值中</string>

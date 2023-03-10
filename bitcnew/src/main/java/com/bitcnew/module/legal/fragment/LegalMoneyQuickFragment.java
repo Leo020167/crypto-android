@@ -623,7 +623,7 @@ public class LegalMoneyQuickFragment extends UserBaseFragment implements View.On
             tvBuy.setTextSize(TypedValue.COMPLEX_UNIT_SP, 26);
             tvSell.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
             tvOrientationText.setText(getResources().getString(R.string.goumaishuliang));
-            tvSubmit.setText(getResources().getString(R.string.lingshouxufeigoumai));
+            tvSubmit.setText(getResources().getString(R.string.lingshouxufeigoumai1));
             llTransfer.setVisibility(View.GONE);
             tvBalance.setVisibility(View.GONE);
             vLine.setVisibility(View.GONE);
@@ -634,7 +634,7 @@ public class LegalMoneyQuickFragment extends UserBaseFragment implements View.On
             tvBuy.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
             tvSell.setTextSize(TypedValue.COMPLEX_UNIT_SP, 26);
             tvOrientationText.setText(getResources().getString(R.string.chushoushuliang));
-            tvSubmit.setText(getResources().getString(R.string.lingshouxufeigoumai));
+            tvSubmit.setText(getResources().getString(R.string.lingshouxufeigoumai2));
             llTransfer.setVisibility(View.VISIBLE);
             tvBalance.setVisibility(View.VISIBLE);
             vLine.setVisibility(View.VISIBLE);

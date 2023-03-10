@@ -400,6 +400,8 @@
     <string name="jiageyue">价格约</string>
     <string name="xiane12usdt">限额 %1$s USDT-%2$s USDT</string>
     <string name="lingshouxufeigoumai">0手续费购买</string>
+    <string name="lingshouxufeigoumai1">0手续费购买</string>
+    <string name="lingshouxufeigoumai2">0手续费购买</string>
     <string name="haiweibianjiziliao">还未编辑资料…</string>
     <string name="fabimaimai">法币买卖</string>
     <string name="shuzihuobijiaoyijilu">数字货币交易记录</string>

@@ -400,6 +400,8 @@
     <string name="jiageyue">Цена</string>
     <string name="xiane12usdt">Лимит %1$s USDT- %2$s USDT</string>
     <string name="lingshouxufeigoumai">0 Плата за обращение за покупку</string>
+    <string name="lingshouxufeigoumai1">0 Плата за обращение за покупку</string>
+    <string name="lingshouxufeigoumai2">0 Плата за обращение за покупку</string>
     <string name="haiweibianjiziliao">Нет редактирования данных ...</string>
     <string name="fabimaimai">Торговля юридической валютой</string>
     <string name="shuzihuobijiaoyijilu">История транзакций цифровой валюты</string>
