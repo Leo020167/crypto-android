@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">花費AiCoin:</string>
+    <string name="shequzongjianglitfu">社區總獎勵(AiCoin)</string>
+    <string name="jianglitfu">獎勵（AiCoin）</string>
+    <string name="fanyongusdt">返傭（AiCoin）</string>
+    <string name="xiaohaotoken">消耗AiCoin:</string>
+    <string name="token">AiCoin</string>
+    <string name="zongzichantoken">總資產(AiCoin)</string>
+    <string name="chakanruhehuoqutoken">查看如何獲取AiCoin</string>
+    <string name="shuliangtoken">數量(AiCoin)</string>
+    <string name="zhiyashengyi">Defi專區</string>
+    <string name="meirilixi">年化收益</string>
+    <string name="huode">獲得AiCoin</string>
+    <string name="qingshuruyaoqingmaxuantian">請輸入邀請碼</string>
+
+</resources>

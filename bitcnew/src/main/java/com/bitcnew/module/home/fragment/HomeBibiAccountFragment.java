@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.bitcnew.BuildConfig;
 import com.bitcnew.R;
 import com.bitcnew.common.entity.ResultData;
+import com.bitcnew.config.Configs;
 import com.bitcnew.http.base.Group;
 import com.bitcnew.http.base.TaojinluType;
 import com.bitcnew.http.tjrcpt.VHttpServiceManager;
@@ -113,7 +114,7 @@ public class HomeBibiAccountFragment extends UserBaseFragment implements View.On
 
             if (null!=balanceAccount){
                 if (balanceAccount.openList != null&&balanceAccount.openList.size()>0) {
-                    if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                    if (Configs.inFlavors(BuildConfig.FLAVOR)) {
                         tradeLeverHistoryAdapter.setGroup(balanceAccount.openList);
                     } else {
                         biBiList.clear();
@@ -143,7 +144,7 @@ public class HomeBibiAccountFragment extends UserBaseFragment implements View.On
         tvAll.setOnClickListener(this);
 
         rvList.setLayoutManager(new LinearLayoutManager(getActivity()));
-        if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+        if (Configs.inFlavors(BuildConfig.FLAVOR)) {
             tradeLeverHistoryAdapter = new ChicangAdapter(getActivity());
             SimpleRecycleDivider simpleRecycleDivider = new SimpleRecycleDivider(getActivity(), 0, 0, ContextCompat.getColor(getActivity(), R.color.pageBackground), 10);
             simpleRecycleDivider.setShowLastDivider(false);

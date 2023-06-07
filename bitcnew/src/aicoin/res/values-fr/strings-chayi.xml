@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">FREE FLOWS AiCoin:</string>
+    <string name="shequzongjianglitfu">Total des récompenses communautaires (AiCoin)</string>
+    <string name="jianglitfu">Incitatif (AiCoin)</string>
+    <string name="fanyongusdt">Commission de retour (AiCoin)</string>
+    <string name="xiaohaotoken">Consommation AiCoin:</string>
+    <string name="token">AiCoin</string>
+    <string name="zongzichantoken">Actif total (AiCoin)</string>
+    <string name="chakanruhehuoqutoken">Voir comment obtenir AiCoin</string>
+    <string name="shuliangtoken">Quantité (AiCoin</string>
+    <string name="zhiyashengyi">Defi zone spéciale</string>
+    <string name="meirilixi">Revenu annualisé</string>
+    <string name="huode">Se AiCoin du feu</string>
+
+</resources>

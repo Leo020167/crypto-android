@@ -24,6 +24,8 @@ android {
         }
         leadercoin {
         }
+        aicoin {
+        }
     }
 
     repositories {

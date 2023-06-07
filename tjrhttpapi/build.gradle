@@ -44,6 +44,9 @@ android {
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"qokwjxf.cn"'
             buildConfigField 'String', 'SERVER_ADDRESS', '"zjxtazf.cn"'
         }
+        aicoin {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"kaobaochina.cn"'
+        }
     }
 
     sourceSets {

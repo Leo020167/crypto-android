@@ -24,6 +24,8 @@ android {
         }
         leadercoin {
         }
+        aicoin {
+        }
     }
 //    compileOptions {
 //        sourceCompatibility JavaVersion.VERSION_1_7

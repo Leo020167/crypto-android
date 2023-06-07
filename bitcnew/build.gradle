@@ -118,6 +118,12 @@ android {
             resValue "string", "app_name", "LeaderCoin"
             resValue "string", "product_name", "LeaderCoin"
         }
+        aicoin {
+            applicationId "com.bitcnew.aicoin"
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "AiCoin"]
+            resValue "string", "app_name", "AiCoin"
+            resValue "string", "product_name", "AiCoin"
+        }
     }
     lintOptions {
         checkReleaseBuilds false

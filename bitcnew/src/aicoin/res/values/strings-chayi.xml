@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Flower Fee AiCoin:</string>
+    <string name="shequzongjianglitfu">Total Community Rewards (AiCoin)</string>
+    <string name="jianglitfu">Incentive (AiCoin)</string>
+    <string name="fanyongusdt">Return commission (AiCoin)</string>
+    <string name="xiaohaotoken">AiCoin consumption:</string>
+    <string name="token">AiCoin</string>
+    <string name="zongzichantoken">Total Assets (AiCoin)</string>
+    <string name="chakanruhehuoqutoken">See how to get AiCoin</string>
+    <string name="shuliangtoken">Quantity (AiCoin</string>
+    <string name="zhiyashengyi">Defi special area</string>
+    <string name="meirilixi">Annualized income</string>
+    <string name="huode">Get AiCoin</string>
+    <string name="moren_quhao">+852</string>
+    <string name="moren_diqu">香港</string>
+</resources>

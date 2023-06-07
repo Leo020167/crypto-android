@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Цветочная плата AiCoin:</string>
+    <string name="shequzongjianglitfu">Общее вознаграждение сообщества (AiCoin)</string>
+    <string name="jianglitfu">Стимул (AiCoin)</string>
+    <string name="fanyongusdt">Комиссия по возвращению (AiCoin)</string>
+    <string name="xiaohaotoken">Потребление AiCoin:</string>
+    <string name="token">AiCoin</string>
+    <string name="zongzichantoken">Общие активы (AiCoin)</string>
+    <string name="chakanruhehuoqutoken">Посмотрите, как получить AiCoin</string>
+    <string name="shuliangtoken">Количество (AiCoin</string>
+    <string name="zhiyashengyi">Defi особая зона</string>
+    <string name="meirilixi">Годовой доход</string>
+    <string name="huode">Получите AiCoin</string>
+
+</resources>

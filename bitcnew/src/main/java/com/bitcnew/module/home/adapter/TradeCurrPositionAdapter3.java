@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.bitcnew.BuildConfig;
 import com.bitcnew.R;
 import com.bitcnew.common.base.adapter.BaseImageLoaderRecycleAdapter;
+import com.bitcnew.config.Configs;
 import com.bitcnew.http.base.Group;
 import com.bitcnew.module.home.ChicangDetailActivity;
 import com.bitcnew.module.home.entity.Position;
@@ -35,7 +36,7 @@ public class TradeCurrPositionAdapter3 extends BaseImageLoaderRecycleAdapter<Pos
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+        if (Configs.inFlavors(BuildConfig.FLAVOR)) {
             return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.trade_position_item3, parent, false));
         } else {
             return new ViewHolder(LayoutInflater.from(context).inflate(R.layout.item_bibi, parent, false));
@@ -47,7 +48,7 @@ public class TradeCurrPositionAdapter3 extends BaseImageLoaderRecycleAdapter<Pos
         if (null == group) {
             return 0;
         }
-        if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+        if (Configs.inFlavors(BuildConfig.FLAVOR)) {
             int count = 0;
             for (int i = 0; i < group.size(); i++) {
                 if (Double.parseDouble(group.get(i).amount) != 0) {
@@ -64,7 +65,7 @@ public class TradeCurrPositionAdapter3 extends BaseImageLoaderRecycleAdapter<Pos
         if (position < 0 || position >= getItemCount()) {
             return null;
         }
-        if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+        if (Configs.inFlavors(BuildConfig.FLAVOR)) {
             int index = -1;
             for (int i = 0; i < group.size(); i++) {
                 if (Double.parseDouble(group.get(i).amount) == 0) {
@@ -123,7 +124,7 @@ public class TradeCurrPositionAdapter3 extends BaseImageLoaderRecycleAdapter<Pos
         }
 
         public void setData(final Position data) {
-            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            if (Configs.inFlavors(BuildConfig.FLAVOR)) {
                 tvSymbol.setText(CommonUtil.getOriginSymbol(data.symbol));
                 if (!TextUtils.isEmpty(data.buySellValue)) {
                     tvBuySell.setText("•" + data.buySellValue);
