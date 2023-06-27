@@ -121,8 +121,8 @@ android {
         aicoin {
             applicationId "com.bitcnew.aicoin"
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "AiCoin"]
-            resValue "string", "app_name", "AiCoin"
-            resValue "string", "product_name", "AiCoin"
+            resValue "string", "app_name", "AI Trading Center"
+            resValue "string", "product_name", "AI Trading Center"
         }
     }
     lintOptions {

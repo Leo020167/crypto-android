@@ -3,6 +3,7 @@ package com.bitcnew.subpush.connect;
 import android.content.Context;
 import android.util.Log;
 
+import com.bitcnew.BuildConfig;
 import com.bitcnew.subpush.Consts;
 import com.bitcnew.subpush.connect.listen.ConnectListen;
 
@@ -37,7 +38,8 @@ import java.util.concurrent.TimeUnit;
 
 
 public class SubPushConnect {
-    private static final int PORT = 9779;  ////port 8686
+    private static final int PORT = "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) ? 1818 : 9779; ////PORT = 9779;  ////port 8686
+
     // Sleep 5 seconds before a reconnection attempt.
     public static final int RECONNECT_DELAY = 5;
     // Reconnect when the server sends nothing for 10 seconds.

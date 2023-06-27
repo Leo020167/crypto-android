@@ -229,9 +229,9 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         } else if ("pt".equals(lang)) {
             langIv.setImageResource(R.drawable.icon_lang_pt);
         } else {
-            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                 langIv.setImageResource(R.drawable.icon_lang_cn_hk);
-            } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                 langIv.setImageResource(R.drawable.icon_lang_cn_zh);
             } else {
                 langIv.setImageResource(R.drawable.icon_lang_uk);
@@ -263,8 +263,40 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         });
 
 
+        startGetHomeConfig();
         startGetHomeAccount();
         startGetMarket();
+    }
+
+    private Call<ResponseBody> getHomeConfigCall;
+    private void startGetHomeConfig() {
+        CommonUtil.cancelCall(getHomeConfigCall);
+        getHomeConfigCall = VHttpServiceManager.getInstance().getVService().homeConfig();
+        getHomeConfigCall.enqueue(new MyCallBack(getActivity()) {
+            @Override
+            protected void callBack(ResultData resultData) {
+                try {
+                    if (resultData.isSuccess()) {
+                        Gson gson = new Gson();
+                        HomeBannerBean bean = gson.fromJson(resultData.data, HomeBannerBean.class);
+                        if (null != bean) {
+                            if (null != bean.getBanner() && bean.getBanner().size() > 0) {
+                                ImagesArray.clear();
+                                ImagesArray.addAll(bean.getBanner());
+                                mPager.setAdapter(new SlidingImage_Adapter(getActivity(), ImagesArray));
+                            }
+                        }
+                    }
+                } catch (Exception e) {
+
+                }
+            }
+
+            @Override
+            protected void handleError(Call<ResponseBody> call) {
+                super.handleError(call);
+            }
+        });
     }
 
     private Call<ResponseBody> getHomeAccountCall;

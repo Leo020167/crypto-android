@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="huafeitoken">フラワー料金AiCoin：</string>
-    <string name="shequzongjianglitfu">合計コミュニティ報酬（AiCoin）</string>
-    <string name="jianglitfu">インセンティブ（AiCoin）</string>
-    <string name="fanyongusdt">帰還委員会（AiCoin）</string>
-    <string name="xiaohaotoken">AiCoin消費：</string>
-    <string name="token">AiCoin</string>
-    <string name="zongzichantoken">総資産（AiCoin）</string>
-    <string name="chakanruhehuoqutoken">AiCoinの入手方法をご覧ください</string>
-    <string name="shuliangtoken">数量（AiCoin</string>
+    <string name="huafeitoken">フラワー料金ATC：</string>
+    <string name="shequzongjianglitfu">合計コミュニティ報酬（ATC）</string>
+    <string name="jianglitfu">インセンティブ（ATC）</string>
+    <string name="fanyongusdt">帰還委員会（ATC）</string>
+    <string name="xiaohaotoken">ATC消費：</string>
+    <string name="token">ATC</string>
+    <string name="zongzichantoken">総資産（ATC）</string>
+    <string name="chakanruhehuoqutoken">ATCの入手方法をご覧ください</string>
+    <string name="shuliangtoken">数量（ATC</string>
     <string name="zhiyashengyi">Defi 特別エリア</string>
     <string name="meirilixi">年収</string>
-    <string name="huode">AiCoinを入手してください</string>
+    <string name="huode">ATCを入手してください</string>
 
 </resources>

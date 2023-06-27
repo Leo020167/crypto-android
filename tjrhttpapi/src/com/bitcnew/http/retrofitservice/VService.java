@@ -37,6 +37,9 @@ public interface VService {
     @POST(VHttpServiceManager.V_HOME_ACCOUNT)
     Call<ResponseBody> homeAccount();
 
+    @POST(VHttpServiceManager.V_HOME_CONFIG)
+    Call<ResponseBody> homeConfig();
+
     @POST(VHttpServiceManager.SUB_GETLIST)
     Call<ResponseBody> subscribe_getList();
 

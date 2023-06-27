@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="huafeitoken">AiCoin de tarifa de flores:</string>
-    <string name="shequzongjianglitfu">Recompensas de la comunidad total (AiCoin)</string>
-    <string name="jianglitfu">Incentivo (AiCoin)</string>
-    <string name="fanyongusdt">Comisión de regreso (AiCoin)</string>
-    <string name="xiaohaotoken">Consumo de AiCoin:</string>
-    <string name="token">AiCoin</string>
-    <string name="zongzichantoken">Activos totales (AiCoin)</string>
-    <string name="chakanruhehuoqutoken">Vea cómo obtener AiCoin</string>
-    <string name="shuliangtoken">Cantidad (AiCoin</string>
+    <string name="huafeitoken">ATC de tarifa de flores:</string>
+    <string name="shequzongjianglitfu">Recompensas de la comunidad total (ATC)</string>
+    <string name="jianglitfu">Incentivo (ATC)</string>
+    <string name="fanyongusdt">Comisión de regreso (ATC)</string>
+    <string name="xiaohaotoken">Consumo de ATC:</string>
+    <string name="token">ATC</string>
+    <string name="zongzichantoken">Activos totales (ATC)</string>
+    <string name="chakanruhehuoqutoken">Vea cómo obtener ATC</string>
+    <string name="shuliangtoken">Cantidad (ATC</string>
     <string name="zhiyashengyi">Defi special area</string>
     <string name="meirilixi">Ingreso anualizado</string>
-    <string name="huode">Obtener AiCoin</string>
+    <string name="huode">Obtener ATC</string>
 
 </resources>

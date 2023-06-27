@@ -62,6 +62,7 @@ public class VHttpServiceManager {
     public static final String URL_API_BOOTPAGE = "config/bootPage.do";
     public static final String CONFIG_COUNTRYCODEINFOLIST = "area/list.do";
     public static final String V_HOME_ACCOUNT = "home/account.do";
+    public static final String V_HOME_CONFIG = "home/config.do";
     public static final String V_MINING_INFO = "mining/info.do";
 
 
@@ -589,7 +590,7 @@ public class VHttpServiceManager {
                 } else {
                     if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                         lang = "ts";
-                    } else if("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                    } else if("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                         lang = "cn";
                     } else {
                         lang = "en";

@@ -295,7 +295,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
                     tvUsdtBalance.setText(usdtBalance);
 //                    tvKBTBalance.setText(kbtAmount);
 
-                    if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                    if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                         tvId.setText("可用(USDT)：" + usdtAmount);
                     }
                 }
@@ -694,7 +694,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
 //            protected void callBack(ResultData resultData) {
 //                if (resultData.isSuccess()) {
 //                    AccountInfo spotAccount = resultData.getObject("spotAccount", AccountInfo.class);
-//                    if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+//                    if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
 //                        tvId.setText("可用(USDT)：" + spotAccount.holdAmount);
 //                    }
 //                }
@@ -710,7 +710,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
     private void setUserInfo(User u) {
         if (u == null) return;
         tvName.setText(u.getUserName());
-        if (!"leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+        if (!"leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) && !"aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
             tvId.setText("ID：" + String.valueOf(u.getUserId()));
         } else {
             tvId.setText("可用(USDT)：" + usdtAmount);

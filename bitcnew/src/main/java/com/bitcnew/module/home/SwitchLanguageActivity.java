@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.bitcnew.BuildConfig;
 import com.bitcnew.R;
 import com.bitcnew.common.base.TJRBaseToolBarSwipeBackActivity;
 import com.bitcnew.module.dialog.TwoBtnDialog;
@@ -126,7 +127,13 @@ public class SwitchLanguageActivity extends TJRBaseToolBarSwipeBackActivity {
         } else if ("pt".equals(lang)) {
             iv_pt.setVisibility(View.VISIBLE);
         } else {
-            iv_en.setVisibility(View.VISIBLE);
+            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                iv_zhTw.setVisibility(View.VISIBLE);
+            } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                iv_zhCn.setVisibility(View.VISIBLE);
+            } else {
+                iv_en.setVisibility(View.VISIBLE);
+            }
         }
     }
 

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="huafeitoken">Цветочная плата AiCoin:</string>
-    <string name="shequzongjianglitfu">Общее вознаграждение сообщества (AiCoin)</string>
-    <string name="jianglitfu">Стимул (AiCoin)</string>
-    <string name="fanyongusdt">Комиссия по возвращению (AiCoin)</string>
-    <string name="xiaohaotoken">Потребление AiCoin:</string>
-    <string name="token">AiCoin</string>
-    <string name="zongzichantoken">Общие активы (AiCoin)</string>
-    <string name="chakanruhehuoqutoken">Посмотрите, как получить AiCoin</string>
-    <string name="shuliangtoken">Количество (AiCoin</string>
+    <string name="huafeitoken">Цветочная плата ATC:</string>
+    <string name="shequzongjianglitfu">Общее вознаграждение сообщества (ATC)</string>
+    <string name="jianglitfu">Стимул (ATC)</string>
+    <string name="fanyongusdt">Комиссия по возвращению (ATC)</string>
+    <string name="xiaohaotoken">Потребление ATC:</string>
+    <string name="token">ATC</string>
+    <string name="zongzichantoken">Общие активы (ATC)</string>
+    <string name="chakanruhehuoqutoken">Посмотрите, как получить ATC</string>
+    <string name="shuliangtoken">Количество (ATC</string>
     <string name="zhiyashengyi">Defi особая зона</string>
     <string name="meirilixi">Годовой доход</string>
-    <string name="huode">Получите AiCoin</string>
+    <string name="huode">Получите ATC</string>
 
 </resources>

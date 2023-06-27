@@ -17,6 +17,13 @@ public class PledgeCoin implements TaojinluType, Serializable {
     public String minCount;
     public String profitRate;
     public String symbol;
+    public String pledgeName;
+    public String dayProfitRate;
+    public String endTime;
+    public String returnSymbol;
+    public String sort;
+    public String startTime;
+    public String status;
 
     public PledgeCoin() {
 

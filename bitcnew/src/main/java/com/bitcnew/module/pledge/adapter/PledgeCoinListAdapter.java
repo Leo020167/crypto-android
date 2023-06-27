@@ -51,7 +51,7 @@ public class PledgeCoinListAdapter extends RecyclerView.Adapter<PledgeCoinListAd
         holder.zhiyazhouqiTv.setText(item.duration);
 //        holder.yujishouyiTv.setText("??");
         holder.meirilixiTv.setText(item.profitRate + "%");
-        holder.bizhongTv.setText(item.symbol);
+        holder.bizhongTv.setText(item.pledgeName);
         holder.action_zhiya.setOnClickListener(v -> {
             if (null != getOnZhiyaClickListener()) {
                 getOnZhiyaClickListener().onZhiyaClick(item);

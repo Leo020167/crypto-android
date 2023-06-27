@@ -91,9 +91,9 @@ public class WelcomeActivity extends TJRBaseToolBarActivity {
             config.locale = new Locale("pt");
         } else {
 //            config.locale = Locale.getDefault();
-            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                 config.locale = Locale.TRADITIONAL_CHINESE;
-            } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                 config.locale = Locale.SIMPLIFIED_CHINESE;
             } else {
                 config.locale = Locale.ENGLISH;
