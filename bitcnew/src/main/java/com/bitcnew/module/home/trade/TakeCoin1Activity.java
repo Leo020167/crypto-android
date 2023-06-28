@@ -14,6 +14,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import com.bitcnew.BuildConfig;
 import com.bitcnew.R;
 import com.bitcnew.common.base.CommonToolbar;
 import com.bitcnew.common.base.TJRBaseToolBarSwipeBackActivity;
@@ -369,7 +370,11 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
 
         keyongLabel.setText(getString(R.string.keyongyue_, coinType.getSymbol()));
         dongjieLabel.setText(getString(R.string.dongjiejine_, coinType.getSymbol()));
-        shouxufeiLabel.setText(getString(R.string.tibishouxufei, coinType.getSymbol()));
+        if ("aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            shouxufeiLabel.setText(getString(R.string.tibishouxufei, "ATC"));
+        } else {
+            shouxufeiLabel.setText(getString(R.string.tibishouxufei, coinType.getSymbol()));
+        }
         daozhangshuliangLabel.setText(getString(R.string.tibidaozhangshuliang, coinType.getSymbol()));
 
         loadConfig(coinType);
