@@ -124,6 +124,12 @@ android {
             resValue "string", "app_name", "AI Trading Center"
             resValue "string", "product_name", "AI Trading Center"
         }
+        fwdetsc {
+            applicationId "com.bitcnew.fwdetsc"
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "Fwdetsc"]
+            resValue "string", "app_name", "Fwdetsc"
+            resValue "string", "product_name", "Fwdetsc"
+        }
     }
     lintOptions {
         checkReleaseBuilds false

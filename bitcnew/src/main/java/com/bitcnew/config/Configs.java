@@ -3,7 +3,7 @@ package com.bitcnew.config;
 public class Configs {
 
     public static final String[] flavors = {
-            "tradingview", "leadercoin", "aicoin"
+            "tradingview", "leadercoin", "aicoin", "fwdetsc"
     };
 
     public static boolean inFlavors(String flavor) {

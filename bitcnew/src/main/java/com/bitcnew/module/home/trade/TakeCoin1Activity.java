@@ -277,7 +277,11 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
                     daozhangshuliangTv.setText("-");
                 } else {
                     try {
-                        daozhangshuliangTv.setText(new BigDecimal(tibishuliangEt.getText().toString()).subtract(new BigDecimal(config.getFee())).toPlainString());
+                        if ("aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "fwdetsc".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                            daozhangshuliangTv.setText(new BigDecimal(tibishuliangEt.getText().toString()).toPlainString());
+                        } else {
+                            daozhangshuliangTv.setText(new BigDecimal(tibishuliangEt.getText().toString()).subtract(new BigDecimal(config.getFee())).toPlainString());
+                        }
                     } catch (Exception e) {
                         daozhangshuliangTv.setText("-");
                     }
@@ -370,7 +374,7 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
 
         keyongLabel.setText(getString(R.string.keyongyue_, coinType.getSymbol()));
         dongjieLabel.setText(getString(R.string.dongjiejine_, coinType.getSymbol()));
-        if ("aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+        if ("aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "fwdetsc".equalsIgnoreCase(BuildConfig.FLAVOR)) {
             shouxufeiLabel.setText(getString(R.string.tibishouxufei, "ATC"));
         } else {
             shouxufeiLabel.setText(getString(R.string.tibishouxufei, coinType.getSymbol()));

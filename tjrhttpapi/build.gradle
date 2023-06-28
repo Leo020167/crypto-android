@@ -47,6 +47,9 @@ android {
         aicoin {
             buildConfigField 'String', 'SERVER_ADDRESS', '"kaobaochina.cn"'
         }
+        fwdetsc {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"twtwe.com"'
+        }
     }
 
     sourceSets {

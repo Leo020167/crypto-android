@@ -141,7 +141,7 @@ public class TradeLeverHistoryBibiAdapter extends BaseLoadMoreImageLoaderRecycle
                     tvProfitLabel.setText(R.string.yingli);
                     tvProfit.setText(data.profit);
                     tvProfit.setTextColor(StockChartUtil.getRateTextColor(Double.parseDouble(data.profit)));
-                } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "fwdetsc".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                     tvProfitLabel.setText(R.string.yingli);
                     tvProfit.setText(data.profit);
                     tvProfit.setTextColor(StockChartUtil.getRateTextColor(Double.parseDouble(data.profit)));

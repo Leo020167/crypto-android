@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">ATC de tarifa de flores:</string>
+    <string name="shequzongjianglitfu">Recompensas de la comunidad total (ATC)</string>
+    <string name="jianglitfu">Incentivo (ATC)</string>
+    <string name="fanyongusdt">Comisión de regreso (ATC)</string>
+    <string name="xiaohaotoken">Consumo de ATC:</string>
+    <string name="token">ATC</string>
+    <string name="zongzichantoken">Activos totales (ATC)</string>
+    <string name="chakanruhehuoqutoken">Vea cómo obtener ATC</string>
+    <string name="shuliangtoken">Cantidad (ATC</string>
+    <string name="zhiyashengyi">Defi área especial</string>
+    <string name="meirilixi">Renda anualizada</string>
+    <string name="huode">Obtener ATC</string>
+
+</resources>

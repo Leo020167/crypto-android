@@ -231,7 +231,7 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         } else {
             if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                 langIv.setImageResource(R.drawable.icon_lang_cn_hk);
-            } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "fwdetsc".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                 langIv.setImageResource(R.drawable.icon_lang_cn_zh);
             } else {
                 langIv.setImageResource(R.drawable.icon_lang_uk);

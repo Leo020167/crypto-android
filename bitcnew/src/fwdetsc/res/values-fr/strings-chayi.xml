@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">FREE FLOWS ATC:</string>
+    <string name="shequzongjianglitfu">Total des récompenses communautaires (ATC)</string>
+    <string name="jianglitfu">Incitatif (ATC)</string>
+    <string name="fanyongusdt">Commission de retour (ATC)</string>
+    <string name="xiaohaotoken">Consommation ATC:</string>
+    <string name="token">ATC</string>
+    <string name="zongzichantoken">Actif total (ATC)</string>
+    <string name="chakanruhehuoqutoken">Voir comment obtenir ATC</string>
+    <string name="shuliangtoken">Quantité (ATC</string>
+    <string name="zhiyashengyi">Defi zone spéciale</string>
+    <string name="meirilixi">Revenu annualisé</string>
+    <string name="huode">Se ATC du feu</string>
+
+</resources>

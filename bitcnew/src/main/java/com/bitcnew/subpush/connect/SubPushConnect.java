@@ -38,7 +38,7 @@ import java.util.concurrent.TimeUnit;
 
 
 public class SubPushConnect {
-    private static final int PORT = "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) ? 1818 : 9779; ////PORT = 9779;  ////port 8686
+    private static final int PORT = "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "fwdetsc".equalsIgnoreCase(BuildConfig.FLAVOR) ? 1818 : 9779; ////PORT = 9779;  ////port 8686
 
     // Sleep 5 seconds before a reconnection attempt.
     public static final int RECONNECT_DELAY = 5;
