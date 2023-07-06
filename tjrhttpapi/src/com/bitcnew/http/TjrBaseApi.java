@@ -23,7 +23,8 @@ public class TjrBaseApi {
     //测试环境
     public static String  stockHomeUri = "market." + BASE_URL;
     public static String  stockHomeUriHttp = "http://market." + BASE_URL;//retrofit的baseurl必须以"/"结束否则报错
-    public static String  mApiSubPushUrl = "api." + BASE_URL;
+    public static String  mApiSubPushUrl = BuildConfig.SOCKET_HOST;
+//    public static String  mApiSubPushUrl = "api." + BASE_URL;
 //    public static String  mApiCropymeBaseUri = "http://api." + BASE_URL;
     public static String  mApiCropymeBaseUri = "http://api." + BASE_URL;
     public static String  gamePredictSocket = "predict." + BASE_URL;

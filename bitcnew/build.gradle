@@ -50,6 +50,10 @@ dependencies {
     api 'com.gyf.immersionbar:immersionbar:3.0.0'
 
     api 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'
+
+    // 极光统计
+    api 'cn.jiguang.sdk:janalytics:2.1.7' // 此处以JAnalytics 2.1.6 版本为例。
+    api 'cn.jiguang.sdk:jbasic:4.1.0'
 }
 
 //def releaseTime() {
@@ -70,7 +74,11 @@ android {
         minSdkVersion 19
         targetSdkVersion 28
         multiDexEnabled true
-        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "fire"]
+        manifestPlaceholders = [
+                UMENG_CHANNEL_VALUE: "fire",
+                JPUSH_APPKEY : "7b51566dff449b2f57c5e42a", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL : "ai-coin", //暂时填写默认值即可.
+        ]
         vectorDrawables.useSupportLibrary = true
 //        ,"AArch64"
 //        jackOptions {
@@ -119,8 +127,12 @@ android {
             resValue "string", "product_name", "LeaderCoin"
         }
         aicoin {
-            applicationId "com.bitcnew.abcdin"
-            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "AiCoin"]
+            applicationId "com.bitcnew.b51566dff"
+            manifestPlaceholders = [
+                    UMENG_CHANNEL_VALUE: "AiCoin",
+                    JPUSH_APPKEY : "7482af4d904da7807fea3e15", //JPush上注册的包名对应的appkey.
+                    JPUSH_CHANNEL : "ai-coin", //暂时填写默认值即可.
+            ]
             resValue "string", "app_name", "AI Trading Center"
             resValue "string", "product_name", "AI Trading Center"
         }
@@ -135,23 +147,23 @@ android {
         checkReleaseBuilds false
         abortOnError false
     }
- /*   signingConfigs {
-        debug {
-            // No debug config
-            storeFile file('E:\\workSpace\\procoin\\procoin\\fire')
-            storePassword "taojinroad2318"
-            keyAlias 'fire'
-            keyPassword "taojinroad2318"
-        }
-        release {
-            storeFile file('E:\\workSpace\\procoin\\procoin\\fire')
-            storePassword "taojinroad2318"
-            keyAlias 'fire'
-            keyPassword "taojinroad2318"
-        }
-    }*/
+    /*   signingConfigs {
+           debug {
+               // No debug config
+               storeFile file('E:\\workSpace\\procoin\\procoin\\fire')
+               storePassword "taojinroad2318"
+               keyAlias 'fire'
+               keyPassword "taojinroad2318"
+           }
+           release {
+               storeFile file('E:\\workSpace\\procoin\\procoin\\fire')
+               storePassword "taojinroad2318"
+               keyAlias 'fire'
+               keyPassword "taojinroad2318"
+           }
+       }*/
 
-    signingConfigs{
+    signingConfigs {
         release {
             storeFile file('fireup.jks')
             storePassword "taojinroad2318"
@@ -171,7 +183,6 @@ android {
 //    }
 
 
-
     buildTypes {
         debug {
             // 显示Log
@@ -182,7 +193,7 @@ android {
 //            shrinkResources false
             signingConfig signingConfigs.release
             ndk {
-                abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64','armeabi'
+                abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64', 'armeabi'
             }
         }
 
@@ -215,11 +226,10 @@ android {
 //                    }
 //            }
             ndk {
-                abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64','armeabi'
+                abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64', 'armeabi'
             }
         }
     }
-
 
 
     lintOptions {

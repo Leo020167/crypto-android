@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import com.bitcnew.common.cache.CacheManager;
 import com.bitcnew.data.db.TaoJinLuDatabase;
+import com.bitcnew.module.analytics.JAnalyticsUtil;
 import com.bitcnew.module.home.entity.Order;
 import com.bitcnew.module.home.entity.SubUser;
 import com.bitcnew.module.home.trade.entity.AccountType;
@@ -40,6 +41,8 @@ import java.util.Map;
 import java.util.Random;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
+
+import cn.jiguang.analytics.android.api.JAnalyticsInterface;
 
 public class MainApplication extends AbstractBaseApplication {
 
@@ -110,6 +113,8 @@ public class MainApplication extends AbstractBaseApplication {
         //MTA可视化新版初始化
         StatisticsDataAPI.instance(this);
 
+        // 初始化统计
+        JAnalyticsUtil.init(this);
 
 //        StatCrashReporter.getStatCrashReporter(getApplicationContext()).setJavaCrashHandlerStatus(true);
 //        StatCrashReporter.getStatCrashReporter(getApplicationContext()).setJniNativeCrashStatus(true);

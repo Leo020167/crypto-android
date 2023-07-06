@@ -11,6 +11,7 @@ import android.os.RemoteException;
 import android.util.Log;
 
 import com.bitcnew.SpUtils;
+import com.bitcnew.module.analytics.JAnalyticsUtil;
 import com.bitcnew.subpush.connect.SubPushConnect;
 import com.bitcnew.subpush.connect.listen.ConnectListen;
 import com.bitcnew.data.sharedpreferences.NormalShareData;
@@ -23,6 +24,8 @@ import com.bitcnew.http.util.ShareData;
 import org.jboss.netty.channel.Channel;
 import org.jboss.netty.channel.ChannelFuture;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
@@ -209,6 +212,10 @@ public class SubPushService extends Service implements ConnectListen {
                 Log.d("SubPushService", "messageReceived..REQDO_CONNECT..url is :" + SubPushHttp.getInstance().connectUrl(userId));
                 sendText(SubPushHttp.getInstance().connectUrl(userId));
             }
+
+            Map<String, Object> eventParams = new HashMap<>();
+            eventParams.put("userId", userId);
+            JAnalyticsUtil.onCountEvent(getApplicationContext(), "im_login", eventParams);
         } else if (Consts.REQDO_OK.equals(json)) {
             Log.d("SubPushService", "messageReceived..REQDO_OK..json:" + json);
             synchronized (lock) {

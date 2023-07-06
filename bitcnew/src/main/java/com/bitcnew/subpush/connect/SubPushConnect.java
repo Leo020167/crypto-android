@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.Log;
 
 import com.bitcnew.BuildConfig;
+import com.bitcnew.module.analytics.JAnalyticsUtil;
 import com.bitcnew.subpush.Consts;
 import com.bitcnew.subpush.connect.listen.ConnectListen;
 
@@ -32,13 +33,17 @@ import org.jboss.netty.util.Timer;
 import org.jboss.netty.util.TimerTask;
 
 import java.net.ConnectException;
+import java.net.InetAddress;
 import java.net.InetSocketAddress;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 
 public class SubPushConnect {
-    private static final int PORT = "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "fwdetsc".equalsIgnoreCase(BuildConfig.FLAVOR) ? 1818 : 9779; ////PORT = 9779;  ////port 8686
+
+    private static final int PORT =  com.bitcnew.http.BuildConfig.SOCKET_PORT;
 
     // Sleep 5 seconds before a reconnection attempt.
     public static final int RECONNECT_DELAY = 5;
@@ -70,6 +75,22 @@ public class SubPushConnect {
 
     public synchronized void initConfigureBootstrap(Context mContext, String socketHost, ConnectListen mConnectListen) {
         if (isRunConnect) return;
+        InetAddress address;
+        try {
+            if (socketHost.matches("^[0-9.]]+$")) {
+                String[] arr = socketHost.split("[.]");
+                byte[] addr = new byte[arr.length];
+                for (int i = 0; i < arr.length; i++) {
+                    addr[i] = (byte)Integer.parseInt(arr[0]);
+                }
+                address = InetAddress.getByAddress(addr);
+            } else {
+                address = InetAddress.getByName(socketHost);
+            }
+        } catch (Exception e) {
+            return;
+        }
+
         this.mContext = mContext;
         this.mConnectListen = mConnectListen;
         timer = new HashedWheelTimer();
@@ -91,11 +112,18 @@ public class SubPushConnect {
         bootstrap.setOption("tcpNoDelay", true);
         bootstrap.setOption("keepAlive", true);
         bootstrap.setOption("reuseAddress", true);
-        bootstrap.setOption("remoteAddress", new InetSocketAddress(socketHost, PORT));
+        bootstrap.setOption("remoteAddress", new InetSocketAddress(address, PORT));
         Log.d("ReceivedManager", String.format("[initConfigureBootstrap SERVER IS] %s%n", socketHost));
+
         mChannel = bootstrap.connect().awaitUninterruptibly().getChannel();
         mConnectListen.channel(mChannel);
         isRunConnect = true;
+
+        Map<String, Object> eventParams = new HashMap<>();
+        eventParams.put("remote_address", socketHost + ":" + PORT);
+        eventParams.put("remote_host", socketHost);
+        eventParams.put("remote_port", PORT);
+        JAnalyticsUtil.onCountEvent(mContext, "im_handler_connect", eventParams);
     }
 
     public synchronized void shutBootstrap() {
@@ -128,14 +156,19 @@ public class SubPushConnect {
         public void channelDisconnected(ChannelHandlerContext ctx, ChannelStateEvent e) {
 //			println("Disconnected from: " + getRemoteAddress());
             mConnectListen.messageReceived(Consts.CONNECTION_ERROR);
+
+            Map<String, Object> eventParams = new HashMap<>();
+            eventParams.put("stateEvent", e);
+            eventParams.put("local_state", startTime > 0);
+            JAnalyticsUtil.onCountEvent(mContext, "im_handler_disconnected", eventParams);
         }
 
         @Override
         public void channelClosed(ChannelHandlerContext ctx, ChannelStateEvent e) {
-			println("Sleeping for: " + RECONNECT_DELAY + 's');
+            println("Sleeping for: " + RECONNECT_DELAY + 's');
             timer.newTimeout(new TimerTask() {
                 public void run(Timeout timeout) {
-					println("Reconnecting to: " + getRemoteAddress());
+                    println("Reconnecting to: " + getRemoteAddress());
 //					PowerManager.WakeLock wakeLock = WakeLockWrapper.getWakeLockInstance(mContext, SubPushService.class.getSimpleName());
 //					wakeLock.acquire();
 //					try{
@@ -145,8 +178,19 @@ public class SubPushConnect {
 //					}
                     mChannel = bootstrap.connect().awaitUninterruptibly().getChannel();
                     mConnectListen.channel(mChannel);
+
+                    Map<String, Object> eventParams = new HashMap<>();
+                    eventParams.put("remote_address", getRemoteAddress());
+                    eventParams.put("local_state", startTime > 0);
+                    JAnalyticsUtil.onCountEvent(mContext, "im_handler_connect", eventParams);
                 }
             }, RECONNECT_DELAY, TimeUnit.SECONDS);
+
+            Map<String, Object> eventParams = new HashMap<>();
+            eventParams.put("stateEvent", e);
+            eventParams.put("reconnectDelay", RECONNECT_DELAY);
+            eventParams.put("local_state", startTime > 0);
+            JAnalyticsUtil.onCountEvent(mContext, "im_handler_closed", eventParams);
         }
 
         @Override
@@ -154,12 +198,18 @@ public class SubPushConnect {
             if (startTime < 0) {
                 startTime = System.currentTimeMillis();
             }
-			println("Connected to: " + getRemoteAddress());
+            println("Connected to: " + getRemoteAddress());
+
+            Map<String, Object> eventParams = new HashMap<>();
+            eventParams.put("stateEvent", e);
+            eventParams.put("remote_address", getRemoteAddress());
+            eventParams.put("local_state", startTime > 0);
+            JAnalyticsUtil.onCountEvent(mContext, "im_handler_connected", eventParams);
         }
 
         @Override
         public void messageReceived(ChannelHandlerContext ctx, MessageEvent e) {
-			println("收到:"+e.getMessage());
+            println("收到:" + e.getMessage());
             mConnectListen.messageReceived((String) e.getMessage());
         }
 
@@ -180,6 +230,12 @@ public class SubPushConnect {
             }
             mConnectListen.messageReceived(Consts.CONNECTION_ERROR);
             ctx.getChannel().close();
+
+            Map<String, Object> eventParams = new HashMap<>();
+            eventParams.put("exception", e);
+            eventParams.put("remote_address", getRemoteAddress());
+            eventParams.put("local_state", startTime > 0);
+            JAnalyticsUtil.onCountEvent(mContext, "im_handler_exception_caught", eventParams);
         }
 
         private void println(String msg) {

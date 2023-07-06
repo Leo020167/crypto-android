@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:uses-libraryandroid="http://schemas.android.com/apk/res-auto"
     package="com.bitcnew"
-    android:versionCode="145"
-    android:versionName="1.2.0.45">
+    android:versionCode="147"
+    android:versionName="1.2.0.47">
 
     <uses-sdk
         android:targetSdkVersion="28"
