@@ -28,11 +28,13 @@ android {
             buildConfigField 'String', 'SERVER_ADDRESS', '"worldcoinservice.com"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.worldcoinservice.com"'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
+            buildConfigField 'String', 'DEFAULT_LNG', '"en"'
         }
         encrypted {
             buildConfigField 'String', 'SERVER_ADDRESS', '"encryptedex.com"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.encryptedex.com"'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
+            buildConfigField 'String', 'DEFAULT_LNG', '"en"'
         }
         tradingview {
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"bjchjscl.com"'
@@ -42,6 +44,7 @@ android {
             buildConfigField 'String', 'SERVER_ADDRESS', '"2ecj.com"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.2ecj.com"'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
+            buildConfigField 'String', 'DEFAULT_LNG', '"ts"'
         }
         leadercoin {
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"usefortest0603.com"'
@@ -51,16 +54,19 @@ android {
             buildConfigField 'String', 'SERVER_ADDRESS', '"zjxtazf.cn"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.zjxtazf.cn"'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
         aicoin {
             buildConfigField 'String', 'SERVER_ADDRESS', '"kaobaochina.cn"'
             buildConfigField 'String', 'SOCKET_HOST', '"116.205.132.220"'
             buildConfigField 'int', 'SOCKET_PORT', '1818'
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
         fwdetsc {
             buildConfigField 'String', 'SERVER_ADDRESS', '"twtwe.com"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.twtwe.com"'
             buildConfigField 'int', 'SOCKET_PORT', '1818'
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
     }
 

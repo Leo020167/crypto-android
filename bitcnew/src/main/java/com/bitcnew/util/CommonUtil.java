@@ -280,10 +280,10 @@ public class CommonUtil {
             return false;
         }
 
-        if (!psd.matches("^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,16}$")) {
-            CommonUtil.showmessage(context.getResources().getString(R.string.mimabixushibashiliushuzi), context);
-            return false;
-        }
+//        if (!psd.matches("^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,16}$")) {
+//            CommonUtil.showmessage(context.getResources().getString(R.string.mimabixushibashiliushuzi), context);
+//            return false;
+//        }
 
         if (TextUtils.isEmpty(psd2)) {
             CommonUtil.showmessage(context.getResources().getString(R.string.qingzaicishurumima), context);

@@ -588,13 +588,7 @@ public class VHttpServiceManager {
                 } else if ("pt".equals(lang)) {//葡萄牙语
                     lang = "pt";
                 } else {
-                    if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
-                        lang = "ts";
-                    } else if("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR)) {
-                        lang = "cn";
-                    } else {
-                        lang = "en";
-                    }
+                    lang = BuildConfig.DEFAULT_LNG;
                 }
                 Request request = chain.request().newBuilder().addHeader("lang", lang).build();
                 return chain.proceed(request);
