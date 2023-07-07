@@ -63,6 +63,14 @@ android {
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
         fwdetsc {
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"twtwe.com"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.twtwe.com"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"24xls.cn"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.24xls.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"stu77.cn"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.stu77.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"doline.cn"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.doline.cn"'
             buildConfigField 'String', 'SERVER_ADDRESS', '"twtwe.com"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.twtwe.com"'
             buildConfigField 'int', 'SOCKET_PORT', '1818'
