@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="huafeitoken">FREE FLOWS ATC:</string>
-    <string name="shequzongjianglitfu">Total des récompenses communautaires (ATC)</string>
-    <string name="jianglitfu">Incitatif (ATC)</string>
-    <string name="fanyongusdt">Commission de retour (ATC)</string>
-    <string name="xiaohaotoken">Consommation ATC:</string>
-    <string name="token">ATC</string>
-    <string name="zongzichantoken">Actif total (ATC)</string>
-    <string name="chakanruhehuoqutoken">Voir comment obtenir ATC</string>
-    <string name="shuliangtoken">Quantité (ATC</string>
+    <string name="huafeitoken">FREE FLOWS WTS:</string>
+    <string name="shequzongjianglitfu">Total des récompenses communautaires (WTS)</string>
+    <string name="jianglitfu">Incitatif (WTS)</string>
+    <string name="fanyongusdt">Commission de retour (WTS)</string>
+    <string name="xiaohaotoken">Consommation WTS:</string>
+    <string name="token">WTS</string>
+    <string name="zongzichantoken">Actif total (WTS)</string>
+    <string name="chakanruhehuoqutoken">Voir comment obtenir WTS</string>
+    <string name="shuliangtoken">Quantité (WTS</string>
     <string name="zhiyashengyi">Defi zone spéciale</string>
     <string name="meirilixi">Revenu annualisé</string>
-    <string name="huode">Se ATC du feu</string>
+    <string name="huode">Se WTS du feu</string>
 
 </resources>

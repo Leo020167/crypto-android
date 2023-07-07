@@ -62,6 +62,8 @@ public class XinbishengouDetailBean implements Serializable {
         private String image;//大图
         @SerializedName("min")
         private String min;
+        @SerializedName("max")
+        private String max;
         @SerializedName("rate")
         private String rate;
         @SerializedName("startTime")
@@ -218,6 +220,14 @@ public class XinbishengouDetailBean implements Serializable {
 
         public void setMin(String min) {
             this.min = min;
+        }
+
+        public String getMax() {
+            return max;
+        }
+
+        public void setMax(String max) {
+            this.max = max;
         }
 
         public String getRate() {

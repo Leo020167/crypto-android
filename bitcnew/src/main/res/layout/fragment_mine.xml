@@ -592,6 +592,10 @@
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
             </LinearLayout>
 
+            <View
+                android:id="@+id/llFeedback_line"
+                style="@style/dividerLine_horizontal"
+                android:layout_marginLeft="15dip" />
 
             <!--<LinearLayout-->
             <!--android:id="@+id/llIdentityAuthen"-->
@@ -615,10 +619,6 @@
 
             <!--<android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />-->
             <!--</LinearLayout>-->
-
-            <View
-                style="@style/dividerLine_horizontal"
-                android:layout_marginLeft="15dip" />
 
             <LinearLayout
                 android:id="@+id/ivSetting"

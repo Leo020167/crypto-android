@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.bitcnew.BuildConfig;
 import com.bitcnew.R;
 import com.bitcnew.common.base.TJRBaseToolBarSwipeBackActivity;
 import com.bitcnew.common.entity.ResultData;
@@ -47,6 +48,10 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
     TextView txt_baifenbi;
     @BindView(R.id.txt_bencikeshengouzongliang)
     TextView txt_bencikeshengouzongliang;
+    @BindView(R.id.text_dancishengoufanwei_label)
+    TextView text_dancishengoufanwei_label;
+    @BindView(R.id.text_dancishengoufanwei)
+    TextView text_dancishengoufanwei;
     @BindView(R.id.txt_benciyishengou)
     TextView txt_benciyishengou;
     @BindView(R.id.txt_bencishengyushengouliang)
@@ -102,6 +107,11 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
         txt_status2.setOnClickListener(this);
         startSubscribe_allin();
         startSubscribe_getDetail();
+
+        if ("fwdetsc".equals(BuildConfig.FLAVOR)) {
+            text_dancishengoufanwei_label.setVisibility(View.VISIBLE);
+            text_dancishengoufanwei.setVisibility(View.VISIBLE);
+        }
     }
 
     @Override
@@ -273,6 +283,7 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
                                 txt_duihuanbili.setText(bean.getDetail().getRate()+"USDT");
                                 txt_woyishengou.setText(userCount+"");
                                 txt_zuixiaoshengou.setText(bean.getDetail().getMin());
+                                text_dancishengoufanwei.setText(bean.getDetail().getMax());
 
                                 if (!TextUtils.isEmpty(bean.getDetail().getAuthorSummary())){
                                     txt_faqichengyuan.loadDataWithBaseURL(null,bean.getDetail().getAuthorSummary(), "text/html" , "utf-8", null);

@@ -123,6 +123,8 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
 
     @BindView(R.id.llFeedback)
     LinearLayout llFeedback;
+    @BindView(R.id.llFeedback_line)
+    View llFeedback_line;
     @BindView(R.id.tvFeedback)
     TextView tvFeedback;
     @BindView(R.id.llHelp)
@@ -232,6 +234,10 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
         llFollowHis.setOnClickListener(this);
         ivGoHome.setOnClickListener(this);
         llFeedback.setOnClickListener(this);
+        if ("fwdetsc".equals(BuildConfig.FLAVOR)) {
+            llFeedback.setVisibility(View.GONE);
+            llFeedback_line.setVisibility(View.GONE);
+        }
         llHelp.setOnClickListener(this);
         llFuturesHis.setOnClickListener(this);
         llJiaoyijilu.setOnClickListener(this);

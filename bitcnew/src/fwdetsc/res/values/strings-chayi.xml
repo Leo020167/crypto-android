@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="huafeitoken">Flower Fee ATC:</string>
-    <string name="shequzongjianglitfu">Total Community Rewards (ATC)</string>
-    <string name="jianglitfu">Incentive (ATC)</string>
-    <string name="fanyongusdt">Return commission (ATC)</string>
-    <string name="xiaohaotoken">ATC consumption:</string>
-    <string name="token">ATC</string>
-    <string name="zongzichantoken">Total Assets (ATC)</string>
-    <string name="chakanruhehuoqutoken">See how to get ATC</string>
-    <string name="shuliangtoken">Quantity (ATC</string>
+    <string name="huafeitoken">Flower Fee WTS:</string>
+    <string name="shequzongjianglitfu">Total Community Rewards (WTS)</string>
+    <string name="jianglitfu">Incentive (WTS)</string>
+    <string name="fanyongusdt">Return commission (WTS)</string>
+    <string name="xiaohaotoken">WTS consumption:</string>
+    <string name="token">WTS</string>
+    <string name="zongzichantoken">Total Assets (WTS)</string>
+    <string name="chakanruhehuoqutoken">See how to get WTS</string>
+    <string name="shuliangtoken">Quantity (WTS</string>
     <string name="zhiyashengyi">Defi special area</string>
     <string name="meirilixi">Annualized income</string>
-    <string name="huode">Get ATC</string>
+    <string name="huode">Get WTS</string>
     <string name="moren_quhao">+86</string>
     <string name="moren_diqu">中国大陆</string>
 </resources>

@@ -194,6 +194,9 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         ll_xinbishengou.setOnClickListener(this);
         ll_otc.setOnClickListener(this);
         ll_zaixiankefu.setOnClickListener(this);
+        if ("fwdetsc".equals(BuildConfig.FLAVOR)) {
+            ll_zaixiankefu.setVisibility(View.GONE);
+        }
         ll_zhiyashengyi.setOnClickListener(this);
         initBang();
         init();

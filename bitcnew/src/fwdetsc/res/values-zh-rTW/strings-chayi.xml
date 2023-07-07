@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="huafeitoken">花費ATC:</string>
-    <string name="shequzongjianglitfu">社區總獎勵(ATC)</string>
-    <string name="jianglitfu">獎勵（ATC）</string>
-    <string name="fanyongusdt">返傭（ATC）</string>
-    <string name="xiaohaotoken">消耗ATC:</string>
-    <string name="token">ATC</string>
-    <string name="zongzichantoken">總資產(ATC)</string>
-    <string name="chakanruhehuoqutoken">查看如何獲取ATC</string>
-    <string name="shuliangtoken">數量(ATC)</string>
+    <string name="huafeitoken">花費WTS:</string>
+    <string name="shequzongjianglitfu">社區總獎勵(WTS)</string>
+    <string name="jianglitfu">獎勵（WTS）</string>
+    <string name="fanyongusdt">返傭（WTS）</string>
+    <string name="xiaohaotoken">消耗WTS:</string>
+    <string name="token">WTS</string>
+    <string name="zongzichantoken">總資產(WTS)</string>
+    <string name="chakanruhehuoqutoken">查看如何獲取WTS</string>
+    <string name="shuliangtoken">數量(WTS)</string>
     <string name="zhiyashengyi">Defi專區</string>
     <string name="meirilixi">年化收益</string>
-    <string name="huode">獲得ATC</string>
+    <string name="huode">獲得WTS</string>
     <string name="qingshuruyaoqingmaxuantian">請輸入邀請碼</string>
 
 </resources>
