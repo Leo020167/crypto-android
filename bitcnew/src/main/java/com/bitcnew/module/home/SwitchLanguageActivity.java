@@ -127,9 +127,9 @@ public class SwitchLanguageActivity extends TJRBaseToolBarSwipeBackActivity {
         } else if ("pt".equals(lang)) {
             iv_pt.setVisibility(View.VISIBLE);
         } else {
-            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            if ("ts".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG)) {
                 iv_zhTw.setVisibility(View.VISIBLE);
-            } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "fwdetsc".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            } else if ("cn".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG)) {
                 iv_zhCn.setVisibility(View.VISIBLE);
             } else {
                 iv_en.setVisibility(View.VISIBLE);

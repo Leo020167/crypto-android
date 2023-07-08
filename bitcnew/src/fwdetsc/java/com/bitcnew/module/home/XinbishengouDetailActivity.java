@@ -108,7 +108,7 @@ public class XinbishengouDetailActivity extends TJRBaseToolBarSwipeBackActivity 
         startSubscribe_allin();
         startSubscribe_getDetail();
 
-        if ("fwdetsc".equals(BuildConfig.FLAVOR)) {
+        if (BuildConfig.FLAVOR.startsWith("fwdetsc")) {
             text_dancishengoufanwei_label.setVisibility(View.VISIBLE);
             text_dancishengoufanwei.setVisibility(View.VISIBLE);
         }

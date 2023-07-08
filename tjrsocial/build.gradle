@@ -28,6 +28,12 @@ android {
         }
         fwdetsc {
         }
+        fwdetsc1 {
+        }
+        fwdetsc2 {
+        }
+        fwdetsc3 {
+        }
     }
 
     repositories {

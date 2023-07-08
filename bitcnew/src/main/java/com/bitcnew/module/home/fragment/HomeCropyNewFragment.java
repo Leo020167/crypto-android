@@ -194,7 +194,7 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         ll_xinbishengou.setOnClickListener(this);
         ll_otc.setOnClickListener(this);
         ll_zaixiankefu.setOnClickListener(this);
-        if ("fwdetsc".equals(BuildConfig.FLAVOR)) {
+        if (BuildConfig.FLAVOR.startsWith("fwdetsc")) {
             ll_zaixiankefu.setVisibility(View.GONE);
         }
         ll_zhiyashengyi.setOnClickListener(this);
@@ -232,9 +232,9 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         } else if ("pt".equals(lang)) {
             langIv.setImageResource(R.drawable.icon_lang_pt);
         } else {
-            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            if ("ts".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG)) {
                 langIv.setImageResource(R.drawable.icon_lang_cn_hk);
-            } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "fwdetsc".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            } else if ("cn".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG)) {
                 langIv.setImageResource(R.drawable.icon_lang_cn_zh);
             } else {
                 langIv.setImageResource(R.drawable.icon_lang_uk);

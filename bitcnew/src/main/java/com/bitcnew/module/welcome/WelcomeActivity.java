@@ -91,9 +91,9 @@ public class WelcomeActivity extends TJRBaseToolBarActivity {
             config.locale = new Locale("pt");
         } else {
 //            config.locale = Locale.getDefault();
-            if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            if ("ts".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG)) {
                 config.locale = Locale.TRADITIONAL_CHINESE;
-            } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "fwdetsc".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            } else if ("cn".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG)) {
                 config.locale = Locale.SIMPLIFIED_CHINESE;
             } else {
                 config.locale = Locale.ENGLISH;
@@ -164,7 +164,7 @@ public class WelcomeActivity extends TJRBaseToolBarActivity {
     private String[] items;
     private void getDns() {
         CommonUtil.cancelCall(getDnsCall);
-        getDnsCall = VHttpServiceManager.getInstance().getVService().getActivityList();
+        getDnsCall = VHttpServiceManager.getInstance().getVService().getActivityList(com.bitcnew.http.BuildConfig.SERVER_TYPE);
         getDnsCall.enqueue(new MyCallBack(WelcomeActivity.this) {
             @Override
             protected void callBack(ResultData resultData) {

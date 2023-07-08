@@ -273,7 +273,7 @@ public interface VService {
 
     //首页活动页
     @POST(VHttpServiceManager.V_HOME_ACTIVITY)
-    Call<ResponseBody> getActivityList();
+    Call<ResponseBody> getActivityList(@Field("type") String type);
 
     //首页活动页签到
     @POST(VHttpServiceManager.V_ACTIVITY_SIGN)

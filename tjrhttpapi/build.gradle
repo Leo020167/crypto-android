@@ -27,12 +27,14 @@ android {
         fire {
             buildConfigField 'String', 'SERVER_ADDRESS', '"worldcoinservice.com"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.worldcoinservice.com"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
             buildConfigField 'String', 'DEFAULT_LNG', '"en"'
         }
         encrypted {
             buildConfigField 'String', 'SERVER_ADDRESS', '"encryptedex.com"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.encryptedex.com"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
             buildConfigField 'String', 'DEFAULT_LNG', '"en"'
         }
@@ -43,6 +45,7 @@ android {
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"twqkggu.cn"'
             buildConfigField 'String', 'SERVER_ADDRESS', '"2ecj.com"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.2ecj.com"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
             buildConfigField 'String', 'DEFAULT_LNG', '"ts"'
         }
@@ -53,26 +56,46 @@ android {
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"qokwjxf.cn"'
             buildConfigField 'String', 'SERVER_ADDRESS', '"zjxtazf.cn"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.zjxtazf.cn"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
         aicoin {
             buildConfigField 'String', 'SERVER_ADDRESS', '"kaobaochina.cn"'
             buildConfigField 'String', 'SOCKET_HOST', '"116.205.132.220"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
         fwdetsc {
-//            buildConfigField 'String', 'SERVER_ADDRESS', '"twtwe.com"'
-//            buildConfigField 'String', 'SOCKET_HOST', '"api.twtwe.com"'
-//            buildConfigField 'String', 'SERVER_ADDRESS', '"24xls.cn"'
-//            buildConfigField 'String', 'SOCKET_HOST', '"api.24xls.cn"'
-//            buildConfigField 'String', 'SERVER_ADDRESS', '"stu77.cn"'
-//            buildConfigField 'String', 'SOCKET_HOST', '"api.stu77.cn"'
-//            buildConfigField 'String', 'SERVER_ADDRESS', '"doline.cn"'
-//            buildConfigField 'String', 'SOCKET_HOST', '"api.doline.cn"'
             buildConfigField 'String', 'SERVER_ADDRESS', '"twtwe.com"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.twtwe.com"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
+
+            buildConfigField 'int', 'SOCKET_PORT', '1818'
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
+        }
+        fwdetsc1 {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"doline.cn"'
+            buildConfigField 'String', 'SOCKET_HOST', '"api.doline.cn"'
+            buildConfigField 'String', 'SERVER_TYPE', '"1"'
+
+            buildConfigField 'int', 'SOCKET_PORT', '1818'
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
+        }
+        fwdetsc2 {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"stu77.cn"'
+            buildConfigField 'String', 'SOCKET_HOST', '"api.stu77.cn"'
+            buildConfigField 'String', 'SERVER_TYPE', '"2"'
+
+            buildConfigField 'int', 'SOCKET_PORT', '1818'
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
+        }
+        fwdetsc3 {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"24xls.cn"'
+            buildConfigField 'String', 'SOCKET_HOST', '"api.24xls.cn"'
+            buildConfigField 'String', 'SERVER_TYPE', '"3"'
+
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
