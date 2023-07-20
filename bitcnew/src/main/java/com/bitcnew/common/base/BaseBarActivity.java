@@ -1,6 +1,7 @@
 package com.bitcnew.common.base;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Point;
@@ -191,6 +192,12 @@ public class BaseBarActivity extends AppCompatActivity {//ActionBarActivity
         if (getCurrentFocus() != null && getCurrentFocus().getWindowToken() != null)
             imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
         super.finish();
+        overridePendingTransition(R.anim.anim_none, R.anim.anim_none);
     }
 
+    @Override
+    public void startActivityForResult(Intent intent, int requestCode) {
+        super.startActivityForResult(intent, requestCode);
+        overridePendingTransition(R.anim.anim_none, R.anim.anim_none);
+    }
 }

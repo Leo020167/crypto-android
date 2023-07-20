@@ -2,9 +2,9 @@
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/pageBackground">
 
     <LinearLayout
@@ -52,6 +52,7 @@
                 android:id="@+id/llHead"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:paddingTop="25dip">
 
@@ -90,9 +91,9 @@
                                 android:maxLines="1"
                                 android:text=""
                                 android:textColor="@color/c1d3155"
-                                android:textSize="@dimen/font_size_22"
+                                android:textSize="@dimen/font_size_20"
                                 android:textStyle="bold"
-                                tools:text="用户名"/>
+                                tools:text="用户名" />
 
                             <android.support.v7.widget.AppCompatImageView
                                 android:layout_width="20dip"
@@ -160,7 +161,7 @@
                         android:layout_marginTop="5dip"
                         android:maxLines="1"
                         android:text=""
-                        android:textColor="@color/c996175ae"
+                        android:textColor="#B2BAD4"
                         android:textSize="@dimen/font_size_14"
                         android:textStyle="bold"
                         tools:text="ID: 00000000" />
@@ -177,8 +178,8 @@
                 <LinearLayout
                     android:id="@+id/llRechargeCoin"
                     android:layout_width="0dip"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -192,16 +193,16 @@
                             android:layout_width="50dip"
                             android:layout_height="50dip"
                             android:scaleType="centerCrop"
-                            app:srcCompat="@drawable/ic_svg_recharge_coin"
-                            />
+                            app:srcCompat="@drawable/ic_svg_recharge_coin" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dip"
+                            android:fontFamily="@font/puhuiti_medium"
                             android:text="@string/chongbi"
                             android:textColor="@color/c6175ae"
-                            android:textSize="@dimen/font_size_12" />
+                            android:textSize="@dimen/font_size_14" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -223,11 +224,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dip"
+                        android:fontFamily="@font/puhuiti_medium"
                         android:text="@string/tibi"
                         android:textColor="@color/c6175ae"
-                        android:textSize="@dimen/font_size_12" />
+                        android:textSize="@dimen/font_size_14" />
                 </LinearLayout>
-
 
                 <LinearLayout
                     android:id="@+id/llTransfer"
@@ -253,16 +254,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dip"
+                            android:fontFamily="@font/puhuiti_medium"
                             android:text="@string/huazhuan"
                             android:textColor="@color/c6175ae"
-                            android:textSize="@dimen/font_size_12" />
+                            android:textSize="@dimen/font_size_14" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/llLegal"
                     android:layout_width="0dip"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -283,9 +286,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dip"
+                            android:fontFamily="@font/puhuiti_medium"
                             android:text="@string/fabimaimai"
                             android:textColor="@color/c6175ae"
-                            android:textSize="@dimen/font_size_12" />
+                            android:textSize="@dimen/font_size_14" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -296,11 +300,9 @@
 
 
         <LinearLayout
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
 
             <View
                 style="@style/dividerLine_horizontal"
@@ -311,12 +313,12 @@
             <LinearLayout
                 android:id="@+id/llDigitalHis"
                 style="@style/inSideSettingItem"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
 
                 <ImageView
                     style="@style/perval_home_ic_style"
                     android:src="@drawable/ic_home_mine_digital" />
-
 
                 <LinearLayout
                     android:layout_width="0dip"
@@ -339,6 +341,13 @@
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
 
             </LinearLayout>
+
+            <View
+                style="@style/dividerLine_horizontal"
+                android:layout_marginLeft="15dip"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
             <LinearLayout
                 android:id="@+id/llFuturesHis"
                 style="@style/inSideSettingItem"
@@ -347,7 +356,7 @@
 
                 <ImageView
                     style="@style/perval_home_ic_style"
-                    android:src="@drawable/ic_home_mine_stock"/>
+                    android:src="@drawable/ic_home_mine_stock" />
 
                 <TextView
                     style="@style/settingTextStyle"
@@ -366,13 +375,20 @@
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
 
             </LinearLayout>
+
+            <View
+                style="@style/dividerLine_horizontal"
+                android:layout_marginLeft="15dip"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
             <LinearLayout
                 android:id="@+id/llJiaoyijilu"
                 style="@style/inSideSettingItem">
 
                 <ImageView
                     style="@style/perval_home_ic_style"
-                    android:src="@drawable/ic_home_mine_stock"/>
+                    android:src="@drawable/ic_home_mine_stock" />
 
                 <TextView
                     style="@style/settingTextStyle"
@@ -381,68 +397,83 @@
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
 
             </LinearLayout>
+
             <View
                 style="@style/dividerLine_horizontal"
                 android:layout_marginLeft="15dip"
-                android:visibility="gone"/>
+                android:visibility="gone" />
+
             <LinearLayout
                 android:id="@+id/llZichan"
                 style="@style/inSideSettingItem"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
+
                 <ImageView
                     style="@style/perval_home_ic_style"
-                    android:src="@drawable/ic_zichan"/>
+                    android:src="@drawable/ic_zichan" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="15dip"
+                    android:layout_weight="1"
                     android:text="@string/zichan"
                     android:textColor="@color/c1d3155"
                     android:textSize="@dimen/font_size_16" />
+
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/llDaili"
                 style="@style/inSideSettingItem"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
+
                 <ImageView
                     style="@style/perval_home_ic_style"
-                    android:src="@drawable/ic_daili"/>
+                    android:src="@drawable/ic_daili" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="15dip"
+                    android:layout_weight="1"
                     android:text="@string/shequ"
                     android:textColor="@color/c1d3155"
                     android:textSize="@dimen/font_size_16" />
+
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/llYouhuiquan"
                 style="@style/inSideSettingItem"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
+
                 <ImageView
                     style="@style/perval_home_ic_style"
-                    android:src="@drawable/ic_youhuiquan"/>
+                    android:src="@drawable/ic_youhuiquan" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="15dip"
+                    android:layout_weight="1"
                     android:text="@string/youhuiquan"
                     android:textColor="@color/c1d3155"
                     android:textSize="@dimen/font_size_16" />
+
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/llFollowHis"
                 style="@style/inSideSettingItem"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
 
                 <ImageView
                     style="@style/perval_home_ic_style"
@@ -456,12 +487,10 @@
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
             </LinearLayout>
 
-
             <View
                 style="@style/dividerLine_horizontal"
                 android:layout_height="10dip"
                 android:background="@color/pageBackground" />
-
 
             <LinearLayout
                 android:id="@+id/llNews"
@@ -533,7 +562,8 @@
             <LinearLayout
                 android:id="@+id/llShareApp"
                 style="@style/inSideSettingItem"
-                android:visibility="gone">
+                android:visibility="gone"
+                tools:visibility="visible">
 
                 <ImageView
                     style="@style/perval_home_ic_style"
@@ -558,7 +588,8 @@
                 style="@style/dividerLine_horizontal"
                 android:layout_height="10dip"
                 android:background="@color/pageBackground"
-                android:visibility="gone" />
+                android:visibility="gone"
+                tools:visibility="visible"/>
 
 
             <View
@@ -634,9 +665,11 @@
 
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
             </LinearLayout>
+
             <View
                 style="@style/dividerLine_horizontal"
                 android:layout_marginLeft="15dip" />
+
             <LinearLayout
                 android:id="@+id/llIdentityAuthen"
                 style="@style/inSideSettingItem">
@@ -647,30 +680,37 @@
                 <ImageView
                     style="@style/perval_home_ic_style"
                     android:src="@drawable/ic_home_mine_shiming" />
+
                 <TextView
                     style="@style/settingTextStyle"
                     android:text="@string/shimingrenzheng" />
 
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
             </LinearLayout>
+
             <View
                 style="@style/dividerLine_horizontal"
                 android:layout_marginLeft="15dip" />
+
             <LinearLayout
                 android:id="@+id/llAddBankCard"
                 style="@style/inSideSettingItem">
+
                 <ImageView
                     style="@style/perval_home_ic_style"
                     android:src="@drawable/ic_svg_receipt_manager" />
+
                 <TextView
                     style="@style/settingTextStyle"
                     android:text="@string/bingBankCard" />
 
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
             </LinearLayout>
+
             <View
                 style="@style/dividerLine_horizontal"
-                android:layout_marginLeft="15dip"  />
+                android:layout_marginLeft="15dip" />
+
             <LinearLayout
                 android:id="@+id/llBindEmail"
                 style="@style/inSideSettingItem">
@@ -681,12 +721,14 @@
                 <ImageView
                     style="@style/perval_home_ic_style"
                     android:src="@drawable/ic_home_mine_youxiang" />
+
                 <TextView
                     style="@style/settingTextStyle"
                     android:text="@string/bangdingyouxiang" />
 
                 <android.support.v7.widget.AppCompatImageView style="@style/commonAarrowSvg" />
             </LinearLayout>
+
             <View
                 style="@style/dividerLine_horizontal"
                 android:layout_marginLeft="15dip"

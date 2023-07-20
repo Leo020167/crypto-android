@@ -349,7 +349,6 @@
             android:name=".module.logout.ReLoginRemindActivity"
             android:configChanges="locale|layoutDirection"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait"
             android:theme="@style/Theme.Taojinroad.ActionBar.logout" />
         <activity
             android:name=".wxapi.WXEntryActivity"

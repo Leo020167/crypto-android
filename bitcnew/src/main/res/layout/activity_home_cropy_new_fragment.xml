@@ -34,14 +34,15 @@
                     android:layout_marginTop="13dp"
                     android:orientation="vertical">
 
+                    <!-- BANNER -->
                     <android.support.v7.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_120sdp"
                         android:layout_marginHorizontal="5dp"
                         app:cardBackgroundColor="@color/white"
                         app:cardCornerRadius="5dp"
-                        app:cardElevation="@dimen/_5sdp"
-                        app:cardPreventCornerOverlap="true">
+                        app:cardElevation="0dp"
+                        app:cardUseCompatPadding="false">
 
                         <RelativeLayout
                             android:layout_width="fill_parent"
@@ -70,6 +71,127 @@
 
                     </android.support.v7.widget.CardView>
 
+                    <!-- 工具区 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/ll_dav"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:src="@drawable/tab1_menu1" />
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/dav"
+                                android:textColor="@color/c333333"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_xinbishengou"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:src="@drawable/tab1_menu2" />
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/chuangxinshiyanqu"
+                                android:textColor="@color/c333333"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_zhiyashengyi"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:src="@drawable/tab1_menu5" />
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/zhiyashengyi"
+                                android:textColor="@color/c333333"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_otc"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:src="@drawable/tab1_menu3" />
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/otcjiaoyi"
+                                android:textColor="@color/c333333"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_zaixiankefu"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:src="@drawable/tab1_menu4" />
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:text="@string/zaixiankefu"
+                                android:textColor="@color/c666666"
+                                android:textSize="12sp"
+                                app:fontFamily="@font/puhuiti_medium" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- 消息 -->
                     <android.support.v7.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
@@ -77,13 +199,12 @@
                         android:layout_marginTop="11dp"
                         app:cardBackgroundColor="@color/white"
                         app:cardCornerRadius="3dp"
-                        app:cardElevation="@dimen/_3sdp"
+                        app:cardElevation="0dp"
                         app:cardPreventCornerOverlap="true">
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_marginRight="@dimen/_10sdp"
                             android:gravity="center_vertical"
                             android:orientation="horizontal">
 
@@ -132,18 +253,18 @@
 
                             <ImageView
                                 android:id="@+id/news_next_img"
-                                android:layout_width="@dimen/_40sdp"
-                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:paddingRight="17dp"
+                                android:paddingLeft="17dp"
                                 android:layout_gravity="center"
-                                android:layout_marginEnd="20dp"
-                                android:layout_marginRight="20dp"
                                 android:src="@drawable/lvjiantou" />
                         </LinearLayout>
 
 
                     </android.support.v7.widget.CardView>
 
-
+                    <!-- 价格 -->
                     <android.support.v7.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="115dp"
@@ -151,7 +272,7 @@
                         android:layout_marginTop="11dp"
                         app:cardBackgroundColor="@color/white"
                         app:cardCornerRadius="3dp"
-                        app:cardElevation="@dimen/_3sdp"
+                        app:cardElevation="0dp"
                         app:cardPreventCornerOverlap="true">
 
 
@@ -180,6 +301,7 @@
                                     android:textColor="#0C0C0C"
                                     android:textSize="13sp"
                                     android:textStyle="bold" />
+
                                 <TextView
                                     android:id="@+id/symbol_txt0"
                                     android:layout_width="wrap_content"
@@ -190,6 +312,7 @@
                                     android:textColor="@color/redcolor2"
                                     android:textSize="14sp"
                                     android:textStyle="bold" />
+
                                 <TextView
                                     android:id="@+id/currency_txt"
                                     android:layout_width="match_parent"
@@ -199,8 +322,7 @@
                                     android:text="1021.19"
                                     android:textColor="@color/redcolor2"
                                     android:textSize="15sp"
-                                    android:textStyle="bold"/>
-
+                                    android:textStyle="bold" />
 
 
                                 <TextView
@@ -231,6 +353,7 @@
                                     android:textColor="#0C0C0C"
                                     android:textSize="13sp"
                                     android:textStyle="bold" />
+
                                 <TextView
                                     android:id="@+id/symbol_txt10"
                                     android:layout_width="wrap_content"
@@ -241,6 +364,7 @@
                                     android:textColor="@color/redcolor2"
                                     android:textSize="14sp"
                                     android:textStyle="bold" />
+
                                 <TextView
                                     android:id="@+id/currency_txt1"
                                     android:layout_width="match_parent"
@@ -250,8 +374,7 @@
                                     android:text="1021.19"
                                     android:textColor="@color/redcolor2"
                                     android:textSize="15sp"
-                                    android:textStyle="bold"/>
-
+                                    android:textStyle="bold" />
 
 
                                 <TextView
@@ -303,7 +426,7 @@
                                     android:text="1021.19"
                                     android:textColor="@color/redcolor2"
                                     android:textSize="15sp"
-                                    android:textStyle="bold"/>
+                                    android:textStyle="bold" />
 
                                 <TextView
                                     android:id="@+id/percent_txt2"
@@ -320,14 +443,15 @@
 
                     </android.support.v7.widget.CardView>
 
+                    <!-- OTC -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:layout_marginHorizontal="5dp"
                         android:layout_marginTop="11dp"
                         android:orientation="horizontal"
-                        android:visibility="gone">
-
+                        android:visibility="gone"
+                        tools:visibility="visible">
 
 
                         <RelativeLayout
@@ -359,131 +483,18 @@
                                 android:textSize="12sp" />
                         </RelativeLayout>
                     </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="108dp"
-                        android:layout_marginHorizontal="5dp"
-                        android:layout_marginTop="11dp"
-                        android:orientation="horizontal"
-                        android:background="@drawable/border_white_10dp">
-                        <LinearLayout
-                            android:id="@+id/ll_dav"
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:orientation="vertical">
 
-                            <ImageView
-                                android:layout_width="36dp"
-                                android:layout_height="36dp"
-                                android:src="@drawable/tab1_menu1"/>
-
-                            <android.support.v7.widget.AppCompatTextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:text="@string/dav"
-                                android:textColor="@color/c666666"
-                                android:textSize="12sp"
-                                app:fontFamily="@font/puhuiti_medium"/>
-                        </LinearLayout>
-                        <LinearLayout
-                            android:id="@+id/ll_xinbishengou"
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="36dp"
-                                android:layout_height="36dp"
-                                android:src="@drawable/tab1_menu2"/>
-                            <android.support.v7.widget.AppCompatTextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:text="@string/chuangxinshiyanqu"
-                                android:textColor="@color/c666666"
-                                android:textSize="12sp"
-                                app:fontFamily="@font/puhuiti_medium"/>
-                        </LinearLayout>
-                        <LinearLayout
-                            android:id="@+id/ll_zhiyashengyi"
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="36dp"
-                                android:layout_height="36dp"
-                                android:src="@drawable/tab1_menu5"/>
-
-                            <android.support.v7.widget.AppCompatTextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:text="@string/zhiyashengyi"
-                                android:textColor="@color/c666666"
-                                android:textSize="12sp"
-                                app:fontFamily="@font/puhuiti_medium"/>
-                        </LinearLayout>
-                        <LinearLayout
-                            android:id="@+id/ll_otc"
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="36dp"
-                                android:layout_height="36dp"
-                                android:src="@drawable/tab1_menu3"/>
-                            <android.support.v7.widget.AppCompatTextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:text="@string/otcjiaoyi"
-                                android:textColor="@color/c666666"
-                                android:textSize="12sp"
-                                app:fontFamily="@font/puhuiti_medium"/>
-                        </LinearLayout>
-                        <LinearLayout
-                            android:id="@+id/ll_zaixiankefu"
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="36dp"
-                                android:layout_height="36dp"
-                                android:src="@drawable/tab1_menu4"/>
-                            <android.support.v7.widget.AppCompatTextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:text="@string/zaixiankefu"
-                                android:textColor="@color/c666666"
-                                android:textSize="12sp"
-                                app:fontFamily="@font/puhuiti_medium"/>
-                        </LinearLayout>
-                    </LinearLayout>
-
+                    <!-- 金牌机构 -->
                     <android.support.v7.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_120sdp"
+                        android:visibility="gone"
                         app:cardBackgroundColor="@color/lightBluecolor"
                         app:cardCornerRadius="@dimen/_10sdp"
                         app:cardElevation="@dimen/_3sdp"
-                        android:visibility="gone"
                         app:cardPreventCornerOverlap="true"
-                        app:cardUseCompatPadding="true">
+                        app:cardUseCompatPadding="true"
+                        tools:visibility="visible">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -526,7 +537,7 @@
                         </LinearLayout>
                     </android.support.v7.widget.CardView>
 
-
+                    <!-- OTC1 -->
                     <android.support.v7.widget.CardView
                         android:id="@+id/otc_card"
                         android:layout_width="match_parent"
@@ -536,7 +547,8 @@
                         app:cardCornerRadius="@dimen/_10sdp"
                         app:cardElevation="@dimen/_3sdp"
                         app:cardPreventCornerOverlap="true"
-                        app:cardUseCompatPadding="true">
+                        app:cardUseCompatPadding="true"
+                        tools:visibility="visible">
 
 
                         <LinearLayout
@@ -565,7 +577,7 @@
 
                     </android.support.v7.widget.CardView>
 
-
+                    <!-- OTC2 -->
                     <android.support.v7.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_80sdp"
@@ -575,7 +587,8 @@
                         app:cardCornerRadius="@dimen/_10sdp"
                         app:cardElevation="@dimen/_3sdp"
                         app:cardPreventCornerOverlap="true"
-                        app:cardUseCompatPadding="true">
+                        app:cardUseCompatPadding="true"
+                        tools:visibility="visible">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -616,7 +629,7 @@
 
                     </android.support.v7.widget.CardView>
 
-
+                    <!-- Market -->
                     <android.support.v7.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -625,7 +638,7 @@
                         android:layout_marginBottom="@dimen/_5sdp"
                         app:cardBackgroundColor="@color/white"
                         app:cardCornerRadius="3dp"
-                        app:cardElevation="3dp"
+                        app:cardElevation="0dp"
                         app:cardPreventCornerOverlap="true">
 
                         <LinearLayout
@@ -777,7 +790,6 @@
 
             </LinearLayout>
 
-
         </android.support.v4.widget.NestedScrollView>
 
         <View
@@ -785,6 +797,5 @@
             android:layout_gravity="bottom" />
 
     </FrameLayout>
-
 
 </LinearLayout>

@@ -47,7 +47,6 @@
         android:paddingRight="20dip">
 
         <android.support.v7.widget.AppCompatImageView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -79,7 +78,6 @@
         android:paddingRight="20dip">
 
         <android.support.v7.widget.AppCompatImageView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
