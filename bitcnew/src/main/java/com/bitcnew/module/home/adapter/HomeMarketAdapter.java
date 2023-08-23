@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -19,6 +20,7 @@ import com.bitcnew.module.home.MarketActivity2;
 import com.bitcnew.module.home.entity.Market;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.StockChartUtil;
+import com.bumptech.glide.Glide;
 
 import java.util.List;
 import java.util.Objects;
@@ -90,6 +92,8 @@ public class HomeMarketAdapter extends BaseImageLoaderRecycleAdapter<Market> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
+        @BindView(R.id.imgLogo)
+        ImageView imgLogo;
         @BindView(R.id.tvSymbol)
         TextView tvSymbol;
         @BindView(R.id.tvSubSymbol)
@@ -131,6 +135,12 @@ public class HomeMarketAdapter extends BaseImageLoaderRecycleAdapter<Market> {
                 llItem.setBackgroundColor(ContextCompat.getColor(context, R.color.white));
             }
             Log.d("HomeMarketAdapter", "data.symbol==" + data.symbol);
+            if (null != data.image) {
+                Glide.with(context).load(data.image).into(imgLogo);
+                imgLogo.setVisibility(View.VISIBLE);
+            } else {
+                imgLogo.setVisibility(View.GONE);
+            }
             int index = data.symbol.indexOf("/");
             if (index > 0) {
                 tvSymbol.setText(CommonUtil.getOriginSymbol(data.symbol));

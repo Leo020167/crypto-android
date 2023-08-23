@@ -21,6 +21,7 @@ public class Market implements TaojinluType {
     public String tip;
     public String marketType;
     public String logo;
+    public String image;
 
     //这2个字段是搜索用到
     public int type;

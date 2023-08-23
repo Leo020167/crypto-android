@@ -61,7 +61,9 @@ android {
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
         aicoin {
-            buildConfigField 'String', 'SERVER_ADDRESS', '"kaobaochina.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"kaobaochina.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"financingy.com"'
+            buildConfigField 'String', 'SERVER_ADDRESS', '"shananan1.cn"'
             buildConfigField 'String', 'SOCKET_HOST', '"116.205.132.220"'
             buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'int', 'SOCKET_PORT', '1818'

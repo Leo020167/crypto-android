@@ -113,6 +113,9 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
     LinearLayout ll_zhiyashengyi;
     @BindView(R.id.re_otc)
     RelativeLayout re_otc;
+
+    @BindView(R.id.symbol_img)
+    ImageView symbol_img;
     @BindView(R.id.symbol_txt)
     TextView symbol_txt;
     @BindView(R.id.symbol_txt0)
@@ -122,6 +125,8 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
     @BindView(R.id.percent_txt)
     TextView percent_txt;
 
+    @BindView(R.id.symbol_img1)
+    ImageView symbol_img1;
     @BindView(R.id.symbol_txt1)
     TextView symbol_txt1;
     @BindView(R.id.symbol_txt10)
@@ -131,7 +136,8 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
     @BindView(R.id.percent_txt1)
     TextView percent_txt1;
 
-
+    @BindView(R.id.symbol_img2)
+    ImageView symbol_img2;
     @BindView(R.id.symbol_txt2)
     TextView symbol_txt2;
     @BindView(R.id.symbol_txt20)
@@ -383,6 +389,12 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
                     JSONObject curr = (JSONObject) quotes.get(0);
                     btcStr = curr.getString("symbol");
 
+                    if (curr.has("image")) {
+                        Glide.with(symbol_img).load(curr.getString("image")).into(symbol_img);
+                        symbol_img.setVisibility(View.VISIBLE);
+                    } else {
+                        symbol_img.setVisibility(View.GONE);
+                    }
                     symbol_txt.setText(curr.getString("symbol") + "/" + curr.getString("currency"));
                     String rate = curr.get("rate").toString();
                     symbol_txt0.setText(rate + "%");
@@ -410,6 +422,12 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
 
                     JSONObject curr1 = (JSONObject) quotes.get(1);
                     btcStr1 = curr1.getString("symbol");
+                    if (curr1.has("image")) {
+                        Glide.with(symbol_img1).load(curr1.getString("image")).into(symbol_img1);
+                        symbol_img1.setVisibility(View.VISIBLE);
+                    } else {
+                        symbol_img1.setVisibility(View.GONE);
+                    }
                     symbol_txt1.setText(curr1.getString("symbol") + "/" + curr1.getString("currency"));
                     String rate1 = curr1.get("rate").toString();
                     symbol_txt10.setText(rate1 + "%");
@@ -436,6 +454,12 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
 
                     JSONObject curr2 = (JSONObject) quotes.get(2);
                     btcStr2 = curr2.getString("symbol");
+                    if (curr2.has("image")) {
+                        Glide.with(symbol_img2).load(curr2.getString("image")).into(symbol_img2);
+                        symbol_img2.setVisibility(View.VISIBLE);
+                    } else {
+                        symbol_img2.setVisibility(View.GONE);
+                    }
                     symbol_txt2.setText(curr2.getString("symbol") + "/" + curr2.getString("currency"));
                     String rate2 = curr2.get("rate").toString();
                     symbol_txt20.setText(rate2 + "%");
@@ -904,6 +928,12 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
             } else {
                 Glide.with(context).load(R.drawable.ic_account_chat).into(holder.imgLogo);
             }
+            if (!TextUtils.isEmpty(data.image)) {
+                Glide.with(context).load(data.image).into(holder.imgLogo1);
+                holder.imgLogo1.setVisibility(View.VISIBLE);
+            } else {
+                holder.imgLogo1.setVisibility(View.GONE);
+            }
             Log.d("HomeMarketAdapter", "data.symbol==" + data.symbol);
             int index = data.symbol.indexOf("/");
             if (index > 0) {
@@ -973,6 +1003,8 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
             TextView tvXuhao;
             @BindView(R.id.imgLogo)
             CircleImageView imgLogo;
+            @BindView(R.id.imgLogo1)
+            CircleImageView imgLogo1;
             @BindView(R.id.tvSymbol)
             TextView tvSymbol;
             @BindView(R.id.tvSubSymbol)

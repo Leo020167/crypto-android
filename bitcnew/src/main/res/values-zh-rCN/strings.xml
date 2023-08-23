@@ -387,7 +387,7 @@
     <string name="mingchengdaima">名称代码</string>
     <string name="zuixinjia">最新价</string>
     <string name="zhangdiefu">涨跌幅</string>
-    <string name="hangqing">行情</string>
+    <string name="hangqing">市场</string>
     <string name="zixuan">自选</string>
     <string name="hushen">沪深</string>
     <string name="ganggu">港股</string>
@@ -415,7 +415,7 @@
     <string name="xuanzebizhong">选择币种</string>
     <string name="guanliyuan">管理员</string>
     <string name="guanfang">官方</string>
-    <string name="zhanghu">账户</string>
+    <string name="zhanghu">资产</string>
     <string name="dingyue">订阅</string>
     <string name="wode">我的</string>
     <string name="gendanzongyingkui">跟单总盈亏</string>
