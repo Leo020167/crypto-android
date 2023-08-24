@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">フラワー料金BICP：</string>
+    <string name="shequzongjianglitfu">合計コミュニティ報酬（BICP）</string>
+    <string name="jianglitfu">インセンティブ（BICP）</string>
+    <string name="fanyongusdt">帰還委員会（BICP）</string>
+    <string name="xiaohaotoken">BICP消費：</string>
+    <string name="token">BICP</string>
+    <string name="zongzichantoken">総資産（BICP）</string>
+    <string name="chakanruhehuoqutoken">BICPの入手方法をご覧ください</string>
+    <string name="shuliangtoken">数量（BICP</string>
+    <string name="zhiyashengyi">Defi 特別エリア</string>
+    <string name="meirilixi">年収</string>
+    <string name="huode">BICPを入手してください</string>
+
+</resources>

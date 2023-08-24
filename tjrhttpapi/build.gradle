@@ -101,6 +101,14 @@ android {
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
+        tyresd {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"tyresd.com"'
+            buildConfigField 'String', 'SOCKET_HOST', '"api.tyresd.com"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
+
+            buildConfigField 'int', 'SOCKET_PORT', '1818'
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
+        }
     }
 
     sourceSets {
