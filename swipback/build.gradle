@@ -34,8 +34,6 @@ android {
         }
         fwdetsc3 {
         }
-        tyresd {
-        }
     }
 //    compileOptions {
 //        sourceCompatibility JavaVersion.VERSION_1_7

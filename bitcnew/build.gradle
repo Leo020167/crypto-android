@@ -160,12 +160,6 @@ android {
             resValue "string", "app_name", "Fwdetsc"
             resValue "string", "product_name", "Fwdetsc"
         }
-        tyresd {
-            applicationId "com.bitcnew.tyresd"
-            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "Tyresd"]
-            resValue "string", "app_name", "AIDTC"
-            resValue "string", "product_name", "AIDTC"
-        }
     }
     lintOptions {
         checkReleaseBuilds false

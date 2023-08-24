@@ -34,8 +34,6 @@ android {
         }
         fwdetsc3 {
         }
-        tyresd {
-        }
     }
 
     repositories {
