@@ -234,7 +234,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
         llFollowHis.setOnClickListener(this);
         ivGoHome.setOnClickListener(this);
         llFeedback.setOnClickListener(this);
-        if (BuildConfig.FLAVOR.startsWith("fwdetsc")) {
+        if (BuildConfig.FLAVOR.startsWith("fwdetsc") || BuildConfig.FLAVOR.startsWith("tyresd")) {
             llFeedback.setVisibility(View.GONE);
             llFeedback_line.setVisibility(View.GONE);
         }

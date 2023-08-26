@@ -99,6 +99,20 @@ android {
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
+        tyresd {
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"tyresd.com"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.tyresd.com"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"schbcy.cn"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.schbcy.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"xjhyf.cn"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.xjhyf.cn"'
+            buildConfigField 'String', 'SERVER_ADDRESS', '"yuwan0.cn"'
+            buildConfigField 'String', 'SOCKET_HOST', '"api.yuwan0.cn"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
+
+            buildConfigField 'int', 'SOCKET_PORT', '1818'
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
+        }
     }
 
     sourceSets {
