@@ -194,7 +194,7 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         ll_xinbishengou.setOnClickListener(this);
         ll_otc.setOnClickListener(this);
         ll_zaixiankefu.setOnClickListener(this);
-        if (BuildConfig.FLAVOR.startsWith("fwdetsc") || BuildConfig.FLAVOR.startsWith("tyresd")) {
+        if (BuildConfig.FLAVOR.startsWith("fwdetsc")) {
             ll_zaixiankefu.setVisibility(View.GONE);
         }
         ll_zhiyashengyi.setOnClickListener(this);
@@ -260,7 +260,8 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
                 if ("encrypted".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                     MarketActivity2.pageJump(getActivity(), symbol, 1,"spot");
                 } else {
-                    MarketActivity.pageJump(getActivity(), symbol, 1, "digital");
+//                    MarketActivity.pageJump(getActivity(), symbol, 1, "digital");
+                    MarketActivity2.pageJump(getActivity(), symbol, 1, "digital");
                 }
             }
         });
@@ -643,19 +644,22 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
     @SuppressLint("NonConstantResourceId")
     @OnClick(R.id.ll_btc)
     public void btcClick(View view) {
-        MarketActivity.pageJump(getActivity(), btcStr, 1, "");
+//        MarketActivity.pageJump(getActivity(), btcStr, 1, "");
+        MarketActivity2.pageJump(getActivity(), btcStr, 1, "");
     }
 
     @SuppressLint("NonConstantResourceId")
     @OnClick(R.id.ll_btc1)
     public void btc1Click(View view) {
-        MarketActivity.pageJump(getActivity(), btcStr1, 1, "");
+//        MarketActivity.pageJump(getActivity(), btcStr1, 1, "");
+        MarketActivity2.pageJump(getActivity(), btcStr1, 1, "");
     }
 
     @SuppressLint("NonConstantResourceId")
     @OnClick(R.id.ll_btc2)
     public void btc2Click(View view) {
-        MarketActivity.pageJump(getActivity(), btcStr2, 1, "");
+//        MarketActivity.pageJump(getActivity(), btcStr2, 1, "");
+        MarketActivity2.pageJump(getActivity(), btcStr2, 1, "");
     }
 
 
