@@ -692,10 +692,12 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
                 startActivity(intent);
                 break;
             case R.id.re_otc:
-                PageJumpUtil.pageJump(getActivity(), LegalMoneyActivity.class);
-                break;
             case R.id.ll_otc:
-                PageJumpUtil.pageJump(getActivity(), LegalMoneyActivity.class);
+                if (isLogin()) {
+                    PageJumpUtil.pageJump(getActivity(), LegalMoneyActivity.class);
+                } else {
+                    PageJumpUtil.pageJump(getActivity(), LoginActivity.class);
+                }
                 break;
             case R.id.ll_zaixiankefu:
                 if (!TextUtils.isEmpty(chatTopic) && !TextUtils.isEmpty(userName)) {

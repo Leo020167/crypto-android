@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Цветочная плата FGEC:</string>
+    <string name="shequzongjianglitfu">Общее вознаграждение сообщества (FGEC)</string>
+    <string name="jianglitfu">Стимул (FGEC)</string>
+    <string name="fanyongusdt">Комиссия по возвращению (FGEC)</string>
+    <string name="xiaohaotoken">Потребление FGEC:</string>
+    <string name="token">FGEC</string>
+    <string name="zongzichantoken">Общие активы (FGEC)</string>
+    <string name="chakanruhehuoqutoken">Посмотрите, как получить FGEC</string>
+    <string name="shuliangtoken">Количество (FGEC</string>
+    <string name="zhiyashengyi">Defi особая зона</string>
+    <string name="meirilixi">Годовой доход</string>
+    <string name="huode">Получите FGEC</string>
+
+</resources>

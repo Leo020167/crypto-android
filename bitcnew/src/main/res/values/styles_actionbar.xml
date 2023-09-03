@@ -15,7 +15,7 @@
 
     <!-- 淘金路主题样式1 -->
     <style name="Theme.Taojinroad.ActionBar.Light.NoTranslucent" parent="Theme.Taojinroad.ActionBar.Light">
-        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsTranslucent">true</item>
         <item name="popupMenuStyle">@style/myPopopStyle</item>
         <!-- Widget.AppCompat.Light.ActionBar.Solid -->
         <!-- <item user_name="android:titleTextStyle">@style/ActionBar.Title.Taojinroad</item> -->
@@ -202,7 +202,7 @@
     <!-- Base application theme. -->
 
     <style name="AppThemeToolBar.Light.NoTranslucent" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsTranslucent">true</item>
         <item name="popupMenuStyle">@style/myPopopStyle</item>
     </style>
 
@@ -221,7 +221,7 @@
         <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
         <item name="vpiTabPageIndicatorStyle">@style/MyArticleTabPageIndicator_home</item>
         <!--首页不能透明 否则5.0的机子会有问题-->
-        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsTranslucent">true</item>
     </style>
 
     <style name="AppThemeToolBar.Translucent" parent="Theme.AppCompat.Light.NoActionBar">

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">꽃 수수료 FGEC :</string>
+    <string name="shequzongjianglitfu">총 커뮤니티 보상 (FGEC)</string>
+    <string name="jianglitfu">인센티브 (FGEC)</string>
+    <string name="fanyongusdt">반품위원회 (FGEC)</string>
+    <string name="xiaohaotoken">FGEC 소비 :</string>
+    <string name="token">FGEC</string>
+    <string name="zongzichantoken">총 자산 (FGEC)</string>
+    <string name="chakanruhehuoqutoken">FGEC를 얻는 방법을보십시오</string>
+    <string name="shuliangtoken">수량 (FGEC</string>
+    <string name="zhiyashengyi">Defi 특수 지역</string>
+    <string name="meirilixi">연간 소득</string>
+    <string name="huode">FGEC 얻으십시오</string>
+
+</resources>

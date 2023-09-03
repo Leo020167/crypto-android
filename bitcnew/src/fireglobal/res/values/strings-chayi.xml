@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Flower Fee FGEC:</string>
+    <string name="shequzongjianglitfu">Total Community Rewards (FGEC)</string>
+    <string name="jianglitfu">Incentive (FGEC)</string>
+    <string name="fanyongusdt">Return commission (FGEC)</string>
+    <string name="xiaohaotoken">FGEC consumption:</string>
+    <string name="token">FGEC</string>
+    <string name="zongzichantoken">Total Assets (FGEC)</string>
+    <string name="chakanruhehuoqutoken">See how to get FGEC</string>
+    <string name="shuliangtoken">Quantity (FGEC</string>
+    <string name="zhiyashengyi">Defi special area</string>
+    <string name="meirilixi">Annualized income</string>
+    <string name="huode">Get FGEC</string>
+    <string name="moren_quhao">+86</string>
+    <string name="moren_diqu">中国大陆</string>
+</resources>

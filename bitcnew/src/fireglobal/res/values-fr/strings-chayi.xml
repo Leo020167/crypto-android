@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">FREE FLOWS FGEC:</string>
+    <string name="shequzongjianglitfu">Total des récompenses communautaires (FGEC)</string>
+    <string name="jianglitfu">Incitatif (FGEC)</string>
+    <string name="fanyongusdt">Commission de retour (FGEC)</string>
+    <string name="xiaohaotoken">Consommation FGEC:</string>
+    <string name="token">FGEC</string>
+    <string name="zongzichantoken">Actif total (FGEC)</string>
+    <string name="chakanruhehuoqutoken">Voir comment obtenir FGEC</string>
+    <string name="shuliangtoken">Quantité (FGEC</string>
+    <string name="zhiyashengyi">Defi zone spéciale</string>
+    <string name="meirilixi">Revenu annualisé</string>
+    <string name="huode">Se FGEC du feu</string>
+
+</resources>
