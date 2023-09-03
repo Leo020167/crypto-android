@@ -101,6 +101,14 @@ android {
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
+        fireglobal {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"tongxuncheng.cn"'
+            buildConfigField 'String', 'SOCKET_HOST', '"api.tongxuncheng.cn"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
+
+            buildConfigField 'int', 'SOCKET_PORT', '1818'
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
+        }
     }
 
     sourceSets {

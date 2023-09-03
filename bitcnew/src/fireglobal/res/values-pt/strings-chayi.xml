@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">FGEC de tarifa de flores:</string>
+    <string name="shequzongjianglitfu">Recompensas de la comunidad total (FGEC)</string>
+    <string name="jianglitfu">Incentivo (FGEC)</string>
+    <string name="fanyongusdt">Comisión de regreso (FGEC)</string>
+    <string name="xiaohaotoken">Consumo de FGEC:</string>
+    <string name="token">FGEC</string>
+    <string name="zongzichantoken">Activos totales (FGEC)</string>
+    <string name="chakanruhehuoqutoken">Vea cómo obtener FGEC</string>
+    <string name="shuliangtoken">Cantidad (FGEC</string>
+    <string name="zhiyashengyi">Defi área especial</string>
+    <string name="meirilixi">Renda anualizada</string>
+    <string name="huode">Obtener FGEC</string>
+
+</resources>
