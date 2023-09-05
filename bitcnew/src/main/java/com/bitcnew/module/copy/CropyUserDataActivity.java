@@ -116,27 +116,27 @@ public class CropyUserDataActivity extends TJRBaseToolBarSwipeBackActivity imple
                 tvAssets.setSelected(false);
                 tvMarket.setSelected(false);
 
-                tvCost.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-                tvAssets.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-                tvMarket.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+                tvCost.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+                tvAssets.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+                tvMarket.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
                 break;
             case 1:
                 tvCost.setSelected(false);
                 tvAssets.setSelected(true);
                 tvMarket.setSelected(false);
 
-                tvCost.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-                tvAssets.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-                tvMarket.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+                tvCost.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+                tvAssets.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+                tvMarket.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
                 break;
             case 2:
                 tvCost.setSelected(false);
                 tvAssets.setSelected(false);
                 tvMarket.setSelected(true);
 
-                tvCost.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-                tvAssets.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-                tvMarket.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
+                tvCost.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+                tvAssets.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+                tvMarket.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
                 break;
         }
     }

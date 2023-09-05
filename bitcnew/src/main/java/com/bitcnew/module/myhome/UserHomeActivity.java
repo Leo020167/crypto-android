@@ -663,25 +663,25 @@ public class UserHomeActivity extends TJRBaseToolBarSwipeBackActivity implements
                 tvTab1.setSelected(true);
                 tvTab2.setSelected(false);
                 tvTab3.setSelected(false);
-                tvTab1.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-                tvTab2.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-                tvTab3.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+                tvTab1.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+                tvTab2.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+                tvTab3.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
                 break;
             case 1:
                 tvTab1.setSelected(false);
                 tvTab2.setSelected(true);
                 tvTab3.setSelected(false);
-                tvTab1.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-                tvTab2.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-                tvTab3.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+                tvTab1.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+                tvTab2.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+                tvTab3.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
                 break;
             case 2:
                 tvTab1.setSelected(false);
                 tvTab2.setSelected(false);
                 tvTab3.setSelected(true);
-                tvTab1.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-                tvTab2.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-                tvTab3.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
+                tvTab1.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+                tvTab2.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+                tvTab3.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
                 break;
         }
     }

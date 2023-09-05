@@ -228,7 +228,7 @@ public class LegalOrderInfoActivity extends TJRBaseActionBarSwipeBackObserverAct
         badgeChat.setBadgeBackgroundColor(Color.parseColor("#CCFF0000"));
         badgeChat.setBadgeMargin(15, 10);
         badgeChat.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
-        badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+        badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
 
         tjrImageLoaderUtil = new TjrImageLoaderUtil();
 

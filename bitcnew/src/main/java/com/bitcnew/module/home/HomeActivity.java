@@ -292,11 +292,11 @@ public class HomeActivity extends TJRBaseToolBarActivity implements View.OnClick
         badgeAccount = new BadgeView(HomeActivity.this, llMine);
         badgeAccount.setBadgeMargin(0, 10);
         badgeAccount.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
-        badgeAccount.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+        badgeAccount.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
         badgeCommunity = new BadgeView(HomeActivity.this, llHome);
         badgeCommunity.setBadgeMargin(0, 10);
         badgeCommunity.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
-        badgeCommunity.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+        badgeCommunity.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
         mHandler.postDelayed(new Runnable() {//检查是否开启通知权限
             @Override
             public void run() {

@@ -248,7 +248,7 @@ public class CommPopupWindow {
 				textView = new TextView(context);
 				textView.setPadding(textLeftAndRight, textTopAndBottom, textLeftAndRight, textTopAndBottom);
 				textView.setTextColor(textColor);
-				textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, itemTextSize);
+				textView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, itemTextSize);
 				if (tvlp == null) tvlp = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT);
 				textView.setLayoutParams(tvlp);
 				textView.setGravity(textGravity);

@@ -299,8 +299,8 @@ public class HomeFragmentBak extends UserBaseImmersionBarFragment implements Vie
             case 0:
                 tvCopyOrder.setSelected(true);
                 tvPosition.setSelected(false);
-                tvCopyOrder.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
-                tvPosition.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+                tvCopyOrder.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 20);
+                tvPosition.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
                 llCopyOrder.setVisibility(View.VISIBLE);
                 llHoldPostion.setVisibility(View.GONE);
                 llHide.setVisibility(View.INVISIBLE);
@@ -308,8 +308,8 @@ public class HomeFragmentBak extends UserBaseImmersionBarFragment implements Vie
             case 1:
                 tvCopyOrder.setSelected(false);
                 tvPosition.setSelected(true);
-                tvCopyOrder.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-                tvPosition.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
+                tvCopyOrder.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+                tvPosition.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 20);
                 llCopyOrder.setVisibility(View.GONE);
                 llHoldPostion.setVisibility(View.VISIBLE);
                 llHide.setVisibility(View.VISIBLE);

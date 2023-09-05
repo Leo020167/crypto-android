@@ -253,13 +253,13 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
         badgePrivateChat = new BadgeView(getActivity(), tvFeedback);
         badgePrivateChat.setBadgeMargin(0, 0);
         badgePrivateChat.setBadgePosition(BadgeView.POSITION_VERTICAL_RIGHT);
-        badgePrivateChat.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+        badgePrivateChat.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
 
         badgeChat = new BadgeView(getActivity(), ivLegal);
         badgeChat.setBadgeBackgroundColor(Color.parseColor("#CCFF0000"));
         badgeChat.setBadgeMargin(15, 10);
         badgeChat.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
-        badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+        badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
 
         setUserInfo(getUser());//先初始化
         setPrivateChatNewsCount();

@@ -114,7 +114,7 @@
         <!--app:bsb_show_section_mark="true"-->
         <!--app:bsb_show_section_text="true"-->
         <!--app:bsb_show_thumb_text="true"-->
-        <!--app:bsb_thumb_text_size="18sp"-->
+        <!--app:bsb_thumb_text_size="18dp"-->
         <!--app:bsb_touch_to_seek="true"-->
 
         <!--/>-->

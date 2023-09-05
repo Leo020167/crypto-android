@@ -37,7 +37,7 @@
             android:scrollbars="vertical"
             android:text="--"
             android:textColor="@color/black"
-            android:textSize="20sp"/>
+            android:textSize="20dp"/>
         <EditText
             android:paddingTop="5dp"
             android:id="@+id/tvEdit"
@@ -50,7 +50,7 @@
             android:scrollbars="vertical"
             android:hint="@string/qingshuruyonghumingyiliugezi"
             android:textColor="@color/black"
-            android:textSize="16sp"/>
+            android:textSize="16dp"/>
 
         <!-- OK按钮 -->
 
@@ -73,7 +73,7 @@
                 android:paddingRight="15dip"
                 android:text="@string/quxiao"
                 android:textColor="@color/c005a87"
-                android:textSize="16sp"/>
+                android:textSize="16dp"/>
 
             <TextView
                 android:id="@+id/btnOk"
@@ -86,7 +86,7 @@
                 android:paddingRight="15dip"
                 android:text="@string/queding"
                 android:textColor="@color/c005a87"
-                android:textSize="16sp"/>
+                android:textSize="16dp"/>
         </LinearLayout>
     </LinearLayout>
 

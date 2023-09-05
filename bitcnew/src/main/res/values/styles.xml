@@ -201,7 +201,7 @@
         <item name="android:paddingBottom">5dp</item>
         <item name="android:background">@drawable/blue_follow</item>
         <item name="android:textColor">@color/beebar_status_white_969696</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">14dp</item>
     </style>
 
     <style name="perval_home_ic_style">
@@ -424,11 +424,11 @@
         <item name="android:paddingLeft">10dp</item>
         <item name="android:paddingRight">10dp</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">14dp</item>
     </style>
 
     <style name="tvbg_big_default">
-        <item name="android:textSize">17sp</item>
+        <item name="android:textSize">17dp</item>
         <item name="android:paddingTop">6dp</item>
         <item name="android:paddingBottom">6dp</item>
         <item name="android:gravity">center</item>

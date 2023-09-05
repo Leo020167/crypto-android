@@ -247,7 +247,7 @@ public class CircleInfoActivity extends TJRBaseToolBarSwipeBackActivity implemen
 
         badgeApply = new BadgeView(this, tvApplyText);
         badgeApply.setBadgeMargin(0, 0);
-        badgeApply.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+        badgeApply.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
 
         tvMenu.setTextColor(Color.WHITE);
     }

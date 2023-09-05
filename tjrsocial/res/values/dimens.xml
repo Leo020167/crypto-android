@@ -5,56 +5,56 @@
 
 
     <!-- 文本content字体大小设置 (针对整个文本) -->
-    <dimen name="text_size_content_h1">16sp</dimen>
-    <dimen name="text_size_content_h2">15sp</dimen>
-    <dimen name="text_size_content_h3">14sp</dimen>
-    <dimen name="text_size_content_h4">13sp</dimen>
-    <dimen name="text_size_content_h5">12sp</dimen>
-    <dimen name="text_size_content_h6">11sp</dimen>
+    <dimen name="text_size_content_h1">16dp</dimen>
+    <dimen name="text_size_content_h2">15dp</dimen>
+    <dimen name="text_size_content_h3">14dp</dimen>
+    <dimen name="text_size_content_h4">13dp</dimen>
+    <dimen name="text_size_content_h5">12dp</dimen>
+    <dimen name="text_size_content_h6">11dp</dimen>
 
     <!-- item文本content字体大小设置 (针对item文本下) -->
-    <dimen name="text_size_content_item_h1">16sp</dimen>
-    <dimen name="text_size_content_item_h2">15sp</dimen>
-    <dimen name="text_size_content_item_h3">14sp</dimen>
-    <dimen name="text_size_content_item_h4">13sp</dimen>
-    <dimen name="text_size_content_item_h5">12sp</dimen>
-    <dimen name="text_size_content_item_h6">11sp</dimen>
+    <dimen name="text_size_content_item_h1">16dp</dimen>
+    <dimen name="text_size_content_item_h2">15dp</dimen>
+    <dimen name="text_size_content_item_h3">14dp</dimen>
+    <dimen name="text_size_content_item_h4">13dp</dimen>
+    <dimen name="text_size_content_item_h5">12dp</dimen>
+    <dimen name="text_size_content_item_h6">11dp</dimen>
 
     <!-- 标题字体大小设置 -->
-    <dimen name="text_size_title_h1">16sp</dimen>
-    <dimen name="text_size_title_h2">15sp</dimen>
-    <dimen name="text_size_title_h3">13sp</dimen>
-    <dimen name="text_size_title_h4">12sp</dimen>
-    <dimen name="text_size_title_h5">11sp</dimen>
-    <dimen name="text_size_title_h6">10sp</dimen>
+    <dimen name="text_size_title_h1">16dp</dimen>
+    <dimen name="text_size_title_h2">15dp</dimen>
+    <dimen name="text_size_title_h3">13dp</dimen>
+    <dimen name="text_size_title_h4">12dp</dimen>
+    <dimen name="text_size_title_h5">11dp</dimen>
+    <dimen name="text_size_title_h6">10dp</dimen>
 
     <!-- 按钮button字体大小设置 -->
-    <dimen name="text_size_button_h1">16sp</dimen>
-    <dimen name="text_size_button_h2">15sp</dimen>
-    <dimen name="text_size_button_h3">14sp</dimen>
-    <dimen name="text_size_button_h4">13sp</dimen>
-    <dimen name="text_size_button_h5">12sp</dimen>
-    <dimen name="text_size_button_h6">11sp</dimen>
-    <dimen name="text_size_button_max">18sp</dimen>
+    <dimen name="text_size_button_h1">16dp</dimen>
+    <dimen name="text_size_button_h2">15dp</dimen>
+    <dimen name="text_size_button_h3">14dp</dimen>
+    <dimen name="text_size_button_h4">13dp</dimen>
+    <dimen name="text_size_button_h5">12dp</dimen>
+    <dimen name="text_size_button_h6">11dp</dimen>
+    <dimen name="text_size_button_max">18dp</dimen>
 
     <!-- item标题字体大小设置 (针对item标题字体) -->
-    <dimen name="text_size_title_item_h1">16sp</dimen>
-    <dimen name="text_size_title_item_h2">15sp</dimen>
-    <dimen name="text_size_title_item_h3">13sp</dimen>
-    <dimen name="text_size_title_item_h4">12sp</dimen>
-    <dimen name="text_size_title_item_h5">11sp</dimen>
-    <dimen name="text_size_title_item_h6">10sp</dimen>
+    <dimen name="text_size_title_item_h1">16dp</dimen>
+    <dimen name="text_size_title_item_h2">15dp</dimen>
+    <dimen name="text_size_title_item_h3">13dp</dimen>
+    <dimen name="text_size_title_item_h4">12dp</dimen>
+    <dimen name="text_size_title_item_h5">11dp</dimen>
+    <dimen name="text_size_title_item_h6">10dp</dimen>
 
     <!-- 导航menu字体大小设置 -->
-    <dimen name="text_size_menu_h1">16sp</dimen>
-    <dimen name="text_size_menu_h2">15sp</dimen>
-    <dimen name="text_size_menu_h3">13sp</dimen>
-    <dimen name="text_size_menu_h4">12sp</dimen>
-    <dimen name="text_size_menu_h5">11sp</dimen>
-    <dimen name="text_size_menu_h6">10sp</dimen>
+    <dimen name="text_size_menu_h1">16dp</dimen>
+    <dimen name="text_size_menu_h2">15dp</dimen>
+    <dimen name="text_size_menu_h3">13dp</dimen>
+    <dimen name="text_size_menu_h4">12dp</dimen>
+    <dimen name="text_size_menu_h5">11dp</dimen>
+    <dimen name="text_size_menu_h6">10dp</dimen>
 
     <!-- 上证指数 -->
-    <dimen name="shangzheng_currentprice">30sp</dimen>
+    <dimen name="shangzheng_currentprice">30dp</dimen>
     <!-- 上证指数细节的行距 -->
     <dimen name="shangzheng_hight">10dip</dimen>
     <dimen name="shangzheng_left">10dip</dimen>

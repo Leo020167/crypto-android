@@ -12,7 +12,7 @@
         android:layout_height="50dp"
         android:text="@string/fengxiantishishu"
         android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textSize="16dp"
         android:textStyle="bold"
         android:gravity="center"
         android:background="@color/redcolor2"
@@ -33,7 +33,7 @@
         android:layout_height="50dp"
         android:text="@string/woyiyuedubingtongyi"
         android:textColor="@color/redcolor2"
-        android:textSize="16sp"
+        android:textSize="16dp"
         android:gravity="center"
         />
 </LinearLayout>

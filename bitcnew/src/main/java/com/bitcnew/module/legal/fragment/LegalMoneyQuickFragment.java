@@ -254,7 +254,7 @@ public class LegalMoneyQuickFragment extends UserBaseFragment implements View.On
         badgeChat.setBadgeBackgroundColor(Color.parseColor("#CCFF0000"));
         badgeChat.setBadgeMargin(15, 10);
         badgeChat.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
-        badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+        badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
         showPrivateChatNewsCount();
 
         getOtcConfig();
@@ -620,8 +620,8 @@ public class LegalMoneyQuickFragment extends UserBaseFragment implements View.On
         if (type == 0) {
             tvBuy.setSelected(true);
             tvSell.setSelected(false);
-            tvBuy.setTextSize(TypedValue.COMPLEX_UNIT_SP, 26);
-            tvSell.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+            tvBuy.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 26);
+            tvSell.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
             tvOrientationText.setText(getResources().getString(R.string.goumaishuliang));
             tvSubmit.setText(getResources().getString(R.string.lingshouxufeigoumai1));
             llTransfer.setVisibility(View.GONE);
@@ -631,8 +631,8 @@ public class LegalMoneyQuickFragment extends UserBaseFragment implements View.On
         } else {
             tvBuy.setSelected(false);
             tvSell.setSelected(true);
-            tvBuy.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-            tvSell.setTextSize(TypedValue.COMPLEX_UNIT_SP, 26);
+            tvBuy.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+            tvSell.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 26);
             tvOrientationText.setText(getResources().getString(R.string.chushoushuliang));
             tvSubmit.setText(getResources().getString(R.string.lingshouxufeigoumai2));
             llTransfer.setVisibility(View.VISIBLE);

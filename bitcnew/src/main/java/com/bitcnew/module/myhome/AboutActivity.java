@@ -91,7 +91,7 @@ public class AboutActivity extends TJRBaseToolBarSwipeBackActivity {
 //                @Override
 //                public void onClick(View v) {
 //                    Bundle bundle = new Bundle();
-//                    String url = TjrBaseApi.mApiBeebarUri.uri()+"/protocol/bbs_protocol.jsp";
+//                    String url = TjrBaseApi.mApiBeebarUri.uri()+"/protocol/bbs_protocol.jdp";
 //                    bundle.putString(CommonConst.URLS,url);
 //                    PageJumpUtil.pageJumpToData(AuthenticationActivity.this, CommonWebViewActivity.class, bundle);
 //                }

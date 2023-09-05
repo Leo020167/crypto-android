@@ -83,7 +83,7 @@ public class ChatHomeAdapter extends BaseImageLoaderRecycleAdapter<ChatHomeEntit
             tvlatestMsg = (TextView) view.findViewById(R.id.tvlatestMsg);
             tvTime = (TextView) view.findViewById(R.id.tvTime);
             bvNewsNum = new BadgeView(context, tvName);
-            bvNewsNum.setTextSize(TypedValue.COMPLEX_UNIT_SP, 9);
+            bvNewsNum.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 9);
             bvNewsNum.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
             ll2ChatRoom = (LinearLayout) view.findViewById(R.id.ll2ChatRoom);
         }

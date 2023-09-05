@@ -61,7 +61,7 @@ class BubbleUtils {
     }
 
     static int sp2px(int sp) {
-        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, sp,
+        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sp,
                 Resources.getSystem().getDisplayMetrics());
     }
 }

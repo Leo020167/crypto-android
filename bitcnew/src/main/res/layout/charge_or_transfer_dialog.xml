@@ -37,7 +37,7 @@
             android:scrollbars="vertical"
             android:text="--"
             android:textColor="@color/black"
-            android:textSize="20sp"/>
+            android:textSize="20dp"/>
         <!-- 内容 -->
 
         <TextView
@@ -51,7 +51,7 @@
             android:scrollbars="vertical"
             android:text="----"
             android:textColor="@color/black"
-            android:textSize="16sp"/>
+            android:textSize="16dp"/>
         <!-- OK按钮 -->
 
         <LinearLayout
@@ -72,7 +72,7 @@
                 android:paddingRight="15dip"
                 android:text="@string/quxiao"
                 android:textColor="@color/c005a87"
-                android:textSize="16sp"/>
+                android:textSize="16dp"/>
 
             <TextView
                 android:id="@+id/btnGoRecharge"
@@ -85,7 +85,7 @@
                 android:paddingRight="15dip"
                 android:text="@string/qugoumai"
                 android:textColor="@color/c005a87"
-                android:textSize="16sp"/>
+                android:textSize="16dp"/>
 
             <TextView
                 android:id="@+id/btnGoTransfer"
@@ -98,7 +98,7 @@
                 android:paddingRight="15dip"
                 android:text="@string/quhuazhuan"
                 android:textColor="@color/c005a87"
-                android:textSize="16sp"/>
+                android:textSize="16dp"/>
         </LinearLayout>
     </LinearLayout>
 

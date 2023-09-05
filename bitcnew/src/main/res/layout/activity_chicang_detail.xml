@@ -25,7 +25,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:textStyle="bold"/>
         <ImageView
             android:layout_width="wrap_content"
@@ -185,7 +185,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="@drawable/selector_rect_solid_corner0_ff8f01"
-                android:textSize="16sp"
+                android:textSize="16dp"
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:text="@string/shezhizhiyingzhisun"

@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:textColor="@color/c333333"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:text="@string/gendanleixing"
             android:layout_marginStart="10dp" />
     </LinearLayout>
@@ -40,7 +40,7 @@
             android:layout_weight="1"
             android:gravity="left"
             android:textColor="@color/c666666"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:text="@string/yinglifencheng"
              />
         <TextView
@@ -50,7 +50,7 @@
             android:layout_weight="1"
             android:gravity="right"
             android:textColor="@color/c666666"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:text="@string/kuisunbutie"
             />
     </LinearLayout>
@@ -67,7 +67,7 @@
             android:layout_weight="1"
             android:gravity="left"
             android:textColor="@color/c666666"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:text="@string/zuigaobeishu"
             />
         <TextView
@@ -77,7 +77,7 @@
             android:layout_weight="1"
             android:gravity="right"
             android:textColor="@color/c666666"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:text="@string/xiaohaotoken"
             />
     </LinearLayout>
@@ -91,7 +91,7 @@
             android:layout_weight="1"
             android:gravity="left"
             android:textColor="@color/c666666"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:text="@string/zuidijine"
             />
 
@@ -102,7 +102,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textColor="@color/c666666"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:text="@string/daoqiri"
             />
         <TextView
@@ -111,7 +111,7 @@
             android:layout_weight="1"
             android:gravity="right"
             android:textColor="@color/c666666"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:text="@string/shijian"
             />
     </LinearLayout>
@@ -126,7 +126,7 @@
             android:layout_weight="1"
             android:gravity="left"
             android:textColor="@color/c333333"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:text="1000USDT"
             />
         <TextView
@@ -136,7 +136,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textColor="@color/c333333"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:text="2021.11.28"
             />
         <TextView
@@ -146,7 +146,7 @@
             android:layout_weight="1"
             android:gravity="right"
             android:textColor="@color/c333333"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:text="一个月"
             />
 

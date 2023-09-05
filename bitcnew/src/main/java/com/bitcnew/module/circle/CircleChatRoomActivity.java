@@ -574,7 +574,7 @@ public class CircleChatRoomActivity extends TJRBaseActionBarSwipeBackObserverAct
 
         badgeViewMyNews = new BadgeView(this, llInfomation);
         badgeViewMyNews.setBadgeMargin(15, 15);
-        badgeViewMyNews.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+        badgeViewMyNews.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
 
 
         return home;

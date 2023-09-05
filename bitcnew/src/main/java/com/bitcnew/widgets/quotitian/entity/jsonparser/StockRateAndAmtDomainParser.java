@@ -13,7 +13,7 @@ public class StockRateAndAmtDomainParser extends AbstractParser<StockRateAndAmtD
         if (hasAndNotNull(json, "fdm")) stockdomain.fdm = json.getString("fdm");
         if (hasAndNotNull(json, "dm")) stockdomain.dm = json.getString("dm");
         if (hasAndNotNull(json, "jc")) stockdomain.jc = json.getString("jc");
-        if (hasNotNullAndIsDouble(json, "zrsp")) stockdomain.zrsp = json.getDouble("zrsp");
+        if (hasNotNullAndIsDouble(json, "zrdp")) stockdomain.zrsp = json.getDouble("zrdp");
         if (hasNotNullAndIsDouble(json, "jrkp")) stockdomain.jrkp = json.getDouble("jrkp");
         if (hasNotNullAndIsDouble(json, "zjcj")) stockdomain.zjcj = json.getDouble("zjcj");
         if (hasNotNullAndIsDouble(json, "cjsl")) stockdomain.cjsl = json.getDouble("cjsl");

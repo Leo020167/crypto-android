@@ -649,7 +649,7 @@ public class TradeLeverFragment2 extends UserBaseFragment implements View.OnClic
                 textSizeAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
 
                     public void onAnimationUpdate(ValueAnimator animation) {
-                        etPrice.setTextSize(TypedValue.COMPLEX_UNIT_SP, (Float) animation.getAnimatedValue());
+                        etPrice.setTextSize(TypedValue.COMPLEX_UNIT_DIP, (Float) animation.getAnimatedValue());
                     }
                 });
             }

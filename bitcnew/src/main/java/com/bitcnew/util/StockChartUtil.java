@@ -465,7 +465,7 @@ public class StockChartUtil {
 //    }
 
     public static float pxToSp(Resources res, float px) {
-        return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, px, res.getDisplayMetrics());
+        return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, px, res.getDisplayMetrics());
     }
 
     public static int getRateBg(Context context, double rate) {

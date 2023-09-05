@@ -5,47 +5,47 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="divierLineHeight">10dp</dimen>
     <!-- 字体大小,以後統一改成font_size_XXXXX,不要定其他名字,不好管理!!!!!!!! -->
-    <dimen name="font_size_6">6sp</dimen>
-    <dimen name="font_size_7">7sp</dimen>
-    <dimen name="font_size_8">8sp</dimen>
-    <dimen name="font_size_9">9sp</dimen>
-    <dimen name="font_size_10">10sp</dimen>
-    <dimen name="font_size_11">11sp</dimen>
-    <dimen name="font_size_12">12sp</dimen>
-    <dimen name="font_size_13">13sp</dimen>
-    <dimen name="font_size_14">14sp</dimen>
-    <dimen name="font_size_15">15sp</dimen>
-    <dimen name="font_size_16">16sp</dimen>
-    <dimen name="font_size_17">17sp</dimen>
-    <dimen name="font_size_18">18sp</dimen>
-    <dimen name="font_size_19">19sp</dimen>
-    <dimen name="font_size_20">20sp</dimen>
-    <dimen name="font_size_23">23sp</dimen>
-    <dimen name="font_size_24">24sp</dimen>
-    <dimen name="font_size_25">25sp</dimen>
-    <dimen name="font_size_26">26sp</dimen>
-    <dimen name="font_size_27">27sp</dimen>
-    <dimen name="font_size_21">21sp</dimen>
-    <dimen name="font_size_22">22sp</dimen>
-    <dimen name="text_size_24">24sp</dimen>
-    <dimen name="font_size_30">30sp</dimen>
-    <dimen name="font_size_28">28sp</dimen>
-    <dimen name="font_size_32">32sp</dimen>
-    <dimen name="font_size_35">35sp</dimen>
-    <dimen name="font_size_36">36sp</dimen>
-    <dimen name="font_size_38">38sp</dimen>
-    <dimen name="font_size_42">42sp</dimen>
-    <dimen name="font_size_34">34sp</dimen>
-    <dimen name="font_size_40">40sp</dimen>
-    <dimen name="font_size_47">47sp</dimen>
-    <dimen name="font_size_50">50sp</dimen>
-    <dimen name="font_size_80">80sp</dimen>
+    <dimen name="font_size_6">6dp</dimen>
+    <dimen name="font_size_7">7dp</dimen>
+    <dimen name="font_size_8">8dp</dimen>
+    <dimen name="font_size_9">9dp</dimen>
+    <dimen name="font_size_10">10dp</dimen>
+    <dimen name="font_size_11">11dp</dimen>
+    <dimen name="font_size_12">12dp</dimen>
+    <dimen name="font_size_13">13dp</dimen>
+    <dimen name="font_size_14">14dp</dimen>
+    <dimen name="font_size_15">15dp</dimen>
+    <dimen name="font_size_16">16dp</dimen>
+    <dimen name="font_size_17">17dp</dimen>
+    <dimen name="font_size_18">18dp</dimen>
+    <dimen name="font_size_19">19dp</dimen>
+    <dimen name="font_size_20">20dp</dimen>
+    <dimen name="font_size_23">23dp</dimen>
+    <dimen name="font_size_24">24dp</dimen>
+    <dimen name="font_size_25">25dp</dimen>
+    <dimen name="font_size_26">26dp</dimen>
+    <dimen name="font_size_27">27dp</dimen>
+    <dimen name="font_size_21">21dp</dimen>
+    <dimen name="font_size_22">22dp</dimen>
+    <dimen name="text_size_24">24dp</dimen>
+    <dimen name="font_size_30">30dp</dimen>
+    <dimen name="font_size_28">28dp</dimen>
+    <dimen name="font_size_32">32dp</dimen>
+    <dimen name="font_size_35">35dp</dimen>
+    <dimen name="font_size_36">36dp</dimen>
+    <dimen name="font_size_38">38dp</dimen>
+    <dimen name="font_size_42">42dp</dimen>
+    <dimen name="font_size_34">34dp</dimen>
+    <dimen name="font_size_40">40dp</dimen>
+    <dimen name="font_size_47">47dp</dimen>
+    <dimen name="font_size_50">50dp</dimen>
+    <dimen name="font_size_80">80dp</dimen>
     <dimen name="Top_right">10dip</dimen>
     <dimen name="Top_left">5dip</dimen>
     <dimen name="Topd_right">5dip</dimen>
     <dimen name="Top_top">13dip</dimen>
 
-    <dimen name="guide_text_size">25sp</dimen>
+    <dimen name="guide_text_size">25dp</dimen>
 
 
     <dimen name="guide_img_size">300dip</dimen>
@@ -65,16 +65,16 @@
     <dimen name="list_item_head_margin">8dip</dimen>
 
     <!-- listView item项   间距参数 -->
-    <dimen name="list_item_title_size">16sp</dimen>
-    <dimen name="list_item_content_size">14sp</dimen>
+    <dimen name="list_item_title_size">16dp</dimen>
+    <dimen name="list_item_content_size">14dp</dimen>
     <dimen name="text_linespacingextra_square_concern">3dip</dimen>
     <dimen name="square_concern_line_width">0.5dip</dimen>
-    <dimen name="homeTitleSize">16sp</dimen>
-    <dimen name="homeContentSize">7sp</dimen>
-    <dimen name="homeSourceSize">8sp</dimen>
-    <dimen name="homeNewCountSize">10sp</dimen>
-    <dimen name="actionBarTitleSize">18sp</dimen>
-    <dimen name="actionBarSubTitleSize">12sp</dimen>
+    <dimen name="homeTitleSize">16dp</dimen>
+    <dimen name="homeContentSize">7dp</dimen>
+    <dimen name="homeSourceSize">8dp</dimen>
+    <dimen name="homeNewCountSize">10dp</dimen>
+    <dimen name="actionBarTitleSize">18dp</dimen>
+    <dimen name="actionBarSubTitleSize">12dp</dimen>
     <!--这个有v19 v21布局也有-->
     <dimen name="actionBarSize">85dip</dimen>
     <dimen name="status_bar_height">0dp</dimen>
@@ -85,7 +85,7 @@
     <dimen name="homeTitlePaddingTop">16dip</dimen>
 
     <!--     <dimen user_name="homeCustomActionBarContentMarginTop">10dip</dimen> -->
-    <dimen name="font_size_93">93sp</dimen>
+    <dimen name="font_size_93">93dp</dimen>
     <dimen name="msg_list_item_marginleft">8dip</dimen>
     <dimen name="stockMarginTop">3dip</dimen>
     <dimen name="cardElevation">1dip</dimen>
@@ -126,9 +126,9 @@
 
     <!--HomeCardSecondaryPageActivity  中的各种 ViewProvider 公用的-->
     <dimen name="home_road_secondary_page_item_padding">10dp</dimen>
-    <dimen name="home_road_secondary_page_title_sp">16sp</dimen>
-    <dimen name="home_road_secondary_page_content_sp">13sp</dimen>
-    <dimen name="home_road_secondary_page_time_sp">12sp</dimen>
+    <dimen name="home_road_secondary_page_title_dp">16dp</dimen>
+    <dimen name="home_road_secondary_page_content_dp">13dp</dimen>
+    <dimen name="home_road_secondary_page_time_dp">12dp</dimen>
     <dimen name="home_road_secondary_page_time_marginleft">20dp</dimen>
 
     <!--优品黄金-->
@@ -148,7 +148,7 @@
 
     <dimen name="dp6">6dp</dimen>
     <dimen name="dp80">80dp</dimen>
-    <dimen name="index_ui_text_size">12sp</dimen>
+    <dimen name="index_ui_text_size">12dp</dimen>
 
 
 </resources>

@@ -132,7 +132,7 @@ public class WithDrawInfoActivity extends TJRBaseActionBarSwipeBackObserverActiv
         badgeChat = new BadgeView(this, llChat);
         badgeChat.setBadgeMargin(0, 0);
         badgeChat.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
-        badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+        badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
 
         startTradeCashOrderDetail();
 

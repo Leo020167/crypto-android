@@ -87,7 +87,7 @@ public class SwipeCaptchaView2 extends AppCompatImageView {
 
     private void init(Context context, AttributeSet attrs, int defStyleAttr) {
         int defaultSize = (int) TypedValue.applyDimension(
-                TypedValue.COMPLEX_UNIT_SP, 16, getResources().getDisplayMetrics());
+                TypedValue.COMPLEX_UNIT_DIP, 16, getResources().getDisplayMetrics());
         mCaptchaHeight = defaultSize;
         mCaptchaWidth = defaultSize;
         mMatchDeviation = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 3, getResources().getDisplayMetrics());

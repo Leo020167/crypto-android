@@ -23,10 +23,10 @@
                 android:layout_width="200dip"
                 android:layout_height="match_parent"
                 app:centerTextColor="#000000"
-                app:centerTextSize="18sp"
+                app:centerTextSize="18dp"
                 app:circleWidth="40dp"
                 app:dataTextColor="#ffffff"
-                app:dataTextSize="7sp" />
+                app:dataTextSize="7dp" />
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/rvPieChartList"

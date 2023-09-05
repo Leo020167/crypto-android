@@ -62,7 +62,7 @@
             android:scrollbars="vertical"
             android:text="@string/faxianxinbanben"
             android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textSize="16dp" />
         <!-- OK按钮 -->
 
         <View style="@style/dividerLine_horizontal" />
@@ -80,7 +80,7 @@
                 android:text="@string/shaohouzaishuo"
                 android:background="@drawable/selector_dialog_left_btn_bg"
                 android:textColor="@color/c6175ae"
-                android:textSize="16sp" />
+                android:textSize="16dp" />
 
             <View
                 style="@style/dividerLine_vertical" />
@@ -94,7 +94,7 @@
                 android:gravity="center"
                 android:text="@string/lijishengji"
                 android:textColor="@color/cff8f01"
-                android:textSize="16sp" />
+                android:textSize="16dp" />
         </LinearLayout>
     </LinearLayout>
 

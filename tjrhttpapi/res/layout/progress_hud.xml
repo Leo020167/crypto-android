@@ -23,7 +23,7 @@
 <!--         android:layout_height="wrap_content" -->
 <!--         android:layout_marginLeft="8dip" -->
 <!--         android:text="" -->
-<!--         android:textSize="14sp" -->
+<!--         android:textSize="14dp" -->
 <!--         android:textColor="#FFFFFF" /> -->
 
 </LinearLayout>

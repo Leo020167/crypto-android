@@ -12,7 +12,7 @@
         android:text="@string/tishi"
         android:paddingTop="20dp"
         android:textColor="@color/c333333"
-        android:textSize="16sp"
+        android:textSize="16dp"
         android:textStyle="bold"
         android:gravity="center"
         />
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="是否保存设置？"
         android:textColor="@color/c333333"
-        android:textSize="14sp"
+        android:textSize="14dp"
 
         android:gravity="center"
         android:paddingVertical="25dp"
@@ -43,7 +43,7 @@
             android:layout_weight="1"
             android:text="@string/cancle"
             android:textColor="@color/c333333"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:gravity="center"
             />
         <View
@@ -57,7 +57,7 @@
             android:layout_weight="1"
             android:text="@string/queding"
             android:textColor="@color/c333333"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:gravity="center"
             />
     </LinearLayout>

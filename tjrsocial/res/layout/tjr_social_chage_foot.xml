@@ -18,6 +18,6 @@
         android:paddingTop="10dip"
         android:text="添加载项"
         android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="20dp" />
 
 </RelativeLayout>

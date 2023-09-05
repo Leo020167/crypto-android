@@ -118,7 +118,7 @@ public class UserHeadHorizontalList extends FrameLayout {
 
         TextView textView = new TextView(getContext());
         textView.setTextColor(ContextCompat.getColor(getContext(), R.color.cff8f01));
-        textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 10);
+        textView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 10);
         textView.setText(count + "+");
         textView.setGravity(Gravity.CENTER);
 

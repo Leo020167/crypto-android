@@ -276,8 +276,8 @@ public class TradeLeverActivity2 extends TJRBaseToolBarSwipeBackActivity impleme
             case 0:
                 tvEntrust.setSelected(false);
                 tvPosition.setSelected(true);
-                tvEntrust.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-                tvPosition.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
+                tvEntrust.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+                tvPosition.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
                 tvEntrust.setTextColor(ContextCompat.getColor(this, R.color.c666175ae));
                 tvPosition.setTextColor(ContextCompat.getColor(this, R.color.c6175ae));
                 showHold();
@@ -286,8 +286,8 @@ public class TradeLeverActivity2 extends TJRBaseToolBarSwipeBackActivity impleme
             case 1:
                 tvEntrust.setSelected(true);
                 tvPosition.setSelected(false);
-                tvEntrust.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-                tvPosition.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+                tvEntrust.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+                tvPosition.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
                 tvEntrust.setTextColor(ContextCompat.getColor(this, R.color.c6175ae));
                 tvPosition.setTextColor(ContextCompat.getColor(this, R.color.c666175ae));
                 showEntrust();//先还是调用一次，避免网络不好的时候看起来有问题

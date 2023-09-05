@@ -22,7 +22,7 @@
         android:paddingBottom="15dip"
         android:text="@string/jianjitupian"
         android:textColor="#fffafafa"
-        android:textSize="20.0sp" />
+        android:textSize="20.0dp" />
 
     <com.bitcnew.widgets.layout.SquareLayout
         android:id="@+id/square_ayout"

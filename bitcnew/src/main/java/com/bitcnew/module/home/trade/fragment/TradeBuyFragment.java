@@ -126,7 +126,7 @@ public class TradeBuyFragment extends UserBaseFragment implements View.OnClickLi
                 textSizeAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
 
                     public void onAnimationUpdate(ValueAnimator animation) {
-                        etPrice.setTextSize(TypedValue.COMPLEX_UNIT_SP, (Float) animation.getAnimatedValue());
+                        etPrice.setTextSize(TypedValue.COMPLEX_UNIT_DIP, (Float) animation.getAnimatedValue());
                     }
                 });
             }

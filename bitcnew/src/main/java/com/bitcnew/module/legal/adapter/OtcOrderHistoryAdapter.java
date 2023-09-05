@@ -93,7 +93,7 @@ public class OtcOrderHistoryAdapter extends BaseLoadMoreImageLoaderRecycleAdapte
             badgeChat.setBadgeBackgroundColor(Color.parseColor("#CCFF0000"));
             badgeChat.setBadgeMargin(15, 20);
             badgeChat.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
-            badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+            badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
         }
 
         public void setData(final OtcOrderHistory data, final int pos) {

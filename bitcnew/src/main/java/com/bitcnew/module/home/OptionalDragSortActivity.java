@@ -131,7 +131,7 @@ public class OptionalDragSortActivity extends TJRBaseToolBarSwipeBackActivity im
         });
 
         tvMenu.setText(getResources().getString(R.string.wancheng));
-        tvMenu.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
+        tvMenu.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 16);
         tvMenu.setTextColor(ContextCompat.getColor(this, R.color.c6175ae));
         tvMenu.setOnClickListener(this);
         tvDelete.setOnClickListener(this);

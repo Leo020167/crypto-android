@@ -91,7 +91,7 @@
                 android:paddingRight="18dip"
                 android:text="@string/quxiao"
                 android:textColor="@color/c005a87"
-                android:textSize="16sp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/btnOk"
@@ -104,7 +104,7 @@
                 android:paddingRight="18dip"
                 android:text="@string/queding"
                 android:textColor="@color/c005a87"
-                android:textSize="16sp" />
+                android:textSize="16dp" />
         </LinearLayout>
     </LinearLayout>
 

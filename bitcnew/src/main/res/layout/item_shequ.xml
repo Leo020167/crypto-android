@@ -18,7 +18,7 @@
             android:gravity="center"
             android:text=""
             android:textColor="#ff666666"
-            android:textSize="12sp" />
+            android:textSize="12dp" />
 
         <TextView
             android:id="@+id/txt_2"
@@ -28,7 +28,7 @@
             android:gravity="center"
             android:text=""
             android:textColor="#ff666666"
-            android:textSize="12sp" />
+            android:textSize="12dp" />
 
         <TextView
             android:id="@+id/txt_3"
@@ -38,7 +38,7 @@
             android:gravity="center"
             android:text=""
             android:textColor="#ff666666"
-            android:textSize="12sp" />
+            android:textSize="12dp" />
 
         <TextView
             android:id="@+id/txt_4"
@@ -48,7 +48,7 @@
             android:gravity="center"
             android:text=""
             android:textColor="#ff666666"
-            android:textSize="12sp" />
+            android:textSize="12dp" />
 
     </LinearLayout>
     <View

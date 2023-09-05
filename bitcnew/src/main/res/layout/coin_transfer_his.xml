@@ -83,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/zhuanchuzhanghaoxuanze"
                     android:textColor="@color/c1d3155"
-                    android:textSize="16sp" />
+                    android:textSize="16dp" />
 
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/rvTypeFrom"
@@ -101,7 +101,7 @@
                     android:layout_marginTop="20dip"
                     android:text="@string/zhuanruzhuanghuxuanze"
                     android:textColor="@color/c1d3155"
-                    android:textSize="16sp" />
+                    android:textSize="16dp" />
 
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/rvTypeTo"

@@ -603,7 +603,7 @@ public class ChatRoomActivity extends TJRBaseActionBarSwipeBackObserverActivity 
 //        llInfomation.setOnClickListener(this);
 //        badgeViewMyNews = new BadgeView(this, ivInfomation);
 //        badgeViewMyNews.setBadgeMargin(5, 5);
-//        badgeViewMyNews.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+//        badgeViewMyNews.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
 
 //        ivLiveRefresh = (LinearLayout) menu.findViewById(R.id.ivLiveRefresh);
 //        ivMinimize = (LinearLayout) menu.findViewById(R.id.ivMinimize);

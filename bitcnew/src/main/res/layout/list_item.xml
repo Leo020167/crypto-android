@@ -14,6 +14,6 @@
         android:layout_height="wrap_content"
         android:text="jyfyfuyf"
         android:gravity="center_vertical"
-        android:textSize="16sp"/>
+        android:textSize="16dp"/>
 
 </RelativeLayout>

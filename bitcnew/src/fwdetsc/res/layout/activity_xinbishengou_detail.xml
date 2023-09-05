@@ -53,7 +53,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:textColor="@color/c333333"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <TextView
                             android:id="@+id/txt_status"
@@ -64,7 +64,7 @@
                             android:paddingVertical="3dp"
                             android:text="@string/daikaishi"
                             android:textColor="@color/white"
-                            android:textSize="10sp" />
+                            android:textSize="10dp" />
                     </LinearLayout>
 
                     <com.bitcnew.module.richeditor.RichEditor
@@ -89,14 +89,14 @@
                 android:paddingVertical="5dp"
                 android:text="@string/yurezhong"
                 android:textColor="@color/white"
-                android:textSize="16sp" />
+                android:textSize="16dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:text="@string/jibenxinxi"
                 android:textColor="#ff333333"
-                android:textSize="15sp"
+                android:textSize="15dp"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -110,14 +110,14 @@
                     android:layout_height="wrap_content"
                     android:text="@string/jindu"
                     android:textColor="#ff999999"
-                    android:textSize="11sp"
+                    android:textSize="11dp"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/bencishengyushengouliang"
                     android:textColor="#ff999999"
-                    android:textSize="11sp"
+                    android:textSize="11dp"
                     />
             </LinearLayout>
             <ProgressBar
@@ -136,7 +136,7 @@
                 android:layout_marginTop="9dp"
                 android:text="0%"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 android:gravity="right"/>
             <TextView
                 android:layout_width="match_parent"
@@ -144,7 +144,7 @@
                 android:layout_marginTop="23dp"
                 android:text="@string/bencikeshengouzongliang"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_bencikeshengouzongliang"
@@ -154,7 +154,7 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 />
             <TextView
                 android:id="@+id/text_dancishengoufanwei_label"
@@ -163,7 +163,7 @@
                 android:layout_marginTop="11dp"
                 android:text="@string/dancishengoufanwei"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 android:visibility="gone"
                 tools:visibility="visible"
                 />
@@ -175,7 +175,7 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:visibility="gone"
                 tools:visibility="visible"
                 />
@@ -185,7 +185,7 @@
                 android:layout_marginTop="11dp"
                 android:text="@string/benciyishengou"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_benciyishengou"
@@ -195,7 +195,7 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 />
             <TextView
                 android:layout_width="match_parent"
@@ -203,7 +203,7 @@
                 android:layout_marginTop="11dp"
                 android:text="@string/bencishengyushengouliang"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_bencishengyushengouliang"
@@ -213,7 +213,7 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 />
             <TextView
                 android:id="@+id/txt_kaishi_time_tit"
@@ -222,7 +222,7 @@
                 android:layout_marginTop="11dp"
                 android:text="@string/julibencishengoukaishihaisheng"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_kaishi_time"
@@ -232,7 +232,7 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"/>
+                android:textSize="13dp"/>
             <TextView
                 android:id="@+id/txt_jieshu_time_tit"
                 android:layout_width="match_parent"
@@ -240,7 +240,7 @@
                 android:layout_marginTop="11dp"
                 android:text="@string/julibencishengoujieshuhaisheng"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_jieshu_time"
@@ -250,7 +250,7 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"/>
+                android:textSize="13dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -258,7 +258,7 @@
                 android:layout_marginTop="11dp"
                 android:text="@string/shengouzongliang"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_shengouzongliang"
@@ -268,14 +268,14 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"/>
+                android:textSize="13dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp"
                 android:text="@string/bencikaishishengoushijian"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_start_time"
@@ -285,14 +285,14 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"/>
+                android:textSize="13dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp"
                 android:text="@string/bencijieshushengoushijian"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_end_time"
@@ -302,14 +302,14 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"/>
+                android:textSize="13dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp"
                 android:text="@string/shangshijianyishijian"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_shangshijianyishijian"
@@ -319,14 +319,14 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"/>
+                android:textSize="13dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp"
                 android:text="@string/shangshijiecangshijian"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_shangshijiecangshijian"
@@ -336,14 +336,14 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"/>
+                android:textSize="13dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp"
                 android:text="@string/shengoujiage"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_duihuanbili"
@@ -353,7 +353,7 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"/>
+                android:textSize="13dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -361,7 +361,7 @@
                 android:layout_marginTop="11dp"
                 android:text="@string/woyishengou"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_woyishengou"
@@ -371,7 +371,7 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"/>
+                android:textSize="13dp"/>
 
 
             <TextView
@@ -380,7 +380,7 @@
                 android:layout_marginTop="11dp"
                 android:text="@string/zuixiaoshengouliang"
                 android:textColor="#ff999999"
-                android:textSize="11sp"
+                android:textSize="11dp"
                 />
             <TextView
                 android:id="@+id/txt_zuixiaoshengou"
@@ -390,7 +390,7 @@
                 android:paddingHorizontal="5dp"
                 android:text="0"
                 android:textColor="#ff333333"
-                android:textSize="13sp"/>
+                android:textSize="13dp"/>
 
 
             <TextView
@@ -399,7 +399,7 @@
                 android:layout_marginTop="40dp"
                 android:text="發起成員"
                 android:textColor="@color/c333333"
-                android:textSize="15sp" />
+                android:textSize="15dp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -418,7 +418,7 @@
                 android:layout_marginTop="15dp"
                 android:text="項目介紹"
                 android:textColor="@color/c333333"
-                android:textSize="15sp"/>
+                android:textSize="15dp"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -438,7 +438,7 @@
                 android:layout_marginTop="15dp"
                 android:text="幣種介紹"
                 android:textColor="@color/c333333"
-                android:textSize="15sp" />
+                android:textSize="15dp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -456,7 +456,7 @@
                 android:layout_marginTop="15dp"
                 android:text="項目參與條件"
                 android:textColor="@color/c333333"
-                android:textSize="15sp" />
+                android:textSize="15dp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -476,7 +476,7 @@
                 android:layout_marginTop="15dp"
                 android:text="風險提示"
                 android:textColor="@color/c333333"
-                android:textSize="15sp" />
+                android:textSize="15dp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -496,7 +496,7 @@
                 android:layout_marginTop="15dp"
                 android:text="申購說明"
                 android:textColor="@color/c333333"
-                android:textSize="15sp" />
+                android:textSize="15dp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"

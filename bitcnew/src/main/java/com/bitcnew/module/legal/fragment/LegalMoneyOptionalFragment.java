@@ -275,7 +275,7 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
         badgeChat.setBadgeBackgroundColor(Color.parseColor("#CCFF0000"));
         badgeChat.setBadgeMargin(15, 10);
         badgeChat.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
-        badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
+        badgeChat.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 11);
         showPrivateChatNewsCount();
         getOtcConfig();
         return view;
@@ -462,14 +462,14 @@ public class LegalMoneyOptionalFragment extends UserBaseFragment implements View
         if (type == 0) {
             tvBuy.setSelected(true);
             tvSell.setSelected(false);
-            tvBuy.setTextSize(TypedValue.COMPLEX_UNIT_SP, 26);
-            tvSell.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+            tvBuy.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 26);
+            tvSell.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
             optionalListAdapter.setBuySell("buy");
         } else {
             tvBuy.setSelected(false);
             tvSell.setSelected(true);
-            tvBuy.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-            tvSell.setTextSize(TypedValue.COMPLEX_UNIT_SP, 26);
+            tvBuy.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+            tvSell.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 26);
             optionalListAdapter.setBuySell("sell");
         }
 

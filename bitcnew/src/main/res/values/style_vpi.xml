@@ -52,7 +52,7 @@
         <!--<item user_name="android:background">@drawable/vpi__tab_indicator</item>-->
         <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
         <item name="android:textColor">@color/xml_home_sub_tab_text</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">14dp</item>
 
     </style>
     <style name="MyArticleTabPageIndicator" parent="Widget">
@@ -62,7 +62,7 @@
         <!--<item user_name="android:background">@drawable/vpi__tab_indicator</item>-->
         <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
         <item name="android:textColor">@color/xml_home_tab_text</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">14dp</item>
 
     </style>
 
@@ -85,7 +85,7 @@
         <!--<item user_name="android:background">@drawable/vpi__tab_indicator</item>-->
 
         <item name="android:textAppearance">@style/Wp.TextAppearance.TabPageIndicator</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">14dp</item>
     </style>
 
     <style name="TextAppearance.TabPageIndicator" parent="Widget">

@@ -72,7 +72,7 @@
             android:gravity="center"
             android:text="fullcode"
             android:textColor="@color/white"
-            android:textSize="12sp"
+            android:textSize="12dp"
             android:visibility="gone" />
     </LinearLayout>
 

@@ -114,7 +114,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:textColor="@color/black"
-                        android:textSize="16sp"
+                        android:textSize="16dp"
                         android:text="@string/tibierweima"
                         android:layout_gravity="center_vertical"/>
                     <ImageView
@@ -126,7 +126,7 @@
                         android:id="@+id/txt_erweima"
                         android:layout_width="130dp"
                         android:layout_height="130dp"
-                        android:textSize="14sp"
+                        android:textSize="14dp"
                         android:gravity="center"
                         android:text="@string/shangchuantibierweima"
                         android:textColor="@color/blue"/>

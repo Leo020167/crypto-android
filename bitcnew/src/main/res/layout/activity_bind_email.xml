@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:text="@string/ninmuqiandeyouxiangshi"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:textColor="@color/c666666"
             android:gravity="center"
             android:visibility="invisible"
@@ -33,7 +33,7 @@
             android:maxLines="1"
             android:hint="@string/qingshuruyouxiang"
             android:textColor="@color/black"
-            android:textSize="14sp"
+            android:textSize="14dp"
             android:paddingHorizontal="10dp"
             android:background="@drawable/border_gray_5dp_1line"/>
 
@@ -43,7 +43,7 @@
             android:layout_height="44dp"
             android:text="@string/fasongyanzhengma"
             android:gravity="center"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:layout_marginTop="45dp"
             android:textColor="@color/white"
             android:background="@drawable/border_orange_5dp"/>

@@ -81,7 +81,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/bizhong"
                     android:textColor="@color/c6175ae"
-                    android:textSize="16sp" />
+                    android:textSize="16dp" />
 
                 <EditText
                     android:id="@+id/etCoin"
@@ -102,7 +102,7 @@
                     android:layout_marginTop="20dip"
                     android:text="@string/dingdanzhuangtai"
                     android:textColor="@color/c6175ae"
-                    android:textSize="16sp" />
+                    android:textSize="16dp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
