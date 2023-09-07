@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.bitcnew.module.home.XinbishengouDetailActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="32dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_tu"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginRight="18dp"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingBottom="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/c333333"
+                            android:textSize="16dp"/>
+
+                        <TextView
+                            android:id="@+id/txt_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/border_status_0"
+                            android:paddingHorizontal="7dp"
+                            android:paddingVertical="3dp"
+                            android:text="@string/daikaishi"
+                            android:textColor="@color/white"
+                            android:textSize="10dp" />
+                    </LinearLayout>
+
+                    <com.bitcnew.module.richeditor.RichEditor
+                        android:id="@+id/richEditor_jianjie"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:visibility="gone"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_status2"
+                android:layout_width="175dp"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/border_status_0"
+                android:gravity="center"
+                android:paddingVertical="5dp"
+                android:text="@string/yurezhong"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/jibenxinxi"
+                android:textColor="#ff333333"
+                android:textSize="15dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jindu"
+                    android:textColor="#ff999999"
+                    android:textSize="11dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bencishengyushengouliang"
+                    android:textColor="#ff999999"
+                    android:textSize="11dp"
+                    />
+            </LinearLayout>
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginTop="9dp"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/border_5fce64_3"
+                style="?android:attr/progressBarStyleHorizontal"/>
+            <TextView
+                android:id="@+id/txt_baifenbi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="0%"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                android:gravity="right"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:text="@string/bencikeshengouzongliang"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_bencikeshengouzongliang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"
+                />
+            <TextView
+                android:id="@+id/text_dancishengoufanwei_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/dancishengoufanwei"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                android:visibility="gone"
+                tools:visibility="visible"
+                />
+            <TextView
+                android:id="@+id/text_dancishengoufanwei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"
+                android:visibility="gone"
+                tools:visibility="visible"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/benciyishengou"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_benciyishengou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/bencishengyushengouliang"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_bencishengyushengouliang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"
+                />
+            <TextView
+                android:id="@+id/txt_kaishi_time_tit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/julibencishengoukaishihaisheng"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_kaishi_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"/>
+            <TextView
+                android:id="@+id/txt_jieshu_time_tit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/julibencishengoujieshuhaisheng"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_jieshu_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/shengouzongliang"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_shengouzongliang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/bencikaishishengoushijian"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_start_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/bencijieshushengoushijian"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_end_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/shangshijianyishijian"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_shangshijianyishijian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/shangshijiecangshijian"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_shangshijiecangshijian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/shengoujiage"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_duihuanbili"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/woyishengou"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_woyishengou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="@string/zuixiaoshengouliang"
+                android:textColor="#ff999999"
+                android:textSize="11dp"
+                />
+            <TextView
+                android:id="@+id/txt_zuixiaoshengou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:paddingHorizontal="5dp"
+                android:text="0"
+                android:textColor="#ff333333"
+                android:textSize="13dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="發起成員"
+                android:textColor="@color/c333333"
+                android:textSize="15dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <com.bitcnew.module.richeditor.RichEditor
+                    android:id="@+id/txt_faqichengyuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="項目介紹"
+                android:textColor="@color/c333333"
+                android:textSize="15dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <com.bitcnew.module.richeditor.RichEditor
+                    android:id="@+id/txt_xiangmujieshao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="幣種介紹"
+                android:textColor="@color/c333333"
+                android:textSize="15dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <com.bitcnew.module.richeditor.RichEditor
+                    android:id="@+id/txt_bizhongjieshao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="項目參與條件"
+                android:textColor="@color/c333333"
+                android:textSize="15dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <com.bitcnew.module.richeditor.RichEditor
+                    android:id="@+id/txt_xiangmucanyutiaojian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="風險提示"
+                android:textColor="@color/c333333"
+                android:textSize="15dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <com.bitcnew.module.richeditor.RichEditor
+                    android:id="@+id/txt_fengxiantishi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="申購說明"
+                android:textColor="@color/c333333"
+                android:textSize="15dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp">
+
+                <com.bitcnew.module.richeditor.RichEditor
+                    android:id="@+id/txt_shengoushuoming"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

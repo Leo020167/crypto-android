@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Цветочная плата GLT:</string>
+    <string name="shequzongjianglitfu">Общее вознаграждение сообщества (GLT)</string>
+    <string name="jianglitfu">Стимул (GLT)</string>
+    <string name="fanyongusdt">Комиссия по возвращению (GLT)</string>
+    <string name="xiaohaotoken">Потребление GLT:</string>
+    <string name="token">GLT</string>
+    <string name="zongzichantoken">Общие активы (GLT)</string>
+    <string name="chakanruhehuoqutoken">Посмотрите, как получить GLT</string>
+    <string name="shuliangtoken">Количество (GLT</string>
+    <string name="zhiyashengyi">Defi особая зона</string>
+    <string name="meirilixi">Годовой доход</string>
+    <string name="huode">Получите GLT</string>
+
+</resources>

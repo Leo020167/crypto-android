@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">FREE FLOWS GLT:</string>
+    <string name="shequzongjianglitfu">Total des récompenses communautaires (GLT)</string>
+    <string name="jianglitfu">Incitatif (GLT)</string>
+    <string name="fanyongusdt">Commission de retour (GLT)</string>
+    <string name="xiaohaotoken">Consommation GLT:</string>
+    <string name="token">GLT</string>
+    <string name="zongzichantoken">Actif total (GLT)</string>
+    <string name="chakanruhehuoqutoken">Voir comment obtenir GLT</string>
+    <string name="shuliangtoken">Quantité (GLT</string>
+    <string name="zhiyashengyi">Defi zone spéciale</string>
+    <string name="meirilixi">Revenu annualisé</string>
+    <string name="huode">Se GLT du feu</string>
+
+</resources>

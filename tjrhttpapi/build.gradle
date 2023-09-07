@@ -114,6 +114,18 @@ android {
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
+        gliedt {
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"xjhyf.cn"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.xjhyf.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"yulexing.cn"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.yulexing.cn"'
+            buildConfigField 'String', 'SERVER_ADDRESS', '"thk-hcr.cn"'
+            buildConfigField 'String', 'SOCKET_HOST', '"api.thk-hcr.cn"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
+
+            buildConfigField 'int', 'SOCKET_PORT', '1818'
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
+        }
     }
 
     sourceSets {

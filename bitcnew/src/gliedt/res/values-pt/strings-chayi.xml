@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">GLT de tarifa de flores:</string>
+    <string name="shequzongjianglitfu">Recompensas de la comunidad total (GLT)</string>
+    <string name="jianglitfu">Incentivo (GLT)</string>
+    <string name="fanyongusdt">Comisión de regreso (GLT)</string>
+    <string name="xiaohaotoken">Consumo de GLT:</string>
+    <string name="token">GLT</string>
+    <string name="zongzichantoken">Activos totales (GLT)</string>
+    <string name="chakanruhehuoqutoken">Vea cómo obtener GLT</string>
+    <string name="shuliangtoken">Cantidad (GLT</string>
+    <string name="zhiyashengyi">Defi área especial</string>
+    <string name="meirilixi">Renda anualizada</string>
+    <string name="huode">Obtener GLT</string>
+
+</resources>

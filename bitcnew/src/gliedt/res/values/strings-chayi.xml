@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Flower Fee GLT:</string>
+    <string name="shequzongjianglitfu">Total Community Rewards (GLT)</string>
+    <string name="jianglitfu">Incentive (GLT)</string>
+    <string name="fanyongusdt">Return commission (GLT)</string>
+    <string name="xiaohaotoken">GLT consumption:</string>
+    <string name="token">GLT</string>
+    <string name="zongzichantoken">Total Assets (GLT)</string>
+    <string name="chakanruhehuoqutoken">See how to get GLT</string>
+    <string name="shuliangtoken">Quantity (GLT</string>
+    <string name="zhiyashengyi">Defi special area</string>
+    <string name="meirilixi">Annualized income</string>
+    <string name="huode">Get GLT</string>
+    <string name="moren_quhao">+86</string>
+    <string name="moren_diqu">中国大陆</string>
+</resources>
