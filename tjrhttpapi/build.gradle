@@ -100,10 +100,16 @@ android {
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
         fireglobal {
-            buildConfigField 'String', 'SERVER_ADDRESS', '"tongxuncheng.cn"'
-            buildConfigField 'String', 'SOCKET_HOST', '"api.tongxuncheng.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"tongxuncheng.cn"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.tongxuncheng.cn"'
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"gzmysm.cn"'
 //            buildConfigField 'String', 'SOCKET_HOST', '"api.gzmysm.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"2s6.cn"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.2s6.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"fsbygt88.top"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.fsbygt88.top"'
+            buildConfigField 'String', 'SERVER_ADDRESS', '"xn--11-7w3f170g.cn"'
+            buildConfigField 'String', 'SOCKET_HOST', '"api.xn--11-7w3f170g.cn"'
             buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'

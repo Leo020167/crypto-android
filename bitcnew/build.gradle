@@ -161,8 +161,11 @@ android {
             resValue "string", "product_name", "Fwdetsc"
         }
         fireglobal {
-            applicationId "com.bitcnew.fireglobal"
+//            applicationId "com.bitcnew.fireglobal"
 //            applicationId "com.bitcnew.fireglobal1"
+//            applicationId "com.bitcnew.fireglobal2"
+//            applicationId "com.bitcnew.fireglobal3"
+            applicationId "com.bitcnew.fireglobal4"
             manifestPlaceholders = [
                     UMENG_CHANNEL_VALUE: "FireGlobal",
                     JPUSH_APPKEY : "7482af4d904da7807fea3e15", //JPush上注册的包名对应的appkey.
