@@ -61,8 +61,8 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
 
     @BindView(R.id.tvYueAccount)
     TextView tvYueAccount;
-    @BindView(R.id.tvTokenAccount)
-    TextView tvTokenAccount;
+//    @BindView(R.id.tvTokenAccount)
+//    TextView tvTokenAccount;
     @BindView(R.id.tvGendanAccount)
     TextView tvGendanAccount;
     @BindView(R.id.tvQuanqiuzhishuAccount)
@@ -171,7 +171,7 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
         tjrMinuteTaskPool = new TjrMinuteTaskPool();
 
         tvYueAccount.setOnClickListener(this);
-        tvTokenAccount.setOnClickListener(this);
+//        tvTokenAccount.setOnClickListener(this);
         tvGendanAccount.setOnClickListener(this);
         tvQuanqiuzhishuAccount.setOnClickListener(this);
         tvHeyueAccount.setOnClickListener(this);
@@ -207,66 +207,17 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
     }
 
     private void slide(int pos) {
-        switch (pos) {
-            case 0:
-                tvYueAccount.setSelected(true);
-                tvTokenAccount.setSelected(false);
-                tvGendanAccount.setSelected(false);
-                tvQuanqiuzhishuAccount.setSelected(false);
-                tvHeyueAccount.setSelected(false);
-                tvBibiAccount.setSelected(false);
-                break;
-//            case 1:
-//                tvYueAccount.setSelected(false);
-//                tvTokenAccount.setSelected(true);
-//                tvGendanAccount.setSelected(false);
-//                tvQuanqiuzhishuAccount.setSelected(false);
-//                tvHeyueAccount.setSelected(false);
-//                tvBibiAccount.setSelected(false);
-//                break;
-            case 1:
-                tvYueAccount.setSelected(false);
-                tvTokenAccount.setSelected(false);
-                tvGendanAccount.setSelected(true);
-                tvQuanqiuzhishuAccount.setSelected(false);
-                tvHeyueAccount.setSelected(false);
-                tvBibiAccount.setSelected(false);
-                break;
-            case 2:
-                tvYueAccount.setSelected(false);
-                tvTokenAccount.setSelected(false);
-                tvGendanAccount.setSelected(false);
-                tvQuanqiuzhishuAccount.setSelected(true);
-                tvHeyueAccount.setSelected(false);
-                tvBibiAccount.setSelected(false);
-                break;
-            case 3:
-                tvYueAccount.setSelected(false);
-                tvTokenAccount.setSelected(false);
-                tvGendanAccount.setSelected(false);
-                tvQuanqiuzhishuAccount.setSelected(false);
-                tvHeyueAccount.setSelected(true);
-                tvBibiAccount.setSelected(false);
-                break;
-            case 4:
-                tvYueAccount.setSelected(false);
-                tvTokenAccount.setSelected(false);
-                tvGendanAccount.setSelected(false);
-                tvQuanqiuzhishuAccount.setSelected(false);
-                tvHeyueAccount.setSelected(false);
-                tvBibiAccount.setSelected(true);
-                break;
-            case 5:
-                tvYueAccount.setSelected(false);
-                tvTokenAccount.setSelected(false);
-                tvGendanAccount.setSelected(false);
-                tvQuanqiuzhishuAccount.setSelected(false);
-                tvHeyueAccount.setSelected(false);
-                tvBibiAccount.setSelected(false);
-                break;
-        }
+        tvYueAccount.setSelected(getTagInt(tvYueAccount) == pos);
+//        tvTokenAccount.setSelected(getTagInt(tvTokenAccount) == pos);
+        tvGendanAccount.setSelected(getTagInt(tvGendanAccount) == pos);
+        tvQuanqiuzhishuAccount.setSelected(getTagInt(tvQuanqiuzhishuAccount) == pos);
+        tvHeyueAccount.setSelected(getTagInt(tvHeyueAccount) == pos);
+        tvBibiAccount.setSelected(getTagInt(tvBibiAccount) == pos);
     }
 
+    private int getTagInt(TextView tv) {
+        return Integer.parseInt(tv.getTag().toString());
+    }
 
     @Override
     public void onClick(View v) {
@@ -275,33 +226,33 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
                 PageJumpUtil.pageJump(getActivity(), USDTTradeActivity.class);
                 break;
             case R.id.tvYueAccount:
-                if (vp_content.getCurrentItem() != 0) {
-                    vp_content.setCurrentItem(0);
+                if (vp_content.getCurrentItem() != getTagInt(tvYueAccount)) {
+                    vp_content.setCurrentItem(getTagInt(tvYueAccount));
                 }
                 break;
 //            case R.id.tvTokenAccount:
-//                if (vp_content.getCurrentItem() != 1) {
-//                    vp_content.setCurrentItem(1);
+//                if (vp_content.getCurrentItem() != getTagInt(tvTokenAccount)) {
+//                    vp_content.setCurrentItem(getTagInt(tvTokenAccount));
 //                }
 //                break;
             case R.id.tvGendanAccount:
-                if (vp_content.getCurrentItem() != 1) {
-                    vp_content.setCurrentItem(1);
+                if (vp_content.getCurrentItem() != getTagInt(tvGendanAccount)) {
+                    vp_content.setCurrentItem(getTagInt(tvGendanAccount));
                 }
                 break;
             case R.id.tvQuanqiuzhishuAccount:
-                if (vp_content.getCurrentItem() != 2) {
-                    vp_content.setCurrentItem(2);
+                if (vp_content.getCurrentItem() != getTagInt(tvQuanqiuzhishuAccount)) {
+                    vp_content.setCurrentItem(getTagInt(tvQuanqiuzhishuAccount));
                 }
                 break;
             case R.id.tvHeyueAccount:
-                if (vp_content.getCurrentItem() != 3) {
-                    vp_content.setCurrentItem(3);
+                if (vp_content.getCurrentItem() != getTagInt(tvHeyueAccount)) {
+                    vp_content.setCurrentItem(getTagInt(tvHeyueAccount));
                 }
                 break;
             case R.id.tvBibiAccount:
-                if (vp_content.getCurrentItem() != 4) {
-                    vp_content.setCurrentItem(4);
+                if (vp_content.getCurrentItem() != getTagInt(tvBibiAccount)) {
+                    vp_content.setCurrentItem(getTagInt(tvBibiAccount));
                 }
                 break;
             case R.id.llRechargeCoin:
@@ -359,28 +310,37 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
 
                     UserFollow followDv = resultData.getObject("followDv", UserFollow.class);//跟单dav
 
-                    if (vp_content.getCurrentItem() == 0) {
-                        setBalance(balanceAccount,0);
+                    // 余额账户
+                    if (vp_content.getCurrentItem() == getTagInt(tvYueAccount)) {
+                        setBalance(balanceAccount,getTagInt(tvYueAccount));
                         String s = balanceAccount.openList == null ? "null" : (balanceAccount.openList.size() + "");
                         Log.d("digitalAccount", "digitalAccount.openList11111==" + s);
 //                    } else if (vp_content.getCurrentItem() == 1) {
 //                        setTokenData(tokenAccount, 1, null);
 //                        String s = tokenAccount.openList == null ? "null" : (tokenAccount.openList.size() + "");
 //                        Log.d("digitalAccount", "stockAccount.openList11111==" + s);
-                    } else if (vp_content.getCurrentItem() == 1) {
-                        setDitigalData(followAccount, 1, followDv);
+                    }
+                    // 跟单账户
+                    else if (vp_content.getCurrentItem() == getTagInt(tvGendanAccount)) {
+                        setDitigalData(followAccount, getTagInt(tvGendanAccount), followDv);
                         String s = followAccount.openList == null ? "null" : (followAccount.openList.size() + "");
                         Log.d("digitalAccount", "stockAccount.openList11111==" + s);
-                    } else if (vp_content.getCurrentItem() == 2) {
-                        setDitigalData(stockAccount, 2, null);
+                    }
+                    // 全球指数账户
+                    else if (vp_content.getCurrentItem() == getTagInt(tvQuanqiuzhishuAccount)) {
+                        setDitigalData(stockAccount, getTagInt(tvQuanqiuzhishuAccount), null);
                         String s = stockAccount.openList == null ? "null" : (stockAccount.openList.size() + "");
                         Log.d("digitalAccount", "stockAccount.openList11111==" + s);
-                    } else if (vp_content.getCurrentItem() == 3) {
-                        setDitigalData(digitalAccount, 3, null);
+                    }
+                    // 合约账户
+                    else if (vp_content.getCurrentItem() == getTagInt(tvHeyueAccount)) {
+                        setDitigalData(digitalAccount, getTagInt(tvHeyueAccount), null);
                         String s = digitalAccount.openList == null ? "null" : (digitalAccount.openList.size() + "");
                         Log.d("digitalAccount", "stockAccount.openList11111==" + s);
-                    } else if (vp_content.getCurrentItem() == 4) {
-                        setBiBi(spotAccount,4);
+                    }
+                    // 币币账户
+                    else if (vp_content.getCurrentItem() == getTagInt(tvBibiAccount)) {
+                        setBiBi(spotAccount,getTagInt(tvBibiAccount));
                         String s = spotAccount.openList == null ? "null" : (spotAccount.openList.size() + "");
                         Log.d("digitalAccount", "stockAccount.openList11111==" + s);
                     }
@@ -446,21 +406,40 @@ public class HomeAccountFragment extends UserBaseImmersionBarFragment implements
 
         @Override
         public Fragment getItem(int i) {
-            switch (i) {
-                default:
-                case 0:
-                    return HomeBalanceAccountFragment.newInstance(0);
-//                case 1:
-//                    return HomeTokenAccountFragment.newInstance(1);
-                case 1:
-                    return HomeDigitalAccountFragment.newInstance(2);
-                case 2:
-                    return HomeDigitalAccountFragment.newInstance(3);
-                case 3:
-                    return HomeDigitalAccountFragment.newInstance(4);
-                case 4:
-                    return HomeBibiAccountFragment.newInstance();
+            if (getTagInt(tvYueAccount) == i) {
+                return HomeBalanceAccountFragment.newInstance(0);
             }
+//        if (getTagInt(tvTokenAccount) == i) {
+//            return HomeTokenAccountFragment.newInstance(1);
+//        }
+            if (getTagInt(tvGendanAccount) == i) {
+                return HomeDigitalAccountFragment.newInstance(2);
+            }
+            if (getTagInt(tvQuanqiuzhishuAccount) == i) {
+                return HomeDigitalAccountFragment.newInstance(3);
+            }
+            if (getTagInt(tvHeyueAccount) == i) {
+                return HomeDigitalAccountFragment.newInstance(4);
+            }
+            if (getTagInt(tvBibiAccount) == i) {
+                return HomeBibiAccountFragment.newInstance();
+            }
+            return null;
+//            switch (i) {
+//                default:
+//                case 0:
+//                    return HomeBalanceAccountFragment.newInstance(0);
+////                case 1:
+////                    return HomeTokenAccountFragment.newInstance(1);
+//                case 1:
+//                    return HomeDigitalAccountFragment.newInstance(2);
+//                case 2:
+//                    return HomeDigitalAccountFragment.newInstance(3);
+//                case 3:
+//                    return HomeDigitalAccountFragment.newInstance(4);
+//                case 4:
+//                    return HomeBibiAccountFragment.newInstance();
+//            }
         }
     }
 }

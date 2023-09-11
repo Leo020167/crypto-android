@@ -84,7 +84,7 @@ public class JiaoyijiluActivity extends TJRBaseToolBarSwipeBackActivity implemen
 
     private MyPagerAdapter adapter;
 
-    private String accountType = "follow";//follow跟单交易记录   stock全球指数交易记录   digital合约交易记录    spot币币交易记录
+    private String accountType = com.bitcnew.http.BuildConfig.JIAOYIJILU_MOREN;//follow跟单交易记录   stock全球指数交易记录   digital合约交易记录    spot币币交易记录
     private String title;
     public static void pageJump(Context context, String accountType) {
         Bundle bundle = new Bundle();
@@ -107,31 +107,25 @@ public class JiaoyijiluActivity extends TJRBaseToolBarSwipeBackActivity implemen
         super.onCreate(savedInstanceState);
         ButterKnife.bind(this);
         Bundle bundle = getIntent().getExtras();
-        if (bundle != null) {
-            if (bundle.containsKey(CommonConst.ACCOUNTTYPE)) {
-                accountType = bundle.getString(CommonConst.ACCOUNTTYPE, "");
-                switch (accountType){
-                    case "follow":
-                        title = getResources().getString(R.string.gendanjiaoyijilu);
-                        break;
-                    case "stock":
-                        title = getResources().getString(R.string.quanqiuzhishujiaoyijilu);
-                        break;
-                    case "digital":
-                        title = getResources().getString(R.string.heyuejiaoyijilu);
-                        break;
-                    case "spot":
-                        title = getResources().getString(R.string.bibijiaoyijilu);
-                        break;
-                    default:
-                        title = getResources().getString(R.string.gendanjiaoyijilu);
-                        break;
-                }
-            }else {
+        if (bundle != null && bundle.containsKey(CommonConst.ACCOUNTTYPE)) {
+            accountType = bundle.getString(CommonConst.ACCOUNTTYPE, com.bitcnew.http.BuildConfig.JIAOYIJILU_MOREN);
+        }
+        switch (accountType){
+            case "follow":
                 title = getResources().getString(R.string.gendanjiaoyijilu);
-            }
-        }else {
-            title = getResources().getString(R.string.gendanjiaoyijilu);
+                break;
+            case "stock":
+                title = getResources().getString(R.string.quanqiuzhishujiaoyijilu);
+                break;
+            case "digital":
+                title = getResources().getString(R.string.heyuejiaoyijilu);
+                break;
+            case "spot":
+                title = getResources().getString(R.string.bibijiaoyijilu);
+                break;
+            default:
+                title = "";
+                break;
         }
         txtTitle.setText(title);
         adapter = new MyPagerAdapter(getSupportFragmentManager());

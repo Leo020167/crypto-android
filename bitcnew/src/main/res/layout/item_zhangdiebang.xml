@@ -50,10 +50,11 @@
             android:textColor="@color/c1d3155"
             android:textSize="@dimen/font_size_16"
             android:textStyle="bold"
-            android:layout_marginRight="10dp" />
+            android:layout_marginRight="10dp"
+            android:visibility="gone"/>
+
         <LinearLayout
             android:id="@+id/llSymbol"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@+id/tvXuhao"
@@ -126,10 +127,7 @@
         android:layout_width="0dip"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_marginStart="20dp"
-        android:gravity="left"
-        android:orientation="vertical"
-        android:layout_marginLeft="20dp">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tvPrice"

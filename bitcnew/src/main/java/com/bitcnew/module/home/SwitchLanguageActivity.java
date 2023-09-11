@@ -126,6 +126,8 @@ public class SwitchLanguageActivity extends TJRBaseToolBarSwipeBackActivity {
             iv_es.setVisibility(View.VISIBLE);
         } else if ("pt".equals(lang)) {
             iv_pt.setVisibility(View.VISIBLE);
+        } else if ("en".equals(lang)) {
+            iv_en.setVisibility(View.VISIBLE);
         } else {
             if ("ts".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG)) {
                 iv_zhTw.setVisibility(View.VISIBLE);

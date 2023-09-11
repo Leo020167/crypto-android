@@ -257,7 +257,7 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         homeMarketAdapter.setOnPlayClickListener(new HomeMarketAdapter0.OnPlayClickListener() {
             @Override
             public void onSelClick(int pos, String symbol) {
-                if ("encrypted".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                if ("encrypted".equalsIgnoreCase(BuildConfig.FLAVOR) || "gliedt".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                     MarketActivity2.pageJump(getActivity(), symbol, 1,"spot");
                 } else {
                     MarketActivity.pageJump(getActivity(), symbol, 1, "digital");

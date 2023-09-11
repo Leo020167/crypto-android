@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="45dip"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvYueAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/xml_tab_bottom_line_bg"
+        android:gravity="center"
+        android:minHeight="40dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="@string/yue"
+        android:textColor="@color/xml_usdt_tab_text"
+        android:textSize="@dimen/font_size_14"
+        android:textStyle="bold"
+        android:tag="0" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvTokenAccount"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@drawable/xml_tab_bottom_line_bg"-->
+<!--        android:gravity="center"-->
+<!--        android:paddingLeft="15dip"-->
+<!--        android:paddingRight="15dip"-->
+<!--        android:text="@string/token"-->
+<!--        android:textColor="@color/xml_usdt_tab_text"-->
+<!--        android:textSize="@dimen/font_size_14"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="gone"-->
+<!--        android:tag="1"/>-->
+
+    <TextView
+        android:id="@+id/tvBibiAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/xml_tab_bottom_line_bg"
+        android:gravity="center"
+        android:minHeight="40dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="@string/bibizhanghu"
+        android:textColor="@color/xml_usdt_tab_text"
+        android:textSize="@dimen/font_size_14"
+        android:textStyle="bold"
+        android:tag="1" />
+
+    <TextView
+        android:id="@+id/tvGendanAccount"
+        app:layout_anchor="@+id/app_bar"
+        app:layout_anchorGravity="start|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/xml_tab_bottom_line_bg"
+        android:gravity="center"
+        android:minHeight="40dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="@string/gendanzhanghu"
+        android:textColor="@color/xml_usdt_tab_text"
+        android:textSize="@dimen/font_size_14"
+        android:textStyle="bold"
+        android:tag="2" />
+
+    <TextView
+        android:id="@+id/tvQuanqiuzhishuAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/xml_tab_bottom_line_bg"
+        android:gravity="center"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="@string/quanqiuzhishuzhanghu"
+        android:textColor="@color/xml_usdt_tab_text"
+        android:textSize="@dimen/font_size_14"
+        android:textStyle="bold"
+        android:tag="3" />
+
+    <TextView
+        android:id="@+id/tvHeyueAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/xml_tab_bottom_line_bg"
+        android:gravity="center"
+        android:minHeight="40dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="@string/heyuezhanghu"
+        android:textColor="@color/xml_usdt_tab_text"
+        android:textSize="@dimen/font_size_14"
+        android:textStyle="bold"
+        android:tag="4" />
+
+</LinearLayout>

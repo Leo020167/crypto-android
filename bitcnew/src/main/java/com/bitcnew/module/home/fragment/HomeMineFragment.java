@@ -429,7 +429,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
                 CoinTradeEntrustLeverActivity.pageJump(getActivity(), "stock");
                 break;
             case R.id.llJiaoyijilu://交易记录
-                JiaoyijiluActivity.pageJump(getActivity(), "follow");
+                JiaoyijiluActivity.pageJump(getActivity(), com.bitcnew.http.BuildConfig.JIAOYIJILU_MOREN);
                 break;
             case R.id.llDaili://代理
                 Intent intent2 = new Intent(getActivity(), ShequActivity.class);
