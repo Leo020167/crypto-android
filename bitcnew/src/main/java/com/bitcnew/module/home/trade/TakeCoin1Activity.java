@@ -1,5 +1,7 @@
 package com.bitcnew.module.home.trade;
 
+import static com.bitcnew.http.BuildConfig.COIN_TYPE_NAME;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -374,11 +376,11 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
 
         keyongLabel.setText(getString(R.string.keyongyue_, coinType.getSymbol()));
         dongjieLabel.setText(getString(R.string.dongjiejine_, coinType.getSymbol()));
-        if ("fireglobal".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || BuildConfig.FLAVOR.startsWith("fwdetsc") || "gliedt".equalsIgnoreCase(BuildConfig.FLAVOR)) {
-            shouxufeiLabel.setText(getString(R.string.tibishouxufei, "ATC"));
-        } else {
-            shouxufeiLabel.setText(getString(R.string.tibishouxufei, coinType.getSymbol()));
-        }
+//        if ("fireglobal".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || BuildConfig.FLAVOR.startsWith("fwdetsc") || "gliedt".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+            shouxufeiLabel.setText(getString(R.string.tibishouxufei, COIN_TYPE_NAME));
+//        } else {
+//            shouxufeiLabel.setText(getString(R.string.tibishouxufei, coinType.getSymbol()));
+//        }
         daozhangshuliangLabel.setText(getString(R.string.tibidaozhangshuliang, coinType.getSymbol()));
 
         loadConfig(coinType);

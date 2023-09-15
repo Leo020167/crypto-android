@@ -29,6 +29,7 @@ android {
             buildConfigField 'String', 'SOCKET_HOST', '"api.worldcoinservice.com"'
             buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"BTC"'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
             buildConfigField 'String', 'DEFAULT_LNG', '"en"'
         }
@@ -37,6 +38,7 @@ android {
             buildConfigField 'String', 'SOCKET_HOST', '"api.encryptedex.com"'
             buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"BTC"'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
             buildConfigField 'String', 'DEFAULT_LNG', '"en"'
         }
@@ -49,6 +51,7 @@ android {
             buildConfigField 'String', 'SOCKET_HOST', '"api.2ecj.com"'
             buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"TVC"'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
             buildConfigField 'String', 'DEFAULT_LNG', '"ts"'
         }
@@ -61,6 +64,7 @@ android {
             buildConfigField 'String', 'SOCKET_HOST', '"api.zjxtazf.cn"'
             buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"LCN"'
             buildConfigField 'int', 'SOCKET_PORT', '9779'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
@@ -69,6 +73,7 @@ android {
             buildConfigField 'String', 'SOCKET_HOST', '"116.205.132.220"'
             buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"ATC"'
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
@@ -77,6 +82,7 @@ android {
             buildConfigField 'String', 'SOCKET_HOST', '"api.twtwe.com"'
             buildConfigField 'String', 'SERVER_TYPE', '""'
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"WTS"'
 
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
@@ -86,6 +92,7 @@ android {
             buildConfigField 'String', 'SOCKET_HOST', '"api.doline.cn"'
             buildConfigField 'String', 'SERVER_TYPE', '"1"'
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"WTS"'
 
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
@@ -95,6 +102,7 @@ android {
             buildConfigField 'String', 'SOCKET_HOST', '"api.stu77.cn"'
             buildConfigField 'String', 'SERVER_TYPE', '"2"'
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"WTS"'
 
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
@@ -104,6 +112,7 @@ android {
             buildConfigField 'String', 'SOCKET_HOST', '"api.24xls.cn"'
             buildConfigField 'String', 'SERVER_TYPE', '"3"'
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"WTS"'
 
             buildConfigField 'int', 'SOCKET_PORT', '1818'
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
@@ -122,8 +131,13 @@ android {
             buildConfigField 'String', 'SERVER_ADDRESS', '"itqgqr.cn"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.itqgqr.cn"'
             buildConfigField 'String', 'SERVER_TYPE', '""'
+            // 交易记录默认显示类型
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            // 币名称
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"FGEC"'
+            // 客服端口
             buildConfigField 'int', 'SOCKET_PORT', '1818'
+            // 默认语言
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
         gliedt {
@@ -134,9 +148,13 @@ android {
             buildConfigField 'String', 'SERVER_ADDRESS', '"thk-hcr.cn"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.thk-hcr.cn"'
             buildConfigField 'String', 'SERVER_TYPE', '""'
+            // 交易记录默认显示类型
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
-
+            // 币名称
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"GLT"'
+            // 客服端口
             buildConfigField 'int', 'SOCKET_PORT', '1818'
+            // 默认语言
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
     }
