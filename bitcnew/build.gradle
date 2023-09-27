@@ -178,7 +178,8 @@ android {
         gliedt {
 //            applicationId "com.bitcnew.gliedt1"
 //            applicationId "com.bitcnew.gliedt2"
-            applicationId "com.bitcnew.gliedt3"
+//            applicationId "com.bitcnew.gliedt3"
+            applicationId "com.bitcnew.gliedt4"
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "Gliedt"]
             resValue "string", "app_name", "Gliedt"
             resValue "string", "product_name", "Gliedt"

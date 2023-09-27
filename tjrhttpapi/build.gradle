@@ -145,8 +145,10 @@ android {
 //            buildConfigField 'String', 'SOCKET_HOST', '"api.xjhyf.cn"'
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"yulexing.cn"'
 //            buildConfigField 'String', 'SOCKET_HOST', '"api.yulexing.cn"'
-            buildConfigField 'String', 'SERVER_ADDRESS', '"thk-hcr.cn"'
-            buildConfigField 'String', 'SOCKET_HOST', '"api.thk-hcr.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"thk-hcr.cn"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.thk-hcr.cn"'
+            buildConfigField 'String', 'SERVER_ADDRESS', '"wwhwuy.cn"'
+            buildConfigField 'String', 'SOCKET_HOST', '"api.wwhwuy.cn"'
             buildConfigField 'String', 'SERVER_TYPE', '""'
             // 交易记录默认显示类型
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
