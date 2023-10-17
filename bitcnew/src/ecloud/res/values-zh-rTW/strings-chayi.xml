@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">花費FGEC:</string>
+    <string name="shequzongjianglitfu">社區總獎勵(ECC)</string>
+    <string name="jianglitfu">獎勵（ECC）</string>
+    <string name="fanyongusdt">返傭（ECC）</string>
+    <string name="xiaohaotoken">消耗FGEC:</string>
+    <string name="token">ECC</string>
+    <string name="zongzichantoken">總資產(ECC)</string>
+    <string name="chakanruhehuoqutoken">查看如何獲取FGEC</string>
+    <string name="shuliangtoken">數量(ECC)</string>
+    <string name="zhiyashengyi">Defi專區</string>
+    <string name="meirilixi">年化收益</string>
+    <string name="huode">獲得FGEC</string>
+    <string name="qingshuruyaoqingmaxuantian">請輸入邀請碼</string>
+    <string name="fabimaimai">@string/otcjiaoyi</string>
+
+</resources>

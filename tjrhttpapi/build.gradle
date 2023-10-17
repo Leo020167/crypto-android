@@ -159,6 +159,19 @@ android {
             // 默认语言
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
+        ecloud {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"wwhwuy.cn"'
+            buildConfigField 'String', 'SOCKET_HOST', '"api.wwhwuy.cn"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
+            // 交易记录默认显示类型
+            buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            // 币名称
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"ECC"'
+            // 客服端口
+            buildConfigField 'int', 'SOCKET_PORT', '1818'
+            // 默认语言
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
+        }
     }
 
     sourceSets {

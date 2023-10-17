@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">FREE FLOWS ECC:</string>
+    <string name="shequzongjianglitfu">Total des récompenses communautaires (ECC)</string>
+    <string name="jianglitfu">Incitatif (ECC)</string>
+    <string name="fanyongusdt">Commission de retour (ECC)</string>
+    <string name="xiaohaotoken">Consommation ECC:</string>
+    <string name="token">ECC</string>
+    <string name="zongzichantoken">Actif total (ECC)</string>
+    <string name="chakanruhehuoqutoken">Voir comment obtenir ECC</string>
+    <string name="shuliangtoken">Quantité (ECC</string>
+    <string name="zhiyashengyi">Defi zone spéciale</string>
+    <string name="meirilixi">Revenu annualisé</string>
+    <string name="huode">Se ECC du feu</string>
+
+</resources>

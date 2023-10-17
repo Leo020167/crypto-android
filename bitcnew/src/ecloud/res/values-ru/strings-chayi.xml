@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Цветочная плата ECC:</string>
+    <string name="shequzongjianglitfu">Общее вознаграждение сообщества (ECC)</string>
+    <string name="jianglitfu">Стимул (ECC)</string>
+    <string name="fanyongusdt">Комиссия по возвращению (ECC)</string>
+    <string name="xiaohaotoken">Потребление ECC:</string>
+    <string name="token">ECC</string>
+    <string name="zongzichantoken">Общие активы (ECC)</string>
+    <string name="chakanruhehuoqutoken">Посмотрите, как получить ECC</string>
+    <string name="shuliangtoken">Количество (ECC</string>
+    <string name="zhiyashengyi">Defi особая зона</string>
+    <string name="meirilixi">Годовой доход</string>
+    <string name="huode">Получите ECC</string>
+
+</resources>

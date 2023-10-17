@@ -279,7 +279,7 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
                     daozhangshuliangTv.setText("-");
                 } else {
                     try {
-                        if ("fireglobal".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || BuildConfig.FLAVOR.startsWith("fwdetsc") || "gliedt".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                        if ("fireglobal".equalsIgnoreCase(BuildConfig.FLAVOR) || "ecloud".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || BuildConfig.FLAVOR.startsWith("fwdetsc") || "gliedt".equalsIgnoreCase(BuildConfig.FLAVOR)) {
                             daozhangshuliangTv.setText(new BigDecimal(tibishuliangEt.getText().toString()).toPlainString());
                         } else {
                             daozhangshuliangTv.setText(new BigDecimal(tibishuliangEt.getText().toString()).subtract(new BigDecimal(config.getFee())).toPlainString());

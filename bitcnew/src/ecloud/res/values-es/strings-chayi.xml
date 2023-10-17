@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">ECC de tarifa de flores:</string>
+    <string name="shequzongjianglitfu">Recompensas de la comunidad total (ECC)</string>
+    <string name="jianglitfu">Incentivo (ECC)</string>
+    <string name="fanyongusdt">Comisión de regreso (ECC)</string>
+    <string name="xiaohaotoken">Consumo de ECC:</string>
+    <string name="token">ECC</string>
+    <string name="zongzichantoken">Activos totales (ECC)</string>
+    <string name="chakanruhehuoqutoken">Vea cómo obtener ECC</string>
+    <string name="shuliangtoken">Cantidad (ECC</string>
+    <string name="zhiyashengyi">Defi special area</string>
+    <string name="meirilixi">Ingreso anualizado</string>
+    <string name="huode">Obtener ECC</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">Flower Fee ECC:</string>
+    <string name="shequzongjianglitfu">Total Community Rewards (ECC)</string>
+    <string name="jianglitfu">Incentive (ECC)</string>
+    <string name="fanyongusdt">Return commission (ECC)</string>
+    <string name="xiaohaotoken">ECC consumption:</string>
+    <string name="token">ECC</string>
+    <string name="zongzichantoken">Total Assets (ECC)</string>
+    <string name="chakanruhehuoqutoken">See how to get ECC</string>
+    <string name="shuliangtoken">Quantity (ECC</string>
+    <string name="zhiyashengyi">Defi special area</string>
+    <string name="meirilixi">Annualized income</string>
+    <string name="huode">Get ECC</string>
+    <string name="moren_quhao">+86</string>
+    <string name="moren_diqu">中国大陆</string>
+</resources>

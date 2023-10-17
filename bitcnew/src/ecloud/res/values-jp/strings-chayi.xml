@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="huafeitoken">フラワー料金FGEC：</string>
+    <string name="shequzongjianglitfu">合計コミュニティ報酬（ECC）</string>
+    <string name="jianglitfu">インセンティブ（ECC）</string>
+    <string name="fanyongusdt">帰還委員会（ECC）</string>
+    <string name="xiaohaotoken">FGEC消費：</string>
+    <string name="token">ECC</string>
+    <string name="zongzichantoken">総資産（ECC）</string>
+    <string name="chakanruhehuoqutoken">FGECの入手方法をご覧ください</string>
+    <string name="shuliangtoken">数量（ECC</string>
+    <string name="zhiyashengyi">Defi 特別エリア</string>
+    <string name="meirilixi">年収</string>
+    <string name="huode">FGECを入手してください</string>
+
+</resources>
