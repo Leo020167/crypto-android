@@ -194,6 +194,13 @@ android {
             resValue "string", "app_name", "ECloud"
             resValue "string", "product_name", "ECloud"
         }
+        stdelit {
+            applicationId "com.stdelit.ayxlt"
+//            applicationId "com.stdelit.cwoiu"
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "Stdelit"]
+            resValue "string", "app_name", "Stdelit"
+            resValue "string", "product_name", "Stdelit"
+        }
     }
     lintOptions {
         checkReleaseBuilds false

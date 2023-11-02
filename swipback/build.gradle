@@ -40,6 +40,8 @@ android {
         }
         ecloud {
         }
+        stdelit {
+        }
     }
 //    compileOptions {
 //        sourceCompatibility JavaVersion.VERSION_1_7

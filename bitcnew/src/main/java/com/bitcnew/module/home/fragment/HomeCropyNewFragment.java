@@ -28,6 +28,7 @@ import com.bitcnew.BuildConfig;
 import com.bitcnew.MainApplication;
 import com.bitcnew.bean.TransformersBean;
 import com.bitcnew.common.constant.CommonConst;
+import com.bitcnew.config.Configs;
 import com.bitcnew.http.common.ConfigTjrInfo;
 import com.bitcnew.http.model.Components;
 import com.bitcnew.http.model.Placard;
@@ -194,7 +195,7 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         ll_xinbishengou.setOnClickListener(this);
         ll_otc.setOnClickListener(this);
         ll_zaixiankefu.setOnClickListener(this);
-        if (BuildConfig.FLAVOR.startsWith("fwdetsc") || "gliedt".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+        if (Configs.inHideZaiXianKeFuGliedt(BuildConfig.FLAVOR)) {
             ll_zaixiankefu.setVisibility(View.GONE);
         }
         ll_zhiyashengyi.setOnClickListener(this);
@@ -257,7 +258,7 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
         homeMarketAdapter.setOnPlayClickListener(new HomeMarketAdapter0.OnPlayClickListener() {
             @Override
             public void onSelClick(int pos, String symbol) {
-                if ("encrypted".equalsIgnoreCase(BuildConfig.FLAVOR) || "gliedt".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                if (Configs.inGliedt(BuildConfig.FLAVOR)) {
                     MarketActivity2.pageJump(getActivity(), symbol, 1,"spot");
                 } else {
                     MarketActivity.pageJump(getActivity(), symbol, 1, "digital");

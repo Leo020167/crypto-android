@@ -40,6 +40,8 @@ android {
         }
         ecloud {
         }
+        stdelit {
+        }
     }
 
     repositories {

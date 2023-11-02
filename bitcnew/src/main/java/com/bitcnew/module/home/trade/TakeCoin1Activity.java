@@ -23,6 +23,7 @@ import com.bitcnew.common.base.TJRBaseToolBarSwipeBackActivity;
 import com.bitcnew.common.entity.ResultData;
 import com.bitcnew.common.text.MoneyTextWatcher;
 import com.bitcnew.common.util.UIHandler;
+import com.bitcnew.config.Configs;
 import com.bitcnew.http.tjrcpt.VHttpServiceManager;
 import com.bitcnew.http.util.CommonUtil;
 import com.bitcnew.module.dialog.TwoBtnDialog;
@@ -279,7 +280,7 @@ public class TakeCoin1Activity extends TJRBaseToolBarSwipeBackActivity {
                     daozhangshuliangTv.setText("-");
                 } else {
                     try {
-                        if ("fireglobal".equalsIgnoreCase(BuildConfig.FLAVOR) || "ecloud".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || BuildConfig.FLAVOR.startsWith("fwdetsc") || "gliedt".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                        if (Configs.inNoFeeFlavors(BuildConfig.FLAVOR)) {
                             daozhangshuliangTv.setText(new BigDecimal(tibishuliangEt.getText().toString()).toPlainString());
                         } else {
                             daozhangshuliangTv.setText(new BigDecimal(tibishuliangEt.getText().toString()).subtract(new BigDecimal(config.getFee())).toPlainString());

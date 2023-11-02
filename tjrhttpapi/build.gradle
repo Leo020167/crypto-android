@@ -172,6 +172,21 @@ android {
             // 默认语言
             buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
         }
+        stdelit {
+            buildConfigField 'String', 'SERVER_ADDRESS', '"xn--11-7w3f170g.cn"'
+            buildConfigField 'String', 'SOCKET_HOST', '"api.xn--11-7w3f170g.cn"'
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"yusidianzi.xyz"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.yusidianzi.xyz"'
+            buildConfigField 'String', 'SERVER_TYPE', '""'
+            // 交易记录默认显示类型
+            buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'
+            // 币名称
+            buildConfigField 'String', 'COIN_TYPE_NAME', '"TCC"'
+            // 客服端口
+            buildConfigField 'int', 'SOCKET_PORT', '1818'
+            // 默认语言
+            buildConfigField 'String', 'DEFAULT_LNG', '"cn"'
+        }
     }
 
     sourceSets {

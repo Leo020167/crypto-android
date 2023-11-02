@@ -24,6 +24,7 @@ import com.bitcnew.R;
 import com.bitcnew.common.constant.CommonConst;
 import com.bitcnew.common.entity.ResultData;
 import com.bitcnew.common.web.CommonWebViewActivity;
+import com.bitcnew.config.Configs;
 import com.bitcnew.data.sharedpreferences.NormalShareData;
 import com.bitcnew.data.sharedpreferences.PrivateChatSharedPreferences;
 import com.bitcnew.http.model.User;
@@ -234,7 +235,7 @@ public class HomeMineFragment extends UserBaseImmersionBarFragment implements Vi
         llFollowHis.setOnClickListener(this);
         ivGoHome.setOnClickListener(this);
         llFeedback.setOnClickListener(this);
-        if (BuildConfig.FLAVOR.startsWith("fwdetsc") || "gliedt".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+        if (Configs.inGliedt(BuildConfig.FLAVOR)) {
             llFeedback.setVisibility(View.GONE);
             llFeedback_line.setVisibility(View.GONE);
         }

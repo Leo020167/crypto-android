@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.bitcnew.BuildConfig;
 import com.bitcnew.R;
 import com.bitcnew.common.base.adapter.BaseLoadMoreImageLoaderRecycleAdapter;
+import com.bitcnew.config.Configs;
 import com.bitcnew.http.widget.dialog.ui.TjrBaseDialog;
 import com.bitcnew.module.home.MaichuDetailActivity;
 import com.bitcnew.module.home.OnItemClick;
@@ -137,11 +138,7 @@ public class TradeLeverHistoryBibiAdapter extends BaseLoadMoreImageLoaderRecycle
                     tvBuySell2.setText("");
                 }
 
-                if ("tradingview".equalsIgnoreCase(BuildConfig.FLAVOR)) {
-                    tvProfitLabel.setText(R.string.yingli);
-                    tvProfit.setText(data.profit);
-                    tvProfit.setTextColor(StockChartUtil.getRateTextColor(Double.parseDouble(data.profit)));
-                } else if ("leadercoin".equalsIgnoreCase(BuildConfig.FLAVOR) || "fireglobal".equalsIgnoreCase(BuildConfig.FLAVOR) || "ecloud".equalsIgnoreCase(BuildConfig.FLAVOR) || "aicoin".equalsIgnoreCase(BuildConfig.FLAVOR) || BuildConfig.FLAVOR.startsWith("fwdetsc") || "gliedt".equalsIgnoreCase(BuildConfig.FLAVOR)) {
+                if (Configs.inShowProfitFlavors(BuildConfig.FLAVOR)) {
                     tvProfitLabel.setText(R.string.yingli);
                     tvProfit.setText(data.profit);
                     tvProfit.setTextColor(StockChartUtil.getRateTextColor(Double.parseDouble(data.profit)));
