@@ -175,8 +175,16 @@ android {
         stdelit {
             buildConfigField 'String', 'SERVER_ADDRESS', '"xn--11-7w3f170g.cn"'
             buildConfigField 'String', 'SOCKET_HOST', '"api.xn--11-7w3f170g.cn"'
+//
 //            buildConfigField 'String', 'SERVER_ADDRESS', '"yusidianzi.xyz"'
 //            buildConfigField 'String', 'SOCKET_HOST', '"api.yusidianzi.xyz"'
+//
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"029apple.cn"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.029apple.cn"'
+//
+//            buildConfigField 'String', 'SERVER_ADDRESS', '"adamfly.xyz"'
+//            buildConfigField 'String', 'SOCKET_HOST', '"api.adamfly.xyz"'
+
             buildConfigField 'String', 'SERVER_TYPE', '""'
             // 交易记录默认显示类型
             buildConfigField 'String', 'JIAOYIJILU_MOREN', '"spot"'

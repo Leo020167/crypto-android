@@ -11,6 +11,7 @@ import com.bitcnew.common.base.TJRBaseToolBarSwipeBackActivity;
 import com.bitcnew.common.web.CommonWebViewActivity;
 import com.bitcnew.util.PageJumpUtil;
 import com.bitcnew.R;
+import com.bitcnew.util.SPUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -147,7 +148,14 @@ public class AboutActivity extends TJRBaseToolBarSwipeBackActivity {
 ////                    PageJumpUtil.pageJump(AuthenticationActivity.this, VideoFullScreenActivity.class, bundle2);
 //                    break;
                 case R.id.llProtoco:
-                    CommonWebViewActivity.pageJumpCommonWebViewActivity(AboutActivity.this, CommonConst.ABOUTCROPYME);
+                    String lang = (String) SPUtils.get(getContext(),"myLanguage1","");
+                    if ("zh-cn".equalsIgnoreCase(lang)) {
+                        CommonWebViewActivity.pageJumpCommonWebViewActivity(AboutActivity.this, CommonConst.ABOUTCROPYME_CN);
+                    } else if ("zh-tw".equalsIgnoreCase(lang)) {
+                        CommonWebViewActivity.pageJumpCommonWebViewActivity(AboutActivity.this, CommonConst.ABOUTCROPYME_TW);
+                    } else {
+                        CommonWebViewActivity.pageJumpCommonWebViewActivity(AboutActivity.this, CommonConst.ABOUTCROPYME_OTHER);
+                    }
                     break;
                 default:
                     break;

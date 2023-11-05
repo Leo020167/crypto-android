@@ -197,6 +197,8 @@ android {
         stdelit {
             applicationId "com.stdelit.ayxlt"
 //            applicationId "com.stdelit.cwoiu"
+//            applicationId "com.stdelit.xciuy"
+//            applicationId "com.stdelit.c783x"
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "Stdelit"]
             resValue "string", "app_name", "Stdelit"
             resValue "string", "product_name", "Stdelit"

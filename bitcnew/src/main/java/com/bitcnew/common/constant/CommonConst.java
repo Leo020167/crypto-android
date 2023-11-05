@@ -168,12 +168,18 @@ public final class CommonConst {
     public static final String PICLIST = "picList";
     public static final String HOLDAMOUNT = "holdAmount";
 
-    public static final String PRIVACY_PROTOCOL = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=54";//隐私条款
-    public static final String USER_PROTOCOL = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=48";//用户协议
+    public static final String PRIVACY_PROTOCOL_CN = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=540";//隐私条款-简体
+    public static final String PRIVACY_PROTOCOL_TW = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=550";//隐私条款-繁体
+    public static final String PRIVACY_PROTOCOL_OTHER = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=560";//隐私条款-其它
+    public static final String USER_PROTOCOL_CN = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=480";//用户协议-简体
+    public static final String USER_PROTOCOL_TW = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=490";//用户协议-繁体
+    public static final String USER_PROTOCOL_OTHER = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=500";//用户协议-其它
     public static final String PASSGEDETAIL_26 = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=49";//交易服务协议
     public static final String PASSGEDETAIL_28 = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=51";//交易规则说明
     public static final String PASSGEDETAIL_222 = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=222";//查看如何获取token
-    public static final String ABOUTCROPYME = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=60";//关于我们
+    public static final String ABOUTCROPYME_CN = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=600";//关于我们-简体
+    public static final String ABOUTCROPYME_TW = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=610";//关于我们-繁体
+    public static final String ABOUTCROPYME_OTHER = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=620";//关于我们-其它语言
     public static final String FENGXIANSHU = "/procoin/article/#/passgeDetail?article_id=66";//风险提示书
     public static final String DAILIGUIZE = TjrBaseApi.mApiCropymeBaseUri+"/procoin/article/#/passgeDetail?article_id=33";//代理规则
 

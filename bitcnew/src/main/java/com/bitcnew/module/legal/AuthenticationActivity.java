@@ -26,10 +26,12 @@ import com.bitcnew.common.web.CommonWebViewActivity;
 import com.bitcnew.http.tjrcpt.VHttpServiceManager;
 import com.bitcnew.http.widget.dialog.ui.TjrBaseDialog;
 import com.bitcnew.module.legal.entity.OtcCertification;
+import com.bitcnew.module.login.SignUpActivity;
 import com.bitcnew.module.myhome.IdentityAuthenActivity;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.MyCallBack;
 import com.bitcnew.util.PageJumpUtil;
+import com.bitcnew.util.SPUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -152,7 +154,15 @@ public class AuthenticationActivity extends TJRBaseToolBarSwipeBackActivity impl
         clickText.setSpan(new ClickableSpan() {
             @Override
             public void onClick(View view) {
-                CommonWebViewActivity.pageJumpCommonWebViewActivity(AuthenticationActivity.this, CommonConst.USER_PROTOCOL);
+                // 用户协议
+                String lang = (String) SPUtils.get(getContext(),"myLanguage1","");
+                if ("zh-cn".equalsIgnoreCase(lang)) {
+                    CommonWebViewActivity.pageJumpCommonWebViewActivity(AuthenticationActivity.this, CommonConst.USER_PROTOCOL_CN);
+                } else if ("zh-tw".equalsIgnoreCase(lang)) {
+                    CommonWebViewActivity.pageJumpCommonWebViewActivity(AuthenticationActivity.this, CommonConst.USER_PROTOCOL_TW);
+                } else {
+                    CommonWebViewActivity.pageJumpCommonWebViewActivity(AuthenticationActivity.this, CommonConst.USER_PROTOCOL_OTHER);
+                }
             }
 
             @Override

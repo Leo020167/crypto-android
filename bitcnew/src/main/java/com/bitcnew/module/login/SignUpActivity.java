@@ -25,9 +25,11 @@ import com.bitcnew.BuildConfig;
 import com.bitcnew.common.base.TJRBaseToolBarSwipeBackActivity;
 import com.bitcnew.common.constant.CommonConst;
 import com.bitcnew.common.web.CommonWebViewActivity;
+import com.bitcnew.module.myhome.AboutActivity;
 import com.bitcnew.util.CommonUtil;
 import com.bitcnew.util.PageJumpUtil;
 import com.bitcnew.R;
+import com.bitcnew.util.SPUtils;
 
 /**
  * Created by zhengmj on 18-10-10.
@@ -104,7 +106,15 @@ public class SignUpActivity extends TJRBaseToolBarSwipeBackActivity implements T
         clickText.setSpan(new ClickableSpan() {
             @Override
             public void onClick(View view) {
-                CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.USER_PROTOCOL);
+                // 用户协议
+                String lang = (String) SPUtils.get(getContext(),"myLanguage1","");
+                if ("zh-cn".equalsIgnoreCase(lang)) {
+                    CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.USER_PROTOCOL_CN);
+                } else if ("zh-tw".equalsIgnoreCase(lang)) {
+                    CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.USER_PROTOCOL_TW);
+                } else {
+                    CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.USER_PROTOCOL_OTHER);
+                }
             }
 
             @Override
@@ -120,7 +130,15 @@ public class SignUpActivity extends TJRBaseToolBarSwipeBackActivity implements T
         clickText2.setSpan(new ClickableSpan() {
             @Override
             public void onClick(View view) {
-                CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.PRIVACY_PROTOCOL);
+                // 隐私协议
+                String lang = (String) SPUtils.get(getContext(),"myLanguage1","");
+                if ("zh-cn".equalsIgnoreCase(lang)) {
+                    CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.PRIVACY_PROTOCOL_CN);
+                } else if ("zh-tw".equalsIgnoreCase(lang)) {
+                    CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.PRIVACY_PROTOCOL_TW);
+                } else {
+                    CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.PRIVACY_PROTOCOL_OTHER);
+                }
             }
 
             @Override
