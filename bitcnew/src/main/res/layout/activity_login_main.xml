@@ -189,5 +189,6 @@
         android:gravity="center"
         android:text="@string/wangjilezhaohuimima"
         android:textColor="#232323"
-        android:textSize="@dimen/font_size_14" />
+        android:textSize="@dimen/font_size_14"
+        android:visibility="gone" />
 </LinearLayout>

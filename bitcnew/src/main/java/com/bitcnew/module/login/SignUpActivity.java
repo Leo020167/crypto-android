@@ -24,12 +24,20 @@ import android.widget.TextView;
 import com.bitcnew.BuildConfig;
 import com.bitcnew.common.base.TJRBaseToolBarSwipeBackActivity;
 import com.bitcnew.common.constant.CommonConst;
+import com.bitcnew.common.entity.ResultData;
 import com.bitcnew.common.web.CommonWebViewActivity;
+import com.bitcnew.http.common.TJrLoginTypeEnum;
+import com.bitcnew.http.tjrcpt.VHttpServiceManager;
+import com.bitcnew.http.util.MD5;
 import com.bitcnew.module.myhome.AboutActivity;
 import com.bitcnew.util.CommonUtil;
+import com.bitcnew.util.MyCallBack;
 import com.bitcnew.util.PageJumpUtil;
 import com.bitcnew.R;
 import com.bitcnew.util.SPUtils;
+
+import okhttp3.ResponseBody;
+import retrofit2.Call;
 
 /**
  * Created by zhengmj on 18-10-10.
@@ -108,9 +116,9 @@ public class SignUpActivity extends TJRBaseToolBarSwipeBackActivity implements T
             public void onClick(View view) {
                 // 用户协议
                 String lang = (String) SPUtils.get(getContext(),"myLanguage1","");
-                if ("zh-cn".equalsIgnoreCase(lang)) {
+                if ("zh-cn".equalsIgnoreCase(lang) || (lang.length() == 0 && "cn".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG))) {
                     CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.USER_PROTOCOL_CN);
-                } else if ("zh-tw".equalsIgnoreCase(lang)) {
+                } else if ("zh-tw".equalsIgnoreCase(lang) || (lang.length() == 0 && "ts".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG))) {
                     CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.USER_PROTOCOL_TW);
                 } else {
                     CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.USER_PROTOCOL_OTHER);
@@ -132,9 +140,9 @@ public class SignUpActivity extends TJRBaseToolBarSwipeBackActivity implements T
             public void onClick(View view) {
                 // 隐私协议
                 String lang = (String) SPUtils.get(getContext(),"myLanguage1","");
-                if ("zh-cn".equalsIgnoreCase(lang)) {
+                if ("zh-cn".equalsIgnoreCase(lang) || (lang.length() == 0 && "cn".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG))) {
                     CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.PRIVACY_PROTOCOL_CN);
-                } else if ("zh-tw".equalsIgnoreCase(lang)) {
+                } else if ("zh-tw".equalsIgnoreCase(lang) || (lang.length() == 0 && "ts".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG))) {
                     CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.PRIVACY_PROTOCOL_TW);
                 } else {
                     CommonWebViewActivity.pageJumpCommonWebViewActivity(SignUpActivity.this, CommonConst.PRIVACY_PROTOCOL_OTHER);
@@ -313,7 +321,11 @@ public class SignUpActivity extends TJRBaseToolBarSwipeBackActivity implements T
                 bundle.putString(CUserPass, et_confirmPassword.getText().toString());
                 bundle.putString(CountryCode, tvCountryCode.getText().toString());
                 bundle.putString(INVITECODE, inviteCode);
-                PageJumpUtil.pageJumpResult(SignUpActivity.this, VerifyActivity.class, bundle);
+//                PageJumpUtil.pageJumpResult(SignUpActivity.this, VerifyActivity.class, bundle);
+                String pass = et_passowrd.getText().toString();
+                String cpass = et_confirmPassword.getText().toString();
+                String countryCode = tvCountryCode.getText().toString();
+                startRegiste(phone, pass, cpass, countryCode, inviteCode);
                 break;
             case R.id.ivShowOrHidePsw:
                 if (ivShowOrHidePsw.isSelected()) {
@@ -341,6 +353,44 @@ public class SignUpActivity extends TJRBaseToolBarSwipeBackActivity implements T
                 break;
         }
 
+    }
+
+    private Call<ResponseBody> registeCall;
+
+    public void startRegiste(String phone, String pass, String cpass, String countryCode, String inviteCode) {
+        CommonUtil.cancelCall(registeCall);
+        if (phone != null && !phone.isEmpty()) {
+            registeCall = VHttpServiceManager
+                    .getInstance()
+                    .getVService()
+                    .doRegistePhone(phone, countryCode, "",
+                            MD5.getMessageDigest(pass).toUpperCase(),
+                            MD5.getMessageDigest(cpass).toUpperCase(),
+                            inviteCode, 1, "", 0, "", "", "", 0);
+        }
+
+        registeCall.enqueue(new MyCallBack(getContext()) {
+            @Override
+            protected void callBack(ResultData resultData) {
+                if (resultData.isSuccess()) {
+                    CommonUtil.showmessage(resultData.msg, getContext());
+                    Bundle bundle = new Bundle();
+                    String userAccount;
+                    if (phone != null && !phone.isEmpty()) {
+                        userAccount = phone;
+                    } else {
+                        return;
+                    }
+
+                    bundle.putString(CommonConst.USERACCOUNT, userAccount);
+                    bundle.putString(CommonConst.PASSWORD, pass);// password
+                    bundle.putString(CommonConst.LOGIN_TYPE, TJrLoginTypeEnum.mb.type());
+                    bundle.putBoolean(CommonConst.IS_LOGIN, true);
+                    bundle.putString(CommonConst.MYINFO, getRawResult());
+                    PageJumpUtil.pageJump(getContext(), LoginActivity.class, bundle);
+                }
+            }
+        });
     }
 
 

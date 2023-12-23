@@ -149,9 +149,9 @@ public class AboutActivity extends TJRBaseToolBarSwipeBackActivity {
 //                    break;
                 case R.id.llProtoco:
                     String lang = (String) SPUtils.get(getContext(),"myLanguage1","");
-                    if ("zh-cn".equalsIgnoreCase(lang)) {
+                    if ("zh-cn".equalsIgnoreCase(lang) || (lang.length() == 0 && "cn".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG))) {
                         CommonWebViewActivity.pageJumpCommonWebViewActivity(AboutActivity.this, CommonConst.ABOUTCROPYME_CN);
-                    } else if ("zh-tw".equalsIgnoreCase(lang)) {
+                    } else if ("zh-tw".equalsIgnoreCase(lang) || (lang.length() == 0 && "ts".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG))) {
                         CommonWebViewActivity.pageJumpCommonWebViewActivity(AboutActivity.this, CommonConst.ABOUTCROPYME_TW);
                     } else {
                         CommonWebViewActivity.pageJumpCommonWebViewActivity(AboutActivity.this, CommonConst.ABOUTCROPYME_OTHER);

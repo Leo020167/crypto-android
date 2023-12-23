@@ -88,11 +88,13 @@
                 <View
                     style="@style/dividerLine_horizontal"
                     android:layout_marginLeft="15dip"
-                    android:layout_marginRight="15dip" />
+                    android:layout_marginRight="15dip"
+                    android:visibility="gone" />
 
                 <LinearLayout
                     android:id="@+id/llAccountBindViewing"
-                    style="@style/inSideSettingItem">
+                    style="@style/inSideSettingItem"
+                    android:visibility="gone" >
 
                     <!--<ImageView-->
                     <!--style="@style/perval_home_ic_style"-->
@@ -110,11 +112,13 @@
                 <View
                     style="@style/dividerLine_horizontal"
                     android:layout_marginLeft="15dip"
-                    android:layout_marginRight="15dip" />
+                    android:layout_marginRight="15dip"
+                    android:visibility="gone" />
 
                 <LinearLayout
                     android:id="@+id/llPayPassword"
-                    style="@style/inSideSettingItem">
+                    style="@style/inSideSettingItem"
+                    android:visibility="gone">
 
                     <TextView
                         style="@style/settingTextStyle"

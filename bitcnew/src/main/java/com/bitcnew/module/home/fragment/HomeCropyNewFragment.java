@@ -232,6 +232,8 @@ public class HomeCropyNewFragment extends UserBaseImmersionBarFragment implement
             langIv.setImageResource(R.drawable.icon_lang_sp);
         } else if ("pt".equals(lang)) {
             langIv.setImageResource(R.drawable.icon_lang_pt);
+        } else if ("en".equals(lang)) {
+            langIv.setImageResource(R.drawable.icon_lang_uk);
         } else {
             if ("ts".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG)) {
                 langIv.setImageResource(R.drawable.icon_lang_cn_hk);

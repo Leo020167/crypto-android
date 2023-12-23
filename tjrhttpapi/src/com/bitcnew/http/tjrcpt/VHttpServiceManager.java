@@ -587,6 +587,8 @@ public class VHttpServiceManager {
                     lang = "es";
                 } else if ("pt".equals(lang)) {//葡萄牙语
                     lang = "pt";
+                } else if ("en".equals(lang)) {// 英语
+                    lang = "en";
                 } else {
                     lang = BuildConfig.DEFAULT_LNG;
                 }

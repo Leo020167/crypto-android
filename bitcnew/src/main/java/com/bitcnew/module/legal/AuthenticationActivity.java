@@ -156,9 +156,9 @@ public class AuthenticationActivity extends TJRBaseToolBarSwipeBackActivity impl
             public void onClick(View view) {
                 // 用户协议
                 String lang = (String) SPUtils.get(getContext(),"myLanguage1","");
-                if ("zh-cn".equalsIgnoreCase(lang)) {
+                if ("zh-cn".equalsIgnoreCase(lang) || (lang.length() == 0 && "cn".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG))) {
                     CommonWebViewActivity.pageJumpCommonWebViewActivity(AuthenticationActivity.this, CommonConst.USER_PROTOCOL_CN);
-                } else if ("zh-tw".equalsIgnoreCase(lang)) {
+                } else if ("zh-tw".equalsIgnoreCase(lang) || (lang.length() == 0 && "ts".equalsIgnoreCase(com.bitcnew.http.BuildConfig.DEFAULT_LNG))) {
                     CommonWebViewActivity.pageJumpCommonWebViewActivity(AuthenticationActivity.this, CommonConst.USER_PROTOCOL_TW);
                 } else {
                     CommonWebViewActivity.pageJumpCommonWebViewActivity(AuthenticationActivity.this, CommonConst.USER_PROTOCOL_OTHER);
